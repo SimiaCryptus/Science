@@ -25,7 +25,7 @@ These papers span multiple disciplines—from quantum mechanics to neuroscience,
 - **[Topological Analysis of Knots via Distance Matrices](knots.md)** - Novel approach to knot classification using persistent homology and machine learning
 
 ### Interdisciplinary
-- **[Agentic Particle Swarms](agentic_particle_swarms.md)** - Self-organizing systems with emergent intelligence through local interactions and environmental feedback
+- **[Perverse Incentives and Institutional Capture](game_theory_ethics.md)** - Game-theoretic analysis of systemic misalignment in healthcare, family law, education, and other institutions
 
 ## 🔬 About This Collection
 
@@ -54,6 +54,7 @@ Several recurring themes emerge across the collection:
 3. **Quantum-Classical Bridges**: Exploring the boundaries between quantum and classical regimes
 4. **Computational Universality**: Finding computational principles in unexpected places
 5. **Collective Intelligence**: How simple agents create complex, intelligent behaviors
+6. **Systemic Analysis**: Understanding how institutional structures and incentives shape outcomes
 
 ## 💡 Use Cases
 
@@ -92,10 +93,7 @@ Found an error? Have an extension? Want to implement one of these ideas? Please 
 
 ## 📖 Reading Guide
 
-- **For Physicists**: Start with the quantum graph substrates or geometric optimization papers
-- **For Computer Scientists**: The metacognitive orchestration and volumetric density trees offer novel algorithms
-- **For Engineers**: The orbital dynamics platform provides practical applications
-- **For the Curious**: The consciousness paper offers accessible entry points to deep ideas
+- **For Social Scientists**: The institutional capture paper applies game theory to real-world systems
 
 ## 🤝 Contributing
 
