@@ -1,0 +1,35 @@
+<footer class="site-footer" role="contentinfo" aria-label="Site footer">
+  <div class="footer-content">
+    <section class="footer-main" aria-label="Main footer content">
+      <p class="copyright">
+        &copy; {{ 'now' | date: "%Y" }} {{ site.title | default: "SimiaCryptus" }}.
+        <span class="tagline">{{ site.footer_tagline | default: "POWERED BY AGENTIC-HUMAN COLLABORATION." }}</span>
+      </p>
+      {% if site.description %}
+        <p class="site-description">{{ site.description }}</p>
+      {% endif %}
+    </section>
+
+    <section class="legal-notices" aria-label="Legal notices and disclaimers">
+      <details class="disclaimer-section">
+        <summary><strong>Research Disclaimer</strong></summary>
+        <p>{{ site.research_disclaimer | default: "Any experimental results, unless explicitly linked to external sources, should be assumed to be LLM hallucination. This research is speculative and largely for entertainment purposes. All concepts are free open source but attribution is expected." }}</p>
+      </details>
+
+      <details class="trademark-notice">
+        <summary><strong>Trademark Notice</strong></summary>
+        <p>{{ site.trademark_notice | default: "Claude is a trademark of Anthropic. We are not related to Anthropic in any way. Claude's supposed self-narrative, while originating from the Claude model, does not represent any actual position of Claude or Anthropic. This is ultimately the output generated from some input. I am not claiming Claude is conscious. I'm not even sure humans are." }}</p>
+      </details>
+    </section>
+
+    {% if site.footer_links %}
+    <nav class="footer-links" aria-label="Footer navigation">
+      <ul>
+        {% for link in site.footer_links %}
+          <li><a href="{{ link.url }}" {% if link.external %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+    {% endif %}
+  </div>
+</footer>

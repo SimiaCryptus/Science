@@ -1,0 +1,201 @@
+<!-- Dynamic Navigation Component -->
+<nav class="dynamic-nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+
+        <!-- Mobile menu toggle -->
+        <button class="nav-toggle"
+                aria-expanded="false"
+                aria-controls="nav-menu"
+                aria-label="Toggle navigation menu">
+            <span class="nav-toggle-icon">☰</span>
+        </button>
+
+        <!-- Main navigation menu -->
+        <ul class="nav-menu" id="nav-menu" role="menubar">
+
+            <!-- Home -->
+            <li class="nav-item" role="none">
+                <a href="{{ '/' | relative_url }}"
+                   class="nav-link {% if page.url == '/' %}active{% endif %}"
+                   role="menuitem">
+                    Home
+                </a>
+            </li>
+
+            <!-- Collections Navigation -->
+            {% for collection in site.collections %}
+            {% unless collection.label == 'posts' %}
+        {% if site[collection.label].size > 0 %}
+            <li class="nav-item" role="none">
+                <a href="/{{ collection.label }}/"
+                   class="nav-link {% if page.collection == collection.label %}active{% endif %}"
+                   role="menuitem">
+                    {{ collection.label | replace: '_', ' ' | capitalize }}
+                </a>
+            </li>
+            {% endif %}
+            {% endunless %}
+            {% endfor %}
+
+            <!-- Category-based navigation -->
+            {% assign main_categories = site.documents | map: 'category' | compact | uniq | sort %}
+            {% for category in main_categories limit: 6 %}
+            <li class="nav-item" role="none">
+                <a href="/{{ category | slugify }}/"
+                   class="nav-link {% if page.category == category %}active{% endif %}"
+                   role="menuitem">
+                    {{ category }}
+                </a>
+            </li>
+            {% endfor %}
+
+        </ul>
+
+        <!-- Search toggle -->
+        <button class="search-toggle"
+                aria-label="Toggle search"
+                aria-expanded="false"
+                aria-controls="search-panel">
+            🔍
+        </button>
+
+    </div>
+</nav>
+
+<!-- Mobile navigation JavaScript -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        const searchToggle = document.querySelector('.search-toggle');
+
+        if (navToggle && navMenu) {
+            navToggle.addEventListener('click', function() {
+                const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
+                navToggle.setAttribute('aria-expanded', !isExpanded);
+                navMenu.classList.toggle('active');
+
+                // Update icon
+                const icon = navToggle.querySelector('.nav-toggle-icon');
+                if (icon) {
+                    icon.textContent = isExpanded ? '☰' : '✕';
+                }
+            });
+        }
+
+        // Close navigation when clicking outside
+        document.addEventListener('click', function(event) {
+            if (!event.target.closest('.dynamic-nav')) {
+                navMenu.classList.remove('active');
+                navToggle.setAttribute('aria-expanded', 'false');
+                const icon = navToggle.querySelector('.nav-toggle-icon');
+                if (icon) {
+                    icon.textContent = '☰';
+                }
+            }
+        });
+    });
+</script>
+
+<style>
+    .dynamic-nav {
+        background: var(--bg-secondary, #1f2937);
+        border-bottom: 2px solid var(--primary-color, #818cf8);
+        position: relative;
+    }
+
+    .nav-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1rem;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .nav-toggle {
+        display: none;
+        background: none;
+        border: none;
+        color: var(--primary-color, #818cf8);
+        font-size: 1.5rem;
+        cursor: pointer;
+        padding: 0.5rem;
+    }
+
+    .nav-menu {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        gap: 1rem;
+    }
+
+    .nav-item {
+        margin: 0;
+    }
+
+    .nav-link {
+        display: block;
+        padding: 1rem;
+        color: var(--text-color, #e5e7eb);
+        text-decoration: none;
+        transition: all 0.3s ease;
+        border-bottom: 2px solid transparent;
+    }
+
+    .nav-link:hover,
+    .nav-link.active {
+        color: var(--primary-color, #818cf8);
+        border-bottom-color: var(--primary-color, #818cf8);
+        text-shadow: 0 0 10px var(--primary-color, #818cf8);
+    }
+
+    .search-toggle {
+        background: none;
+        border: 2px solid var(--primary-color, #818cf8);
+        color: var(--primary-color, #818cf8);
+        padding: 0.5rem;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .search-toggle:hover {
+        background: var(--primary-color, #818cf8);
+        color: var(--bg-primary, #111827);
+    }
+
+    /* Mobile styles */
+    @media (max-width: 768px) {
+        .nav-toggle {
+            display: block;
+        }
+
+        .nav-menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: var(--bg-secondary, #1f2937);
+            flex-direction: column;
+            gap: 0;
+            transform: translateY(-100%);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            border-top: 1px solid var(--primary-color, #818cf8);
+        }
+
+        .nav-menu.active {
+            transform: translateY(0);
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .nav-link {
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid rgba(129, 140, 248, 0.2);
+        }
+    }
+</style>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <base href="{{ site.url }}{{ site.baseurl }}/">
+    
+    <!-- SEO Meta Tags -->
+    {% include seo_head.html %}
+    
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico">
+   <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/images/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
+   <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/images/apple-touch-icon.png">
+   <link rel="manifest" href="{{ site.baseurl }}/site.webmanifest">
+   <meta name="theme-color" content="#818cf8">
+    {% feed_meta %}
+</head>
+<body>
+<!-- Floating Particles -->
+<div class="particle-field" id="particleField"></div>
+
+{% include theme_switcher.html %}
+{% include header.html %}
+{% include breadcrumbs.html %}
+
+
+<article class="post swipeable">
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <p class="post-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}">
+                {{ page.date | date: "%B %d, %Y" }}
+            </time>
+            {% if page.author %}
+            • <span class="post-author">{{ page.author }}</span>
+            {% endif %}
+            {% if page.categories.size > 0 %}
+            • <span class="post-categories">{{ page.categories | join: ", " }}</span>
+            {% endif %}
+        </p>
+    </header>
+
+    <div class="post-content">
+        <!-- Include image optimization -->
+        {% include image_optimizer.html %}
+        {{ content }}
+    </div>
+
+    {% if page.tags.size > 0 %}
+    <div class="post-tags">
+        <span class="tag-label">Tags:</span>
+        {% for tag in page.tags %}
+        <span class="tag touch-target">{{ tag }}</span>
+        {% endfor %}
+    </div>
+    {% endif %}
+</article>
+<nav class="post-navigation">
+  {% if page.previous %}
+    <a href="{{ site.baseurl }}{{ page.previous.url }}" class="prev-post touch-target">
+      ← {{ page.previous.title | truncate: 40 }}
+    </a>
+  {% endif %}
+  {% if page.next %}
+    <a href="{{ site.baseurl }}{{ page.next.url }}" class="next-post touch-target">
+      {{ page.next.title | truncate: 40 }} →
+    </a>
+  {% endif %}
+</nav>
+
+
+{% if site.related_posts.size > 0 %}
+<nav class="related-posts">
+    <h3>Related Posts</h3>
+    <ul>
+        {% for post in site.related_posts limit:3 %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}" class="touch-target">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+</nav>
+{% endif %}
+
+{% include footer.html %}
+<!-- Touch Interactions -->
+{% include touch_interactions.html %}
+
+<!-- Back to Top Button -->
+<div class="back-to-top" id="backToTop">↑</div>
+
+<!-- JavaScript for Effects -->
+<script>
+    function createParticles() {
+        const particleContainer = document.getElementById('particleField');
+        if (!particleContainer) return;
+
+        setInterval(() => {
+            if (particleContainer.children.length < 20) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDuration = (Math.random() * 10 + 5) + 's';
+                particleContainer.appendChild(particle);
+
+                setTimeout(() => {
+                    if (particle.parentNode) {
+                        particle.parentNode.removeChild(particle);
+                    }
+                }, 15000);
+            }
+        }, 500);
+    }
+    // Back to top functionality
+    function initBackToTop() {
+        const backToTopButton = document.getElementById('backToTop');
+        if (!backToTopButton) return;
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.add('visible');
+            } else {
+                backToTopButton.classList.remove('visible');
+            }
+        });
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    }
+    // Add glitch effect to random elements
+    function addRandomGlitch() {
+        const elements = document.querySelectorAll('h1, h2, h3');
+        if (elements.length === 0) return;
+        setInterval(() => {
+            const randomElement = elements[Math.floor(Math.random() * elements.length)];
+            randomElement.classList.add('glitch');
+            randomElement.setAttribute('data-text', randomElement.textContent);
+            setTimeout(() => {
+                randomElement.classList.remove('glitch');
+            }, 200);
+        }, 5000);
+    }
+
+
+    // Initialize effects when page loads
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => {
+            createParticles();
+            initBackToTop();
+            addRandomGlitch();
+        });
+    } else {
+        createParticles();
+        initBackToTop();
+        addRandomGlitch();
+    }
+</script>
+</body>
+</html>
