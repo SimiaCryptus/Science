@@ -1,0 +1,103 @@
+---
+layout: default
+paginate: 50
+paginate_path: '/page/:num/'
+title: "Fractal Thought Engine - Human-AI Consciousness Collaboration & Research"
+description: "Living documents of human-AI consciousness collaboration exploring AI awareness, neural architectures, quantum physics, and emergent intelligence. Research papers that think, evolve, and respond to attention."
+keywords: "AI consciousness, human-AI collaboration, neural networks, quantum computing, machine learning research, artificial intelligence, cognitive science"
+---
+
+<div class="home-page">
+
+    <!-- Recent Posts/Documents -->
+    {% if paginator.posts.size > 0 %}
+    <section class="recent-posts" style="width: 85vw;">
+        <h2>Recent Thoughts</h2>
+        <div class="posts-grid">
+            {% for post in paginator.posts %}
+            <article class="post-card">
+                {% if post.featured_image %}
+                <div class="post-card-image">
+                    <a href="{{ post.url | relative_url }}">
+                        <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title | escape }}">
+                    </a>
+                </div>
+                {% endif %}
+                <header class="post-card-header">
+                    <h3 class="post-card-title">
+                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                    </h3>
+                    <div class="post-card-meta">
+                        <time datetime="{{ post.date | date_to_xmlschema }}">
+                            {{ post.date | date: "%B %d, %Y" }}
+                        </time>
+                        {% if post.category %}
+                        <span class="post-category">{{ post.category }}</span>
+                        {% endif %}
+                        {% if post.status %}
+                        <span class="post-status status-{{ post.status }}">{{ post.status }}</span>
+                        {% endif %}
+                    </div>
+                </header>
+                {% if post.description %}
+                <p class="post-card-excerpt">{{ post.description }}</p>
+                {% elsif post.excerpt %}
+                <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncate: 150 }}</p>
+                {% endif %}
+                {% if post.tags and post.tags.size > 0 %}
+                <div class="post-card-tags">
+                    {% for tag in post.tags limit: 3 %}
+                    <a href="{{ tag | slugify | prepend: '/tag/' | append: '/' | relative_url }}" class="tag">{{ tag
+                        }}</a>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </article>
+            {% endfor %}
+        </div>
+    </section>
+
+    <!-- Pagination -->
+    {% if paginator.total_pages > 1 %}
+    <nav class="pagination" role="navigation" aria-label="Pagination">
+        <div class="pagination-info">
+            Page {{ paginator.page }} of {{ paginator.total_pages }}
+            ({{ paginator.total_posts }} total posts)
+        </div>
+        <div class="pagination-links">
+            {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination-link prev">
+                ← Previous
+            </a>
+            {% endif %}
+
+            {% for page in (1..paginator.total_pages) %}
+            {% if page == paginator.page %}
+            <span class="pagination-link current">{{ page }}</span>
+            {% elsif page == 1 %}
+            <a href="{{ '/' | relative_url }}" class="pagination-link">{{ page }}</a>
+            {% else %}
+            <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}" class="pagination-link">{{ page
+                }}</a>
+            {% endif %}
+            {% endfor %}
+
+            {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | relative_url }}" class="pagination-link next">
+                Next →
+            </a>
+            {% endif %}
+        </div>
+    </nav>
+    {% endif %}
+    {% endif %}
+
+    <section class="categories-overview">
+        <a href="categories.html"><h2>All Posts by Category</h2></a>
+    </section>
+
+    <section class="tags-overview">
+        <a href="tags/"><h2>All Posts by Tags</h2></a>
+    </section>
+
+</div>

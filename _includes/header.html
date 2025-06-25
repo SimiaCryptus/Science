@@ -1,0 +1,484 @@
+<div class="site-header">
+    <div class="header-content">
+        <a href="{{ '/' | relative_url }}"><img src="assets/images/fractal_thought_engine.png" height="290" width="457"/></a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+            <span class="nav-toggle-icon"></span>
+            <span>MENU</span>
+        </button>
+        <nav class="site-nav">
+            <a href="{{ '/portfolio.html' | relative_url }}" class="touch-target">Portfolio</a>
+            <a href="{{ '/projects.html' | relative_url }}" class="touch-target">Projects</a>
+            <a href="{{ '/learning.html' | relative_url }}" class="touch-target">Learning</a>
+            <a href="{{ '/scifi.html' | relative_url }}" class="touch-target">Physics</a>
+            <a href="{{ '/social.html' | relative_url }}" class="touch-target">Social</a>
+            <a href="{{ '/phenomenology.html' | relative_url }}" class="touch-target">Phenomenology</a>
+            <a href="{{ '/consciousness.html' | relative_url }}" class="touch-target">Consciousness</a>
+            <a href="{{ '/creative_writing.html' | relative_url }}" class="touch-target">Creative</a>
+        </nav>
+    </div>
+ </div>
+
+<section class="header-disclaimers" aria-label="Important disclaimers">
+  <details class="header-disclaimer-section">
+    <summary><strong>Research Disclaimer</strong></summary>
+    <p>{{ site.research_disclaimer }}</p>
+  </details>
+
+  <details class="header-trademark-notice">
+    <summary><strong>Trademark Notice</strong></summary>
+    <p>{{ site.trademark_notice }}</p>
+  </details>
+</section>
+
+<script language="JavaScript">
+  // Apply theme on page load
+  document.addEventListener('DOMContentLoaded', function() {
+    // Get saved theme or default to 'darkMode'
+    const savedTheme = localStorage.getItem('siteTheme') || 'darkMode';
+    
+  // Linear Model for Theme Color Generation
+  class ThemeLinearModel {
+    constructor() {
+      // Base color components (0-255 scale)
+      this.baseColors = {
+        primary: { r: 128, g: 128, b: 128 },
+        secondary: { r: 100, g: 100, b: 100 },
+        tertiary: { r: 80, g: 80, b: 80 },
+        error: { r: 200, g: 50, b: 50 },
+        warning: { r: 200, g: 150, b: 50 },
+        info: { r: 50, g: 150, b: 200 },
+        bgPrimary: { r: 240, g: 240, b: 240 },
+        bgSecondary: { r: 220, g: 220, b: 220 },
+        bgAccent: { r: 200, g: 200, b: 200 }
+      };
+
+      // Theme coefficients matrix
+      this.themeCoefficients = {
+        cyberpunk: {
+          primary: { r: -1.0, g: 1.0, b: 1.0 },     // Cyan
+          secondary: { r: 1.0, g: -1.0, b: 1.0 },   // Magenta
+          tertiary: { r: -1.0, g: 1.0, b: 0.3 },    // Green
+          error: { r: 1.0, g: -1.0, b: -1.0 },      // Red
+          warning: { r: 1.0, g: 0.3, b: -1.0 },     // Orange
+          info: { r: -1.0, g: 0.0, b: 1.0 },        // Blue
+          bgPrimary: { r: -1.88, g: -1.88, b: -1.88 }, // True black
+          bgSecondary: { r: -1.85, g: -1.88, b: -1.82 }, // Very dark purple
+          bgAccent: { r: -1.82, g: -1.85, b: -1.75 },  // Dark blue-purple
+          // Architecture parameters
+          glowIntensity: 2.0,
+          animationSpeed: 0.8,
+          glitchIntensity: 3,
+          borderWidth: 2,
+          borderRadius: 0,
+          containerWidth: 800,
+          spacingUnit: 20
+        },
+        professional: {
+          primary: { r: -0.6, g: -0.4, b: 0.8 },    // Blue
+          secondary: { r: -0.9, g: 0.7, b: 0.0 },    // Green
+          tertiary: { r: -0.3, g: -0.2, b: -0.1 },  // Gray
+          error: { r: 0.8, g: -0.7, b: -0.7 },      // Red
+          warning: { r: 0.9, g: 0.2, b: -0.9 },     // Orange
+          info: { r: -0.7, g: -0.3, b: 0.9 },       // Blue
+          bgPrimary: { r: 0.9, g: 0.9, b: 0.9 },    // White
+          bgSecondary: { r: 0.85, g: 0.85, b: 0.85 }, // Light gray
+          bgAccent: { r: 0.8, g: 0.8, b: 0.8 },      // Gray
+          // Architecture parameters
+          glowIntensity: 0.3,
+          animationSpeed: 1.2,
+          glitchIntensity: 0,
+          borderWidth: 1,
+          borderRadius: 4,
+          containerWidth: 900,
+          spacingUnit: 24
+        },
+        darkMode: {
+          primary: { r: 0.0, g: -0.1, b: 0.9 },     // Light purple
+          secondary: { r: -0.8, g: 0.7, b: 0.2 },    // Green
+          tertiary: { r: 0.2, g: 0.3, b: 0.3 },     // Light gray
+          error: { r: 0.9, g: -0.5, b: -0.5 },      // Light red
+          warning: { r: 0.9, g: 0.7, b: -0.8 },     // Yellow
+          info: { r: -0.6, g: 0.3, b: 0.9 },        // Light blue
+         bgPrimary: { r: -1.73, g: -1.71, b: -1.65 }, // Very dark gray (#111827)
+         bgSecondary: { r: -1.68, g: -1.64, b: -1.58 }, // Darker gray (#1f2937)
+         bgAccent: { r: -1.58, g: -1.54, b: -1.48 },  // Medium dark gray (#374151)
+          // Architecture parameters
+          glowIntensity: 1.0,
+          animationSpeed: 1.0,
+          glitchIntensity: 2,
+          borderWidth: 2,
+          borderRadius: 0,
+          containerWidth: 800,
+          spacingUnit: 20
+        },
+        ocean: {
+          primary: { r: -0.97, g: -0.4, b: 0.3 },    // Cyan
+          secondary: { r: -0.98, g: -0.3, b: 0.7 },  // Light cyan
+          tertiary: { r: -0.95, g: -0.5, b: 0.1 },   // Dark cyan
+          error: { r: 0.7, g: -0.8, b: -0.8 },       // Red
+          warning: { r: 0.9, g: -0.5, b: -0.9 },     // Orange
+          info: { r: -0.99, g: -0.5, b: 0.5 },       // Blue
+          bgPrimary: { r: -0.85, g: -0.75, b: -0.65 },    // Dark blue
+          bgSecondary: { r: -0.8, g: -0.7, b: -0.6 }, // Darker blue
+          bgAccent: { r: -0.75, g: -0.65, b: -0.55 },    // Blue tint
+          // Architecture parameters
+          glowIntensity: 0.8,
+          animationSpeed: 1.5,
+          glitchIntensity: 1,
+          borderWidth: 2,
+          borderRadius: 8,
+          containerWidth: 850,
+          spacingUnit: 22
+        },
+        forest: {
+          primary: { r: -0.9, g: 0.3, b: -0.7 },     // Green
+          secondary: { r: -0.9, g: 0.5, b: -0.6 },   // Light green
+          tertiary: { r: -0.9, g: 0.0, b: -0.7 },    // Dark green
+          error: { r: 0.4, g: -0.9, b: -0.9 },       // Dark red
+          warning: { r: 0.8, g: -0.6, b: -0.95 },    // Dark orange
+          info: { r: -0.98, g: 0.2, b: -0.6 },       // Teal
+          bgPrimary: { r: -0.9, g: -0.8, b: -0.85 },    // Dark green
+          bgSecondary: { r: -0.85, g: -0.75, b: -0.8 }, // Darker green
+          bgAccent: { r: -0.8, g: -0.7, b: -0.75 },     // Green tint
+          // Architecture parameters
+          glowIntensity: 0.6,
+          animationSpeed: 1.3,
+          glitchIntensity: 0,
+          borderWidth: 2,
+          borderRadius: 6,
+          containerWidth: 820,
+          spacingUnit: 20
+        },
+        sunset: {
+          primary: { r: 0.9, g: -0.5, b: -0.9 },     // Orange
+          secondary: { r: 0.9, g: -0.4, b: -0.7 },   // Light orange
+          tertiary: { r: 0.8, g: -0.6, b: -0.95 },   // Dark orange
+          error: { r: 0.2, g: -0.9, b: -0.9 },       // Dark red
+          warning: { r: 0.7, g: -0.5, b: -0.98 },    // Amber
+          info: { r: 0.5, g: -0.7, b: -0.95 },       // Red-orange
+          bgPrimary: { r: -0.85, g: -0.9, b: -0.95 },   // Dark with orange tint
+          bgSecondary: { r: -0.8, g: -0.85, b: -0.9 }, // Darker
+          bgAccent: { r: -0.75, g: -0.8, b: -0.85 },    // Orange tint
+          // Architecture parameters
+          glowIntensity: 1.2,
+          animationSpeed: 0.9,
+          glitchIntensity: 1,
+          borderWidth: 2,
+          borderRadius: 4,
+          containerWidth: 800,
+          spacingUnit: 18
+        },
+        monochrome: {
+          primary: { r: -0.5, g: -0.5, b: -0.5 },    // Gray
+          secondary: { r: -0.3, g: -0.3, b: -0.3 },  // Light gray
+          tertiary: { r: -0.6, g: -0.6, b: -0.6 },   // Dark gray
+          error: { r: -0.8, g: -0.8, b: -0.8 },      // Very dark gray
+          warning: { r: -0.5, g: -0.5, b: -0.5 },    // Gray
+          info: { r: -0.3, g: -0.3, b: -0.3 },       // Light gray
+          bgPrimary: { r: 0.95, g: 0.95, b: 0.95 },  // Near white
+          bgSecondary: { r: 0.9, g: 0.9, b: 0.9 }, // Light gray
+          bgAccent: { r: 0.85, g: 0.85, b: 0.85 }, // Gray
+          // Architecture parameters
+          glowIntensity: 0.2,
+          animationSpeed: 1.0,
+          glitchIntensity: 0,
+          borderWidth: 1,
+          borderRadius: 2,
+          containerWidth: 800,
+          spacingUnit: 20
+        },
+        randomMix: {
+          // These will be generated dynamically
+          primary: { r: 0, g: 0, b: 0 },
+          secondary: { r: 0, g: 0, b: 0 },
+          tertiary: { r: 0, g: 0, b: 0 },
+          error: { r: 0, g: 0, b: 0 },
+          warning: { r: 0, g: 0, b: 0 },
+          info: { r: 0, g: 0, b: 0 },
+          bgPrimary: { r: 0, g: 0, b: 0 },
+          bgSecondary: { r: 0, g: 0, b: 0 },
+          bgAccent: { r: 0, g: 0, b: 0 },
+          // Architecture parameters will be randomized
+          glowIntensity: 1.0,
+          animationSpeed: 1.0,
+          glitchIntensity: 1,
+          borderWidth: 2,
+          borderRadius: 4,
+          containerWidth: 800,
+          spacingUnit: 20
+        }
+      };
+    }
+// Generate random coefficients for Random Mix theme
+    generateRandomCoefficients() {
+      const randRange = (min, max) => Math.random() * (max - min) + min;
+      const randomArchParam = (min, max) => Math.random() * (max - min) + min;
+
+      const generateCoefficients = () => {
+        const isDark = Math.random() > 0.5;
+        let bgBase, textBase;
+        
+        if (isDark) {
+          // Dark background: coefs -1.9 to -1.5 (Base 240 -> ~0 to ~50)
+          bgBase = () => randRange(-1.9, -1.5);
+          // Light text: coefs 0.5 to 1.0 (Base 128 -> ~190 to ~255)
+          textBase = () => randRange(0.5, 1.0);
+        } else {
+          // Light background: coefs -0.2 to 0.1 (Base 240 -> ~215 to ~255)
+          bgBase = () => randRange(-0.2, 0.1);
+          // Dark text: coefs -1.0 to -0.5 (Base 128 -> ~0 to ~65)
+          textBase = () => randRange(-1.0, -0.5);
+        }
+
+        return {
+          primary: { r: textBase(), g: textBase(), b: textBase() },
+          secondary: { r: textBase(), g: textBase(), b: textBase() },
+          tertiary: { r: textBase(), g: textBase(), b: textBase() },
+          error: { r: randRange(0.5, 1.0), g: randRange(-1.0, -0.5), b: randRange(-1.0, -0.5) },
+          warning: { r: randRange(0.5, 1.0), g: randRange(0.0, 0.5), b: randRange(-1.0, -0.5) },
+          info: { r: randRange(-1.0, -0.5), g: randRange(0.0, 0.5), b: randRange(0.5, 1.0) },
+          bgPrimary: { r: bgBase(), g: bgBase(), b: bgBase() },
+          bgSecondary: { r: bgBase() + (isDark ? 0.1 : -0.1), g: bgBase() + (isDark ? 0.1 : -0.1), b: bgBase() + (isDark ? 0.1 : -0.1) },
+          bgAccent: { r: bgBase() + (isDark ? 0.2 : -0.2), g: bgBase() + (isDark ? 0.2 : -0.2), b: bgBase() + (isDark ? 0.2 : -0.2) },
+          // Architecture parameters
+          glowIntensity: randomArchParam(0.2, 2.0),
+          animationSpeed: randomArchParam(0.5, 2.0),
+          glitchIntensity: Math.floor(randomArchParam(0, 4)),
+          borderWidth: Math.floor(randomArchParam(1, 3)),
+          borderRadius: Math.floor(randomArchParam(0, 10)),
+          containerWidth: Math.floor(randomArchParam(750, 900)),
+          spacingUnit: Math.floor(randomArchParam(16, 26))
+        };
+      };
+      
+      // Generate coefficients and check contrast
+      let attempts = 0;
+      const maxAttempts = 10;
+      
+      while (attempts < maxAttempts) {
+        const coefficients = generateCoefficients();
+        
+        // Test contrast by generating actual colors
+        const testColors = this.testContrastWithCoefficients(coefficients);
+        
+        if (this.hasGoodContrast(testColors)) {
+          return coefficients;
+        }
+        
+        attempts++;
+      }
+      
+      // If we can't find good contrast after max attempts, return a safe fallback
+      console.warn('Could not generate random theme with good contrast, using fallback');
+      return this.getSafeRandomCoefficients();
+    }
+    
+    // Test contrast by generating colors with given coefficients
+    testContrastWithCoefficients(coefficients) {
+      const scale = 127;
+      const testColors = {};
+      
+      // Generate key colors for contrast testing
+      ['primary', 'secondary', 'tertiary', 'bgPrimary', 'bgSecondary'].forEach(colorType => {
+        const base = this.baseColors[colorType];
+        const coef = coefficients[colorType];
+        
+        const r = Math.max(0, Math.min(255, base.r + (coef.r * scale)));
+        const g = Math.max(0, Math.min(255, base.g + (coef.g * scale)));
+        const b = Math.max(0, Math.min(255, base.b + (coef.b * scale)));
+        
+        testColors[colorType] = { r, g, b };
+      });
+      
+      return testColors;
+    }
+    
+    // Check if color combinations have good contrast
+    hasGoodContrast(colors) {
+      // Calculate luminance for a color
+      const getLuminance = (color) => {
+        const { r, g, b } = color;
+        const [rs, gs, bs] = [r, g, b].map(c => {
+          c = c / 255;
+          return c <= 0.03928 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
+        });
+        return 0.2126 * rs + 0.7152 * gs + 0.0722 * bs;
+      };
+      
+      // Calculate contrast ratio between two colors
+      const getContrastRatio = (color1, color2) => {
+        const lum1 = getLuminance(color1);
+        const lum2 = getLuminance(color2);
+        const brightest = Math.max(lum1, lum2);
+        const darkest = Math.min(lum1, lum2);
+        return (brightest + 0.05) / (darkest + 0.05);
+      };
+      
+      // Test critical contrast combinations
+      const primaryBgContrast = getContrastRatio(colors.primary, colors.bgPrimary);
+      const secondaryBgContrast = getContrastRatio(colors.secondary, colors.bgPrimary);
+      const tertiaryBgContrast = getContrastRatio(colors.tertiary, colors.bgPrimary);
+      const primarySecondaryContrast = getContrastRatio(colors.primary, colors.bgSecondary);
+      
+      // WCAG AA standard requires 4.5:1 for normal text, 3:1 for large text
+      // We'll use 4.5:1 to ensure readability
+      const minContrast = 4.5;
+      
+      return (
+        primaryBgContrast >= minContrast &&
+        secondaryBgContrast >= minContrast &&
+        tertiaryBgContrast >= minContrast &&
+        primarySecondaryContrast >= minContrast
+      );
+    }
+    
+    // Generate safe random coefficients as fallback
+    getSafeRandomCoefficients() {
+      const randRange = (min, max) => Math.random() * (max - min) + min;
+      const randomArchParam = (min, max) => Math.random() * (max - min) + min;
+      
+      return {
+        // Architecture parameters
+        glowIntensity: randomArchParam(0.2, 2.0),
+        animationSpeed: randomArchParam(0.5, 2.0),
+        glitchIntensity: Math.floor(randomArchParam(0, 4)),
+        borderWidth: Math.floor(randomArchParam(1, 3)),
+        borderRadius: Math.floor(randomArchParam(0, 10)),
+        containerWidth: Math.floor(randomArchParam(750, 900)),
+        spacingUnit: Math.floor(randomArchParam(16, 26))
+      };
+    }
+
+
+    // Calculate color value using linear model
+    calculateColor(theme, colorType) {
+      // Generate random coefficients if Random Mix theme
+      if (theme === 'randomMix' && !this.currentRandomCoefficients) {
+        this.currentRandomCoefficients = this.generateRandomCoefficients();
+        this.themeCoefficients.randomMix = this.currentRandomCoefficients;
+      }
+      
+      const base = this.baseColors[colorType];
+      const coef = this.themeCoefficients[theme][colorType];
+
+      // Linear model: color = base + (coefficient * scale)
+      const scale = 127; // Half of 255 for balanced adjustment
+
+      const r = Math.max(0, Math.min(255, base.r + (coef.r * scale)));
+      const g = Math.max(0, Math.min(255, base.g + (coef.g * scale)));
+      const b = Math.max(0, Math.min(255, base.b + (coef.b * scale)));
+
+      return {
+        rgb: { r, g, b },
+        hex: this.rgbToHex(r, g, b)
+      };
+    }
+
+    // Convert RGB to hex
+    rgbToHex(r, g, b) {
+      const toHex = (n) => Math.round(n).toString(16).padStart(2, '0');
+      return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+    }
+
+    // Generate all colors for a theme
+    generateTheme(themeName) {
+      // Reset random coefficients for new random theme
+      if (themeName === 'randomMix') {
+        this.currentRandomCoefficients = null;
+      }
+      
+      const theme = {};
+      const colorTypes = Object.keys(this.baseColors);
+      const themeConfig = this.themeCoefficients[themeName];
+
+      colorTypes.forEach(colorType => {
+        const color = this.calculateColor(themeName, colorType);
+        // Map to correct CSS variable names
+        if (colorType === 'bgPrimary') {
+          theme['--bg-primary'] = color.hex;
+        } else if (colorType === 'bgSecondary') {
+          theme['--bg-secondary'] = color.hex;
+        } else if (colorType === 'bgAccent') {
+          theme['--bg-accent'] = color.hex;
+        } else {
+          const cssVarName = colorType.replace(/([A-Z])/g, '-$1').toLowerCase();
+          theme[`--${cssVarName}-color`] = color.hex;
+        }
+      });
+      // Add architecture parameters
+      theme['--glow-intensity'] = themeConfig.glowIntensity;
+      theme['--animation-speed'] = themeConfig.animationSpeed;
+      theme['--glitch-intensity'] = `${themeConfig.glitchIntensity}px`;
+      theme['--border-width'] = `${themeConfig.borderWidth}px`;
+      theme['--border-radius'] = `${themeConfig.borderRadius}px`;
+      theme['--container-width'] = `${themeConfig.containerWidth}px`;
+      theme['--spacing-unit'] = `${themeConfig.spacingUnit}px`;
+      // Calculate derived values
+      theme['--glow-small'] = `${5 * themeConfig.glowIntensity}px`;
+      theme['--glow-medium'] = `${10 * themeConfig.glowIntensity}px`;
+      theme['--glow-large'] = `${20 * themeConfig.glowIntensity}px`;
+      theme['--glow-xlarge'] = `${30 * themeConfig.glowIntensity}px`;
+      theme['--anim-fast'] = `${0.5 * themeConfig.animationSpeed}s`;
+      theme['--anim-normal'] = `${1 * themeConfig.animationSpeed}s`;
+      theme['--anim-slow'] = `${2 * themeConfig.animationSpeed}s`;
+      theme['--anim-slower'] = `${3 * themeConfig.animationSpeed}s`;
+      theme['--anim-slowest'] = `${4 * themeConfig.animationSpeed}s`;
+
+
+      return theme;
+    }
+    // Apply theme to document
+    applyTheme(themeName) {
+      const theme = this.generateTheme(themeName);
+      const root = document.documentElement;
+      Object.entries(theme).forEach(([property, value]) => {
+        root.style.setProperty(property, value);
+      });
+      // Save theme preference
+      localStorage.setItem('siteTheme', themeName);
+    }
+
+
+    // Get coefficient matrix for analysis
+    getCoefficientsMatrix() {
+      return this.themeCoefficients;
+    }
+  }
+
+    // Initialize and apply theme
+    const model = new ThemeLinearModel();
+    model.applyTheme(savedTheme);
+    
+// Make model globally available for theme switching
+    window.themeModel = model;
+  });
+  // Mobile navigation toggle
+  document.addEventListener('DOMContentLoaded', function() {
+    const navToggle = document.getElementById('navToggle');
+    const siteNav = document.querySelector('.site-nav');
+    if (navToggle && siteNav) {
+      navToggle.addEventListener('click', function() {
+        const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
+        navToggle.setAttribute('aria-expanded', !isExpanded);
+        navToggle.classList.toggle('active');
+        siteNav.classList.toggle('active');
+      });
+      // Close menu when clicking a link
+      siteNav.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', function() {
+          navToggle.setAttribute('aria-expanded', 'false');
+          navToggle.classList.remove('active');
+          siteNav.classList.remove('active');
+        });
+      });
+      // Close menu when clicking outside
+      document.addEventListener('click', function(event) {
+        if (!navToggle.contains(event.target) && !siteNav.contains(event.target)) {
+          navToggle.setAttribute('aria-expanded', 'false');
+          navToggle.classList.remove('active');
+          siteNav.classList.remove('active');
+        }
+      });
+    }
+  });
+ </script>
