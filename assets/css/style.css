@@ -533,16 +533,29 @@ pre code {
 }
 .matrix-column {
   position: absolute;
-  top: -100%;
   color: #00ff41;
   font-family: 'Share Tech Mono', monospace;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.2;
   text-shadow: 0 0 5px #00ff41;
+  opacity: 0.8;
   animation: matrix-fall linear infinite;
 }
 @keyframes matrix-fall {
-  to { top: 100%; }
+  0% { 
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  5% {
+    opacity: 0.8;
+  }
+  95% {
+    opacity: 0.8;
+  }
+  100% { 
+    transform: translateY(calc(100vh + 200px));
+    opacity: 0;
+  }
 }
 /* TERMINAL WINDOW */
 .terminal-window {
