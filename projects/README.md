@@ -33,8 +33,8 @@ This project proposes a novel theoretical framework, "Geometric Optimization Fra
     *   Aims to reproduce known physical structures and predict new ones.
 
 **Relevant Files:**
-*   [Research Proposal: Geometric Optimization Framework: A Universal Approach to Emergent Structure Discovery](./projects/geometric_optimization_proposal.md)
-*   [Software Specifications: GeometricPhysics](./projects/geometric_optimization_proposal.md#geometricphysics-software-specifications-for-geometric-optimization-framework) (This links to the software spec section within the proposal file)
+*   [Research Proposal: Geometric Optimization Framework: A Universal Approach to Emergent Structure Discovery](./geometric_optimization_proposal.md)
+*   [Software Specifications: GeometricPhysics](./geometric_optimization_proposal.md#geometricphysics-software-specifications-for-geometric-optimization-framework) (This links to the software spec section within the proposal file)
 
 ---
 
@@ -51,7 +51,7 @@ This research paper introduces a parametric metacognitive layer designed to medi
 *   **Improved Performance:** Aims for more predictable and efficient model interactions compared to fixed or inference-based strategies.
 
 **Relevant Files:**
-*   [Research Paper: Parametric Metacognitive Orchestration for Foundation Model Agents](./projects/metacognitive_layer_paper.md)
+*   [Research Paper: Parametric Metacognitive Orchestration for Foundation Model Agents](./metacognitive_layer_paper.md)
 
 ---
 
@@ -78,10 +78,10 @@ This project introduces the Open Orbital Dynamics Platform (OODP), an ambitious 
     *   A theoretical framework proposing to extend OODP's spline-based geodesic representation to incorporate quantum gravitational corrections via series expansions.
 
 **Relevant Files:**
-*   [Main Paper: Open Orbital Dynamics Platform: A Community Framework for Space Mission Design](./projects/orbital_dynamics_paper.md)
-*   [Technical Specifications: Orbital Adjoint Optimizer (OAO)](./projects/orbital_dynamics_paper.md#technical-specifications-orbital-adjoint-optimizer-oao) (This links to the OAO spec section within the OODP paper file)
-*   [Concept: Adaptive Numeric Precision Management for OODP](./projects/orbital_dynamics_paper.md#adaptive-numeric-precision-management-for-oodp) (This links to the Adaptive Precision section within the OODP paper file)
-*   [Concept: Spline Geodesics as a Bridge to Quantum Gravity: A Series Expansion Framework](./projects/orbital_dynamics_paper.md#spline-geodesics-as-a-bridge-to-quantum-gravity-a-series-expansion-framework) (This links to the Spline Geodesics section within the OODP paper file)
+*   [Main Paper: Open Orbital Dynamics Platform: A Community Framework for Space Mission Design](./orbital_dynamics_paper.md)
+*   [Technical Specifications: Orbital Adjoint Optimizer (OAO)](./orbital_dynamics_paper.md#technical-specifications-orbital-adjoint-optimizer-oao) (This links to the OAO spec section within the OODP paper file)
+*   [Concept: Adaptive Numeric Precision Management for OODP](./orbital_dynamics_paper.md#adaptive-numeric-precision-management-for-oodp) (This links to the Adaptive Precision section within the OODP paper file)
+*   [Concept: Spline Geodesics as a Bridge to Quantum Gravity: A Series Expansion Framework](./orbital_dynamics_paper.md#spline-geodesics-as-a-bridge-to-quantum-gravity-a-series-expansion-framework) (This links to the Spline Geodesics section within the OODP paper file)
 
 ---
 
@@ -99,7 +99,7 @@ This research proposal introduces Volumetric Density Trees, a novel method for m
 *   **Handles Complex Geometries:** Capable of modeling disconnected regions, fractal boundaries, and discontinuities.
 
 **Relevant Files:**
-*   [Research Proposal: Volumetric Density Trees with Polynomial Constraints](./projects/volumetric_density_tree_proposal.md)
+*   [Research Proposal: Volumetric Density Trees with Polynomial Constraints](./volumetric_density_tree_proposal.md)
 
 ---
 
@@ -123,8 +123,8 @@ KnotExplorer," an interactive software platform for exploring these concepts.
 * **KnotExplorer Software:** Detailed specifications for an interactive tool ("KnotExplorer") for knot visualization,
   distance matrix exploration, persistence diagram analysis, and ML-based classification.
   **Relevant Files:**
-* [Research Paper: Topological Analysis of Knots via Distance Matrix Representations](./projects/knots.md)
-* [Software Specifications: KnotExplorer Interactive Knot Analysis Software](./projects/knots.md#interactive-knot-analysis-software-detailed-specifications)
+* [Research Paper: Topological Analysis of Knots via Distance Matrix Representations](./knots.md)
+* [Software Specifications: KnotExplorer Interactive Knot Analysis Software](./knots.md#interactive-knot-analysis-software-detailed-specifications)
 
 ---
 
@@ -150,7 +150,7 @@ mappings.
 * **Broad Applications:** Potential impact on bioinformatics (genome analysis), information retrieval (compressed
   full-text search), data archival, and stream processing.
   **Relevant Files:**
-* [Research Proposal: Entropy-Optimized Permutation Trees for Bijective String Transforms](./projects/bwt_tree_proposal.md)
+* [Research Proposal: Entropy-Optimized Permutation Trees for Bijective String Transforms](./bwt_tree_proposal.md)
 
 ---
 
