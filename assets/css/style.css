@@ -13,11 +13,19 @@ body {
   margin: 20px auto;
   padding: 0 20px;
 }
+.header-content,
+.footer-content {
+  max-width: 800px; /* Match the main container width */
+  margin: 0 auto;
+  padding: 0 20px; /* Horizontal padding */
+}
+
 .site-header {
   background-color: #161b22; /* Slightly lighter dark for header */
-  padding: 15px 0;
+  padding: 20px 0; /* Adjusted vertical padding */
   text-align: center;
   border-bottom: 1px solid #30363d; /* Darker border */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25); /* Subtle shadow for depth */
 }
 .site-header h1 {
   margin: 0;
@@ -32,20 +40,24 @@ body {
   color: #8b949e; /* Softer color for tagline */
   margin-top: 5px;
   margin-bottom: 0;
+  font-style: italic; /* Added for a touch of elegance */
 }
 .site-header nav a {
-  margin: 0 10px;
+  margin: 0 15px; /* Increased spacing between nav items */
   color: #8b949e; /* Standard nav link color */
   text-decoration: none;
+  padding-bottom: 5px; /* Space for the bottom border on hover */
+  border-bottom: 2px solid transparent; /* Transparent border for smooth hover transition */
+  transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out; /* Smooth transitions */
 }
 .site-header nav a:hover {
-  text-decoration: underline;
-  color: #58a6ff; /* Accent color on hover */
+  color: #e6edf3; /* Brighter text on hover, similar to headings */
+  border-bottom-color: #58a6ff; /* Accent color border on hover */
 }
 .site-footer {
   text-align: center;
   margin-top: 40px;
-  padding: 20px 0;
+  padding: 30px 0; /* Adjusted vertical padding */
   border-top: 1px solid #30363d; /* Darker border */
   font-size: 0.9em;
   color: #8b949e; /* Softer text color for footer */
@@ -59,7 +71,78 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: #58a6ff; /* Standard link color */
   text-decoration: none; /* Remove default underline for a cleaner look */
+  transition: color 0.2s ease-in-out; /* Smooth color transition for links */
 }
 a:hover {
   text-decoration: underline; /* Add underline on hover for clarity */
+  /* color: #79c0ff; */ /* Optional: Slightly brighter link color on hover */
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px; /* Slightly rounded corners for images */
+  display: block; /* Prevents bottom space under images */
+}
+/* Code Block Styling */
+pre {
+  background-color: #161b22; /* Dark background consistent with header/footer elements */
+  border: 1px solid #30363d;
+  padding: 15px;
+  overflow-x: auto; /* Allow horizontal scrolling for long lines */
+  border-radius: 6px; /* Rounded corners */
+  color: #c9d1d9; /* Light text for code */
+  font-size: 0.9em;
+}
+code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; /* Monospaced font stack */
+  background-color: rgba(175, 184, 193, 0.15); /* Subtle background for inline code */
+  color: #c9d1d9;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.85em; /* Slightly smaller than pre text */
+}
+pre code {
+  background-color: transparent; /* Reset for code inside pre */
+  padding: 0;
+  border-radius: 0;
+  font-size: inherit; /* Inherit font size from pre */
+  color: inherit; /* Inherit color from pre */
+}
+/* Collection Navigation Styling */
+.collection-nav {
+  margin-top: 40px;
+  padding: 25px;
+  background-color: #161b22; /* Consistent dark component background */
+  border: 1px solid #30363d;
+  border-radius: 8px; /* Rounded corners for a modern, soft look */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2); /* Subtle shadow */
+}
+.collection-nav h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 1.3em;
+  color: #e6edf3; /* Brighter text for the heading */
+  border-bottom: 1px solid #30363d;
+  padding-bottom: 15px;
+}
+.collection-nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.collection-nav li {
+  margin-bottom: 12px;
+}
+.collection-nav li:last-child {
+  margin-bottom: 0;
+}
+.collection-nav a {
+  color: #8b949e; /* Softer link color, distinct from main content links */
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  font-size: 0.95em;
+}
+.collection-nav a:hover {
+  color: #58a6ff; /* Accent color on hover */
+  text-decoration: underline;
 }
