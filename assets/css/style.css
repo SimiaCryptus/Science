@@ -17,7 +17,7 @@ body {
     radial-gradient(circle at 80% 20%, #ff00ff 0%, transparent 50%),
     radial-gradient(circle at 40% 40%, #00ffff 0%, transparent 50%),
     linear-gradient(135deg, #000000 0%, #1a0033 50%, #000000 100%);
-  background-attachment: fixed;
+  background-attachment: scroll;
   color: #00ff41;
   text-shadow: 0 0 5px #00ff41;
   animation: matrix-rain 20s linear infinite;
@@ -246,7 +246,7 @@ body {
   padding: 30px 0;
   border-top: 3px solid #ff00ff;
   font-size: 0.9em;
-  color: #ff00ff;
+  color: #00ff41;
   background: 
     repeating-linear-gradient(
       45deg,
@@ -255,7 +255,7 @@ body {
       #ff00ff11 10px,
       #ff00ff11 20px
     );
-  text-shadow: 0 0 5px #ff00ff;
+  text-shadow: 0 0 5px #00ff41;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -528,18 +528,18 @@ pre code {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  z-index: -10;
+  z-index: -1;
   overflow: hidden;
-  opacity: 0.15;
+  opacity: 0.3;
 }
 .matrix-column {
   position: absolute;
   top: -100vh;
-  color: #00ff00;
+  color: #00ff41;
   font-family: 'Share Tech Mono', monospace;
   font-size: 14px;
   line-height: 1.2;
-  text-shadow: 0 0 3px #00ff00;
+  text-shadow: 0 0 5px #00ff41;
   animation: matrix-fall linear infinite;
   white-space: pre;
   width: 20px;
@@ -687,15 +687,15 @@ pre code {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  z-index: -1;
+  z-index: -2;
 }
 .particle {
   position: absolute;
   width: 2px;
   height: 2px;
-  background: #00ffff;
+  background: #ff00ff;
   border-radius: 50%;
-  box-shadow: 0 0 6px #00ffff;
+  box-shadow: 0 0 6px #ff00ff;
   animation: float-particle linear infinite;
 }
 @keyframes float-particle {
