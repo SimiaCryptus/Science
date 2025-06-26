@@ -1,7 +1,7 @@
 # _config.yml
 title: Science Project Showcase
 description: A showcase of research and ideas from the Science project repository.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/Science" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 markdown: kramdown
 highlighter: rouge
