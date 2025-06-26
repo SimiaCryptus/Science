@@ -26,48 +26,46 @@
       if (!matrixContainer) return;
       // Clear any existing content
       matrixContainer.innerHTML = '';
-      if (!matrixContainer) return;
       
       
       const chars = '01アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン';
       
-      // Clear existing columns first
-      matrixContainer.innerHTML = '';
       
       
-      for (let i = 0; i < 30; i++) {
+      // Calculate number of columns based on screen width
+      const numColumns = Math.floor(window.innerWidth / 20);
+      
+      for (let i = 0; i < numColumns; i++) {
         const column = document.createElement('div');
         column.className = 'matrix-column';
-        column.style.left = (i * 3.33) + '%';
-        column.style.animationDuration = (Math.random() * 4 + 3) + 's';
-        column.style.animationDelay = Math.random() * 5 + 's';
-        column.style.animation = `matrix-fall ${column.style.animationDuration} linear infinite`;
-        column.style.animationDelay = column.style.animationDelay;
         
-        column.style.left = (i * 3.33) + '%';
-        column.style.animationDuration = (Math.random() * 5 + 3) + 's';
-        column.style.animationDelay = Math.random() * 5 + 's';
+        column.style.left = (i * 20) + 'px';
+        column.style.animationDuration = (Math.random() * 3 + 2) + 's';
+        column.style.animationDelay = Math.random() * 2 + 's';
         
         let text = '';
-        for (let j = 0; j < 25; j++) {
+        const numChars = Math.floor(window.innerHeight / 20);
+        for (let j = 0; j < numChars; j++) {
           text += chars[Math.floor(Math.random() * chars.length)] + '\n';
         }
         column.textContent = text;
         matrixContainer.appendChild(column);
       }
+      
       // Refresh columns periodically
       setInterval(() => {
         const columns = matrixContainer.querySelectorAll('.matrix-column');
         columns.forEach(column => {
           if (Math.random() > 0.95) {
             let text = '';
-            for (let j = 0; j < 25; j++) {
+            const numChars = Math.floor(window.innerHeight / 20);
+            for (let j = 0; j < numChars; j++) {
               text += chars[Math.floor(Math.random() * chars.length)] + '\n';
             }
             column.textContent = text;
           }
         });
-      }, 100);
+      }, 150);
     }
     // Floating Particles
     function createParticles() {
