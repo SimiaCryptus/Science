@@ -1,12 +1,12 @@
 <header class="site-header">
   <div class="header-content">
     <h1><a href="{{ '/' | relative_url }}">{{ site.title | default: "Science Project Showcase" }}</a></h1>
+    {% if site.tagline %}<p class="site-tagline">{{ site.tagline }}</p>{% endif %}
     <nav class="site-nav">
       <a href="{{ '/' | relative_url }}">Home</a>
       <a href="{{ 'social/' | relative_url }}">Social Sciences</a>
       <a href="{{ 'scifi/' | relative_url }}">SciFi Concepts</a>
       <a href="{{ 'projects/' | relative_url }}">Projects</a>
-      <a href="{{ 'profile/' | relative_url }}">Profile</a>
     </nav>
   </div>
 </header>

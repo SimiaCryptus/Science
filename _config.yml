@@ -1,6 +1,7 @@
 # _config.yml
-title: Science Project Showcase
-description: A showcase of research and ideas from the Science project repository.
+title: Speculative Science & Theoretical Explorations
+tagline: Mapping the landscape of possible ideas.
+description: A collection of speculative papers at the intersection of creativity, formalism, and interdisciplinary synthesis.
 baseurl: "/Science" # The subpath of your site, e.g. /blog
 url: "" # The base hostname & protocol for your site, e.g. https://username.github.io
 markdown: kramdown

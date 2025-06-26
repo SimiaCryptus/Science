@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Science Project Repository
+title: Home
 ---
 
 # 🧬 Speculative Science Papers

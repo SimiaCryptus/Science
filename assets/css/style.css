@@ -5,8 +5,8 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #fdfdfd;
-  color: #333;
+  background-color: #0d1117; /* Dark background */
+  color: #c9d1d9; /* Light text for readability */
 }
 .container {
   max-width: 800px;
@@ -14,39 +14,52 @@ body {
   padding: 0 20px;
 }
 .site-header {
-  background-color: #f0f0f0;
+  background-color: #161b22; /* Slightly lighter dark for header */
   padding: 15px 0;
   text-align: center;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #30363d; /* Darker border */
 }
 .site-header h1 {
   margin: 0;
   font-size: 1.8em;
 }
 .site-header h1 a {
-  color: #333;
+  color: #e6edf3; /* Brighter text for title */
   text-decoration: none;
+}
+.site-header .site-tagline {
+  font-size: 0.9em;
+  color: #8b949e; /* Softer color for tagline */
+  margin-top: 5px;
+  margin-bottom: 0;
 }
 .site-header nav a {
   margin: 0 10px;
-  color: #555;
+  color: #8b949e; /* Standard nav link color */
   text-decoration: none;
 }
 .site-header nav a:hover {
   text-decoration: underline;
+  color: #58a6ff; /* Accent color on hover */
 }
 .site-footer {
   text-align: center;
   margin-top: 40px;
   padding: 20px 0;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #30363d; /* Darker border */
   font-size: 0.9em;
-  color: #777;
+  color: #8b949e; /* Softer text color for footer */
 }
 h1, h2, h3, h4, h5, h6 {
   margin-top: 1.5em;
   margin-bottom: 0.5em;
   font-weight: 600;
+  color: #e6edf3; /* Brighter text for headings */
 }
-a { color: #007bff; }
-a:hover { text-decoration: underline; }
+a {
+  color: #58a6ff; /* Standard link color */
+  text-decoration: none; /* Remove default underline for a cleaner look */
+}
+a:hover {
+  text-decoration: underline; /* Add underline on hover for clarity */
+}
