@@ -42,17 +42,27 @@ body {
   margin-bottom: 0;
   font-style: italic; /* Added for a touch of elegance */
 }
+.site-nav {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
 .site-header nav a {
-  margin: 0 15px; /* Increased spacing between nav items */
   color: #8b949e; /* Standard nav link color */
   text-decoration: none;
-  padding-bottom: 5px; /* Space for the bottom border on hover */
+  padding: 8px 16px; /* Add padding for better click targets */
   border-bottom: 2px solid transparent; /* Transparent border for smooth hover transition */
+  border-radius: 4px; /* Subtle rounded corners */
   transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out; /* Smooth transitions */
+  font-weight: 500; /* Slightly bolder text */
+  white-space: nowrap; /* Prevent text wrapping */
 }
 .site-header nav a:hover {
   color: #e6edf3; /* Brighter text on hover, similar to headings */
   border-bottom-color: #58a6ff; /* Accent color border on hover */
+  background-color: rgba(88, 166, 255, 0.1); /* Subtle background highlight */
 }
 .site-footer {
   text-align: center;
