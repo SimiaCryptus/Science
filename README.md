@@ -20,20 +20,19 @@ These works embody a particular approach to theoretical exploration:
 ## 📚 Featured Papers
 
 ### Physics & Cosmology
-- **[Quantum Graph Substrates for Non-Local Information Processing](multiverse_compute.md)** - A mathematical framework for computation on dynamic quantum graphs with applications to distributed algorithms and spacetime emergence
-- **[Quantum-Coherent Nuclear Fusion in Superfluid Helium](superfluid_fusion_proposal.md)** - Novel approach to controlled fusion leveraging macroscopic quantum coherence
-- **[Geometric Optimization Framework](geometric_optimization_proposal.md)** - Universal principles for discovering optimal structures through geometric optimization on parameter manifolds
+ **[Abstract Computational Architectures on Quantum Graph Substrates](scifi/dynamic_quantum_graphs.md)** - A mathematical framework for computation on dynamic quantum graphs with applications to distributed algorithms and spacetime emergence
+ **[Quantum-Coherent Nuclear Fusion in Superfluid Helium](scifi/superfluid_fusion_proposal.md)** - Novel approach to controlled fusion leveraging macroscopic quantum coherence
+ **[Geometric Optimization Framework](projects/geometric_optimization_proposal.md)** - Universal principles for discovering optimal structures through geometric optimization on parameter manifolds
 
 ### Computational Neuroscience & AI
-- **[Volumetric Density Trees](volumetric_density_tree_proposal.md)** - Hierarchical density estimation revealing the deep connection between tree structures and geometric representation
-- **[Parametric Metacognitive Orchestration](metacognitive_layer_paper.md)** - Architecture for explicit cognitive requirement specification in foundation model interactions
+ **[Volumetric Density Trees](projects/volumetric_density_tree_proposal.md)** - Hierarchical density estimation revealing the deep connection between tree structures and geometric representation
+ **[Parametric Metacognitive Orchestration](projects/metacognitive_layer_paper.md)** - Architecture for explicit cognitive requirement specification in foundation model interactions
 
 ### Applied Mathematics & Engineering
-- **[Open Orbital Dynamics Platform](orbital_dynamics_paper.md)** - Democratizing space mission design through open computational frameworks
-- **[Topological Analysis of Knots via Distance Matrices](knots.md)** - Revealing hidden topological structure through novel distance-based representations
+- **[Open Orbital Dynamics Platform](projects/orbital_dynamics_paper.md)** - Democratizing space mission design through open computational frameworks
 
 ### Interdisciplinary
-- **[Perverse Incentives and Institutional Capture](game_theory_ethics.md)** - Game-theoretic analysis revealing how well-intentioned systems inevitably corrupt themselves
+- **[Perverse Incentives and Institutional Capture](social/game_theory_ethics.md)** - Game-theoretic analysis revealing how well-intentioned systems inevitably corrupt themselves
 
 ## 🔬 Genesis of This Collection
 
