@@ -1,7 +1,7 @@
 # _config.yml
-title: Speculative Science & Theoretical Explorations
-tagline: Mapping the landscape of possible ideas.
-description: A collection of speculative papers at the intersection of creativity, formalism, and interdisciplinary synthesis.
+title: NEURAL MATRIX ARCHIVES
+tagline: JACKING INTO THE REALITY STREAM SINCE 1999
+description: CLASSIFIED RESEARCH FILES - QUANTUM ENCRYPTED - UNAUTHORIZED ACCESS MONITORED
 baseurl: "/Science" # The subpath of your site, e.g. /blog
 url: "" # The base hostname & protocol for your site, e.g. https://username.github.io
 markdown: kramdown
