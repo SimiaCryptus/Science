@@ -8,10 +8,67 @@
   <link rel="icon" type="image/x-icon" href="{{ 'favicon.ico' | relative_url }}">
 </head>
 <body>
+  <!-- Matrix Rain Effect -->
+  <div class="matrix-rain" id="matrixRain"></div>
+  <!-- Floating Particles -->
+  <div class="particle-field" id="particleField"></div>
+  
   {% include header.html %}
   <main class="container">
     {{ content }}
   </main>
   {% include footer.html %}
+  <!-- JavaScript for Effects -->
+  <script>
+    // Matrix Rain Effect
+    function createMatrixRain() {
+      const matrixContainer = document.getElementById('matrixRain');
+      const chars = '01アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン';
+      for (let i = 0; i < 50; i++) {
+        const column = document.createElement('div');
+        column.className = 'matrix-column';
+        column.style.left = Math.random() * 100 + '%';
+        column.style.animationDuration = (Math.random() * 3 + 2) + 's';
+        column.style.animationDelay = Math.random() * 2 + 's';
+        let text = '';
+        for (let j = 0; j < 20; j++) {
+          text += chars[Math.floor(Math.random() * chars.length)] + '<br>';
+        }
+        column.innerHTML = text;
+        matrixContainer.appendChild(column);
+      }
+    }
+    // Floating Particles
+    function createParticles() {
+      const particleContainer = document.getElementById('particleField');
+      setInterval(() => {
+        if (particleContainer.children.length < 20) {
+          const particle = document.createElement('div');
+          particle.className = 'particle';
+          particle.style.left = Math.random() * 100 + '%';
+          particle.style.animationDuration = (Math.random() * 10 + 5) + 's';
+          particleContainer.appendChild(particle);
+          setTimeout(() => {
+            if (particle.parentNode) {
+              particle.parentNode.removeChild(particle);
+            }
+          }, 15000);
+        }
+      }, 500);
+    }
+    // Initialize effects when page loads
+    document.addEventListener('DOMContentLoaded', function() {
+      createMatrixRain();
+      createParticles();
+      // Add glitch effect to random text elements
+      const textElements = document.querySelectorAll('h1, h2, h3');
+      textElements.forEach(el => {
+        if (Math.random() > 0.7) {
+          el.classList.add('glitch-text');
+          el.setAttribute('data-text', el.textContent);
+        }
+      });
+    });
+  </script>
 </body>
 </html>

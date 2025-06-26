@@ -1,26 +1,41 @@
 ---
 layout: default
 title: Home
+{% include terminal.html title="QUANTUM_ARCHIVES_v3.7" command="initialize_reality_matrix" content="
+ACCESSING CLASSIFIED RESEARCH DATABASES...<br>
+QUANTUM ENCRYPTION: ACTIVE<br>
+NEURAL INTERFACE: SYNCHRONIZED<br>
+STATUS: READY FOR DATA TRANSMISSION<br>
+" %}
 ---
 
 # 🧬 Speculative Science Papers
 
 *A collection of theoretical frameworks exploring the deep structure of reality through mathematical formalism and cross-disciplinary synthesis*
+{% include holo_card.html title="⚡ SYSTEM STATUS" content="
+**Neural Networks:** Online<br>
+**Quantum Processors:** Synchronized<br>
+**Reality Matrix:** Stable<br>
+**Classified Files:** Accessible<br>
+" %}
 
 ## Overview
 
 This repository contains speculative scientific papers that emerged from a decades-long intellectual journey across physics, mathematics, neuroscience, and computation. Each document represents the formalization of deep intuitions about the nature of reality—ideas that have been incubating for years, waiting for the right medium to achieve mathematical precision.
+{% include progress_bar.html progress="87" %}
+<p style="text-align: center; color: #00ffff; font-family: 'Share Tech Mono', monospace;">
+REALITY SYNCHRONIZATION: 87% COMPLETE
+</p>
 
 What unifies this collection is not merely interdisciplinary breadth, but a conviction that the universe's deepest patterns transcend traditional academic boundaries. Whether exploring quantum consciousness, geometric optimization, or institutional dynamics, each paper seeks the mathematical structures that bridge seemingly disparate phenomena.
+{% include neural_network.html %}
 
 ## 🌌 Intellectual Philosophy
+{% include holo_card.html content="
 
 These works embody a particular approach to theoretical exploration:
 
-- **Pattern Recognition Over Specialization**: The most profound insights often come from recognizing universal principles that manifest across scales and domains
-- **Mathematical Beauty as Guide**: Elegant mathematical structures often point toward deep truths about reality
-- **Speculation With Rigor**: Wild ideas deserve precise formulation—speculation and mathematical discipline are partners, not opposites
-- **Emergence and Unification**: Complex phenomena often arise from simple, universal principles waiting to be discovered
+" %}
 
 ## 📚 Featured Papers
 
@@ -34,20 +49,17 @@ These works embody a particular approach to theoretical exploration:
  **[Parametric Metacognitive Orchestration](projects/metacognitive_layer_paper.md)** - Architecture for explicit cognitive requirement specification in foundation model interactions
 
 ### Applied Mathematics & Engineering
-- **[Open Orbital Dynamics Platform](projects/orbital_dynamics_paper.md)** - Democratizing space mission design through open computational frameworks
 
 ### Interdisciplinary
-- **[Perverse Incentives and Institutional Capture](social/game_theory_ethics.md)** - Game-theoretic analysis revealing how well-intentioned systems inevitably corrupt themselves
+<div class="glitch-text" data-text="CLASSIFIED RESEARCH CONTINUES...">
+CLASSIFIED RESEARCH CONTINUES...
+</div>
 
 ## 🔬 Genesis of This Collection
 
 ### The Long Incubation
 
 These ideas have been developing over decades of interdisciplinary exploration. They represent:
-- Questions that wouldn't leave me alone
-- Patterns noticed across disparate fields of study
-- Intuitions that demanded mathematical formalization
-- Connections waiting for the right framework to express them
 
 ### The Collaborative Process
 
@@ -76,10 +88,6 @@ Several deep patterns unify these seemingly disparate investigations:
 
 This collection serves those who:
 
-- **Seek Unconventional Perspectives**: For researchers feeling constrained by disciplinary boundaries
-- **Value Mathematical Beauty**: For those who believe elegance points toward truth
-- **Think in Systems**: For minds that naturally see connections across scales and domains
-- **Embrace Speculation**: For intellectuals who know that today's wild idea is tomorrow's accepted theory
 
 ## ⚠️ Important Notes
 
@@ -90,10 +98,6 @@ These papers are **speculative** and **exploratory**. They represent a particula
 ### Intellectual Stance
 
 This work emerges from a conviction that:
-- The universe is more elegant than we currently understand
-- Mathematical beauty often precedes empirical confirmation
-- The biggest breakthroughs come from questioning assumptions
-- Intellectual courage means publishing ideas before they're "safe"
 
 ### Attribution
 

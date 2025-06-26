@@ -520,6 +520,266 @@ pre code {
   margin: 20px 0;
   box-shadow: 0 0 10px #00ff41;
 }
+/* MATRIX RAIN EFFECT */
+.matrix-rain {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+  overflow: hidden;
+}
+.matrix-column {
+  position: absolute;
+  top: -100%;
+  color: #00ff41;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 14px;
+  line-height: 1.2;
+  text-shadow: 0 0 5px #00ff41;
+  animation: matrix-fall linear infinite;
+}
+@keyframes matrix-fall {
+  to { top: 100%; }
+}
+/* TERMINAL WINDOW */
+.terminal-window {
+  background: #000000;
+  border: 2px solid #00ff41;
+  border-radius: 0;
+  margin: 20px 0;
+  box-shadow: 0 0 20px #00ff4144;
+  overflow: hidden;
+}
+.terminal-header {
+  background: linear-gradient(90deg, #00ff41, #00ffff);
+  color: #000000;
+  padding: 8px 15px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.8em;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.terminal-buttons {
+  display: flex;
+  gap: 5px;
+}
+.terminal-button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ff0000;
+}
+.terminal-button.minimize { background: #ffff00; }
+.terminal-button.maximize { background: #00ff00; }
+.terminal-content {
+  padding: 15px;
+  color: #00ff41;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.9em;
+  min-height: 100px;
+}
+.terminal-prompt {
+  color: #ff00ff;
+}
+.terminal-cursor {
+  background: #00ff41;
+  animation: cursor-blink 1s infinite;
+}
+@keyframes cursor-blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+/* HOLOGRAPHIC CARDS */
+.holo-card {
+  background: linear-gradient(135deg, 
+    rgba(0, 255, 255, 0.1) 0%,
+    rgba(255, 0, 255, 0.1) 50%,
+    rgba(0, 255, 65, 0.1) 100%);
+  border: 1px solid #00ffff;
+  padding: 20px;
+  margin: 20px 0;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
+}
+.holo-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  transform: rotate(45deg);
+  transition: all 0.6s ease;
+  opacity: 0;
+}
+.holo-card:hover::before {
+  animation: holo-shine 1.5s ease-in-out;
+}
+.holo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 255, 255, 0.3);
+}
+@keyframes holo-shine {
+  0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); opacity: 0; }
+  50% { opacity: 1; }
+  100% { transform: translateX(100%) translateY(100%) rotate(45deg); opacity: 0; }
+}
+/* CYBERPUNK PROGRESS BAR */
+.cyber-progress {
+  background: #000000;
+  border: 1px solid #00ff41;
+  height: 20px;
+  margin: 10px 0;
+  position: relative;
+  overflow: hidden;
+}
+.cyber-progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #00ff41, #00ffff, #ff00ff);
+  width: 0%;
+  transition: width 2s ease;
+  position: relative;
+}
+.cyber-progress-bar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  animation: progress-shine 2s infinite;
+}
+@keyframes progress-shine {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+/* FLOATING PARTICLES */
+.particle-field {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+}
+.particle {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: #00ffff;
+  border-radius: 50%;
+  box-shadow: 0 0 6px #00ffff;
+  animation: float-particle linear infinite;
+}
+@keyframes float-particle {
+  0% {
+    transform: translateY(100vh) translateX(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-10vh) translateX(100px);
+    opacity: 0;
+  }
+}
+/* GLITCH TEXT EFFECT */
+.glitch-text {
+  position: relative;
+  color: #00ffff;
+  font-family: 'Share Tech Mono', monospace;
+  animation: glitch-text 2s infinite;
+}
+.glitch-text::before,
+.glitch-text::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.glitch-text::before {
+  animation: glitch-text-1 0.5s infinite;
+  color: #ff00ff;
+  z-index: -1;
+}
+.glitch-text::after {
+  animation: glitch-text-2 0.5s infinite;
+  color: #ffff00;
+  z-index: -2;
+}
+@keyframes glitch-text {
+  0%, 100% { transform: translate(0); }
+  20% { transform: translate(-1px, 1px); }
+  40% { transform: translate(-1px, -1px); }
+  60% { transform: translate(1px, 1px); }
+  80% { transform: translate(1px, -1px); }
+}
+@keyframes glitch-text-1 {
+  0%, 100% { transform: translate(0); }
+  10% { transform: translate(-1px, -1px); }
+  20% { transform: translate(1px, 1px); }
+}
+@keyframes glitch-text-2 {
+  0%, 100% { transform: translate(0); }
+  30% { transform: translate(1px, -1px); }
+  40% { transform: translate(-1px, 1px); }
+}
+/* NEURAL NETWORK VISUALIZATION */
+.neural-network {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background: radial-gradient(circle, rgba(0, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+  margin: 20px 0;
+  overflow: hidden;
+}
+.neural-node {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #00ffff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #00ffff;
+  animation: neural-pulse 2s infinite;
+}
+.neural-connection {
+  position: absolute;
+  height: 1px;
+  background: linear-gradient(90deg, #00ffff, transparent, #ff00ff);
+  animation: neural-flow 3s infinite;
+}
+@keyframes neural-pulse {
+  0%, 100% { 
+    transform: scale(1);
+    box-shadow: 0 0 10px #00ffff;
+  }
+  50% { 
+    transform: scale(1.5);
+    box-shadow: 0 0 20px #00ffff;
+  }
+}
+@keyframes neural-flow {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
 
 .visitor-counter::before {
   content: '👁️ NEURAL INTERFACES CONNECTED: ';
@@ -548,6 +808,15 @@ pre code {
   }
   
   .marquee {
+    font-size: 0.8em;
+  }
+  .matrix-column {
+    font-size: 12px;
+  }
+  .holo-card {
+    padding: 15px;
+  }
+  .terminal-content {
     font-size: 0.8em;
   }
 }
