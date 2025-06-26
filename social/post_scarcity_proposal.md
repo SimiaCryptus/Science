@@ -1,3 +1,9 @@
+---
+layout: default
+title: Post Scarcity Proposal
+collection: social
+---
+
 # Computational Modeling of Post-Scarcity Economic Equilibria: Constraints, Transitions, and Institutional Evolution
 
 ## Abstract

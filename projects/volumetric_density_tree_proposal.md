@@ -1,3 +1,9 @@
+---
+layout: default
+title: Volumetric Density Tree Proposal
+collection: projects
+---
+
 # Volumetric Density Trees with Polynomial Constraints: A Novel Approach to High-Dimensional Density Modeling
 
 ## Abstract

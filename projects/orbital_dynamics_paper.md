@@ -1,3 +1,9 @@
+---
+layout: default
+title: Orbital Dynamics Paper
+collection: projects
+---
+
 # Open Orbital Dynamics Platform: A Community Framework for Space Mission Design
 
 ## Abstract

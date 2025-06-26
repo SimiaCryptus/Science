@@ -1,3 +1,8 @@
+---
+layout: default
+title: SciFi Concepts
+---
+
 # Advanced Theoretical Physics & Computation Explorations
 
 ## Overview

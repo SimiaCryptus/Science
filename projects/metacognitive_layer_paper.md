@@ -1,3 +1,9 @@
+---
+layout: default
+title: Metacognitive Layer Paper
+collection: projects
+---
+
 # Parametric Metacognitive Orchestration for Foundation Model Agents
 
 ## Abstract

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Superfluid Fusion Proposal
+collection: scifi
+---
+
 # Quantum-Coherent Nuclear Fusion in Superfluid Helium: A Novel Approach to Controlled Fusion and Heavy Element Synthesis
 
 ## Executive Summary

@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="page-content">
+  {{ content }}
+</div>
+
+{% if page.collection %}
+<nav class="collection-nav">
+  <h3>More in {{ page.collection | capitalize }}</h3>
+  <ul>
+    {% assign collection = site[page.collection] %}
+    {% for item in collection %}
+      {% unless item.url == page.url %}
+        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+      {% endunless %}
+    {% endfor %}
+  </ul>
+</nav>
+{% endif %}

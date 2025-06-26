@@ -1,3 +1,9 @@
+---
+layout: default
+title: Multiverse Router Paper
+collection: scifi
+---
+
 # Quantum Substrate Manipulation for Superluminal Communication and Multiverse Access via High-Energy Photon Interference
 
 ## Abstract

@@ -1,0 +1,22 @@
+# _config.yml
+title: Science Project Showcase
+description: A showcase of research and ideas from the Science project repository.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+theme: jekyll-theme-minimal
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - Science.iml
+  - .logs/
+  - .git/
+  - .gitignore
+collections:
+defaults:
+  - README.md

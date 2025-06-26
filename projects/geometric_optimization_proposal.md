@@ -1,3 +1,9 @@
+---
+layout: default
+title: Geometric Optimization Proposal
+collection: projects
+---
+
 # Geometric Optimization Framework: A Universal Approach to Emergent Structure Discovery
 
 ## Abstract

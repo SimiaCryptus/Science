@@ -1,3 +1,9 @@
+---
+layout: default
+title: Social Truth Proposal
+collection: social
+---
+
 # Dynamic Multi-Agent Modeling of Social Truth Formation: A Spatially-Embedded Game-Theoretic Approach
 
 ## Abstract

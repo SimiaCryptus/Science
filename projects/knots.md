@@ -1,3 +1,9 @@
+---
+layout: default
+title: Knots
+collection: projects
+---
+
 # Topological Analysis of Knots via Distance Matrix Representations
 
 ## Abstract

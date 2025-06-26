@@ -1,3 +1,9 @@
+---
+layout: default
+title: Quantum Spacetime Paper
+collection: scifi
+---
+
 # Observer-Dependent Spacetime Emergence from Atemporal Quantum Foam: A Unified Framework
 
 ## Abstract

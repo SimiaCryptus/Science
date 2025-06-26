@@ -1,3 +1,8 @@
+---
+layout: default
+title: Science Project Repository
+---
+
 # 🧬 Speculative Science Papers
 
 *A collection of theoretical frameworks exploring the deep structure of reality through mathematical formalism and cross-disciplinary synthesis*
