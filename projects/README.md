@@ -15,32 +15,6 @@ Welcome to this collection of interdisciplinary computational science projects. 
 4.  [Volumetric Density Trees with Polynomial Constraints](#4-volumetric-density-trees-with-polynomial-constraints)
 5.  [Topological Analysis of Knots via Distance Matrix Representations](#5-topological-analysis-of-knots-via-distance-matrix-representations)
 6.  [Entropy-Optimized Permutation Trees for Bijective String Transforms](#6-entropy-optimized-permutation-trees-for-bijective-string-transforms)
-## 5. Topological Analysis of Knots via Distance Matrix Representations
-**Overview:**
-This project introduces a novel approach to knot theory analysis using distance matrices derived from sampled points on knot curves. It focuses on extracting topological features from these matrices, such as those from persistent homology, which show empirical stability under ambient isotopy. The goal is to provide computationally efficient methods for knot classification and analysis, complementing traditional techniques. The project also includes specifications for "KnotExplorer," an interactive software platform for exploring these concepts.
-**Key Features:**
-*   **Distance Matrix Representation:** Knots are analyzed based on matrices of pairwise Euclidean distances between sampled points.
-*   **Topological Feature Extraction:** Utilizes persistent homology and statistical analysis of distance matrices to identify knot characteristics.
-*   **Empirical Stability:** Features demonstrate stability for knot classification, achieving high accuracy with significant speedup over polynomial methods (e.g., 88.6% for 10-crossing knots with 15× speedup).
-*   **Computational Efficiency:** Offers faster knot analysis compared to traditional invariant computations.
-*   **KnotExplorer Software:** Detailed specifications for an interactive tool ("KnotExplorer") for knot visualization, distance matrix exploration, persistence diagram analysis, and ML-based classification.
-**Relevant Files:**
-*   [Research Paper: Topological Analysis of Knots via Distance Matrix Representations](./projects/knots.md)
-*   [Software Specifications: KnotExplorer Interactive Knot Analysis Software](./projects/knots.md#interactive-knot-analysis-software-detailed-specifications)
----
-## 6. Entropy-Optimized Permutation Trees for Bijective String Transforms
-**Overview:**
-This research proposal introduces the Entropy-Optimized Permutation Tree (EOPT), a novel tree-based data structure designed for string data processed by bijective transforms like the Burrows-Wheeler Transform (BWT). EOPT integrates optimal coding theory with permutation algebra, organizing the tree based on entropy density. This approach aims to achieve both optimal compression and efficient query processing by explicitly representing interrelated permutation mappings.
-**Key Features:**
-*   **Novel Data Structure:** EOPT embeds information-theoretic principles directly into its tree structure.
-*   **Entropy-Adaptive Organization:** Tree nodes and partitions are organized based on entropy density, allocating resources efficiently according to local information content.
-*   **Integrated Compression & Querying:** Aims for simultaneous optimal compression (approaching O(n·H)) and fast query performance (e.g., O(log n + m/B) for substring queries).
-*   **Permutation Algebra:** Explicitly represents and optimizes compositions of BWT-generated permutations (L-F mapping, F-L mapping, etc.) within the tree.
-*   **Adaptive Optimization:** Proposes continuous optimization of structural parameters like branching factor, compression thresholds, and cache sizes based on data and access patterns.
-*   **Broad Applications:** Potential impact on bioinformatics (genome analysis), information retrieval (compressed full-text search), data archival, and stream processing.
-**Relevant Files:**
-*   [Research Proposal: Entropy-Optimized Permutation Trees for Bijective String Transforms](./projects/bwt_tree_proposal.md)
----
 
 ---
 
@@ -129,5 +103,55 @@ This research proposal introduces Volumetric Density Trees, a novel method for m
 
 ---
 
+## 5. Topological Analysis of Knots via Distance Matrix Representations
+
+**Overview:**
+This project introduces a novel approach to knot theory analysis using distance matrices derived from sampled points on
+knot curves. It focuses on extracting topological features from these matrices, such as those from persistent homology,
+which show empirical stability under ambient isotopy. The goal is to provide computationally efficient methods for knot
+classification and analysis, complementing traditional techniques. The project also includes specifications for "
+KnotExplorer," an interactive software platform for exploring these concepts.
+**Key Features:**
+
+* **Distance Matrix Representation:** Knots are analyzed based on matrices of pairwise Euclidean distances between
+  sampled points.
+* **Topological Feature Extraction:** Utilizes persistent homology and statistical analysis of distance matrices to
+  identify knot characteristics.
+* **Empirical Stability:** Features demonstrate stability for knot classification, achieving high accuracy with
+  significant speedup over polynomial methods (e.g., 88.6% for 10-crossing knots with 15× speedup).
+* **Computational Efficiency:** Offers faster knot analysis compared to traditional invariant computations.
+* **KnotExplorer Software:** Detailed specifications for an interactive tool ("KnotExplorer") for knot visualization,
+  distance matrix exploration, persistence diagram analysis, and ML-based classification.
+  **Relevant Files:**
+* [Research Paper: Topological Analysis of Knots via Distance Matrix Representations](./projects/knots.md)
+* [Software Specifications: KnotExplorer Interactive Knot Analysis Software](./projects/knots.md#interactive-knot-analysis-software-detailed-specifications)
+
+---
+
+## 6. Entropy-Optimized Permutation Trees for Bijective String Transforms
+
+**Overview:**
+This research proposal introduces the Entropy-Optimized Permutation Tree (EOPT), a novel tree-based data structure
+designed for string data processed by bijective transforms like the Burrows-Wheeler Transform (BWT). EOPT integrates
+optimal coding theory with permutation algebra, organizing the tree based on entropy density. This approach aims to
+achieve both optimal compression and efficient query processing by explicitly representing interrelated permutation
+mappings.
+**Key Features:**
+
+* **Novel Data Structure:** EOPT embeds information-theoretic principles directly into its tree structure.
+* **Entropy-Adaptive Organization:** Tree nodes and partitions are organized based on entropy density, allocating
+  resources efficiently according to local information content.
+* **Integrated Compression & Querying:** Aims for simultaneous optimal compression (approaching O(n·H)) and fast query
+  performance (e.g., O(log n + m/B) for substring queries).
+* **Permutation Algebra:** Explicitly represents and optimizes compositions of BWT-generated permutations (L-F mapping,
+  F-L mapping, etc.) within the tree.
+* **Adaptive Optimization:** Proposes continuous optimization of structural parameters like branching factor,
+  compression thresholds, and cache sizes based on data and access patterns.
+* **Broad Applications:** Potential impact on bioinformatics (genome analysis), information retrieval (compressed
+  full-text search), data archival, and stream processing.
+  **Relevant Files:**
+* [Research Proposal: Entropy-Optimized Permutation Trees for Bijective String Transforms](./projects/bwt_tree_proposal.md)
+
+---
 
 This README provides a high-level overview. For detailed information, please refer to the linked documents for each project.
