@@ -24,24 +24,27 @@ Across these diverse documents, several recurring themes emerge:
 
 This repository contains the following key documents:
 
-1.  **[Dynamic Multi-Agent Modeling of Social Truth Formation](./social/social_truth_proposal.md)**
+1.  **[Dynamic Multi-Agent Modeling of Social Truth Formation](./social_truth_proposal.md)**
     *   **Proposal**: Outlines a novel computational framework using cellular automata and game theory to understand how social truths emerge, propagate, and stabilize.
     *   **Technical Requirements**: Includes a detailed "Technical Requirements Document: Social Truth Dynamics Simulation Platform (STDSP)" for a Python/C++ based simulation platform.
 
-2.  **[Computational Modeling of Post-Scarcity Economic Equilibria](./social/post_scarcity_proposal.md)**
+2.  **[Computational Modeling of Post-Scarcity Economic Equilibria](./post_scarcity_proposal.md)**
     *   **Proposal**: Details a computational modeling approach (using Julia, agent-based modeling, and game theory) to analyze economic systems under conditions of post-material-scarcity, focusing on persistent constraints, emergent equilibria, and institutional evolution.
 
-3.  **[The Psychopath Feedback Loop: How Institutions Collapse From Within](./social/institutional_decay_analysis.md)**
+3.  **[The Psychopath Feedback Loop: How Institutions Collapse From Within](./institutional_decay_analysis.md)**
     *   **Analytical Essay**: An urgent, somewhat informal analysis of institutional decay, positing a "psychopath feedback loop" as a mechanism for collapse.
     *   **Technical Framework**: Includes a simplified agent-based model and mathematical formulation to illustrate the proposed dynamics of decay.
 
-4.  **[Perverse Incentives and Institutional Capture](./social/game_theory_ethics.md)**
+4.  **[Perverse Incentives and Institutional Capture](./game_theory_ethics.md)**
     *   **Analytical Paper**: A game-theoretic analysis of how ostensibly beneficent institutional systems (e.g., end-of-life care, family law, higher education, enterprise IT, criminal justice) can become structurally misaligned with the interests of those they serve.
     *   **AI Adoption Analysis**: Extends the core themes to analyze AI adoption within existing institutional frameworks, focusing on the game-theoretic conflict between efficiency and employment preservation.
     *   **Technical Specifications**: Includes "Technical Specifications for Game-Theoretic Institutional Analysis Simulations" for implementing computational experiments in Kotlin/JVM.
 
-5.  **[The Game Theory of Cognitive Effort](./social/cognitive_effort_paper.md)**
+5.  **[The Game Theory of Cognitive Effort](./cognitive_effort_paper.md)**
     *   **Academic Paper Outline**: Examines the strategic dynamics underlying individual decisions to engage in cognitive effort, particularly how technology mediates these choices and their collective social consequences. Proposes a formal model incorporating temporal discount rates and technological effects.
+
+6.  **[Conversational Intelligence Calibration: Mutual Turing Tests as Distributed Cognitive Assessment](./conversation_intelligence_paper.md)**
+    *   **Academic Paper**: Proposes that intellectual discourse functions as a distributed intelligence measurement system, where participants continuously calibrate their cognitive models through recursive assessment protocols. Argues intelligence emerges dynamically through conversational interactions rather than being a fixed property.
 
 ## Technical Aspects
 
