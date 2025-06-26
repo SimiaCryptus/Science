@@ -17,15 +17,10 @@ body {
     radial-gradient(circle at 80% 20%, #ff00ff 0%, transparent 50%),
     radial-gradient(circle at 40% 40%, #00ffff 0%, transparent 50%),
     linear-gradient(135deg, #000000 0%, #1a0033 50%, #000000 100%);
-  background-attachment: scroll;
+  background-attachment: fixed;
   color: #00ff41;
   text-shadow: 0 0 5px #00ff41;
-  animation: matrix-rain 20s linear infinite;
   overflow-x: hidden;
-}
-@keyframes matrix-rain {
-  0% { background-position: 0% 0%; }
-  100% { background-position: 100% 100%; }
 }
 /* GLITCH EFFECTS */
 .glitch {
@@ -246,7 +241,7 @@ body {
   padding: 30px 0;
   border-top: 3px solid #ff00ff;
   font-size: 0.9em;
-  color: #00ff41;
+  color: #00ff00;
   background: 
     repeating-linear-gradient(
       45deg,
@@ -255,7 +250,7 @@ body {
       #ff00ff11 10px,
       #ff00ff11 20px
     );
-  text-shadow: 0 0 5px #00ff41;
+  text-shadow: 0 0 5px #00ff00;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -468,6 +463,11 @@ pre code {
 .blink {
   animation: blink 1s infinite;
 }
+.site-footer .blink {
+  color: #ff0000;
+  font-weight: bold;
+  text-shadow: 0 0 10px #ff0000;
+}
 
 .marquee {
   background: linear-gradient(90deg, #ff00ff, #00ffff, #ff00ff);
@@ -528,18 +528,18 @@ pre code {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  z-index: -1;
+  z-index: -10;
   overflow: hidden;
-  opacity: 0.3;
+  opacity: 0.15;
 }
 .matrix-column {
   position: absolute;
   top: -100vh;
-  color: #00ff41;
+  color: #00ff00;
   font-family: 'Share Tech Mono', monospace;
   font-size: 14px;
   line-height: 1.2;
-  text-shadow: 0 0 5px #00ff41;
+  text-shadow: 0 0 8px #00ff00;
   animation: matrix-fall linear infinite;
   white-space: pre;
   width: 20px;
