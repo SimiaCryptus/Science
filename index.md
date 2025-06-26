@@ -6,7 +6,6 @@ title: Welcome
 ---
 
 # Welcome to the Science Project Showcase
-This site hosts documentation, research papers, and proposals from various scientific and conceptual explorations. Browse through different categories to discover innovative ideas and theoretical frameworks.
 This site hosts documentation, research papers, and proposals from various scientific and conceptual explorations. Explore cutting-edge ideas across multiple domains of knowledge.
 Explore papers and simulations related to social dynamics, institutional analysis, and cognitive studies.
 
@@ -27,6 +26,5 @@ Navigate through the different sections to find information:
 *   **[Projects](./projects/)**: Discover various project papers and proposals.
     *   [Orbital Dynamics Paper](./projects/orbital_dynamics_paper.html)
     *   [Metacognitive Layer Paper](./projects/metacognitive_layer_paper.html)
-*   **[My Profile](./profile.html)**
 
 You can also browse the [main repository README](./README.html) for more general information.
