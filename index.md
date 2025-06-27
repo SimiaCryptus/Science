@@ -35,6 +35,7 @@ These works embody a particular approach to theoretical exploration:
 * **[Topological Analysis of Knots](projects/knots.md)** - Novel approach to knot theory using distance matrix representations and persistent homology
 * **[Entropy-Optimized Permutation Trees](projects/bwt_tree_proposal.md)** - Information-theoretic data structures for bijective string transforms
 * **[Scientific Method 2.0](projects/scientific_method_proposal.md)** - AI-agent framework for accelerated discovery in economics and sociology
+* **[Formal Grammar Lookahead for Constrained LLM Generation](projects/grammar_lookahead_proposal.md)** - Advanced constraint mechanisms for structured text generation using reachability analysis
 
 
 ### 🌌 [SciFi Concepts](scifi/)
