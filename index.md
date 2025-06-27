@@ -17,55 +17,45 @@ What unifies this collection is not merely interdisciplinary breadth, but a conv
 
 These works embody a particular approach to theoretical exploration:
 
-- **Speculative Rigor**: Bold hypotheses grounded in mathematical formalism
-- **Cross-Disciplinary Synthesis**: Finding unity across seemingly unrelated fields
-- **AI-Augmented Discovery**: Using LLMs as intellectual partners in formalizing intuitions
-- **Pattern Recognition**: Identifying deep structures that manifest across scales
-- **Mathematical Beauty**: Seeking elegant frameworks that reveal hidden simplicities
+* **Speculative Rigor**: Bold hypotheses grounded in mathematical formalism
+* **Cross-Disciplinary Synthesis**: Finding unity across seemingly unrelated fields
+* **AI-Augmented Discovery**: Using LLMs as intellectual partners in formalizing intuitions
+* **Pattern Recognition**: Identifying deep structures that manifest across scales
+* **Mathematical Beauty**: Seeking elegant frameworks that reveal hidden simplicities
 
 ## 📚 Featured Collections
 
 ### 🔬 [Projects](projects/)
 *Practical computational frameworks and research proposals with implementation specifications*
 
-**[Geometric Optimization Framework](projects/geometric_optimization_proposal.md)** - Universal principles for discovering optimal structures through geometric optimization on parameter manifolds
-
-**[Parametric Metacognitive Orchestration](projects/metacognitive_layer_paper.md)** - Architecture for explicit cognitive requirement specification in foundation model interactions
-
-
-**[Open Orbital Dynamics Platform](projects/orbital_dynamics_paper.md)** - Democratizing advanced space mission design through unified computational frameworks
-**[Volumetric Density Trees](projects/volumetric_density_tree_proposal.md)** - Hierarchical density estimation revealing the deep connection between tree structures and geometric representation
-**[Topological Analysis of Knots](projects/knots.md)** - Novel approach to knot theory using distance matrix representations and persistent homology
-**[Entropy-Optimized Permutation Trees](projects/bwt_tree_proposal.md)** - Information-theoretic data structures for bijective string transforms
-**[Scientific Method 2.0](projects/scientific_method_proposal.md)** - AI-agent framework for accelerated discovery in economics and sociology
+* **[Geometric Optimization Framework](projects/geometric_optimization_proposal.md)** - Universal principles for discovering optimal structures through geometric optimization on parameter manifolds
+* **[Parametric Metacognitive Orchestration](projects/metacognitive_layer_paper.md)** - Architecture for explicit cognitive requirement specification in foundation model interactions
+* **[Open Orbital Dynamics Platform](projects/orbital_dynamics_paper.md)** - Democratizing advanced space mission design through unified computational frameworks
+* **[Volumetric Density Trees](projects/volumetric_density_tree_proposal.md)** - Hierarchical density estimation revealing the deep connection between tree structures and geometric representation
+* **[Topological Analysis of Knots](projects/knots.md)** - Novel approach to knot theory using distance matrix representations and persistent homology
+* **[Entropy-Optimized Permutation Trees](projects/bwt_tree_proposal.md)** - Information-theoretic data structures for bijective string transforms
+* **[Scientific Method 2.0](projects/scientific_method_proposal.md)** - AI-agent framework for accelerated discovery in economics and sociology
 
 
 ### 🌌 [SciFi Concepts](scifi/)
 *Advanced theoretical physics and speculative computational models*
 
-**[Abstract Computational Architectures on Quantum Graph Substrates](scifi/dynamic_quantum_graphs.md)** - Mathematical framework for computation on dynamic quantum graphs with applications to distributed algorithms and spacetime emergence
-
-**[Quantum-Coherent Nuclear Fusion in Superfluid Helium](scifi/superfluid_fusion_proposal.md)** - Novel approach to controlled fusion leveraging macroscopic quantum coherence
-
-**[Observer-Dependent Spacetime Emergence](scifi/quantum_spacetime_paper.md)** - Unified framework where spacetime emerges as observer-dependent projections of atemporal quantum foam
-**[Quantum Field Consciousness Orchestration](scifi/neural_fabric_proposal.md)** - Revolutionary computational paradigm interfacing with the conscious substrate of quantum fields
-**[Quantum Substrate Manipulation](scifi/multiverse_router_paper.md)** - Highly speculative framework for superluminal communication and multiverse access
+* **[Abstract Computational Architectures on Quantum Graph Substrates](scifi/dynamic_quantum_graphs.md)** - Mathematical framework for computation on dynamic quantum graphs with applications to distributed algorithms and spacetime emergence
+* **[Quantum-Coherent Nuclear Fusion in Superfluid Helium](scifi/superfluid_fusion_proposal.md)** - Novel approach to controlled fusion leveraging macroscopic quantum coherence
+* **[Observer-Dependent Spacetime Emergence](scifi/quantum_spacetime_paper.md)** - Unified framework where spacetime emerges as observer-dependent projections of atemporal quantum foam
+* **[Quantum Field Consciousness Orchestration](scifi/neural_fabric_proposal.md)** - Revolutionary computational paradigm interfacing with the conscious substrate of quantum fields
+* **[Quantum Substrate Manipulation](scifi/multiverse_router_paper.md)** - Highly speculative framework for superluminal communication and multiverse access
 
 
 ### 🏛️ [Social Sciences](social/)
 *Computational models of collective behavior and institutional dynamics*
 
-**[Dynamic Multi-Agent Modeling of Social Truth Formation](social/social_truth_proposal.md)** - Computational framework using cellular automata and game theory to understand how social truths emerge and stabilize
-**[Computational Modeling of Post-Scarcity Economic Equilibria](social/post_scarcity_proposal.md)** - Analysis of economic systems under conditions of material abundance
-
-
-**[The Psychopath Feedback Loop](social/institutional_decay_analysis.md)** - Analysis of institutional decay through agent-based modeling of perverse selection pressures
-
-**[Perverse Incentives and Institutional Capture](social/game_theory_ethics.md)** - Game-theoretic analysis of how beneficent systems become structurally misaligned with those they serve
-
-**[The Game Theory of Cognitive Effort](social/cognitive_effort_paper.md)** - Strategic dynamics underlying decisions to engage in cognitive effort and their collective social consequences
-**[Conversational Intelligence Calibration](social/conversation_intelligence_paper.md)** - How intellectual discourse functions as a distributed intelligence measurement system
-
+* **[Dynamic Multi-Agent Modeling of Social Truth Formation](social/social_truth_proposal.md)** - Computational framework using cellular automata and game theory to understand how social truths emerge and stabilize
+* **[Computational Modeling of Post-Scarcity Economic Equilibria](social/post_scarcity_proposal.md)** - Analysis of economic systems under conditions of material abundance
+* **[The Psychopath Feedback Loop](social/institutional_decay_analysis.md)** - Analysis of institutional decay through agent-based modeling of perverse selection pressures
+* **[Perverse Incentives and Institutional Capture](social/game_theory_ethics.md)** - Game-theoretic analysis of how beneficent systems become structurally misaligned with those they serve
+* **[The Game Theory of Cognitive Effort](social/cognitive_effort_paper.md)** - Strategic dynamics underlying decisions to engage in cognitive effort and their collective social consequences
+* **[Conversational Intelligence Calibration](social/conversation_intelligence_paper.md)** - How intellectual discourse functions as a distributed intelligence measurement system
 
 ## 🔬 Genesis of This Collection
 
@@ -135,7 +125,7 @@ This work emerges from a conviction that:
 
 If these ideas inspire your own work, please acknowledge their nature (whether speculative or implementation-focused) and cite appropriately.
 
----
+*--
 
 *"The universe is not only queerer than we suppose, but queerer than we can suppose." - J.B.S. Haldane*
 
