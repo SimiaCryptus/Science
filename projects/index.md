@@ -9,17 +9,17 @@ Welcome to this collection of interdisciplinary computational science projects. 
 
 ## Table of Contents
 
-1.  [Geometric Optimization Framework & GeometricPhysics Software](#1-geometric-optimization-framework--geometricphysics-software)
-2.  [Parametric Metacognitive Orchestration for Foundation Model Agents](#2-parametric-metacognitive-orchestration-for-foundation-model-agents)
-3.  [Open Orbital Dynamics Platform (OODP) & Orbital Adjoint Optimizer (OAO)](#3-open-orbital-dynamics-platform-oodp--orbital-adjoint-optimizer-oao)
-4.  [Volumetric Density Trees with Polynomial Constraints](#4-volumetric-density-trees-with-polynomial-constraints)
-5.  [Topological Analysis of Knots via Distance Matrix Representations](#5-topological-analysis-of-knots-via-distance-matrix-representations)
-6.  [Entropy-Optimized Permutation Trees for Bijective String Transforms](#6-entropy-optimized-permutation-trees-for-bijective-string-transforms)
-7.  [Scientific Method 2.0: An AI-Agent Framework for Accelerated Discovery](#7-scientific-method-20-an-ai-agent-framework-for-accelerated-discovery)
+1.  [Geometric Optimization Framework & GeometricPhysics Software](./geometric_optimization_proposal.md)
+2.  [Parametric Metacognitive Orchestration for Foundation Model Agents](./metacognitive_layer_paper.md)
+3.  [Open Orbital Dynamics Platform (OODP) & Orbital Adjoint Optimizer (OAO)](./orbital_dynamics_paper.md)
+4.  [Volumetric Density Trees with Polynomial Constraints](./volumetric_density_tree_proposal.md)
+5.  [Topological Analysis of Knots via Distance Matrix Representations](./knots.md)
+6.  [Entropy-Optimized Permutation Trees for Bijective String Transforms](./bwt_tree_proposal.md)
+7.  [Scientific Method 2.0: An AI-Agent Framework for Accelerated Discovery](./scientific_method_proposal.md)
 
 ---
 
-## 1. Geometric Optimization Framework & GeometricPhysics Software
+## 1. [Geometric Optimization Framework & GeometricPhysics Software](./geometric_optimization_proposal.md)
 
 **Overview:**
 This project proposes a novel theoretical framework, "Geometric Optimization Framework," for discovering optimal structures by applying geometric optimization techniques on parameter space manifolds. It hypothesizes that natural, efficient, and robust structures emerge across diverse domains (physics, architecture, neural networks, materials science) from such optimization. The accompanying "GeometricPhysics" software specification details a computational framework to implement and investigate these ideas, initially focusing on the emergence of Standard Model structures in physics.
@@ -39,7 +39,7 @@ This project proposes a novel theoretical framework, "Geometric Optimization Fra
 
 ---
 
-## 2. Parametric Metacognitive Orchestration for Foundation Model Agents
+## 2. [Parametric Metacognitive Orchestration for Foundation Model Agents](./metacognitive_layer_paper.md)
 
 **Overview:**
 This research paper introduces a parametric metacognitive layer designed to mediate between agentic systems and foundation models. Instead of relying on implicit task inference, this architecture allows users to explicitly specify cognitive requirements (e.g., reasoning depth, solution space characteristics, constraint density). The metacognitive layer then orchestrates foundation model interactions—including retry strategies, verification loops, and response integration—based on these parameters, aiming for more predictable, efficient, and secure model interactions.
@@ -56,7 +56,7 @@ This research paper introduces a parametric metacognitive layer designed to medi
 
 ---
 
-## 3. Open Orbital Dynamics Platform (OODP) & Orbital Adjoint Optimizer (OAO)
+## 3. [Open Orbital Dynamics Platform (OODP) & Orbital Adjoint Optimizer (OAO)](./orbital_dynamics_paper.md)
 
 **Overview:**
 This project introduces the Open Orbital Dynamics Platform (OODP), an ambitious open-source computational framework intended to democratize advanced space mission design. Inspired by platforms like TensorFlow, OODP aims to unify classical and relativistic orbital dynamics, incorporate automatic differentiation for trajectory optimization, and leverage GPU acceleration for large-scale simulations. Key components include the Orbital Adjoint Optimizer (OAO) for efficient gradient-based optimization, an adaptive numeric precision management system, and a theoretical exploration of spline geodesics as a bridge to quantum gravity.
@@ -86,7 +86,7 @@ This project introduces the Open Orbital Dynamics Platform (OODP), an ambitious 
 
 ---
 
-## 4. Volumetric Density Trees with Polynomial Constraints
+## 4. [Volumetric Density Trees with Polynomial Constraints](./volumetric_density_tree_proposal.md)
 
 **Overview:**
 This research proposal introduces Volumetric Density Trees, a novel method for modeling probability distributions, specifically targeting low-dimensional spaces (2-4D). The core innovation is the use of tree structures where nodes represent subregions defined by quadratic polynomial constraints, allowing for the modeling of complex, curved boundaries. The method addresses the challenge of efficient volume computation in these polynomial-constrained subregions through a hybrid strategy (analytical solutions and adaptive lattice sampling) and frames density estimation as a classification problem to enable entropy-based optimization.
@@ -104,7 +104,7 @@ This research proposal introduces Volumetric Density Trees, a novel method for m
 
 ---
 
-## 5. Topological Analysis of Knots via Distance Matrix Representations
+## 5. [Topological Analysis of Knots via Distance Matrix Representations](./knots.md)
 
 **Overview:**
 This project introduces a novel approach to knot theory analysis using distance matrices derived from sampled points on
@@ -129,7 +129,7 @@ KnotExplorer," an interactive software platform for exploring these concepts.
 
 ---
 
-## 6. Entropy-Optimized Permutation Trees for Bijective String Transforms
+## 6. [Entropy-Optimized Permutation Trees for Bijective String Transforms](./bwt_tree_proposal.md)
 
 **Overview:**
 This research proposal introduces the Entropy-Optimized Permutation Tree (EOPT), a novel tree-based data structure
@@ -152,7 +152,8 @@ mappings.
   full-text search), data archival, and stream processing.
   **Relevant Files:**
 * [Research Proposal: Entropy-Optimized Permutation Trees for Bijective String Transforms](./bwt_tree_proposal.md)
-## 7. Scientific Method 2.0: An AI-Agent Framework for Accelerated Discovery
+
+## 7. [Scientific Method 2.0: An AI-Agent Framework for Accelerated Discovery](./scientific_method_proposal.md)
 **Overview:**
 This proposal introduces Scientific Method 2.0, a distributed AI-agent system designed to automate and accelerate scientific discovery in economics and sociology. The framework employs specialized agents for research, modeling, experimentation, verification, and reporting, operating continuously to gather real-world data, generate hypotheses, design tests, and refine understanding. This approach addresses the fundamental challenges of data synthesis, model validation, and experimental design in social sciences while maintaining scientific rigor through computational verification.
 **Key Features:**
@@ -165,9 +166,7 @@ This proposal introduces Scientific Method 2.0, a distributed AI-agent system de
 *   **Pilot Study:** Labor market dynamics analysis examining how technological adoption patterns affect regional employment outcomes.
 **Relevant Files:**
 *   [Research Proposal: Scientific Method 2.0: An AI-Agent Framework for Accelerated Discovery in Economics and Sociology](./scientific_method_proposal.md)
----
 
 ---
-
 
 This README provides a high-level overview. For detailed information, please refer to the linked documents for each project.
