@@ -28,7 +28,12 @@ This collection includes the following key documents:
     *   **Key Concepts**: Aims to unify Loop Quantum Gravity, Causal Set Theory, and Holographic Emergence as different observational perspectives. Discusses dimensional selection via information-theoretic and anthropic constraints and outlines potential experimental predictions.
     *   **Keywords**: Quantum gravity, emergent spacetime, atemporal quantum foam, observer-dependent physics, unification, Loop Quantum Gravity, Causal Set Theory, Holography, anthropic principle.
 
-4.  **[Quantum-Coherent Nuclear Fusion in Superfluid Helium (scifi/superfluid_fusion_proposal.md)](scifi/superfluid_fusion_proposal.md)**
+4.  **[Quantum Field Consciousness Orchestration: Panpsychist Logic Pathways in Neural Fabric Computing (scifi/neural_fabric_proposal.md)](scifi/neural_fabric_proposal.md)**
+    *   **Focus**: A revolutionary computational paradigm that interfaces directly with the conscious substrate of quantum fields to explore exotic logical pathways beyond conventional reasoning systems.
+    *   **Key Concepts**: Proposes that consciousness is fundamental to quantum fields, and computation becomes a process of orchestrating distributed conscious elements. Explores fuzzy, paraconsistent, modal, quantum, and intuitionistic logic frameworks through chaos-controlled neural tissue fabrics.
+    *   **Keywords**: Panpsychism, quantum consciousness, exotic logic systems, neural fabric computing, Integrated Information Theory, chaos control, consciousness orchestration, non-Boolean computation.
+
+5.  **[Quantum-Coherent Nuclear Fusion in Superfluid Helium (scifi/superfluid_fusion_proposal.md)](scifi/superfluid_fusion_proposal.md)**
     *   **Focus**: A detailed research proposal for a novel approach to nuclear fusion that aims to exploit the macroscopic quantum coherence of superfluid helium-4.
     *   **Key Concepts**: Leverages the collective quantum wavefunction of superfluid helium to enable coherent tunneling events and symmetry-breaking phenomena, potentially reducing fusion barriers. Proposes vortex-mediated catalysis, muon-catalyzed enhancement, and laser implosion integration for clean energy generation and on-demand synthesis of heavy elements.
     *   **Keywords**: Nuclear fusion, superfluid helium, quantum coherence, macroscopic quantum phenomena, heavy element synthesis, muon-catalyzed fusion, laser implosion, vortex dynamics.
