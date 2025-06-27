@@ -15,6 +15,7 @@ Welcome to this collection of interdisciplinary computational science projects. 
 4.  [Volumetric Density Trees with Polynomial Constraints](#4-volumetric-density-trees-with-polynomial-constraints)
 5.  [Topological Analysis of Knots via Distance Matrix Representations](#5-topological-analysis-of-knots-via-distance-matrix-representations)
 6.  [Entropy-Optimized Permutation Trees for Bijective String Transforms](#6-entropy-optimized-permutation-trees-for-bijective-string-transforms)
+7.  [Scientific Method 2.0: An AI-Agent Framework for Accelerated Discovery](#7-scientific-method-20-an-ai-agent-framework-for-accelerated-discovery)
 
 ---
 
@@ -151,7 +152,22 @@ mappings.
   full-text search), data archival, and stream processing.
   **Relevant Files:**
 * [Research Proposal: Entropy-Optimized Permutation Trees for Bijective String Transforms](./bwt_tree_proposal.md)
+## 7. Scientific Method 2.0: An AI-Agent Framework for Accelerated Discovery
+**Overview:**
+This proposal introduces Scientific Method 2.0, a distributed AI-agent system designed to automate and accelerate scientific discovery in economics and sociology. The framework employs specialized agents for research, modeling, experimentation, verification, and reporting, operating continuously to gather real-world data, generate hypotheses, design tests, and refine understanding. This approach addresses the fundamental challenges of data synthesis, model validation, and experimental design in social sciences while maintaining scientific rigor through computational verification.
+**Key Features:**
+*   **Multi-Agent Architecture:** Five specialized agent types (Research, Model, Experiment, Verification, Reporting) work collaboratively to automate the scientific process.
+*   **Continuous Discovery:** Agents operate 24/7 to process real-world data streams, generate testable hypotheses, and iteratively refine models based on empirical feedback.
+*   **Social Science Focus:** Specifically designed for economics and sociology where traditional experimental methods are often impractical or unethical.
+*   **Computational Verification:** All models are implemented in TypeScript/JavaScript with automated testing, ensuring reproducibility and validation.
+*   **Real-World Data Integration:** Connects to government databases, financial markets, social media APIs, academic publications, and survey repositories.
+*   **Ethical Framework:** Embedded ethics protocols, human oversight requirements, and transparent algorithmic decision-making.
+*   **Pilot Study:** Labor market dynamics analysis examining how technological adoption patterns affect regional employment outcomes.
+**Relevant Files:**
+*   [Research Proposal: Scientific Method 2.0: An AI-Agent Framework for Accelerated Discovery in Economics and Sociology](./scientific_method_proposal.md)
+---
 
 ---
+
 
 This README provides a high-level overview. For detailed information, please refer to the linked documents for each project.
