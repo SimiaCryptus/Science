@@ -18,7 +18,6 @@
   {% include footer.html %}
   <!-- JavaScript for Effects -->
   <script>
-    // Floating Particles
     function createParticles() {
       const particleContainer = document.getElementById('particleField');
       setInterval(() => {
@@ -36,18 +35,10 @@
         }
       }, 500);
     }
+    
     // Initialize effects when page loads
     document.addEventListener('DOMContentLoaded', function() {
-      createMatrixRain();
       createParticles();
-      // Add glitch effect to random text elements
-      const textElements = document.querySelectorAll('h1, h2, h3');
-      textElements.forEach(el => {
-        if (Math.random() > 0.7) {
-          el.classList.add('glitch-text');
-          el.setAttribute('data-text', el.textContent);
-        }
-      });
     });
   </script>
 </body>

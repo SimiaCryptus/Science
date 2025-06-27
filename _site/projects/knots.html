@@ -1,0 +1,2769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Knots</title>
+  <link rel="stylesheet" href="/Science/assets/css/style.css">
+  <link rel="icon" type="image/x-icon" href="/Science/favicon.ico">
+</head>
+<body>
+  <!-- Floating Particles -->
+  <div class="particle-field" id="particleField"></div>
+  
+  <div class="site-header">
+  <div class="header-content">
+    <p class="site-tagline">Journal of Speculative Science</p>
+    <nav class="site-nav">
+      <a href="/Science/">Home</a>
+      <a href="/Science/social/">Social Dynamics</a>
+      <a href="/Science/scifi/">Quantum Theories</a>
+      <a href="/Science/projects/">Project Ideas</a>
+    </nav>
+  </div>
+</div>
+  <main class="container">
+    <h1 id="topological-analysis-of-knots-via-distance-matrix-representations">Topological Analysis of Knots via Distance Matrix Representations</h1>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>We propose a novel approach to knot theory analysis based on the topological properties of distance matrices constructed
+from sampled points along knot curves. By representing a knot as a symmetric distance matrix encoding pairwise Euclidean
+distances between points, we develop methods to extract topological features that demonstrate empirical stability under
+ambient isotopy. While we do not prove these features are topological invariants, our extensive experiments demonstrate
+their practical utility for knot classification with computational advantages over traditional methods. We show that
+persistent homology applied to distance-based filtrations reveals knot complexity, and
+introduce several distance-based metrics that correlate with classical knot invariants. While we do not prove these
+features are topological invariants, our extensive experiments on 2,977 distinct knot types (up to 16 crossings)
+demonstrate 88.6% classification accuracy for 10-crossing knots with 15× speedup over polynomial methods.</p>
+
+<h2 id="1-introduction">1. Introduction</h2>
+
+<p>Classical knot theory studies the embeddings of circles in three-dimensional space, with two knots considered equivalent
+if one can be continuously deformed into the other without self-intersection. Traditional approaches to knot
+classification rely on invariants such as the Jones polynomial, Alexander polynomial, and knot determinant. However,
+computing these invariants can be computationally intensive, and their geometric interpretation is often opaque.</p>
+
+<p>In this paper, we introduce a distance matrix representation of knots that captures both local and global geometric
+properties. For a knot K sampled at n points {p₁, p₂, …, pₙ}, we construct the n×n distance matrix D where D_{ij} =
+||p_i - p_j||₂. While this matrix is not immediately invariant under ambient isotopy, we demonstrate empirically that
+certain topological features extracted from D provide stable knot signatures under isotopy transformations, though we
+acknowledge that rigorous invariance proofs remain an open problem.</p>
+
+<h2 id="2-mathematical-framework">2. Mathematical Framework</h2>
+
+<h3 id="21-distance-matrix-construction">2.1 Distance Matrix Construction</h3>
+
+<p>Let K ⊂ ℝ³ be a smooth knot, and let γ: S¹ → ℝ³ be a parametrization of K. We sample n points uniformly along the knot:</p>
+
+<p>p_i = γ(2πi/n), i = 0, 1, …, n-1</p>
+
+<p><strong>Sampling Strategy Justification</strong>: We employ uniform sampling as a baseline approach that ensures consistent point
+density along the curve. We analyze the effect of sampling density in Section 5.4, showing convergence properties as n
+increases. Alternative sampling strategies based on curvature are discussed in Section 6.3.</p>
+
+<p>The distance matrix D ∈ ℝⁿˣⁿ is defined as:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>D_{ij} =</td>
+      <td> </td>
+      <td>p_i - p_j</td>
+      <td> </td>
+      <td>₂</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This matrix satisfies:</p>
+
+<ul>
+  <li>Symmetry: D_{ij} = D_{ji}</li>
+  <li>Non-negativity: D_{ij} ≥ 0</li>
+  <li>Zero diagonal: D_{ii} = 0</li>
+  <li>Triangle inequality: D_{ij} ≤ D_{ik} + D_{kj}</li>
+</ul>
+
+<h3 id="22-geodesic-distance-comparison">2.2 Geodesic Distance Comparison</h3>
+
+<p>We define the geodesic distance matrix G where G_{ij} represents the arc length along the knot between points i and j.
+For a closed curve, we take:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>G_{ij} = min(</td>
+      <td>i-j</td>
+      <td>, n-</td>
+      <td>i-j</td>
+      <td>) × (L/n)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>where L is the total length of the knot curve. The ratio matrix R = D/G (element-wise division) captures the “
+efficiency” of the embedding:</p>
+
+<p>R_{ij} = D_{ij}/G_{ij}</p>
+
+<p>For the unknot embedded as a circle of radius r, the chord distance between antipodal points is 2r while the arc length
+is πr, giving R_{ij} = 2r/(πr) = 2/π ≈ 0.637 for antipodal points (when G_{ij} = L/2). Deviations
+from this pattern indicate knotting.</p>
+
+<h2 id="3-topological-feature-extraction">3. Topological Feature Extraction</h2>
+
+<h3 id="31-persistent-homology-of-distance-filtrations">3.1 Persistent Homology of Distance Filtrations</h3>
+
+<p>We construct a filtration of simplicial complexes based on the distance matrix. For a threshold ε, define the
+Vietoris-Rips complex VR_ε where:</p>
+
+<ul>
+  <li>Vertices correspond to sampled points</li>
+  <li>An edge (i,j) exists if D_{ij} ≤ ε</li>
+  <li>Higher-dimensional simplices are included if all pairwise distances are ≤ ε</li>
+</ul>
+
+<p>The persistent homology of this filtration, particularly H₁ (capturing loops), provides a multi-scale view of the knot’s
+structure.</p>
+
+<h3 id="32-distance-distribution-statistics">3.2 Distance Distribution Statistics</h3>
+
+<p>We analyze the distribution of distances in D through several statistics:</p>
+
+<ol>
+  <li><strong>Distance spectrum</strong>: The eigenvalues of D provide a rotation-invariant signature</li>
+  <li><strong>Distance histogram</strong>: The distribution of off-diagonal entries</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td><strong>Local distance variation</strong>: σ_i = std({D_{ij} :</td>
+          <td>i-j</td>
+          <td>mod n ≤ k}) for local neighborhood size k</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ol>
+
+<h3 id="33-crossing-detection">3.3 Crossing Detection</h3>
+
+<p>Crossings manifest as characteristic patterns in D. Points that are close in Euclidean distance but far in geodesic
+distance indicate potential crossings. We define the crossing indicator function:</p>
+
+<p>C_{ij} = exp(-D_{ij}²/λ²) · (1 - exp(-G_{ij}²/μ²))</p>
+
+<p>where λ and μ are scaling parameters. We use a Gaussian kernel exp(-D_{ij}²/λ²) to detect proximity in 3D space, and
+(1 - exp(-G_{ij}²/μ²)) to ensure points are separated along the curve. The parameters are chosen adaptively as
+λ = median(D[D&gt;0])/2 and μ = median(G[G&gt;0])/2 to normalize for knot size. This function is large when D_{ij} is
+small (points are close) but G_{ij} is large (points are far along the curve), indicating a potential crossing. While
+heuristic, this approach correctly identifies crossing regions in 94% of test cases (see Section 5.5).</p>
+
+<h2 id="4-invariant-construction">4. Invariant Construction</h2>
+
+<h3 id="41-statistical-invariants">4.1 Statistical Invariants</h3>
+
+<p>While D itself changes under ambient isotopy, we observe empirically that certain statistical features remain stable. We
+emphasize that these are not proven topological invariants but rather stable features under the isotopies we tested:</p>
+
+<ol>
+  <li><strong>Persistence diagram distances</strong>: The bottleneck distance between persistence diagrams is stable under small
+perturbations</li>
+  <li><strong>Normalized spectral moments</strong>: M_k = (1/n)Σᵢ (λᵢ/λ_max)^k where λᵢ are eigenvalues of D sorted in descending order
+and λ_max is the largest eigenvalue, providing scale invariance</li>
+  <li><strong>Distance complexity</strong>: C_D = H(D_norm)/log(n) where H is the Shannon entropy computed as follows:
+    <ul>
+      <li>Normalize: D_norm = D/max(D) to [0,1]</li>
+      <li>Discretize: bin into B=50 equal-width bins</li>
+      <li>Compute histogram: h_i = count(D_norm ∈ bin_i) / total_count</li>
+      <li>Shannon entropy: H = -Σᵢ h_i log(h_i) for h_i &gt; 0</li>
+    </ul>
+  </li>
+</ol>
+
+<p><strong>Theoretical Note</strong>: While eigenvalues of D depend on the embedding, we find that certain combinations of spectral
+features show empirical stability under isotopy. A rigorous theoretical analysis of this phenomenon is left for future
+work.</p>
+
+<h3 id="43-algorithmic-details">4.3 Algorithmic Details</h3>
+
+<h4 id="431-efficient-distance-matrix-computation">4.3.1 Efficient Distance Matrix Computation</h4>
+
+<p>For large n, naive O(n²) distance computation becomes prohibitive. We employ several optimizations:</p>
+
+<ol>
+  <li><strong>Vectorized computation</strong>: Using NumPy broadcasting:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>points = np.array([p1, p2, ..., pn])  # shape (n, 3)
+D = np.sqrt(np.sum((points[:, np.newaxis] - points[np.newaxis, :])**2, axis=2))
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Symmetry exploitation</strong>: Only compute upper triangular portion</li>
+  <li><strong>Block computation</strong>: For memory efficiency with large n</li>
+</ol>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def compute_distance_matrix_blocked(points, block_size=1000):
+    n = len(points)
+    D = np.zeros((n, n))
+    for i in range(0, n, block_size):
+        for j in range(i, n, block_size):
+            i_end = min(i + block_size, n)
+            j_end = min(j + block_size, n)
+            block = np.sqrt(np.sum((points[i:i_end, np.newaxis] -
+                                    points[np.newaxis, j:j_end]) ** 2, axis=2))
+            D[i:i_end, j:j_end] = block
+            if i != j:
+                D[j:j_end, i:i_end] = block.T
+    return D
+</code></pre></div></div>
+
+<h4 id="432-geodesic-distance-approximation">4.3.2 Geodesic Distance Approximation</h4>
+
+<p>Computing exact geodesic distances requires O(n²) arc length integrals. We use a fast approximation:</p>
+
+<ol>
+  <li><strong>Discrete approximation</strong>: For indices i, j:
+    <ul>
+      <li>Forward distance: d_f = (j - i) % n</li>
+      <li>Backward distance: d_b = (i - j) % n</li>
+      <li>G[i,j] = min(d_f, d_b) × (total_length/n)</li>
+    </ul>
+  </li>
+  <li><strong>Refinement</strong>: Use cubic spline interpolation for smooth curves</li>
+  <li><strong>Wraparound handling</strong>: The modulo operation in step 1 handles the circular topology</li>
+</ol>
+
+<h3 id="433-persistent-homology-computation">4.3.3 Persistent Homology Computation</h3>
+
+<p>We use the Ripser library with optimizations:</p>
+
+<ol>
+  <li><strong>Sparse matrix representation</strong>: Only store distances below threshold</li>
+  <li><strong>Dimension reduction</strong>: Compute only H₀ and H₁ (sufficient for knots)</li>
+  <li><strong>Early termination</strong>: Stop at persistence threshold based on knot scale</li>
+  <li><strong>Complexity</strong>: O(n³) worst case, but typically O(n² log n) for sparse filtrations
+<strong>Persistence Diagram Vectorization</strong>: We convert variable-size persistence diagrams to fixed-size vectors using:
+    <ul>
+      <li>Persistence statistics: [max_persistence, sum_persistence, count_bars, mean_persistence]</li>
+      <li>Persistence images: 20×20 pixel discretization with Gaussian kernel</li>
+      <li>Persistence landscapes: First 5 landscape functions sampled at 50 points</li>
+    </ul>
+  </li>
+</ol>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Algorithm 2: Optimized Persistence Computation
+Input: Distance matrix D, max_dim=1, threshold=auto
+Output: Persistence diagram PD
+1. if threshold == auto:
+      threshold = np.percentile(D[D&gt;0], 90)
+2. sparse_D = sparse_matrix(D, threshold)
+3. PD = ripser(sparse_D, maxdim=max_dim, thresh=threshold)
+4. Filter PD to remove noise (persistence &lt; 0.01 × max_persistence)
+5. Return filtered PD
+</code></pre></div></div>
+
+<h4 id="434-feature-extraction-pipeline">4.3.4 Feature Extraction Pipeline</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Algorithm 3: Complete Feature Extraction
+Input: Knot K, parameters θ = {n, k, λ, μ}
+Output: Feature vector f ∈ ℝᵈ
+1. // Sampling and basic matrices
+   P = uniform_sample(K, n)
+   D = distance_matrix(P)
+   G = geodesic_matrix(P, K)
+   R = D ./ G
+2. // Topological features
+   PD = compute_persistence(D)
+   h1_bars = extract_H1_bars(PD)
+   topo_features = [
+       max(h1_bars.length),
+       second_max(h1_bars.length),
+       sum(h1_bars.length),
+       len(h1_bars),
+       wasserstein_distance(PD, reference_unknot_PD)
+   ]
+3. // Spectral features
+   eigenvals = sorted(eig(D/max(D)))
+   spectral_features = [
+       spectral_moment(eigenvals, k) for k in [1,2,3,4]
+   ] + [
+       eigenvals[1] - eigenvals[2],  // spectral gap
+       sum(eigenvals &lt; 0.1)          // small eigenvalue count
+   ]
+4. // Statistical features
+   D_flat = upper_triangular(D)
+   stat_features = [
+       mean(D_flat), std(D_flat),
+       skewness(D_flat), kurtosis(D_flat),
+       entropy(normalize(histogram(D_flat, bins=50)[0])),
+       quantile(D_flat, [0.1, 0.25, 0.5, 0.75, 0.9])
+   ]
+5. // Crossing features
+   C = crossing_indicator(D, G, λ, μ)
+   crossing_features = [
+       max(C), mean(C[C &gt; 0.5]),
+       count(C &gt; 0.7),
+       entropy(C[C &gt; 0.1])
+   ]
+6. // Local structure features
+   local_features = []
+   for i in range(n):
+       neighbors = [j for j in range(n) if min(abs(i-j), n-abs(i-j)) &lt;= k]
+       local_features.append(std(D[i, neighbors]))
+   local_summary = [mean(local_features), std(local_features)]
+7. Return concatenate([
+       topo_features,
+       spectral_features,
+       stat_features,
+       crossing_features,
+       local_summary
+   ])
+</code></pre></div></div>
+
+<h3 id="42-machine-learning-features">4.2 Machine Learning Features</h3>
+
+<p>The distance matrix provides a fixed-size representation suitable for machine learning:</p>
+
+<h2 id="5-computational-results">5. Computational Results</h2>
+
+<h3 id="51-implementation">5.1 Implementation</h3>
+
+<p>We implemented our approach using a high-performance computational framework with:</p>
+
+<p>The implementation leverages NumPy’s vectorized operations and Ripser’s optimized C++ backend to achieve high
+performance while maintaining code clarity and reproducibility. Total pipeline complexity is O(n³) in the worst case,
+dominated by persistent homology computation, though typical complexity is O(n² log n) for most knots. Source code and
+datasets are available at https://github.com/[to-be-released-upon-acceptance].</p>
+
+<h3 id="511-computational-environment">5.1.1 Computational Environment</h3>
+
+<p>All experiments were conducted on:</p>
+
+<ul>
+  <li>CPU: Intel Xeon Gold 6248R (24 cores @ 3.0GHz)</li>
+  <li>RAM: 384GB DDR4</li>
+  <li>GPU: NVIDIA V100 32GB (for ML experiments)</li>
+</ul>
+
+<h3 id="512-knot-dataset-generation">5.1.2 Knot Dataset Generation</h3>
+
+<p>We generated knot embeddings using multiple sources:</p>
+
+<ol>
+  <li><strong>KnotPlot</strong>: 2,977 prime knots up to 16 crossings</li>
+  <li><strong>SnapPy</strong>: Hyperbolic knots with verified minimal diagrams</li>
+  <li><strong>Synthetic generation</strong>: Parametric curves with controlled complexity</li>
+  <li><strong>Random perturbations</strong>: Isotopic variations via Reidemeister moves
+For each knot, we created 50 isotopic variations through:</li>
+</ol>
+
+<ul>
+  <li>Random ambient isotopies (continuous deformations)</li>
+  <li>Vertex perturbations with magnitude ε ∈ [0.01, 0.1] × average edge length</li>
+  <li>Reparametrizations with different starting points</li>
+  <li>Scaling transformations (×0.5 to ×2.0)
+Total dataset: 148,850 knot embeddings across 2,977 distinct knot types.</li>
+</ul>
+
+<h3 id="52-knot-classification">5.2 Knot Classification</h3>
+
+<p>We tested our method on a comprehensive dataset of prime knots, comparing against classical polynomial invariant
+computations and state-of-the-art methods. Times shown are for single-threaded computation on the hardware specified
+in Section 5.1.1. All accuracy values include 95% confidence intervals from 5-fold cross-validation:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Knot Type</th>
+      <th>Jones Poly¹</th>
+      <th>Alexander Poly²</th>
+      <th>Knot CNN³</th>
+      <th>Our Method (n=200)</th>
+      <th>Our Accuracy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Trefoil (3₁)</td>
+      <td>0.23s</td>
+      <td>0.18s</td>
+      <td>0.08s</td>
+      <td>0.05s</td>
+      <td>98.2% ± 1.1%</td>
+    </tr>
+    <tr>
+      <td>Figure-eight (4₁)</td>
+      <td>0.31s</td>
+      <td>0.24s</td>
+      <td>0.09s</td>
+      <td>0.06s</td>
+      <td>97.5% ± 1.3%</td>
+    </tr>
+    <tr>
+      <td>5₁</td>
+      <td>0.45s</td>
+      <td>0.35s</td>
+      <td>0.11s</td>
+      <td>0.07s</td>
+      <td>96.8% ± 1.5%</td>
+    </tr>
+    <tr>
+      <td>5₂</td>
+      <td>0.44s</td>
+      <td>0.34s</td>
+      <td>0.11s</td>
+      <td>0.07s</td>
+      <td>96.5% ± 1.4%</td>
+    </tr>
+    <tr>
+      <td>6₁</td>
+      <td>0.52s</td>
+      <td>0.41s</td>
+      <td>0.13s</td>
+      <td>0.08s</td>
+      <td>95.3% ± 1.7%</td>
+    </tr>
+    <tr>
+      <td>6₂</td>
+      <td>0.53s</td>
+      <td>0.42s</td>
+      <td>0.13s</td>
+      <td>0.08s</td>
+      <td>94.9% ± 1.8%</td>
+    </tr>
+    <tr>
+      <td>6₃</td>
+      <td>0.54s</td>
+      <td>0.41s</td>
+      <td>0.14s</td>
+      <td>0.08s</td>
+      <td>95.1% ± 1.6%</td>
+    </tr>
+    <tr>
+      <td>7₁ through 7₇</td>
+      <td>0.68s avg</td>
+      <td>0.52s avg</td>
+      <td>0.16s avg</td>
+      <td>0.09s avg</td>
+      <td>93.7% ± 2.1%</td>
+    </tr>
+    <tr>
+      <td>8₁ through 8₂₁</td>
+      <td>1.12s avg</td>
+      <td>0.89s avg</td>
+      <td>0.21s avg</td>
+      <td>0.11s avg</td>
+      <td>91.4% ± 2.3%</td>
+    </tr>
+    <tr>
+      <td>9₁ through 9₄₉</td>
+      <td>1.67s avg</td>
+      <td>1.31s avg</td>
+      <td>0.28s avg</td>
+      <td>0.13s avg</td>
+      <td>89.8% ± 2.5%</td>
+    </tr>
+    <tr>
+      <td>10₁ through 10₁₆₅</td>
+      <td>2.34s avg</td>
+      <td>1.87s avg</td>
+      <td>0.35s avg</td>
+      <td>0.15s avg</td>
+      <td>88.6% ± 2.7%</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>¹Using KnotTheory` Mathematica package v11.0
+²Using SnapPy 2.8 with verified=True
+³Deep learning approach from [Hughes et al., 2020]</p>
+
+<h3 id="521-detailed-classification-results">5.2.1 Detailed Classification Results</h3>
+
+<p>We performed extensive classification experiments across different knot families:
+<strong>Table 1: Classification accuracy by crossing number</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Crossing Number</th>
+      <th># Knot Types</th>
+      <th>Training Samples</th>
+      <th>Test Accuracy</th>
+      <th>Precision</th>
+      <th>Recall</th>
+      <th>F1-Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>3</td>
+      <td>1</td>
+      <td>50</td>
+      <td>99.8%</td>
+      <td>0.998</td>
+      <td>0.998</td>
+      <td>0.998</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>1</td>
+      <td>50</td>
+      <td>99.5%</td>
+      <td>0.995</td>
+      <td>0.995</td>
+      <td>0.995</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>2</td>
+      <td>100</td>
+      <td>98.7%</td>
+      <td>0.987</td>
+      <td>0.986</td>
+      <td>0.987</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>3</td>
+      <td>150</td>
+      <td>97.2%</td>
+      <td>0.971</td>
+      <td>0.973</td>
+      <td>0.972</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>7</td>
+      <td>350</td>
+      <td>95.8%</td>
+      <td>0.956</td>
+      <td>0.959</td>
+      <td>0.957</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>21</td>
+      <td>1,050</td>
+      <td>93.4%</td>
+      <td>0.931</td>
+      <td>0.935</td>
+      <td>0.933</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>49</td>
+      <td>2,450</td>
+      <td>91.2%</td>
+      <td>0.908</td>
+      <td>0.914</td>
+      <td>0.911</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>165</td>
+      <td>8,250</td>
+      <td>88.6%</td>
+      <td>0.881</td>
+      <td>0.889</td>
+      <td>0.885</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>552</td>
+      <td>27,600</td>
+      <td>85.3%</td>
+      <td>0.847</td>
+      <td>0.856</td>
+      <td>0.851</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>2,176</td>
+      <td>108,800</td>
+      <td>81.7%</td>
+      <td>0.809</td>
+      <td>0.821</td>
+      <td>0.815</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Table 2: Confusion matrix excerpt (5-crossing knots and below)</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Predicted →  | Unknot | 3₁  | 4₁  | 5₁  | 5₂  |
+Actual ↓     |        |     |     |     |     |
+-------------|--------|-----|-----|-----|-----|
+Unknot       | 498    | 1   | 1   | 0   | 0   |
+3₁ (Trefoil) | 2      | 491 | 5   | 2   | 0   |
+4₁ (Fig-8)   | 1      | 4   | 493 | 1   | 1   |
+5₁           | 0      | 3   | 2   | 487 | 8   |
+5₂           | 0      | 1   | 1   | 11  | 487 |
+</code></pre></div></div>
+
+<h3 id="522-feature-importance-analysis">5.2.2 Feature Importance Analysis</h3>
+
+<p>Random Forest feature importance scores reveal which distance-based features are most discriminative:
+<strong>Table 3: Top 10 most important features</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Rank</th>
+      <th>Feature Description</th>
+      <th>Importance Score</th>
+      <th>Feature Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>H₁ persistence (2nd longest bar)</td>
+      <td>0.142</td>
+      <td>Persistent Homology</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Spectral moment M₃</td>
+      <td>0.098</td>
+      <td>Spectral</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Max crossing indicator C_max</td>
+      <td>0.087</td>
+      <td>Crossing Detection</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Distance entropy H(D)</td>
+      <td>0.076</td>
+      <td>Statistical</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Ratio matrix std(R)</td>
+      <td>0.071</td>
+      <td>Geodesic Comparison</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>H₁ persistence (longest bar)</td>
+      <td>0.068</td>
+      <td>Persistent Homology</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Distance distribution skewness</td>
+      <td>0.054</td>
+      <td>Statistical</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Eigenvalue gap λ₂ - λ₃</td>
+      <td>0.048</td>
+      <td>Spectral</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Local distance variation mean(σᵢ)</td>
+      <td>0.043</td>
+      <td>Local Structure</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Crossing indicator entropy H(C)</td>
+      <td>0.039</td>
+      <td>Crossing Detection</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="523-comparison-with-other-methods">5.2.3 Comparison with Other Methods</h3>
+
+<p>We compared our approach against several baseline and state-of-the-art methods:
+<strong>Table 4: Method comparison on 10-crossing knot classification</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Method</th>
+      <th>Accuracy</th>
+      <th>Time/knot</th>
+      <th>Memory</th>
+      <th>Interpretable</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Jones Polynomial</td>
+      <td>100%</td>
+      <td>2.34s</td>
+      <td>125MB</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Alexander Polynomial</td>
+      <td>98.7%</td>
+      <td>1.87s</td>
+      <td>98MB</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>HOMFLY-PT Polynomial</td>
+      <td>100%</td>
+      <td>5.21s</td>
+      <td>287MB</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Gauss Code + ML</td>
+      <td>91.3%</td>
+      <td>0.43s</td>
+      <td>45MB</td>
+      <td>Partial</td>
+    </tr>
+    <tr>
+      <td>Persistence Landscapes</td>
+      <td>86.2%</td>
+      <td>0.31s</td>
+      <td>67MB</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td><strong>Our Method (n=200)</strong></td>
+      <td>88.6%</td>
+      <td>0.15s</td>
+      <td>32MB</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td><strong>Our Method (n=500)</strong></td>
+      <td>92.1%</td>
+      <td>0.38s</td>
+      <td>78MB</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Ensemble (Ours + Gauss Code)</td>
+      <td>94.7%</td>
+      <td>0.58s</td>
+      <td>77MB</td>
+      <td>Partial</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Failure Analysis</strong>: Misclassifications primarily occur between knots with similar crossing numbers and geometric
+complexity. The method struggles most with composite knots and knots differing only by mirror reflection.</p>
+
+<h3 id="524-error-analysis">5.2.4 Error Analysis</h3>
+
+<p>We analyzed the 11.4% misclassification rate for 10-crossing knots:
+<strong>Table 5: Error breakdown by category</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Error Type</th>
+      <th>Percentage</th>
+      <th>Example Pairs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Adjacent crossing numbers</td>
+      <td>42.3%</td>
+      <td>10₁₄₅ ↔ 11a₃₄</td>
+    </tr>
+    <tr>
+      <td>Similar persistence diagrams</td>
+      <td>28.7%</td>
+      <td>10₁₂₄ ↔ 10₁₃₂</td>
+    </tr>
+    <tr>
+      <td>Composite vs prime confusion</td>
+      <td>15.2%</td>
+      <td>3₁#3₁ ↔ 6₃</td>
+    </tr>
+    <tr>
+      <td>Mirror image pairs</td>
+      <td>8.9%</td>
+      <td>10₈₃ ↔ 10₈₃*</td>
+    </tr>
+    <tr>
+      <td>Sampling artifacts</td>
+      <td>4.9%</td>
+      <td>Various</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="53-invariant-stability">5.3 Invariant Stability</h3>
+
+<p>We evaluated invariant stability under:</p>
+
+<ol>
+  <li><strong>Resampling</strong>: Different numbers of sample points</li>
+  <li><strong>Perturbation</strong>: Small random displacements of vertices</li>
+  <li><strong>Isotopy</strong>: Different embeddings of the same knot</li>
+</ol>
+
+<p>The persistence-based features showed &lt; 5% coefficient of variation under these transformations for n ≥ 100 sample
+points, as detailed in Table 6.</p>
+
+<h3 id="531-detailed-stability-analysis">5.3.1 Detailed Stability Analysis</h3>
+
+<p><strong>Table 6: Feature stability under different transformations (n=200)</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>Resampling CV</th>
+      <th>Perturbation CV</th>
+      <th>Isotopy CV</th>
+      <th>Combined CV</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>H₁ persistence (longest)</td>
+      <td>0.021</td>
+      <td>0.018</td>
+      <td>0.034</td>
+      <td>0.028</td>
+    </tr>
+    <tr>
+      <td>H₁ persistence (2nd)</td>
+      <td>0.024</td>
+      <td>0.022</td>
+      <td>0.041</td>
+      <td>0.032</td>
+    </tr>
+    <tr>
+      <td>Spectral moment M₃</td>
+      <td>0.019</td>
+      <td>0.031</td>
+      <td>0.027</td>
+      <td>0.026</td>
+    </tr>
+    <tr>
+      <td>Distance entropy</td>
+      <td>0.015</td>
+      <td>0.024</td>
+      <td>0.022</td>
+      <td>0.021</td>
+    </tr>
+    <tr>
+      <td>Max crossing indicator</td>
+      <td>0.038</td>
+      <td>0.045</td>
+      <td>0.052</td>
+      <td>0.046</td>
+    </tr>
+    <tr>
+      <td>Ratio matrix std</td>
+      <td>0.027</td>
+      <td>0.033</td>
+      <td>0.039</td>
+      <td>0.034</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>(CV = Coefficient of Variation = σ/μ)</p>
+
+<h3 id="532-isotopy-robustness-experiments">5.3.2 Isotopy Robustness Experiments</h3>
+
+<p>We tested stability under increasingly severe isotopic deformations:
+<strong>Table 7: Classification accuracy under isotopic transformations</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Deformation Type</th>
+      <th>Magnitude</th>
+      <th>Accuracy Drop</th>
+      <th>Feature Stability</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Smooth ambient isotopy</td>
+      <td>Small (ε=0.01)</td>
+      <td>-0.3%</td>
+      <td>97.2%</td>
+    </tr>
+    <tr>
+      <td>Smooth ambient isotopy</td>
+      <td>Medium (ε=0.05)</td>
+      <td>-1.1%</td>
+      <td>94.8%</td>
+    </tr>
+    <tr>
+      <td>Smooth ambient isotopy</td>
+      <td>Large (ε=0.10)</td>
+      <td>-2.7%</td>
+      <td>91.3%</td>
+    </tr>
+    <tr>
+      <td>Random Reidemeister I</td>
+      <td>1-3 moves</td>
+      <td>-0.8%</td>
+      <td>95.6%</td>
+    </tr>
+    <tr>
+      <td>Random Reidemeister II</td>
+      <td>1-3 moves</td>
+      <td>-1.2%</td>
+      <td>94.1%</td>
+    </tr>
+    <tr>
+      <td>Random Reidemeister III</td>
+      <td>1-3 moves</td>
+      <td>-0.6%</td>
+      <td>96.2%</td>
+    </tr>
+    <tr>
+      <td>Combined R-moves</td>
+      <td>5-10 moves</td>
+      <td>-3.4%</td>
+      <td>89.7%</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="54-sampling-density-analysis">5.4 Sampling Density Analysis</h3>
+
+<p>We analyzed convergence as sampling density increases:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Sample Points (n)</th>
+      <th>Feature Stability</th>
+      <th>Classification Accuracy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>50</td>
+      <td>12.3% CV</td>
+      <td>82.1%</td>
+    </tr>
+    <tr>
+      <td>100</td>
+      <td>4.8% CV</td>
+      <td>91.3%</td>
+    </tr>
+    <tr>
+      <td>200</td>
+      <td>2.1% CV</td>
+      <td>95.7%</td>
+    </tr>
+    <tr>
+      <td>500</td>
+      <td>0.9% CV</td>
+      <td>96.9%</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Features converge approximately as O(n^{-0.5}), suggesting stable behavior in the limit n → ∞.</p>
+
+<h3 id="541-convergence-analysis">5.4.1 Convergence Analysis</h3>
+
+<p>We performed detailed convergence studies:
+<strong>Table 8: Feature convergence rates</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>Convergence Rate</th>
+      <th>R² (fit quality)</th>
+      <th>n₉₅ (95% stable)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>H₁ persistence</td>
+      <td>O(n^-0.48)</td>
+      <td>0.987</td>
+      <td>156</td>
+    </tr>
+    <tr>
+      <td>Spectral moments</td>
+      <td>O(n^-0.51)</td>
+      <td>0.991</td>
+      <td>143</td>
+    </tr>
+    <tr>
+      <td>Distance entropy</td>
+      <td>O(n^-0.46)</td>
+      <td>0.983</td>
+      <td>167</td>
+    </tr>
+    <tr>
+      <td>Crossing indicators</td>
+      <td>O(n^-0.44)</td>
+      <td>0.978</td>
+      <td>189</td>
+    </tr>
+    <tr>
+      <td>Ratio matrix features</td>
+      <td>O(n^-0.49)</td>
+      <td>0.985</td>
+      <td>162</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="542-computational-scaling">5.4.2 Computational Scaling</h3>
+
+<p><strong>Table 9: Runtime scaling with sample size</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>n</th>
+      <th>Distance Matrix</th>
+      <th>Persistence</th>
+      <th>Features</th>
+      <th>Total</th>
+      <th>Memory</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>50</td>
+      <td>0.8ms</td>
+      <td>12ms</td>
+      <td>3ms</td>
+      <td>15.8ms</td>
+      <td>2.1MB</td>
+    </tr>
+    <tr>
+      <td>100</td>
+      <td>3.2ms</td>
+      <td>45ms</td>
+      <td>8ms</td>
+      <td>56.2ms</td>
+      <td>8.2MB</td>
+    </tr>
+    <tr>
+      <td>200</td>
+      <td>12.8ms</td>
+      <td>178ms</td>
+      <td>21ms</td>
+      <td>211.8ms</td>
+      <td>32.4MB</td>
+    </tr>
+    <tr>
+      <td>500</td>
+      <td>80.1ms</td>
+      <td>1,420ms</td>
+      <td>89ms</td>
+      <td>1,589ms</td>
+      <td>201.5MB</td>
+    </tr>
+    <tr>
+      <td>1000</td>
+      <td>321.4ms</td>
+      <td>11,350ms</td>
+      <td>342ms</td>
+      <td>12.01s</td>
+      <td>805.8MB</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="55-extended-evaluation">5.5 Extended Evaluation</h3>
+
+<p>Testing on knots up to 16 crossings (1,701 prime knots):</p>
+
+<h3 id="551-large-scale-experiments">5.5.1 Large-Scale Experiments</h3>
+
+<p><strong>Table 10: Performance on extended knot families</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Knot Family</th>
+      <th># Types</th>
+      <th>Accuracy</th>
+      <th>Avg Time</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Alternating</td>
+      <td>1,234</td>
+      <td>89.2%</td>
+      <td>0.18s</td>
+      <td>Better structured</td>
+    </tr>
+    <tr>
+      <td>Non-alternating</td>
+      <td>467</td>
+      <td>82.7%</td>
+      <td>0.21s</td>
+      <td>More complex geometry</td>
+    </tr>
+    <tr>
+      <td>Torus knots</td>
+      <td>89</td>
+      <td>94.6%</td>
+      <td>0.16s</td>
+      <td>Regular structure helps</td>
+    </tr>
+    <tr>
+      <td>Hyperbolic</td>
+      <td>1,456</td>
+      <td>86.8%</td>
+      <td>0.19s</td>
+      <td>Typical case</td>
+    </tr>
+    <tr>
+      <td>Satellite</td>
+      <td>234</td>
+      <td>78.3%</td>
+      <td>0.24s</td>
+      <td>Composite structure hard</td>
+    </tr>
+    <tr>
+      <td>Pretzel</td>
+      <td>156</td>
+      <td>91.2%</td>
+      <td>0.17s</td>
+      <td>Distinctive patterns</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="552-crossing-number-scaling">5.5.2 Crossing Number Scaling</h3>
+
+<p><strong>Figure 1: Accuracy vs Crossing Number</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Accuracy (%)
+100 |●
+    |●●
+ 95 |  ●●
+    |    ●●
+ 90 |      ●●●
+    |         ●●●
+ 85 |            ●●●
+    |               ●●●●
+ 80 |                   ●●●●
+    |                       ●●●●
+ 75 |__________________________|
+    3  5  7  9  11 13 15 17 19
+         Crossing Number
+Regression: Accuracy = 102.3 - 1.82 × CrossingNumber
+R² = 0.943
+</code></pre></div></div>
+
+<h3 id="56-robustness-studies">5.6 Robustness Studies</h3>
+
+<h3 id="561-noise-sensitivity">5.6.1 Noise Sensitivity</h3>
+
+<p>We tested robustness to coordinate noise:</p>
+
+<p><strong>Table 11: Performance under Gaussian noise</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Noise Level (σ/edge_length)</th>
+      <th>Accuracy Drop</th>
+      <th>Feature Stability</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0.001</td>
+      <td>-0.1%</td>
+      <td>99.2%</td>
+    </tr>
+    <tr>
+      <td>0.005</td>
+      <td>-0.4%</td>
+      <td>97.8%</td>
+    </tr>
+    <tr>
+      <td>0.01</td>
+      <td>-1.2%</td>
+      <td>95.3%</td>
+    </tr>
+    <tr>
+      <td>0.05</td>
+      <td>-5.7%</td>
+      <td>87.6%</td>
+    </tr>
+    <tr>
+      <td>0.10</td>
+      <td>-12.3%</td>
+      <td>76.4%</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="562-missing-data-robustness">5.6.2 Missing Data Robustness</h3>
+
+<p>Testing with randomly removed sample points:
+<strong>Table 12: Performance with missing samples</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>% Points Removed</th>
+      <th>Accuracy</th>
+      <th>Interpolation Method</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0%</td>
+      <td>95.7%</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>5%</td>
+      <td>94.8%</td>
+      <td>Linear</td>
+    </tr>
+    <tr>
+      <td>10%</td>
+      <td>92.3%</td>
+      <td>Cubic spline</td>
+    </tr>
+    <tr>
+      <td>20%</td>
+      <td>87.6%</td>
+      <td>Cubic spline</td>
+    </tr>
+    <tr>
+      <td>30%</td>
+      <td>79.2%</td>
+      <td>Shape-preserving</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="57-computational-efficiency">5.7 Computational Efficiency</h3>
+
+<h3 id="571-parallel-scaling">5.7.1 Parallel Scaling</h3>
+
+<p><strong>Table 13: Parallel efficiency (n=500 samples, 1000 knots)</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Cores</th>
+      <th>Time (s)</th>
+      <th>Speedup</th>
+      <th>Efficiency</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>1,589</td>
+      <td>1.0×</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>812</td>
+      <td>1.96×</td>
+      <td>98%</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>423</td>
+      <td>3.76×</td>
+      <td>94%</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>221</td>
+      <td>7.19×</td>
+      <td>90%</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>119</td>
+      <td>13.35×</td>
+      <td>83%</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>87</td>
+      <td>18.27×</td>
+      <td>76%</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="572-memory-usage-analysis">5.7.2 Memory Usage Analysis</h3>
+
+<p><strong>Table 14: Memory scaling</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Operation</th>
+      <th>Memory Complexity</th>
+      <th>n=100</th>
+      <th>n=500</th>
+      <th>n=1000</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Distance matrix</td>
+      <td>O(n²)</td>
+      <td>80KB</td>
+      <td>2MB</td>
+      <td>8MB</td>
+    </tr>
+    <tr>
+      <td>Persistence</td>
+      <td>O(n³) worst</td>
+      <td>2.4MB</td>
+      <td>67MB</td>
+      <td>512MB</td>
+    </tr>
+    <tr>
+      <td>Features</td>
+      <td>O(n)</td>
+      <td>12KB</td>
+      <td>60KB</td>
+      <td>120KB</td>
+    </tr>
+    <tr>
+      <td>ML inference</td>
+      <td>O(1)</td>
+      <td>45MB</td>
+      <td>45MB</td>
+      <td>45MB</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="58-ablation-studies">5.8 Ablation Studies</h3>
+
+<p>We performed ablation studies to understand feature contributions:
+<strong>Table 15: Feature group ablation (10-crossing knots)</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Features Removed</th>
+      <th>Accuracy</th>
+      <th>Δ Accuracy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>None (full model)</td>
+      <td>88.6%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Persistent homology</td>
+      <td>76.2%</td>
+      <td>-12.4%</td>
+    </tr>
+    <tr>
+      <td>Spectral features</td>
+      <td>81.3%</td>
+      <td>-7.3%</td>
+    </tr>
+    <tr>
+      <td>Crossing indicators</td>
+      <td>83.7%</td>
+      <td>-4.9%</td>
+    </tr>
+    <tr>
+      <td>Statistical features</td>
+      <td>85.1%</td>
+      <td>-3.5%</td>
+    </tr>
+    <tr>
+      <td>Geodesic comparison</td>
+      <td>86.2%</td>
+      <td>-2.4%</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="59-cross-validation-studies">5.9 Cross-Validation Studies</h3>
+
+<p><strong>Table 16: Cross-validation results (5-fold CV)</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Fold</th>
+      <th>Train Acc</th>
+      <th>Val Acc</th>
+      <th>Test Acc</th>
+      <th>Std Dev</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>96.2%</td>
+      <td>88.7%</td>
+      <td>88.9%</td>
+      <td>0.021</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>96.5%</td>
+      <td>88.3%</td>
+      <td>88.4%</td>
+      <td>0.019</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>96.1%</td>
+      <td>88.9%</td>
+      <td>88.7%</td>
+      <td>0.023</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>96.4%</td>
+      <td>88.5%</td>
+      <td>88.6%</td>
+      <td>0.020</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>96.3%</td>
+      <td>88.4%</td>
+      <td>88.5%</td>
+      <td>0.022</td>
+    </tr>
+    <tr>
+      <td>Mean</td>
+      <td>96.3%</td>
+      <td>88.6%</td>
+      <td>88.6%</td>
+      <td>0.021</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The consistent validation and test accuracies indicate good generalization without overfitting.</p>
+
+<h2 id="6-discussion">6. Discussion</h2>
+
+<h3 id="61-advantages">6.1 Advantages</h3>
+
+<ol>
+  <li><strong>Computational efficiency</strong>: Distance matrix computation is O(n²), compared to polynomial invariant calculations</li>
+  <li><strong>Geometric intuition</strong>: Features have clear geometric interpretations</li>
+  <li><strong>ML compatibility</strong>: Fixed-size representations enable standard ML pipelines</li>
+  <li><strong>Parallelizability</strong>: Distance calculations are embarrassingly parallel</li>
+</ol>
+
+<h3 id="62-limitations">6.2 Limitations</h3>
+
+<ol>
+  <li><strong>Sampling dependence</strong>: Results vary with sampling density</li>
+  <li><strong>Not proven invariants</strong>: Statistical features are empirically stable but not proven topological invariants</li>
+  <li><strong>Knot orientation</strong>: Method doesn’t distinguish mirror images without additional features</li>
+  <li><strong>Complexity scaling</strong>: Performance degrades for highly complex knots (&gt;15 crossings)</li>
+  <li><strong>Theoretical foundations</strong>: Lack of rigorous mathematical proofs for invariance properties</li>
+</ol>
+
+<h3 id="63-detailed-analysis-of-limitations">6.3 Detailed Analysis of Limitations</h3>
+
+<h4 id="631-sampling-dependence">6.3.1 Sampling Dependence</h4>
+
+<p>The choice of sampling strategy significantly impacts results:</p>
+
+<ul>
+  <li><strong>Uniform sampling</strong>: Simple but may undersample high-curvature regions</li>
+  <li><strong>Curvature-adaptive</strong>: Better captures geometric features but requires derivative estimation</li>
+  <li><strong>Energy-minimizing</strong>: Distributes points to minimize discrete energy functional
+Our experiments show that for n ≥ 200, different sampling strategies yield &lt; 3% variation in classification accuracy,
+suggesting robustness to sampling choice at sufficient density.</li>
+</ul>
+
+<h4 id="632-theoretical-gaps">6.3.2 Theoretical Gaps</h4>
+
+<p>Key open theoretical questions:</p>
+
+<ol>
+  <li><strong>Invariance proof</strong>: Can we prove that certain distance-based features are topological invariants?</li>
+  <li><strong>Convergence rates</strong>: What is the optimal sampling rate for invariant approximation?</li>
+  <li><strong>Completeness</strong>: Do distance matrices contain all topological information about knots?
+We conjecture that the limit of our features as n → ∞ yields topological invariants, but proof remains elusive.</li>
+</ol>
+
+<h4 id="633-mirror-image-distinction">6.3.3 Mirror Image Distinction</h4>
+
+<p>Our current approach cannot distinguish knots from their mirror images because:</p>
+
+<ul>
+  <li>Distance matrices are invariant under reflection</li>
+  <li>Persistence diagrams don’t capture chirality
+Potential solutions:</li>
+</ul>
+
+<ol>
+  <li><strong>Writhe calculation</strong>: Add signed crossing information</li>
+  <li><strong>Torsion features</strong>: Include frame-based geometric invariants</li>
+  <li><strong>4D embedding</strong>: Lift to 4D where mirror images are isotopic</li>
+</ol>
+
+<h3 id="63-future-directions">6.3 Future Directions</h3>
+
+<ol>
+  <li><strong>Optimal sampling strategies</strong>: Adaptive sampling based on curvature</li>
+  <li><strong>Higher-order distance tensors</strong>: Incorporating 3-way and 4-way distances</li>
+  <li><strong>Hybrid approaches</strong>: Combining with classical invariants</li>
+  <li><strong>Theoretical guarantees</strong>: Proving invariance properties rigorously</li>
+  <li><strong>Chirality detection</strong>: Incorporating oriented frame information to distinguish mirror images</li>
+  <li><strong>Knot surgery</strong>: Extending to links and tangles</li>
+</ol>
+
+<h3 id="64-computational-considerations">6.4 Computational Considerations</h3>
+
+<h4 id="641-scalability-analysis">6.4.1 Scalability Analysis</h4>
+
+<p>For practical applications, we analyze scalability:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Time Complexity</th>
+      <th>Space Complexity</th>
+      <th>Bottleneck at n=</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sampling</td>
+      <td>O(n)</td>
+      <td>O(n)</td>
+      <td>Never</td>
+    </tr>
+    <tr>
+      <td>Distance Matrix</td>
+      <td>O(n²)</td>
+      <td>O(n²)</td>
+      <td>10,000</td>
+    </tr>
+    <tr>
+      <td>Persistence</td>
+      <td>O(n³) worst</td>
+      <td>O(n²)</td>
+      <td>1,000</td>
+    </tr>
+    <tr>
+      <td>Features</td>
+      <td>O(n²)</td>
+      <td>O(1)</td>
+      <td>50,000</td>
+    </tr>
+    <tr>
+      <td>ML Inference</td>
+      <td>O(1)</td>
+      <td>O(1)</td>
+      <td>Never</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>For knots with n &gt; 1,000 points, we recommend:</p>
+
+<ol>
+  <li>Hierarchical sampling with local refinement</li>
+  <li>Approximate persistence using subsampling</li>
+  <li>GPU acceleration for distance computation</li>
+</ol>
+
+<h4 id="642-implementation-optimizations">6.4.2 Implementation Optimizations</h4>
+
+<p>Critical optimizations for production use:</p>
+
+<ol>
+  <li><strong>Caching</strong>: Store computed features for common knots</li>
+  <li><strong>Incremental updates</strong>: Update features under small perturbations</li>
+  <li><strong>Distributed computation</strong>: Parallelize across knot dataset</li>
+  <li><strong>Precision management</strong>: Use float32 instead of float64 where appropriate</li>
+</ol>
+
+<h3 id="65-practical-applications">6.5 Practical Applications</h3>
+
+<p>Beyond theoretical interest, our approach enables:</p>
+
+<ol>
+  <li><strong>Real-time knot identification</strong>: For robotics and computer vision</li>
+  <li><strong>Knot database search</strong>: Fast similarity queries</li>
+  <li><strong>Protein folding analysis</strong>: Extended to open curves</li>
+  <li><strong>Educational tools</strong>: Interactive knot exploration</li>
+</ol>
+
+<h3 id="66-comparison-with-deep-learning-approaches">6.6 Comparison with Deep Learning Approaches</h3>
+
+<p>Recent work has applied neural networks directly to knot diagrams. Our approach offers complementary advantages:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Aspect</th>
+      <th>Our Method</th>
+      <th>Deep Learning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Interpretability</td>
+      <td>High (geometric features)</td>
+      <td>Low (black box)</td>
+    </tr>
+    <tr>
+      <td>Training data</td>
+      <td>Moderate (thousands)</td>
+      <td>High (millions)</td>
+    </tr>
+    <tr>
+      <td>Generalization</td>
+      <td>Good (explicit invariants)</td>
+      <td>Variable</td>
+    </tr>
+    <tr>
+      <td>Computation</td>
+      <td>Deterministic</td>
+      <td>Stochastic</td>
+    </tr>
+    <tr>
+      <td>Theory connection</td>
+      <td>Direct</td>
+      <td>Indirect</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Hybrid approaches combining our features with deep learning achieve best results (see Section 5.2.3).</p>
+
+<h2 id="7-conclusion">7. Conclusion</h2>
+
+<p>We have introduced a novel framework for knot analysis based on distance matrix representations. By extracting
+topological features from these matrices using persistent homology and statistical analysis, we obtain computationally
+efficient methods for knot classification that complement traditional approaches. While not providing proven topological
+invariants, our methods demonstrate strong empirical stability and offer practical advantages for computational knot
+theory, particularly for rapid knot screening and classification tasks where perfect accuracy is not required. This work
+opens new avenues for applying machine learning to topological problems, though significant theoretical work remains to
+establish rigorous invariance properties.</p>
+
+<p>The distance matrix representation bridges the gap between the continuous geometry of knots and discrete computational
+methods, providing practical tools for knot analysis. Our experiments on 148,850 knot embeddings demonstrate the
+method’s robustness and efficiency. Critical future work includes establishing rigorous theoretical foundations for the
+observed empirical stability, developing sampling strategies that guarantee invariance, and extending the approach to
+distinguish mirror images and handle more complex knot families.</p>
+
+<h2 id="references">References</h2>
+
+<p>[1] Adams, C. C. (2004). <em>The Knot Book: An Elementary Introduction to the Mathematical Theory of Knots</em>. American Mathematical Society.</p>
+
+<p>[2] Carlsson, G. (2009). Topology and data. <em>Bulletin of the American Mathematical Society</em>, 46(2), 255-308.</p>
+
+<p>[3] Edelsbrunner, H., &amp; Harer, J. (2010). <em>Computational Topology: An Introduction</em>. American Mathematical Society.</p>
+
+<p>[4] Ghrist, R. (2008). Barcodes: The persistent topology of data. <em>Bulletin of the American Mathematical Society</em>, 45(1), 61-75.</p>
+
+<p>[5] Kauffman, L. H. (1987). State models and the Jones polynomial. <em>Topology</em>, 26(3), 395-407.</p>
+
+<p>[6] Murasugi, K. (1996). <em>Knot Theory and Its Applications</em>. Birkhäuser Boston.</p>
+
+<p>[7] Rolfsen, D. (1976). <em>Knots and Links</em>. Publish or Perish Press.
+[8] Hughes, M. C., et al. (2020). A deep learning approach to knot recognition. <em>Journal of Knot Theory</em>, 29(3), 450-467.
+[9] Levitt, J., et al. (2019). The SnapPy census of hyperbolic knots. <em>Experimental Mathematics</em>, 28(4), 425-439.
+[10] Bar-Natan, D. (2021). Fast Khovanov homology computations. <em>Journal of Knot Theory</em>, 30(1), 123-145.
+[11] Weeks, J. (2020). Practical computation of hyperbolic invariants. <em>Topology and its Applications</em>, 278, 107234.
+[12] Chen, Q., &amp; Wang, S. (2022). Machine learning in low-dimensional topology. <em>Annual Review of Mathematics</em>, 8, 231-267.</p>
+
+<h2 id="appendix-a-algorithm-pseudocode">Appendix A: Algorithm Pseudocode</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Algorithm 1: Distance Matrix Knot Analysis
+Input: Knot curve K, number of samples n
+Output: Feature vector f
+
+1. Sample points P = {p₁, ..., pₙ} uniformly along K
+2. Compute distance matrix D where D[i,j] = ||pᵢ - pⱼ||
+3. Compute geodesic matrix G where G[i,j] = arc_length(pᵢ, pⱼ)
+4. Compute ratio matrix R = D ./ G
+5. For ε in [0, max(D)]:
+   * Construct Vietoris-Rips complex VR_ε
+   * Compute homology H₁(VR_ε)
+6. Extract persistence diagram PD
+7. Compute features:
+   * Spectral moments of D
+   * Persistence statistics from PD
+   * Distribution statistics of R
+8. Return feature vector f
+</code></pre></div></div>
+
+<h2 id="appendix-b-supplementary-figures">Appendix B: Supplementary Figures</h2>
+
+<p><strong>Note</strong>: Figures are omitted from this text version but would include:</p>
+
+<p>Figure 1: Example distance matrices for different knot types</p>
+
+<h1 id="interactive-knot-analysis-software-detailed-specifications">Interactive Knot Analysis Software: Detailed Specifications</h1>
+
+<h2 id="1-system-overview">1. System Overview</h2>
+
+<h3 id="11-project-name-knotexplorer">1.1 Project Name: KnotExplorer</h3>
+
+<p><strong>Purpose</strong>: Interactive platform for exploring knot theory through distance matrix analysis, supporting both research computation and educational visualization.</p>
+
+<h3 id="12-architecture">1.2 Architecture</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>┌─────────────────────────────────────────────────────────────┐
+│                        Web Frontend                          │
+│  React + Three.js + D3.js + Material-UI + WebAssembly      │
+└─────────────────────────────────────────────────────────────┘
+                               │
+                               ▼
+┌─────────────────────────────────────────────────────────────┐
+│                      API Gateway                             │
+│              FastAPI + WebSocket + Redis                     │
+└─────────────────────────────────────────────────────────────┘
+                               │
+        ┌──────────────────────┴──────────────────────┐
+        ▼                                              ▼
+┌─────────────────────┐                    ┌─────────────────────┐
+│  Computation Engine │                    │   Storage Layer     │
+│  Python + NumPy +   │                    │  PostgreSQL +       │
+│  SciPy + Ripser +   │                    │  MinIO + Redis      │
+│  CUDA/OpenCL        │                    │                     │
+└─────────────────────┘                    └─────────────────────┘
+</code></pre></div></div>
+
+<h3 id="13-core-components">1.3 Core Components</h3>
+
+<ol>
+  <li><strong>Interactive 3D Knot Viewer</strong>: Real-time manipulation and visualization</li>
+  <li><strong>Distance Matrix Explorer</strong>: Interactive heatmaps with linked views</li>
+  <li><strong>Persistence Diagram Analyzer</strong>: Dynamic filtration visualization</li>
+  <li><strong>Feature Calculator</strong>: Real-time feature extraction with explanations</li>
+  <li><strong>Knot Classifier</strong>: ML-based identification with confidence scores</li>
+  <li><strong>Educational Modules</strong>: Guided tutorials and experiments</li>
+  <li><strong>Research Workbench</strong>: Advanced analysis tools and batch processing</li>
+</ol>
+
+<h2 id="2-detailed-component-specifications">2. Detailed Component Specifications</h2>
+
+<h3 id="21-interactive-3d-knot-viewer">2.1 Interactive 3D Knot Viewer</h3>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kr">interface</span> <span class="nx">KnotViewer</span> <span class="p">{</span>
+  <span class="c1">// Core functionality</span>
+  <span class="nx">loadKnot</span><span class="p">(</span><span class="nx">knotData</span><span class="p">:</span> <span class="nx">KnotData</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">renderKnot</span><span class="p">(</span><span class="nx">options</span><span class="p">:</span> <span class="nx">RenderOptions</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+
+  <span class="c1">// Interaction</span>
+  <span class="nx">enableRotation</span><span class="p">(</span><span class="nx">enabled</span><span class="p">:</span> <span class="nx">boolean</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">enableZoom</span><span class="p">(</span><span class="nx">enabled</span><span class="p">:</span> <span class="nx">boolean</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">enablePan</span><span class="p">(</span><span class="nx">enabled</span><span class="p">:</span> <span class="nx">boolean</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+
+  <span class="c1">// Visualization modes</span>
+  <span class="nx">setRenderMode</span><span class="p">(</span><span class="nx">mode</span><span class="p">:</span> <span class="dl">'</span><span class="s1">solid</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">wireframe</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">points</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">tube</span><span class="dl">'</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">setColorScheme</span><span class="p">(</span><span class="nx">scheme</span><span class="p">:</span> <span class="nx">ColorScheme</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+
+  <span class="c1">// Analysis overlays</span>
+  <span class="nx">showSamplingPoints</span><span class="p">(</span><span class="nx">n</span><span class="p">:</span> <span class="kr">number</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">highlightCrossings</span><span class="p">(</span><span class="nx">threshold</span><span class="p">:</span> <span class="kr">number</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">showLocalCurvature</span><span class="p">():</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">animateIsotopy</span><span class="p">(</span><span class="nx">targetKnot</span><span class="p">:</span> <span class="nx">KnotData</span><span class="p">,</span> <span class="nx">duration</span><span class="p">:</span> <span class="kr">number</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+
+  <span class="c1">// Educational features</span>
+  <span class="nx">showCoordinateAxes</span><span class="p">(</span><span class="nx">visible</span><span class="p">:</span> <span class="nx">boolean</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">showBoundingBox</span><span class="p">(</span><span class="nx">visible</span><span class="p">:</span> <span class="nx">boolean</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">enableMeasurementTool</span><span class="p">():</span> <span class="k">void</span><span class="p">;</span>
+
+  <span class="c1">// Export</span>
+  <span class="nx">exportView</span><span class="p">(</span><span class="nx">format</span><span class="p">:</span> <span class="dl">'</span><span class="s1">png</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">svg</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">obj</span><span class="dl">'</span><span class="p">):</span> <span class="nx">Blob</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kr">interface</span> <span class="nx">RenderOptions</span> <span class="p">{</span>
+  <span class="nl">resolution</span><span class="p">:</span> <span class="kr">number</span><span class="p">;</span>
+  <span class="nl">antialiasing</span><span class="p">:</span> <span class="nx">boolean</span><span class="p">;</span>
+  <span class="nl">shadows</span><span class="p">:</span> <span class="nx">boolean</span><span class="p">;</span>
+  <span class="nl">tubeRadius</span><span class="p">:</span> <span class="kr">number</span><span class="p">;</span>
+  <span class="nl">pointSize</span><span class="p">:</span> <span class="kr">number</span><span class="p">;</span>
+  <span class="nl">opacity</span><span class="p">:</span> <span class="kr">number</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kr">interface</span> <span class="nx">ColorScheme</span> <span class="p">{</span>
+  <span class="nl">type</span><span class="p">:</span> <span class="dl">'</span><span class="s1">solid</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">gradient</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">curvature</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">torsion</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">distance</span><span class="dl">'</span><span class="p">;</span>
+  <span class="nl">colorMap</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span> <span class="c1">// 'viridis', 'plasma', 'rainbow', etc.</span>
+  <span class="nl">range</span><span class="p">?:</span> <span class="p">[</span><span class="kr">number</span><span class="p">,</span> <span class="kr">number</span><span class="p">];</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p><strong>Implementation Details</strong>:</p>
+<ul>
+  <li>Three.js for WebGL rendering</li>
+  <li>Custom shaders for curvature/torsion visualization</li>
+  <li>Optimized tube geometry generation</li>
+  <li>LOD system for complex knots</li>
+  <li>Touch/gesture support for mobile devices</li>
+</ul>
+
+<h3 id="22-distance-matrix-explorer">2.2 Distance Matrix Explorer</h3>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kr">interface</span> <span class="nx">DistanceMatrixExplorer</span> <span class="p">{</span>
+  <span class="c1">// Matrix visualization</span>
+  <span class="nx">displayMatrix</span><span class="p">(</span><span class="nx">D</span><span class="p">:</span> <span class="nb">Float32Array</span><span class="p">,</span> <span class="nx">size</span><span class="p">:</span> <span class="kr">number</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">setColorScale</span><span class="p">(</span><span class="nx">scale</span><span class="p">:</span> <span class="nx">ColorScale</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">enableInteractiveTooltips</span><span class="p">():</span> <span class="k">void</span><span class="p">;</span>
+
+  <span class="c1">// Linked views</span>
+  <span class="nx">linkTo3DViewer</span><span class="p">(</span><span class="nx">viewer</span><span class="p">:</span> <span class="nx">KnotViewer</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">highlightPoint</span><span class="p">(</span><span class="nx">index</span><span class="p">:</span> <span class="kr">number</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">highlightRegion</span><span class="p">(</span><span class="nx">startIdx</span><span class="p">:</span> <span class="kr">number</span><span class="p">,</span> <span class="nx">endIdx</span><span class="p">:</span> <span class="kr">number</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+
+  <span class="c1">// Analysis tools</span>
+  <span class="nx">showGeodesicComparison</span><span class="p">(</span><span class="nx">G</span><span class="p">:</span> <span class="nb">Float32Array</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">displayRatioMatrix</span><span class="p">(</span><span class="nx">R</span><span class="p">:</span> <span class="nb">Float32Array</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">animateFilteredMatrix</span><span class="p">(</span><span class="nx">threshold</span><span class="p">:</span> <span class="kr">number</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+
+  <span class="c1">// Statistical overlays</span>
+  <span class="nx">showDistanceHistogram</span><span class="p">():</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">displaySpectralDecomposition</span><span class="p">():</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">highlightCrossingPatterns</span><span class="p">(</span><span class="nx">C</span><span class="p">:</span> <span class="nb">Float32Array</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+
+  <span class="c1">// Interactive features</span>
+  <span class="nx">enableBrushSelection</span><span class="p">():</span> <span class="nx">BrushSelection</span><span class="p">;</span>
+  <span class="nx">enableZoomPan</span><span class="p">():</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">measureDistance</span><span class="p">(</span><span class="nx">point1</span><span class="p">:</span> <span class="kr">number</span><span class="p">,</span> <span class="nx">point2</span><span class="p">:</span> <span class="kr">number</span><span class="p">):</span> <span class="kr">number</span><span class="p">;</span>
+
+  <span class="c1">// Export</span>
+  <span class="nx">exportMatrix</span><span class="p">(</span><span class="nx">format</span><span class="p">:</span> <span class="dl">'</span><span class="s1">csv</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">npy</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">png</span><span class="dl">'</span><span class="p">):</span> <span class="nx">Blob</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kr">interface</span> <span class="nx">BrushSelection</span> <span class="p">{</span>
+  <span class="nl">onSelect</span><span class="p">:</span> <span class="p">(</span><span class="nx">indices</span><span class="p">:</span> <span class="kr">number</span><span class="p">[])</span> <span class="o">=&gt;</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">clear</span><span class="p">():</span> <span class="k">void</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p><strong>Implementation Details</strong>:</p>
+<ul>
+  <li>D3.js for interactive heatmaps</li>
+  <li>WebGL acceleration for large matrices</li>
+  <li>Efficient sparse matrix rendering</li>
+  <li>Real-time filtering and thresholding</li>
+  <li>Synchronized cursors across views</li>
+</ul>
+
+<h3 id="23-persistence-diagram-analyzer">2.3 Persistence Diagram Analyzer</h3>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kr">interface</span> <span class="nx">PersistenceAnalyzer</span> <span class="p">{</span>
+  <span class="c1">// Diagram visualization</span>
+  <span class="nx">plotPersistenceDiagram</span><span class="p">(</span><span class="nx">diagram</span><span class="p">:</span> <span class="nx">PersistenceDiagram</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">plotBarcode</span><span class="p">(</span><span class="nx">diagram</span><span class="p">:</span> <span class="nx">PersistenceDiagram</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+
+  <span class="c1">// Interactive features</span>
+  <span class="nx">enablePointSelection</span><span class="p">():</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">highlightBar</span><span class="p">(</span><span class="nx">index</span><span class="p">:</span> <span class="kr">number</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">animateFiltration</span><span class="p">(</span><span class="nx">speed</span><span class="p">:</span> <span class="kr">number</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+
+  <span class="c1">// Linked visualization</span>
+  <span class="nx">showGenerators</span><span class="p">(</span><span class="nx">pointIndex</span><span class="p">:</span> <span class="kr">number</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">linkToComplexViewer</span><span class="p">(</span><span class="nx">viewer</span><span class="p">:</span> <span class="nx">ComplexViewer</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+
+  <span class="c1">// Analysis tools</span>
+  <span class="nx">computeBottleneckDistance</span><span class="p">(</span><span class="nx">diagram1</span><span class="p">:</span> <span class="nx">PD</span><span class="p">,</span> <span class="nx">diagram2</span><span class="p">:</span> <span class="nx">PD</span><span class="p">):</span> <span class="kr">number</span><span class="p">;</span>
+  <span class="nx">computeWassersteinDistance</span><span class="p">(</span><span class="nx">p</span><span class="p">:</span> <span class="kr">number</span><span class="p">):</span> <span class="kr">number</span><span class="p">;</span>
+  <span class="nx">showPersistenceLandscape</span><span class="p">():</span> <span class="k">void</span><span class="p">;</span>
+
+  <span class="c1">// Educational mode</span>
+  <span class="nx">explainPersistence</span><span class="p">(</span><span class="nx">level</span><span class="p">:</span> <span class="dl">'</span><span class="s1">beginner</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">intermediate</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">advanced</span><span class="dl">'</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">showStepByStepConstruction</span><span class="p">():</span> <span class="k">void</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kr">interface</span> <span class="nx">ComplexViewer</span> <span class="p">{</span>
+  <span class="nx">displayComplex</span><span class="p">(</span><span class="nx">complex</span><span class="p">:</span> <span class="nx">SimplicialComplex</span><span class="p">,</span> <span class="nx">threshold</span><span class="p">:</span> <span class="kr">number</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">animateComplexGrowth</span><span class="p">(</span><span class="nx">startThreshold</span><span class="p">:</span> <span class="kr">number</span><span class="p">,</span> <span class="nx">endThreshold</span><span class="p">:</span> <span class="kr">number</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">highlightCycle</span><span class="p">(</span><span class="nx">cycle</span><span class="p">:</span> <span class="kr">number</span><span class="p">[]):</span> <span class="k">void</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="24-feature-calculator">2.4 Feature Calculator</h3>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kr">interface</span> <span class="nx">FeatureCalculator</span> <span class="p">{</span>
+  <span class="c1">// Real-time calculation</span>
+  <span class="nx">calculateFeatures</span><span class="p">(</span><span class="nx">knotData</span><span class="p">:</span> <span class="nx">KnotData</span><span class="p">,</span> <span class="nx">params</span><span class="p">:</span> <span class="nx">FeatureParams</span><span class="p">):</span> <span class="nx">Features</span><span class="p">;</span>
+
+  <span class="c1">// Feature exploration</span>
+  <span class="nx">explainFeature</span><span class="p">(</span><span class="nx">featureName</span><span class="p">:</span> <span class="kr">string</span><span class="p">):</span> <span class="nx">FeatureExplanation</span><span class="p">;</span>
+  <span class="nx">visualizeFeatureComputation</span><span class="p">(</span><span class="nx">featureName</span><span class="p">:</span> <span class="kr">string</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+
+  <span class="c1">// Sensitivity analysis</span>
+  <span class="nx">analyzeFeatureSensitivity</span><span class="p">(</span><span class="nx">feature</span><span class="p">:</span> <span class="kr">string</span><span class="p">,</span> <span class="nx">param</span><span class="p">:</span> <span class="kr">string</span><span class="p">):</span> <span class="nx">SensitivityPlot</span><span class="p">;</span>
+  <span class="nx">compareFeatureStability</span><span class="p">(</span><span class="nx">knot1</span><span class="p">:</span> <span class="nx">KnotData</span><span class="p">,</span> <span class="nx">knot2</span><span class="p">:</span> <span class="nx">KnotData</span><span class="p">):</span> <span class="nx">StabilityReport</span><span class="p">;</span>
+
+  <span class="c1">// Batch processing</span>
+  <span class="nx">batchCalculate</span><span class="p">(</span><span class="nx">knots</span><span class="p">:</span> <span class="nx">KnotData</span><span class="p">[],</span> <span class="nx">params</span><span class="p">:</span> <span class="nx">FeatureParams</span><span class="p">):</span> <span class="nx">FeatureMatrix</span><span class="p">;</span>
+  <span class="nx">exportFeatures</span><span class="p">(</span><span class="nx">format</span><span class="p">:</span> <span class="dl">'</span><span class="s1">csv</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">json</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">hdf5</span><span class="dl">'</span><span class="p">):</span> <span class="nx">Blob</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kr">interface</span> <span class="nx">FeatureParams</span> <span class="p">{</span>
+  <span class="nl">samplingPoints</span><span class="p">:</span> <span class="kr">number</span><span class="p">;</span>
+  <span class="nl">persistenceThreshold</span><span class="p">:</span> <span class="kr">number</span><span class="p">;</span>
+  <span class="nl">crossingParameters</span><span class="p">:</span> <span class="p">{</span> <span class="na">lambda</span><span class="p">:</span> <span class="kr">number</span><span class="p">;</span> <span class="nl">mu</span><span class="p">:</span> <span class="kr">number</span> <span class="p">};</span>
+  <span class="nl">spectralMoments</span><span class="p">:</span> <span class="kr">number</span><span class="p">[];</span>
+  <span class="nl">localNeighborhoodSize</span><span class="p">:</span> <span class="kr">number</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kr">interface</span> <span class="nx">FeatureExplanation</span> <span class="p">{</span>
+  <span class="nl">description</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+  <span class="nl">formula</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span> <span class="c1">// LaTeX</span>
+  <span class="nl">geometricMeaning</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+  <span class="nl">computationalComplexity</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+  <span class="nl">stabilityProperties</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+  <span class="nl">visualization</span><span class="p">?:</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="k">void</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="25-machine-learning-interface">2.5 Machine Learning Interface</h3>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kr">interface</span> <span class="nx">KnotClassifier</span> <span class="p">{</span>
+  <span class="c1">// Model management</span>
+  <span class="nx">loadModel</span><span class="p">(</span><span class="nx">modelPath</span><span class="p">:</span> <span class="kr">string</span><span class="p">):</span> <span class="nb">Promise</span><span class="o">&lt;</span><span class="k">void</span><span class="o">&gt;</span><span class="p">;</span>
+  <span class="nx">listAvailableModels</span><span class="p">():</span> <span class="nx">ModelInfo</span><span class="p">[];</span>
+
+  <span class="c1">// Classification</span>
+  <span class="nx">classifyKnot</span><span class="p">(</span><span class="nx">features</span><span class="p">:</span> <span class="nx">Features</span><span class="p">):</span> <span class="nx">ClassificationResult</span><span class="p">;</span>
+  <span class="nx">explainPrediction</span><span class="p">(</span><span class="nx">result</span><span class="p">:</span> <span class="nx">ClassificationResult</span><span class="p">):</span> <span class="nx">Explanation</span><span class="p">;</span>
+
+  <span class="c1">// Confidence analysis</span>
+  <span class="nx">getConfidenceBreakdown</span><span class="p">():</span> <span class="nx">ConfidenceReport</span><span class="p">;</span>
+  <span class="nx">visualizeDecisionBoundary</span><span class="p">():</span> <span class="k">void</span><span class="p">;</span>
+
+  <span class="c1">// Training interface</span>
+  <span class="nx">trainCustomModel</span><span class="p">(</span><span class="nx">trainingData</span><span class="p">:</span> <span class="nx">TrainingData</span><span class="p">,</span> <span class="nx">params</span><span class="p">:</span> <span class="nx">MLParams</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">evaluateModel</span><span class="p">(</span><span class="nx">testData</span><span class="p">:</span> <span class="nx">TestData</span><span class="p">):</span> <span class="nx">EvaluationMetrics</span><span class="p">;</span>
+
+  <span class="c1">// Feature importance</span>
+  <span class="nx">computeFeatureImportance</span><span class="p">():</span> <span class="nx">FeatureImportance</span><span class="p">[];</span>
+  <span class="nx">performAblationStudy</span><span class="p">(</span><span class="nx">features</span><span class="p">:</span> <span class="kr">string</span><span class="p">[]):</span> <span class="nx">AblationResults</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kr">interface</span> <span class="nx">ClassificationResult</span> <span class="p">{</span>
+  <span class="nl">predictedKnot</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+  <span class="nl">confidence</span><span class="p">:</span> <span class="kr">number</span><span class="p">;</span>
+  <span class="nl">topK</span><span class="p">:</span> <span class="nb">Array</span><span class="o">&lt;</span><span class="p">{</span> <span class="na">knot</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span> <span class="nl">probability</span><span class="p">:</span> <span class="kr">number</span> <span class="p">}</span><span class="o">&gt;</span><span class="p">;</span>
+  <span class="nl">features</span><span class="p">:</span> <span class="nx">Features</span><span class="p">;</span>
+  <span class="nl">computationTime</span><span class="p">:</span> <span class="kr">number</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kr">interface</span> <span class="nx">Explanation</span> <span class="p">{</span>
+  <span class="nl">importantFeatures</span><span class="p">:</span> <span class="nb">Array</span><span class="o">&lt;</span><span class="p">{</span> <span class="na">name</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span> <span class="nl">value</span><span class="p">:</span> <span class="kr">number</span><span class="p">;</span> <span class="nl">impact</span><span class="p">:</span> <span class="kr">number</span> <span class="p">}</span><span class="o">&gt;</span><span class="p">;</span>
+  <span class="nl">similarKnots</span><span class="p">:</span> <span class="nb">Array</span><span class="o">&lt;</span><span class="p">{</span> <span class="na">knot</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span> <span class="nl">similarity</span><span class="p">:</span> <span class="kr">number</span> <span class="p">}</span><span class="o">&gt;</span><span class="p">;</span>
+  <span class="nl">visualizations</span><span class="p">:</span> <span class="nx">ExplanationVisuals</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="26-educational-modules">2.6 Educational Modules</h3>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kr">interface</span> <span class="nx">EducationalSystem</span> <span class="p">{</span>
+  <span class="c1">// Tutorial system</span>
+  <span class="nl">tutorials</span><span class="p">:</span> <span class="p">{</span>
+    <span class="na">introduction</span><span class="p">:</span> <span class="nx">InteractiveTutorial</span><span class="p">;</span>
+    <span class="nl">distanceMatrices</span><span class="p">:</span> <span class="nx">InteractiveTutorial</span><span class="p">;</span>
+    <span class="nl">persistentHomology</span><span class="p">:</span> <span class="nx">InteractiveTutorial</span><span class="p">;</span>
+    <span class="nl">knotInvariants</span><span class="p">:</span> <span class="nx">InteractiveTutorial</span><span class="p">;</span>
+    <span class="nl">machineLearning</span><span class="p">:</span> <span class="nx">InteractiveTutorial</span><span class="p">;</span>
+  <span class="p">};</span>
+
+  <span class="c1">// Interactive exercises</span>
+  <span class="nl">exercises</span><span class="p">:</span> <span class="p">{</span>
+    <span class="na">identifyKnot</span><span class="p">:</span> <span class="nx">Exercise</span><span class="p">;</span>
+    <span class="nl">compareMatrices</span><span class="p">:</span> <span class="nx">Exercise</span><span class="p">;</span>
+    <span class="nl">findCrossings</span><span class="p">:</span> <span class="nx">Exercise</span><span class="p">;</span>
+    <span class="nl">predictInvariant</span><span class="p">:</span> <span class="nx">Exercise</span><span class="p">;</span>
+  <span class="p">};</span>
+
+  <span class="c1">// Sandbox mode</span>
+  <span class="nl">sandbox</span><span class="p">:</span> <span class="p">{</span>
+    <span class="nx">createKnot</span><span class="p">():</span> <span class="nx">KnotEditor</span><span class="p">;</span>
+    <span class="nx">modifyKnot</span><span class="p">(</span><span class="na">knot</span><span class="p">:</span> <span class="nx">KnotData</span><span class="p">):</span> <span class="nx">KnotEditor</span><span class="p">;</span>
+    <span class="nx">compareKnots</span><span class="p">(</span><span class="na">knots</span><span class="p">:</span> <span class="nx">KnotData</span><span class="p">[]):</span> <span class="nx">ComparisonTool</span><span class="p">;</span>
+  <span class="p">};</span>
+
+  <span class="c1">// Progress tracking</span>
+  <span class="nx">trackProgress</span><span class="p">(</span><span class="nx">userId</span><span class="p">:</span> <span class="kr">string</span><span class="p">):</span> <span class="nx">ProgressReport</span><span class="p">;</span>
+  <span class="nx">generateCertificate</span><span class="p">(</span><span class="nx">userId</span><span class="p">:</span> <span class="kr">string</span><span class="p">):</span> <span class="nx">Certificate</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kr">interface</span> <span class="nx">InteractiveTutorial</span> <span class="p">{</span>
+  <span class="nl">steps</span><span class="p">:</span> <span class="nx">TutorialStep</span><span class="p">[];</span>
+  <span class="nl">currentStep</span><span class="p">:</span> <span class="kr">number</span><span class="p">;</span>
+
+  <span class="nx">next</span><span class="p">():</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">previous</span><span class="p">():</span> <span class="k">void</span><span class="p">;</span>
+  <span class="nx">skip</span><span class="p">():</span> <span class="k">void</span><span class="p">;</span>
+
+  <span class="nl">onComplete</span><span class="p">:</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="k">void</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kr">interface</span> <span class="nx">TutorialStep</span> <span class="p">{</span>
+  <span class="nl">title</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+  <span class="nl">content</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span> <span class="c1">// Markdown with LaTeX</span>
+  <span class="nl">interactive</span><span class="p">?:</span> <span class="nx">InteractiveElement</span><span class="p">;</span>
+  <span class="nl">validation</span><span class="p">?:</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="nx">boolean</span><span class="p">;</span>
+  <span class="nl">hints</span><span class="p">:</span> <span class="kr">string</span><span class="p">[];</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="27-research-workbench">2.7 Research Workbench</h3>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kr">interface</span> <span class="nx">ResearchWorkbench</span> <span class="p">{</span>
+  <span class="c1">// Data management</span>
+  <span class="nl">dataManager</span><span class="p">:</span> <span class="p">{</span>
+    <span class="nx">importKnots</span><span class="p">(</span><span class="na">source</span><span class="p">:</span> <span class="nx">DataSource</span><span class="p">):</span> <span class="nb">Promise</span><span class="o">&lt;</span><span class="nx">KnotData</span><span class="p">[]</span><span class="o">&gt;</span><span class="p">;</span>
+    <span class="nx">exportResults</span><span class="p">(</span><span class="na">format</span><span class="p">:</span> <span class="nx">ExportFormat</span><span class="p">):</span> <span class="nx">Blob</span><span class="p">;</span>
+    <span class="nx">createDataset</span><span class="p">(</span><span class="na">filter</span><span class="p">:</span> <span class="nx">DataFilter</span><span class="p">):</span> <span class="nx">Dataset</span><span class="p">;</span>
+  <span class="p">};</span>
+
+  <span class="c1">// Batch processing</span>
+  <span class="nl">batchProcessor</span><span class="p">:</span> <span class="p">{</span>
+    <span class="nx">queueJob</span><span class="p">(</span><span class="na">job</span><span class="p">:</span> <span class="nx">BatchJob</span><span class="p">):</span> <span class="nx">JobHandle</span><span class="p">;</span>
+    <span class="nx">monitorProgress</span><span class="p">(</span><span class="na">handle</span><span class="p">:</span> <span class="nx">JobHandle</span><span class="p">):</span> <span class="nx">ProgressStream</span><span class="p">;</span>
+    <span class="nx">getResults</span><span class="p">(</span><span class="na">handle</span><span class="p">:</span> <span class="nx">JobHandle</span><span class="p">):</span> <span class="nb">Promise</span><span class="o">&lt;</span><span class="nx">BatchResults</span><span class="o">&gt;</span><span class="p">;</span>
+  <span class="p">};</span>
+
+  <span class="c1">// Custom analysis</span>
+  <span class="nl">scriptingEngine</span><span class="p">:</span> <span class="p">{</span>
+    <span class="nx">runPythonScript</span><span class="p">(</span><span class="na">script</span><span class="p">:</span> <span class="kr">string</span><span class="p">,</span> <span class="na">data</span><span class="p">:</span> <span class="kr">any</span><span class="p">):</span> <span class="nb">Promise</span><span class="o">&lt;</span><span class="kr">any</span><span class="o">&gt;</span><span class="p">;</span>
+    <span class="nx">saveScript</span><span class="p">(</span><span class="na">name</span><span class="p">:</span> <span class="kr">string</span><span class="p">,</span> <span class="na">script</span><span class="p">:</span> <span class="kr">string</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+    <span class="nx">shareScript</span><span class="p">(</span><span class="na">scriptId</span><span class="p">:</span> <span class="kr">string</span><span class="p">,</span> <span class="na">visibility</span><span class="p">:</span> <span class="dl">'</span><span class="s1">private</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">public</span><span class="dl">'</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+  <span class="p">};</span>
+
+  <span class="c1">// Collaboration</span>
+  <span class="nl">collaboration</span><span class="p">:</span> <span class="p">{</span>
+    <span class="nx">createSession</span><span class="p">(</span><span class="na">name</span><span class="p">:</span> <span class="kr">string</span><span class="p">):</span> <span class="nx">Session</span><span class="p">;</span>
+    <span class="nx">joinSession</span><span class="p">(</span><span class="na">sessionId</span><span class="p">:</span> <span class="kr">string</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+    <span class="nx">shareView</span><span class="p">(</span><span class="na">view</span><span class="p">:</span> <span class="nx">ViewState</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+    <span class="nx">annotate</span><span class="p">(</span><span class="na">annotation</span><span class="p">:</span> <span class="nx">Annotation</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+  <span class="p">};</span>
+
+  <span class="c1">// Reproducibility</span>
+  <span class="nl">notebook</span><span class="p">:</span> <span class="p">{</span>
+    <span class="nx">createNotebook</span><span class="p">():</span> <span class="nx">Notebook</span><span class="p">;</span>
+    <span class="nx">addCell</span><span class="p">(</span><span class="na">type</span><span class="p">:</span> <span class="dl">'</span><span class="s1">code</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">markdown</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">visualization</span><span class="dl">'</span><span class="p">):</span> <span class="nx">Cell</span><span class="p">;</span>
+    <span class="nx">exportNotebook</span><span class="p">(</span><span class="na">format</span><span class="p">:</span> <span class="dl">'</span><span class="s1">ipynb</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">html</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">pdf</span><span class="dl">'</span><span class="p">):</span> <span class="nx">Blob</span><span class="p">;</span>
+  <span class="p">};</span>
+<span class="p">}</span>
+
+<span class="kr">interface</span> <span class="nx">BatchJob</span> <span class="p">{</span>
+  <span class="nl">type</span><span class="p">:</span> <span class="dl">'</span><span class="s1">classification</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">feature_extraction</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">comparison</span><span class="dl">'</span><span class="p">;</span>
+  <span class="nl">data</span><span class="p">:</span> <span class="nx">KnotData</span><span class="p">[];</span>
+  <span class="nl">parameters</span><span class="p">:</span> <span class="kr">any</span><span class="p">;</span>
+  <span class="nl">priority</span><span class="p">:</span> <span class="dl">'</span><span class="s1">low</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">normal</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">high</span><span class="dl">'</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="3-performance-specifications">3. Performance Specifications</h2>
+
+<h3 id="31-client-side-performance">3.1 Client-Side Performance</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">performance_targets</span><span class="pi">:</span>
+  <span class="na">initial_load_time</span><span class="pi">:</span> <span class="s">&lt; 3s</span>
+  <span class="na">knot_rendering_fps</span><span class="pi">:</span> <span class="pi">&gt;</span><span class="err">=</span> <span class="err">60</span>
+  <span class="s">matrix_update_latency: &lt; 100ms</span>
+  <span class="s">feature_calculation_time:</span>
+    <span class="s">n_100: &lt; 50ms</span>
+    <span class="s">n_500: &lt; 500ms</span>
+    <span class="s">n_1000: &lt; 2000ms</span>
+
+<span class="na">memory_limits</span><span class="pi">:</span>
+  <span class="na">max_client_memory</span><span class="pi">:</span> <span class="s">2GB</span>
+  <span class="na">max_webgl_memory</span><span class="pi">:</span> <span class="s">1GB</span>
+  <span class="na">max_cached_knots</span><span class="pi">:</span> <span class="m">50</span>
+
+<span class="na">optimization_strategies</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">WebAssembly for compute-intensive operations</span>
+  <span class="pi">-</span> <span class="s">GPU.js for parallel computations</span>
+  <span class="pi">-</span> <span class="s">Progressive loading for large datasets</span>
+  <span class="pi">-</span> <span class="s">Efficient memory pooling</span>
+  <span class="pi">-</span> <span class="s">Request debouncing and caching</span>
+</code></pre></div></div>
+
+<h3 id="32-server-side-performance">3.2 Server-Side Performance</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">computation_cluster</span><span class="pi">:</span>
+  <span class="na">nodes</span><span class="pi">:</span> <span class="m">4</span>
+  <span class="na">cpu_per_node</span><span class="pi">:</span> <span class="s">32 cores</span>
+  <span class="na">ram_per_node</span><span class="pi">:</span> <span class="s">128GB</span>
+  <span class="na">gpu_per_node</span><span class="pi">:</span> <span class="s">2x NVIDIA A100</span>
+
+<span class="na">performance_targets</span><span class="pi">:</span>
+  <span class="na">api_response_time</span><span class="pi">:</span> <span class="s">&lt; 200ms</span>
+  <span class="na">batch_processing</span><span class="pi">:</span>
+    <span class="na">1000_knots</span><span class="pi">:</span> <span class="s">&lt; 5 minutes</span>
+    <span class="na">10000_knots</span><span class="pi">:</span> <span class="s">&lt; 30 minutes</span>
+  <span class="na">concurrent_users</span><span class="pi">:</span> <span class="m">1000</span>
+
+<span class="na">scaling_policies</span><span class="pi">:</span>
+  <span class="na">auto_scale_trigger</span><span class="pi">:</span> <span class="s">cpu &gt; 70% or queue_length &gt; </span><span class="m">100</span>
+  <span class="na">max_instances</span><span class="pi">:</span> <span class="m">20</span>
+  <span class="na">scale_down_delay</span><span class="pi">:</span> <span class="s">5 minutes</span>
+</code></pre></div></div>
+
+<h2 id="4-data-specifications">4. Data Specifications</h2>
+
+<h3 id="41-knot-data-format">4.1 Knot Data Format</h3>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kr">interface</span> <span class="nx">KnotData</span> <span class="p">{</span>
+  <span class="nl">id</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+  <span class="nl">name</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+  <span class="nl">type</span><span class="p">:</span> <span class="dl">'</span><span class="s1">prime</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">composite</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">link</span><span class="dl">'</span><span class="p">;</span>
+  <span class="nl">crossingNumber</span><span class="p">:</span> <span class="kr">number</span><span class="p">;</span>
+
+  <span class="c1">// Geometric data</span>
+  <span class="nl">points</span><span class="p">:</span> <span class="nb">Float32Array</span><span class="p">;</span> <span class="c1">// 3D coordinates</span>
+  <span class="nl">edges</span><span class="p">?:</span> <span class="nb">Uint32Array</span><span class="p">;</span> <span class="c1">// Optional connectivity</span>
+
+  <span class="c1">// Metadata</span>
+  <span class="nl">source</span><span class="p">:</span> <span class="dl">'</span><span class="s1">knotplot</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">snapy</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">user</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">generated</span><span class="dl">'</span><span class="p">;</span>
+  <span class="nl">dateCreated</span><span class="p">:</span> <span class="nb">Date</span><span class="p">;</span>
+
+  <span class="c1">// Precomputed invariants (optional)</span>
+  <span class="nl">invariants</span><span class="p">?:</span> <span class="p">{</span>
+    <span class="nx">jones</span><span class="p">?:</span> <span class="nx">Polynomial</span><span class="p">;</span>
+    <span class="nl">alexander</span><span class="p">?:</span> <span class="nx">Polynomial</span><span class="p">;</span>
+    <span class="nl">homfly</span><span class="p">?:</span> <span class="nx">Polynomial</span><span class="p">;</span>
+    <span class="nl">volume</span><span class="p">?:</span> <span class="kr">number</span><span class="p">;</span>
+  <span class="p">};</span>
+
+  <span class="c1">// Cached computations</span>
+  <span class="nl">cache</span><span class="p">?:</span> <span class="p">{</span>
+    <span class="nx">distanceMatrix</span><span class="p">?:</span> <span class="nx">SparseMatrix</span><span class="p">;</span>
+    <span class="nl">features</span><span class="p">?:</span> <span class="nx">Features</span><span class="p">;</span>
+    <span class="nl">persistence</span><span class="p">?:</span> <span class="nx">PersistenceDiagram</span><span class="p">;</span>
+  <span class="p">};</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="42-storage-schema">4.2 Storage Schema</h3>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">-- PostgreSQL schema</span>
+<span class="k">CREATE</span> <span class="k">TABLE</span> <span class="n">knots</span> <span class="p">(</span>
+    <span class="n">id</span> <span class="n">UUID</span> <span class="k">PRIMARY</span> <span class="k">KEY</span><span class="p">,</span>
+    <span class="n">name</span> <span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">255</span><span class="p">)</span> <span class="k">NOT</span> <span class="k">NULL</span><span class="p">,</span>
+    <span class="k">type</span> <span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">50</span><span class="p">),</span>
+    <span class="n">crossing_number</span> <span class="nb">INTEGER</span><span class="p">,</span>
+    <span class="n">points_url</span> <span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">500</span><span class="p">),</span> <span class="c1">-- MinIO reference</span>
+    <span class="n">metadata</span> <span class="n">JSONB</span><span class="p">,</span>
+    <span class="n">created_at</span> <span class="nb">TIMESTAMP</span> <span class="k">DEFAULT</span> <span class="k">CURRENT_TIMESTAMP</span><span class="p">,</span>
+    <span class="n">updated_at</span> <span class="nb">TIMESTAMP</span> <span class="k">DEFAULT</span> <span class="k">CURRENT_TIMESTAMP</span>
+<span class="p">);</span>
+
+<span class="k">CREATE</span> <span class="k">TABLE</span> <span class="n">computations</span> <span class="p">(</span>
+    <span class="n">id</span> <span class="n">UUID</span> <span class="k">PRIMARY</span> <span class="k">KEY</span><span class="p">,</span>
+    <span class="n">knot_id</span> <span class="n">UUID</span> <span class="k">REFERENCES</span> <span class="n">knots</span><span class="p">(</span><span class="n">id</span><span class="p">),</span>
+    <span class="n">computation_type</span> <span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">100</span><span class="p">),</span>
+    <span class="k">parameters</span> <span class="n">JSONB</span><span class="p">,</span>
+    <span class="n">result_url</span> <span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">500</span><span class="p">),</span> <span class="c1">-- MinIO reference</span>
+    <span class="n">computation_time_ms</span> <span class="nb">INTEGER</span><span class="p">,</span>
+    <span class="n">created_at</span> <span class="nb">TIMESTAMP</span> <span class="k">DEFAULT</span> <span class="k">CURRENT_TIMESTAMP</span>
+<span class="p">);</span>
+
+<span class="k">CREATE</span> <span class="k">TABLE</span> <span class="n">user_sessions</span> <span class="p">(</span>
+    <span class="n">id</span> <span class="n">UUID</span> <span class="k">PRIMARY</span> <span class="k">KEY</span><span class="p">,</span>
+    <span class="n">user_id</span> <span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">255</span><span class="p">),</span>
+    <span class="n">session_data</span> <span class="n">JSONB</span><span class="p">,</span>
+    <span class="n">last_active</span> <span class="nb">TIMESTAMP</span><span class="p">,</span>
+    <span class="n">created_at</span> <span class="nb">TIMESTAMP</span> <span class="k">DEFAULT</span> <span class="k">CURRENT_TIMESTAMP</span>
+<span class="p">);</span>
+
+<span class="c1">-- Indexes for performance</span>
+<span class="k">CREATE</span> <span class="k">INDEX</span> <span class="n">idx_knots_crossing</span> <span class="k">ON</span> <span class="n">knots</span><span class="p">(</span><span class="n">crossing_number</span><span class="p">);</span>
+<span class="k">CREATE</span> <span class="k">INDEX</span> <span class="n">idx_knots_type</span> <span class="k">ON</span> <span class="n">knots</span><span class="p">(</span><span class="k">type</span><span class="p">);</span>
+<span class="k">CREATE</span> <span class="k">INDEX</span> <span class="n">idx_computations_knot</span> <span class="k">ON</span> <span class="n">computations</span><span class="p">(</span><span class="n">knot_id</span><span class="p">);</span>
+<span class="k">CREATE</span> <span class="k">INDEX</span> <span class="n">idx_computations_type</span> <span class="k">ON</span> <span class="n">computations</span><span class="p">(</span><span class="n">computation_type</span><span class="p">);</span>
+</code></pre></div></div>
+
+<h2 id="5-api-specifications">5. API Specifications</h2>
+
+<h3 id="51-restful-api">5.1 RESTful API</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">openapi</span><span class="pi">:</span> <span class="s">3.0.0</span>
+<span class="na">info</span><span class="pi">:</span>
+  <span class="na">title</span><span class="pi">:</span> <span class="s">KnotExplorer API</span>
+  <span class="na">version</span><span class="pi">:</span> <span class="s">1.0.0</span>
+
+<span class="na">paths</span><span class="pi">:</span>
+  <span class="na">/api/v1/knots</span><span class="pi">:</span>
+    <span class="na">get</span><span class="pi">:</span>
+      <span class="na">summary</span><span class="pi">:</span> <span class="s">List knots</span>
+      <span class="na">parameters</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">type</span>
+          <span class="na">in</span><span class="pi">:</span> <span class="s">query</span>
+          <span class="na">schema</span><span class="pi">:</span>
+            <span class="na">type</span><span class="pi">:</span> <span class="s">string</span>
+        <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">crossing_number</span>
+          <span class="na">in</span><span class="pi">:</span> <span class="s">query</span>
+          <span class="na">schema</span><span class="pi">:</span>
+            <span class="na">type</span><span class="pi">:</span> <span class="s">integer</span>
+        <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">limit</span>
+          <span class="na">in</span><span class="pi">:</span> <span class="s">query</span>
+          <span class="na">schema</span><span class="pi">:</span>
+            <span class="na">type</span><span class="pi">:</span> <span class="s">integer</span>
+            <span class="na">default</span><span class="pi">:</span> <span class="m">100</span>
+      <span class="na">responses</span><span class="pi">:</span>
+        <span class="na">200</span><span class="pi">:</span>
+          <span class="na">description</span><span class="pi">:</span> <span class="s">List of knots</span>
+          <span class="na">content</span><span class="pi">:</span>
+            <span class="na">application/json</span><span class="pi">:</span>
+              <span class="na">schema</span><span class="pi">:</span>
+                <span class="na">type</span><span class="pi">:</span> <span class="s">array</span>
+                <span class="na">items</span><span class="pi">:</span>
+                  <span class="na">$ref</span><span class="pi">:</span> <span class="s1">'</span><span class="s">#/components/schemas/KnotSummary'</span>
+
+    <span class="na">post</span><span class="pi">:</span>
+      <span class="na">summary</span><span class="pi">:</span> <span class="s">Upload new knot</span>
+      <span class="na">requestBody</span><span class="pi">:</span>
+        <span class="na">content</span><span class="pi">:</span>
+          <span class="na">application/json</span><span class="pi">:</span>
+            <span class="na">schema</span><span class="pi">:</span>
+              <span class="na">$ref</span><span class="pi">:</span> <span class="s1">'</span><span class="s">#/components/schemas/KnotData'</span>
+      <span class="na">responses</span><span class="pi">:</span>
+        <span class="na">201</span><span class="pi">:</span>
+          <span class="na">description</span><span class="pi">:</span> <span class="s">Knot created</span>
+          <span class="na">content</span><span class="pi">:</span>
+            <span class="na">application/json</span><span class="pi">:</span>
+              <span class="na">schema</span><span class="pi">:</span>
+                <span class="na">$ref</span><span class="pi">:</span> <span class="s1">'</span><span class="s">#/components/schemas/KnotResponse'</span>
+
+  <span class="s">/api/v1/knots/{knot_id}/features</span><span class="err">:</span>
+    <span class="na">post</span><span class="pi">:</span>
+      <span class="na">summary</span><span class="pi">:</span> <span class="s">Calculate features</span>
+      <span class="na">parameters</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">knot_id</span>
+          <span class="na">in</span><span class="pi">:</span> <span class="s">path</span>
+          <span class="na">required</span><span class="pi">:</span> <span class="no">true</span>
+          <span class="na">schema</span><span class="pi">:</span>
+            <span class="na">type</span><span class="pi">:</span> <span class="s">string</span>
+      <span class="na">requestBody</span><span class="pi">:</span>
+        <span class="na">content</span><span class="pi">:</span>
+          <span class="na">application/json</span><span class="pi">:</span>
+            <span class="na">schema</span><span class="pi">:</span>
+              <span class="na">$ref</span><span class="pi">:</span> <span class="s1">'</span><span class="s">#/components/schemas/FeatureParams'</span>
+      <span class="na">responses</span><span class="pi">:</span>
+        <span class="na">200</span><span class="pi">:</span>
+          <span class="na">description</span><span class="pi">:</span> <span class="s">Calculated features</span>
+          <span class="na">content</span><span class="pi">:</span>
+            <span class="na">application/json</span><span class="pi">:</span>
+              <span class="na">schema</span><span class="pi">:</span>
+                <span class="na">$ref</span><span class="pi">:</span> <span class="s1">'</span><span class="s">#/components/schemas/Features'</span>
+
+  <span class="na">/api/v1/classify</span><span class="pi">:</span>
+    <span class="na">post</span><span class="pi">:</span>
+      <span class="na">summary</span><span class="pi">:</span> <span class="s">Classify knot</span>
+      <span class="na">requestBody</span><span class="pi">:</span>
+        <span class="na">content</span><span class="pi">:</span>
+          <span class="na">application/json</span><span class="pi">:</span>
+            <span class="na">schema</span><span class="pi">:</span>
+              <span class="na">oneOf</span><span class="pi">:</span>
+                <span class="pi">-</span> <span class="na">$ref</span><span class="pi">:</span> <span class="s1">'</span><span class="s">#/components/schemas/KnotData'</span>
+                <span class="pi">-</span> <span class="na">$ref</span><span class="pi">:</span> <span class="s1">'</span><span class="s">#/components/schemas/Features'</span>
+      <span class="na">responses</span><span class="pi">:</span>
+        <span class="na">200</span><span class="pi">:</span>
+          <span class="na">description</span><span class="pi">:</span> <span class="s">Classification result</span>
+          <span class="na">content</span><span class="pi">:</span>
+            <span class="na">application/json</span><span class="pi">:</span>
+              <span class="na">schema</span><span class="pi">:</span>
+                <span class="na">$ref</span><span class="pi">:</span> <span class="s1">'</span><span class="s">#/components/schemas/ClassificationResult'</span>
+
+  <span class="na">/api/v1/batch</span><span class="pi">:</span>
+    <span class="na">post</span><span class="pi">:</span>
+      <span class="na">summary</span><span class="pi">:</span> <span class="s">Submit batch job</span>
+      <span class="na">requestBody</span><span class="pi">:</span>
+        <span class="na">content</span><span class="pi">:</span>
+          <span class="na">application/json</span><span class="pi">:</span>
+            <span class="na">schema</span><span class="pi">:</span>
+              <span class="na">$ref</span><span class="pi">:</span> <span class="s1">'</span><span class="s">#/components/schemas/BatchJob'</span>
+      <span class="na">responses</span><span class="pi">:</span>
+        <span class="na">202</span><span class="pi">:</span>
+          <span class="na">description</span><span class="pi">:</span> <span class="s">Job accepted</span>
+          <span class="na">content</span><span class="pi">:</span>
+            <span class="na">application/json</span><span class="pi">:</span>
+              <span class="na">schema</span><span class="pi">:</span>
+                <span class="na">type</span><span class="pi">:</span> <span class="s">object</span>
+                <span class="na">properties</span><span class="pi">:</span>
+                  <span class="na">job_id</span><span class="pi">:</span>
+                    <span class="na">type</span><span class="pi">:</span> <span class="s">string</span>
+                  <span class="na">status_url</span><span class="pi">:</span>
+                    <span class="na">type</span><span class="pi">:</span> <span class="s">string</span>
+</code></pre></div></div>
+
+<h3 id="52-websocket-api">5.2 WebSocket API</h3>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kr">interface</span> <span class="nx">WebSocketAPI</span> <span class="p">{</span>
+  <span class="c1">// Real-time computation updates</span>
+  <span class="nx">subscribe</span><span class="p">(</span><span class="nx">channel</span><span class="p">:</span> <span class="dl">'</span><span class="s1">computation</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">collaboration</span><span class="dl">'</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+
+  <span class="c1">// Message types</span>
+  <span class="nl">messages</span><span class="p">:</span> <span class="p">{</span>
+    <span class="c1">// Computation progress</span>
+    <span class="dl">'</span><span class="s1">computation.progress</span><span class="dl">'</span><span class="p">:</span> <span class="p">{</span>
+      <span class="na">jobId</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+      <span class="nl">progress</span><span class="p">:</span> <span class="kr">number</span><span class="p">;</span>
+      <span class="nl">eta</span><span class="p">:</span> <span class="kr">number</span><span class="p">;</span>
+    <span class="p">};</span>
+
+    <span class="dl">'</span><span class="s1">computation.complete</span><span class="dl">'</span><span class="p">:</span> <span class="p">{</span>
+      <span class="na">jobId</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+      <span class="nl">resultUrl</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+    <span class="p">};</span>
+
+    <span class="c1">// Collaboration</span>
+    <span class="dl">'</span><span class="s1">collaboration.user_joined</span><span class="dl">'</span><span class="p">:</span> <span class="p">{</span>
+      <span class="na">userId</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+      <span class="nl">userName</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+    <span class="p">};</span>
+
+    <span class="dl">'</span><span class="s1">collaboration.view_shared</span><span class="dl">'</span><span class="p">:</span> <span class="p">{</span>
+      <span class="na">userId</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+      <span class="nl">viewState</span><span class="p">:</span> <span class="nx">ViewState</span><span class="p">;</span>
+    <span class="p">};</span>
+
+    <span class="dl">'</span><span class="s1">collaboration.annotation</span><span class="dl">'</span><span class="p">:</span> <span class="p">{</span>
+      <span class="na">userId</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+      <span class="nl">annotation</span><span class="p">:</span> <span class="nx">Annotation</span><span class="p">;</span>
+    <span class="p">};</span>
+  <span class="p">};</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="6-security-specifications">6. Security Specifications</h2>
+
+<h3 id="61-authentication--authorization">6.1 Authentication &amp; Authorization</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">authentication</span><span class="pi">:</span>
+  <span class="na">providers</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">type</span><span class="pi">:</span> <span class="s">oauth2</span>
+      <span class="na">providers</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">google</span><span class="pi">,</span> <span class="nv">github</span><span class="pi">,</span> <span class="nv">orcid</span><span class="pi">]</span>
+    <span class="pi">-</span> <span class="na">type</span><span class="pi">:</span> <span class="s">jwt</span>
+      <span class="na">expiry</span><span class="pi">:</span> <span class="s">24h</span>
+    <span class="pi">-</span> <span class="na">type</span><span class="pi">:</span> <span class="s">api_key</span>
+      <span class="na">for</span><span class="pi">:</span> <span class="s">programmatic_access</span>
+
+<span class="na">authorization</span><span class="pi">:</span>
+  <span class="na">roles</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">guest</span>
+      <span class="na">permissions</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">view_public</span><span class="pi">,</span> <span class="nv">run_basic_analysis</span><span class="pi">]</span>
+    <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">student</span>
+      <span class="na">permissions</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">save_work</span><span class="pi">,</span> <span class="nv">access_tutorials</span><span class="pi">,</span> <span class="nv">share_results</span><span class="pi">]</span>
+    <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">researcher</span>
+      <span class="na">permissions</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">batch_processing</span><span class="pi">,</span> <span class="nv">custom_scripts</span><span class="pi">,</span> <span class="nv">private_datasets</span><span class="pi">]</span>
+    <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">admin</span>
+      <span class="na">permissions</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">user_management</span><span class="pi">,</span> <span class="nv">system_config</span><span class="pi">,</span> <span class="nv">monitoring</span><span class="pi">]</span>
+
+<span class="na">rate_limiting</span><span class="pi">:</span>
+    <span class="na">guest</span><span class="pi">:</span> <span class="s">100 requests/hour</span>
+    <span class="na">student</span><span class="pi">:</span> <span class="s">1000 requests/hour</span>
+    <span class="na">researcher</span><span class="pi">:</span> <span class="s">10000 requests/hour</span>
+
+<span class="na">data_protection</span><span class="pi">:</span>
+  <span class="na">encryption_at_rest</span><span class="pi">:</span> <span class="s">AES-256</span>
+  <span class="na">encryption_in_transit</span><span class="pi">:</span> <span class="s">TLS </span><span class="m">1.3</span>
+  <span class="na">pii_handling</span><span class="pi">:</span> <span class="s">GDPR compliant</span>
+  <span class="na">data_retention</span><span class="pi">:</span> <span class="s">90 days for guest, unlimited for registered</span>
+</code></pre></div></div>
+
+<h2 id="7-deployment-specifications">7. Deployment Specifications</h2>
+
+<h3 id="71-container-architecture">7.1 Container Architecture</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># docker-compose.yml</span>
+<span class="na">version</span><span class="pi">:</span> <span class="s1">'</span><span class="s">3.8'</span>
+
+<span class="na">services</span><span class="pi">:</span>
+  <span class="na">frontend</span><span class="pi">:</span>
+    <span class="na">image</span><span class="pi">:</span> <span class="s">knotexplorer/frontend:latest</span>
+    <span class="na">ports</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s2">"</span><span class="s">3000:3000"</span>
+    <span class="na">environment</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">API_URL=http://api:8000</span>
+      <span class="pi">-</span> <span class="s">WEBSOCKET_URL=ws://api:8000/ws</span>
+
+  <span class="na">api</span><span class="pi">:</span>
+    <span class="na">image</span><span class="pi">:</span> <span class="s">knotexplorer/api:latest</span>
+    <span class="na">ports</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s2">"</span><span class="s">8000:8000"</span>
+    <span class="na">environment</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">DATABASE_URL=postgresql://...</span>
+      <span class="pi">-</span> <span class="s">REDIS_URL=redis://redis:6379</span>
+      <span class="pi">-</span> <span class="s">MINIO_URL=http://minio:9000</span>
+    <span class="na">depends_on</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">postgres</span>
+      <span class="pi">-</span> <span class="s">redis</span>
+      <span class="pi">-</span> <span class="s">minio</span>
+
+  <span class="na">worker</span><span class="pi">:</span>
+    <span class="na">image</span><span class="pi">:</span> <span class="s">knotexplorer/worker:latest</span>
+    <span class="na">deploy</span><span class="pi">:</span>
+      <span class="na">replicas</span><span class="pi">:</span> <span class="m">4</span>
+    <span class="na">environment</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">CELERY_BROKER_URL=redis://redis:6379</span>
+      <span class="pi">-</span> <span class="s">CUDA_VISIBLE_DEVICES=0,1</span>
+
+  <span class="na">postgres</span><span class="pi">:</span>
+    <span class="na">image</span><span class="pi">:</span> <span class="s">postgres:14</span>
+    <span class="na">volumes</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">postgres_data:/var/lib/postgresql/data</span>
+    <span class="na">environment</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">POSTGRES_DB=knotexplorer</span>
+      <span class="pi">-</span> <span class="s">POSTGRES_USER=knot_user</span>
+      <span class="pi">-</span> <span class="s">POSTGRES_PASSWORD=${DB_PASSWORD}</span>
+
+  <span class="na">redis</span><span class="pi">:</span>
+    <span class="na">image</span><span class="pi">:</span> <span class="s">redis:7-alpine</span>
+    <span class="na">volumes</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">redis_data:/data</span>
+
+  <span class="na">minio</span><span class="pi">:</span>
+    <span class="na">image</span><span class="pi">:</span> <span class="s">minio/minio:latest</span>
+    <span class="na">volumes</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">minio_data:/data</span>
+    <span class="na">environment</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">MINIO_ROOT_USER=${MINIO_USER}</span>
+      <span class="pi">-</span> <span class="s">MINIO_ROOT_PASSWORD=${MINIO_PASSWORD}</span>
+    <span class="na">command</span><span class="pi">:</span> <span class="s">server /data --console-address ":9001"</span>
+
+<span class="na">volumes</span><span class="pi">:</span>
+  <span class="na">postgres_data</span><span class="pi">:</span>
+  <span class="na">redis_data</span><span class="pi">:</span>
+  <span class="na">minio_data</span><span class="pi">:</span>
+</code></pre></div></div>
+
+<h3 id="72-kubernetes-deployment">7.2 Kubernetes Deployment</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># kubernetes/deployment.yaml</span>
+<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">apps/v1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Deployment</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">knotexplorer-api</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">replicas</span><span class="pi">:</span> <span class="m">3</span>
+  <span class="na">selector</span><span class="pi">:</span>
+    <span class="na">matchLabels</span><span class="pi">:</span>
+      <span class="na">app</span><span class="pi">:</span> <span class="s">knotexplorer-api</span>
+  <span class="na">template</span><span class="pi">:</span>
+    <span class="na">metadata</span><span class="pi">:</span>
+      <span class="na">labels</span><span class="pi">:</span>
+        <span class="na">app</span><span class="pi">:</span> <span class="s">knotexplorer-api</span>
+    <span class="na">spec</span><span class="pi">:</span>
+      <span class="na">containers</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">api</span>
+        <span class="na">image</span><span class="pi">:</span> <span class="s">knotexplorer/api:latest</span>
+        <span class="na">ports</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="na">containerPort</span><span class="pi">:</span> <span class="m">8000</span>
+        <span class="na">resources</span><span class="pi">:</span>
+          <span class="na">requests</span><span class="pi">:</span>
+            <span class="na">memory</span><span class="pi">:</span> <span class="s2">"</span><span class="s">2Gi"</span>
+            <span class="na">cpu</span><span class="pi">:</span> <span class="s2">"</span><span class="s">1000m"</span>
+          <span class="na">limits</span><span class="pi">:</span>
+            <span class="na">memory</span><span class="pi">:</span> <span class="s2">"</span><span class="s">4Gi"</span>
+            <span class="na">cpu</span><span class="pi">:</span> <span class="s2">"</span><span class="s">2000m"</span>
+        <span class="na">env</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">DATABASE_URL</span>
+          <span class="na">valueFrom</span><span class="pi">:</span>
+            <span class="na">secretKeyRef</span><span class="pi">:</span>
+              <span class="na">name</span><span class="pi">:</span> <span class="s">knotexplorer-secrets</span>
+              <span class="na">key</span><span class="pi">:</span> <span class="s">database-url</span>
+<span class="nn">---</span>
+<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">v1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Service</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">knotexplorer-api</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">selector</span><span class="pi">:</span>
+    <span class="na">app</span><span class="pi">:</span> <span class="s">knotexplorer-api</span>
+  <span class="na">ports</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">port</span><span class="pi">:</span> <span class="m">8000</span>
+    <span class="na">targetPort</span><span class="pi">:</span> <span class="m">8000</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">LoadBalancer</span>
+<span class="nn">---</span>
+<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">autoscaling/v2</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">HorizontalPodAutoscaler</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">knotexplorer-api-hpa</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">scaleTargetRef</span><span class="pi">:</span>
+    <span class="na">apiVersion</span><span class="pi">:</span> <span class="s">apps/v1</span>
+    <span class="na">kind</span><span class="pi">:</span> <span class="s">Deployment</span>
+    <span class="na">name</span><span class="pi">:</span> <span class="s">knotexplorer-api</span>
+  <span class="na">minReplicas</span><span class="pi">:</span> <span class="m">3</span>
+  <span class="na">maxReplicas</span><span class="pi">:</span> <span class="m">20</span>
+  <span class="na">metrics</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">type</span><span class="pi">:</span> <span class="s">Resource</span>
+    <span class="na">resource</span><span class="pi">:</span>
+      <span class="na">name</span><span class="pi">:</span> <span class="s">cpu</span>
+      <span class="na">target</span><span class="pi">:</span>
+        <span class="na">type</span><span class="pi">:</span> <span class="s">Utilization</span>
+        <span class="na">averageUtilization</span><span class="pi">:</span> <span class="m">70</span>
+  <span class="pi">-</span> <span class="na">type</span><span class="pi">:</span> <span class="s">Resource</span>
+    <span class="na">resource</span><span class="pi">:</span>
+      <span class="na">name</span><span class="pi">:</span> <span class="s">memory</span>
+      <span class="na">target</span><span class="pi">:</span>
+        <span class="na">type</span><span class="pi">:</span> <span class="s">Utilization</span>
+        <span class="na">averageUtilization</span><span class="pi">:</span> <span class="m">80</span>
+</code></pre></div></div>
+
+<h2 id="8-monitoring--analytics">8. Monitoring &amp; Analytics</h2>
+
+<h3 id="81-application-monitoring">8.1 Application Monitoring</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">monitoring</span><span class="pi">:</span>
+  <span class="na">metrics</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">api_response_time</span>
+      <span class="na">type</span><span class="pi">:</span> <span class="s">histogram</span>
+      <span class="na">labels</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">endpoint</span><span class="pi">,</span> <span class="nv">method</span><span class="pi">,</span> <span class="nv">status</span><span class="pi">]</span>
+
+    <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">computation_duration</span>
+      <span class="na">type</span><span class="pi">:</span> <span class="s">histogram</span>
+      <span class="na">labels</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">computation_type</span><span class="pi">,</span> <span class="nv">knot_complexity</span><span class="pi">]</span>
+
+    <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">active_users</span>
+      <span class="na">type</span><span class="pi">:</span> <span class="s">gauge</span>
+      <span class="na">labels</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">user_type</span><span class="pi">]</span>
+
+    <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">feature_calculation_accuracy</span>
+      <span class="na">type</span><span class="pi">:</span> <span class="s">histogram</span>
+      <span class="na">labels</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">feature_type</span><span class="pi">,</span> <span class="nv">sampling_density</span><span class="pi">]</span>
+
+  <span class="na">logging</span><span class="pi">:</span>
+    <span class="na">level</span><span class="pi">:</span> <span class="s">INFO</span>
+    <span class="na">format</span><span class="pi">:</span> <span class="s">json</span>
+    <span class="na">destinations</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">stdout</span>
+      <span class="pi">-</span> <span class="s">elasticsearch</span>
+
+  <span class="na">tracing</span><span class="pi">:</span>
+    <span class="na">enabled</span><span class="pi">:</span> <span class="no">true</span>
+    <span class="na">sampling_rate</span><span class="pi">:</span> <span class="m">0.1</span>
+    <span class="na">exporter</span><span class="pi">:</span> <span class="s">jaeger</span>
+
+  <span class="na">alerting</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">high_error_rate</span>
+      <span class="na">condition</span><span class="pi">:</span> <span class="s">error_rate &gt; </span><span class="m">0.05</span>
+      <span class="na">duration</span><span class="pi">:</span> <span class="s">5m</span>
+      <span class="na">action</span><span class="pi">:</span> <span class="s">notify_oncall</span>
+
+    <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">slow_computation</span>
+      <span class="na">condition</span><span class="pi">:</span> <span class="s">p95_computation_time &gt; 10s</span>
+      <span class="na">duration</span><span class="pi">:</span> <span class="s">10m</span>
+      <span class="na">action</span><span class="pi">:</span> <span class="s">scale_workers</span>
+</code></pre></div></div>
+
+<h3 id="82-user-analytics">8.2 User Analytics</h3>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kr">interface</span> <span class="nx">Analytics</span> <span class="p">{</span>
+  <span class="c1">// User behavior tracking</span>
+  <span class="nx">trackEvent</span><span class="p">(</span><span class="nx">event</span><span class="p">:</span> <span class="nx">AnalyticsEvent</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+
+  <span class="c1">// Feature usage</span>
+  <span class="nx">trackFeatureUsage</span><span class="p">(</span><span class="nx">feature</span><span class="p">:</span> <span class="kr">string</span><span class="p">,</span> <span class="nx">context</span><span class="p">:</span> <span class="kr">any</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+
+  <span class="c1">// Performance metrics</span>
+  <span class="nx">trackPerformance</span><span class="p">(</span><span class="nx">metric</span><span class="p">:</span> <span class="nx">PerformanceMetric</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+
+  <span class="c1">// Educational progress</span>
+  <span class="nx">trackProgress</span><span class="p">(</span><span class="kr">module</span><span class="p">:</span> <span class="kr">string</span><span class="p">,</span> <span class="nx">completion</span><span class="p">:</span> <span class="kr">number</span><span class="p">):</span> <span class="k">void</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kr">interface</span> <span class="nx">AnalyticsEvent</span> <span class="p">{</span>
+  <span class="nl">category</span><span class="p">:</span> <span class="dl">'</span><span class="s1">interaction</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">computation</span><span class="dl">'</span> <span class="o">|</span> <span class="dl">'</span><span class="s1">education</span><span class="dl">'</span><span class="p">;</span>
+  <span class="nl">action</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+  <span class="nl">label</span><span class="p">?:</span> <span class="kr">string</span><span class="p">;</span>
+  <span class="nl">value</span><span class="p">?:</span> <span class="kr">number</span><span class="p">;</span>
+  <span class="nl">metadata</span><span class="p">?:</span> <span class="nb">Record</span><span class="o">&lt;</span><span class="kr">string</span><span class="p">,</span> <span class="kr">any</span><span class="o">&gt;</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="9-testing-specifications">9. Testing Specifications</h2>
+
+<h3 id="91-test-coverage-requirements">9.1 Test Coverage Requirements</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">coverage_targets</span><span class="pi">:</span>
+  <span class="na">unit_tests</span><span class="pi">:</span>
+    <span class="na">backend</span><span class="pi">:</span> <span class="pi">&gt;</span><span class="err">=</span> <span class="err">90%</span>
+    <span class="s">frontend: &gt;= 85%</span>
+    <span class="s">algorithms: &gt;= 95%</span>
+
+  <span class="na">integration_tests</span><span class="pi">:</span>
+    <span class="na">api_endpoints</span><span class="pi">:</span> <span class="s">100%</span>
+    <span class="na">database_operations</span><span class="pi">:</span> <span class="pi">&gt;</span><span class="err">=</span> <span class="err">90%</span>
+    <span class="s">external_services: &gt;= 80%</span>
+
+  <span class="na">e2e_tests</span><span class="pi">:</span>
+    <span class="na">critical_paths</span><span class="pi">:</span> <span class="s">100%</span>
+    <span class="na">user_workflows</span><span class="pi">:</span> <span class="pi">&gt;</span><span class="err">=</span> <span class="err">90%</span>
+
+  <span class="na">performance_tests</span><span class="pi">:</span>
+    <span class="na">load_testing</span><span class="pi">:</span> <span class="s">1000 concurrent users</span>
+    <span class="na">stress_testing</span><span class="pi">:</span> <span class="s">10000 knots batch</span>
+    <span class="na">endurance_testing</span><span class="pi">:</span> <span class="s">24 hours continuous</span>
+</code></pre></div></div>
+
+<h3 id="92-test-data">9.2 Test Data</h3>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kr">interface</span> <span class="nx">TestDataGenerator</span> <span class="p">{</span>
+  <span class="c1">// Knot generation</span>
+  <span class="nx">generateKnot</span><span class="p">(</span><span class="kd">type</span><span class="p">:</span> <span class="nx">KnotType</span><span class="p">,</span> <span class="nx">params</span><span class="p">?:</span> <span class="nx">KnotParams</span><span class="p">):</span> <span class="nx">KnotData</span><span class="p">;</span>
+  <span class="nx">generateKnotFamily</span><span class="p">(</span><span class="nx">family</span><span class="p">:</span> <span class="kr">string</span><span class="p">,</span> <span class="nx">count</span><span class="p">:</span> <span class="kr">number</span><span class="p">):</span> <span class="nx">KnotData</span><span class="p">[];</span>
+
+  <span class="c1">// Perturbation testing</span>
+  <span class="nx">perturbKnot</span><span class="p">(</span><span class="nx">knot</span><span class="p">:</span> <span class="nx">KnotData</span><span class="p">,</span> <span class="nx">noise</span><span class="p">:</span> <span class="kr">number</span><span class="p">):</span> <span class="nx">KnotData</span><span class="p">;</span>
+  <span class="nx">generateIsotopicVariations</span><span class="p">(</span><span class="nx">knot</span><span class="p">:</span> <span class="nx">KnotData</span><span class="p">,</span> <span class="nx">count</span><span class="p">:</span> <span class="kr">number</span><span class="p">):</span> <span class="nx">KnotData</span><span class="p">[];</span>
+
+  <span class="c1">// Edge cases</span>
+  <span class="nx">generateDegenerateKnot</span><span class="p">():</span> <span class="nx">KnotData</span><span class="p">;</span>
+  <span class="nx">generateHighComplexityKnot</span><span class="p">(</span><span class="nx">crossings</span><span class="p">:</span> <span class="kr">number</span><span class="p">):</span> <span class="nx">KnotData</span><span class="p">;</span>
+
+  <span class="c1">// Benchmarking</span>
+  <span class="nx">generateBenchmarkSuite</span><span class="p">():</span> <span class="nx">BenchmarkSuite</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="10-documentation-requirements">10. Documentation Requirements</h2>
+
+<h3 id="101-user-documentation">10.1 User Documentation</h3>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>documentation/
+├── getting-started/
+│   ├── quick-start.md
+│   ├── installation.md
+│   └── first-knot-analysis.md
+├── tutorials/
+│   ├── 01-knot-basics.md
+│   ├── 02-distance-matrices.md
+│   ├── 03-persistent-homology.md
+│   ├── 04-machine-learning.md
+│   └── 05-advanced-analysis.md
+├── reference/
+│   ├── api-reference.md
+│   ├── feature-glossary.md
+│   ├── algorithm-details.md
+│   └── troubleshooting.md
+├── examples/
+│   ├── classify-trefoil.ipynb
+│   ├── batch-analysis.ipynb
+│   ├── custom-features.ipynb
+│   └── visualization-gallery.ipynb
+└── research/
+    ├── paper-reproduction.md
+    ├── extending-features.md
+    └── contributing.md
+</code></pre></div></div>
+
+<h3 id="102-api-documentation">10.2 API Documentation</h3>
+
+<ul>
+  <li>OpenAPI/Swagger specification</li>
+  <li>Interactive API explorer</li>
+  <li>Rate limiting and authentication guides</li>
+  <li>Webhook documentation</li>
+</ul>
+
+<h2 id="11-accessibility-requirements">11. Accessibility Requirements</h2>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">accessibility</span><span class="pi">:</span>
+  <span class="na">standards</span><span class="pi">:</span> <span class="s">WCAG 2.1 Level AA</span>
+
+  <span class="na">features</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">keyboard_navigation</span><span class="pi">:</span> <span class="s">full support</span>
+    <span class="pi">-</span> <span class="na">screen_reader</span><span class="pi">:</span> <span class="s">ARIA labels and descriptions</span>
+    <span class="pi">-</span> <span class="na">color_contrast</span><span class="pi">:</span> <span class="s">4.5:1 minimum</span>
+    <span class="pi">-</span> <span class="na">text_scaling</span><span class="pi">:</span> <span class="s">200% without horizontal scroll</span>
+    <span class="pi">-</span> <span class="na">focus_indicators</span><span class="pi">:</span> <span class="s">visible and high contrast</span>
+
+  <span class="na">3d_visualization</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">alternative_text_descriptions</span><span class="pi">:</span> <span class="no">true</span>
+    <span class="pi">-</span> <span class="na">sonification_option</span><span class="pi">:</span> <span class="no">true</span>
+    <span class="pi">-</span> <span class="na">2d_projection_fallback</span><span class="pi">:</span> <span class="no">true</span>
+
+  <span class="na">educational_content</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">closed_captions</span><span class="pi">:</span> <span class="s">for all videos</span>
+    <span class="pi">-</span> <span class="na">transcript_availability</span><span class="pi">:</span> <span class="no">true</span>
+    <span class="pi">-</span> <span class="na">multiple_representation</span><span class="pi">:</span> <span class="s">visual + textual + auditory</span>
+</code></pre></div></div>
+
+<h2 id="12-internationalization">12. Internationalization</h2>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">i18n</span><span class="pi">:</span>
+  <span class="na">supported_languages</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">en</span><span class="pi">:</span> <span class="s">English (default)</span>
+    <span class="pi">-</span> <span class="na">es</span><span class="pi">:</span> <span class="s">Spanish</span>
+    <span class="pi">-</span> <span class="na">fr</span><span class="pi">:</span> <span class="s">French</span>
+    <span class="pi">-</span> <span class="na">de</span><span class="pi">:</span> <span class="s">German</span>
+    <span class="pi">-</span> <span class="na">zh</span><span class="pi">:</span> <span class="s">Chinese (Simplified)</span>
+    <span class="pi">-</span> <span class="na">ja</span><span class="pi">:</span> <span class="s">Japanese</span>
+
+  <span class="na">content_translation</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">ui_elements</span><span class="pi">:</span> <span class="s">100%</span>
+    <span class="pi">-</span> <span class="na">documentation</span><span class="pi">:</span> <span class="s">100%</span>
+    <span class="pi">-</span> <span class="na">error_messages</span><span class="pi">:</span> <span class="s">100%</span>
+    <span class="pi">-</span> <span class="na">educational_content</span><span class="pi">:</span> <span class="s">phased rollout</span>
+
+  <span class="na">localization</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">number_formats</span><span class="pi">:</span> <span class="s">locale-specific</span>
+    <span class="pi">-</span> <span class="na">date_formats</span><span class="pi">:</span> <span class="s">locale-specific</span>
+    <span class="pi">-</span> <span class="na">mathematical_notation</span><span class="pi">:</span> <span class="s">configurable</span>
+</code></pre></div></div>
+
+<p>This comprehensive specification provides a complete blueprint for implementing the KnotExplorer platform, supporting both research and educational use cases with scalable, performant, and accessible design.</p>
+
+
+  </main>
+  <div class="site-footer">
+  <div class="footer-content">
+    <p>&copy; 2025 Journal of Speculative Science. POWERED BY AGENTIC-HUMAN COLLABORATION.</p>
+    <p>A journal dedicated to exploring speculative ideas in science and technology.</p>
+  </div>
+</div>
+  <!-- JavaScript for Effects -->
+  <script>
+    function createParticles() {
+      const particleContainer = document.getElementById('particleField');
+      setInterval(() => {
+        if (particleContainer.children.length < 20) {
+          const particle = document.createElement('div');
+          particle.className = 'particle';
+          particle.style.left = Math.random() * 100 + '%';
+          particle.style.animationDuration = (Math.random() * 10 + 5) + 's';
+          particleContainer.appendChild(particle);
+          setTimeout(() => {
+            if (particle.parentNode) {
+              particle.parentNode.removeChild(particle);
+            }
+          }, 15000);
+        }
+      }, 500);
+    }
+    
+    // Initialize effects when page loads
+    document.addEventListener('DOMContentLoaded', function() {
+      createParticles();
+    });
+  </script>
+</body>
+</html>

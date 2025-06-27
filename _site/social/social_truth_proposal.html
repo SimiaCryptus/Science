@@ -1,0 +1,1494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Truth Proposal</title>
+  <link rel="stylesheet" href="/Science/assets/css/style.css">
+  <link rel="icon" type="image/x-icon" href="/Science/favicon.ico">
+</head>
+<body>
+  <!-- Floating Particles -->
+  <div class="particle-field" id="particleField"></div>
+  
+  <div class="site-header">
+  <div class="header-content">
+    <p class="site-tagline">Journal of Speculative Science</p>
+    <nav class="site-nav">
+      <a href="/Science/">Home</a>
+      <a href="/Science/social/">Social Dynamics</a>
+      <a href="/Science/scifi/">Quantum Theories</a>
+      <a href="/Science/projects/">Project Ideas</a>
+    </nav>
+  </div>
+</div>
+  <main class="container">
+    <h1 id="dynamic-multi-agent-modeling-of-social-truth-formation-a-spatially-embedded-game-theoretic-approach">Dynamic Multi-Agent Modeling of Social Truth Formation: A Spatially-Embedded Game-Theoretic Approach</h1>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>We propose a novel computational framework for understanding how social truths emerge, propagate, and stabilize through collective agent interactions. Our model combines cellular automaton spatial dynamics with game-theoretic belief transitions to create a unified theory of social epistemology. Agents exist as cells on a grid, each representing belief states within a formal state machine, where transitions between beliefs are governed by strategic interactions with spatial neighbors. This approach enables investigation of fundamental questions about opinion polarization, consensus formation, information cascade dynamics, and the structural conditions that determine which beliefs become socially accepted as “truth.”</p>
+
+<h2 id="background-and-motivation">Background and Motivation</h2>
+
+<h3 id="the-problem-of-social-truth">The Problem of Social Truth</h3>
+
+<p>Social truth - what societies collectively accept as factual or normative reality - emerges through complex interactions between individual cognition, social influence, and institutional structures. Traditional approaches to understanding belief dynamics have focused either on individual psychology or aggregate statistical patterns, missing the crucial mesoscale phenomena where local interactions create global emergent properties.</p>
+
+<p>Current models face several limitations:</p>
+<ul>
+  <li><strong>Topology Blindness</strong>: Most models assume well-mixed populations, ignoring spatial and social network structure</li>
+  <li><strong>Static Equilibrium Focus</strong>: Emphasis on end-states rather than dynamic processes of belief change</li>
+  <li><strong>Simplified Transition Mechanisms</strong>: Binary adoption models that don’t capture the rich variety of belief change processes</li>
+  <li><strong>Lack of Strategic Interaction</strong>: Insufficient attention to how agents strategically choose beliefs based on social payoffs</li>
+</ul>
+
+<h3 id="theoretical-framework">Theoretical Framework</h3>
+
+<p>Our approach integrates three key theoretical components:</p>
+
+<p><strong>1. Belief State Machines</strong>
+Each agent exists in a discrete belief state drawn from a structured state space. States represent coherent worldviews, political positions, or epistemic frameworks. Transitions between states are triggered by specific mechanisms (evidence evaluation, social proof, traumatic events) with probabilistic outcomes.</p>
+
+<p><strong>2. Game-Theoretic Transition Dynamics</strong>
+Belief transitions are modeled as strategic choices where agents consider both epistemic payoffs (alignment with evidence) and social payoffs (coordination with neighbors). This captures phenomena like preference falsification, social proof effects, and costly signaling of beliefs.</p>
+
+<p><strong>3. Spatial Cellular Automaton Structure</strong>
+Agents are arranged on a 2D grid with local interaction neighborhoods. This creates natural geographic clustering, belief boundaries, and wave-like propagation dynamics that mirror real-world spatial patterns in opinion distribution.</p>
+
+<h2 id="research-questions">Research Questions</h2>
+
+<h3 id="primary-questions">Primary Questions</h3>
+<ol>
+  <li>
+    <p><strong>Convergence and Stability</strong>: Under what conditions do spatially-embedded belief systems converge to stable configurations versus exhibiting persistent dynamics?</p>
+  </li>
+  <li>
+    <p><strong>Phase Transitions</strong>: What are the critical parameters that determine whether belief changes remain localized or cascade across the entire system?</p>
+  </li>
+  <li>
+    <p><strong>Structural Resilience</strong>: How do different spatial arrangements and network topologies affect the robustness of belief systems to perturbation?</p>
+  </li>
+</ol>
+
+<h3 id="secondary-questions">Secondary Questions</h3>
+<ol>
+  <li>
+    <p><strong>Boundary Dynamics</strong>: How do interfaces between different belief regions evolve over time, and what determines their stability?</p>
+  </li>
+  <li>
+    <p><strong>Minority Persistence</strong>: What spatial and strategic conditions allow minority beliefs to survive in hostile environments?</p>
+  </li>
+  <li>
+    <p><strong>Information Integration</strong>: How do different evidence evaluation mechanisms interact with social influence to shape collective truth formation?</p>
+  </li>
+</ol>
+
+<h2 id="methodology">Methodology</h2>
+
+<h3 id="model-architecture">Model Architecture</h3>
+
+<p><strong>Agent States</strong></p>
+<ul>
+  <li>Each agent i occupies position (x,y) on an L×L grid</li>
+  <li>Agent state s_i(t) ∈ S where S is a discrete belief state space</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>State transitions governed by: P(s_i(t+1) = s’</td>
+          <td>s_i(t) = s, N_i(t))</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>N_i(t) represents the belief configuration of agent i’s neighborhood</li>
+</ul>
+
+<p><strong>Spatial Structure</strong></p>
+<ul>
+  <li>Moore neighborhoods (8-connected) as baseline</li>
+  <li>Variable neighborhood radius R to model different influence ranges</li>
+  <li>Periodic boundary conditions to eliminate edge effects</li>
+  <li>Extensions to random geometric graphs and small-world networks</li>
+</ul>
+
+<p><strong>Transition Mechanisms</strong>
+We model several classes of belief change:</p>
+
+<p><em>Evidence-Based Transitions</em></p>
+<ul>
+  <li>Agents receive noisy signals about ground truth</li>
+  <li>Transition probability increases with evidence strength</li>
+  <li>Incorporates confirmation bias and motivated reasoning</li>
+</ul>
+
+<p><em>Social Influence Transitions</em></p>
+<ul>
+  <li>Probability depends on fraction of neighbors holding target belief</li>
+  <li>Threshold effects create discontinuous social proof dynamics</li>
+  <li>Asymmetric influence based on perceived credibility</li>
+</ul>
+
+<p><em>Crisis-Induced Transitions</em></p>
+<ul>
+  <li>Low-probability, high-impact events that can trigger rapid belief changes</li>
+  <li>May bypass normal epistemic filters</li>
+  <li>Can be system-wide or localized shocks</li>
+</ul>
+
+<p><strong>Game-Theoretic Payoffs</strong>
+Agent utility functions combine:</p>
+<ul>
+  <li>Epistemic payoffs: alignment with evidence or prior beliefs</li>
+  <li>Social coordination payoffs: alignment with neighbors</li>
+  <li>Signaling costs: expense of maintaining certain beliefs</li>
+  <li>Conformity pressure: costs of deviating from local majority</li>
+</ul>
+
+<h3 id="experimental-design">Experimental Design</h3>
+
+<p><strong>Phase 1: Baseline Dynamics</strong></p>
+<ul>
+  <li>Systematic exploration of parameter space (grid size, neighborhood radius, payoff weights)</li>
+  <li>Characterization of equilibrium types and basin of attraction</li>
+  <li>Measurement of convergence times and stability metrics</li>
+</ul>
+
+<p><strong>Phase 2: Perturbation Analysis</strong></p>
+<ul>
+  <li>Introduction of evidence shocks, crisis events, and influential agents</li>
+  <li>Analysis of cascade dynamics and tipping points</li>
+  <li>Mapping of system vulnerability to different perturbation types</li>
+</ul>
+
+<p><strong>Phase 3: Heterogeneous Agents</strong></p>
+<ul>
+  <li>Variation in agent properties (credibility, influence radius, update rules)</li>
+  <li>Introduction of institutional agents with different objectives</li>
+  <li>Investigation of leader-follower dynamics and opinion leadership</li>
+</ul>
+
+<p><strong>Phase 4: Dynamic Environments</strong></p>
+<ul>
+  <li>Time-varying evidence streams and changing payoff structures</li>
+  <li>Co-evolution of belief systems and social network structure</li>
+  <li>Adaptation and learning at both individual and system levels</li>
+</ul>
+
+<h3 id="metrics-and-analysis">Metrics and Analysis</h3>
+
+<p><strong>Spatial Metrics</strong></p>
+<ul>
+  <li>Spatial autocorrelation functions</li>
+  <li>Cluster size distributions and percolation analysis</li>
+  <li>Interface width and roughness exponents</li>
+  <li>Segregation indices and spatial mixing measures</li>
+</ul>
+
+<p><strong>Temporal Metrics</strong></p>
+<ul>
+  <li>Convergence rates and relaxation times</li>
+  <li>Persistence of beliefs and memory effects</li>
+  <li>Frequency and amplitude of belief oscillations</li>
+  <li>Critical slowing down near phase transitions</li>
+</ul>
+
+<p><strong>Information-Theoretic Measures</strong></p>
+<ul>
+  <li>Mutual information between agent beliefs and evidence</li>
+  <li>Entropy of belief distributions</li>
+  <li>Information cascades and herding behavior</li>
+  <li>Collective intelligence metrics</li>
+</ul>
+
+<h2 id="expected-outcomes">Expected Outcomes</h2>
+
+<h3 id="theoretical-contributions">Theoretical Contributions</h3>
+<ol>
+  <li><strong>Unified Framework</strong>: A mathematically rigorous model connecting individual belief dynamics to collective social truth formation</li>
+  <li><strong>Phase Diagram</strong>: Characterization of parameter regimes leading to consensus, polarization, chaos, or persistent disagreement</li>
+  <li><strong>Scaling Laws</strong>: Power-law relationships between system size, convergence time, and stability</li>
+  <li><strong>Critical Phenomena</strong>: Identification of order parameters and critical exponents governing belief system phase transitions</li>
+</ol>
+
+<h3 id="practical-applications">Practical Applications</h3>
+<ol>
+  <li><strong>Polarization Prediction</strong>: Early warning indicators for opinion fragmentation in political and social contexts</li>
+  <li><strong>Intervention Design</strong>: Optimal strategies for promoting consensus or preventing harmful belief cascades</li>
+  <li><strong>Information Campaign Effectiveness</strong>: Quantitative models for how evidence presentation affects belief adoption</li>
+  <li><strong>Social Media Dynamics</strong>: Insights into echo chambers, viral misinformation, and platform design effects</li>
+</ol>
+
+<h3 id="empirical-validation">Empirical Validation</h3>
+<ol>
+  <li><strong>Historical Case Studies</strong>: Application to documented cases of rapid belief change (scientific revolutions, political movements, moral panics)</li>
+  <li><strong>Survey Data Integration</strong>: Calibration using longitudinal opinion polling and social network data</li>
+  <li><strong>Laboratory Experiments</strong>: Controlled studies of belief change in small groups with spatial constraints</li>
+  <li><strong>Digital Trace Data</strong>: Analysis of belief evolution in online communities with explicit network structure</li>
+</ol>
+
+<h2 id="technical-implementation">Technical Implementation</h2>
+
+<h3 id="computational-architecture">Computational Architecture</h3>
+<ul>
+  <li>Efficient cellular automaton update algorithms optimized for large grids</li>
+  <li>Parallel processing for ensemble runs across parameter space</li>
+  <li>GPU acceleration for real-time visualization and interaction</li>
+  <li>Modular design allowing easy extension of state spaces and transition rules</li>
+</ul>
+
+<h3 id="software-development">Software Development</h3>
+<ul>
+  <li>Open-source Python/C++ implementation with standardized APIs</li>
+  <li>Integration with network analysis libraries (NetworkX, SNAP)</li>
+  <li>Visualization tools for real-time belief landscape evolution</li>
+  <li>Statistical analysis pipeline for systematic parameter exploration</li>
+</ul>
+
+<h3 id="validation-framework">Validation Framework</h3>
+<ul>
+  <li>Unit tests for individual transition mechanisms</li>
+  <li>Convergence to known analytical results in limiting cases</li>
+  <li>Comparison with existing opinion dynamics models</li>
+  <li>Sensitivity analysis and robustness testing</li>
+</ul>
+
+<h2 id="timeline-and-milestones">Timeline and Milestones</h2>
+
+<h3 id="year-1-foundation">Year 1: Foundation</h3>
+<ul>
+  <li><strong>Months 1-3</strong>: Literature review and theoretical framework development</li>
+  <li><strong>Months 4-6</strong>: Core model implementation and basic validation</li>
+  <li><strong>Months 7-9</strong>: Parameter space exploration and baseline characterization</li>
+  <li><strong>Months 10-12</strong>: Initial results analysis and publication preparation</li>
+</ul>
+
+<h3 id="year-2-extension-and-analysis">Year 2: Extension and Analysis</h3>
+<ul>
+  <li><strong>Months 13-15</strong>: Heterogeneous agent implementation</li>
+  <li><strong>Months 16-18</strong>: Perturbation analysis and cascade dynamics</li>
+  <li><strong>Months 19-21</strong>: Empirical validation with historical case studies</li>
+  <li><strong>Months 22-24</strong>: Advanced analysis techniques and scaling studies</li>
+</ul>
+
+<h3 id="year-3-application-and-dissemination">Year 3: Application and Dissemination</h3>
+<ul>
+  <li><strong>Months 25-27</strong>: Policy application development</li>
+  <li><strong>Months 28-30</strong>: Large-scale computational experiments</li>
+  <li><strong>Months 31-33</strong>: Final validation and robustness testing</li>
+  <li><strong>Months 34-36</strong>: Comprehensive publication and software release</li>
+</ul>
+
+<h2 id="budget-justification">Budget Justification</h2>
+
+<h3 id="personnel-75-of-total-budget">Personnel (75% of total budget)</h3>
+<ul>
+  <li>Principal Investigator (25% effort): Theoretical development and oversight</li>
+  <li>Postdoctoral Researcher (100% effort): Model implementation and analysis</li>
+  <li>Graduate Students (2 × 50% effort): Computational experiments and validation</li>
+  <li>Undergraduate Research Assistants (seasonal): Data collection and visualization</li>
+</ul>
+
+<h3 id="computational-resources-15-of-total-budget">Computational Resources (15% of total budget)</h3>
+<ul>
+  <li>High-performance computing cluster access for large-scale simulations</li>
+  <li>GPU workstations for real-time visualization and model development</li>
+  <li>Cloud computing resources for parameter sweeps and ensemble runs</li>
+</ul>
+
+<h3 id="travel-and-dissemination-10-of-total-budget">Travel and Dissemination (10% of total budget)</h3>
+<ul>
+  <li>Conference presentations at interdisciplinary venues</li>
+  <li>Workshop organization for community building</li>
+  <li>Collaboration visits with empirical researchers and domain experts</li>
+</ul>
+
+<h2 id="broader-impacts">Broader Impacts</h2>
+
+<h3 id="scientific-impact">Scientific Impact</h3>
+<p>This research addresses fundamental questions about collective cognition and social epistemology that span multiple disciplines. The mathematical framework we develop will provide tools for researchers in political science, sociology, psychology, and complex systems to study belief dynamics with unprecedented precision.</p>
+
+<h3 id="societal-benefits">Societal Benefits</h3>
+<p>Understanding how social truths form and evolve is crucial for addressing contemporary challenges including political polarization, science denial, and misinformation spread. Our model will inform evidence-based approaches to promoting healthy democratic discourse and collective decision-making.</p>
+
+<h3 id="educational-opportunities">Educational Opportunities</h3>
+<p>The project will train students in cutting-edge computational social science methods, preparing them for careers at the intersection of technology and social research. Open-source software development will create educational resources for the broader scientific community.</p>
+
+<h3 id="ethical-considerations">Ethical Considerations</h3>
+<p>We recognize that models of belief manipulation could potentially be misused. Our research will include explicit discussion of ethical applications and will emphasize transparency, democratic values, and respect for cognitive autonomy in all practical applications.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>The proposed research represents a significant advance in our understanding of how societies construct and maintain shared beliefs about reality. By combining rigorous mathematical modeling with empirical validation, we aim to develop both theoretical insights and practical tools for navigating an increasingly complex information environment. The interdisciplinary nature of this work positions it to make substantial contributions across multiple fields while addressing pressing societal challenges around truth, consensus, and democratic governance.</p>
+
+<h1 id="technical-requirements-document-social-truth-dynamics-simulation-platform-stdsp">Technical Requirements Document: Social Truth Dynamics Simulation Platform (STDSP)</h1>
+
+<h2 id="1-executive-summary">1. Executive Summary</h2>
+
+<h3 id="11-project-overview">1.1 Project Overview</h3>
+<p>The Social Truth Dynamics Simulation Platform (STDSP) is a comprehensive software system for modeling belief propagation and social truth formation in spatially-embedded multi-agent systems. The platform implements the theoretical framework described in “Dynamic Multi-Agent Modeling of Social Truth Formation” with emphasis on performance, extensibility, and scientific reproducibility.</p>
+
+<h3 id="12-key-objectives">1.2 Key Objectives</h3>
+<ul>
+  <li>High-performance simulation of millions of agents on 2D/3D grids</li>
+  <li>Real-time visualization of belief landscape evolution</li>
+  <li>Comprehensive statistical analysis and data export capabilities</li>
+  <li>Modular architecture supporting custom belief systems and transition rules</li>
+  <li>Full reproducibility through deterministic execution and version control</li>
+</ul>
+
+<h2 id="2-system-architecture">2. System Architecture</h2>
+
+<h3 id="21-core-components">2.1 Core Components</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>STDSP/
+├── core/
+│   ├── agent.py           # Agent state and behavior
+│   ├── grid.py            # Spatial grid management
+│   ├── state_machine.py   # Belief state transitions
+│   ├── game_theory.py     # Payoff calculations
+│   └── scheduler.py       # Update scheduling
+├── dynamics/
+│   ├── transitions.py     # Transition mechanisms
+│   ├── neighborhoods.py   # Spatial neighborhoods
+│   ├── perturbations.py   # External shocks
+│   └── evidence.py        # Evidence propagation
+├── analysis/
+│   ├── metrics.py         # Statistical measures
+│   ├── spatial.py         # Spatial analysis
+│   ├── temporal.py        # Time series analysis
+│   └── information.py     # Information theory
+├── visualization/
+│   ├── renderer.py        # Real-time rendering
+│   ├── plots.py           # Statistical plots
+│   ├── animation.py       # Evolution videos
+│   └── interactive.py     # GUI components
+├── io/
+│   ├── config.py          # Configuration management
+│   ├── serialization.py   # State saving/loading
+│   ├── export.py          # Data export formats
+│   └── import.py          # External data import
+└── utils/
+    ├── parallel.py        # Parallelization utilities
+    ├── random.py          # RNG management
+    ├── logging.py         # Logging framework
+    └── validation.py      # Input validation
+</code></pre></div></div>
+
+<h3 id="22-technology-stack">2.2 Technology Stack</h3>
+
+<p><strong>Core Implementation</strong></p>
+<ul>
+  <li>Primary Language: Python 3.10+ with type hints</li>
+  <li>Performance-Critical Components: Cython/C++ extensions</li>
+  <li>Numerical Computing: NumPy, SciPy, Numba</li>
+  <li>Parallel Processing: multiprocessing, MPI4Py, Dask</li>
+</ul>
+
+<p><strong>Visualization</strong></p>
+<ul>
+  <li>Real-time Rendering: OpenGL via PyOpenGL/ModernGL</li>
+  <li>Statistical Plots: Matplotlib, Seaborn, Plotly</li>
+  <li>Interactive GUI: PyQt6 or Dear ImGui</li>
+  <li>Web Interface: FastAPI + Vue.js (optional)</li>
+</ul>
+
+<p><strong>Data Management</strong></p>
+<ul>
+  <li>Configuration: YAML/TOML with Pydantic validation</li>
+  <li>Data Storage: HDF5 for large datasets, SQLite for metadata</li>
+  <li>Serialization: Protocol Buffers for efficient state storage</li>
+  <li>Version Control: Git with DVC for large data files</li>
+</ul>
+
+<h2 id="3-functional-requirements">3. Functional Requirements</h2>
+
+<h3 id="31-agent-management">3.1 Agent Management</h3>
+
+<p><strong>FR-AM-001: Agent State Representation</strong></p>
+<ul>
+  <li>Support for arbitrary discrete belief state spaces (up to 1000 states)</li>
+  <li>Efficient storage of agent properties (position, state, memory)</li>
+  <li>O(1) state lookup and update operations</li>
+  <li>Extensible attribute system for custom agent properties</li>
+</ul>
+
+<p><strong>FR-AM-002: Agent Memory</strong></p>
+<ul>
+  <li>Configurable memory depth (last N states)</li>
+  <li>Belief history tracking for path-dependent transitions</li>
+  <li>Evidence accumulation buffers</li>
+  <li>Social interaction history</li>
+</ul>
+
+<p><strong>FR-AM-003: Heterogeneous Agents</strong></p>
+<ul>
+  <li>Agent type system with inheritance</li>
+  <li>Variable update rules per agent type</li>
+  <li>Customizable influence radii and credibility scores</li>
+  <li>Special agent roles (influencers, institutions, media)</li>
+</ul>
+
+<h3 id="32-spatial-grid-system">3.2 Spatial Grid System</h3>
+
+<p><strong>FR-GS-001: Grid Topology</strong></p>
+<ul>
+  <li>2D rectangular grids with configurable dimensions (up to 10,000 × 10,000)</li>
+  <li>Periodic, fixed, or reflective boundary conditions</li>
+  <li>Support for irregular grids and obstacles</li>
+  <li>Extension points for 3D grids and network topologies</li>
+</ul>
+
+<p><strong>FR-GS-002: Neighborhood Definitions</strong></p>
+<ul>
+  <li>Von Neumann (4-connected) neighborhoods</li>
+  <li>Moore (8-connected) neighborhoods</li>
+  <li>Variable radius neighborhoods (R ≤ 10)</li>
+  <li>Custom neighborhood patterns via masks</li>
+</ul>
+
+<p><strong>FR-GS-003: Spatial Indexing</strong></p>
+<ul>
+  <li>Efficient neighbor queries (&lt; 1μs per query)</li>
+  <li>Spatial hashing for large grids</li>
+  <li>Cache-friendly memory layout</li>
+  <li>Support for dynamic grid resizing</li>
+</ul>
+
+<h3 id="33-state-transition-system">3.3 State Transition System</h3>
+
+<p><strong>FR-ST-001: Transition Mechanisms</strong></p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">TransitionMechanism</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">calculate_probability</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">agent</span><span class="p">:</span> <span class="n">Agent</span><span class="p">,</span>
+        <span class="n">from_state</span><span class="p">:</span> <span class="n">BeliefState</span><span class="p">,</span>
+        <span class="n">to_state</span><span class="p">:</span> <span class="n">BeliefState</span><span class="p">,</span>
+        <span class="n">neighbors</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Agent</span><span class="p">],</span>
+        <span class="n">evidence</span><span class="p">:</span> <span class="n">Evidence</span><span class="p">,</span>
+        <span class="n">global_state</span><span class="p">:</span> <span class="n">GlobalState</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">float</span><span class="p">:</span>
+        <span class="s">"""Calculate transition probability"""</span>
+        <span class="k">pass</span>
+</code></pre></div></div>
+
+<p><strong>FR-ST-002: Evidence-Based Transitions</strong></p>
+<ul>
+  <li>Bayesian evidence accumulation</li>
+  <li>Configurable confirmation bias parameters</li>
+  <li>Noise models for imperfect information</li>
+  <li>Time-delayed evidence effects</li>
+</ul>
+
+<p><strong>FR-ST-003: Social Influence Transitions</strong></p>
+<ul>
+  <li>Linear threshold models</li>
+  <li>Complex contagion with memory</li>
+  <li>Weighted influence by agent credibility</li>
+  <li>Asymmetric influence relationships</li>
+</ul>
+
+<p><strong>FR-ST-004: Crisis Transitions</strong></p>
+<ul>
+  <li>Poisson-distributed crisis events</li>
+  <li>Spatial crisis propagation</li>
+  <li>State-dependent vulnerability</li>
+  <li>Recovery dynamics</li>
+</ul>
+
+<h3 id="34-game-theoretic-components">3.4 Game-Theoretic Components</h3>
+
+<p><strong>FR-GT-001: Payoff Functions</strong></p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">PayoffFunction</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">calculate</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">agent_state</span><span class="p">:</span> <span class="n">BeliefState</span><span class="p">,</span>
+        <span class="n">neighbor_states</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">BeliefState</span><span class="p">],</span>
+        <span class="n">evidence_alignment</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span>
+        <span class="n">social_pressure</span><span class="p">:</span> <span class="nb">float</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">float</span><span class="p">:</span>
+        <span class="s">"""Calculate agent utility"""</span>
+        <span class="k">pass</span>
+</code></pre></div></div>
+
+<p><strong>FR-GT-002: Strategic Updates</strong></p>
+<ul>
+  <li>Best response dynamics</li>
+  <li>Logit choice with temperature parameter</li>
+  <li>Evolutionary game theory operators</li>
+  <li>Multi-objective optimization support</li>
+</ul>
+
+<p><strong>FR-GT-003: Equilibrium Detection</strong></p>
+<ul>
+  <li>Nash equilibrium verification</li>
+  <li>Convergence detection algorithms</li>
+  <li>Cycle and attractor identification</li>
+  <li>Stability analysis tools</li>
+</ul>
+
+<h3 id="35-simulation-control">3.5 Simulation Control</h3>
+
+<p><strong>FR-SC-001: Update Scheduling</strong></p>
+<ul>
+  <li>Synchronous updates (all agents simultaneously)</li>
+  <li>Asynchronous random updates</li>
+  <li>Asynchronous ordered updates</li>
+  <li>Custom scheduling algorithms</li>
+</ul>
+
+<p><strong>FR-SC-002: Time Management</strong></p>
+<ul>
+  <li>Discrete time steps with configurable granularity</li>
+  <li>Event-driven scheduling for rare events</li>
+  <li>Adaptive time stepping for efficiency</li>
+  <li>Simulation checkpointing and resumption</li>
+</ul>
+
+<p><strong>FR-SC-003: Experiment Management</strong></p>
+<ul>
+  <li>Parameter sweep automation</li>
+  <li>Ensemble run coordination</li>
+  <li>A/B testing framework</li>
+  <li>Reproducible random seeds</li>
+</ul>
+
+<h3 id="36-analysis-and-metrics">3.6 Analysis and Metrics</h3>
+
+<p><strong>FR-AN-001: Spatial Metrics</strong></p>
+<ul>
+  <li>Moran’s I spatial autocorrelation</li>
+  <li>Geary’s C contiguity ratio</li>
+  <li>Local indicators of spatial association (LISA)</li>
+  <li>Cluster size distributions</li>
+  <li>Percolation analysis</li>
+  <li>Interface detection and measurement</li>
+</ul>
+
+<p><strong>FR-AN-002: Temporal Metrics</strong></p>
+<ul>
+  <li>Convergence time measurement</li>
+  <li>Oscillation detection and period analysis</li>
+  <li>Lyapunov exponents for chaos detection</li>
+  <li>Autocorrelation functions</li>
+  <li>Power spectral density analysis</li>
+</ul>
+
+<p><strong>FR-AN-003: Information Metrics</strong></p>
+<ul>
+  <li>Shannon entropy of belief distributions</li>
+  <li>Mutual information between agents</li>
+  <li>Transfer entropy for causal inference</li>
+  <li>Kullback-Leibler divergence from truth</li>
+  <li>Collective intelligence measures</li>
+</ul>
+
+<p><strong>FR-AN-004: Network Metrics</strong></p>
+<ul>
+  <li>Degree distributions in influence networks</li>
+  <li>Clustering coefficients</li>
+  <li>Path length statistics</li>
+  <li>Community detection</li>
+  <li>Centrality measures</li>
+</ul>
+
+<h3 id="37-visualization">3.7 Visualization</h3>
+
+<p><strong>FR-VZ-001: Real-time Rendering</strong></p>
+<ul>
+  <li>60 FPS rendering for grids up to 1000×1000</li>
+  <li>GPU-accelerated rendering for larger grids</li>
+  <li>Smooth zooming and panning</li>
+  <li>Multiple simultaneous views</li>
+  <li>Configurable color schemes</li>
+</ul>
+
+<p><strong>FR-VZ-002: Animation Export</strong></p>
+<ul>
+  <li>MP4/WebM video export</li>
+  <li>Configurable frame rates and quality</li>
+  <li>Time compression/expansion</li>
+  <li>Annotation overlays</li>
+  <li>Multi-panel compositions</li>
+</ul>
+
+<p><strong>FR-VZ-003: Interactive Analysis</strong></p>
+<ul>
+  <li>Click-to-inspect agent properties</li>
+  <li>Real-time parameter adjustment</li>
+  <li>Pause/resume/step controls</li>
+  <li>Region selection tools</li>
+  <li>Measurement overlays</li>
+</ul>
+
+<p><strong>FR-VZ-004: Statistical Visualizations</strong></p>
+<ul>
+  <li>Time series plots with confidence intervals</li>
+  <li>Phase diagrams and bifurcation plots</li>
+  <li>Heatmaps and contour plots</li>
+  <li>3D surface plots</li>
+  <li>Network visualizations</li>
+</ul>
+
+<h2 id="4-non-functional-requirements">4. Non-Functional Requirements</h2>
+
+<h3 id="41-performance">4.1 Performance</h3>
+
+<p><strong>NFR-PF-001: Scalability</strong></p>
+<ul>
+  <li>Support for 10 million agents on high-end workstations</li>
+  <li>Linear scaling with grid size for local operations</li>
+  <li>Efficient memory usage (&lt; 100 bytes per agent)</li>
+  <li>Parallel speedup of 0.8× on 8 cores</li>
+</ul>
+
+<p><strong>NFR-PF-002: Response Time</strong></p>
+<ul>
+  <li>Single update step &lt; 100ms for 1M agents</li>
+  <li>Real-time visualization at 30+ FPS</li>
+  <li>Statistical calculations &lt; 1s for standard metrics</li>
+  <li>File I/O &lt; 10 MB/s for state serialization</li>
+</ul>
+
+<p><strong>NFR-PF-003: Resource Utilization</strong></p>
+<ul>
+  <li>CPU utilization &gt; 90% during computation</li>
+  <li>Memory usage predictable and bounded</li>
+  <li>Disk I/O minimized during simulation</li>
+  <li>GPU utilization &gt; 80% for rendering</li>
+</ul>
+
+<h3 id="42-reliability">4.2 Reliability</h3>
+
+<p><strong>NFR-RL-001: Stability</strong></p>
+<ul>
+  <li>No crashes in 1000-hour continuous operation</li>
+  <li>Graceful handling of numerical edge cases</li>
+  <li>Automatic recovery from transient errors</li>
+  <li>Memory leak prevention</li>
+</ul>
+
+<p><strong>NFR-RL-002: Data Integrity</strong></p>
+<ul>
+  <li>Checksums for saved states</li>
+  <li>Atomic file operations</li>
+  <li>Backup and recovery mechanisms</li>
+  <li>Version compatibility checking</li>
+</ul>
+
+<p><strong>NFR-RL-003: Reproducibility</strong></p>
+<ul>
+  <li>Bit-identical results with same seed</li>
+  <li>Platform-independent numerics</li>
+  <li>Documented randomness sources</li>
+  <li>Comprehensive logging</li>
+</ul>
+
+<h3 id="43-usability">4.3 Usability</h3>
+
+<p><strong>NFR-US-001: Installation</strong></p>
+<ul>
+  <li>One-command installation via pip/conda</li>
+  <li>Automated dependency resolution</li>
+  <li>Platform-specific installers</li>
+  <li>Docker containers provided</li>
+</ul>
+
+<p><strong>NFR-US-002: Documentation</strong></p>
+<ul>
+  <li>Comprehensive API documentation</li>
+  <li>Tutorial notebooks for common tasks</li>
+  <li>Video tutorials for GUI features</li>
+  <li>Scientific paper references</li>
+</ul>
+
+<p><strong>NFR-US-003: Error Handling</strong></p>
+<ul>
+  <li>Clear, actionable error messages</li>
+  <li>Input validation with helpful feedback</li>
+  <li>Progress indicators for long operations</li>
+  <li>Graceful degradation options</li>
+</ul>
+
+<h3 id="44-maintainability">4.4 Maintainability</h3>
+
+<p><strong>NFR-MT-001: Code Quality</strong></p>
+<ul>
+  <li>90%+ test coverage</li>
+  <li>Type hints on all public APIs</li>
+  <li>Pylint score &gt; 9.0</li>
+  <li>Cyclomatic complexity &lt; 10</li>
+</ul>
+
+<p><strong>NFR-MT-002: Modularity</strong></p>
+<ul>
+  <li>Clear separation of concerns</li>
+  <li>Minimal coupling between modules</li>
+  <li>Plugin architecture for extensions</li>
+  <li>Standardized interfaces</li>
+</ul>
+
+<p><strong>NFR-MT-003: Version Control</strong></p>
+<ul>
+  <li>Semantic versioning (MAJOR.MINOR.PATCH)</li>
+  <li>Comprehensive changelogs</li>
+  <li>Git tags for all releases</li>
+  <li>Backward compatibility policy</li>
+</ul>
+
+<h2 id="5-interface-requirements">5. Interface Requirements</h2>
+
+<h3 id="51-programming-interface">5.1 Programming Interface</h3>
+
+<p><strong>IR-PI-001: Core API</strong></p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">stdsp</span> <span class="kn">import</span> <span class="n">Simulation</span><span class="p">,</span> <span class="n">Grid</span><span class="p">,</span> <span class="n">Agent</span><span class="p">,</span> <span class="n">BeliefState</span>
+
+<span class="c1"># Initialize simulation
+</span><span class="n">sim</span> <span class="o">=</span> <span class="n">Simulation</span><span class="p">(</span>
+    <span class="n">grid</span><span class="o">=</span><span class="n">Grid</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">boundary</span><span class="o">=</span><span class="s">"periodic"</span><span class="p">),</span>
+    <span class="n">agents</span><span class="o">=</span><span class="n">AgentFactory</span><span class="p">.</span><span class="n">create_uniform</span><span class="p">(</span><span class="n">n</span><span class="o">=</span><span class="mi">10000</span><span class="p">),</span>
+    <span class="n">transition_model</span><span class="o">=</span><span class="n">EvidenceBasedTransition</span><span class="p">(</span><span class="n">bias</span><span class="o">=</span><span class="mf">0.3</span><span class="p">),</span>
+    <span class="n">game_model</span><span class="o">=</span><span class="n">CoordinationGame</span><span class="p">(</span><span class="n">alpha</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="p">)</span>
+
+<span class="c1"># Run simulation
+</span><span class="n">results</span> <span class="o">=</span> <span class="n">sim</span><span class="p">.</span><span class="n">run</span><span class="p">(</span><span class="n">steps</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span> <span class="n">collect_every</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+
+<span class="c1"># Analyze results
+</span><span class="n">metrics</span> <span class="o">=</span> <span class="n">analyze_spatial_clustering</span><span class="p">(</span><span class="n">results</span><span class="p">)</span>
+<span class="n">visualize_evolution</span><span class="p">(</span><span class="n">results</span><span class="p">,</span> <span class="n">output</span><span class="o">=</span><span class="s">"evolution.mp4"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><strong>IR-PI-002: Extension API</strong></p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">stdsp.core</span> <span class="kn">import</span> <span class="n">TransitionMechanism</span>
+
+<span class="k">class</span> <span class="nc">CustomTransition</span><span class="p">(</span><span class="n">TransitionMechanism</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">calculate_probability</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">agent</span><span class="p">,</span> <span class="n">from_state</span><span class="p">,</span> <span class="n">to_state</span><span class="p">,</span> <span class="n">context</span><span class="p">):</span>
+        <span class="c1"># Custom implementation
+</span>        <span class="k">return</span> <span class="n">probability</span>
+</code></pre></div></div>
+
+<p><strong>IR-PI-003: Analysis API</strong></p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">stdsp.analysis</span> <span class="kn">import</span> <span class="n">SpatialMetrics</span><span class="p">,</span> <span class="n">TemporalMetrics</span>
+
+<span class="n">spatial</span> <span class="o">=</span> <span class="n">SpatialMetrics</span><span class="p">(</span><span class="n">simulation_results</span><span class="p">)</span>
+<span class="n">clustering</span> <span class="o">=</span> <span class="n">spatial</span><span class="p">.</span><span class="n">calculate_moran_i</span><span class="p">()</span>
+<span class="n">percolation</span> <span class="o">=</span> <span class="n">spatial</span><span class="p">.</span><span class="n">find_percolation_threshold</span><span class="p">()</span>
+
+<span class="n">temporal</span> <span class="o">=</span> <span class="n">TemporalMetrics</span><span class="p">(</span><span class="n">simulation_results</span><span class="p">)</span>
+<span class="n">convergence</span> <span class="o">=</span> <span class="n">temporal</span><span class="p">.</span><span class="n">measure_convergence_time</span><span class="p">()</span>
+<span class="n">oscillations</span> <span class="o">=</span> <span class="n">temporal</span><span class="p">.</span><span class="n">detect_oscillations</span><span class="p">()</span>
+</code></pre></div></div>
+
+<h3 id="52-command-line-interface">5.2 Command Line Interface</h3>
+
+<p><strong>IR-CL-001: Basic Commands</strong></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Run simulation with config file</span>
+stdsp run config.yaml <span class="nt">--output</span> results.h5
+
+<span class="c"># Parameter sweep</span>
+stdsp sweep config.yaml <span class="nt">--param</span> alpha <span class="nt">--range</span> 0.1:0.9:0.1
+
+<span class="c"># Analyze results</span>
+stdsp analyze results.h5 <span class="nt">--metrics</span> all <span class="nt">--export</span> metrics.csv
+
+<span class="c"># Visualize</span>
+stdsp visualize results.h5 <span class="nt">--type</span> animation <span class="nt">--output</span> evolution.mp4
+</code></pre></div></div>
+
+<p><strong>IR-CL-002: Advanced Options</strong></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Parallel execution</span>
+stdsp run config.yaml <span class="nt">--parallel</span> 8 <span class="nt">--scheduler</span> distributed
+
+<span class="c"># Checkpoint and resume</span>
+stdsp run config.yaml <span class="nt">--checkpoint</span> every:100
+stdsp resume checkpoint_100.h5 <span class="nt">--steps</span> 1000
+
+<span class="c"># Batch processing</span>
+stdsp batch experiments.txt <span class="nt">--workers</span> 4 <span class="nt">--progress</span>
+</code></pre></div></div>
+
+<h3 id="53-configuration-format">5.3 Configuration Format</h3>
+
+<p><strong>IR-CF-001: YAML Configuration</strong></p>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">simulation</span><span class="pi">:</span>
+  <span class="na">grid</span><span class="pi">:</span>
+    <span class="na">width</span><span class="pi">:</span> <span class="m">1000</span>
+    <span class="na">height</span><span class="pi">:</span> <span class="m">1000</span>
+    <span class="na">boundary</span><span class="pi">:</span> <span class="s">periodic</span>
+    <span class="na">neighborhood</span><span class="pi">:</span>
+      <span class="na">type</span><span class="pi">:</span> <span class="s">moore</span>
+      <span class="na">radius</span><span class="pi">:</span> <span class="m">1</span>
+
+  <span class="na">agents</span><span class="pi">:</span>
+    <span class="na">count</span><span class="pi">:</span> <span class="m">100000</span>
+    <span class="na">initial_distribution</span><span class="pi">:</span>
+      <span class="na">type</span><span class="pi">:</span> <span class="s">random</span>
+      <span class="na">states</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">believer</span><span class="pi">,</span> <span class="nv">skeptic</span><span class="pi">,</span> <span class="nv">undecided</span><span class="pi">]</span>
+      <span class="na">weights</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">0.3</span><span class="pi">,</span> <span class="nv">0.3</span><span class="pi">,</span> <span class="nv">0.4</span><span class="pi">]</span>
+
+    <span class="na">types</span><span class="pi">:</span>
+      <span class="na">* name</span><span class="pi">:</span> <span class="s">standard</span>
+        <span class="s">fraction</span><span class="err">:</span> <span class="m">0.95</span>
+        <span class="na">memory_length</span><span class="pi">:</span> <span class="m">5</span>
+      <span class="na">* name</span><span class="pi">:</span> <span class="s">influencer</span>
+        <span class="s">fraction</span><span class="err">:</span> <span class="m">0.05</span>
+        <span class="na">influence_radius</span><span class="pi">:</span> <span class="m">3</span>
+        <span class="na">credibility</span><span class="pi">:</span> <span class="m">2.0</span>
+
+  <span class="na">dynamics</span><span class="pi">:</span>
+    <span class="na">transition_model</span><span class="pi">:</span>
+      <span class="na">type</span><span class="pi">:</span> <span class="s">evidence_based</span>
+      <span class="na">parameters</span><span class="pi">:</span>
+        <span class="na">confirmation_bias</span><span class="pi">:</span> <span class="m">0.3</span>
+        <span class="na">evidence_weight</span><span class="pi">:</span> <span class="m">0.5</span>
+        <span class="na">noise_level</span><span class="pi">:</span> <span class="m">0.1</span>
+
+    <span class="na">game_model</span><span class="pi">:</span>
+      <span class="na">type</span><span class="pi">:</span> <span class="s">coordination</span>
+      <span class="na">parameters</span><span class="pi">:</span>
+        <span class="na">coordination_benefit</span><span class="pi">:</span> <span class="m">1.0</span>
+        <span class="na">truth_alignment_weight</span><span class="pi">:</span> <span class="m">0.5</span>
+
+    <span class="na">update_schedule</span><span class="pi">:</span>
+      <span class="na">type</span><span class="pi">:</span> <span class="s">asynchronous_random</span>
+      <span class="na">updates_per_step</span><span class="pi">:</span> <span class="m">0.1</span>  <span class="c1"># 10% of agents per step</span>
+
+  <span class="na">evidence</span><span class="pi">:</span>
+    <span class="na">source</span><span class="pi">:</span> <span class="s">gaussian</span>
+    <span class="na">parameters</span><span class="pi">:</span>
+      <span class="na">mean</span><span class="pi">:</span> <span class="m">0.7</span>
+      <span class="na">std</span><span class="pi">:</span> <span class="m">0.1</span>
+      <span class="na">update_frequency</span><span class="pi">:</span> <span class="m">10</span>
+
+  <span class="na">perturbations</span><span class="pi">:</span>
+    <span class="na">* type</span><span class="pi">:</span> <span class="s">crisis</span>
+      <span class="s">probability</span><span class="err">:</span> <span class="m">0.001</span>
+      <span class="na">impact_radius</span><span class="pi">:</span> <span class="m">5</span>
+      <span class="na">belief_shift</span><span class="pi">:</span> <span class="m">0.8</span>
+
+<span class="na">execution</span><span class="pi">:</span>
+  <span class="na">steps</span><span class="pi">:</span> <span class="m">10000</span>
+  <span class="na">random_seed</span><span class="pi">:</span> <span class="m">42</span>
+  <span class="na">collect_data</span><span class="pi">:</span>
+    <span class="na">frequency</span><span class="pi">:</span> <span class="m">100</span>
+    <span class="na">metrics</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">belief_distribution</span><span class="pi">,</span> <span class="nv">spatial_clustering</span><span class="pi">,</span> <span class="nv">convergence</span><span class="pi">]</span>
+
+  <span class="na">checkpoints</span><span class="pi">:</span>
+    <span class="na">enabled</span><span class="pi">:</span> <span class="no">true</span>
+    <span class="na">frequency</span><span class="pi">:</span> <span class="m">1000</span>
+    <span class="na">path</span><span class="pi">:</span> <span class="s">checkpoints/</span>
+
+  <span class="na">performance</span><span class="pi">:</span>
+    <span class="na">parallel_workers</span><span class="pi">:</span> <span class="m">8</span>
+    <span class="na">gpu_acceleration</span><span class="pi">:</span> <span class="no">true</span>
+    <span class="na">memory_limit</span><span class="pi">:</span> <span class="s">16GB</span>
+
+<span class="na">output</span><span class="pi">:</span>
+  <span class="na">results_file</span><span class="pi">:</span> <span class="s">results.h5</span>
+  <span class="na">visualizations</span><span class="pi">:</span>
+    <span class="na">* type</span><span class="pi">:</span> <span class="s">animation</span>
+      <span class="s">file</span><span class="err">:</span> <span class="s">evolution.mp4</span>
+      <span class="s">fps</span><span class="err">:</span> <span class="m">30</span>
+    <span class="na">* type</span><span class="pi">:</span> <span class="s">phase_diagram</span>
+      <span class="s">file</span><span class="err">:</span> <span class="s">phase.png</span>
+    <span class="na">* type</span><span class="pi">:</span> <span class="s">time_series</span>
+      <span class="s">file</span><span class="err">:</span> <span class="s">metrics.png</span>
+
+  <span class="na">export</span><span class="pi">:</span>
+    <span class="na">format</span><span class="pi">:</span> <span class="s">csv</span>
+    <span class="na">include</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">final_state</span><span class="pi">,</span> <span class="nv">summary_statistics</span><span class="pi">]</span>
+</code></pre></div></div>
+
+<h3 id="54-gui-requirements">5.4 GUI Requirements</h3>
+
+<p><strong>IR-GU-001: Main Window</strong></p>
+<ul>
+  <li>Menu bar with File, Edit, Simulation, Analysis, View, Help</li>
+  <li>Toolbar with common actions (Run, Pause, Stop, Reset)</li>
+  <li>Central visualization panel with zoom/pan controls</li>
+  <li>Side panels for parameters and metrics</li>
+  <li>Status bar with simulation progress</li>
+</ul>
+
+<p><strong>IR-GU-002: Visualization Panel</strong></p>
+<ul>
+  <li>Real-time grid display with color-coded beliefs</li>
+  <li>Overlay options (influence networks, evidence fields)</li>
+  <li>Time slider for playback</li>
+  <li>Region selection and inspection tools</li>
+  <li>Export options for current view</li>
+</ul>
+
+<p><strong>IR-GU-003: Parameter Panel</strong></p>
+<ul>
+  <li>Grouped parameter controls by category</li>
+  <li>Real-time parameter adjustment</li>
+  <li>Preset configurations</li>
+  <li>Parameter history and undo</li>
+  <li>Sensitivity analysis tools</li>
+</ul>
+
+<p><strong>IR-GU-004: Analysis Panel</strong></p>
+<ul>
+  <li>Live metric plots</li>
+  <li>Statistical summaries</li>
+  <li>Comparison tools</li>
+  <li>Export functionality</li>
+  <li>Custom metric definitions</li>
+</ul>
+
+<h2 id="6-data-requirements">6. Data Requirements</h2>
+
+<h3 id="61-input-data">6.1 Input Data</h3>
+
+<p><strong>DR-IN-001: Configuration Files</strong></p>
+<ul>
+  <li>YAML/TOML format with schema validation</li>
+  <li>Support for includes and templates</li>
+  <li>Environment variable substitution</li>
+  <li>Command-line override capability</li>
+</ul>
+
+<p><strong>DR-IN-002: Initial Conditions</strong></p>
+<ul>
+  <li>Random generation with multiple distributions</li>
+  <li>Import from CSV/HDF5 files</li>
+  <li>Image-based initialization</li>
+  <li>Programmatic generation via API</li>
+</ul>
+
+<p><strong>DR-IN-003: Evidence Streams</strong></p>
+<ul>
+  <li>Time series data in CSV/HDF5</li>
+  <li>Stochastic generation parameters</li>
+  <li>External API integration</li>
+  <li>Real-time data feeds</li>
+</ul>
+
+<h3 id="62-output-data">6.2 Output Data</h3>
+
+<p><strong>DR-OUT-001: Simulation State</strong></p>
+<ul>
+  <li>Complete agent states at specified intervals</li>
+  <li>Compressed storage using HDF5</li>
+  <li>Incremental save capability</li>
+  <li>Metadata including parameters and version</li>
+</ul>
+
+<p><strong>DR-OUT-002: Metrics Data</strong></p>
+<ul>
+  <li>Time series of all calculated metrics</li>
+  <li>Spatial statistics snapshots</li>
+  <li>Event logs for perturbations</li>
+  <li>Performance profiling data</li>
+</ul>
+
+<p><strong>DR-OUT-003: Visualization Data</strong></p>
+<ul>
+  <li>Rendered frames for animation</li>
+  <li>Vector graphics for plots</li>
+  <li>3D mesh data for surface plots</li>
+  <li>Interactive web visualizations</li>
+</ul>
+
+<h3 id="63-data-formats">6.3 Data Formats</h3>
+
+<p><strong>DR-FMT-001: HDF5 Structure</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>simulation.h5
+├── parameters/
+│   ├── config (JSON string)
+│   ├── version (string)
+│   └── timestamp (ISO 8601)
+├── states/
+│   ├── step_0000/
+│   │   ├── beliefs (N×M array)
+│   │   ├── positions (N×2 array)
+│   │   └── attributes (structured array)
+│   ├── step_0100/
+│   └── ...
+├── metrics/
+│   ├── spatial/
+│   │   ├── moran_i (time series)
+│   │   ├── cluster_sizes (distributions)
+│   │   └── ...
+│   ├── temporal/
+│   │   ├── convergence (scalar)
+│   │   ├── oscillation_period (scalar)
+│   │   └── ...
+│   └── information/
+│       ├── entropy (time series)
+│       ├── mutual_information (matrix)
+│       └── ...
+└── events/
+    ├── perturbations (event log)
+    ├── evidence_updates (time series)
+    └── agent_transitions (sparse matrix)
+</code></pre></div></div>
+
+<p><strong>DR-FMT-002: Export Formats</strong></p>
+<ul>
+  <li>CSV with configurable delimiters</li>
+  <li>JSON for structured data</li>
+  <li>NetCDF for scientific workflows</li>
+  <li>Parquet for big data integration</li>
+  <li>GraphML for network data</li>
+</ul>
+
+<h2 id="7-external-interfaces">7. External Interfaces</h2>
+
+<h3 id="71-third-party-integration">7.1 Third-Party Integration</h3>
+
+<p><strong>EI-TP-001: Scientific Computing</strong></p>
+<ul>
+  <li>NumPy array protocol compliance</li>
+  <li>SciPy sparse matrix support</li>
+  <li>Pandas DataFrame integration</li>
+  <li>NetworkX graph compatibility</li>
+</ul>
+
+<p><strong>EI-TP-002: Visualization Tools</strong></p>
+<ul>
+  <li>Matplotlib figure export</li>
+  <li>Plotly interactive plots</li>
+  <li>VTK for 3D visualization</li>
+  <li>D3.js for web graphics</li>
+</ul>
+
+<p><strong>EI-TP-003: Machine Learning</strong></p>
+<ul>
+  <li>Scikit-learn compatible data</li>
+  <li>PyTorch tensor conversion</li>
+  <li>TensorFlow data pipeline</li>
+  <li>Ray for distributed training</li>
+</ul>
+
+<h3 id="72-web-api">7.2 Web API</h3>
+
+<p><strong>EI-WA-001: RESTful Endpoints</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST   /api/simulations          # Create new simulation
+GET    /api/simulations/{id}     # Get simulation status
+PUT    /api/simulations/{id}     # Update parameters
+DELETE /api/simulations/{id}     # Cancel simulation
+
+POST   /api/simulations/{id}/run # Start/resume simulation
+POST   /api/simulations/{id}/stop # Stop simulation
+
+GET    /api/simulations/{id}/state # Get current state
+GET    /api/simulations/{id}/metrics # Get metrics
+GET    /api/simulations/{id}/visualization # Get viz data
+
+POST   /api/analysis/spatial     # Run spatial analysis
+POST   /api/analysis/temporal    # Run temporal analysis
+GET    /api/analysis/{id}/results # Get analysis results
+</code></pre></div></div>
+
+<p><strong>EI-WA-002: WebSocket Streaming</strong></p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Real-time state updates</span>
+<span class="nx">ws</span><span class="p">.</span><span class="nx">subscribe</span><span class="p">(</span><span class="dl">'</span><span class="s1">simulation.{id}.state</span><span class="dl">'</span><span class="p">,</span> <span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">updateVisualization</span><span class="p">(</span><span class="nx">data</span><span class="p">);</span>
+<span class="p">});</span>
+
+<span class="c1">// Metric streaming</span>
+<span class="nx">ws</span><span class="p">.</span><span class="nx">subscribe</span><span class="p">(</span><span class="dl">'</span><span class="s1">simulation.{id}.metrics</span><span class="dl">'</span><span class="p">,</span> <span class="p">(</span><span class="nx">metrics</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">updateCharts</span><span class="p">(</span><span class="nx">metrics</span><span class="p">);</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<h3 id="73-database-integration">7.3 Database Integration</h3>
+
+<p><strong>EI-DB-001: Metadata Storage</strong></p>
+<ul>
+  <li>SQLite for single-user deployments</li>
+  <li>PostgreSQL for multi-user environments</li>
+  <li>Time-series optimization for metrics</li>
+  <li>Full-text search for experiments</li>
+</ul>
+
+<p><strong>EI-DB-002: Results Archive</strong></p>
+<ul>
+  <li>S3-compatible object storage</li>
+  <li>Compression and deduplication</li>
+  <li>Versioning and retention policies</li>
+  <li>Access control integration</li>
+</ul>
+
+<h2 id="8-testing-requirements">8. Testing Requirements</h2>
+
+<h3 id="81-unit-testing">8.1 Unit Testing</h3>
+
+<p><strong>TR-UT-001: Coverage Requirements</strong></p>
+<ul>
+  <li>Minimum 90% line coverage</li>
+  <li>100% coverage for core algorithms</li>
+  <li>Branch coverage &gt; 85%</li>
+  <li>Mutation testing score &gt; 75%</li>
+</ul>
+
+<p><strong>TR-UT-002: Test Categories</strong></p>
+<ul>
+  <li>State transition correctness</li>
+  <li>Spatial operation accuracy</li>
+  <li>Metric calculation validation</li>
+  <li>Edge case handling</li>
+</ul>
+
+<h3 id="82-integration-testing">8.2 Integration Testing</h3>
+
+<p><strong>TR-IT-001: Component Integration</strong></p>
+<ul>
+  <li>Grid-Agent interactions</li>
+  <li>Transition-Game coupling</li>
+  <li>Analysis pipeline validation</li>
+  <li>I/O subsystem testing</li>
+</ul>
+
+<p><strong>TR-IT-002: Performance Testing</strong></p>
+<ul>
+  <li>Scalability benchmarks</li>
+  <li>Memory usage profiling</li>
+  <li>Parallel efficiency measurement</li>
+  <li>GPU acceleration validation</li>
+</ul>
+
+<h3 id="83-system-testing">8.3 System Testing</h3>
+
+<p><strong>TR-ST-001: End-to-End Scenarios</strong></p>
+<ul>
+  <li>Complete simulation workflows</li>
+  <li>Parameter sweep execution</li>
+  <li>Checkpoint/resume functionality</li>
+  <li>Visualization generation</li>
+</ul>
+
+<p><strong>TR-ST-002: Stress Testing</strong></p>
+<ul>
+  <li>Maximum grid size handling</li>
+  <li>Long-running stability</li>
+  <li>Concurrent simulation limits</li>
+  <li>Resource exhaustion behavior</li>
+</ul>
+
+<h3 id="84-scientific-validation">8.4 Scientific Validation</h3>
+
+<p><strong>TR-SV-001: Known Solutions</strong></p>
+<ul>
+  <li>Convergence to analytical results</li>
+  <li>Comparison with published models</li>
+  <li>Limiting case verification</li>
+  <li>Conservation law checking</li>
+</ul>
+
+<p><strong>TR-SV-002: Reproducibility</strong></p>
+<ul>
+  <li>Cross-platform consistency</li>
+  <li>Version compatibility</li>
+  <li>Random seed determinism</li>
+  <li>Numerical stability</li>
+</ul>
+
+<h2 id="9-deployment-requirements">9. Deployment Requirements</h2>
+
+<h3 id="91-installation">9.1 Installation</h3>
+
+<p><strong>DR-IN-001: Package Management</strong></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># PyPI installation</span>
+pip <span class="nb">install </span>stdsp[all]
+
+<span class="c"># Conda installation</span>
+conda <span class="nb">install</span> <span class="nt">-c</span> stdsp stdsp
+
+<span class="c"># Docker deployment</span>
+docker run stdsp/stdsp:latest
+
+<span class="c"># Source installation</span>
+git clone https://github.com/stdsp/stdsp
+<span class="nb">cd </span>stdsp <span class="o">&amp;&amp;</span> pip <span class="nb">install</span> <span class="nt">-e</span> .[dev]
+</code></pre></div></div>
+
+<p><strong>DR-IN-002: Dependencies</strong></p>
+<ul>
+  <li>Python 3.10+ required</li>
+  <li>C++ compiler for extensions</li>
+  <li>CUDA toolkit for GPU support (optional)</li>
+  <li>MPI implementation for distributed computing (optional)</li>
+</ul>
+
+<h3 id="92-platform-support">9.2 Platform Support</h3>
+
+<p><strong>DR-PS-001: Operating Systems</strong></p>
+<ul>
+  <li>Linux (Ubuntu 20.04+, RHEL 8+)</li>
+  <li>macOS (11.0+)</li>
+  <li>Windows (10/11 with WSL2)</li>
+  <li>HPC cluster environments</li>
+</ul>
+
+<p><strong>DR-PS-002: Hardware Requirements</strong></p>
+<ul>
+  <li>Minimum: 8GB RAM, 4 cores</li>
+  <li>Recommended: 32GB RAM, 16 cores, GPU</li>
+  <li>HPC: 256GB+ RAM, 64+ cores, multi-GPU</li>
+</ul>
+
+<h3 id="93-documentation">9.3 Documentation</h3>
+
+<p><strong>DR-DC-001: User Documentation</strong></p>
+<ul>
+  <li>Installation guide</li>
+  <li>Quick start tutorial</li>
+  <li>User manual</li>
+  <li>API reference</li>
+  <li>Example gallery</li>
+</ul>
+
+<p><strong>DR-DC-002: Developer Documentation</strong></p>
+<ul>
+  <li>Architecture overview</li>
+  <li>Contributing guidelines</li>
+  <li>Plugin development guide</li>
+  <li>Performance optimization guide</li>
+  <li>Testing handbook</li>
+</ul>
+
+<h2 id="10-maintenance-and-support">10. Maintenance and Support</h2>
+
+<h3 id="101-version-management">10.1 Version Management</h3>
+
+<p><strong>MS-VM-001: Release Cycle</strong></p>
+<ul>
+  <li>Major releases: Annual</li>
+  <li>Minor releases: Quarterly</li>
+  <li>Patch releases: As needed</li>
+  <li>LTS versions: Every 2 years</li>
+</ul>
+
+<p><strong>MS-VM-002: Compatibility</strong></p>
+<ul>
+  <li>Backward compatibility for 2 major versions</li>
+  <li>Deprecation warnings for 1 full cycle</li>
+  <li>Migration guides for breaking changes</li>
+  <li>Compatibility matrix documentation</li>
+</ul>
+
+<h3 id="102-community-support">10.2 Community Support</h3>
+
+<p><strong>MS-CS-001: Communication Channels</strong></p>
+<ul>
+  <li>GitHub issues for bug reports</li>
+  <li>Discussion forum for questions</li>
+  <li>Slack/Discord for real-time chat</li>
+  <li>Mailing list for announcements</li>
+</ul>
+
+<p><strong>MS-CS-002: Contribution Process</strong></p>
+<ul>
+  <li>Pull request guidelines</li>
+  <li>Code review requirements</li>
+  <li>Continuous integration checks</li>
+  <li>Contributor license agreement</li>
+</ul>
+
+<h3 id="103-quality-assurance">10.3 Quality Assurance</h3>
+
+<p><strong>MS-QA-001: Continuous Integration</strong></p>
+<ul>
+  <li>Automated testing on all platforms</li>
+  <li>Code quality checks (linting, formatting)</li>
+  <li>Security vulnerability scanning</li>
+  <li>Performance regression detection</li>
+</ul>
+
+<p><strong>MS-QA-002: Release Process</strong></p>
+<ul>
+  <li>Feature freeze period</li>
+  <li>Beta testing program</li>
+  <li>Release candidate validation</li>
+  <li>Post-release monitoring</li>
+</ul>
+
+<h2 id="11-security-requirements">11. Security Requirements</h2>
+
+<h3 id="111-data-security">11.1 Data Security</h3>
+
+<p><strong>SR-DS-001: Access Control</strong></p>
+<ul>
+  <li>File-based permissions for local data</li>
+  <li>API authentication for web services</li>
+  <li>Role-based access control</li>
+  <li>Audit logging for sensitive operations</li>
+</ul>
+
+<p><strong>SR-DS-002: Data Protection</strong></p>
+<ul>
+  <li>Encryption at rest (optional)</li>
+  <li>Secure communication channels</li>
+  <li>Input sanitization</li>
+  <li>Output filtering for sensitive data</li>
+</ul>
+
+<h3 id="112-code-security">11.2 Code Security</h3>
+
+<p><strong>SR-CS-001: Dependency Management</strong></p>
+<ul>
+  <li>Regular vulnerability scanning</li>
+  <li>Automated dependency updates</li>
+  <li>Security advisory monitoring</li>
+  <li>Supply chain verification</li>
+</ul>
+
+<p><strong>SR-CS-002: Safe Execution</strong></p>
+<ul>
+  <li>Sandboxed plugin execution</li>
+  <li>Resource limit enforcement</li>
+  <li>Input validation for all APIs</li>
+  <li>Safe serialization practices</li>
+</ul>
+
+<h2 id="12-compliance-and-standards">12. Compliance and Standards</h2>
+
+<h3 id="121-scientific-standards">12.1 Scientific Standards</h3>
+
+<p><strong>CS-SC-001: Reproducibility</strong></p>
+<ul>
+  <li>FAIR data principles compliance</li>
+  <li>Citation guidelines</li>
+  <li>Provenance tracking</li>
+  <li>Workflow documentation</li>
+</ul>
+
+<p><strong>CS-SC-002: Numerical Standards</strong></p>
+<ul>
+  <li>IEEE 754 compliance</li>
+  <li>Numerical stability guarantees</li>
+  <li>Error propagation analysis</li>
+  <li>Uncertainty quantification</li>
+</ul>
+
+<h3 id="122-software-standards">12.2 Software Standards</h3>
+
+<p><strong>CS-SW-001: Code Standards</strong></p>
+<ul>
+  <li>PEP 8 Python style guide</li>
+  <li>Google C++ style guide</li>
+  <li>Semantic versioning</li>
+  <li>API design best practices</li>
+</ul>
+
+<p><strong>CS-SW-002: Documentation Standards</strong></p>
+<ul>
+  <li>NumPy docstring format</li>
+  <li>Sphinx documentation</li>
+  <li>README template</li>
+  <li>Changelog format</li>
+</ul>
+
+<h2 id="13-future-extensibility">13. Future Extensibility</h2>
+
+<h3 id="131-planned-extensions">13.1 Planned Extensions</h3>
+
+<p><strong>FE-PE-001: Advanced Features</strong></p>
+<ul>
+  <li>3D grid support</li>
+  <li>Continuous belief spaces</li>
+  <li>Multi-layer networks</li>
+  <li>Temporal networks</li>
+</ul>
+
+<p><strong>FE-PE-002: Integration Features</strong></p>
+<ul>
+  <li>Real-world data import</li>
+  <li>Social media API connectors</li>
+  <li>GIS integration</li>
+  <li>VR visualization</li>
+</ul>
+
+<h3 id="132-research-extensions">13.2 Research Extensions</h3>
+
+<p><strong>FE-RE-001: Algorithmic Improvements</strong></p>
+<ul>
+  <li>Adaptive mesh refinement</li>
+  <li>Machine learning integration</li>
+  <li>Quantum-inspired algorithms</li>
+  <li>Causal inference tools</li>
+</ul>
+
+<p><strong>FE-RE-002: Application Domains</strong></p>
+<ul>
+  <li>Economic market models</li>
+  <li>Epidemic spread dynamics</li>
+  <li>Climate opinion formation</li>
+  <li>Political polarization studies</li>
+</ul>
+
+<h2 id="14-appendices">14. Appendices</h2>
+
+<h3 id="a-glossary">A. Glossary</h3>
+<ul>
+  <li><strong>Agent</strong>: Individual entity with beliefs and spatial position</li>
+  <li><strong>Belief State</strong>: Discrete representation of agent’s worldview</li>
+  <li><strong>Transition Mechanism</strong>: Rule governing belief changes</li>
+  <li><strong>Spatial Neighborhood</strong>: Set of nearby agents that influence each other</li>
+  <li><strong>Convergence</strong>: System reaching stable configuration</li>
+  <li><strong>Phase Transition</strong>: Qualitative change in system behavior</li>
+</ul>
+
+<h3 id="b-references">B. References</h3>
+<ul>
+  <li>Original research paper</li>
+  <li>Related software projects</li>
+  <li>Scientific computing libraries</li>
+  <li>Visualization frameworks</li>
+</ul>
+
+<h3 id="c-example-configurations">C. Example Configurations</h3>
+<ul>
+  <li>Basic consensus formation</li>
+  <li>Polarization dynamics</li>
+  <li>Information cascade</li>
+  <li>Stable coexistence</li>
+</ul>
+
+<h3 id="d-performance-benchmarks">D. Performance Benchmarks</h3>
+<ul>
+  <li>Scaling analysis results</li>
+  <li>Platform comparison</li>
+  <li>Optimization guidelines</li>
+  <li>Hardware recommendations</li>
+</ul>
+
+  </main>
+  <div class="site-footer">
+  <div class="footer-content">
+    <p>&copy; 2025 Journal of Speculative Science. POWERED BY AGENTIC-HUMAN COLLABORATION.</p>
+    <p>A journal dedicated to exploring speculative ideas in science and technology.</p>
+  </div>
+</div>
+  <!-- JavaScript for Effects -->
+  <script>
+    function createParticles() {
+      const particleContainer = document.getElementById('particleField');
+      setInterval(() => {
+        if (particleContainer.children.length < 20) {
+          const particle = document.createElement('div');
+          particle.className = 'particle';
+          particle.style.left = Math.random() * 100 + '%';
+          particle.style.animationDuration = (Math.random() * 10 + 5) + 's';
+          particleContainer.appendChild(particle);
+          setTimeout(() => {
+            if (particle.parentNode) {
+              particle.parentNode.removeChild(particle);
+            }
+          }, 15000);
+        }
+      }, 500);
+    }
+    
+    // Initialize effects when page loads
+    document.addEventListener('DOMContentLoaded', function() {
+      createParticles();
+    });
+  </script>
+</body>
+</html>

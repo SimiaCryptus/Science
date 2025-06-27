@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Sciences</title>
+  <link rel="stylesheet" href="/Science/assets/css/style.css">
+  <link rel="icon" type="image/x-icon" href="/Science/favicon.ico">
+</head>
+<body>
+  <!-- Floating Particles -->
+  <div class="particle-field" id="particleField"></div>
+  
+  <div class="site-header">
+  <div class="header-content">
+    <p class="site-tagline">Journal of Speculative Science</p>
+    <nav class="site-nav">
+      <a href="/Science/">Home</a>
+      <a href="/Science/social/">Social Dynamics</a>
+      <a href="/Science/scifi/">Quantum Theories</a>
+      <a href="/Science/projects/">Project Ideas</a>
+    </nav>
+  </div>
+</div>
+  <main class="container">
+    <div class="page-content">
+  <h1 id="computational-models-of-social-dynamics-institutional-analysis-and-game-theory">Computational Models of Social Dynamics, Institutional Analysis, and Game Theory</h1>
+
+<p>This repository brings together a collection of research proposals, analytical essays, and technical specifications focused on understanding complex social, economic, and institutional phenomena. Using tools from game theory, agent-based modeling, and computational social science, these documents explore how collective behaviors emerge, how institutions evolve and sometimes decay, and how incentive structures shape societal outcomes.</p>
+
+<h2 id="core-themes">Core Themes</h2>
+
+<p>Across these diverse documents, several recurring themes emerge:</p>
+
+<ul>
+  <li><strong>Game Theory</strong>: Analyzing strategic interactions between individuals, groups, and institutions to understand equilibrium behaviors and outcomes.</li>
+  <li><strong>Agent-Based Modeling (ABM)</strong>: Simulating the actions and interactions of autonomous agents to observe emergent patterns at the macro level.</li>
+  <li><strong>Institutional Analysis</strong>: Examining how formal and informal rules, norms, and structures influence behavior, create path dependencies, and contribute to stability or fragility.</li>
+  <li><strong>System Dynamics</strong>: Investigating how complex systems evolve over time, including processes of formation, convergence, phase transitions, and decay.</li>
+  <li><strong>Perverse Incentives &amp; Misalignment</strong>: Exploring how systems, often with beneficent stated goals, can produce outcomes detrimental to their intended beneficiaries due to misaligned incentives.</li>
+  <li><strong>Technological Impact</strong>: Assessing the role of technology (e.g., AI, social media, IT infrastructure) in mediating social interactions, cognitive effort, and institutional change.</li>
+  <li><strong>Computational Social Science</strong>: Leveraging computational methods to model, simulate, and analyze social phenomena with greater rigor and scale.</li>
+  <li><strong>Ethical Considerations</strong>: Implicitly and explicitly addressing concerns related to power dynamics, information control, systemic fairness, and societal well-being.</li>
+</ul>
+
+<h2 id="document-index">Document Index</h2>
+
+<p>This repository contains the following key documents:</p>
+
+<ol>
+  <li><strong><a href="/Science/social/social_truth_proposal.html">Dynamic Multi-Agent Modeling of Social Truth Formation</a></strong>
+    <ul>
+      <li><strong>Proposal</strong>: Outlines a novel computational framework using cellular automata and game theory to understand how social truths emerge, propagate, and stabilize.</li>
+      <li><strong>Technical Requirements</strong>: Includes a detailed “Technical Requirements Document: Social Truth Dynamics Simulation Platform (STDSP)” for a Python/C++ based simulation platform.</li>
+    </ul>
+  </li>
+  <li><strong><a href="/Science/social/post_scarcity_proposal.html">Computational Modeling of Post-Scarcity Economic Equilibria</a></strong>
+    <ul>
+      <li><strong>Proposal</strong>: Details a computational modeling approach (using Julia, agent-based modeling, and game theory) to analyze economic systems under conditions of post-material-scarcity, focusing on persistent constraints, emergent equilibria, and institutional evolution.</li>
+    </ul>
+  </li>
+  <li><strong><a href="/Science/social/institutional_decay_analysis.html">The Psychopath Feedback Loop: How Institutions Collapse From Within</a></strong>
+    <ul>
+      <li><strong>Analytical Essay</strong>: An urgent, somewhat informal analysis of institutional decay, positing a “psychopath feedback loop” as a mechanism for collapse.</li>
+      <li><strong>Technical Framework</strong>: Includes a simplified agent-based model and mathematical formulation to illustrate the proposed dynamics of decay.</li>
+    </ul>
+  </li>
+  <li><strong><a href="/Science/social/game_theory_ethics.html">Perverse Incentives and Institutional Capture</a></strong>
+    <ul>
+      <li><strong>Analytical Paper</strong>: A game-theoretic analysis of how ostensibly beneficent institutional systems (e.g., end-of-life care, family law, higher education, enterprise IT, criminal justice) can become structurally misaligned with the interests of those they serve.</li>
+      <li><strong>AI Adoption Analysis</strong>: Extends the core themes to analyze AI adoption within existing institutional frameworks, focusing on the game-theoretic conflict between efficiency and employment preservation.</li>
+      <li><strong>Technical Specifications</strong>: Includes “Technical Specifications for Game-Theoretic Institutional Analysis Simulations” for implementing computational experiments in Kotlin/JVM.</li>
+    </ul>
+  </li>
+  <li><strong><a href="/Science/social/cognitive_effort_paper.html">The Game Theory of Cognitive Effort</a></strong>
+    <ul>
+      <li><strong>Academic Paper Outline</strong>: Examines the strategic dynamics underlying individual decisions to engage in cognitive effort, particularly how technology mediates these choices and their collective social consequences. Proposes a formal model incorporating temporal discount rates and technological effects.</li>
+    </ul>
+  </li>
+  <li><strong><a href="/Science/social/conversation_intelligence_paper.html">Conversational Intelligence Calibration: Mutual Turing Tests as Distributed Cognitive Assessment</a></strong>
+    <ul>
+      <li><strong>Academic Paper</strong>: Proposes that intellectual discourse functions as a distributed intelligence measurement system, where participants continuously calibrate their cognitive models through recursive assessment protocols. Argues intelligence emerges dynamically through conversational interactions rather than being a fixed property.</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="technical-aspects">Technical Aspects</h2>
+
+<p>Several documents propose or specify technical implementations:</p>
+
+<ul>
+  <li><strong>Social Truth Dynamics Simulation Platform (STDSP)</strong> (from <code class="language-plaintext highlighter-rouge">social_truth_proposal.md</code>):
+    <ul>
+      <li><strong>Primary Stack</strong>: Python 3.10+, Cython/C++ (for performance), NumPy, SciPy, Numba.</li>
+      <li><strong>Parallelism</strong>: <code class="language-plaintext highlighter-rouge">multiprocessing</code>, MPI4Py, Dask.</li>
+      <li><strong>Visualization</strong>: OpenGL (PyOpenGL/ModernGL), Matplotlib, Seaborn, Plotly, PyQt6/Dear ImGui.</li>
+      <li><strong>Data Management</strong>: YAML/TOML (config), HDF5, SQLite, Protocol Buffers.</li>
+    </ul>
+  </li>
+  <li><strong>Post-Scarcity Economic Modeling</strong> (from <code class="language-plaintext highlighter-rouge">post_scarcity_proposal.md</code>):
+    <ul>
+      <li><strong>Primary Stack</strong>: Julia.</li>
+      <li><strong>Libraries</strong>: NetworkX, GraphBLAS (conceptual mentions for graph operations), CUDA (for acceleration).</li>
+    </ul>
+  </li>
+  <li><strong>Game-Theoretic Institutional Analysis Simulations</strong> (from <code class="language-plaintext highlighter-rouge">game_theory_ethics.md</code>):
+    <ul>
+      <li><strong>Primary Stack</strong>: Kotlin 1.9+ on JVM 17+.</li>
+      <li><strong>Build/Test</strong>: Gradle, JUnit 5, Kotest.</li>
+      <li><strong>Data/Viz</strong>: Kotlin DataFrame, Krangl, lets-plot.</li>
+      <li><strong>Numerical/Concurrency</strong>: Kotlin Statistics, KMath, Kotlin Coroutines.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="purpose-and-audience">Purpose and Audience</h2>
+
+<p>This collection is intended for:</p>
+
+<ul>
+  <li>Researchers and students in computational social science, game theory, institutional economics, sociology, political science, and complex systems.</li>
+  <li>Policymakers and analysts seeking deeper insights into the structural dynamics of social and institutional challenges.</li>
+  <li>Software developers and modelers interested in the technical aspects of simulating social phenomena.</li>
+  <li>Anyone curious about the underlying mechanisms that drive collective behavior and institutional outcomes.</li>
+</ul>
+
+<h2 id="how-to-navigate-this-repository">How to Navigate This Repository</h2>
+
+<ul>
+  <li>Start with the document that most closely aligns with your interests.</li>
+  <li>Pay attention to the “Core Themes” to see connections between different papers.</li>
+  <li>If interested in implementation, the technical specification sections within <code class="language-plaintext highlighter-rouge">social_truth_proposal.md</code> and <code class="language-plaintext highlighter-rouge">game_theory_ethics.md</code> provide detailed blueprints.</li>
+</ul>
+
+<p>This repository represents an ongoing effort to explore and understand the complex systems that shape our world. Contributions, discussions, and feedback are welcome.</p>
+
+</div>
+
+
+  </main>
+  <div class="site-footer">
+  <div class="footer-content">
+    <p>&copy; 2025 Journal of Speculative Science. POWERED BY AGENTIC-HUMAN COLLABORATION.</p>
+    <p>A journal dedicated to exploring speculative ideas in science and technology.</p>
+  </div>
+</div>
+  <!-- JavaScript for Effects -->
+  <script>
+    function createParticles() {
+      const particleContainer = document.getElementById('particleField');
+      setInterval(() => {
+        if (particleContainer.children.length < 20) {
+          const particle = document.createElement('div');
+          particle.className = 'particle';
+          particle.style.left = Math.random() * 100 + '%';
+          particle.style.animationDuration = (Math.random() * 10 + 5) + 's';
+          particleContainer.appendChild(particle);
+          setTimeout(() => {
+            if (particle.parentNode) {
+              particle.parentNode.removeChild(particle);
+            }
+          }, 15000);
+        }
+      }, 500);
+    }
+    
+    // Initialize effects when page loads
+    document.addEventListener('DOMContentLoaded', function() {
+      createParticles();
+    });
+  </script>
+</body>
+</html>
