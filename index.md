@@ -15,7 +15,6 @@ What unifies this collection is not merely interdisciplinary breadth, but a conv
 
 ## 🌌 Intellectual Philosophy
 
-{% include holo_card.html content="
 These works embody a particular approach to theoretical exploration:
 
 **Speculative Rigor**: Bold hypotheses grounded in mathematical formalism
@@ -23,7 +22,6 @@ These works embody a particular approach to theoretical exploration:
 **AI-Augmented Discovery**: Using LLMs as intellectual partners in formalizing intuitions
 **Pattern Recognition**: Identifying deep structures that manifest across scales
 **Mathematical Beauty**: Seeking elegant frameworks that reveal hidden simplicities
-" %}
 
 ## 📚 Featured Collections
 
