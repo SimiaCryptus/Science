@@ -167,6 +167,23 @@ This proposal introduces Scientific Method 2.0, a distributed AI-agent system de
 **Relevant Files:**
 *   [Research Proposal: Scientific Method 2.0: An AI-Agent Framework for Accelerated Discovery in Economics and Sociology](./scientific_method_proposal.md)
 
+## 8. [Formal Grammar Lookahead for Constrained LLM Generation](./grammar_lookahead_proposal.md)
+**Overview:**
+This research proposal addresses a fundamental limitation in current constrained generation methods for large language models. While existing approaches (Guidance, JSONFormer, Outlines) use local validity checking to ensure each token maintains parser state consistency, they fail to consider future reachability—leading to generation failures where models produce valid prefixes that cannot be completed within the target grammar. The proposed lookahead-based constraint mechanism evaluates token choices based on their potential to reach valid terminal states, significantly improving generation success rates and output quality for structured formats.
+**Key Features:**
+*   **Grammar State Reachability Analysis:** Maintains reachability graphs for parser states to determine which terminal states are achievable within remaining token budgets.
+*   **Multiple Lookahead Strategies:** Implements static precomputation for bounded grammars, dynamic lookahead with memoization for unbounded grammars, and probabilistic reachability scoring for graceful degradation.
+*   **Advanced Generation Techniques:** Includes multi-step beam lookahead, adaptive horizon scheduling, and hybrid constraint method selection based on grammar complexity and computational resources.
+*   **SOTA Model Integration:** Provides integration strategies for modern techniques including attention-aware grammar states, mixture of experts routing, speculative decoding enhancement, and constitutional AI principles.
+*   **Comprehensive Evaluation Framework:** Defines benchmarks across structured data (JSON, XML), code generation (Python, JavaScript), and domain-specific languages (SQL, configuration files) with detailed performance metrics.
+*   **Production-Ready Implementation:** Includes efficient algorithms compatible with transformer architectures, GPU acceleration strategies, and memory management optimizations.
+**Relevant Files:**
+*   [Research Proposal: Formal Grammar Lookahead for Constrained LLM Generation](./grammar_lookahead_proposal.md)
+
 ---
 
 This README provides a high-level overview. For detailed information, please refer to the linked documents for each project.
+6.  [Topological Analysis of Knots via Distance Matrix Representations](./knots.md)
+7.  [Entropy-Optimized Permutation Trees for Bijective String Transforms](./bwt_tree_proposal.md)
+8.  [Scientific Method 2.0: An AI-Agent Framework for Accelerated Discovery](./scientific_method_proposal.md)
+9.  [Formal Grammar Lookahead for Constrained LLM Generation](./grammar_lookahead_proposal.md)
