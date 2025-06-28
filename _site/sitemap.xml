@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/Science/creative_writing/accumulation.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/Science/ai/ai_bias_paper.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/Science/creative_writing/ai_childhood_memoir.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/Science/creative_writing/alcohol.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/Science/projects/bwt_tree_proposal.html</loc>
@@ -38,6 +44,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/Science/creative_writing/hall_of_mirrors_paper.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/Science/creative_writing/i_broke_claude.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/Science/social/</loc>

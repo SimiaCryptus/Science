@@ -1,6 +1,7 @@
 ---
 layout: page
 title: AI Research
+This collection contains research papers exploring various aspects of artificial intelligence, from optimization algorithms to cognitive biases in AI systems.
 ---
 
 *Explorations in artificial intelligence, optimization algorithms, and the nature of machine cognition*
@@ -12,6 +13,11 @@ investigations of AI consciousness and bias. These papers represent both technic
 reflective analyses of AI systems' capabilities and limitations.
 
 ## Papers
+* [**Quadratic Quasi-Newton (QQN)**](qqn_paper.md) - A hybrid optimization method that addresses L-BFGS limitations through quadratic interpolation, offering improved convergence for non-convex optimization problems
+* [**Recursive Subspace Optimization (RSO)**](recursive_subspace_paper.md) - A layer-wise meta-learning approach with emergent regularization properties for deep neural networks
+* [**Trust Region Methods**](trust_regions.md) - A flexible framework for constrained parameter updates in neural network optimization
+* [**PromptOptimization**](prompt_optimization.md) - Genetic algorithm framework for automated prompt engineering using mutation and recombination operations
+* [**Cognitive Bias in AI Intelligence Assessment**](ai_bias_paper.md) - Systematic analysis of domain-dependent bias in LLM intelligence assessment with exploitable meta-reasoning vulnerabilities
 
 ### Optimization & Algorithms
 
@@ -75,6 +81,17 @@ reflective analyses of AI systems' capabilities and limitations.
   persistent knowledge integration through cached semantic transforms in structured state spaces
 
 ## Key Themes
+These papers explore several interconnected themes in AI research:
+1. **Optimization Theory**: Novel approaches to training neural networks that go beyond standard gradient descent
+2. **Meta-Learning**: Systems that learn how to learn, adapting their optimization strategies based on problem structure
+3. **Cognitive Modeling**: Understanding and exploiting the biases and patterns in AI reasoning
+4. **Automated Design**: Using evolutionary approaches to discover optimal configurations
+* **QQN**: Theoretical framework with implementation guidelines
+* **RSO**: Detailed algorithm with pseudocode
+* **Trust Regions**: Mathematical framework ready for implementation
+* **AI Bias**: Empirical analysis with reproducible examples
+* **PromptOptimization**: Complete implementation framework
+*These papers represent explorations at the intersection of optimization theory, cognitive science, and practical AI engineering.*
 
 The papers in this collection explore several interconnected themes:
 

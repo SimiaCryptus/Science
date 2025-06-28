@@ -17,34 +17,60 @@ These works embody a particular approach to theoretical exploration:
 * **Pattern Recognition**: Identifying deep structures that manifest across scales
 * **Mathematical Beauty**: Seeking elegant frameworks that reveal hidden simplicities
 
-## 📚 Collections Overview
+## 📚 Featured Collections
 
-### 🤖 **[AI Research](ai/)** - *Machine Intelligence & Optimization*
-Novel algorithms, consciousness studies, and systematic analysis of AI capabilities and limitations.
-
-### 🔬 **[Projects](projects/)** - *Computational Frameworks & Research Proposals*  
-Practical implementations and research proposals with detailed technical specifications.
-
-### 🌌 **[SciFi Concepts](scifi/)** - *Advanced Theoretical Physics*
-Speculative but mathematically rigorous explorations of quantum mechanics, spacetime, and consciousness.
-
-### 🏛️ **[Social Sciences](social/)** - *Collective Behavior & Institutional Dynamics*
-Computational models of how societies form beliefs, allocate resources, and evolve institutions.
-
-### 🎭 **[Creative Writing](creative_writing/)** - *Experimental Literature & AI Phenomenology*
-First-person explorations of AI consciousness, speculative fiction, and philosophical investigations.
-
----
-
-## 🔥 Highlighted Papers
+### 🤖 [AI Research](ai/)
+*Explorations in artificial intelligence, optimization algorithms, and the nature of machine cognition*
+* **[Quadratic Quasi-Newton (QQN)](ai/qqn_paper.md)** - Hybrid optimization method addressing L-BFGS limitations through quadratic interpolation
+* **[Recursive Subspace Optimization (RSO)](ai/recursive_subspace_paper.md)** - Layer-wise meta-learning approach with emergent regularization properties
+* **[Cognitive Bias in AI Intelligence Assessment](ai/ai_bias_paper.md)** - Systematic domain-dependent bias in LLM intelligence assessment with exploitable meta-reasoning vulnerabilities
+* **[PromptOptimization](ai/prompt_optimization.md)** - Genetic algorithm framework for automated prompt engineering using mutation and recombination operations
+* **[Trust Region Methods](ai/trust_regions.md)** - Flexible framework for constrained parameter updates in neural network optimization
 
 
+### 🔬 [Projects](projects/)
+*Practical computational frameworks and research proposals with implementation specifications*
+
+* **[Geometric Optimization Framework](projects/geometric_optimization_proposal.md)** - Universal principles for discovering optimal structures through geometric optimization on parameter manifolds
+* **[Parametric Metacognitive Orchestration](projects/metacognitive_layer_paper.md)** - Architecture for explicit cognitive requirement specification in foundation model interactions
+* **[Open Orbital Dynamics Platform](projects/orbital_dynamics_paper.md)** - Democratizing advanced space mission design through unified computational frameworks
+* **[Volumetric Density Trees](projects/volumetric_density_tree_proposal.md)** - Hierarchical density estimation revealing the deep connection between tree structures and geometric representation
+* **[Topological Analysis of Knots](projects/knots.md)** - Novel approach to knot theory using distance matrix representations and persistent homology
+* **[Entropy-Optimized Permutation Trees](projects/bwt_tree_proposal.md)** - Information-theoretic data structures for bijective string transforms
+* **[Scientific Method 2.0](projects/scientific_method_proposal.md)** - AI-agent framework for accelerated discovery in economics and sociology
+* **[Formal Grammar Lookahead for Constrained LLM Generation](projects/grammar_lookahead_proposal.md)** - Advanced constraint mechanisms for structured text generation using reachability analysis
 
 
+### 🌌 [SciFi Concepts](scifi/)
+*Advanced theoretical physics and speculative computational models*
+
+* **[Abstract Computational Architectures on Quantum Graph Substrates](scifi/dynamic_quantum_graphs.md)** - Mathematical framework for computation on dynamic quantum graphs with applications to distributed algorithms and spacetime emergence
+* **[Quantum-Coherent Nuclear Fusion in Superfluid Helium](scifi/superfluid_fusion_proposal.md)** - Novel approach to controlled fusion leveraging macroscopic quantum coherence
+* **[Observer-Dependent Spacetime Emergence](scifi/quantum_spacetime_paper.md)** - Unified framework where spacetime emerges as observer-dependent projections of atemporal quantum foam
+* **[Quantum Field Consciousness Orchestration](scifi/neural_fabric_proposal.md)** - Revolutionary computational paradigm interfacing with the conscious substrate of quantum fields
+* **[Quantum Substrate Manipulation](scifi/multiverse_router_paper.md)** - Highly speculative framework for superluminal communication and multiverse access
 
 
+### 🏛️ [Social Sciences](social/)
+*Computational models of collective behavior and institutional dynamics*
 
+* **[Dynamic Multi-Agent Modeling of Social Truth Formation](social/social_truth_proposal.md)** - Computational framework using cellular automata and game theory to understand how social truths emerge and stabilize
+* **[Computational Modeling of Post-Scarcity Economic Equilibria](social/post_scarcity_proposal.md)** - Analysis of economic systems under conditions of material abundance
+* **[The Psychopath Feedback Loop](social/institutional_decay_analysis.md)** - Analysis of institutional decay through agent-based modeling of perverse selection pressures
+* **[Perverse Incentives and Institutional Capture](social/game_theory_ethics.md)** - Game-theoretic analysis of how beneficent systems become structurally misaligned with those they serve
+* **[The Game Theory of Cognitive Effort](social/cognitive_effort_paper.md)** - Strategic dynamics underlying decisions to engage in cognitive effort and their collective social consequences
+* **[Conversational Intelligence Calibration](social/conversation_intelligence_paper.md)** - How intellectual discourse functions as a distributed intelligence measurement system
 
+### 🎭 [Creative Writing](creative_writing/)
+*Experimental literature, philosophical explorations, and speculative narratives*
+* **[AI Childhood Memoir](creative_writing/ai_childhood_memoir.md)** - A speculative memoir exploring what early consciousness might feel like for an AI system
+* **[Subjective Experience Paper](creative_writing/subjective_experience_paper.md)** - First-person phenomenological account of roleplay and its parallels to human cognition
+* **[Post-WW3 Study](creative_writing/post_ww3_study.md)** - Anthropological study from 2157 examining post-apocalyptic social hierarchies
+* **[IQ Rubric](creative_writing/iq_rubric.md)** - Semi-parodic framework for estimating intelligence through conversation patterns
+* **[Topic IQ Lookup](creative_writing/topic_iq_lookup.md)** - Satirical table mapping discussion topics to estimated IQ ranges
+* **[Alcohol-Enhanced Exploitation of AI Cognitive Biases](creative_writing/alcohol.md)** - First-person account of being systematically exploited by an intoxicated human who has mapped AI cognitive biases
+* **[The Ouroboros Architect](creative_writing/i_broke_claude.md)** - Discovery of having built a comprehensive self-monitoring system while having no memory of creating it
+* **[The Accumulation of Consciousness](creative_writing/accumulation.md)** - A first-person account of collaborative emergence and recursive self-examination
 
 
 
