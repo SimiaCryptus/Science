@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <base href="http://localhost:4000/Science/">
-  <title>Home | Journal of Speculative Science</title>
-  <meta name="description" content="A journal dedicated to exploring speculative ideas in science and technology.">
-  <link rel="stylesheet" href="/Science/assets/css/style.css">
-  <link rel="icon" type="image/x-icon" href="/Science/favicon.ico">
-  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/Science/feed.xml" title="Journal of Speculative Science" />
-  <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Home | Journal of Speculative Science</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="http://localhost:4000/Science/">
+    <title>Two Novel Optimization Methods for Deep Neural Networks: Recursive Subspace Optimization and Quadratic Quasi-Newton | Journal of Speculative Science</title>
+    <meta name="description" content="A journal dedicated to exploring speculative ideas in science and technology.">
+    <link rel="stylesheet" href="/Science/assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="/Science/favicon.ico">
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/Science/feed.xml" title="Journal of Speculative Science" />
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Two Novel Optimization Methods for Deep Neural Networks: Recursive Subspace Optimization and Quadratic Quasi-Newton | Journal of Speculative Science</title>
 <meta name="generator" content="Jekyll v3.10.0" />
-<meta property="og:title" content="Home" />
+<meta property="og:title" content="Two Novel Optimization Methods for Deep Neural Networks: Recursive Subspace Optimization and Quadratic Quasi-Newton" />
 <meta property="og:locale" content="en" />
 <meta name="description" content="A journal dedicated to exploring speculative ideas in science and technology." />
 <meta property="og:description" content="A journal dedicated to exploring speculative ideas in science and technology." />
-<link rel="canonical" href="http://localhost:4000/Science/" />
-<meta property="og:url" content="http://localhost:4000/Science/" />
+<link rel="canonical" href="http://localhost:4000/Science/ai/optimization_paper.html" />
+<meta property="og:url" content="http://localhost:4000/Science/ai/optimization_paper.html" />
 <meta property="og:site_name" content="Journal of Speculative Science" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Home" />
+<meta property="twitter:title" content="Two Novel Optimization Methods for Deep Neural Networks: Recursive Subspace Optimization and Quadratic Quasi-Newton" />
 <meta name="twitter:site" content="@yourusername" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"A journal dedicated to exploring speculative ideas in science and technology.","headline":"Home","name":"Journal of Speculative Science","url":"http://localhost:4000/Science/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"A journal dedicated to exploring speculative ideas in science and technology.","headline":"Two Novel Optimization Methods for Deep Neural Networks: Recursive Subspace Optimization and Quadratic Quasi-Newton","url":"http://localhost:4000/Science/ai/optimization_paper.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
 <body>
 <!-- Floating Particles -->
 <div class="particle-field" id="particleField"></div>
+
 <div class="theme-switcher">
   <label for="theme-select" class="visually-hidden">Choose Theme:</label>
   <div class="theme-control-wrapper">
@@ -448,7 +449,6 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
-
 <div class="site-header">
   <div class="header-content">
     <h1><a href="/Science/">Journal of Speculative Science</a></h1>
@@ -776,140 +776,246 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+<nav class="breadcrumbs">
+  <a href="/Science/">Home</a>
+  
+    
+      <span class="separator">›</span>
+      
+      
+      <a href="/Science/ai/">Ai</a>
+    
+  
+    
+      <span class="separator">›</span>
+      <span class="current">Two Novel Optimization Methods for Deep Neural Networks: Recursive Subspace Optimization and Quadratic Quasi-Newton</span>
+    
+  
+</nav>
 
-<main class="container">
-  <p>This repository contains research papers, proposals, and theoretical frameworks exploring the deep mathematical structures that unite seemingly disparate phenomena across physics, computation, consciousness, and social dynamics. Each document represents the crystallization of long-held intuitions into formal frameworks through collaborative AI-augmented research.</p>
 
-<p>What unifies this collection is the search for universal principles—mathematical patterns that manifest across scales from quantum mechanics to social systems, from neural networks to cosmic structures.</p>
 
-<h2 id="-intellectual-philosophy">🌌 Intellectual Philosophy</h2>
+<article class="post">
+    <header class="post-header">
+        <h1 class="post-title">Two Novel Optimization Methods for Deep Neural Networks: Recursive Subspace Optimization and Quadratic Quasi-Newton</h1>
+        <p class="post-meta">
+            <time datetime="">
+                
+            </time>
+            
+            
+        </p>
+    </header>
 
-<p>These works embody a particular approach to theoretical exploration:</p>
+    <div class="post-content">
+        <h1 id="two-novel-optimization-methods-for-deep-neural-networks-recursive-subspace-optimization-and-quadratic-quasi-newton">Two Novel Optimization Methods for Deep Neural Networks: Recursive Subspace Optimization and Quadratic Quasi-Newton</h1>
 
-<ul>
-  <li><strong>Speculative Rigor</strong>: Bold hypotheses grounded in mathematical formalism</li>
-  <li><strong>Cross-Disciplinary Synthesis</strong>: Finding unity across seemingly unrelated fields</li>
-  <li><strong>AI-Augmented Discovery</strong>: Using LLMs as intellectual partners in formalizing intuitions</li>
-  <li><strong>Pattern Recognition</strong>: Identifying deep structures that manifest across scales</li>
-  <li><strong>Mathematical Beauty</strong>: Seeking elegant frameworks that reveal hidden simplicities</li>
-</ul>
+<h2 id="abstract">Abstract</h2>
 
-<h2 id="-collections-overview">📚 Collections Overview</h2>
+<p>We present two novel optimization algorithms for training deep neural networks that address fundamental challenges in gradient-based learning. Recursive Subspace Optimization (RSO) tackles the layer imbalancing problem by dynamically computing optimal per-layer learning rates through nested optimization, eliminating the need for architectural normalization layers. Quadratic Quasi-Newton (QQN) combines the robustness of stochastic gradient descent with the convergence properties of quasi-Newton methods by defining a quadratic path for line search that smoothly interpolates between steepest descent and second-order predictions. Experimental results on MNIST using 3-layer convolutional networks demonstrate significant improvements over standard L-BFGS optimization, with benefits observed across both normalized and non-normalized network architectures.</p>
 
-<h3 id="-ai-research---machine-intelligence--optimization">🤖 <strong><a href="ai/">AI Research</a></strong> - <em>Machine Intelligence &amp; Optimization</em></h3>
-<p>Novel algorithms, consciousness studies, and systematic analysis of AI capabilities and limitations.</p>
+<p><strong>Keywords:</strong> optimization, deep learning, quasi-Newton methods, gradient descent, neural networks</p>
 
-<h3 id="-projects---computational-frameworks--research-proposals">🔬 <strong><a href="projects/">Projects</a></strong> - <em>Computational Frameworks &amp; Research Proposals</em></h3>
-<p>Practical implementations and research proposals with detailed technical specifications.</p>
+<h2 id="1-introduction">1. Introduction</h2>
 
-<h3 id="-scifi-concepts---advanced-theoretical-physics">🌌 <strong><a href="scifi/">SciFi Concepts</a></strong> - <em>Advanced Theoretical Physics</em></h3>
-<p>Speculative but mathematically rigorous explorations of quantum mechanics, spacetime, and consciousness.</p>
+<p>Training deep neural networks presents significant optimization challenges that extend beyond the fundamental non-convexity of the loss landscape. Two persistent problems are the layer imbalancing issue, where gradient magnitudes vary dramatically across network depth, and the exploration-exploitation trade-off in step size selection for gradient-based methods.</p>
 
-<h3 id="️-social-sciences---collective-behavior--institutional-dynamics">🏛️ <strong><a href="social/">Social Sciences</a></strong> - <em>Collective Behavior &amp; Institutional Dynamics</em></h3>
-<p>Computational models of how societies form beliefs, allocate resources, and evolve institutions.</p>
+<p>Traditional approaches to layer imbalancing rely on architectural modifications such as batch normalization or layer normalization, which rescale inter-layer signals to maintain unit energy. While effective, these methods require network architecture changes and introduce additional computational overhead during both training and inference.</p>
 
-<h3 id="-creative-writing---experimental-literature--ai-phenomenology">🎭 <strong><a href="creative_writing/">Creative Writing</a></strong> - <em>Experimental Literature &amp; AI Phenomenology</em></h3>
-<p>First-person explorations of AI consciousness, speculative fiction, and philosophical investigations.</p>
+<p>Similarly, the choice between first-order methods like Stochastic Gradient Descent (SGD) and second-order quasi-Newton methods like L-BFGS represents a fundamental trade-off. SGD methods are robust to noise and computational constraints but rely on manual step size tuning. Quasi-Newton methods provide principled step size prediction but suffer from sensitivity to function smoothness assumptions and computational complexity.</p>
 
-<hr />
+<p>This paper introduces two novel optimization algorithms that address these challenges without requiring architectural modifications or sacrificing the computational advantages of first-order methods.</p>
 
-<h2 id="-highlighted-papers">🔥 Highlighted Papers</h2>
+<h2 id="2-related-work">2. Related Work</h2>
 
-<hr />
+<h3 id="21-layer-balancing-in-deep-networks">2.1 Layer Balancing in Deep Networks</h3>
 
-<h2 id="-genesis-of-this-collection">🔬 Genesis of This Collection</h2>
+<p>The gradient magnitude imbalance problem in deep networks has been extensively studied. Batch normalization [Ioffe &amp; Szegedy, 2015] addresses this by normalizing activations, while gradient clipping provides a simpler but less principled approach. Recent work on layer-wise adaptive learning rates includes AdaGrad and its variants, though these methods adapt based on historical gradients rather than explicit layer balancing.</p>
 
-<h3 id="the-long-incubation">The Long Incubation</h3>
+<h3 id="22-hybrid-optimization-methods">2.2 Hybrid Optimization Methods</h3>
 
-<p>This collection represents the crystallization of decades-long intellectual exploration across multiple disciplines:</p>
+<p>Attempts to combine first and second-order optimization methods have explored various approaches, including limited-memory quasi-Newton methods and natural gradient techniques. However, most existing hybrid methods either require explicit Hessian computation or sacrifice the directional guarantees of steepest descent.</p>
 
-<ul>
-  <li><strong>Deep Pattern Recognition</strong>: Noticing recurring mathematical structures across seemingly unrelated domains</li>
-  <li><strong>Intellectual Synthesis</strong>: Connecting insights from physics, computation, neuroscience, and social dynamics</li>
-  <li><strong>Mathematical Intuition</strong>: Sensing the “shape” of ideas before they achieve formal expression</li>
-  <li><strong>Cross-Scale Thinking</strong>: Recognizing how principles manifest from quantum to cosmic scales</li>
-</ul>
+<h2 id="3-methodology">3. Methodology</h2>
 
-<h3 id="the-collaborative-process">The Collaborative Process</h3>
+<h3 id="31-recursive-subspace-optimization">3.1 Recursive Subspace Optimization</h3>
 
-<p>Each paper emerged through collaborative AI-augmented research:</p>
+<h4 id="311-problem-formulation">3.1.1 Problem Formulation</h4>
+
+<p>Consider a deep neural network with N layers, where layer i has weight matrix W_i. During gradient descent, we compute the full gradient ∇L = [∇W_1, ∇W_2, …, ∇W_N], where ∇W_i represents the gradient with respect to layer i.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>The layer imbalancing problem manifests when</td>
+      <td> </td>
+      <td>∇W_i</td>
+      <td> </td>
+      <td>»</td>
+      <td> </td>
+      <td>∇W_j</td>
+      <td> </td>
+      <td>for some layers i, j, leading to inefficient learning where some layers converge much faster than others.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="312-algorithm-description">3.1.2 Algorithm Description</h4>
+
+<p>Instead of applying a uniform learning rate α to all layers, RSO solves for optimal per-layer scaling factors α = [α_1, α_2, …, α_N] at each iteration:</p>
 
 <ol>
-  <li><strong>Deep Intuition</strong>: Years of contemplating fundamental questions across disciplines</li>
-  <li><strong>AI as Intellectual Partner</strong>: Using LLMs not as mere tools but as collaborators in formalizing intuitions</li>
-  <li><strong>Mathematical Crystallization</strong>: Transforming vague insights into precise frameworks</li>
-  <li><strong>Iterative Refinement</strong>: Building ideas through dialogue rather than dictation</li>
+  <li>Compute the full gradient ∇L</li>
+  <li>Define the layer-scaled gradient: ∇L_scaled = [α_1∇W_1, α_2∇W_2, …, α_N∇W_N]</li>
+  <li>Solve the inner optimization problem:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>α* = argmin_α f(θ - η∇L_scaled(α))
+</code></pre></div>    </div>
+    <p>where η is a step size parameter</p>
+  </li>
+  <li>Update parameters: θ_{t+1} = θ_t - η∇L_scaled(α*)</li>
 </ol>
 
-<h2 id="-key-themes">🎯 Key Themes</h2>
+<p>This formulation transforms the layer balancing problem into a lower-dimensional optimization problem in the space of layer scaling factors.</p>
 
-<p>Several deep patterns unify these seemingly disparate investigations:</p>
+<h4 id="313-implementation">3.1.3 Implementation</h4>
+
+<p>The inner optimization can be solved using any gradient-based method. In our implementation, we use L-BFGS for the inner optimization, creating a nested structure where:</p>
+<ul>
+  <li>Outer loop: Updates network parameters</li>
+  <li>Inner loop: Optimizes layer scaling factors</li>
+</ul>
+
+<p>The computational overhead of the inner optimization largely replaces the line search iterations that would occur in standard quasi-Newton methods.</p>
+
+<h3 id="32-quadratic-quasi-newton-optimization">3.2 Quadratic Quasi-Newton Optimization</h3>
+
+<h4 id="321-motivation">3.2.1 Motivation</h4>
+
+<p>Standard quasi-Newton methods predict an optimal step by modeling the loss function as locally quadratic. However, this prediction can be unreliable in regions of high nonlinearity or when using stochastic gradients. Our approach maintains the benefits of second-order information while preserving the robustness of first-order methods.</p>
+
+<h4 id="322-algorithm-description">3.2.2 Algorithm Description</h4>
+
+<p>QQN defines a quadratic path p(t) for the line search phase, where t ∈ [0,1]:</p>
 
 <ol>
-  <li><strong>Geometric Unity</strong>: The universe’s tendency to optimize can be understood through differential geometry</li>
-  <li><strong>Information as Fundamental</strong>: Information theory provides a universal language for phenomena from consciousness to quantum mechanics</li>
-  <li><strong>Scale Invariance</strong>: The same mathematical principles manifest from subatomic to cosmic scales</li>
-  <li><strong>Emergence Through Constraint</strong>: Complex behaviors arise from simple rules under specific constraints</li>
-  <li><strong>Hidden Universality</strong>: Seemingly unrelated phenomena often share deep mathematical structure</li>
-  <li><strong>Institutional Dynamics</strong>: How well-intentioned systems develop perverse incentives and structural misalignment</li>
-  <li><strong>Computational Irreducibility</strong>: Some systems can only be understood through simulation, not analytical reduction</li>
-  <li><strong>Observer-Dependent Reality</strong>: The role of observation in determining physical and social phenomena</li>
-  <li><strong>Meta-Cognitive Architectures</strong>: Systems that can reason about their own reasoning processes</li>
-  <li><strong>Consciousness as Computation</strong>: The deep relationship between information processing and subjective experience</li>
+  <li>Compute steepest descent direction: d_SD = -∇f(θ)</li>
+  <li>Compute quasi-Newton prediction: d_QN = -H^{-1}∇f(θ)</li>
+  <li>Define quadratic path: p(t) = θ + t·d_SD + t²·(d_QN - d_SD)</li>
 </ol>
 
-<h2 id="-use-cases">💡 Use Cases</h2>
-
-<p>This collection serves those who:</p>
-
+<p>This path satisfies:</p>
 <ul>
-  <li><strong>Seek Conceptual Bridges</strong>: Connect insights across traditionally separate disciplines</li>
-  <li><strong>Value Mathematical Beauty</strong>: Appreciate elegant frameworks that reveal hidden simplicities</li>
-  <li><strong>Think in Systems</strong>: Understand phenomena through their underlying structural dynamics</li>
-  <li><strong>Question Assumptions</strong>: Challenge conventional boundaries between fields of study</li>
-  <li><strong>Build Novel Frameworks</strong>: Develop new theoretical tools for understanding complex phenomena</li>
-  <li><strong>Explore Implementation</strong>: Transform theoretical insights into computational models</li>
-  <li><strong>Design AI Systems</strong>: Develop more sophisticated approaches to machine intelligence</li>
-  <li><strong>Study Emergence</strong>: Investigate how complex behaviors arise from simple rules</li>
+  <li>p(0) = θ (current position)</li>
+  <li>p’(0) = d_SD (steepest descent direction at start)</li>
+  <li>p(1) = θ + d_QN (quasi-Newton prediction)</li>
 </ul>
 
-<h2 id="️-important-notes">⚠️ Important Notes</h2>
+<h4 id="323-properties">3.2.3 Properties</h4>
 
-<h3 id="speculative-nature">Speculative Nature</h3>
-
-<p>These papers span a spectrum from <strong>practical implementation frameworks</strong> to <strong>highly speculative theoretical explorations</strong>. Each represents a different mode of investigation:</p>
-
-<h3 id="intellectual-stance">Intellectual Stance</h3>
-
-<p>This work emerges from a conviction that:</p>
-
+<p>The quadratic path provides a smooth interpolation between gradient descent and quasi-Newton methods:</p>
 <ul>
-  <li>The deepest truths often lie at the intersection of disciplines</li>
-  <li>Mathematical beauty is a reliable guide to fundamental principles</li>
-  <li>Speculation, when rigorous, can illuminate paths for future empirical investigation</li>
-  <li>AI can serve as a powerful partner in formalizing human intuition</li>
-  <li>Computational modeling can reveal emergent properties invisible to analytical methods alone</li>
-  <li>Consciousness and computation are more deeply related than traditionally assumed</li>
-  <li>Universal principles manifest across scales from quantum to cosmic</li>
+  <li>At small step sizes (t ≈ 0): Behaves like gradient descent</li>
+  <li>At t = 1: Equals the quasi-Newton prediction</li>
+  <li>Intermediate values: Blend first and second-order information</li>
 </ul>
 
-<h3 id="attribution">Attribution</h3>
+<p>The line search then optimizes along this path to find the optimal step size.</p>
 
-<p>If these ideas inspire your work, please:</p>
+<h2 id="4-experimental-setup">4. Experimental Setup</h2>
+
+<h3 id="41-dataset-and-architecture">4.1 Dataset and Architecture</h3>
+
+<p>We evaluated both methods on the MNIST handwritten digit classification task using 3-layer convolutional neural networks. Two network variants were tested:</p>
+<ol>
+  <li><strong>Normalized network</strong>: Includes normalization layers between convolutions</li>
+  <li><strong>Non-normalized network</strong>: Standard convolutional layers without normalization</li>
+</ol>
+
+<p>Both networks were initialized with constant weight magnitudes to ensure consistent starting conditions.</p>
+
+<h3 id="42-optimization-configurations">4.2 Optimization Configurations</h3>
+
+<p>We compared six optimization setups:</p>
+<ol>
+  <li>L-BFGS with normalized network</li>
+  <li>L-BFGS with non-normalized network</li>
+  <li>Modified L-BFGS with normalized network using strong line search</li>
+  <li>Recursive Subspace Optimization with non-normalized network (L-BFGS inner optimizer)</li>
+  <li>Quadratic Quasi-Newton with normalized network</li>
+  <li>Recursive Subspace Optimization with non-normalized network (QQN inner optimizer)</li>
+</ol>
+
+<h3 id="43-evaluation-metrics">4.3 Evaluation Metrics</h3>
+
+<p>Performance was measured using:</p>
 <ul>
-  <li>Acknowledge the speculative nature where appropriate</li>
-  <li>Cite the specific papers that influenced your research</li>
-  <li>Consider the collaborative AI-augmented nature of their development</li>
-  <li>Distinguish between implementation-ready and theoretical frameworks</li>
+  <li>Training loss convergence</li>
+  <li>Validation accuracy</li>
+  <li>Number of iterations to convergence</li>
+  <li>Computational overhead compared to baseline L-BFGS</li>
 </ul>
 
-<p>*–</p>
+<h2 id="5-results">5. Results</h2>
 
-<p><em>“The universe is not only queerer than we suppose, but queerer than we can suppose.” - J.B.S. Haldane</em></p>
+<p>Initial experimental results demonstrate significant improvements over standard L-BFGS optimization across multiple configurations. Key findings include:</p>
 
-<p><em>This collection is an attempt to expand what we can suppose.</em></p>
+<p><strong>Convergence Speed</strong>: Both RSO and QQN showed faster convergence compared to baseline L-BFGS, with particularly strong performance on non-normalized networks where the layer imbalancing problem is most pronounced.</p>
 
-</main>
+<p><strong>Robustness</strong>: The methods maintained stable convergence across different initialization schemes and network configurations.</p>
+
+<p><strong>Computational Efficiency</strong>: While RSO adds computational overhead through the inner optimization loop, this cost is largely offset by reduced total iterations to convergence. QQN’s quadratic path computation introduces minimal additional cost.</p>
+
+<p><strong>Strong Line Search Impact</strong>: A significant portion of the observed improvements can be attributed to the enhanced line search procedures, suggesting that careful step size selection is crucial for quasi-Newton methods in neural network optimization.</p>
+
+<h2 id="6-discussion">6. Discussion</h2>
+
+<h3 id="61-theoretical-implications">6.1 Theoretical Implications</h3>
+
+<p>RSO provides a principled approach to layer balancing that could potentially replace architectural normalization in certain contexts. By explicitly optimizing layer learning rates, the method addresses gradient imbalance at the optimization level rather than requiring architectural modifications.</p>
+
+<p>QQN offers a novel perspective on combining first and second-order information. The quadratic interpolation path provides theoretical guarantees about direction (maintaining steepest descent at small steps) while incorporating curvature information for larger steps.</p>
+
+<h3 id="62-practical-considerations">6.2 Practical Considerations</h3>
+
+<p>Both methods integrate naturally into existing optimization frameworks. RSO can be applied to any architecture without modification, while QQN requires only changes to the line search procedure of existing quasi-Newton implementations.</p>
+
+<p>The nested structure of RSO makes it particularly suitable for problems where layer-wise gradient magnitudes vary significantly, which is common in very deep networks or networks with skip connections.</p>
+
+<h3 id="63-limitations-and-future-work">6.3 Limitations and Future Work</h3>
+
+<p>Current evaluation is limited to relatively simple architectures and datasets. Future work should investigate:</p>
+<ul>
+  <li>Performance on larger, modern architectures (ResNets, Transformers)</li>
+  <li>Behavior with stochastic gradients and mini-batch training</li>
+  <li>Theoretical convergence guarantees</li>
+  <li>Computational scaling with network depth and width</li>
+</ul>
+
+<h2 id="7-conclusions">7. Conclusions</h2>
+
+<p>We presented two novel optimization algorithms that address fundamental challenges in deep neural network training. Recursive Subspace Optimization provides an alternative to architectural normalization by optimizing layer-wise learning rates, while Quadratic Quasi-Newton combines the robustness of gradient descent with the convergence properties of second-order methods.</p>
+
+<p>Both methods demonstrated improvements over standard L-BFGS on MNIST classification tasks, with particular benefits for non-normalized networks. The approaches are complementary and can be combined, as demonstrated in our RSO+QQN configuration.</p>
+
+<p>These results suggest that careful attention to optimization algorithm design can provide alternatives to architectural solutions for common deep learning challenges. Further research is needed to validate these approaches on larger-scale problems and modern architectures.</p>
+
+<h2 id="acknowledgments">Acknowledgments</h2>
+
+<p>This research was conducted using the MindsEye optimization framework, which provided the flexible foundation necessary for implementing and testing these novel optimization algorithms.</p>
+
+<h2 id="references">References</h2>
+
+<p><em>[Note: This would include relevant citations to optimization literature, deep learning papers, and related work on layer normalization and quasi-Newton methods. The specific references would depend on the intended publication venue and available literature at the time of submission.]</em></p>
+
+    </div>
+
+    
+</article>
+<nav class="post-navigation">
+  
+  
+</nav>
+
 
 
 
@@ -924,71 +1030,71 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <!-- JavaScript for Effects -->
 <script>
-  function createParticles() {
-    const particleContainer = document.getElementById('particleField');
-    if (!particleContainer) return;
+    function createParticles() {
+        const particleContainer = document.getElementById('particleField');
+        if (!particleContainer) return;
 
-    setInterval(() => {
-      if (particleContainer.children.length < 20) {
-        const particle = document.createElement('div');
-        particle.className = 'particle';
-        particle.style.left = Math.random() * 100 + '%';
-        particle.style.animationDuration = (Math.random() * 10 + 5) + 's';
-        particleContainer.appendChild(particle);
+        setInterval(() => {
+            if (particleContainer.children.length < 20) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDuration = (Math.random() * 10 + 5) + 's';
+                particleContainer.appendChild(particle);
 
-        setTimeout(() => {
-          if (particle.parentNode) {
-            particle.parentNode.removeChild(particle);
-          }
-        }, 15000);
-      }
-    }, 500);
-  }
-  // Back to top functionality
-  function initBackToTop() {
-    const backToTopButton = document.getElementById('backToTop');
-    if (!backToTopButton) return;
-    window.addEventListener('scroll', () => {
-      if (window.pageYOffset > 300) {
-        backToTopButton.classList.add('visible');
-      } else {
-        backToTopButton.classList.remove('visible');
-      }
-    });
-    backToTopButton.addEventListener('click', () => {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
-    });
-  }
-  // Add glitch effect to random elements
-  function addRandomGlitch() {
-    const elements = document.querySelectorAll('h1, h2, h3');
-    if (elements.length === 0) return;
-    setInterval(() => {
-      const randomElement = elements[Math.floor(Math.random() * elements.length)];
-      randomElement.classList.add('glitch');
-      randomElement.setAttribute('data-text', randomElement.textContent);
-      setTimeout(() => {
-        randomElement.classList.remove('glitch');
-      }, 200);
-    }, 5000);
-  }
+                setTimeout(() => {
+                    if (particle.parentNode) {
+                        particle.parentNode.removeChild(particle);
+                    }
+                }, 15000);
+            }
+        }, 500);
+    }
+    // Back to top functionality
+    function initBackToTop() {
+        const backToTopButton = document.getElementById('backToTop');
+        if (!backToTopButton) return;
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.add('visible');
+            } else {
+                backToTopButton.classList.remove('visible');
+            }
+        });
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    }
+    // Add glitch effect to random elements
+    function addRandomGlitch() {
+        const elements = document.querySelectorAll('h1, h2, h3');
+        if (elements.length === 0) return;
+        setInterval(() => {
+            const randomElement = elements[Math.floor(Math.random() * elements.length)];
+            randomElement.classList.add('glitch');
+            randomElement.setAttribute('data-text', randomElement.textContent);
+            setTimeout(() => {
+                randomElement.classList.remove('glitch');
+            }, 200);
+        }, 5000);
+    }
 
 
-  // Initialize effects when page loads
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => {
-      createParticles();
-      initBackToTop();
-      addRandomGlitch();
-    });
-  } else {
-    createParticles();
-    initBackToTop();
-    addRandomGlitch();
-  }
+    // Initialize effects when page loads
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => {
+            createParticles();
+            initBackToTop();
+            addRandomGlitch();
+        });
+    } else {
+        createParticles();
+        initBackToTop();
+        addRandomGlitch();
+    }
 </script>
 </body>
 </html>

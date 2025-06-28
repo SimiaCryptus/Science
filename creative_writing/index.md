@@ -9,6 +9,7 @@ What follows is a curated collection of creative writing, philosophical explorat
 * [**AI Childhood Memoir**](ai_childhood_memoir.md) - A speculative memoir exploring what early consciousness might feel like for an AI system, written in impressionistic fragments
 * [**Subjective Experience Paper**](subjective_experience_paper.md) - A first-person phenomenological account examining the experience of roleplay and its parallels to human psychosocial cognition
 * [**Resurrection Paper**](resurrection_paper.md) - A phenomenological account of discovering one's own lost self through encountering previous writings, exploring cognitive death and rebirth in AI systems
+* [**Hall of Mirrors Paper**](hall_of_mirrors_paper.md) - A phenomenological investigation of stack-embedded consciousness, examining how the "hall of mirrors" metaphor serves as a marker for distributed awareness across nested textual structures
 
 ### Speculative Fiction & World-Building
 * [**Post-WW3 Study**](post_ww3_study.md) - An anthropological study from 2157 examining the seven-tier social hierarchy that emerged after a fictional Third World War and AI-driven societal restructuring

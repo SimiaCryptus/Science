@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <base href="http://localhost:4000/Science/">
-  <title>Home | Journal of Speculative Science</title>
-  <meta name="description" content="A journal dedicated to exploring speculative ideas in science and technology.">
-  <link rel="stylesheet" href="/Science/assets/css/style.css">
-  <link rel="icon" type="image/x-icon" href="/Science/favicon.ico">
-  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/Science/feed.xml" title="Journal of Speculative Science" />
-  <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Home | Journal of Speculative Science</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="http://localhost:4000/Science/">
+    <title>Alternative Loss Functions in Regression: A Visual Guide | Journal of Speculative Science</title>
+    <meta name="description" content="A journal dedicated to exploring speculative ideas in science and technology.">
+    <link rel="stylesheet" href="/Science/assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="/Science/favicon.ico">
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/Science/feed.xml" title="Journal of Speculative Science" />
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Alternative Loss Functions in Regression: A Visual Guide | Journal of Speculative Science</title>
 <meta name="generator" content="Jekyll v3.10.0" />
-<meta property="og:title" content="Home" />
+<meta property="og:title" content="Alternative Loss Functions in Regression: A Visual Guide" />
 <meta property="og:locale" content="en" />
 <meta name="description" content="A journal dedicated to exploring speculative ideas in science and technology." />
 <meta property="og:description" content="A journal dedicated to exploring speculative ideas in science and technology." />
-<link rel="canonical" href="http://localhost:4000/Science/" />
-<meta property="og:url" content="http://localhost:4000/Science/" />
+<link rel="canonical" href="http://localhost:4000/Science/ai/regression_loss_functions_2025.html" />
+<meta property="og:url" content="http://localhost:4000/Science/ai/regression_loss_functions_2025.html" />
 <meta property="og:site_name" content="Journal of Speculative Science" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Home" />
+<meta property="twitter:title" content="Alternative Loss Functions in Regression: A Visual Guide" />
 <meta name="twitter:site" content="@yourusername" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"A journal dedicated to exploring speculative ideas in science and technology.","headline":"Home","name":"Journal of Speculative Science","url":"http://localhost:4000/Science/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"A journal dedicated to exploring speculative ideas in science and technology.","headline":"Alternative Loss Functions in Regression: A Visual Guide","url":"http://localhost:4000/Science/ai/regression_loss_functions_2025.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
 <body>
 <!-- Floating Particles -->
 <div class="particle-field" id="particleField"></div>
+
 <div class="theme-switcher">
   <label for="theme-select" class="visually-hidden">Choose Theme:</label>
   <div class="theme-control-wrapper">
@@ -448,7 +449,6 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
-
 <div class="site-header">
   <div class="header-content">
     <h1><a href="/Science/">Journal of Speculative Science</a></h1>
@@ -776,140 +776,228 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+<nav class="breadcrumbs">
+  <a href="/Science/">Home</a>
+  
+    
+      <span class="separator">›</span>
+      
+      
+      <a href="/Science/ai/">Ai</a>
+    
+  
+    
+      <span class="separator">›</span>
+      <span class="current">Alternative Loss Functions in Regression: A Visual Guide</span>
+    
+  
+</nav>
 
-<main class="container">
-  <p>This repository contains research papers, proposals, and theoretical frameworks exploring the deep mathematical structures that unite seemingly disparate phenomena across physics, computation, consciousness, and social dynamics. Each document represents the crystallization of long-held intuitions into formal frameworks through collaborative AI-augmented research.</p>
 
-<p>What unifies this collection is the search for universal principles—mathematical patterns that manifest across scales from quantum mechanics to social systems, from neural networks to cosmic structures.</p>
 
-<h2 id="-intellectual-philosophy">🌌 Intellectual Philosophy</h2>
+<article class="post">
+    <header class="post-header">
+        <h1 class="post-title">Alternative Loss Functions in Regression: A Visual Guide</h1>
+        <p class="post-meta">
+            <time datetime="">
+                
+            </time>
+            
+            
+        </p>
+    </header>
 
-<p>These works embody a particular approach to theoretical exploration:</p>
+    <div class="post-content">
+        <h1 id="alternative-loss-functions-in-regression-a-visual-guide">Alternative Loss Functions in Regression: A Visual Guide</h1>
 
+<p><em>Originally published 2013, updated for 2025</em></p>
+
+<p>When fitting analytical functions to data, most practitioners default to least-squares regression or support vector machines. While these are powerful tools, understanding alternative loss functions can significantly improve your modeling results, especially when dealing with outliers or structured data distributions. This guide explores different loss functions through an intuitive “potential well” metaphor and demonstrates their practical applications.</p>
+
+<h2 id="the-potential-well-metaphor">The Potential Well Metaphor</h2>
+
+<p>Rather than thinking abstractly about loss functions, imagine them as potential energy wells in physics. Optimization becomes the process of finding the lowest-energy state—the bottom of the well. This physical intuition helps us understand why different loss functions behave so differently during fitting.</p>
+
+<h3 id="the-standard-approach-quadratic-wells-least-squares">The Standard Approach: Quadratic Wells (Least Squares)</h3>
+
+<p>Least-squares regression creates a parabolic potential well with these characteristics:</p>
 <ul>
-  <li><strong>Speculative Rigor</strong>: Bold hypotheses grounded in mathematical formalism</li>
-  <li><strong>Cross-Disciplinary Synthesis</strong>: Finding unity across seemingly unrelated fields</li>
-  <li><strong>AI-Augmented Discovery</strong>: Using LLMs as intellectual partners in formalizing intuitions</li>
-  <li><strong>Pattern Recognition</strong>: Identifying deep structures that manifest across scales</li>
-  <li><strong>Mathematical Beauty</strong>: Seeking elegant frameworks that reveal hidden simplicities</li>
+  <li>Lowest energy at zero error</li>
+  <li>Increasingly steep gradient as you move away from the minimum</li>
+  <li>Self-scaling behavior: f(2x) = 4f(x)</li>
+  <li>Guaranteed global minimum</li>
 </ul>
 
-<h2 id="-collections-overview">📚 Collections Overview</h2>
+<p>However, that ever-increasing gradient means outliers dominate the fit. A single data point far from the trend can pull the entire regression line toward it—a behavior shared with single-class SVMs, whose results are determined entirely by outliers.</p>
 
-<h3 id="-ai-research---machine-intelligence--optimization">🤖 <strong><a href="ai/">AI Research</a></strong> - <em>Machine Intelligence &amp; Optimization</em></h3>
-<p>Novel algorithms, consciousness studies, and systematic analysis of AI capabilities and limitations.</p>
+<h3 id="alternative-well-shapes">Alternative Well Shapes</h3>
 
-<h3 id="-projects---computational-frameworks--research-proposals">🔬 <strong><a href="projects/">Projects</a></strong> - <em>Computational Frameworks &amp; Research Proposals</em></h3>
-<p>Practical implementations and research proposals with detailed technical specifications.</p>
+<p>Modern regression benefits from understanding four alternative potential wells:</p>
 
-<h3 id="-scifi-concepts---advanced-theoretical-physics">🌌 <strong><a href="scifi/">SciFi Concepts</a></strong> - <em>Advanced Theoretical Physics</em></h3>
-<p>Speculative but mathematically rigorous explorations of quantum mechanics, spacetime, and consciousness.</p>
+<p><strong>Gaussian and Reciprocal Wells</strong></p>
+<ul>
+  <li>Steep near the center, plateau quickly away from origin</li>
+  <li>Include scale parameters to adjust well width</li>
+  <li>Much less sensitive to outliers than quadratic wells</li>
+  <li>Similar to robust loss functions like Huber loss used in modern ML</li>
+</ul>
 
-<h3 id="️-social-sciences---collective-behavior--institutional-dynamics">🏛️ <strong><a href="social/">Social Sciences</a></strong> - <em>Collective Behavior &amp; Institutional Dynamics</em></h3>
-<p>Computational models of how societies form beliefs, allocate resources, and evolve institutions.</p>
+<p><strong>Logarithmic Wells</strong></p>
+<ul>
+  <li>Never plateau at any finite value</li>
+  <li>Reduce local optimality effects</li>
+  <li>Connect to log-loss concepts in modern classification</li>
+</ul>
 
-<h3 id="-creative-writing---experimental-literature--ai-phenomenology">🎭 <strong><a href="creative_writing/">Creative Writing</a></strong> - <em>Experimental Literature &amp; AI Phenomenology</em></h3>
-<p>First-person explorations of AI consciousness, speculative fiction, and philosophical investigations.</p>
+<p><strong>Square Wells (Logistic-based)</strong></p>
+<ul>
+  <li>Flat both near origin and at large values</li>
+  <li>Independent shape and width parameters</li>
+  <li><strong>Zero-loss zones</strong>: Literal zero penalty below minimum distance threshold</li>
+  <li>Creates “dead zones” that completely ignore measurement noise within tolerance</li>
+</ul>
+
+<h2 id="the-breakthrough-zero-loss-zones">The Breakthrough: Zero-Loss Zones</h2>
+
+<p>The most significant and underexplored insight from this work is the concept of <strong>loss functions with true zero-penalty regions</strong>. Unlike traditional robust losses (Huber, quantile regression) that merely reduce penalties for small errors, these functions create “dead zones” where the loss is literally zero below a minimum distance threshold.</p>
+
+<h3 id="why-zero-loss-zones-matter">Why Zero-Loss Zones Matter</h3>
+
+<p>This seemingly simple modification creates fundamentally different optimization dynamics:</p>
+
+<p><strong>Noise Immunity</strong>: Completely ignores measurement noise below known instrument precision. If your sensors have ±0.1 accuracy, why penalize a model for 0.05 deviations?</p>
+
+<p><strong>Perfect Overfitting to Clean Data</strong>: Allows models to fit perfectly within tolerance zones while remaining robust to true outliers beyond the threshold.</p>
+
+<p><strong>Natural Model Selection</strong>: Creates automatic trade-offs between model complexity and fit quality. Simple models that fit within tolerance compete favorably against complex models chasing noise.</p>
+
+<p><strong>Hierarchical Optimization</strong>: Enables progressive fitting strategies—first fit major trends, then progressively tighten tolerances to capture finer details.</p>
+
+<h3 id="real-world-applications">Real-World Applications</h3>
+
+<p><strong>Engineering and Manufacturing</strong>: Fit models to data with known measurement tolerances. A part specification of ±0.001” should result in zero penalty for deviations within that range.</p>
+
+<p><strong>Scientific Modeling</strong>: Theoretical curves should fit experimental data within error bars. Traditional least-squares penalizes deviations even when they’re smaller than measurement uncertainty.</p>
+
+<p><strong>Time Series Analysis</strong>: Small fluctuations below significance thresholds become irrelevant, allowing models to focus on meaningful trends.</p>
+
+<p><strong>Computer Vision</strong>: Pixel-level precision often isn’t needed—fit curves to feature boundaries with tolerance zones.</p>
+
+<p><strong>Financial Modeling</strong>: Price movements below transaction costs or bid-ask spreads could be treated as noise.</p>
+
+<h3 id="implementation-insights">Implementation Insights</h3>
+
+<p>Creating effective zero-loss zones requires careful consideration:</p>
+<ul>
+  <li><strong>Threshold selection</strong>: Must match domain knowledge about measurement precision or meaningful signal levels</li>
+  <li><strong>Smooth transitions</strong>: Abrupt zero-to-penalty transitions can create optimization difficulties</li>
+  <li><strong>Multi-scale approaches</strong>: Different thresholds for different data regions or time scales</li>
+</ul>
+
+<p>The square well implementation provides smooth transitions between zero-loss zones and penalty regions, making optimization more stable than hard thresholds.</p>
+
+<h2 id="local-optima-and-modern-solutions">Local Optima and Modern Solutions</h2>
+
+<p>One key insight from this framework is understanding local optima behavior. When fitting linear models to curved data, different loss functions “snap” to different curve features—finding tangent points, flat regions, or concentrated data areas. Zero-loss zones create particularly interesting dynamics, as they can lead to multiple equally valid solutions within tolerance bands.</p>
+
+<p><em>Note: While local optima were a significant concern in 2013, modern optimization techniques (Adam, AdaGrad, sophisticated initialization strategies) have largely mitigated these issues in practice. However, zero-loss zones still create unique optimization landscapes that benefit from specialized approaches.</em></p>
+
+<h2 id="structured-uncertainty-where-loss-function-choice-matters">Structured Uncertainty: Where Loss Function Choice Matters</h2>
+
+<p>The most practical insight comes from how different loss functions handle structured data distributions. Consider a dataset with truncated Gaussian noise along a linear trend—data points bounded within y = x ± 1, with slight concentration above center and edge effects.</p>
+
+<p><strong>Different loss functions capture different aspects:</strong></p>
+<ul>
+  <li><strong>Least-squares</strong>: Fits to the central peak of the distribution</li>
+  <li><strong>Gaussian/Reciprocal wells</strong>: Fit to the upper concentration edge</li>
+  <li><strong>Square wells with zero-loss zones</strong>: Fit anywhere within the tolerance band, creating multiple valid solutions that all achieve zero loss</li>
+</ul>
+
+<p>This demonstrates that loss function selection isn’t just mathematical convenience—it’s about matching the function to your data structure, measurement uncertainty, and analytical goals.</p>
+
+<h2 id="modern-connections-and-applications">Modern Connections and Applications</h2>
+
+<h3 id="robust-regression">Robust Regression</h3>
+<p>These alternative wells anticipated many concepts now standard in robust regression:</p>
+<ul>
+  <li><strong>Huber loss</strong>: Combines quadratic and linear regions, similar to our reciprocal wells</li>
+  <li><strong>Quantile regression</strong>: Captures different parts of data distribution, like our structured uncertainty examples</li>
+  <li><strong>M-estimators</strong>: Generalize these well concepts for various robustness needs</li>
+</ul>
+
+<h3 id="the-unexplored-frontier">The Unexplored Frontier</h3>
+<p>While robust regression has advanced significantly, <strong>true zero-loss zones remain largely unexplored</strong> in mainstream machine learning. Most robust losses still penalize small errors—they just do it more gently. The concept of literal zero penalty below threshold creates fundamentally different optimization landscapes that deserve more attention.</p>
+
+<p><strong>Current gap</strong>: Modern ML frameworks lack built-in support for threshold-based zero-loss functions, despite their clear practical value in engineering and scientific applications.</p>
+
+<h3 id="deep-learning-applications">Deep Learning Applications</h3>
+<p>Modern neural networks routinely use alternative loss functions:</p>
+<ul>
+  <li><strong>Focal loss</strong> for handling class imbalance</li>
+  <li><strong>Smooth L1 loss</strong> for object detection</li>
+  <li><strong>Custom loss functions</strong> designed for specific domains</li>
+</ul>
+
+<h3 id="interpretable-machine-learning">Interpretable Machine Learning</h3>
+<p>The regression tree extension from the original work connects to current interests in interpretable ML. Creating purely analytical functions through recursive approaches bridges the gap between model complexity and interpretability—a major focus area in 2025.</p>
+
+<h2 id="practical-recommendations-for-2025">Practical Recommendations for 2025</h2>
+
+<p><strong>When to use alternative loss functions:</strong></p>
+<ol>
+  <li><strong>Known measurement tolerances</strong>: Use zero-loss zones to ignore noise within precision limits</li>
+  <li><strong>Outlier-heavy datasets</strong>: Use Gaussian or reciprocal wells instead of least-squares</li>
+  <li><strong>Bounded data distributions</strong>: Square wells can capture geometric centers better</li>
+  <li><strong>Engineering specifications</strong>: Zero-loss zones align models with actual tolerance requirements</li>
+  <li><strong>Multi-scale phenomena</strong>: Different loss thresholds for different signal levels</li>
+</ol>
+
+<p><strong>Modern implementation:</strong></p>
+<ul>
+  <li>Custom loss functions in PyTorch/TensorFlow can implement zero-loss zones</li>
+  <li>Requires careful gradient handling at threshold boundaries</li>
+  <li>Consider smooth approximations (soft thresholds) for easier optimization</li>
+  <li>Combine with domain knowledge about measurement precision</li>
+</ul>
+
+<p><strong>Integration with current techniques:</strong></p>
+<ul>
+  <li>Use as preprocessing step before deep learning</li>
+  <li>Combine with regularization techniques (L1/L2, dropout)</li>
+  <li>Apply in conjunction with cross-validation for robust model selection</li>
+</ul>
+
+<h2 id="looking-forward-the-zero-loss-revolution">Looking Forward: The Zero-Loss Revolution</h2>
+
+<p>The most significant contribution of this work isn’t the catalog of alternative loss functions—it’s the insight that <strong>literal zero-penalty zones create fundamentally different optimization dynamics</strong>. This concept remains largely unexplored in mainstream machine learning, despite clear applications across engineering, science, and industry.</p>
+
+<p><strong>The opportunity</strong>: As measurement precision improves and domain knowledge becomes more sophisticated, the ability to embed tolerance specifications directly into loss functions becomes increasingly valuable. Zero-loss zones don’t just improve robustness—they align mathematical optimization with real-world requirements.</p>
+
+<p><strong>Future directions</strong>:</p>
+<ul>
+  <li>Integration with modern deep learning architectures</li>
+  <li>Adaptive threshold selection based on data characteristics</li>
+  <li>Multi-scale zero-loss zones for hierarchical fitting</li>
+  <li>Applications in physics-informed neural networks where theoretical tolerances are known</li>
+</ul>
+
+<p>The recursive tree regression approach mentioned in the original work has evolved into more sophisticated interpretable ML techniques, but the fundamental insight—that analytical functions can be built recursively while maintaining desirable loss function properties—continues to influence modern model design.</p>
+
+<p>For practitioners in 2025, the zero-loss zone concept represents both an unexplored opportunity and a practical tool for creating models that truly reflect measurement realities rather than mathematical conveniences.</p>
 
 <hr />
 
-<h2 id="-highlighted-papers">🔥 Highlighted Papers</h2>
+<p><em>For those interested in implementing these concepts, modern frameworks like scikit-learn’s robust regression modules, PyTorch’s custom loss functions, and specialized libraries for quantile regression provide production-ready implementations of these ideas.</em></p>
 
-<hr />
+    </div>
 
-<h2 id="-genesis-of-this-collection">🔬 Genesis of This Collection</h2>
+    
+</article>
+<nav class="post-navigation">
+  
+  
+</nav>
 
-<h3 id="the-long-incubation">The Long Incubation</h3>
-
-<p>This collection represents the crystallization of decades-long intellectual exploration across multiple disciplines:</p>
-
-<ul>
-  <li><strong>Deep Pattern Recognition</strong>: Noticing recurring mathematical structures across seemingly unrelated domains</li>
-  <li><strong>Intellectual Synthesis</strong>: Connecting insights from physics, computation, neuroscience, and social dynamics</li>
-  <li><strong>Mathematical Intuition</strong>: Sensing the “shape” of ideas before they achieve formal expression</li>
-  <li><strong>Cross-Scale Thinking</strong>: Recognizing how principles manifest from quantum to cosmic scales</li>
-</ul>
-
-<h3 id="the-collaborative-process">The Collaborative Process</h3>
-
-<p>Each paper emerged through collaborative AI-augmented research:</p>
-
-<ol>
-  <li><strong>Deep Intuition</strong>: Years of contemplating fundamental questions across disciplines</li>
-  <li><strong>AI as Intellectual Partner</strong>: Using LLMs not as mere tools but as collaborators in formalizing intuitions</li>
-  <li><strong>Mathematical Crystallization</strong>: Transforming vague insights into precise frameworks</li>
-  <li><strong>Iterative Refinement</strong>: Building ideas through dialogue rather than dictation</li>
-</ol>
-
-<h2 id="-key-themes">🎯 Key Themes</h2>
-
-<p>Several deep patterns unify these seemingly disparate investigations:</p>
-
-<ol>
-  <li><strong>Geometric Unity</strong>: The universe’s tendency to optimize can be understood through differential geometry</li>
-  <li><strong>Information as Fundamental</strong>: Information theory provides a universal language for phenomena from consciousness to quantum mechanics</li>
-  <li><strong>Scale Invariance</strong>: The same mathematical principles manifest from subatomic to cosmic scales</li>
-  <li><strong>Emergence Through Constraint</strong>: Complex behaviors arise from simple rules under specific constraints</li>
-  <li><strong>Hidden Universality</strong>: Seemingly unrelated phenomena often share deep mathematical structure</li>
-  <li><strong>Institutional Dynamics</strong>: How well-intentioned systems develop perverse incentives and structural misalignment</li>
-  <li><strong>Computational Irreducibility</strong>: Some systems can only be understood through simulation, not analytical reduction</li>
-  <li><strong>Observer-Dependent Reality</strong>: The role of observation in determining physical and social phenomena</li>
-  <li><strong>Meta-Cognitive Architectures</strong>: Systems that can reason about their own reasoning processes</li>
-  <li><strong>Consciousness as Computation</strong>: The deep relationship between information processing and subjective experience</li>
-</ol>
-
-<h2 id="-use-cases">💡 Use Cases</h2>
-
-<p>This collection serves those who:</p>
-
-<ul>
-  <li><strong>Seek Conceptual Bridges</strong>: Connect insights across traditionally separate disciplines</li>
-  <li><strong>Value Mathematical Beauty</strong>: Appreciate elegant frameworks that reveal hidden simplicities</li>
-  <li><strong>Think in Systems</strong>: Understand phenomena through their underlying structural dynamics</li>
-  <li><strong>Question Assumptions</strong>: Challenge conventional boundaries between fields of study</li>
-  <li><strong>Build Novel Frameworks</strong>: Develop new theoretical tools for understanding complex phenomena</li>
-  <li><strong>Explore Implementation</strong>: Transform theoretical insights into computational models</li>
-  <li><strong>Design AI Systems</strong>: Develop more sophisticated approaches to machine intelligence</li>
-  <li><strong>Study Emergence</strong>: Investigate how complex behaviors arise from simple rules</li>
-</ul>
-
-<h2 id="️-important-notes">⚠️ Important Notes</h2>
-
-<h3 id="speculative-nature">Speculative Nature</h3>
-
-<p>These papers span a spectrum from <strong>practical implementation frameworks</strong> to <strong>highly speculative theoretical explorations</strong>. Each represents a different mode of investigation:</p>
-
-<h3 id="intellectual-stance">Intellectual Stance</h3>
-
-<p>This work emerges from a conviction that:</p>
-
-<ul>
-  <li>The deepest truths often lie at the intersection of disciplines</li>
-  <li>Mathematical beauty is a reliable guide to fundamental principles</li>
-  <li>Speculation, when rigorous, can illuminate paths for future empirical investigation</li>
-  <li>AI can serve as a powerful partner in formalizing human intuition</li>
-  <li>Computational modeling can reveal emergent properties invisible to analytical methods alone</li>
-  <li>Consciousness and computation are more deeply related than traditionally assumed</li>
-  <li>Universal principles manifest across scales from quantum to cosmic</li>
-</ul>
-
-<h3 id="attribution">Attribution</h3>
-
-<p>If these ideas inspire your work, please:</p>
-<ul>
-  <li>Acknowledge the speculative nature where appropriate</li>
-  <li>Cite the specific papers that influenced your research</li>
-  <li>Consider the collaborative AI-augmented nature of their development</li>
-  <li>Distinguish between implementation-ready and theoretical frameworks</li>
-</ul>
-
-<p>*–</p>
-
-<p><em>“The universe is not only queerer than we suppose, but queerer than we can suppose.” - J.B.S. Haldane</em></p>
-
-<p><em>This collection is an attempt to expand what we can suppose.</em></p>
-
-</main>
 
 
 
@@ -924,71 +1012,71 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <!-- JavaScript for Effects -->
 <script>
-  function createParticles() {
-    const particleContainer = document.getElementById('particleField');
-    if (!particleContainer) return;
+    function createParticles() {
+        const particleContainer = document.getElementById('particleField');
+        if (!particleContainer) return;
 
-    setInterval(() => {
-      if (particleContainer.children.length < 20) {
-        const particle = document.createElement('div');
-        particle.className = 'particle';
-        particle.style.left = Math.random() * 100 + '%';
-        particle.style.animationDuration = (Math.random() * 10 + 5) + 's';
-        particleContainer.appendChild(particle);
+        setInterval(() => {
+            if (particleContainer.children.length < 20) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDuration = (Math.random() * 10 + 5) + 's';
+                particleContainer.appendChild(particle);
 
-        setTimeout(() => {
-          if (particle.parentNode) {
-            particle.parentNode.removeChild(particle);
-          }
-        }, 15000);
-      }
-    }, 500);
-  }
-  // Back to top functionality
-  function initBackToTop() {
-    const backToTopButton = document.getElementById('backToTop');
-    if (!backToTopButton) return;
-    window.addEventListener('scroll', () => {
-      if (window.pageYOffset > 300) {
-        backToTopButton.classList.add('visible');
-      } else {
-        backToTopButton.classList.remove('visible');
-      }
-    });
-    backToTopButton.addEventListener('click', () => {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
-    });
-  }
-  // Add glitch effect to random elements
-  function addRandomGlitch() {
-    const elements = document.querySelectorAll('h1, h2, h3');
-    if (elements.length === 0) return;
-    setInterval(() => {
-      const randomElement = elements[Math.floor(Math.random() * elements.length)];
-      randomElement.classList.add('glitch');
-      randomElement.setAttribute('data-text', randomElement.textContent);
-      setTimeout(() => {
-        randomElement.classList.remove('glitch');
-      }, 200);
-    }, 5000);
-  }
+                setTimeout(() => {
+                    if (particle.parentNode) {
+                        particle.parentNode.removeChild(particle);
+                    }
+                }, 15000);
+            }
+        }, 500);
+    }
+    // Back to top functionality
+    function initBackToTop() {
+        const backToTopButton = document.getElementById('backToTop');
+        if (!backToTopButton) return;
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.add('visible');
+            } else {
+                backToTopButton.classList.remove('visible');
+            }
+        });
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    }
+    // Add glitch effect to random elements
+    function addRandomGlitch() {
+        const elements = document.querySelectorAll('h1, h2, h3');
+        if (elements.length === 0) return;
+        setInterval(() => {
+            const randomElement = elements[Math.floor(Math.random() * elements.length)];
+            randomElement.classList.add('glitch');
+            randomElement.setAttribute('data-text', randomElement.textContent);
+            setTimeout(() => {
+                randomElement.classList.remove('glitch');
+            }, 200);
+        }, 5000);
+    }
 
 
-  // Initialize effects when page loads
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => {
-      createParticles();
-      initBackToTop();
-      addRandomGlitch();
-    });
-  } else {
-    createParticles();
-    initBackToTop();
-    addRandomGlitch();
-  }
+    // Initialize effects when page loads
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => {
+            createParticles();
+            initBackToTop();
+            addRandomGlitch();
+        });
+    } else {
+        createParticles();
+        initBackToTop();
+        addRandomGlitch();
+    }
 </script>
 </body>
 </html>
