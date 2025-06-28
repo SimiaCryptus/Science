@@ -1,6 +1,7 @@
 ---
 title: "Conversational Intelligence Calibration: Mutual Turing Tests as Distributed Cognitive Assessment"
-layout: default
+layout: post
+collection: social
 ---
 
 # Conversational Intelligence Calibration: Mutual Turing Tests as Distributed Cognitive Assessment

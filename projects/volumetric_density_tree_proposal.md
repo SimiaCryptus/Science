@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Volumetric Density Tree Proposal
+layout: post
 collection: projects
 ---
 

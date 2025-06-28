@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Quantum Spacetime Paper
+layout: post
 collection: scifi
 ---
 

@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Orbital Dynamics Paper
+layout: post
 collection: projects
 ---
 

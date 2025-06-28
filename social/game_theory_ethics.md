@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Game Theory Ethics
+layout: post
 collection: social
 ---
 

@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Metacognitive Layer Paper
+layout: post
 collection: projects
 ---
 

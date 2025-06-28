@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Geometric Optimization Proposal
+layout: post
 collection: projects
 ---
 

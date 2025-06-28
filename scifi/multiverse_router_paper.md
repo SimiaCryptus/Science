@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Multiverse Router Paper
+layout: post
 collection: scifi
 ---
 

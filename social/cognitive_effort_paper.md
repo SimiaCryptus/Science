@@ -1,8 +1,9 @@
 ---
-layout: default
 title: Cognitive Effort Paper
+layout: post
 collection: social
 ---
+
 # The Game Theory of Cognitive Effort: Technology, Time, and Social Outcomes
 
 ## Abstract

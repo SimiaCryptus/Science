@@ -1,25 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title | default: site.title }}</title>
-  <link rel="stylesheet" href="{{ 'assets/css/style.css' | relative_url }}">
-  <link rel="icon" type="image/x-icon" href="{{ 'favicon.ico' | relative_url }}">
+  <base href="{{ site.url }}{{ site.baseurl }}/">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+  <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico">
+  {% feed_meta %}
+  {% seo %}
 </head>
 <body>
   <!-- Floating Particles -->
   <div class="particle-field" id="particleField"></div>
+  {% include theme_switcher.html %}
   
   {% include header.html %}
   <main class="container">
     {{ content }}
   </main>
   {% include footer.html %}
+  <!-- Back to Top Button -->
+  <div class="back-to-top" id="backToTop">↑</div>
+  
   <!-- JavaScript for Effects -->
   <script>
     function createParticles() {
       const particleContainer = document.getElementById('particleField');
+      if (!particleContainer) return;
+      
       setInterval(() => {
         if (particleContainer.children.length < 20) {
           const particle = document.createElement('div');
@@ -27,6 +38,7 @@
           particle.style.left = Math.random() * 100 + '%';
           particle.style.animationDuration = (Math.random() * 10 + 5) + 's';
           particleContainer.appendChild(particle);
+          
           setTimeout(() => {
             if (particle.parentNode) {
               particle.parentNode.removeChild(particle);
@@ -35,11 +47,51 @@
         }
       }, 500);
     }
+    // Back to top functionality
+    function initBackToTop() {
+      const backToTopButton = document.getElementById('backToTop');
+      if (!backToTopButton) return;
+      window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+          backToTopButton.classList.add('visible');
+        } else {
+          backToTopButton.classList.remove('visible');
+        }
+      });
+      backToTopButton.addEventListener('click', () => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+    }
+    // Add glitch effect to random elements
+    function addRandomGlitch() {
+      const elements = document.querySelectorAll('h1, h2, h3');
+      if (elements.length === 0) return;
+      setInterval(() => {
+        const randomElement = elements[Math.floor(Math.random() * elements.length)];
+        randomElement.classList.add('glitch');
+        randomElement.setAttribute('data-text', randomElement.textContent);
+        setTimeout(() => {
+          randomElement.classList.remove('glitch');
+        }, 200);
+      }, 5000);
+    }
+    
     
     // Initialize effects when page loads
-    document.addEventListener('DOMContentLoaded', function() {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', () => {
+        createParticles();
+        initBackToTop();
+        addRandomGlitch();
+      });
+    } else {
       createParticles();
-    });
+      initBackToTop();
+      addRandomGlitch();
+    }
   </script>
 </body>
 </html>

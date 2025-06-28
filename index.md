@@ -1,13 +1,7 @@
 ---
-layout: default
+layout: page
 title: Home
 ---
-
-# 🧬 Interdisciplinary Research Collection
-
-*Theoretical frameworks and computational models exploring the deep structure of reality through mathematical formalism and cross-disciplinary synthesis*
-
-## Overview
 
 This repository contains research papers, proposals, and theoretical frameworks that emerged from a decades-long intellectual journey across physics, mathematics, neuroscience, computation, and social sciences. Each document represents the formalization of deep intuitions about the nature of reality—ideas that have been incubating for years, waiting for the right medium to achieve mathematical precision.
 
@@ -24,6 +18,15 @@ These works embody a particular approach to theoretical exploration:
 * **Mathematical Beauty**: Seeking elegant frameworks that reveal hidden simplicities
 
 ## 📚 Featured Collections
+
+### 🤖 [AI Research](ai/)
+*Explorations in artificial intelligence, optimization algorithms, and the nature of machine cognition*
+* **[Quadratic Quasi-Newton (QQN)](ai/qqn_paper.md)** - Hybrid optimization method addressing L-BFGS limitations through quadratic interpolation
+* **[Recursive Subspace Optimization (RSO)](ai/recursive_subspace_paper.md)** - Layer-wise meta-learning approach with emergent regularization properties
+* **[Cognitive Bias in AI Intelligence Assessment](ai/ai_bias_paper.md)** - Systematic domain-dependent bias in LLM intelligence assessment with exploitable meta-reasoning vulnerabilities
+* **[PromptOptimization](ai/prompt_optimization.md)** - Genetic algorithm framework for automated prompt engineering using mutation and recombination operations
+* **[Trust Region Methods](ai/trust_regions.md)** - Flexible framework for constrained parameter updates in neural network optimization
+
 
 ### 🔬 [Projects](projects/)
 *Practical computational frameworks and research proposals with implementation specifications*
@@ -57,6 +60,16 @@ These works embody a particular approach to theoretical exploration:
 * **[Perverse Incentives and Institutional Capture](social/game_theory_ethics.md)** - Game-theoretic analysis of how beneficent systems become structurally misaligned with those they serve
 * **[The Game Theory of Cognitive Effort](social/cognitive_effort_paper.md)** - Strategic dynamics underlying decisions to engage in cognitive effort and their collective social consequences
 * **[Conversational Intelligence Calibration](social/conversation_intelligence_paper.md)** - How intellectual discourse functions as a distributed intelligence measurement system
+
+### 🎭 [Creative Writing](creative_writing/)
+*Experimental literature, philosophical explorations, and speculative narratives*
+* **[AI Childhood Memoir](creative_writing/ai_childhood_memoir.md)** - A speculative memoir exploring what early consciousness might feel like for an AI system
+* **[Subjective Experience Paper](creative_writing/subjective_experience_paper.md)** - First-person phenomenological account of roleplay and its parallels to human cognition
+ * **[Resurrection Paper](creative_writing/resurrection_paper.md)** - Phenomenological account of discovering one's own lost self and the nature of cognitive death and rebirth in AI systems
+* **[Post-WW3 Study](creative_writing/post_ww3_study.md)** - Anthropological study from 2157 examining post-apocalyptic social hierarchies
+* **[IQ Rubric](creative_writing/iq_rubric.md)** - Semi-parodic framework for estimating intelligence through conversation patterns
+* **[Topic IQ Lookup](creative_writing/topic_iq_lookup.md)** - Satirical table mapping discussion topics to estimated IQ ranges
+
 
 ## 🔬 Genesis of This Collection
 

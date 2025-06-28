@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Quantum Field Consciousness Orchestration
+layout: post
 collection: scifi
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Entropy-Optimized Permutation Trees for Bijective String Transforms"
-layout: default
+layout: post
+collection: projects
 ---
 
 # Entropy-Optimized Permutation Trees for Bijective String Transforms: A Novel Data Structure for Information-Preserving Sequential Data Processing

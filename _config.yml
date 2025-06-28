@@ -1,33 +1,89 @@
 # _config.yml
 title: Journal of Speculative Science
-tagline: "Journal of Speculative Science"
+tagline: "A journal dedicated to exploring speculative ideas in science and technology."
 description: "A journal dedicated to exploring speculative ideas in science and technology."
 baseurl: "/Science" # The subpath of your site, e.g. /blog
-url: "" # The base hostname & protocol for your site, e.g. https://username.github.io
+url: "" # The base hostname & protocol for your site (leave empty for local development)
+lang: en
 markdown: kramdown
+theme: minima
 highlighter: rouge
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal # Comment out if using custom theme
 
 exclude:
   - Gemfile
   - Gemfile.lock
+  - README.md
+  - LICENSE
+  - .gitignore
   - .idea/
   - Science.iml
   - .logs/
   - .git/
   - .gitignore
-
-# Configure defaults for pages
-# Add 'defaults' key and proper indentation
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "page"
+  - README.md
+  - LICENSE
 
 # Consolidated list of plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-paginate
+# Pagination
+paginate: 10
+paginate_path: "/blog/page:num/"
+collections:
   - jekyll-seo-tag
-  - jekyll-readme-index
+
+# Feed settings
+feed:
+  path: feed.xml
+
+# SEO settings
+twitter:
+  username: yourusername
+  card: summary
+
+name: Journal of Speculative Science
+links:
+  - https://twitter.com/yourusername
+  - https://github.com/yourusername
+social:
+    sort_by: date
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Human-AI Collaboration"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "social"
+    values:
+      layout: "page"
+      category: "Social Sciences"
+  - scope:
+      path: ""
+      type: "scifi"
+    values:
+      layout: "page"
+      category: "SciFi Concepts"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+      category: "Projects"
+  - scope:
+      path: ""
+      type: "creative_writing"
+    values:
+      layout: "page"
+      category: "Creative Writing"

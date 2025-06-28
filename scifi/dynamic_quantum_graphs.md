@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Dynamic Quantum Graphs
+layout: post
 collection: scifi
 ---
 

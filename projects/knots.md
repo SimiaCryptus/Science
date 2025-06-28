@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Knots
+layout: post
 collection: projects
 ---
 

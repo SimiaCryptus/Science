@@ -6,6 +6,9 @@
   function createNeuralNetwork() {
     const container = document.getElementById('neuralNetwork');
     if (!container) return;
+    // Clear existing elements
+    container.innerHTML = '';
+    
     
     // Create nodes
     for (let i = 0; i < 15; i++) {
@@ -30,5 +33,9 @@
     }
   }
   
-  document.addEventListener('DOMContentLoaded', createNeuralNetwork);
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', createNeuralNetwork);
+  } else {
+    createNeuralNetwork();
+  }
 </script>

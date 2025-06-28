@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Superfluid Fusion Proposal
+layout: post
 collection: scifi
 ---
 

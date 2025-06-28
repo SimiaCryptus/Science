@@ -1,3 +1,9 @@
+---
+title: "Scientific Method 2.0: An AI-Agent Framework for Accelerated Discovery in Economics and Sociology"
+layout: post
+collection: projects
+---
+
 # Scientific Method 2.0: An AI-Agent Framework for Accelerated Discovery in Economics and Sociology
 
 ## Abstract

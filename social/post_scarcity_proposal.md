@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Post Scarcity Proposal
+layout: post
 collection: social
 ---
 

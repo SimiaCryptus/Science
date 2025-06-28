@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Formal Grammar Lookahead for Constrained LLM Generation
+layout: post
 collection: projects
 ---
 

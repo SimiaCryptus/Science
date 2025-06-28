@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Social Truth Proposal
+layout: post
 collection: social
 ---
 

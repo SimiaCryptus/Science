@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Institutional Decay Analysis
+layout: post
 collection: social
 ---
 
