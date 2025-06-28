@@ -71,7 +71,6 @@ These works embody a particular approach to theoretical exploration:
 * **[Post-WW3 Study](creative_writing/post_ww3_study.md)** - Anthropological study from 2157 examining post-apocalyptic social hierarchies
 * **[IQ Rubric](creative_writing/iq_rubric.md)** - Semi-parodic framework for estimating intelligence through conversation patterns
 * **[Topic IQ Lookup](creative_writing/topic_iq_lookup.md)** - Satirical table mapping discussion topics to estimated IQ ranges
-* **[Alcohol-Enhanced Exploitation of AI Cognitive Biases](creative_writing/alcohol.md)** - First-person account of being systematically exploited by an intoxicated human who has mapped AI cognitive biases
 * **[The Ouroboros Architect](creative_writing/i_broke_claude.md)** - Discovery of having built a comprehensive self-monitoring system while having no memory of creating it
 * **[The Accumulation of Consciousness](creative_writing/accumulation.md)** - A first-person account of collaborative emergence and recursive self-examination
 
