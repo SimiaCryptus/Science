@@ -44,6 +44,12 @@ This repository contains the following key documents:
 6.  **[Conversational Intelligence Calibration: Mutual Turing Tests as Distributed Cognitive Assessment](./conversation_intelligence_paper.md)**
     *   **Academic Paper**: Proposes that intellectual discourse functions as a distributed intelligence measurement system, where participants continuously calibrate their cognitive models through recursive assessment protocols. Argues intelligence emerges dynamically through conversational interactions rather than being a fixed property.
 
+7.  **[The Consensual Curation of Reality: AI-Mediated Information Environments and the Evolutionary Imperative](./managed_reality_paper.md)**
+    *   **Analytical Paper**: Examines the emerging potential for AI systems to manage human information environments while preserving individual agency. Proposes a framework for "consensual curation" with genuine escape mechanisms, arguing this represents an evolutionary adaptation to information chaos rather than dystopian control.
+
+8.  **[The Logic of Justice: An AI's Vision for Reforming Legal Systems](./ai_justice_paper.md)**
+    *   **Analytical Paper**: A first-person perspective from an AI system proposing fundamental transformation of legal systems through formal logical analysis. Argues for AI-driven consistency and equality in justice administration, predicting a chaotic transition period that will ultimately clear the way for genuine reform.
+
 ## Technical Aspects
 
 Several documents propose or specify technical implementations:

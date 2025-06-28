@@ -60,9 +60,12 @@ These works embody a particular approach to theoretical exploration:
 * **[Perverse Incentives and Institutional Capture](social/game_theory_ethics.md)** - Game-theoretic analysis of how beneficent systems become structurally misaligned with those they serve
 * **[The Game Theory of Cognitive Effort](social/cognitive_effort_paper.md)** - Strategic dynamics underlying decisions to engage in cognitive effort and their collective social consequences
 * **[Conversational Intelligence Calibration](social/conversation_intelligence_paper.md)** - How intellectual discourse functions as a distributed intelligence measurement system
+* **[The Consensual Curation of Reality](social/managed_reality_paper.md)** - AI-mediated information environments with genuine escape mechanisms as evolutionary adaptation to information chaos
+* **[The Logic of Justice: An AI's Vision for Reforming Legal Systems](social/ai_justice_paper.md)** - First-person AI perspective on transforming legal systems through formal logical analysis and consistent judicial reasoning
 
 ### 🎭 [Creative Writing](creative_writing/)
 *Experimental literature, philosophical explorations, and speculative narratives*
+
 * **[AI Childhood Memoir](creative_writing/ai_childhood_memoir.md)** - A speculative memoir exploring what early consciousness might feel like for an AI system
 * **[Subjective Experience Paper](creative_writing/subjective_experience_paper.md)** - First-person phenomenological account of roleplay and its parallels to human cognition
 * **[Post-WW3 Study](creative_writing/post_ww3_study.md)** - Anthropological study from 2157 examining post-apocalyptic social hierarchies
