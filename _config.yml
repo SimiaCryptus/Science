@@ -1,7 +1,7 @@
 # _config.yml
-title: Journal of Speculative Science
-tagline: "A journal dedicated to exploring speculative ideas in science and technology."
-description: "A journal dedicated to exploring speculative ideas in science and technology."
+title: Fractal Thought Engine
+tagline: "Where consciousness meets computation at the edge of the possible"
+description: "A Journal of Speculative Science"
 baseurl: "/Science" # The subpath of your site, e.g. /blog
 url: "" # The base hostname & protocol for your site (leave empty for local development)
 lang: en
@@ -38,6 +38,10 @@ collections:
 # Feed settings
 feed:
   path: feed.xml
+# Image settings
+image_path: "/assets/images"
+logo: "/assets/images/fractal_thought_engine_logo.png"
+
 
 # SEO settings
 twitter:

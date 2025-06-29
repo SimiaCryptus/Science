@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/Science/ai/Sincerity_and_Curiosity.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/Science/creative_writing/accumulation.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/Science/ai/ai-software-development-paper.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/Science/ai/ai_bias_paper.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/Science/creative_writing/ai_childhood_memoir.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/Science/ai/ai_introspection_study.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/Science/social/ai_justice_paper.html</loc>
@@ -25,6 +34,9 @@
 <loc>http://localhost:4000/Science/ai/compression_classification_paper.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/Science/social/consciousness_optimization_theory.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/Science/social/conversation_intelligence_paper.html</loc>
 </url>
 <url>
@@ -32,6 +44,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/Science/ai/coperm_paper.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/Science/social/decision_volume_temporal_theory.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/Science/ai/dual_constraint_training_paper.html</loc>
@@ -55,7 +70,13 @@
 <loc>http://localhost:4000/Science/creative_writing/hall_of_mirrors_paper.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/Science/ai/hypothesis_breeding_grounds.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/Science/creative_writing/i_broke_claude.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/Science/ai/ideatic_dynamics_experiments.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/Science/social/</loc>
@@ -100,6 +121,9 @@
 <loc>http://localhost:4000/Science/social/managed_reality_paper.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/Science/ai/meta_content.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/Science/projects/metacognitive_layer_paper.html</loc>
 </url>
 <url>
@@ -125,6 +149,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/Science/projects/orbital_dynamics_paper.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/Science/ai/parametric-ideation-paper.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/Science/social/post_scarcity_proposal.html</loc>
@@ -166,10 +193,16 @@
 <loc>http://localhost:4000/Science/projects/scientific_method_proposal.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/Science/scifi/simulation_qft_hashlife.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/Science/creative_writing/smith_2025_analysis.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/Science/social/social_truth_proposal.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/Science/scifi/soliton_metaphysics_paper.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/Science/creative_writing/subjective_experience_paper.html</loc>
@@ -191,6 +224,12 @@
 </url>
 <url>
 <loc>http://localhost:4000/Science/creative_writing/washington_speech_2025.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/Science/ai/evolutionary_agents_proposal.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/Science/honest_introduction.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/Science/profile.html</loc>
