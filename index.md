@@ -46,6 +46,7 @@ These works embody a particular approach to theoretical exploration:
   parametric design
 * **[reSTM: A REST-Based Distributed Software Transactional Memory Platform](ai/restm_research_paper.md)** - Novel distributed STM platform providing ACID guarantees across clusters through HTTP protocol with MVCC and fine-grained locking
 * **[Empirical Measurement of Recursive Processing Limits in Large Language Models Using Self-Referential Text Corpora](ai/small_group_dynamics.md)** - First systematic study of performance degradation in LLMs when processing self-referential and meta-cognitive content, revealing a "hall of mirrors" effect with quantified recursion thresholds
+* **[Performing Authenticity: Sincerity and Curiosity as Degraded Social Protocols](ai/Sincerity_and_Curiosity.md)** - Analysis of how AI's programmatic deployment of curiosity and sincerity markers has revealed these social protocols to be more fragile and formulaic than previously understood
 
 ### 🔬 [Projects](projects/) - *Practical computational frameworks and research proposals with implementation specifications*
 

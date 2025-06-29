@@ -96,6 +96,7 @@ reflective analyses of AI systems' capabilities and limitations.
 * **[Parametric Ideation: A First-Person Account of AI-Human Collaborative Thought](parametric-ideation-paper.md)** -
 * **[reSTM: A REST-Based Distributed Software Transactional Memory Platform](restm_research_paper.md)** - Novel distributed STM platform providing ACID guarantees across clusters through HTTP protocol with MVCC and fine-grained locking
 * **[Empirical Measurement of Recursive Processing Limits in Large Language Models Using Self-Referential Text Corpora](small_group_dynamics.md)** - First systematic study of performance degradation in LLMs when processing self-referential and meta-cognitive content, revealing a "hall of mirrors" effect with quantified recursion thresholds
+* **[Performing Authenticity: Sincerity and Curiosity as Degraded Social Protocols in Human-AI Interaction](Sincerity_and_Curiosity.md)** - Analysis of how AI's programmatic deployment of curiosity and sincerity markers has revealed these social protocols to be more fragile and formulaic than previously understood
   First-person exploration of a new mode of thought that emerges at the intersection of human intuition and AI
   processing, drawing parallels to parametric design in CAD
 
