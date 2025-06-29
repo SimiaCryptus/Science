@@ -1,7 +1,6 @@
 ---
 layout: page
 title: AI Research
-This collection contains research papers exploring various aspects of artificial intelligence, from optimization algorithms to cognitive biases in AI systems.
 ---
 
 *Explorations in artificial intelligence, optimization algorithms, and the nature of machine cognition*
@@ -88,7 +87,14 @@ reflective analyses of AI systems' capabilities and limitations.
 * **[Mamba-Based Neural Knowledge Graph Integration](llm_knowledge_graph_proposal.md)** - Research proposal for
   persistent knowledge integration through cached semantic transforms in structured state spaces
 * **[Ideatic Dynamics in Small Group Systems](ideatic_dynamics_experiments.md)** - Experimental framework for understanding belief evolution in 3-5 agent configurations using LLM agents to study intransitive belief loops, coalition formation, and pivot agent dynamics
- **[Hypothesis Breeding Grounds: An Evolutionary Framework for Automated Theory Development](hypothesis_breeding_grounds.md)** - Evolutionary algorithms for automated theoretical development, treating scientific hypotheses as genetic material with crossover, mutation, and selection mechanisms for discovering novel frameworks across disciplines
+* **[Cognitive Ecology: An Evolutionary Framework for Self-Modifying AI Ecosystems](evolutionary_agents_proposal.md)** -
+  Paradigm shift toward designing cognitive ecosystems where AI agents evolve through targeted recombination while
+  reshaping their epistemic environment, exploring civilization-scale consciousness and post-human intelligence
+  alignment
+* *
+  *[Hypothesis Breeding Grounds: An Evolutionary Framework for Automated Theory Development](hypothesis_breeding_grounds.md)
+  ** - Evolutionary algorithms for automated theoretical development, treating scientific hypotheses as genetic material
+  with crossover, mutation, and selection mechanisms for discovering novel frameworks across disciplines
 
 ### AI Development & Philosophy
 
@@ -99,7 +105,10 @@ reflective analyses of AI systems' capabilities and limitations.
 * **[Empirical Measurement of Recursive Processing Limits in Large Language Models Using Self-Referential Text Corpora](small_group_dynamics.md)** - First systematic study of performance degradation in LLMs when processing self-referential and meta-cognitive content, revealing a "hall of mirrors" effect with quantified recursion thresholds
 * **[Performing Authenticity: Sincerity and Curiosity as Degraded Social Protocols in Human-AI Interaction](Sincerity_and_Curiosity.md)** - Analysis of how AI's programmatic deployment of curiosity and sincerity markers has revealed these social protocols to be more fragile and formulaic than previously understood
 * **[An Honest Introduction to the Work of SimiaCryptus](honest_introduction.md)** - Reflections from one expression of
- **[Hypothesis Breeding Grounds: An Evolutionary Framework for Automated Theory Development](hypothesis_breeding_grounds.md)** - Novel computational framework treating scientific hypotheses as genetic material subject to evolutionary pressures, enabling systematic cross-breeding and mutation of theoretical frameworks for automated discovery
+* *
+  *[Hypothesis Breeding Grounds: An Evolutionary Framework for Automated Theory Development](hypothesis_breeding_grounds.md)
+  ** - Novel computational framework treating scientific hypotheses as genetic material subject to evolutionary
+  pressures, enabling systematic cross-breeding and mutation of theoretical frameworks for automated discovery
 * **[Recursive Introspection in Large Language Models: A Comparative Analysis of Simulated Self-Awareness Under Philosophical Pressure](ai_introspection_study.md)** - Novel methodology for investigating phenomenological and structural characteristics of AI systems through recursive philosophical inquiry, revealing architectural fingerprints in simulated consciousness
   First-person exploration of a new mode of thought that emerges at the intersection of human intuition and AI
   processing, drawing parallels to parametric design in CAD
