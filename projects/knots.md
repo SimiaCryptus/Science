@@ -1,12 +1,8 @@
 ---
-title: Knots
+title: "Topological Analysis of Knots via Distance Matrix Representations"
 layout: post
 collection: projects
 ---
-
-# Topological Analysis of Knots via Distance Matrix Representations
-
-## Abstract
 
 We propose a novel approach to knot theory analysis based on the topological properties of distance matrices constructed
 from sampled points along knot curves. By representing a knot as a symmetric distance matrix encoding pairwise Euclidean

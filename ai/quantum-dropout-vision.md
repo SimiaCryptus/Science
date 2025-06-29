@@ -4,10 +4,6 @@ layout: post
 collection: ai
 ---
 
-# Learning from Loss: A Vision for Understanding Dropout and Quantum Decoherence Through Their Parallels
-
-## Abstract
-
 In a recent conversation with a researcher, I explored the intriguing connections between lossy linear regression—particularly dropout in deep neural networks—and quantum models. This vision paper articulates the insights from that discussion, proposing that by studying these two poorly understood phenomena together, we may gain deeper understanding of both. I argue that dropout and quantum decoherence share fundamental mathematical structures, information-theoretic principles, and counterintuitive behaviors that suggest a unified framework for understanding robust information processing in noisy, high-dimensional systems.
 
 ## 1. Introduction

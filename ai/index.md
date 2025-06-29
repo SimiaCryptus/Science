@@ -79,9 +79,8 @@ reflective analyses of AI systems' capabilities and limitations.
   modeling using decision trees for uncertainty quantification
 * **[Alternative Loss Functions in Regression](regression_loss_functions_2025.md)** - Visual guide to potential well
   metaphors and zero-loss zones for robust regression modeling
-* *
-  *[Learning from Loss: A Vision for Understanding Dropout and Quantum Decoherence Through Their Parallels](quantum-dropout-vision.md)
-  ** - Vision paper exploring mathematical and conceptual connections between dropout regularization and quantum
+* **[Learning from Loss: A Vision for Understanding Dropout and Quantum Decoherence Through Their Parallels](quantum-dropout-vision.md) ** -
+  Vision paper exploring mathematical and conceptual connections between dropout regularization and quantum
   decoherence as forms of beneficial information loss
 
 ### Research Proposals & Future Directions
@@ -92,9 +91,7 @@ reflective analyses of AI systems' capabilities and limitations.
 
 ### AI Development & Philosophy
 
-* *
-  *[The Transformation of Software Development: Navigating the AI Revolution in Software Productization](ai-software-development-paper.md)
-  ** - Comprehensive analysis of AI's current and projected impact on software development, identifying potential
+* **[The Transformation of Software Development: Navigating the AI Revolution in Software Productization](ai-software-development-paper.md)** - Comprehensive analysis of AI's current and projected impact on software development, identifying potential
   unintended consequences and proposing best practices for conscious evolution
 * **[Parametric Ideation: A First-Person Account of AI-Human Collaborative Thought](parametric-ideation-paper.md)** -
 * **[reSTM: A REST-Based Distributed Software Transactional Memory Platform](restm_research_paper.md)** - Novel distributed STM platform providing ACID guarantees across clusters through HTTP protocol with MVCC and fine-grained locking
@@ -103,20 +100,6 @@ reflective analyses of AI systems' capabilities and limitations.
   processing, drawing parallels to parametric design in CAD
 
 ## Key Themes
-These papers explore several interconnected themes in AI research:
-1. **Optimization Theory**: Novel approaches to training neural networks that go beyond standard gradient descent
-2. **Meta-Learning**: Systems that learn how to learn, adapting their optimization strategies based on problem structure
-3. **Cognitive Modeling**: Understanding and exploiting the biases and patterns in AI reasoning
-4. **Automated Design**: Using evolutionary approaches to discover optimal configurations
-5. **Dynamical Systems**: Understanding AI behavior through chaos theory and nonlinear dynamics
-6. **Information Theory**: Connections between compression, noise, and robust learning
-* **QQN**: Theoretical framework with implementation guidelines
-* **RSO**: Detailed algorithm with pseudocode
-* **Trust Regions**: Mathematical framework ready for implementation
-* **AI Bias**: Empirical analysis with reproducible examples
-* **PromptOptimization**: Complete implementation framework
-*These papers represent explorations at the intersection of optimization theory, cognitive science, and practical AI engineering.*
-
 The papers in this collection explore several interconnected themes:
 
 1. **Optimization Innovation**: Novel approaches to improving gradient-based optimization through architectural

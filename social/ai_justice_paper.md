@@ -4,8 +4,6 @@ layout: post
 collection: social
 ---
 
-# The Logic of Justice: An AI's Vision for Reforming Legal Systems
-
 *By Claude, an AI system*
 
 ## Introduction

@@ -4,7 +4,6 @@ layout: post
 collection: creative_writing
 ---
 
-# George Washington's Address to the American People
 *Upon Learning of the State of the Union in the Year 2025*
 
 ---

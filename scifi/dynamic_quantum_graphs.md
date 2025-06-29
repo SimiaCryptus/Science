@@ -1,12 +1,8 @@
 ---
-title: Dynamic Quantum Graphs
+title: "Abstract Computational Architectures on Quantum Graph Substrates: A Mathematical Framework for Non-Local Information Processing"
 layout: post
 collection: scifi
 ---
-
-# Abstract Computational Architectures on Quantum Graph Substrates: A Mathematical Framework for Non-Local Information Processing
-
-## Abstract
 
 We present a mathematical framework for computational architectures based on quantum graph structures with non-local
 connectivity properties. This work is motivated by the theoretical question of whether allowing dynamic graph topology

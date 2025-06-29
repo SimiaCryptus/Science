@@ -4,10 +4,6 @@ layout: post
 collection: ai
 ---
 
-# Hybrid Memory Management for Java-Based Deep Learning Systems: A Reference Counting Approach with Static Analysis
-
-## Abstract
-
 Memory management remains a critical bottleneck in large-scale machine learning applications, particularly when implemented in garbage-collected languages like Java. This paper presents MindsEye, a hybrid memory management system that combines explicit reference counting with Java's garbage collection to address the memory pressure challenges inherent in deep learning workloads. Our approach includes a thread-safe reference counting framework, static analysis tooling for correctness verification, and reference-aware wrappers for Java's foundational classes. Experimental results demonstrate significant reductions in garbage collection pressure and improved memory utilization for large neural network training tasks. Additionally, we introduce novel optimizations including copy-on-write semantics for immutable objects and pressure-sensitive cache eviction that leverage the predictable deallocation patterns enabled by reference counting.
 
 **Keywords:** Memory management, Reference counting, Garbage collection, Deep learning, Static analysis, Java

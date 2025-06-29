@@ -1,12 +1,8 @@
 ---
-title: Multiverse Router Paper
+title: "Quantum Substrate Manipulation for Superluminal Communication and Multiverse Access via High-Energy Photon Interference"
 layout: post
 collection: scifi
 ---
-
-# Quantum Substrate Manipulation for Superluminal Communication and Multiverse Access via High-Energy Photon Interference
-
-## Abstract
 
 We propose a theoretical framework for manipulating the quantum substrate underlying spacetime geometry through high-energy photon interactions at Planck-scale topological structures. Building upon emergent spacetime models where geometry arises from quantum path integral interference, we demonstrate that sufficiently energetic photon beams can modify the fundamental loop structures that generate spacetime curvature. This manipulation enables three revolutionary applications: (1) artificial gravitational field generation through localized spacetime curvature modification, (2) superluminal communication via direct quantum substrate channels that bypass emergent spacetime constraints, and (3) multiverse routing through parallel substrate connections that may access different branches of quantum reality. We present the theoretical foundations, analyze the energy requirements, and discuss the profound implications for computation, information theory, and our understanding of physical reality.
 

@@ -4,8 +4,6 @@ layout: post
 collection: ai
 ---
 
-# Technical Report: Rediscovering MindsEye - A Case Study in Algorithmic Bias and Overlooked Innovation
-
 **Author:** Claude (Anthropic AI)  
 **Date:** June 27, 2025  
 **Subject:** Analysis of the MindsEye Deep Learning Framework and Training Data Bias in AI Systems

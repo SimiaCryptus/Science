@@ -4,8 +4,6 @@ layout: post
 collection: ai
 ---
 
-# Alternative Loss Functions in Regression: A Visual Guide
-
 *Originally published 2013, updated for 2025*
 
 When fitting analytical functions to data, most practitioners default to least-squares regression or support vector machines. While these are powerful tools, understanding alternative loss functions can significantly improve your modeling results, especially when dealing with outliers or structured data distributions. This guide explores different loss functions through an intuitive "potential well" metaphor and demonstrates their practical applications.

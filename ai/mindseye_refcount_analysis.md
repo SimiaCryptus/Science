@@ -4,7 +4,6 @@ layout: post
 collection: ai
 ---
 
-# Reference Counting in MindsEye: A Technical Analysis
 *An examination of unconventional memory management in Java-based machine learning*
 
 ## Abstract

@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Social Sciences
+layout: page
 ---
 
 This repository brings together a collection of research proposals, analytical essays, and technical specifications focused on understanding complex social, economic, and institutional phenomena. Using tools from game theory, agent-based modeling, and computational social science, these documents explore how collective behaviors emerge, how institutions evolve and sometimes decay, and how incentive structures shape societal outcomes.

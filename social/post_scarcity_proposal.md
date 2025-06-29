@@ -1,12 +1,8 @@
 ---
-title: Post Scarcity Proposal
+title: "Computational Modeling of Post-Scarcity Economic Equilibr
 layout: post
 collection: social
 ---
-
-# Computational Modeling of Post-Scarcity Economic Equilibria: Constraints, Transitions, and Institutional Evolution
-
-## Abstract
 
 As automation and artificial intelligence approach the potential for material post-scarcity, existing economic theory provides limited guidance for understanding the resulting equilibrium conditions and transition dynamics. This proposal outlines a comprehensive computational modeling framework to analyze post-scarcity economic systems, focusing on persistent constraints, emergent equilibria, and the evolutionary dynamics of institutional arrangements. Through agent-based modeling, game-theoretic analysis, and evolutionary algorithms, we aim to identify stable configurations for post-material-scarcity societies and the conditions under which they emerge.
 

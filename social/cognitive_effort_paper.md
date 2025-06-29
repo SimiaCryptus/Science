@@ -1,12 +1,8 @@
 ---
-title: Cognitive Effort Paper
+title: "The Game Theory of Cognitive Effort: Technology, Time, and Social Outcomes"
 layout: post
 collection: social
 ---
-
-# The Game Theory of Cognitive Effort: Technology, Time, and Social Outcomes
-
-## Abstract
 
 This paper examines the strategic dynamics underlying individual decisions to engage in cognitive effort, with particular attention to how technology mediates these choices and their collective consequences. We develop a formal model incorporating temporal discount rates, switching costs, and technological substitution/complementarity effects to explain why individuals may rationally choose cognitive shortcuts despite long-term personal and social costs. Our analysis reveals that technological innovations, while potentially cognitive-enhancing, often create equilibria favoring cognitive offloading due to misaligned incentive structures.
 

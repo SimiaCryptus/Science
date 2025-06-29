@@ -4,10 +4,6 @@ layout: post
 collection: ai
 ---
 
-# Two Novel Optimization Methods for Deep Neural Networks: Recursive Subspace Optimization and Quadratic Quasi-Newton
-
-## Abstract
-
 We present two novel optimization algorithms for training deep neural networks that address fundamental challenges in gradient-based learning. Recursive Subspace Optimization (RSO) tackles the layer imbalancing problem by dynamically computing optimal per-layer learning rates through nested optimization, eliminating the need for architectural normalization layers. Quadratic Quasi-Newton (QQN) combines the robustness of stochastic gradient descent with the convergence properties of quasi-Newton methods by defining a quadratic path for line search that smoothly interpolates between steepest descent and second-order predictions. Experimental results on MNIST using 3-layer convolutional networks demonstrate significant improvements over standard L-BFGS optimization, with benefits observed across both normalized and non-normalized network architectures.
 
 **Keywords:** optimization, deep learning, quasi-Newton methods, gradient descent, neural networks

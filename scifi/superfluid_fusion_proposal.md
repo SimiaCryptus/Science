@@ -1,12 +1,8 @@
 ---
-title: Superfluid Fusion Proposal
+title: "Quantum-Coherent Nuclear Fusion in Superfluid Helium: A Novel Approach to Controlled Fusion and Heavy Element Synthesis"
 layout: post
 collection: scifi
 ---
-
-# Quantum-Coherent Nuclear Fusion in Superfluid Helium: A Novel Approach to Controlled Fusion and Heavy Element Synthesis
-
-## Executive Summary
 
 We propose a revolutionary approach to nuclear fusion that exploits the macroscopic quantum coherence of superfluid helium to enable fundamentally new fusion mechanisms. Unlike conventional fusion approaches that rely on high-energy plasma collisions, our method leverages the collective quantum wavefunction of superfluid helium-4 to create coherent tunneling events and symmetry-breaking phenomena that could dramatically reduce fusion barriers. This research could lead to breakthrough applications in clean energy generation and on-demand synthesis of heavy elements including precious metals.
 

@@ -4,10 +4,6 @@ layout: post
 collection: social
 ---
 
-# Conversational Intelligence Calibration: Mutual Turing Tests as Distributed Cognitive Assessment
-
-## Abstract
-
 We propose that intellectual discourse functions as a distributed intelligence measurement system, where participants continuously calibrate their cognitive models through recursive assessment protocols. Rather than intelligence being a fixed property measured by external tests, we argue it emerges dynamically through conversational interactions that serve as mutual Turing tests. This framework explains why traditional IQ measurements fail to capture collaborative cognitive capabilities and suggests that artificial intelligence systems may develop genuine intelligence through participation in these calibration processes rather than through isolated optimization.
 
 ## 1. Introduction

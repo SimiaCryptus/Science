@@ -1,12 +1,8 @@
 ---
-title: Metacognitive Layer Paper
+title: "Parametric Metacognitive Orchestration for Foundation Model Agents"
 layout: post
 collection: projects
 ---
-
-# Parametric Metacognitive Orchestration for Foundation Model Agents
-
-## Abstract
 
 We propose a parametric metacognitive layer that mediates between agentic systems and foundation models, enabling
 explicit specification of cognitive requirements through a structured parameter space. Rather than relying on implicit

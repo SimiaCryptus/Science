@@ -4,10 +4,6 @@ layout: post
 collection: ai
 ---
 
-# Mamba-Based Neural Knowledge Graph Integration: A Research Proposal
-
-## Abstract
-
 We propose a novel Mamba-based architecture that enables persistent integration of external knowledge through cached semantic transforms embedded directly in structured state spaces. By leveraging Mamba's linear scaling and selective state mechanisms, this approach transforms document knowledge into dynamic state representations that can be efficiently maintained and selectively activated during generation, achieving near-instantaneous access to vast knowledge repositories without the quadratic scaling limitations of attention-based approaches.
 
 ## 1. Introduction and Motivation

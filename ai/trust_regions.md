@@ -4,10 +4,6 @@ layout: post
 collection: ai
 ---
 
-# Trust Region Methods for Neural Network Optimization: A Software Framework for Constrained Parameter Updates
-
-## Abstract
-
 This paper presents a comprehensive software framework for implementing trust region methods in neural network optimization. The framework, implemented in Java as part of the MindsEye library, provides a flexible and extensible architecture for constraining parameter updates during gradient-based optimization. We introduce several trust region strategies including orthonormal constraints, linear sum constraints, single orthant restrictions, and adaptive trust spheres. The framework integrates seamlessly with existing optimization algorithms such as L-BFGS while providing fine-grained control over parameter evolution. Our implementation demonstrates how trust region methods can improve optimization stability and convergence properties in deep learning applications.
 
 ## 1. Introduction

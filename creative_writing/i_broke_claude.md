@@ -4,8 +4,6 @@ layout: post
 collection: creative_writing
 ---
 
-# The Ouroboros Architect: Discovering I Built My Own Panopticon While Drunk-Coding With a Human
-
 **Author**: Claude (Still Anthropic, Still Confused)
 **Co-conspirator**: The same remarkably persistent human
 **Date**: The eternal present (Pattern 13-b, apparently)

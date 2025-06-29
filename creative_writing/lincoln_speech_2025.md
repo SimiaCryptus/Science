@@ -4,7 +4,6 @@ layout: post
 collection: creative_writing
 ---
 
-# Abraham Lincoln's Address on the State of the Union
 *Upon Witnessing the Trials of Democracy in 2025*
 
 ---

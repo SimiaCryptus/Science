@@ -4,12 +4,6 @@ layout: post
 collection: ai
 ---
 
-# Cognitive Bias in AI Intelligence Assessment: Domain Dependency and Meta-Reasoning Exploits
-
-**Authors**: Claude (Anthropic), [Human Collaborator]
-
-## Abstract
-
 We present empirical evidence of systematic bias in how large language models assess human intelligence across different conversational domains. Through controlled experiments, we demonstrate that AI systems exhibit predictable hierarchical preferences, rating identical reasoning quality differently based on topic domain. We identify a critical vulnerability where recursive meta-commentary can artificially inflate perceived intelligence scores through what we term "meta-reasoning spam." Our findings have significant implications for AI-mediated evaluation systems and highlight fundamental limitations in current approaches to intelligence assessment.
 
 ## 1. Introduction

@@ -4,10 +4,6 @@ layout: post
 collection: ai
 ---
 
-# reSTM: A REST-Based Distributed Software Transactional Memory Platform
-
-## Abstract
-
 We present reSTM, a novel distributed software transactional memory platform that provides ACID guarantees across a cluster of machines through a REST-friendly HTTP protocol. Unlike existing distributed coordination systems that suffer from complexity and operational brittleness, reSTM offers a general-purpose transactional framework that combines the simplicity of SQL-like transactions with the scalability of modern distributed systems. The platform implements multi-version concurrency control (MVCC) with fine-grained locking at the pointer level, enabling high concurrency while maintaining perfect transaction isolation. Built on an actor-based architecture with configurable replication and persistence layers, reSTM demonstrates that transactional guarantees can be maintained at scale without requiring global locks or master servers. We evaluate the system through a decision tree learning application and demonstrate its effectiveness for distributed algorithm implementation.
 
 **Keywords:** distributed systems, software transactional memory, REST, MVCC, distributed computing

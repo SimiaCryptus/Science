@@ -4,10 +4,6 @@ layout: post
 collection: ai
 ---
 
-# Scalable Implementation of 2D Convolution Layers in Differentiable Neural Networks: A Multi-Tiered Approach with Dynamic Partitioning
-
-## Abstract
-
 This paper presents a comprehensive methodology for implementing scalable 2D convolution layers in the MindsEye neural network framework. We address the fundamental challenge of processing large-scale inputs that exceed GPU memory constraints through a novel multi-tiered implementation strategy. Our approach combines reference implementations for validation, optimized native library integration, and dynamic partitioning algorithms that enable processing of arbitrarily large inputs. The proposed system demonstrates successful scaling from standard inputs to 1024×1024 images with 1024-band convolutions through intelligent tile-based decomposition, achieving approximately 4096 elemental operations distributed across heterogeneous GPU architectures.
 
 **Keywords:** deep learning, convolution layers, GPU acceleration, scalability, partitioning algorithms

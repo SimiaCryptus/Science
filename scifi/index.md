@@ -1,6 +1,6 @@
 ---
-layout: page
 title: SciFi Concepts
+layout: page
 ---
 
 This repository hosts a collection of documents and research papers that delve into pioneering concepts at the confluence of theoretical physics, quantum computation, and speculative scientific proposals. The works explore novel computational models, probe fundamental questions about the nature of spacetime and reality, and propose innovative approaches to complex physical phenomena and their potential applications.

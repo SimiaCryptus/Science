@@ -4,10 +4,6 @@ layout: post
 collection: ai
 ---
 
-# Co-Inverse Permutation Modifiers for Neural Networks: Exploiting Weight Symmetries for Post-Training Optimization
-
-## Abstract
-
 Neural networks exhibit inherent permutation symmetries where functionally equivalent representations can be obtained through systematic reordering of neurons and their associated weights. We propose Co-Inverse Permutation Modifiers (CIPMs), a framework that exploits these symmetries for post-training model optimization, including structured pruning, parameter partitioning, and correlation-driven reorganization. Our approach introduces a trainable meta-analysis layer that learns to identify optimal permutation policies based on cross-correlations between network components, enabling principled model compression and improved interpretability without retraining the base network.
 
 ## 1. Introduction

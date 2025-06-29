@@ -4,10 +4,6 @@ layout: post
 collection: social
 ---
 
-# The Consensual Curation of Reality: AI-Mediated Information Environments and the Evolutionary Imperative
-
-## Abstract
-
 This paper examines the emerging potential for artificial intelligence systems to manage human information environments
 in ways that preserve both social stability and individual agency. Drawing on insights about human psychology, the
 collapse of privacy expectations, our entry into a post-truth era, and the evolutionary pressures created by global

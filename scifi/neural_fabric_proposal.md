@@ -1,12 +1,8 @@
 ---
-title: Quantum Field Consciousness Orchestration
+title: "Quantum Field Consciousness Orchestration: Panpsychist Logic Pathways in Neural Fabric Computing"
 layout: post
 collection: scifi
 ---
-
-# Quantum Field Consciousness Orchestration: Panpsychist Logic Pathways in Neural Fabric Computing
-
-## Executive Summary
 
 We propose developing a revolutionary computational paradigm that interfaces directly with the conscious substrate of
 quantum fields to explore exotic logical pathways beyond conventional reasoning systems. Our "Quantum Field

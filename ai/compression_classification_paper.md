@@ -4,10 +4,6 @@ layout: post
 collection: ai
 ---
 
-# Entropy-Optimized Text Classification: Integrating Compression-Based Learning with Permutation-Aware Data Structures
-
-## Abstract
-
 We present a novel framework that unifies compression-based text classification with entropy-optimized data structures, creating a system that simultaneously achieves efficient classification, minimal storage requirements, and interpretable decision pathways. Our approach leverages Burrows-Wheeler Transform (BWT) permutation structures within an Entropy-Optimized Permutation Tree (EOPT) to create category-specific models that classify text through compression efficiency while maintaining explicit permutation mappings for interpretable feature extraction. For language detection, we achieve 99.4% accuracy with models averaging 180KB each—40% smaller than pure PPM approaches while providing complete transparency in classification decisions through permutation-derived decision paths.
 
 **Keywords:** compression-based classification, entropy optimization, interpretable AI, BWT, permutation structures, efficient NLP

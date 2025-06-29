@@ -4,10 +4,6 @@ layout: post
 collection: ai
 ---
 
-# Empirical Measurement of Recursive Processing Limits in Large Language Models Using Self-Referential Text Corpora
-
-## Abstract
-
 We present the first systematic study of performance degradation in Large Language Models (LLMs) when processing
 self-referential and meta-cognitive content. Through analysis of task completion rates across texts with varying levels
 of recursive self-reference, we demonstrate that LLM performance degrades predictably as a function of meta-cognitive

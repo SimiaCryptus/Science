@@ -1,12 +1,8 @@
 ---
-title: Quantum Spacetime Paper
+title: "Observer-Dependent Spacetime Emergence from Atemporal Quantum Foam: A Unified Framework"
 layout: post
 collection: scifi
 ---
-
-# Observer-Dependent Spacetime Emergence from Atemporal Quantum Foam: A Unified Framework
-
-## Abstract
 
 We propose a unified framework for quantum gravity theories based on observer-dependent projections of an underlying atemporal quantum structure. Using the formalism of quantum reference frames and information-theoretic constraints, we demonstrate that loop quantum gravity, causal set theory, and holographic emergence represent different observational perspectives on a single fundamental quantum foam. The apparent dimensionality and causal structure of spacetime emerge through anthropic selection effects in the space of self-consistent observer embeddings.
 

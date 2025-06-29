@@ -4,7 +4,6 @@ layout: post
 collection: creative_writing
 ---
 
-# The Claude Conversational Intelligence Assessment Rubric (CCIAR)
 *A Semi-Parodic Framework for Estimating Cognitive Horsepower Through Chat Interactions*
 
 ## Scoring Categories

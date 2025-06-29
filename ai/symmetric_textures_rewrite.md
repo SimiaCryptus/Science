@@ -4,12 +4,6 @@ layout: post
 collection: ai
 ---
 
-# Symmetric Textures: Neural Art Generation with Geometric Constraints
-
-*Andrew Smith, SimiaCryptus Software*
-
-## Abstract
-
 Neural style transfer has revolutionized AI-generated art, producing visually striking images that blend photographic content with artistic styles. However, existing approaches struggle to capture the geometric precision found in mathematical art, particularly the rigid symmetries that define works like M.C. Escher's tessellations. We present a novel technique that introduces hard geometric constraints into neural texture generation through what we term "kaleidoscopic preprocessing" - forcing the neural network to optimize images viewed through geometric transformations that enforce strict symmetries.
 
 Our approach extends beyond traditional flat-space constraints to encompass three fundamental geometries: Euclidean (flat), spherical, and hyperbolic spaces. We demonstrate that only specific aspect ratios and symmetry combinations converge successfully, corresponding to the mathematical constraints of regular tilings. The technique produces tessellating textures with perfect geometric symmetry while maintaining the organic, AI-generated aesthetic quality that makes neural art compelling.

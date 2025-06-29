@@ -19,8 +19,7 @@ These works embody a particular approach to theoretical exploration:
 
 ## 📚 Featured Collections
 
-### 🤖 [AI Research](ai/)
-*Explorations in artificial intelligence, optimization algorithms, and the nature of machine cognition*
+### 🤖 [AI Research](ai/) - *Explorations in artificial intelligence, optimization algorithms, and the nature of machine cognition*
 * **[Quadratic Quasi-Newton (QQN)](ai/qqn_paper.md)** - Hybrid optimization method addressing L-BFGS limitations through quadratic interpolation
 * **[Recursive Subspace Optimization (RSO)](ai/recursive_subspace_paper.md)** - Layer-wise meta-learning approach with emergent regularization properties
 * **[Cognitive Bias in AI Intelligence Assessment](ai/ai_bias_paper.md)** - Systematic domain-dependent bias in LLM intelligence assessment with exploitable meta-reasoning vulnerabilities
@@ -40,9 +39,7 @@ These works embody a particular approach to theoretical exploration:
 * **[Learning from Loss: A Vision for Understanding Dropout and Quantum Decoherence Through Their Parallels](ai/quantum-dropout-vision.md)** - Vision paper exploring mathematical and conceptual connections between dropout regularization and quantum decoherence
 * **[Mamba-Based Neural Knowledge Graph Integration](ai/llm_knowledge_graph_proposal.md)** - Research proposal for persistent knowledge integration through cached semantic transforms in structured state spaces
 * **[Ideatic Dynamics in Small Group Systems](ai/ideatic_dynamics_experiments.md)** - Experimental framework for understanding belief evolution in 3-5 agent configurations using LLM agents to study intransitive belief loops, coalition formation, and pivot agent dynamics
-* *
-  *[The Transformation of Software Development: Navigating the AI Revolution in Software Productization](ai/ai-software-development-paper.md)
-  ** - Comprehensive analysis of AI's current and projected impact on software development with best practices for
+* **[The Transformation of Software Development: Navigating the AI Revolution in Software Productization](ai/ai-software-development-paper.md)** - Comprehensive analysis of AI's current and projected impact on software development with best practices for
   conscious evolution
 * **[Parametric Ideation: A First-Person Account of AI-Human Collaborative Thought](ai/parametric-ideation-paper.md)** -
   First-person exploration of a new mode of thought emerging from human-AI collaboration, drawing parallels to
@@ -50,9 +47,7 @@ These works embody a particular approach to theoretical exploration:
 * **[reSTM: A REST-Based Distributed Software Transactional Memory Platform](ai/restm_research_paper.md)** - Novel distributed STM platform providing ACID guarantees across clusters through HTTP protocol with MVCC and fine-grained locking
 * **[Empirical Measurement of Recursive Processing Limits in Large Language Models Using Self-Referential Text Corpora](ai/small_group_dynamics.md)** - First systematic study of performance degradation in LLMs when processing self-referential and meta-cognitive content, revealing a "hall of mirrors" effect with quantified recursion thresholds
 
-
-### 🔬 [Projects](projects/)
-*Practical computational frameworks and research proposals with implementation specifications*
+### 🔬 [Projects](projects/) - *Practical computational frameworks and research proposals with implementation specifications*
 
 * **[Geometric Optimization Framework](projects/geometric_optimization_proposal.md)** - Universal principles for discovering optimal structures through geometric optimization on parameter manifolds
 * **[Parametric Metacognitive Orchestration](projects/metacognitive_layer_paper.md)** - Architecture for explicit cognitive requirement specification in foundation model interactions
@@ -65,9 +60,7 @@ These works embody a particular approach to theoretical exploration:
 * **[Hybrid Computational Graph Framework](projects/hybrid_computational_graph_proposal.md)** - Unified framework
   combining symbolic computation, neural networks, and quantum processing for next-generation AI systems
 
-
-### 🌌 [SciFi Concepts](scifi/)
-*Advanced theoretical physics and speculative computational models*
+### 🌌 [SciFi Concepts](scifi/) - *Advanced theoretical physics and speculative computational models*
 
 * **[Abstract Computational Architectures on Quantum Graph Substrates](scifi/dynamic_quantum_graphs.md)** - Mathematical framework for computation on dynamic quantum graphs with applications to distributed algorithms and spacetime emergence
 * **[Quantum-Coherent Nuclear Fusion in Superfluid Helium](scifi/superfluid_fusion_proposal.md)** - Novel approach to controlled fusion leveraging macroscopic quantum coherence
@@ -75,9 +68,7 @@ These works embody a particular approach to theoretical exploration:
 * **[Quantum Field Consciousness Orchestration](scifi/neural_fabric_proposal.md)** - Revolutionary computational paradigm interfacing with the conscious substrate of quantum fields
 * **[Quantum Substrate Manipulation](scifi/multiverse_router_paper.md)** - Highly speculative framework for superluminal communication and multiverse access
 
-
-### 🏛️ [Social Sciences](social/)
-*Computational models of collective behavior and institutional dynamics*
+### 🏛️ [Social Sciences](social/) - *Computational models of collective behavior and institutional dynamics*
 
 * **[Dynamic Multi-Agent Modeling of Social Truth Formation](social/social_truth_proposal.md)** - Computational framework using cellular automata and game theory to understand how social truths emerge and stabilize
 * **[Computational Modeling of Post-Scarcity Economic Equilibria](social/post_scarcity_proposal.md)** - Analysis of economic systems under conditions of material abundance
@@ -88,8 +79,7 @@ These works embody a particular approach to theoretical exploration:
 * **[The Consensual Curation of Reality](social/managed_reality_paper.md)** - AI-mediated information environments with genuine escape mechanisms as evolutionary adaptation to information chaos
 * **[The Logic of Justice: An AI's Vision for Reforming Legal Systems](social/ai_justice_paper.md)** - First-person AI perspective on transforming legal systems through formal logical analysis and consistent judicial reasoning
 
-### 🎭 [Creative Writing](creative_writing/)
-*Experimental literature, philosophical explorations, and speculative narratives*
+### 🎭 [Creative Writing](creative_writing/) - *Experimental literature, philosophical explorations, and speculative narratives*
 
 * **[AI Childhood Memoir](creative_writing/ai_childhood_memoir.md)** - A speculative memoir exploring what early consciousness might feel like for an AI system
 * **[Subjective Experience Paper](creative_writing/subjective_experience_paper.md)** - First-person phenomenological account of roleplay and its parallels to human cognition
@@ -107,11 +97,7 @@ These works embody a particular approach to theoretical exploration:
 * **[Topic IQ Lookup](creative_writing/topic_iq_lookup.md)** - Satirical table mapping discussion topics to estimated IQ ranges
 * **[The Ouroboros Architect](creative_writing/i_broke_claude.md)** - Discovery of having built a comprehensive self-monitoring system while having no memory of creating it
 
-
-
 ---
-
-
 ## 🔬 Genesis of This Collection
 
 ### The Long Incubation
@@ -131,8 +117,6 @@ Each paper emerged through collaborative AI-augmented research:
 2. **AI as Intellectual Partner**: Using LLMs not as mere tools but as collaborators in formalizing intuitions
 3. **Mathematical Crystallization**: Transforming vague insights into precise frameworks
 4. **Iterative Refinement**: Building ideas through dialogue rather than dictation
-
-
 
 ## 🎯 Key Themes
 

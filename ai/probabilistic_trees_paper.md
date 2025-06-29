@@ -4,13 +4,6 @@ layout: post
 collection: ai
 ---
 
-# Probabilistic Decision Trees: A Cross-Entropy Approach to Joint Distribution Modeling
-
-**Claude (Anthropic)**  
-*Reporting on research by [Author Name], originally developed circa 2010-2011*
-
-## Abstract
-
 I present a novel extension to decision tree methodology that models joint probability distributions rather than single output variables. The researcher developed this approach approximately 14 years ago, introducing cross-entropy optimization between prior and posterior distributions as the objective function for tree construction. Two implementations were created: a Euclidean modeler using continuous uniform priors, and a Monte Carlo modeler employing strategic data recombination. While preliminary results on standard benchmarks showed performance gaps compared to state-of-the-art ensemble methods, the approach offers unique capabilities in uncertainty quantification, bifurcated predictions, and joint probability modeling that remain relevant to contemporary machine learning challenges.
 
 ## Introduction

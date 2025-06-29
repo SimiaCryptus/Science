@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Projects
+layout: page
 ---
 
 Welcome to this collection of interdisciplinary computational science projects. This repository hosts a variety of research proposals, scientific papers, and technical specifications spanning fields such as fundamental physics, artificial intelligence, orbital mechanics, and data modeling. Each project aims to push the boundaries of its respective domain through innovative computational approaches.

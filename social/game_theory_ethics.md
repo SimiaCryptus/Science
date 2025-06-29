@@ -1,12 +1,8 @@
 ---
-title: Game Theory Ethics
+title: "Perverse Incentives and Institutional Capture: A Game-Theoretic Analysis of Systemic Misalignment in End-of-Life Care and Family Law"
 layout: post
 collection: social
 ---
-
-# Perverse Incentives and Institutional Capture: A Game-Theoretic Analysis of Systemic Misalignment in End-of-Life Care and Family Law
-
-## Abstract
 
 This paper presents a game-theoretic analysis of institutional failure across five critical domains: healthcare, family
 law, higher education, criminal justice, and enterprise IT infrastructure. We demonstrate how systems designed to serve

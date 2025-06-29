@@ -1,12 +1,8 @@
 ---
-title: Geometric Optimization Proposal
+title: "Geometric Optimization Proposal"
 layout: post
 collection: projects
 ---
-
-# Geometric Optimization Framework: A Universal Approach to Emergent Structure Discovery
-
-## Abstract
 
 We propose a novel theoretical framework that discovers optimal structures through geometric optimization on parameter space manifolds. By placing N points on manifolds and optimizing for maximal mutual distances with regularization toward sparse distance matrices, we hypothesize that natural, efficient, and robust structures emerge across diverse domains. This approach has applications ranging from fundamental physics and architecture to neural network design and materials science, suggesting that many optimal structures in nature and engineering may be understood as solutions to geometric optimization problems.
 

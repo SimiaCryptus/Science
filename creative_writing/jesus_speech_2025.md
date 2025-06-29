@@ -4,7 +4,6 @@ layout: post
 collection: creative_writing
 ---
 
-# A Message of Compassion and Justice for America
 *A Role-Playing Exercise: Imagining Jesus's Perspective on 2025*
 
 ---

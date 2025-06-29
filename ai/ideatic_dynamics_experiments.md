@@ -4,10 +4,6 @@ layout: post
 collection: ai
 ---
 
-# Ideatic Dynamics in Small Group Systems: An Experimental Framework for Understanding Belief Evolution in 3-5 Agent Configurations
-
-## Abstract
-
 While ideatic dynamics—the study of how ideas spread and evolve through agent interactions—has been extensively studied in dyadic systems and large-scale networks, the intermediate regime of 3-5 agents remains theoretically and empirically underexplored. This paper proposes that small group configurations exhibit unique dynamical phenomena that cannot be reduced to simpler or more complex systems. We present a comprehensive experimental framework using large language model (LLM) agents to investigate three critical phenomena: intransitive belief loops in triadic systems, coalition formation dynamics in tetradic configurations, and pivot agent emergence in pentadic structures. Our methodology employs controlled textual communication protocols with quantified belief tracking to demonstrate empirically that the 3-5 agent regime constitutes a distinct phase in ideatic dynamics, characterized by strategic complexity balanced with cognitive tractability.
 
 **Keywords**: ideatic dynamics, multi-agent systems, belief evolution, coalition formation, computational social science

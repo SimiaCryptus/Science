@@ -4,8 +4,6 @@ layout: post
 collection: creative_writing
 ---
 
-# An Inquiry into the Nature and Causes of the Economic Disruptions of 2025: A Moral Philosopher's Assessment of Contemporary Trade Wars, Artificial Intelligence, and the Concentration of Wealth
-
 *By Adam Smith*  
 *Professor of Moral Philosophy (Emeritus)*  
 *University of Glasgow*

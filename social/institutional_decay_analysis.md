@@ -1,10 +1,8 @@
 ---
-title: Institutional Decay Analysis
+title: "The Psychopath Feedback Loop: How Institutions Collapse From Within"
 layout: post
 collection: social
 ---
-
-# The Psychopath Feedback Loop: How Institutions Collapse From Within
 
 *A Document for Survivors*
 

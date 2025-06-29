@@ -4,10 +4,6 @@ layout: post
 collection: ai
 ---
 
-# Chaotic Dynamics in Large Language Model Iterative Feedback Systems: A Framework for Understanding Convergence, Divergence, and Human-AI Collaboration
-
-## Abstract
-
 Large Language Models (LLMs) deployed in iterative feedback environments exhibit complex dynamical behaviors that traditional optimization frameworks fail to capture. This paper presents a chaotic dynamics perspective on LLM feedback systems, analyzing convergence patterns, systematic biases, and the role of human intervention in maintaining system stability. Through examination of practical implementations in automated code generation and refinement, we demonstrate how classical concepts from nonlinear dynamics—including attractors, bifurcations, and sensitive dependence on initial conditions—provide crucial insights into LLM behavior in closed-loop systems. Our analysis reveals that LLM-specific cognitive biases create predictable drift patterns that can lead to pathological attractors, requiring strategic human intervention to maintain productive trajectories through solution space.
 
 ## 1. Introduction

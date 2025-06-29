@@ -4,10 +4,6 @@ layout: post
 collection: ai
 ---
 
-# Recursive Subspace Optimization: A Layer-Wise Meta-Learning Approach for Deep Networks
-
-## Abstract
-
 We present Recursive Subspace Optimization (RSO), a novel optimization algorithm that improves deep neural network training by decomposing gradients into layer-wise components and using meta-optimization to find optimal combinations. Unlike traditional optimizers that treat gradients as monolithic vectors, RSO leverages the hierarchical structure of neural networks to dynamically balance updates across layers. Through extensive experiments, we demonstrate that RSO achieves 60-75% reduction in gradient variance, 2-3% improvement in test accuracy, and exhibits an emergent regularization mechanism that automatically prevents layer-wise overfitting. The method adds only 5-10% computational overhead while providing superior numerical stability for very deep networks.
 
 ## 1. Introduction

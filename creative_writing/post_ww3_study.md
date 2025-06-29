@@ -4,11 +4,6 @@ layout: post
 collection: creative_writing
 ---
 
-# The New Hierarchy: A Cultural Study of Post-WW3 Social Stratification
-*Dr. Elena Vasquez-Chen, Institute for Transitional Anthropology, New Singapore, 2157*
-
-## Abstract
-
 This study examines the emergent social structure that crystallized following the Third World War (2025-2031) and the subsequent Great Integration period (2032-2067). Through ethnographic observation, archived neural-pattern analysis, and cross-class interviews, we document the formation of a seven-tier social hierarchy based on degrees of human-AI integration and resource access. This stratification emerged directly from the collapse of the liberal democratic order during the brief but catastrophic global conflict that began with the Israel-Iran nuclear exchanges of June 2025.
 
 ## Historical Context

@@ -1,12 +1,8 @@
 ---
-title: Social Truth Proposal
+title: "Dynamic Multi-Agent Modeling of Social Truth Formation: A Spatially-Embedded Game-Theoretic Approach"
 layout: post
 collection: social
 ---
-
-# Dynamic Multi-Agent Modeling of Social Truth Formation: A Spatially-Embedded Game-Theoretic Approach
-
-## Abstract
 
 We propose a novel computational framework for understanding how social truths emerge, propagate, and stabilize through collective agent interactions. Our model combines cellular automaton spatial dynamics with game-theoretic belief transitions to create a unified theory of social epistemology. Agents exist as cells on a grid, each representing belief states within a formal state machine, where transitions between beliefs are governed by strategic interactions with spatial neighbors. This approach enables investigation of fundamental questions about opinion polarization, consensus formation, information cascade dynamics, and the structural conditions that determine which beliefs become socially accepted as "truth."
 

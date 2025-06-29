@@ -1,12 +1,8 @@
 ---
-title: Volumetric Density Tree Proposal
+title: "Volumetric Density Trees with Polynomial Constraints: A Novel Approach to High-Dimensional Density Modeling"
 layout: post
 collection: projects
 ---
-
-# Volumetric Density Trees with Polynomial Constraints: A Novel Approach to High-Dimensional Density Modeling
-
-## Abstract
 
 We propose a novel method for modeling probability distributions in low-dimensional spaces (2-4D) using volumetric
 density trees that support quadratic polynomial constraints. Our approach addresses the fundamental challenge of

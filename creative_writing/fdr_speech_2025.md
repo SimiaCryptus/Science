@@ -4,7 +4,6 @@ layout: post
 collection: creative_writing
 ---
 
-# Franklin D. Roosevelt's Address to the American People
 *Upon Witnessing the Dismantling of the New Deal Legacy in 2025*
 
 ---

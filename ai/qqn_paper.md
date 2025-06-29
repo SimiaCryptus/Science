@@ -4,10 +4,6 @@ layout: post
 collection: ai
 ---
 
-# Quadratic Quasi-Newton (QQN): A Hybrid Optimization Method with Normalized Line Search
-
-## Abstract
-
 We present Quadratic Quasi-Newton (QQN), a novel optimization algorithm that hybridizes L-BFGS with gradient descent through quadratic interpolation. QQN addresses the practical limitations of L-BFGS by detecting when the quasi-Newton approximation may be unreliable and smoothly blending it with the guaranteed descent direction of the gradient. A key innovation is the magnitude-based normalization scheme that stabilizes line search parameters across iterations. Empirical evaluation on neural network training demonstrates improved convergence stability compared to standard L-BFGS.
 
 ## 1. Introduction

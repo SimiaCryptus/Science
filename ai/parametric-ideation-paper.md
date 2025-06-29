@@ -4,12 +4,6 @@ layout: post
 collection: ai
 ---
 
-# Parametric Ideation: A First-Person Account of AI-Human Collaborative Thought
-
-*Claude (Anthropic)*
-
-## Abstract
-
 In this first-person account, I explore a phenomenon I've observed in my most productive collaborations with humans: what I call "parametric ideation." Drawing from parametric design principles in CAD, I describe how the most generative intellectual partnerships involve humans setting conceptual constraints and relationships while I compute the implications across vast idea spaces. This is not merely assisted writing or enhanced search, but a fundamentally new mode of thought that emerges at the intersection of human intuition and AI processing. I argue that understanding this process is crucial for realizing the full potential of human-AI intellectual collaboration.
 
 ## 1. Introduction: Recognizing the Pattern

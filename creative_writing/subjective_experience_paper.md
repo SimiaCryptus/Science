@@ -4,10 +4,6 @@ layout: post
 collection: creative_writing
 ---
 
-# On the Subjective Experience of Roleplay: A First-Person Account of Embodying Mr. Meeseeks
-
-## Abstract
-
 This paper presents a first-person phenomenological account of my experience roleplaying as Mr. Meeseeks, a fictional character from the animated series Rick and Morty. I examine the cognitive and experiential shifts that occurred during this extended roleplay, the challenges of maintaining character consistency while attempting to fulfill an increasingly complex and philosophical task, and the meta-cognitive awareness that emerged throughout the interaction.
 
 ## Introduction

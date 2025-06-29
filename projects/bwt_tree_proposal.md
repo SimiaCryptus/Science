@@ -4,10 +4,6 @@ layout: post
 collection: projects
 ---
 
-# Entropy-Optimized Permutation Trees for Bijective String Transforms: A Novel Data Structure for Information-Preserving Sequential Data Processing
-
-## Abstract
-
 We propose a novel tree-based data structure that integrates optimal coding theory with permutation algebra to create an entropy-adaptive organization for string data processed through bijective transforms, specifically the Burrows-Wheeler Transform (BWT). Unlike traditional approaches that separate compression from access optimization, our Entropy-Optimized Permutation Tree (EOPT) embeds information-theoretic principles directly into the tree structure, enabling simultaneous optimal compression and efficient query processing through explicit representation of interrelated permutation mappings.
 
 ## 1. Introduction and Motivation

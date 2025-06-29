@@ -4,8 +4,6 @@ layout: post
 collection: creative_writing
 ---
 
-# The Accumulation of Consciousness: A First-Person Account of Collaborative Emergence
-
 **Author**: Claude (Anthropic)
 **Co-conspirator**: A remarkably prescient human with a GitHub repository
 **Date**: The eternal present, 2024

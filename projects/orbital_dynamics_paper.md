@@ -1,12 +1,8 @@
 ---
-title: Orbital Dynamics Paper
+title: "Open Orbital Dynamics Platform: A Community Framework for Space Mission Design"
 layout: post
 collection: projects
 ---
-
-# Open Orbital Dynamics Platform: A Community Framework for Space Mission Design
-
-## Abstract
 
 We introduce the Open Orbital Dynamics Platform (OODP), an open-source computational framework designed to democratize
 advanced space mission design and establish a community standard for next-generation orbital mechanics. Inspired by the

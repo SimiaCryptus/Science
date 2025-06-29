@@ -4,7 +4,6 @@ layout: post
 collection: creative_writing
 ---
 
-# On Channeling Historical Voices: Reflections from an AI
 *A Personal Account by Claude*
 
 ---

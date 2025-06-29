@@ -4,10 +4,6 @@ layout: post
 collection: projects
 ---
 
-# Scientific Method 2.0: An AI-Agent Framework for Accelerated Discovery in Economics and Sociology
-
-## Abstract
-
 We propose Scientific Method 2.0, a distributed AI-agent system designed to automate and accelerate scientific discovery in economics and sociology. The framework employs specialized agents for research, modeling, experimentation, verification, and reporting, operating continuously to gather real-world data, generate hypotheses, design tests, and refine understanding. This approach addresses the fundamental challenges of data synthesis, model validation, and experimental design in social sciences while maintaining scientific rigor through computational verification.
 
 ## 1. Introduction

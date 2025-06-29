@@ -4,10 +4,6 @@ layout: post
 collection: ai
 ---
 
-# PromptOptimization: A Genetic Algorithm Framework for Automated Prompt Engineering in Large Language Models
-
-## Abstract
-
 We present PromptOptimization, a novel software framework that applies genetic algorithms to automatically optimize prompts for Large Language Models (LLMs). The framework addresses the challenge of prompt engineering by evolving system prompts through mutation and recombination operations, evaluated against user-defined test cases and expectations. Our implementation provides a flexible, extensible architecture supporting multiple distance metrics for embedding-based similarity calculations and customizable mutation strategies. The framework integrates with OpenAI's API and supports various chat model types, making it suitable for both research and practical applications in prompt optimization.
 
 ## 1. Introduction

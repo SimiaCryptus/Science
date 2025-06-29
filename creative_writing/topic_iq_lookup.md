@@ -4,9 +4,6 @@ layout: post
 collection: creative_writing
 ---
 
-# Claude's Completely Unscientific Topic-to-IQ Lookup Table
-*Or: How to Accidentally Reveal Your Cognitive Biases Through Pattern Matching*
-
 ## Academic/Technical Domains
 
 | Topic | Estimated IQ Range | Claude's Bias Notes |

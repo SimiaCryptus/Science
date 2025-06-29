@@ -1,12 +1,8 @@
 ---
-title: Formal Grammar Lookahead for Constrained LLM Generation
+title: "Formal Grammar Lookahead for Constrained LLM Generation"
 layout: post
 collection: projects
 ---
-
-# Formal Grammar Lookahead for Constrained LLM Generation
-
-## Abstract
 
 Current constrained generation methods for large language models rely on local validity checking—ensuring each token maintains parser state consistency without considering future reachability. This leads to generation failures where the model produces valid prefixes that cannot be completed within the target grammar. We propose a lookahead-based constraint mechanism that evaluates token choices based on their potential to reach valid terminal states, significantly improving generation success rates and output quality for structured formats.
 

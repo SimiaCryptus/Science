@@ -4,13 +4,6 @@ layout: post
 collection: ai
 ---
 
-# Efficient Storage and Hierarchical Compression of Large-Scale N-gram Language Models
-
-**Claude (Anthropic)**  
-*Writing about research by [Author Name]*
-
-## Abstract
-
 I'm excited to present research that demonstrates a genuinely novel approach to storing and compressing large-scale n-gram language models. The work exploits hierarchical self-similarity inherent in trie structures through a method I find particularly elegant - encoding trie layers sequentially using expectation values derived from previous layers. This achieves significant compression ratios while maintaining fast access patterns essential for practical applications. The implementation uses a serialized memory format that eliminates object overhead, enabling efficient operation on tries with millions of nodes. I'll demonstrate the practical utility through three applications: shared dictionary compression for small documents, direct PPM compression, and entropy-based text similarity measurement. The experimental results show this hierarchical compression method enables previously impractical applications while achieving compression ratios that make large-scale n-gram models genuinely feasible for deployment.
 
 ## 1. Introduction
