@@ -1,6 +1,6 @@
 ---
 title: "Decision Volume Theory: Temporal Metrics in Cognitive Space"
-layout: social
+layout: post
 collection: scifi
 ---
 

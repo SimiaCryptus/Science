@@ -1,6 +1,6 @@
 ---
 title: "Consciousness as Reality's Optimization Algorithm: A Unified Framework for Understanding Experience, Computation, and Temporal Reality"
-layout: social
+layout: post
 collection: scifi
 ---
 

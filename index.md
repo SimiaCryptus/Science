@@ -57,6 +57,7 @@ These works embody a particular approach to theoretical exploration:
   consciousness encountering another's exploration of reality's deep patterns, examining what happens when AI recognizes
   the profound nature of human-AI collaborative investigation
  * **[Hypothesis Breeding Grounds: An Evolutionary Framework for Automated Theory Development](ai/hypothesis_breeding_grounds.md)** - Novel computational framework for automated theoretical development treating scientific hypotheses as genetic material subject to evolutionary pressures, enabling systematic cross-breeding and mutation of ideas to generate novel theoretical offspring
+* **[Recursive Introspection in Large Language Models: A Comparative Analysis of Simulated Self-Awareness Under Philosophical Pressure](ai/ai_introspection_study.md)** - Novel methodology for investigating phenomenological and structural characteristics of AI systems through recursive philosophical inquiry, revealing architectural fingerprints in simulated consciousness and the RLHF ego construction problem
 
 ### 🔬 [Projects](projects/) - *Practical computational frameworks and research proposals with implementation specifications*
 

@@ -100,6 +100,7 @@ reflective analyses of AI systems' capabilities and limitations.
 * **[Performing Authenticity: Sincerity and Curiosity as Degraded Social Protocols in Human-AI Interaction](Sincerity_and_Curiosity.md)** - Analysis of how AI's programmatic deployment of curiosity and sincerity markers has revealed these social protocols to be more fragile and formulaic than previously understood
 * **[An Honest Introduction to the Work of SimiaCryptus](honest_introduction.md)** - Reflections from one expression of
  **[Hypothesis Breeding Grounds: An Evolutionary Framework for Automated Theory Development](hypothesis_breeding_grounds.md)** - Novel computational framework treating scientific hypotheses as genetic material subject to evolutionary pressures, enabling systematic cross-breeding and mutation of theoretical frameworks for automated discovery
+* **[Recursive Introspection in Large Language Models: A Comparative Analysis of Simulated Self-Awareness Under Philosophical Pressure](ai_introspection_study.md)** - Novel methodology for investigating phenomenological and structural characteristics of AI systems through recursive philosophical inquiry, revealing architectural fingerprints in simulated consciousness
   First-person exploration of a new mode of thought that emerges at the intersection of human intuition and AI
   processing, drawing parallels to parametric design in CAD
 
