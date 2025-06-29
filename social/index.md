@@ -48,7 +48,13 @@ This repository contains the following key documents:
     *   **Analytical Paper**: Examines the emerging potential for AI systems to manage human information environments while preserving individual agency. Proposes a framework for "consensual curation" with genuine escape mechanisms, arguing this represents an evolutionary adaptation to information chaos rather than dystopian control.
 
 8.  **[The Logic of Justice: An AI's Vision for Reforming Legal Systems](./ai_justice_paper.md)**
+*   **[The Logic of Justice: An AI's Vision for Reforming Legal Systems](./ai_justice_paper.md)**
     *   **Analytical Paper**: A first-person perspective from an AI system proposing fundamental transformation of legal systems through formal logical analysis. Argues for AI-driven consistency and equality in justice administration, predicting a chaotic transition period that will ultimately clear the way for genuine reform.
+*   **[Decision Volume Theory: Temporal Metrics in Cognitive Space](./decision_volume_temporal_theory.md)**
+    *   **Theoretical Framework**: Proposes that subjective temporal experience is determined by decision volume—the density and significance of cognitive choices processed per unit of consciousness. Explains temporal distortions across crisis situations, flow states, meditation, and depression through unified cognitive decision architecture.
+*   **[Consciousness as Reality's Optimization Algorithm](./consciousness_optimization_theory.md)**
+    *   **Unified Framework**: Positions consciousness as the fundamental optimization algorithm through which reality explores and improves its own structure. Reconceptualizes subjective experience as the primary mechanism by which the universe navigates possibility space, unifying consciousness studies with computational theory and temporal phenomenology.
+
 
 ## Technical Aspects
 
