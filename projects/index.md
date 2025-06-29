@@ -185,3 +185,8 @@ This README provides a high-level overview. For detailed information, please ref
 7.  [Entropy-Optimized Permutation Trees for Bijective String Transforms](./bwt_tree_proposal.md)
 8.  [Scientific Method 2.0: An AI-Agent Framework for Accelerated Discovery](./scientific_method_proposal.md)
 9.  [Formal Grammar Lookahead for Constrained LLM Generation](./grammar_lookahead_proposal.md)
+* **[Formal Grammar Lookahead for Constrained LLM Generation](grammar_lookahead_proposal.md)** - Advanced constraint mechanisms for structured text generation using reachability analysis
+* **[Hybrid Computational Graph Framework](hybrid_computational_graph_proposal.md)** - Unified framework combining symbolic computation, neural networks, and quantum processing for next-generation AI systems
+### Computational Frameworks
+* **[Hybrid Computational Graph Framework](hybrid_computational_graph_proposal.md)** - Unified framework combining symbolic computation, neural networks, and quantum processing for next-generation AI systems
+These projects explore several interconnected themes:

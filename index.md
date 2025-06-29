@@ -39,6 +39,13 @@ These works embody a particular approach to theoretical exploration:
 * **[Alternative Loss Functions in Regression](ai/regression_loss_functions_2025.md)** - Visual guide to potential well metaphors and zero-loss zones for robust regression modeling
 * **[Learning from Loss: A Vision for Understanding Dropout and Quantum Decoherence Through Their Parallels](ai/quantum-dropout-vision.md)** - Vision paper exploring mathematical and conceptual connections between dropout regularization and quantum decoherence
 * **[Mamba-Based Neural Knowledge Graph Integration](ai/llm_knowledge_graph_proposal.md)** - Research proposal for persistent knowledge integration through cached semantic transforms in structured state spaces
+* *
+  *[The Transformation of Software Development: Navigating the AI Revolution in Software Productization](ai/ai-software-development-paper.md)
+  ** - Comprehensive analysis of AI's current and projected impact on software development with best practices for
+  conscious evolution
+* **[Parametric Ideation: A First-Person Account of AI-Human Collaborative Thought](ai/parametric-ideation-paper.md)** -
+  First-person exploration of a new mode of thought emerging from human-AI collaboration, drawing parallels to
+  parametric design
 
 
 ### 🔬 [Projects](projects/)
@@ -52,6 +59,8 @@ These works embody a particular approach to theoretical exploration:
 * **[Entropy-Optimized Permutation Trees](projects/bwt_tree_proposal.md)** - Information-theoretic data structures for bijective string transforms
 * **[Scientific Method 2.0](projects/scientific_method_proposal.md)** - AI-agent framework for accelerated discovery in economics and sociology
 * **[Formal Grammar Lookahead for Constrained LLM Generation](projects/grammar_lookahead_proposal.md)** - Advanced constraint mechanisms for structured text generation using reachability analysis
+* **[Hybrid Computational Graph Framework](projects/hybrid_computational_graph_proposal.md)** - Unified framework
+  combining symbolic computation, neural networks, and quantum processing for next-generation AI systems
 
 
 ### 🌌 [SciFi Concepts](scifi/)

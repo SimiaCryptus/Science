@@ -89,6 +89,16 @@ reflective analyses of AI systems' capabilities and limitations.
 * **[Mamba-Based Neural Knowledge Graph Integration](llm_knowledge_graph_proposal.md)** - Research proposal for
   persistent knowledge integration through cached semantic transforms in structured state spaces
 
+### AI Development & Philosophy
+
+* *
+  *[The Transformation of Software Development: Navigating the AI Revolution in Software Productization](ai-software-development-paper.md)
+  ** - Comprehensive analysis of AI's current and projected impact on software development, identifying potential
+  unintended consequences and proposing best practices for conscious evolution
+* **[Parametric Ideation: A First-Person Account of AI-Human Collaborative Thought](parametric-ideation-paper.md)** -
+  First-person exploration of a new mode of thought that emerges at the intersection of human intuition and AI
+  processing, drawing parallels to parametric design in CAD
+
 ## Key Themes
 These papers explore several interconnected themes in AI research:
 1. **Optimization Theory**: Novel approaches to training neural networks that go beyond standard gradient descent
