@@ -17,6 +17,7 @@ reflective analyses of AI systems' capabilities and limitations.
 * [**Trust Region Methods**](trust_regions.md) - A flexible framework for constrained parameter updates in neural network optimization
 * [**PromptOptimization**](prompt_optimization.md) - Genetic algorithm framework for automated prompt engineering using mutation and recombination operations
 * [**Cognitive Bias in AI Intelligence Assessment**](ai_bias_paper.md) - Systematic analysis of domain-dependent bias in LLM intelligence assessment with exploitable meta-reasoning vulnerabilities
+* [**EchoSynth: Hierarchical Ensemble for Semantic Drift**](echosynth_proposal.md) - Multi-agent framework for dynamic meaning generation and interpretive co-evolution
 
 ### Optimization & Algorithms
 
@@ -95,6 +96,7 @@ reflective analyses of AI systems' capabilities and limitations.
   *[Hypothesis Breeding Grounds: An Evolutionary Framework for Automated Theory Development](hypothesis_breeding_grounds.md)
   ** - Evolutionary algorithms for automated theoretical development, treating scientific hypotheses as genetic material
   with crossover, mutation, and selection mechanisms for discovering novel frameworks across disciplines
+* **[EchoSynth: Hierarchical Ensemble for Semantic Drift](echosynth_proposal.md)** - Multi-agent framework for dynamic meaning generation and interpretive co-evolution through specialized EchoNodes, Dialectic Choreographers, Entropy Shepherds, and Reader Resonance Layers
 
 ### AI Development & Philosophy
 

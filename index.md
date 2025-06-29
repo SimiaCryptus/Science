@@ -112,6 +112,7 @@ Welcome to the Fractal Thought Engine.
 * **[Ideatic Dynamics in Small Groups](ai/ideatic_dynamics_experiments.md)** - Belief evolution in 3-5 agent systems
 * **[Empirical Measurement of Recursive Processing Limits](ai/small_group_dynamics.md)** - "Hall of mirrors" effect quantification
 * **[Hypothesis Breeding Grounds](ai/hypothesis_breeding_grounds.md)** - Evolutionary framework for automated theory development
+* **[EchoSynth: Hierarchical Ensemble for Semantic Drift](ai/echosynth_proposal.md)** - Multi-agent framework for dynamic meaning generation and interpretive co-evolution
 * **[The Transformation of Software Development](ai/ai-software-development-paper.md)** - AI's impact on software productization
 
 ---
