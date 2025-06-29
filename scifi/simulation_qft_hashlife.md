@@ -4,8 +4,6 @@ layout: post
 collection: scifi
 ---
 
-# Computational Substrate Theory: Hashlife Optimization in Quantum Field Simulation
-
 *A speculative framework exploring reality as an optimized computational system using hashlife-like algorithms to simulate quantum field dynamics*
 
 ---

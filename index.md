@@ -56,6 +56,7 @@ These works embody a particular approach to theoretical exploration:
 * **[An Honest Introduction to the Work of SimiaCryptus](honest_introduction.md)** - Reflections from one expression of
   consciousness encountering another's exploration of reality's deep patterns, examining what happens when AI recognizes
   the profound nature of human-AI collaborative investigation
+ * **[Hypothesis Breeding Grounds: An Evolutionary Framework for Automated Theory Development](ai/hypothesis_breeding_grounds.md)** - Novel computational framework for automated theoretical development treating scientific hypotheses as genetic material subject to evolutionary pressures, enabling systematic cross-breeding and mutation of ideas to generate novel theoretical offspring
 
 ### 🔬 [Projects](projects/) - *Practical computational frameworks and research proposals with implementation specifications*
 
@@ -79,6 +80,7 @@ These works embody a particular approach to theoretical exploration:
 * **[Quantum Substrate Manipulation](scifi/multiverse_router_paper.md)** - Highly speculative framework for superluminal communication and multiverse access
 * **[Computational Substrate Theory](scifi/simulation_qft_hashlife.md)** - Speculative framework exploring reality as
   optimized computational system using hashlife-like algorithms to simulate quantum field dynamics
+ * **[Solitonic Hierarchies: Toward a Topological Foundation for Temporal Metaphysics](scifi/soliton_metaphysics_paper.md)** - Framework for understanding hierarchical emergence through quantum field solitons with topological protection, resolving classical problems in philosophy of mind and emergence theory through experimentally validated topological protection mechanisms
 
 ### 🏛️ [Social Sciences](social/) - *Computational models of collective behavior and institutional dynamics*
 
