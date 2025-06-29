@@ -88,6 +88,7 @@ reflective analyses of AI systems' capabilities and limitations.
 
 * **[Mamba-Based Neural Knowledge Graph Integration](llm_knowledge_graph_proposal.md)** - Research proposal for
   persistent knowledge integration through cached semantic transforms in structured state spaces
+* **[Ideatic Dynamics in Small Group Systems](ideatic_dynamics_experiments.md)** - Experimental framework for understanding belief evolution in 3-5 agent configurations using LLM agents to study intransitive belief loops, coalition formation, and pivot agent dynamics
 
 ### AI Development & Philosophy
 
@@ -96,6 +97,8 @@ reflective analyses of AI systems' capabilities and limitations.
   ** - Comprehensive analysis of AI's current and projected impact on software development, identifying potential
   unintended consequences and proposing best practices for conscious evolution
 * **[Parametric Ideation: A First-Person Account of AI-Human Collaborative Thought](parametric-ideation-paper.md)** -
+* **[reSTM: A REST-Based Distributed Software Transactional Memory Platform](restm_research_paper.md)** - Novel distributed STM platform providing ACID guarantees across clusters through HTTP protocol with MVCC and fine-grained locking
+* **[Empirical Measurement of Recursive Processing Limits in Large Language Models Using Self-Referential Text Corpora](small_group_dynamics.md)** - First systematic study of performance degradation in LLMs when processing self-referential and meta-cognitive content, revealing a "hall of mirrors" effect with quantified recursion thresholds
   First-person exploration of a new mode of thought that emerges at the intersection of human intuition and AI
   processing, drawing parallels to parametric design in CAD
 

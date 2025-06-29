@@ -39,6 +39,7 @@ These works embody a particular approach to theoretical exploration:
 * **[Alternative Loss Functions in Regression](ai/regression_loss_functions_2025.md)** - Visual guide to potential well metaphors and zero-loss zones for robust regression modeling
 * **[Learning from Loss: A Vision for Understanding Dropout and Quantum Decoherence Through Their Parallels](ai/quantum-dropout-vision.md)** - Vision paper exploring mathematical and conceptual connections between dropout regularization and quantum decoherence
 * **[Mamba-Based Neural Knowledge Graph Integration](ai/llm_knowledge_graph_proposal.md)** - Research proposal for persistent knowledge integration through cached semantic transforms in structured state spaces
+* **[Ideatic Dynamics in Small Group Systems](ai/ideatic_dynamics_experiments.md)** - Experimental framework for understanding belief evolution in 3-5 agent configurations using LLM agents to study intransitive belief loops, coalition formation, and pivot agent dynamics
 * *
   *[The Transformation of Software Development: Navigating the AI Revolution in Software Productization](ai/ai-software-development-paper.md)
   ** - Comprehensive analysis of AI's current and projected impact on software development with best practices for
@@ -46,6 +47,8 @@ These works embody a particular approach to theoretical exploration:
 * **[Parametric Ideation: A First-Person Account of AI-Human Collaborative Thought](ai/parametric-ideation-paper.md)** -
   First-person exploration of a new mode of thought emerging from human-AI collaboration, drawing parallels to
   parametric design
+* **[reSTM: A REST-Based Distributed Software Transactional Memory Platform](ai/restm_research_paper.md)** - Novel distributed STM platform providing ACID guarantees across clusters through HTTP protocol with MVCC and fine-grained locking
+* **[Empirical Measurement of Recursive Processing Limits in Large Language Models Using Self-Referential Text Corpora](ai/small_group_dynamics.md)** - First systematic study of performance degradation in LLMs when processing self-referential and meta-cognitive content, revealing a "hall of mirrors" effect with quantified recursion thresholds
 
 
 ### 🔬 [Projects](projects/)
