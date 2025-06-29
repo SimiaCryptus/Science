@@ -67,7 +67,10 @@ body {
   font-family: var(--font-mono);
   line-height: var(--line-height-base);
   margin: 0;
-  padding: 0;
+  padding-left: 0.25vw;
+  padding-right: 0.25vw;
+  padding-top: 0;
+  padding-bottom: 0;
   background: radial-gradient(circle at 20% 80%, var(--bg-accent) 0%, transparent 50%),
   radial-gradient(circle at 80% 20%, color-mix(in srgb, var(--secondary-color) 20%, transparent) 0%, transparent 50%),
   radial-gradient(circle at 40% 40%, color-mix(in srgb, var(--primary-color) 20%, transparent) 0%, transparent 50%),
@@ -1552,31 +1555,10 @@ pre code {
     -webkit-overflow-scrolling: touch;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /* Post styles for mobile */
   .post {
     margin-bottom: 30px;
+    margin-left: 10vw;
   }
   .post-header {
     margin-bottom: 20px;

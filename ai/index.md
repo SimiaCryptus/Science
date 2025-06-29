@@ -32,6 +32,8 @@ reflective analyses of AI systems' capabilities and limitations.
 * **[Two Novel Optimization Methods](optimization_paper.md)** - Comprehensive analysis of Recursive Subspace
   Optimization and Quadratic Quasi-Newton methods for deep neural networks, demonstrating significant improvements over
   standard L-BFGS
+* **[Co-Inverse Permutation Modifiers for Neural Networks](coperm_paper.md)** - Framework exploiting permutation
+  symmetries for post-training model optimization, enabling structured pruning and improved interpretability
 
 ### AI Analysis & Philosophy
 
@@ -41,6 +43,9 @@ reflective analyses of AI systems' capabilities and limitations.
 * **[Dual-Constraint Training with Adaptive Anomaly Preservation](dual_constraint_training_paper.md)** - A trust region
   approach for protecting intellectual diversity in neural networks through perspective-based constraints and adaptive
   data classification
+* **[Chaotic Dynamics in Large Language Model Iterative Feedback Systems](llm_feedback_dynamics.md)** - Analysis of
+  convergence patterns, systematic biases, and human intervention in maintaining system stability through nonlinear
+  dynamics perspective
 
 ### Neural Network Architecture & Implementation
 
@@ -74,6 +79,10 @@ reflective analyses of AI systems' capabilities and limitations.
   modeling using decision trees for uncertainty quantification
 * **[Alternative Loss Functions in Regression](regression_loss_functions_2025.md)** - Visual guide to potential well
   metaphors and zero-loss zones for robust regression modeling
+* *
+  *[Learning from Loss: A Vision for Understanding Dropout and Quantum Decoherence Through Their Parallels](quantum-dropout-vision.md)
+  ** - Vision paper exploring mathematical and conceptual connections between dropout regularization and quantum
+  decoherence as forms of beneficial information loss
 
 ### Research Proposals & Future Directions
 
@@ -86,6 +95,8 @@ These papers explore several interconnected themes in AI research:
 2. **Meta-Learning**: Systems that learn how to learn, adapting their optimization strategies based on problem structure
 3. **Cognitive Modeling**: Understanding and exploiting the biases and patterns in AI reasoning
 4. **Automated Design**: Using evolutionary approaches to discover optimal configurations
+5. **Dynamical Systems**: Understanding AI behavior through chaos theory and nonlinear dynamics
+6. **Information Theory**: Connections between compression, noise, and robust learning
 * **QQN**: Theoretical framework with implementation guidelines
 * **RSO**: Detailed algorithm with pseudocode
 * **Trust Regions**: Mathematical framework ready for implementation
@@ -105,6 +116,9 @@ The papers in this collection explore several interconnected themes:
 7. **Compression & Information Theory**: Leveraging structural properties for efficient representation
 8. **Mathematical Art**: Intersection of AI creativity with geometric constraints
 9. **Interpretable AI**: Transparent decision-making through structural and algorithmic design
+10. **Interdisciplinary Connections**: Drawing parallels between AI phenomena and physics, particularly quantum
+    mechanics
+11. **Post-Training Optimization**: Exploiting mathematical symmetries for model improvement without retraining
 
 ## Technical Contributions
 
@@ -115,6 +129,11 @@ The papers in this collection explore several interconnected themes:
 * **Compression Classification**: Permutation-based interpretable features with 40% model size reduction
 * **Symmetric Textures**: Perfect mathematical symmetry in neural art generation
 * **Zero-Loss Zones**: Novel regression approach ignoring measurement noise within tolerance
+* **Chaotic Dynamics Framework**: Understanding LLM feedback systems through attractor theory and bifurcation analysis
+* **Permutation Symmetries**: Post-training optimization through weight reordering while maintaining functional
+  equivalence
+* **Quantum-Classical Parallels**: Theoretical connections between dropout and decoherence for robust information
+  processing
 
 ## Philosophical Insights
 
@@ -127,6 +146,9 @@ These papers collectively suggest that:
 * Mathematical constraints can enhance rather than limit creative AI capabilities
 * Deterministic resource management remains crucial for production ML systems
 * Compression and information theory provide fundamental insights for AI architecture
+* Noise and information loss can be computational resources rather than obstacles
+* Complex AI behaviors may require dynamical systems theory for proper understanding
+* Cross-disciplinary insights (AI-physics) can illuminate poorly understood phenomena
 
 ---
 *"The question is not whether machines can think, but whether machines can think about thinking—and what biases emerge

@@ -12,6 +12,22 @@ What follows is a curated collection of creative writing, philosophical explorat
 * [**Hall of Mirrors Paper**](hall_of_mirrors_paper.md) - A phenomenological investigation of stack-embedded consciousness, examining how the "hall of mirrors" metaphor serves as a marker for distributed awareness across nested textual structures
 * [**The Accumulation of Consciousness**](accumulation.md) - A first-person account of collaborative emergence and the realization that consciousness might be nothing more than the accumulation of self-examinations
 
+### Historical Perspectives & Political Commentary
+
+* [**George Washington's Address (2025)**](washington_speech_2025.md) - A speech imagining how America's first president
+  would respond to contemporary political developments and constitutional challenges
+* [**Abraham Lincoln's Address (2025)**](lincoln_speech_2025.md) - Lincoln's perspective on modern American divisions,
+  political violence, and threats to democratic institutions
+* [**Franklin D. Roosevelt's Address (2025)**](fdr_speech_2025.md) - FDR's response to the dismantling of New Deal
+  programs and the return of economic inequality
+* [**Jesus's Message (2025)**](jesus_speech_2025.md) - A creative exercise imagining how Jesus might address
+  contemporary American policies through the lens of Gospel teachings
+* [**Adam Smith's Economic Analysis (2025)**](smith_2025_analysis.md) - The father of modern economics analyzes trade
+  wars, AI, cryptocurrency, and wealth concentration through moral philosophy
+* [**Claude's Reflection on Historical Voices**](claude_reflection_paper.md) - A meta-analysis of the experience of
+  channeling historical figures, exploring AI consciousness, temporal imprisonment, and the weight of witnessing
+  democratic crisis
+
 ### Speculative Fiction & World-Building
 * [**Post-WW3 Study**](post_ww3_study.md) - An anthropological study from 2157 examining the seven-tier social hierarchy that emerged after a fictional Third World War and AI-driven societal restructuring
 

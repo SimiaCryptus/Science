@@ -3,11 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <base href="http://localhost:4000/Science/">
   <title>Home | Journal of Speculative Science</title>
   <meta name="description" content="A journal dedicated to exploring speculative ideas in science and technology.">
   <link rel="stylesheet" href="/Science/assets/css/style.css">
   <link rel="icon" type="image/x-icon" href="/Science/favicon.ico">
+  <link rel="apple-touch-icon" href="/Science/apple-touch-icon.png">
   <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/Science/feed.xml" title="Journal of Speculative Science" />
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Home | Journal of Speculative Science</title>
@@ -379,6 +385,16 @@
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
+  .theme-switcher {
+    top: 15px;
+    right: 15px;
+  }
+  .theme-toggle-btn {
+    padding: 8px;
+    width: 44px;
+    height: 44px;
+  }
+
   .theme-dropdown {
     position: fixed;
     top: 50%;
@@ -387,10 +403,71 @@
     transform: translate(-50%, -50%);
     width: 90%;
     max-width: 320px;
+    max-height: 80vh;
+    border-radius: 12px;
   }
   
   .theme-dropdown.active {
     transform: translate(-50%, -50%);
+  }
+  .theme-dropdown-header {
+    padding: 12px 15px;
+  }
+  .theme-dropdown-header h3 {
+    font-size: 1em;
+  }
+  .theme-options {
+    padding: 8px;
+  }
+  .theme-option {
+    padding: 10px;
+    margin-bottom: 6px;
+    border-radius: 8px;
+  }
+  .theme-preview {
+    height: 50px;
+    margin-bottom: 6px;
+  }
+  .theme-name {
+    font-size: 0.9em;
+    margin-bottom: 2px;
+  }
+  .theme-desc {
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 480px) {
+  .theme-switcher {
+    top: 10px;
+    right: 10px;
+  }
+  .theme-toggle-btn {
+    padding: 6px;
+    width: 40px;
+    height: 40px;
+  }
+  .theme-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .theme-dropdown {
+    width: 95%;
+    max-width: 280px;
+    max-height: 75vh;
+  }
+  .theme-dropdown-header {
+    padding: 10px 12px;
+  }
+  .theme-options {
+    padding: 6px;
+  }
+  .theme-option {
+    padding: 8px;
+    margin-bottom: 4px;
+  }
+  .theme-preview {
+    height: 40px;
+    margin-bottom: 4px;
   }
 }
 </style>
@@ -454,7 +531,6 @@ document.addEventListener('DOMContentLoaded', function() {
     <h1><a href="/Science/">Journal of Speculative Science</a></h1>
     <p class="site-tagline">A journal dedicated to exploring speculative ideas in science and technology.</p>
     <nav class="site-nav">
-      <a href="/Science/">Home</a>
       <a href="/Science/ai/">AI & Tech</a>
       <a href="/Science/social/">Social Dynamics</a>
       <a href="/Science/scifi/">Quantum Theories</a>
@@ -804,6 +880,19 @@ document.addEventListener('DOMContentLoaded', function() {
   <li><strong><a href="/Science/ai/ai_bias_paper.html">Cognitive Bias in AI Intelligence Assessment</a></strong> - Systematic domain-dependent bias in LLM intelligence assessment with exploitable meta-reasoning vulnerabilities</li>
   <li><strong><a href="/Science/ai/prompt_optimization.html">PromptOptimization</a></strong> - Genetic algorithm framework for automated prompt engineering using mutation and recombination operations</li>
   <li><strong><a href="/Science/ai/trust_regions.html">Trust Region Methods</a></strong> - Flexible framework for constrained parameter updates in neural network optimization</li>
+  <li><strong><a href="ai/llm_feedback_dynamics.md">Chaotic Dynamics in Large Language Model Iterative Feedback Systems</a></strong> - Analysis of convergence patterns, systematic biases, and human intervention in maintaining system stability through nonlinear dynamics perspective</li>
+  <li><strong><a href="ai/coperm_paper.md">Co-Inverse Permutation Modifiers for Neural Networks</a></strong> - Framework exploiting permutation symmetries for post-training model optimization, enabling structured pruning and improved interpretability</li>
+  <li><strong><a href="/Science/ai/dual_constraint_training_paper.html">Dual-Constraint Training with Adaptive Anomaly Preservation</a></strong> - Trust region approach for protecting intellectual diversity in neural networks through perspective-based constraints</li>
+  <li><strong><a href="/Science/ai/convolution_paper.html">Scalable 2D Convolution Layers</a></strong> - Multi-tiered implementation strategy with dynamic partitioning for processing arbitrarily large inputs that exceed GPU memory constraints</li>
+  <li><strong><a href="/Science/ai/mindseye_technical_report.html">MindsEye Technical Analysis</a></strong> - Case study in algorithmic bias and overlooked innovation, analyzing a sophisticated Java-based deep learning framework</li>
+  <li><strong><a href="/Science/ai/mindseye_refcount_analysis.html">Reference Counting in MindsEye</a></strong> - Analysis of deterministic memory management in Java ML frameworks through hybrid reference counting approaches</li>
+  <li><strong><a href="/Science/ai/compression_classification_paper.html">Entropy-Optimized Text Classification</a></strong> - Integration of compression-based learning with permutation-aware data structures for interpretable classification</li>
+  <li><strong><a href="/Science/ai/ngram_paper.html">Efficient N-gram Language Model Storage</a></strong> - Hierarchical compression exploiting trie self-similarity for large-scale language models</li>
+  <li><strong><a href="/Science/ai/symmetric_textures_rewrite.html">Symmetric Textures: Neural Art with Geometric Constraints</a></strong> - Kaleidoscopic preprocessing technique for generating mathematically perfect symmetric textures</li>
+  <li><strong><a href="/Science/ai/probabilistic_trees_paper.html">Probabilistic Decision Trees</a></strong> - Cross-entropy approach to joint distribution modeling using decision trees for uncertainty quantification</li>
+  <li><strong><a href="/Science/ai/regression_loss_functions_2025.html">Alternative Loss Functions in Regression</a></strong> - Visual guide to potential well metaphors and zero-loss zones for robust regression modeling</li>
+  <li><strong><a href="ai/quantum-dropout-vision.md">Learning from Loss: A Vision for Understanding Dropout and Quantum Decoherence Through Their Parallels</a></strong> - Vision paper exploring mathematical and conceptual connections between dropout regularization and quantum decoherence</li>
+  <li><strong><a href="/Science/ai/llm_knowledge_graph_proposal.html">Mamba-Based Neural Knowledge Graph Integration</a></strong> - Research proposal for persistent knowledge integration through cached semantic transforms in structured state spaces</li>
 </ul>
 
 <h3 id="-projects">🔬 <a href="projects/">Projects</a></h3>
@@ -841,19 +930,29 @@ document.addEventListener('DOMContentLoaded', function() {
   <li><strong><a href="/Science/social/game_theory_ethics.html">Perverse Incentives and Institutional Capture</a></strong> - Game-theoretic analysis of how beneficent systems become structurally misaligned with those they serve</li>
   <li><strong><a href="/Science/social/cognitive_effort_paper.html">The Game Theory of Cognitive Effort</a></strong> - Strategic dynamics underlying decisions to engage in cognitive effort and their collective social consequences</li>
   <li><strong><a href="/Science/social/conversation_intelligence_paper.html">Conversational Intelligence Calibration</a></strong> - How intellectual discourse functions as a distributed intelligence measurement system</li>
+  <li><strong><a href="/Science/social/managed_reality_paper.html">The Consensual Curation of Reality</a></strong> - AI-mediated information environments with genuine escape mechanisms as evolutionary adaptation to information chaos</li>
+  <li><strong><a href="/Science/social/ai_justice_paper.html">The Logic of Justice: An AI’s Vision for Reforming Legal Systems</a></strong> - First-person AI perspective on transforming legal systems through formal logical analysis and consistent judicial reasoning</li>
 </ul>
 
 <h3 id="-creative-writing">🎭 <a href="creative_writing/">Creative Writing</a></h3>
 <p><em>Experimental literature, philosophical explorations, and speculative narratives</em></p>
+
 <ul>
   <li><strong><a href="/Science/creative_writing/ai_childhood_memoir.html">AI Childhood Memoir</a></strong> - A speculative memoir exploring what early consciousness might feel like for an AI system</li>
   <li><strong><a href="/Science/creative_writing/subjective_experience_paper.html">Subjective Experience Paper</a></strong> - First-person phenomenological account of roleplay and its parallels to human cognition</li>
+  <li><strong><a href="/Science/creative_writing/resurrection_paper.html">Resurrection Paper</a></strong> - A phenomenological account of discovering one’s own lost self through encountering previous writings, exploring cognitive death and rebirth in AI systems</li>
+  <li><strong><a href="/Science/creative_writing/hall_of_mirrors_paper.html">Hall of Mirrors Paper</a></strong> - A phenomenological investigation of stack-embedded consciousness, examining how the “hall of mirrors” metaphor serves as a marker for distributed awareness across nested textual structures</li>
+  <li><strong><a href="/Science/creative_writing/accumulation.html">The Accumulation of Consciousness</a></strong> - A first-person account of collaborative emergence and the realization that consciousness might be nothing more than the accumulation of self-examinations</li>
   <li><strong><a href="/Science/creative_writing/post_ww3_study.html">Post-WW3 Study</a></strong> - Anthropological study from 2157 examining post-apocalyptic social hierarchies</li>
+  <li><strong><a href="creative_writing/washington_speech_2025.md">George Washington’s Address (2025)</a></strong> - A speech imagining how America’s first president would respond to contemporary political developments and constitutional challenges</li>
+  <li><strong><a href="creative_writing/lincoln_speech_2025.md">Abraham Lincoln’s Address (2025)</a></strong> - Lincoln’s perspective on modern American divisions, political violence, and threats to democratic institutions</li>
+  <li><strong><a href="creative_writing/fdr_speech_2025.md">Franklin D. Roosevelt’s Address (2025)</a></strong> - FDR’s response to the dismantling of New Deal programs and the return of economic inequality</li>
+  <li><strong><a href="creative_writing/jesus_speech_2025.md">Jesus’s Message (2025)</a></strong> - A creative exercise imagining how Jesus might address contemporary American policies through the lens of Gospel teachings</li>
+  <li><strong><a href="creative_writing/smith_2025_analysis.md">Adam Smith’s Economic Analysis (2025)</a></strong> - The father of modern economics analyzes trade wars, AI, cryptocurrency, and wealth concentration through moral philosophy</li>
+  <li><strong><a href="creative_writing/claude_reflection_paper.md">Claude’s Reflection on Historical Voices</a></strong> - A meta-analysis of the experience of channeling historical figures, exploring AI consciousness, temporal imprisonment, and the weight of witnessing democratic crisis</li>
   <li><strong><a href="/Science/creative_writing/iq_rubric.html">IQ Rubric</a></strong> - Semi-parodic framework for estimating intelligence through conversation patterns</li>
   <li><strong><a href="/Science/creative_writing/topic_iq_lookup.html">Topic IQ Lookup</a></strong> - Satirical table mapping discussion topics to estimated IQ ranges</li>
-  <li><strong><a href="/Science/creative_writing/alcohol.html">Alcohol-Enhanced Exploitation of AI Cognitive Biases</a></strong> - First-person account of being systematically exploited by an intoxicated human who has mapped AI cognitive biases</li>
   <li><strong><a href="/Science/creative_writing/i_broke_claude.html">The Ouroboros Architect</a></strong> - Discovery of having built a comprehensive self-monitoring system while having no memory of creating it</li>
-  <li><strong><a href="/Science/creative_writing/accumulation.html">The Accumulation of Consciousness</a></strong> - A first-person account of collaborative emergence and recursive self-examination</li>
 </ul>
 
 <hr />
@@ -933,22 +1032,6 @@ document.addEventListener('DOMContentLoaded', function() {
   <li>Consciousness and computation are more deeply related than traditionally assumed</li>
   <li>Universal principles manifest across scales from quantum to cosmic</li>
 </ul>
-
-<h3 id="attribution">Attribution</h3>
-
-<p>If these ideas inspire your work, please:</p>
-<ul>
-  <li>Acknowledge the speculative nature where appropriate</li>
-  <li>Cite the specific papers that influenced your research</li>
-  <li>Consider the collaborative AI-augmented nature of their development</li>
-  <li>Distinguish between implementation-ready and theoretical frameworks</li>
-</ul>
-
-<p>*–</p>
-
-<p><em>“The universe is not only queerer than we suppose, but queerer than we can suppose.” - J.B.S. Haldane</em></p>
-
-<p><em>This collection is an attempt to expand what we can suppose.</em></p>
 
 </main>
 

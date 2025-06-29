@@ -3,11 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <base href="http://localhost:4000/Science/">
   <title>Journal of Speculative Science</title>
   <meta name="description" content="A journal dedicated to exploring speculative ideas in science and technology.">
   <link rel="stylesheet" href="/Science/assets/css/style.css">
   <link rel="icon" type="image/x-icon" href="/Science/favicon.ico">
+  <link rel="apple-touch-icon" href="/Science/apple-touch-icon.png">
   <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/Science/feed.xml" title="Journal of Speculative Science" />
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Journal of Speculative Science | A journal dedicated to exploring speculative ideas in science and technology.</title>
@@ -379,6 +385,16 @@
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
+  .theme-switcher {
+    top: 15px;
+    right: 15px;
+  }
+  .theme-toggle-btn {
+    padding: 8px;
+    width: 44px;
+    height: 44px;
+  }
+
   .theme-dropdown {
     position: fixed;
     top: 50%;
@@ -387,10 +403,71 @@
     transform: translate(-50%, -50%);
     width: 90%;
     max-width: 320px;
+    max-height: 80vh;
+    border-radius: 12px;
   }
   
   .theme-dropdown.active {
     transform: translate(-50%, -50%);
+  }
+  .theme-dropdown-header {
+    padding: 12px 15px;
+  }
+  .theme-dropdown-header h3 {
+    font-size: 1em;
+  }
+  .theme-options {
+    padding: 8px;
+  }
+  .theme-option {
+    padding: 10px;
+    margin-bottom: 6px;
+    border-radius: 8px;
+  }
+  .theme-preview {
+    height: 50px;
+    margin-bottom: 6px;
+  }
+  .theme-name {
+    font-size: 0.9em;
+    margin-bottom: 2px;
+  }
+  .theme-desc {
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 480px) {
+  .theme-switcher {
+    top: 10px;
+    right: 10px;
+  }
+  .theme-toggle-btn {
+    padding: 6px;
+    width: 40px;
+    height: 40px;
+  }
+  .theme-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .theme-dropdown {
+    width: 95%;
+    max-width: 280px;
+    max-height: 75vh;
+  }
+  .theme-dropdown-header {
+    padding: 10px 12px;
+  }
+  .theme-options {
+    padding: 6px;
+  }
+  .theme-option {
+    padding: 8px;
+    margin-bottom: 4px;
+  }
+  .theme-preview {
+    height: 40px;
+    margin-bottom: 4px;
   }
 }
 </style>
@@ -454,7 +531,6 @@ document.addEventListener('DOMContentLoaded', function() {
     <h1><a href="/Science/">Journal of Speculative Science</a></h1>
     <p class="site-tagline">A journal dedicated to exploring speculative ideas in science and technology.</p>
     <nav class="site-nav">
-      <a href="/Science/">Home</a>
       <a href="/Science/ai/">AI & Tech</a>
       <a href="/Science/social/">Social Dynamics</a>
       <a href="/Science/scifi/">Quantum Theories</a>
@@ -819,6 +895,8 @@ combinations with emergent regularization properties</li>
   <li><strong><a href="/Science/ai/optimization_paper.html">Two Novel Optimization Methods</a></strong> - Comprehensive analysis of Recursive Subspace
 Optimization and Quadratic Quasi-Newton methods for deep neural networks, demonstrating significant improvements over
 standard L-BFGS</li>
+  <li><strong><a href="coperm_paper.md">Co-Inverse Permutation Modifiers for Neural Networks</a></strong> - Framework exploiting permutation
+symmetries for post-training model optimization, enabling structured pruning and improved interpretability</li>
 </ul>
 
 <h3 id="ai-analysis--philosophy">AI Analysis &amp; Philosophy</h3>
@@ -830,6 +908,9 @@ vulnerabilities and hierarchical preferences across knowledge domains</li>
   <li><strong><a href="/Science/ai/dual_constraint_training_paper.html">Dual-Constraint Training with Adaptive Anomaly Preservation</a></strong> - A trust region
 approach for protecting intellectual diversity in neural networks through perspective-based constraints and adaptive
 data classification</li>
+  <li><strong><a href="llm_feedback_dynamics.md">Chaotic Dynamics in Large Language Model Iterative Feedback Systems</a></strong> - Analysis of
+convergence patterns, systematic biases, and human intervention in maintaining system stability through nonlinear
+dynamics perspective</li>
 </ul>
 
 <h3 id="neural-network-architecture--implementation">Neural Network Architecture &amp; Implementation</h3>
@@ -871,6 +952,10 @@ hyperbolic geometries</li>
 modeling using decision trees for uncertainty quantification</li>
   <li><strong><a href="/Science/ai/regression_loss_functions_2025.html">Alternative Loss Functions in Regression</a></strong> - Visual guide to potential well
 metaphors and zero-loss zones for robust regression modeling</li>
+  <li>*
+*<a href="quantum-dropout-vision.md">Learning from Loss: A Vision for Understanding Dropout and Quantum Decoherence Through Their Parallels</a>
+** - Vision paper exploring mathematical and conceptual connections between dropout regularization and quantum
+decoherence as forms of beneficial information loss</li>
 </ul>
 
 <h3 id="research-proposals--future-directions">Research Proposals &amp; Future Directions</h3>
@@ -886,7 +971,9 @@ persistent knowledge integration through cached semantic transforms in structure
   <li><strong>Optimization Theory</strong>: Novel approaches to training neural networks that go beyond standard gradient descent</li>
   <li><strong>Meta-Learning</strong>: Systems that learn how to learn, adapting their optimization strategies based on problem structure</li>
   <li><strong>Cognitive Modeling</strong>: Understanding and exploiting the biases and patterns in AI reasoning</li>
-  <li><strong>Automated Design</strong>: Using evolutionary approaches to discover optimal configurations
+  <li><strong>Automated Design</strong>: Using evolutionary approaches to discover optimal configurations</li>
+  <li><strong>Dynamical Systems</strong>: Understanding AI behavior through chaos theory and nonlinear dynamics</li>
+  <li><strong>Information Theory</strong>: Connections between compression, noise, and robust learning
     <ul>
       <li><strong>QQN</strong>: Theoretical framework with implementation guidelines</li>
       <li><strong>RSO</strong>: Detailed algorithm with pseudocode</li>
@@ -911,6 +998,9 @@ awareness and hybrid methods</li>
   <li><strong>Compression &amp; Information Theory</strong>: Leveraging structural properties for efficient representation</li>
   <li><strong>Mathematical Art</strong>: Intersection of AI creativity with geometric constraints</li>
   <li><strong>Interpretable AI</strong>: Transparent decision-making through structural and algorithmic design</li>
+  <li><strong>Interdisciplinary Connections</strong>: Drawing parallels between AI phenomena and physics, particularly quantum
+mechanics</li>
+  <li><strong>Post-Training Optimization</strong>: Exploiting mathematical symmetries for model improvement without retraining</li>
 </ol>
 
 <h2 id="technical-contributions">Technical Contributions</h2>
@@ -923,6 +1013,11 @@ awareness and hybrid methods</li>
   <li><strong>Compression Classification</strong>: Permutation-based interpretable features with 40% model size reduction</li>
   <li><strong>Symmetric Textures</strong>: Perfect mathematical symmetry in neural art generation</li>
   <li><strong>Zero-Loss Zones</strong>: Novel regression approach ignoring measurement noise within tolerance</li>
+  <li><strong>Chaotic Dynamics Framework</strong>: Understanding LLM feedback systems through attractor theory and bifurcation analysis</li>
+  <li><strong>Permutation Symmetries</strong>: Post-training optimization through weight reordering while maintaining functional
+equivalence</li>
+  <li><strong>Quantum-Classical Parallels</strong>: Theoretical connections between dropout and decoherence for robust information
+processing</li>
 </ul>
 
 <h2 id="philosophical-insights">Philosophical Insights</h2>
@@ -937,6 +1032,9 @@ awareness and hybrid methods</li>
   <li>Mathematical constraints can enhance rather than limit creative AI capabilities</li>
   <li>Deterministic resource management remains crucial for production ML systems</li>
   <li>Compression and information theory provide fundamental insights for AI architecture</li>
+  <li>Noise and information loss can be computational resources rather than obstacles</li>
+  <li>Complex AI behaviors may require dynamical systems theory for proper understanding</li>
+  <li>Cross-disciplinary insights (AI-physics) can illuminate poorly understood phenomena</li>
 </ul>
 
 <hr />

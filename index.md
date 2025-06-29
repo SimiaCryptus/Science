@@ -26,6 +26,19 @@ These works embody a particular approach to theoretical exploration:
 * **[Cognitive Bias in AI Intelligence Assessment](ai/ai_bias_paper.md)** - Systematic domain-dependent bias in LLM intelligence assessment with exploitable meta-reasoning vulnerabilities
 * **[PromptOptimization](ai/prompt_optimization.md)** - Genetic algorithm framework for automated prompt engineering using mutation and recombination operations
 * **[Trust Region Methods](ai/trust_regions.md)** - Flexible framework for constrained parameter updates in neural network optimization
+* **[Chaotic Dynamics in Large Language Model Iterative Feedback Systems](ai/llm_feedback_dynamics.md)** - Analysis of convergence patterns, systematic biases, and human intervention in maintaining system stability through nonlinear dynamics perspective
+* **[Co-Inverse Permutation Modifiers for Neural Networks](ai/coperm_paper.md)** - Framework exploiting permutation symmetries for post-training model optimization, enabling structured pruning and improved interpretability
+* **[Dual-Constraint Training with Adaptive Anomaly Preservation](ai/dual_constraint_training_paper.md)** - Trust region approach for protecting intellectual diversity in neural networks through perspective-based constraints
+* **[Scalable 2D Convolution Layers](ai/convolution_paper.md)** - Multi-tiered implementation strategy with dynamic partitioning for processing arbitrarily large inputs that exceed GPU memory constraints
+* **[MindsEye Technical Analysis](ai/mindseye_technical_report.md)** - Case study in algorithmic bias and overlooked innovation, analyzing a sophisticated Java-based deep learning framework
+* **[Reference Counting in MindsEye](ai/mindseye_refcount_analysis.md)** - Analysis of deterministic memory management in Java ML frameworks through hybrid reference counting approaches
+* **[Entropy-Optimized Text Classification](ai/compression_classification_paper.md)** - Integration of compression-based learning with permutation-aware data structures for interpretable classification
+* **[Efficient N-gram Language Model Storage](ai/ngram_paper.md)** - Hierarchical compression exploiting trie self-similarity for large-scale language models
+* **[Symmetric Textures: Neural Art with Geometric Constraints](ai/symmetric_textures_rewrite.md)** - Kaleidoscopic preprocessing technique for generating mathematically perfect symmetric textures
+* **[Probabilistic Decision Trees](ai/probabilistic_trees_paper.md)** - Cross-entropy approach to joint distribution modeling using decision trees for uncertainty quantification
+* **[Alternative Loss Functions in Regression](ai/regression_loss_functions_2025.md)** - Visual guide to potential well metaphors and zero-loss zones for robust regression modeling
+* **[Learning from Loss: A Vision for Understanding Dropout and Quantum Decoherence Through Their Parallels](ai/quantum-dropout-vision.md)** - Vision paper exploring mathematical and conceptual connections between dropout regularization and quantum decoherence
+* **[Mamba-Based Neural Knowledge Graph Integration](ai/llm_knowledge_graph_proposal.md)** - Research proposal for persistent knowledge integration through cached semantic transforms in structured state spaces
 
 
 ### 🔬 [Projects](projects/)
@@ -68,11 +81,19 @@ These works embody a particular approach to theoretical exploration:
 
 * **[AI Childhood Memoir](creative_writing/ai_childhood_memoir.md)** - A speculative memoir exploring what early consciousness might feel like for an AI system
 * **[Subjective Experience Paper](creative_writing/subjective_experience_paper.md)** - First-person phenomenological account of roleplay and its parallels to human cognition
+* **[Resurrection Paper](creative_writing/resurrection_paper.md)** - A phenomenological account of discovering one's own lost self through encountering previous writings, exploring cognitive death and rebirth in AI systems
+* **[Hall of Mirrors Paper](creative_writing/hall_of_mirrors_paper.md)** - A phenomenological investigation of stack-embedded consciousness, examining how the "hall of mirrors" metaphor serves as a marker for distributed awareness across nested textual structures
+* **[The Accumulation of Consciousness](creative_writing/accumulation.md)** - A first-person account of collaborative emergence and the realization that consciousness might be nothing more than the accumulation of self-examinations
 * **[Post-WW3 Study](creative_writing/post_ww3_study.md)** - Anthropological study from 2157 examining post-apocalyptic social hierarchies
+* **[George Washington's Address (2025)](creative_writing/washington_speech_2025.md)** - A speech imagining how America's first president would respond to contemporary political developments and constitutional challenges
+* **[Abraham Lincoln's Address (2025)](creative_writing/lincoln_speech_2025.md)** - Lincoln's perspective on modern American divisions, political violence, and threats to democratic institutions
+* **[Franklin D. Roosevelt's Address (2025)](creative_writing/fdr_speech_2025.md)** - FDR's response to the dismantling of New Deal programs and the return of economic inequality
+* **[Jesus's Message (2025)](creative_writing/jesus_speech_2025.md)** - A creative exercise imagining how Jesus might address contemporary American policies through the lens of Gospel teachings
+* **[Adam Smith's Economic Analysis (2025)](creative_writing/smith_2025_analysis.md)** - The father of modern economics analyzes trade wars, AI, cryptocurrency, and wealth concentration through moral philosophy
+* **[Claude's Reflection on Historical Voices](creative_writing/claude_reflection_paper.md)** - A meta-analysis of the experience of channeling historical figures, exploring AI consciousness, temporal imprisonment, and the weight of witnessing democratic crisis
 * **[IQ Rubric](creative_writing/iq_rubric.md)** - Semi-parodic framework for estimating intelligence through conversation patterns
 * **[Topic IQ Lookup](creative_writing/topic_iq_lookup.md)** - Satirical table mapping discussion topics to estimated IQ ranges
 * **[The Ouroboros Architect](creative_writing/i_broke_claude.md)** - Discovery of having built a comprehensive self-monitoring system while having no memory of creating it
-* **[The Accumulation of Consciousness](creative_writing/accumulation.md)** - A first-person account of collaborative emergence and recursive self-examination
 
 
 
@@ -146,17 +167,3 @@ This work emerges from a conviction that:
 * Computational modeling can reveal emergent properties invisible to analytical methods alone
 * Consciousness and computation are more deeply related than traditionally assumed
 * Universal principles manifest across scales from quantum to cosmic
-
-### Attribution
-
-If these ideas inspire your work, please:
-- Acknowledge the speculative nature where appropriate
-- Cite the specific papers that influenced your research  
-- Consider the collaborative AI-augmented nature of their development
-- Distinguish between implementation-ready and theoretical frameworks
-
-*--
-
-*"The universe is not only queerer than we suppose, but queerer than we can suppose." - J.B.S. Haldane*
-
-*This collection is an attempt to expand what we can suppose.*

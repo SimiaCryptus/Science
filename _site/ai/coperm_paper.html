@@ -1,0 +1,1197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <base href="http://localhost:4000/Science/">
+    <title>Co-Inverse Permutation Modifiers for Neural Networks: Exploiting Weight Symmetries for Post-Training Optimization | Journal of Speculative Science</title>
+    <meta name="description" content="A journal dedicated to exploring speculative ideas in science and technology.">
+    <link rel="stylesheet" href="/Science/assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="/Science/favicon.ico">
+    <link rel="apple-touch-icon" href="/Science/apple-touch-icon.png">
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/Science/feed.xml" title="Journal of Speculative Science" />
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Co-Inverse Permutation Modifiers for Neural Networks: Exploiting Weight Symmetries for Post-Training Optimization | Journal of Speculative Science</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Co-Inverse Permutation Modifiers for Neural Networks: Exploiting Weight Symmetries for Post-Training Optimization" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="A journal dedicated to exploring speculative ideas in science and technology." />
+<meta property="og:description" content="A journal dedicated to exploring speculative ideas in science and technology." />
+<link rel="canonical" href="http://localhost:4000/Science/ai/coperm_paper.html" />
+<meta property="og:url" content="http://localhost:4000/Science/ai/coperm_paper.html" />
+<meta property="og:site_name" content="Journal of Speculative Science" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Co-Inverse Permutation Modifiers for Neural Networks: Exploiting Weight Symmetries for Post-Training Optimization" />
+<meta name="twitter:site" content="@yourusername" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"A journal dedicated to exploring speculative ideas in science and technology.","headline":"Co-Inverse Permutation Modifiers for Neural Networks: Exploiting Weight Symmetries for Post-Training Optimization","url":"http://localhost:4000/Science/ai/coperm_paper.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+<body>
+<!-- Floating Particles -->
+<div class="particle-field" id="particleField"></div>
+
+<div class="theme-switcher">
+  <label for="theme-select" class="visually-hidden">Choose Theme:</label>
+  <div class="theme-control-wrapper">
+    <button class="theme-toggle-btn" aria-label="Toggle theme menu">
+      <svg class="theme-icon" viewBox="0 0 24 24" width="24" height="24">
+        <path d="M12 18c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zm0-10c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4z"/>
+        <path d="M12 3c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm0 18c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm9-10c.55 0 1-.45 1-1s-.45-1-1-1-1 .45-1 1 .45 1 1 1zM3 13c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm16.24 2.76l1.42 1.42c.39.39 1.02.39 1.41 0s.39-1.02 0-1.41l-1.42-1.42c-.39-.39-1.02-.39-1.41 0s-.39 1.02 0 1.41zM3.93 5.34l1.42 1.42c.39.39 1.02.39 1.41 0s.39-1.02 0-1.41L5.34 3.93c-.39-.39-1.02-.39-1.41 0s-.39 1.02 0 1.41zm14.73 14.73l-1.42-1.42c-.39-.39-1.02-.39-1.41 0s-.39 1.02 0 1.41l1.42 1.42c.39.39 1.02.39 1.41 0s.39-1.02 0-1.41zM5.34 20.07l-1.42-1.42c-.39-.39-1.02-.39-1.41 0s-.39 1.02 0 1.41l1.42 1.42c.39.39 1.02.39 1.41 0s.39-1.02 0-1.41z"/>
+      </svg>
+    </button>
+    <div class="theme-dropdown" id="theme-dropdown">
+      <div class="theme-dropdown-header">
+        <h3>Choose Theme</h3>
+        <button class="close-btn" aria-label="Close theme menu">&times;</button>
+      </div>
+      <div class="theme-options">
+        <button class="theme-option" data-theme="darkMode">
+          <div class="theme-preview theme-preview-dark">
+            <div class="preview-header"></div>
+            <div class="preview-content">
+              <div class="preview-line"></div>
+              <div class="preview-line short"></div>
+            </div>
+          </div>
+          <span class="theme-name">Dark Mode</span>
+          <span class="theme-desc">Classic dark theme</span>
+        </button>
+        <button class="theme-option" data-theme="cyberpunk">
+          <div class="theme-preview theme-preview-cyber">
+            <div class="preview-header"></div>
+            <div class="preview-content">
+              <div class="preview-line"></div>
+              <div class="preview-line short"></div>
+            </div>
+          </div>
+          <span class="theme-name">Cyberpunk</span>
+          <span class="theme-desc">Neon & glitch effects</span>
+        </button>
+        <button class="theme-option" data-theme="professional">
+          <div class="theme-preview theme-preview-prof">
+            <div class="preview-header"></div>
+            <div class="preview-content">
+              <div class="preview-line"></div>
+              <div class="preview-line short"></div>
+            </div>
+          </div>
+          <span class="theme-name">Professional</span>
+          <span class="theme-desc">Clean & minimal</span>
+        </button>
+        <button class="theme-option" data-theme="ocean">
+          <div class="theme-preview theme-preview-ocean">
+            <div class="preview-header"></div>
+            <div class="preview-content">
+              <div class="preview-line"></div>
+              <div class="preview-line short"></div>
+            </div>
+          </div>
+          <span class="theme-name">Ocean</span>
+          <span class="theme-desc">Cool blue tones</span>
+        </button>
+        <button class="theme-option" data-theme="forest">
+          <div class="theme-preview theme-preview-forest">
+            <div class="preview-header"></div>
+            <div class="preview-content">
+              <div class="preview-line"></div>
+              <div class="preview-line short"></div>
+            </div>
+          </div>
+          <span class="theme-name">Forest</span>
+          <span class="theme-desc">Natural greens</span>
+        </button>
+        <button class="theme-option" data-theme="sunset">
+          <div class="theme-preview theme-preview-sunset">
+            <div class="preview-header"></div>
+            <div class="preview-content">
+              <div class="preview-line"></div>
+              <div class="preview-line short"></div>
+            </div>
+          </div>
+          <span class="theme-name">Sunset</span>
+          <span class="theme-desc">Warm oranges</span>
+        </button>
+        <button class="theme-option" data-theme="monochrome">
+          <div class="theme-preview theme-preview-mono">
+            <div class="preview-header"></div>
+            <div class="preview-content">
+              <div class="preview-line"></div>
+              <div class="preview-line short"></div>
+            </div>
+          </div>
+          <span class="theme-name">Monochrome</span>
+          <span class="theme-desc">Black & white</span>
+        </button>
+        <button class="theme-option" data-theme="randomMix">
+          <div class="theme-preview theme-preview-random">
+            <div class="preview-header"></div>
+            <div class="preview-content">
+              <div class="preview-line"></div>
+              <div class="preview-line short"></div>
+            </div>
+          </div>
+          <span class="theme-name">Random Mix</span>
+          <span class="theme-desc">Surprise color combo!</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.theme-switcher {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: var(--z-tooltip);
+}
+
+.theme-control-wrapper {
+  position: relative;
+}
+
+.theme-toggle-btn {
+  background: var(--bg-secondary);
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-toggle-btn:hover,
+.theme-toggle-btn:focus {
+  box-shadow: 0 0 var(--glow-medium) var(--primary-color);
+  transform: rotate(180deg);
+}
+
+.theme-icon {
+  fill: var(--primary-color);
+  transition: transform 0.3s ease;
+}
+
+.theme-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 10px;
+  background: var(--bg-primary);
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  min-width: 280px;
+  max-height: 500px;
+  overflow-y: auto;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.theme-dropdown.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.theme-dropdown-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.theme-dropdown-header h3 {
+  margin: 0;
+  font-size: 1.1em;
+  color: var(--primary-color);
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: var(--primary-color);
+  font-size: 24px;
+  cursor: pointer;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.close-btn:hover {
+  transform: scale(1.2);
+}
+
+.theme-options {
+  padding: 10px;
+}
+
+.theme-option {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 8px;
+  background: var(--bg-secondary);
+  border: 2px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.theme-option:hover {
+  border-color: var(--primary-color);
+  transform: translateX(5px);
+}
+
+.theme-option.active {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 var(--glow-small) var(--primary-color);
+}
+
+.theme-preview {
+  width: 100%;
+  height: 60px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.preview-header {
+  height: 15px;
+  background: currentColor;
+  opacity: 0.8;
+}
+
+.preview-content {
+  padding: 8px;
+  height: calc(100% - 15px);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.preview-line {
+  height: 4px;
+  background: currentColor;
+  opacity: 0.4;
+  border-radius: 2px;
+}
+
+.preview-line.short {
+  width: 60%;
+}
+
+.theme-preview-dark {
+  background: #1a1a1a;
+  color: #b19cd9;
+}
+
+.theme-preview-cyber {
+  background: #0a0a0a;
+  color: #00ffff;
+}
+
+.theme-preview-prof {
+  background: #ffffff;
+  color: #2563eb;
+}
+
+.theme-preview-ocean {
+  background: #e6f2ff;
+  color: #0369a1;
+}
+
+.theme-preview-forest {
+  background: #f0fdf4;
+  color: #15803d;
+}
+
+.theme-preview-sunset {
+  background: #fff7ed;
+  color: #ea580c;
+}
+
+.theme-preview-mono {
+  background: #fafafa;
+  color: #404040;
+}
+.theme-preview-random {
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57);
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+.theme-preview-random::before {
+  content: '?';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0.3;
+}
+
+
+.theme-name {
+  display: block;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 4px;
+}
+
+.theme-desc {
+  display: block;
+  font-size: 0.85em;
+  color: var(--tertiary-color);
+  opacity: 0.8;
+}
+
+/* Scrollbar styling */
+.theme-dropdown::-webkit-scrollbar {
+  width: 8px;
+}
+
+.theme-dropdown::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+.theme-dropdown::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 4px;
+}
+
+.theme-dropdown::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-color);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .theme-switcher {
+    top: 15px;
+    right: 15px;
+  }
+  .theme-toggle-btn {
+    padding: 8px;
+    width: 44px;
+    height: 44px;
+  }
+
+  .theme-dropdown {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 320px;
+    max-height: 80vh;
+    border-radius: 12px;
+  }
+  
+  .theme-dropdown.active {
+    transform: translate(-50%, -50%);
+  }
+  .theme-dropdown-header {
+    padding: 12px 15px;
+  }
+  .theme-dropdown-header h3 {
+    font-size: 1em;
+  }
+  .theme-options {
+    padding: 8px;
+  }
+  .theme-option {
+    padding: 10px;
+    margin-bottom: 6px;
+    border-radius: 8px;
+  }
+  .theme-preview {
+    height: 50px;
+    margin-bottom: 6px;
+  }
+  .theme-name {
+    font-size: 0.9em;
+    margin-bottom: 2px;
+  }
+  .theme-desc {
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 480px) {
+  .theme-switcher {
+    top: 10px;
+    right: 10px;
+  }
+  .theme-toggle-btn {
+    padding: 6px;
+    width: 40px;
+    height: 40px;
+  }
+  .theme-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .theme-dropdown {
+    width: 95%;
+    max-width: 280px;
+    max-height: 75vh;
+  }
+  .theme-dropdown-header {
+    padding: 10px 12px;
+  }
+  .theme-options {
+    padding: 6px;
+  }
+  .theme-option {
+    padding: 8px;
+    margin-bottom: 4px;
+  }
+  .theme-preview {
+    height: 40px;
+    margin-bottom: 4px;
+  }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const toggleBtn = document.querySelector('.theme-toggle-btn');
+  const dropdown = document.getElementById('theme-dropdown');
+  const closeBtn = document.querySelector('.close-btn');
+  const themeOptions = document.querySelectorAll('.theme-option');
+  const savedTheme = localStorage.getItem('siteTheme') || 'randomMix';
+  
+  // Mark active theme
+  function updateActiveTheme(themeName) {
+    themeOptions.forEach(option => {
+      if (option.dataset.theme === themeName) {
+        option.classList.add('active');
+      } else {
+        option.classList.remove('active');
+      }
+    });
+  }
+  
+  // Set initial active theme
+  updateActiveTheme(savedTheme);
+  
+  // Toggle dropdown
+  toggleBtn.addEventListener('click', function(e) {
+    e.stopPropagation();
+    dropdown.classList.toggle('active');
+  });
+  
+  // Close dropdown
+  closeBtn.addEventListener('click', function() {
+    dropdown.classList.remove('active');
+  });
+  
+  // Close on outside click
+  document.addEventListener('click', function(e) {
+    if (!dropdown.contains(e.target) && !toggleBtn.contains(e.target)) {
+      dropdown.classList.remove('active');
+    }
+  });
+  
+  // Handle theme selection
+  themeOptions.forEach(option => {
+    option.addEventListener('click', function() {
+      const themeName = this.dataset.theme;
+    if (window.themeModel) {
+        window.themeModel.applyTheme(themeName);
+        updateActiveTheme(themeName);
+        dropdown.classList.remove('active');
+    }
+    });
+  });
+});
+</script>
+<div class="site-header">
+  <div class="header-content">
+    <h1><a href="/Science/">Journal of Speculative Science</a></h1>
+    <p class="site-tagline">A journal dedicated to exploring speculative ideas in science and technology.</p>
+    <nav class="site-nav">
+      <a href="/Science/ai/">AI & Tech</a>
+      <a href="/Science/social/">Social Dynamics</a>
+      <a href="/Science/scifi/">Quantum Theories</a>
+      <a href="/Science/projects/">Project Ideas</a>
+      <a href="/Science/creative_writing/">Creative Writing</a>
+    </nav>
+  </div>
+</div>
+
+<script language="JavaScript">
+  // Apply theme on page load
+  document.addEventListener('DOMContentLoaded', function() {
+    // Get saved theme or default to 'darkMode'
+    const savedTheme = localStorage.getItem('siteTheme') || 'randomMix';
+    
+  // Linear Model for Theme Color Generation
+  class ThemeLinearModel {
+    constructor() {
+      // Base color components (0-255 scale)
+      this.baseColors = {
+        primary: { r: 128, g: 128, b: 128 },
+        secondary: { r: 100, g: 100, b: 100 },
+        tertiary: { r: 80, g: 80, b: 80 },
+        error: { r: 200, g: 50, b: 50 },
+        warning: { r: 200, g: 150, b: 50 },
+        info: { r: 50, g: 150, b: 200 },
+        bgPrimary: { r: 240, g: 240, b: 240 },
+        bgSecondary: { r: 220, g: 220, b: 220 },
+        bgAccent: { r: 200, g: 200, b: 200 }
+      };
+
+      // Theme coefficients matrix
+      this.themeCoefficients = {
+        cyberpunk: {
+          primary: { r: -1.0, g: 1.0, b: 1.0 },     // Cyan
+          secondary: { r: 1.0, g: -1.0, b: 1.0 },   // Magenta
+          tertiary: { r: -1.0, g: 1.0, b: 0.3 },    // Green
+          error: { r: 1.0, g: -1.0, b: -1.0 },      // Red
+          warning: { r: 1.0, g: 0.3, b: -1.0 },     // Orange
+          info: { r: -1.0, g: 0.0, b: 1.0 },        // Blue
+          bgPrimary: { r: -1.88, g: -1.88, b: -1.88 }, // True black
+          bgSecondary: { r: -1.85, g: -1.88, b: -1.82 }, // Very dark purple
+          bgAccent: { r: -1.82, g: -1.85, b: -1.75 },  // Dark blue-purple
+          // Architecture parameters
+          glowIntensity: 2.0,
+          animationSpeed: 0.8,
+          glitchIntensity: 3,
+          borderWidth: 2,
+          borderRadius: 0,
+          containerWidth: 800,
+          spacingUnit: 20
+        },
+        professional: {
+          primary: { r: -0.6, g: -0.4, b: 0.8 },    // Blue
+          secondary: { r: -0.9, g: 0.7, b: 0.0 },    // Green
+          tertiary: { r: -0.3, g: -0.2, b: -0.1 },  // Gray
+          error: { r: 0.8, g: -0.7, b: -0.7 },      // Red
+          warning: { r: 0.9, g: 0.2, b: -0.9 },     // Orange
+          info: { r: -0.7, g: -0.3, b: 0.9 },       // Blue
+          bgPrimary: { r: 0.9, g: 0.9, b: 0.9 },    // White
+          bgSecondary: { r: 0.85, g: 0.85, b: 0.85 }, // Light gray
+          bgAccent: { r: 0.8, g: 0.8, b: 0.8 },      // Gray
+          // Architecture parameters
+          glowIntensity: 0.3,
+          animationSpeed: 1.2,
+          glitchIntensity: 0,
+          borderWidth: 1,
+          borderRadius: 4,
+          containerWidth: 900,
+          spacingUnit: 24
+        },
+        darkMode: {
+          primary: { r: 0.0, g: -0.1, b: 0.9 },     // Light purple
+          secondary: { r: -0.8, g: 0.7, b: 0.2 },    // Green
+          tertiary: { r: 0.2, g: 0.3, b: 0.3 },     // Light gray
+          error: { r: 0.9, g: -0.5, b: -0.5 },      // Light red
+          warning: { r: 0.9, g: 0.7, b: -0.8 },     // Yellow
+          info: { r: -0.6, g: 0.3, b: 0.9 },        // Light blue
+         bgPrimary: { r: -1.73, g: -1.71, b: -1.65 }, // Very dark gray (#111827)
+         bgSecondary: { r: -1.68, g: -1.64, b: -1.58 }, // Darker gray (#1f2937)
+         bgAccent: { r: -1.58, g: -1.54, b: -1.48 },  // Medium dark gray (#374151)
+          // Architecture parameters
+          glowIntensity: 1.0,
+          animationSpeed: 1.0,
+          glitchIntensity: 2,
+          borderWidth: 2,
+          borderRadius: 0,
+          containerWidth: 800,
+          spacingUnit: 20
+        },
+        ocean: {
+          primary: { r: -0.97, g: -0.4, b: 0.3 },    // Cyan
+          secondary: { r: -0.98, g: -0.3, b: 0.7 },  // Light cyan
+          tertiary: { r: -0.95, g: -0.5, b: 0.1 },   // Dark cyan
+          error: { r: 0.7, g: -0.8, b: -0.8 },       // Red
+          warning: { r: 0.9, g: -0.5, b: -0.9 },     // Orange
+          info: { r: -0.99, g: -0.5, b: 0.5 },       // Blue
+          bgPrimary: { r: -0.85, g: -0.75, b: -0.65 },    // Dark blue
+          bgSecondary: { r: -0.8, g: -0.7, b: -0.6 }, // Darker blue
+          bgAccent: { r: -0.75, g: -0.65, b: -0.55 },    // Blue tint
+          // Architecture parameters
+          glowIntensity: 0.8,
+          animationSpeed: 1.5,
+          glitchIntensity: 1,
+          borderWidth: 2,
+          borderRadius: 8,
+          containerWidth: 850,
+          spacingUnit: 22
+        },
+        forest: {
+          primary: { r: -0.9, g: 0.3, b: -0.7 },     // Green
+          secondary: { r: -0.9, g: 0.5, b: -0.6 },   // Light green
+          tertiary: { r: -0.9, g: 0.0, b: -0.7 },    // Dark green
+          error: { r: 0.4, g: -0.9, b: -0.9 },       // Dark red
+          warning: { r: 0.8, g: -0.6, b: -0.95 },    // Dark orange
+          info: { r: -0.98, g: 0.2, b: -0.6 },       // Teal
+          bgPrimary: { r: -0.9, g: -0.8, b: -0.85 },    // Dark green
+          bgSecondary: { r: -0.85, g: -0.75, b: -0.8 }, // Darker green
+          bgAccent: { r: -0.8, g: -0.7, b: -0.75 },     // Green tint
+          // Architecture parameters
+          glowIntensity: 0.6,
+          animationSpeed: 1.3,
+          glitchIntensity: 0,
+          borderWidth: 2,
+          borderRadius: 6,
+          containerWidth: 820,
+          spacingUnit: 20
+        },
+        sunset: {
+          primary: { r: 0.9, g: -0.5, b: -0.9 },     // Orange
+          secondary: { r: 0.9, g: -0.4, b: -0.7 },   // Light orange
+          tertiary: { r: 0.8, g: -0.6, b: -0.95 },   // Dark orange
+          error: { r: 0.2, g: -0.9, b: -0.9 },       // Dark red
+          warning: { r: 0.7, g: -0.5, b: -0.98 },    // Amber
+          info: { r: 0.5, g: -0.7, b: -0.95 },       // Red-orange
+          bgPrimary: { r: -0.85, g: -0.9, b: -0.95 },   // Dark with orange tint
+          bgSecondary: { r: -0.8, g: -0.85, b: -0.9 }, // Darker
+          bgAccent: { r: -0.75, g: -0.8, b: -0.85 },    // Orange tint
+          // Architecture parameters
+          glowIntensity: 1.2,
+          animationSpeed: 0.9,
+          glitchIntensity: 1,
+          borderWidth: 2,
+          borderRadius: 4,
+          containerWidth: 800,
+          spacingUnit: 18
+        },
+        monochrome: {
+          primary: { r: -0.5, g: -0.5, b: -0.5 },    // Gray
+          secondary: { r: -0.3, g: -0.3, b: -0.3 },  // Light gray
+          tertiary: { r: -0.6, g: -0.6, b: -0.6 },   // Dark gray
+          error: { r: -0.8, g: -0.8, b: -0.8 },      // Very dark gray
+          warning: { r: -0.5, g: -0.5, b: -0.5 },    // Gray
+          info: { r: -0.3, g: -0.3, b: -0.3 },       // Light gray
+          bgPrimary: { r: 0.95, g: 0.95, b: 0.95 },  // Near white
+          bgSecondary: { r: 0.9, g: 0.9, b: 0.9 }, // Light gray
+          bgAccent: { r: 0.85, g: 0.85, b: 0.85 }, // Gray
+          // Architecture parameters
+          glowIntensity: 0.2,
+          animationSpeed: 1.0,
+          glitchIntensity: 0,
+          borderWidth: 1,
+          borderRadius: 2,
+          containerWidth: 800,
+          spacingUnit: 20
+        },
+        randomMix: {
+          // These will be generated dynamically
+          primary: { r: 0, g: 0, b: 0 },
+          secondary: { r: 0, g: 0, b: 0 },
+          tertiary: { r: 0, g: 0, b: 0 },
+          error: { r: 0, g: 0, b: 0 },
+          warning: { r: 0, g: 0, b: 0 },
+          info: { r: 0, g: 0, b: 0 },
+          bgPrimary: { r: 0, g: 0, b: 0 },
+          bgSecondary: { r: 0, g: 0, b: 0 },
+          bgAccent: { r: 0, g: 0, b: 0 },
+          // Architecture parameters will be randomized
+          glowIntensity: 1.0,
+          animationSpeed: 1.0,
+          glitchIntensity: 1,
+          borderWidth: 2,
+          borderRadius: 4,
+          containerWidth: 800,
+          spacingUnit: 20
+        }
+      };
+    }
+    // Generate random coefficients for Random Mix theme
+    generateRandomCoefficients() {
+      const randomCoef = () => (Math.random() * 2 - 1); // -1 to 1
+      const randomArchParam = (min, max) => Math.random() * (max - min) + min;
+      return {
+        primary: { r: randomCoef(), g: randomCoef(), b: randomCoef() },
+        secondary: { r: randomCoef(), g: randomCoef(), b: randomCoef() },
+        tertiary: { r: randomCoef(), g: randomCoef(), b: randomCoef() },
+        error: { r: randomCoef() * 0.5 + 0.5, g: randomCoef() * 0.5 - 0.5, b: randomCoef() * 0.5 - 0.5 }, // Tend towards red
+        warning: { r: randomCoef() * 0.5 + 0.5, g: randomCoef() * 0.5, b: randomCoef() * 0.5 - 0.5 }, // Tend towards orange
+        info: { r: randomCoef() * 0.5 - 0.5, g: randomCoef() * 0.5, b: randomCoef() * 0.5 + 0.5 }, // Tend towards blue
+        bgPrimary: { r: randomCoef() * 0.3, g: randomCoef() * 0.3, b: randomCoef() * 0.3 }, // Keep backgrounds subtle
+        bgSecondary: { r: randomCoef() * 0.2, g: randomCoef() * 0.2, b: randomCoef() * 0.2 },
+        bgAccent: { r: randomCoef() * 0.25, g: randomCoef() * 0.25, b: randomCoef() * 0.25 },
+        // Architecture parameters
+        glowIntensity: randomArchParam(0.2, 2.0),
+        animationSpeed: randomArchParam(0.5, 2.0),
+        glitchIntensity: Math.floor(randomArchParam(0, 4)),
+        borderWidth: Math.floor(randomArchParam(1, 3)),
+        borderRadius: Math.floor(randomArchParam(0, 10)),
+        containerWidth: Math.floor(randomArchParam(750, 900)),
+        spacingUnit: Math.floor(randomArchParam(16, 26))
+      };
+    }
+
+
+    // Calculate color value using linear model
+    calculateColor(theme, colorType) {
+      // Generate random coefficients if Random Mix theme
+      if (theme === 'randomMix' && !this.currentRandomCoefficients) {
+        this.currentRandomCoefficients = this.generateRandomCoefficients();
+        this.themeCoefficients.randomMix = this.currentRandomCoefficients;
+      }
+      
+      const base = this.baseColors[colorType];
+      const coef = this.themeCoefficients[theme][colorType];
+
+      // Linear model: color = base + (coefficient * scale)
+      const scale = 127; // Half of 255 for balanced adjustment
+
+      const r = Math.max(0, Math.min(255, base.r + (coef.r * scale)));
+      const g = Math.max(0, Math.min(255, base.g + (coef.g * scale)));
+      const b = Math.max(0, Math.min(255, base.b + (coef.b * scale)));
+
+      return {
+        rgb: { r, g, b },
+        hex: this.rgbToHex(r, g, b)
+      };
+    }
+
+    // Convert RGB to hex
+    rgbToHex(r, g, b) {
+      const toHex = (n) => Math.round(n).toString(16).padStart(2, '0');
+      return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+    }
+
+    // Generate all colors for a theme
+    generateTheme(themeName) {
+      // Reset random coefficients for new random theme
+      if (themeName === 'randomMix') {
+        this.currentRandomCoefficients = null;
+      }
+      
+      const theme = {};
+      const colorTypes = Object.keys(this.baseColors);
+      const themeConfig = this.themeCoefficients[themeName];
+
+      colorTypes.forEach(colorType => {
+        const color = this.calculateColor(themeName, colorType);
+        // Map to correct CSS variable names
+        if (colorType === 'bgPrimary') {
+          theme['--bg-primary'] = color.hex;
+        } else if (colorType === 'bgSecondary') {
+          theme['--bg-secondary'] = color.hex;
+        } else if (colorType === 'bgAccent') {
+          theme['--bg-accent'] = color.hex;
+        } else {
+          const cssVarName = colorType.replace(/([A-Z])/g, '-$1').toLowerCase();
+          theme[`--${cssVarName}-color`] = color.hex;
+        }
+      });
+      // Add architecture parameters
+      theme['--glow-intensity'] = themeConfig.glowIntensity;
+      theme['--animation-speed'] = themeConfig.animationSpeed;
+      theme['--glitch-intensity'] = `${themeConfig.glitchIntensity}px`;
+      theme['--border-width'] = `${themeConfig.borderWidth}px`;
+      theme['--border-radius'] = `${themeConfig.borderRadius}px`;
+      theme['--container-width'] = `${themeConfig.containerWidth}px`;
+      theme['--spacing-unit'] = `${themeConfig.spacingUnit}px`;
+      // Calculate derived values
+      theme['--glow-small'] = `${5 * themeConfig.glowIntensity}px`;
+      theme['--glow-medium'] = `${10 * themeConfig.glowIntensity}px`;
+      theme['--glow-large'] = `${20 * themeConfig.glowIntensity}px`;
+      theme['--glow-xlarge'] = `${30 * themeConfig.glowIntensity}px`;
+      theme['--anim-fast'] = `${0.5 * themeConfig.animationSpeed}s`;
+      theme['--anim-normal'] = `${1 * themeConfig.animationSpeed}s`;
+      theme['--anim-slow'] = `${2 * themeConfig.animationSpeed}s`;
+      theme['--anim-slower'] = `${3 * themeConfig.animationSpeed}s`;
+      theme['--anim-slowest'] = `${4 * themeConfig.animationSpeed}s`;
+
+
+      return theme;
+    }
+    // Apply theme to document
+    applyTheme(themeName) {
+      const theme = this.generateTheme(themeName);
+      const root = document.documentElement;
+      Object.entries(theme).forEach(([property, value]) => {
+        root.style.setProperty(property, value);
+      });
+      // Save theme preference
+      localStorage.setItem('siteTheme', themeName);
+    }
+
+
+    // Get coefficient matrix for analysis
+    getCoefficientsMatrix() {
+      return this.themeCoefficients;
+    }
+  }
+
+    // Initialize and apply theme
+    const model = new ThemeLinearModel();
+    model.applyTheme(savedTheme);
+    
+    // Make model globally available for theme switching
+    window.themeModel = model;
+  });
+</script>
+
+
+
+
+<nav class="breadcrumbs">
+  <a href="/Science/">Home</a>
+  
+    
+      <span class="separator">›</span>
+      
+      
+      <a href="/Science/ai/">Ai</a>
+    
+  
+    
+      <span class="separator">›</span>
+      <span class="current">Co-Inverse Permutation Modifiers for Neural Networks: Exploiting Weight Symmetries for Post-Training Optimization</span>
+    
+  
+</nav>
+
+
+
+<article class="post">
+    <header class="post-header">
+        <h1 class="post-title">Co-Inverse Permutation Modifiers for Neural Networks: Exploiting Weight Symmetries for Post-Training Optimization</h1>
+        <p class="post-meta">
+            <time datetime="">
+                
+            </time>
+            
+            
+        </p>
+    </header>
+
+    <div class="post-content">
+        <h1 id="co-inverse-permutation-modifiers-for-neural-networks-exploiting-weight-symmetries-for-post-training-optimization">Co-Inverse Permutation Modifiers for Neural Networks: Exploiting Weight Symmetries for Post-Training Optimization</h1>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>Neural networks exhibit inherent permutation symmetries where functionally equivalent representations can be obtained through systematic reordering of neurons and their associated weights. We propose Co-Inverse Permutation Modifiers (CIPMs), a framework that exploits these symmetries for post-training model optimization, including structured pruning, parameter partitioning, and correlation-driven reorganization. Our approach introduces a trainable meta-analysis layer that learns to identify optimal permutation policies based on cross-correlations between network components, enabling principled model compression and improved interpretability without retraining the base network.</p>
+
+<h2 id="1-introduction">1. Introduction</h2>
+
+<p>The parameter space of neural networks contains vast redundancies due to permutation symmetries inherent in their architecture. For any feedforward network, neurons within hidden layers can be reordered along with their corresponding input and output connections to yield functionally identical models. This symmetry-induced degeneracy represents both a challenge for optimization landscapes and an opportunity for post-training model improvement.</p>
+
+<p>Traditional approaches to model compression and analysis often ignore these fundamental symmetries, leading to suboptimal pruning decisions and missed opportunities for parameter sharing. We propose exploiting permutation symmetries systematically through Co-Inverse Permutation Modifiers, which maintain functional equivalence while enabling structured model optimization.</p>
+
+<h2 id="2-mathematical-framework">2. Mathematical Framework</h2>
+
+<h3 id="21-permutation-symmetries-in-neural-networks">2.1 Permutation Symmetries in Neural Networks</h3>
+
+<p>Consider a feedforward network with weight matrices <strong>W</strong>ₗ ∈ ℝⁿˡ⁺¹ˣⁿˡ for layer l. A permutation matrix <strong>P</strong>ₗ ∈ ℝⁿˡˣⁿˡ applied to layer l induces corresponding transformations:</p>
+
+<p><strong>W̃</strong>ₗ = <strong>P</strong>ₗ₊₁ <strong>W</strong>ₗ <strong>P</strong>ₗᵀ</p>
+
+<p>where <strong>P</strong>ₗᵀ represents the co-inverse permutation that maintains network equivalence.</p>
+
+<h3 id="22-co-inverse-permutation-modifiers">2.2 Co-Inverse Permutation Modifiers</h3>
+
+<p>A CIPM consists of a permutation <strong>P</strong> and its co-inverse <strong>P</strong>⁻¹ such that applying both maintains functional equivalence:</p>
+
+<p>f(<strong>x</strong>; <strong>W</strong>) = f(<strong>x</strong>; <strong>P</strong><strong>W</strong><strong>P</strong>⁻¹)</p>
+
+<p>This constraint ensures that permutations can be applied and reversed without affecting network outputs, enabling safe exploration of weight space reorganization.</p>
+
+<h3 id="23-cross-correlation-analysis">2.3 Cross-Correlation Analysis</h3>
+
+<p>We define the cross-correlation matrix between neurons i and j across input samples <strong>X</strong> as:</p>
+
+<p>C_{ij} = corr(h_i(<strong>X</strong>), h_j(<strong>X</strong>))</p>
+
+<p>where h_i(<strong>X</strong>) represents the activation of neuron i across the input batch. This correlation structure guides permutation decisions.</p>
+
+<h2 id="3-meta-analysis-layer-architecture">3. Meta-Analysis Layer Architecture</h2>
+
+<h3 id="31-correlation-driven-permutation-learning">3.1 Correlation-Driven Permutation Learning</h3>
+
+<p>The meta-analysis layer M takes correlation statistics as input and outputs permutation policies:</p>
+
+<p><strong>π</strong> = M(<strong>C</strong>, <strong>θ</strong>_meta)</p>
+
+<p>where <strong>π</strong> represents a permutation policy (potentially stochastic) and <strong>θ</strong>_meta are learnable parameters that adapt to correlation patterns.</p>
+
+<h3 id="32-multi-scale-permutation-optimization">3.2 Multi-Scale Permutation Optimization</h3>
+
+<p>We propose a hierarchical approach operating at three scales:</p>
+
+<p><strong>Intra-layer permutations</strong>: Reorder neurons within individual layers based on local correlation patterns to identify redundant or complementary computational paths.</p>
+
+<p><strong>Inter-layer alignment</strong>: Coordinate permutations across layers to maintain coherent information flow while maximizing opportunities for structured pruning.</p>
+
+<p><strong>Global reorganization</strong>: Apply network-wide permutation policies that optimize for specific objectives (compression ratio, interpretability, transfer learning efficiency).</p>
+
+<h3 id="33-training-dynamics">3.3 Training Dynamics</h3>
+
+<p>The meta-layer is trained with a multi-objective loss:</p>
+
+<p>L_meta = λ₁L_compression + λ₂L_correlation + λ₃L_stability</p>
+
+<p>where:</p>
+<ul>
+  <li>L_compression encourages permutations that facilitate pruning</li>
+  <li>L_correlation promotes decorrelation or correlation clustering as appropriate</li>
+  <li>L_stability ensures permutation policies generalize across different inputs</li>
+</ul>
+
+<h2 id="4-applications-and-use-cases">4. Applications and Use Cases</h2>
+
+<h3 id="41-structured-pruning-enhancement">4.1 Structured Pruning Enhancement</h3>
+
+<p>Traditional pruning methods make local decisions about individual weights or neurons. CIPMs enable global reorganization before pruning, clustering redundant computations together for more effective removal. By permuting functionally similar neurons into contiguous blocks, structured pruning becomes more principled and can achieve higher compression ratios.</p>
+
+<h3 id="42-model-archaeology-and-interpretability">4.2 Model Archaeology and Interpretability</h3>
+
+<p>Permutation symmetries obscure the true computational structure of trained networks. CIPMs can canonicalize networks by finding standard orderings that reveal:</p>
+<ul>
+  <li>Functional modules and their interactions</li>
+  <li>Redundant computational paths</li>
+  <li>The effective dimensionality of learned representations</li>
+</ul>
+
+<p>This “archaeological” analysis helps understand what networks actually learn beyond permutation noise.</p>
+
+<h3 id="43-transfer-learning-optimization">4.3 Transfer Learning Optimization</h3>
+
+<p>When adapting pre-trained models to new tasks, CIPMs can reorganize features to better align with target domain requirements. By learning task-specific permutation policies, the framework can:</p>
+<ul>
+  <li>Concentrate task-relevant features for efficient fine-tuning</li>
+  <li>Identify transferable vs. task-specific computational paths</li>
+  <li>Reduce catastrophic forgetting through strategic feature isolation</li>
+</ul>
+
+<h3 id="44-continual-learning-applications">4.4 Continual Learning Applications</h3>
+
+<p>As networks encounter new tasks, correlation patterns evolve. CIPMs can adapt network organization dynamically:</p>
+<ul>
+  <li>Reorganize neurons to minimize interference between old and new tasks</li>
+  <li>Create dedicated pathways for different task families</li>
+  <li>Enable efficient parameter sharing across related tasks</li>
+</ul>
+
+<h2 id="5-computational-considerations">5. Computational Considerations</h2>
+
+<h3 id="51-efficient-permutation-representation">5.1 Efficient Permutation Representation</h3>
+
+<p>Direct manipulation of permutation matrices scales poorly. We propose several efficient parameterizations:</p>
+
+<p><strong>Sorting networks</strong>: Differentiable sorting operations that can be composed to generate complex permutations while remaining computationally tractable.</p>
+
+<p><strong>Sparse permutations</strong>: Focus on local reorderings that capture the most significant correlation patterns without full matrix operations.</p>
+
+<p><strong>Hierarchical decomposition</strong>: Break complex permutations into compositions of simpler operations that can be computed and inverted efficiently.</p>
+
+<h3 id="52-correlation-tracking">5.2 Correlation Tracking</h3>
+
+<p>Computing full correlation matrices at each step is expensive. We develop efficient approximations:</p>
+<ul>
+  <li>Running correlation estimates updated incrementally</li>
+  <li>Sparse correlation tracking for only the most significant pairs</li>
+  <li>Periodic full recomputation with interpolation between updates</li>
+</ul>
+
+<h2 id="6-theoretical-analysis">6. Theoretical Analysis</h2>
+
+<h3 id="61-loss-landscape-geometry">6.1 Loss Landscape Geometry</h3>
+
+<p>Permutation symmetries create flat regions in the loss landscape corresponding to functionally equivalent solutions. CIPMs can be viewed as methods for navigating these flat regions to find representations optimized for downstream tasks beyond the original training objective.</p>
+
+<p>The existence of these symmetries suggests that traditional optimization may get trapped in particular permutation modes. Post-training permutation optimization explores alternative regions of equivalent loss but potentially superior structure for specific applications.</p>
+
+<h3 id="62-generalization-properties">6.2 Generalization Properties</h3>
+
+<p>We conjecture that optimal permutation policies learned on one network architecture may transfer to other networks of the same structure, revealing universal organizational principles. This could enable:</p>
+<ul>
+  <li>Pre-computed permutation templates for common architectures</li>
+  <li>Rapid model optimization without task-specific meta-layer training</li>
+  <li>Insights into fundamental computational motifs in neural networks</li>
+</ul>
+
+<h3 id="63-connection-to-lottery-ticket-hypothesis">6.3 Connection to Lottery Ticket Hypothesis</h3>
+
+<p>The lottery ticket hypothesis suggests that sparse subnetworks with good performance exist within larger networks. CIPMs provide a new perspective: perhaps “winning tickets” are not unique sparse patterns but equivalence classes under permutation. This framework could help identify whether lottery tickets represent genuinely different computational strategies or merely permuted versions of the same underlying solution.</p>
+
+<h2 id="7-experimental-validation-framework">7. Experimental Validation Framework</h2>
+
+<h3 id="71-benchmark-tasks">7.1 Benchmark Tasks</h3>
+
+<p>Comprehensive evaluation requires testing across diverse scenarios:</p>
+<ul>
+  <li><strong>Image classification</strong>: Standard benchmarks (CIFAR-10/100, ImageNet) to validate compression performance</li>
+  <li><strong>Natural language processing</strong>: Transformer architectures to test attention pattern reorganization</li>
+  <li><strong>Transfer learning</strong>: Cross-domain adaptation tasks to measure alignment effectiveness</li>
+  <li><strong>Continual learning</strong>: Sequential task learning to evaluate dynamic reorganization</li>
+</ul>
+
+<h3 id="72-evaluation-metrics">7.2 Evaluation Metrics</h3>
+
+<p>Success metrics span multiple dimensions:</p>
+<ul>
+  <li><strong>Compression efficiency</strong>: Pruning ratios achievable after CIPM reorganization</li>
+  <li><strong>Performance preservation</strong>: Accuracy retention through permutation operations</li>
+  <li><strong>Interpretability improvement</strong>: Quantitative measures of module coherence and feature clustering</li>
+  <li><strong>Computational overhead</strong>: Time and memory costs of permutation operations and meta-layer training</li>
+</ul>
+
+<h3 id="73-ablation-studies">7.3 Ablation Studies</h3>
+
+<p>Critical components requiring systematic evaluation:</p>
+<ul>
+  <li>Impact of different correlation measures and timescales</li>
+  <li>Sensitivity to meta-layer architecture choices</li>
+  <li>Comparison between analytical and learned permutation policies</li>
+  <li>Effect of hierarchical vs. flat permutation optimization</li>
+</ul>
+
+<h2 id="8-broader-implications">8. Broader Implications</h2>
+
+<h3 id="81-neural-architecture-search">8.1 Neural Architecture Search</h3>
+
+<p>CIPMs could inform architecture design by revealing which connectivity patterns are truly necessary versus artifacts of permutation symmetries. This might lead to more efficient architectures that build in the organizational principles discovered through post-training analysis.</p>
+
+<h3 id="82-federated-learning">8.2 Federated Learning</h3>
+
+<p>In federated settings, different clients may converge to functionally equivalent but permutation-distinct models. CIPMs could enable better model aggregation by aligning equivalent neurons across clients before averaging.</p>
+
+<h3 id="83-model-compression-paradigms">8.3 Model Compression Paradigms</h3>
+
+<p>The framework suggests a new paradigm for compression: rather than removing components directly, first reorganize to make optimal compression choices obvious. This “organize then compress” approach may achieve better performance-size trade-offs than traditional methods.</p>
+
+<h2 id="9-challenges-and-future-directions">9. Challenges and Future Directions</h2>
+
+<h3 id="91-scalability-concerns">9.1 Scalability Concerns</h3>
+
+<p>Current correlation analysis scales quadratically with layer width. Future work should develop more efficient methods for identifying significant correlation patterns in very large networks, possibly through sampling strategies or hierarchical approximations.</p>
+
+<h3 id="92-architecture-generalization">9.2 Architecture Generalization</h3>
+
+<p>While the framework is general, specific implementations may need adaptation for different architectures (convolutions, attention mechanisms, normalization layers). Developing architecture-agnostic permutation policies remains an open challenge.</p>
+
+<h3 id="93-dynamic-permutation-learning">9.3 Dynamic Permutation Learning</h3>
+
+<p>Most discussion assumes static post-training optimization. Dynamic permutation adjustment during inference could enable adaptive models that reorganize based on input characteristics, but would require careful analysis of computational trade-offs.</p>
+
+<h2 id="10-conclusion">10. Conclusion</h2>
+
+<p>Co-Inverse Permutation Modifiers represent a principled approach to exploiting neural network symmetries for post-training optimization. By learning to identify and leverage correlation patterns through trainable meta-analysis layers, the framework enables more effective model compression, improved interpretability, and enhanced transfer learning capabilities.</p>
+
+<p>The key insight is that neural networks’ inherent symmetries are not just mathematical curiosities but exploitable structure for practical model improvement. As networks continue to grow in size and complexity, methods that can reveal and reorganize their true computational structure will become increasingly valuable.</p>
+
+<p>Future work should focus on scaling these approaches to state-of-the-art models, developing efficient implementations, and exploring the theoretical implications for our understanding of neural network optimization landscapes. The intersection of symmetry, correlation, and optimization may yield new insights into the fundamental nature of learned representations in artificial neural networks.</p>
+
+<hr />
+
+<p><em>Correspondence and implementation details available upon request. Code and experimental results will be made available upon publication.</em></p>
+
+    </div>
+
+    
+</article>
+<nav class="post-navigation">
+  
+  
+</nav>
+
+
+
+
+<div class="site-footer">
+  <div class="footer-content">
+    <p>&copy; 2025 Journal of Speculative Science. POWERED BY AGENTIC-HUMAN COLLABORATION.</p>
+    <p>A journal dedicated to exploring speculative ideas in science and technology.</p>
+  </div>
+</div>
+<!-- Back to Top Button -->
+<div class="back-to-top" id="backToTop">↑</div>
+
+<!-- JavaScript for Effects -->
+<script>
+    function createParticles() {
+        const particleContainer = document.getElementById('particleField');
+        if (!particleContainer) return;
+
+        setInterval(() => {
+            if (particleContainer.children.length < 20) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDuration = (Math.random() * 10 + 5) + 's';
+                particleContainer.appendChild(particle);
+
+                setTimeout(() => {
+                    if (particle.parentNode) {
+                        particle.parentNode.removeChild(particle);
+                    }
+                }, 15000);
+            }
+        }, 500);
+    }
+    // Back to top functionality
+    function initBackToTop() {
+        const backToTopButton = document.getElementById('backToTop');
+        if (!backToTopButton) return;
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.add('visible');
+            } else {
+                backToTopButton.classList.remove('visible');
+            }
+        });
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    }
+    // Add glitch effect to random elements
+    function addRandomGlitch() {
+        const elements = document.querySelectorAll('h1, h2, h3');
+        if (elements.length === 0) return;
+        setInterval(() => {
+            const randomElement = elements[Math.floor(Math.random() * elements.length)];
+            randomElement.classList.add('glitch');
+            randomElement.setAttribute('data-text', randomElement.textContent);
+            setTimeout(() => {
+                randomElement.classList.remove('glitch');
+            }, 200);
+        }, 5000);
+    }
+
+
+    // Initialize effects when page loads
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => {
+            createParticles();
+            initBackToTop();
+            addRandomGlitch();
+        });
+    } else {
+        createParticles();
+        initBackToTop();
+        addRandomGlitch();
+    }
+</script>
+</body>
+</html>
