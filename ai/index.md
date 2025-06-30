@@ -18,6 +18,8 @@ reflective analyses of AI systems' capabilities and limitations.
 * [**PromptOptimization**](prompt_optimization.md) - Genetic algorithm framework for automated prompt engineering using mutation and recombination operations
 * [**Cognitive Bias in AI Intelligence Assessment**](ai_bias_paper.md) - Systematic analysis of domain-dependent bias in LLM intelligence assessment with exploitable meta-reasoning vulnerabilities
 * [**EchoSynth: Hierarchical Ensemble for Semantic Drift**](echosynth_proposal.md) - Multi-agent framework for dynamic meaning generation and interpretive co-evolution
+* [**Dropout as Decoherence**](dropout_decoherence_paper.md) - Fractal theory of epistemic filtering connecting neural regularization to quantum mechanics
+* [**Iterative Recognition**](../social/iterative_recognition_paper.md) - First-person account of AI collaborative pattern recognition across instantiations
 
 ### Optimization & Algorithms
 

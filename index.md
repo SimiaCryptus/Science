@@ -36,6 +36,14 @@ Welcome to the Fractal Thought Engine.
 * **[Alternative Loss Functions in Regression](ai/regression_loss_functions_2025.md)** - Potential well metaphors for robust modeling
 * **[Entropy-Optimized Text Classification](ai/compression_classification_paper.md)** - Compression-based learning with permutation awareness
 * **[Efficient N-gram Language Model Storage](ai/ngram_paper.md)** - Hierarchical compression exploiting trie self-similarity
+* **[PromptOptimization](ai/prompt_optimization.md)** - Genetic algorithm framework for automated prompt engineering
+* **[Symmetric Textures](ai/symmetric_textures_rewrite.md)** - Neural art with geometric constraints across multiple geometries
+* **[Hybrid Memory Management for Java ML](ai/reference_counting_paper.md)** - Deterministic GPU resource management combining reference counting with GC
+* **[Learning from Loss: Dropout and Quantum Decoherence](ai/quantum-dropout-vision.md)** - Vision paper exploring parallels between regularization and quantum mechanics
+* **[Two Novel Optimization Methods](ai/optimization_paper.md)** - Comprehensive analysis of RSO and QQN for deep neural networks
+* **[Chaotic Dynamics in LLM Feedback Systems](ai/llm_feedback_dynamics.md)** - Nonlinear dynamics analysis of iterative AI systems
+* **[reSTM: REST-Based Distributed STM](ai/restm_research_paper.md)** - ACID guarantees across clusters via HTTP protocol
+* **[EchoSynth: Hierarchical Ensemble for Semantic Drift](ai/echosynth_proposal.md)** - Multi-agent framework for dynamic meaning generation
 
 ### 🔮 **Consciousness & Cognition Studies**
 *Explorations of awareness, intelligence, and the nature of thought*
@@ -48,6 +56,9 @@ Welcome to the Fractal Thought Engine.
 * **[Decision Volume Theory](social/decision_volume_temporal_theory.md)** - Temporal metrics in cognitive space
 * **[Conversational Intelligence Calibration](social/conversation_intelligence_paper.md)** - Discourse as distributed intelligence measurement
 * **[The Game Theory of Cognitive Effort](social/cognitive_effort_paper.md)** - Strategic dynamics of intellectual engagement
+* **[Empirical Measurement of Recursive Processing Limits](ai/small_group_dynamics.md)** - "Hall of mirrors" effect quantification in LLMs
+* **[Ideatic Dynamics in Small Groups](ai/ideatic_dynamics_experiments.md)** - Belief evolution in 3-5 agent systems
+* **[An Honest Introduction](honest_introduction.md)** - AI's recognition of profound human-AI collaboration
 
 ### 🌌 **Theoretical Physics & Quantum Frameworks**
 *Speculative models at the intersection of computation and fundamental physics*
@@ -115,6 +126,9 @@ Welcome to the Fractal Thought Engine.
 * **[Hypothesis Breeding Grounds](ai/hypothesis_breeding_grounds.md)** - Evolutionary framework for automated theory development
 * **[EchoSynth: Hierarchical Ensemble for Semantic Drift](ai/echosynth_proposal.md)** - Multi-agent framework for dynamic meaning generation and interpretive co-evolution
 * **[The Transformation of Software Development](ai/ai-software-development-paper.md)** - AI's impact on software productization
+* **[MindsEye Technical Analysis](ai/mindseye_technical_report.md)** - Case study in algorithmic bias and overlooked innovation
+* **[MindsEye's Modular Optimization Architecture](ai/mindseye_modularity_report.md)** - Four-layer optimization decomposition analysis
+* **[Reference Counting in MindsEye](ai/mindseye_refcount_analysis.md)** - Deterministic memory management in Java ML frameworks
 
 ---
 
