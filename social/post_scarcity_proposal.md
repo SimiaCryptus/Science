@@ -9,6 +9,9 @@ As automation and artificial intelligence approach the potential for material po
 ## 1. Introduction and Motivation
 
 The prospect of post-scarcity economics—where material goods become so abundant that traditional economic models based on resource limitations break down—is transitioning from science fiction to policy consideration. Current discussions of automation, universal basic income, and technological unemployment reflect growing recognition that fundamental economic assumptions may soon require revision.
+Recent advances in physics research, particularly in areas like quantum-coherent nuclear fusion (
+see [superfluid_fusion_proposal.md](../scifi/superfluid_fusion_proposal.md)), suggest that material abundance through
+novel energy and matter synthesis may arrive sooner than anticipated.
 
 However, existing analyses of post-scarcity scenarios suffer from three critical limitations: (1) insufficient attention to persistent constraints that remain binding even under material abundance, (2) lack of systematic analysis of possible equilibrium configurations and their stability properties, and (3) inadequate consideration of transition dynamics and path-dependent outcomes.
 
@@ -29,6 +32,9 @@ Even under conditions of material abundance, several categories of constraints r
 **Coordination and Information Constraints**: The computational and social overhead of coordinating large-scale systems creates scaling limits independent of material resources.
 
 **Social and Preference Constraints**: Status competition, cultural heterogeneity, and preference evolution create new forms of scarcity and conflict even under material abundance.
+**Information and Reality Constraints**: As explored in [managed_reality_paper.md](../social/managed_reality_paper.md),
+the management of information environments becomes a critical constraint in post-scarcity societies where traditional
+economic pressures no longer organize human behavior.
 
 ### 2.2 Potential Equilibrium Configurations
 
@@ -37,9 +43,8 @@ Our framework considers multiple possible equilibrium states:
 - **Labor-leisure equilibria** where creative activity and leisure optimization become primary
 - **Status competition equilibria** focused on positional goods and social hierarchy
 - **Innovation-driven equilibria** organized around research and novel experience creation  
-- **Commons-based equilibria** with collective ownership of abundant resources
-- **Fragmented equilibria** featuring multiple coexisting economic systems
-- **Attention economy equilibria** where human attention becomes the primary currency
+- **Curated reality equilibria** where information management systems shape distinct economic experiences (
+  see [managed_reality_paper.md](../social/managed_reality_paper.md))
 
 ## 3. Methodology
 

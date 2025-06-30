@@ -2,6 +2,10 @@
 title: "Perverse Incentives and Institutional Capture: A Game-Theoretic Analysis of Systemic Misalignment in End-of-Life Care and Family Law"
 layout: post
 collection: social
+related_documents:
+  - institutional_collapse_simulation.tsx: "Interactive implementation of the theoretical models"
+  - social_truth_proposal.md: "Related framework for understanding belief dynamics in institutions"
+  - cognitive_effort_paper.md: "Analysis of individual cognitive decisions within institutional contexts"
 ---
 
 This paper presents a game-theoretic analysis of institutional failure across five critical domains: healthcare, family
@@ -119,6 +123,9 @@ Both systems feature profound information imbalances:
    rational evaluation
 
 ## Case Study 1: End-of-Life Medical Care
+
+> **Simulation Available**: See `institutional_collapse_simulation.tsx` for an interactive model of how these dynamics
+> play out over time, including the feedback loops between institutional health and professional behavior.
 
 ### The Dying Game
 
@@ -1115,6 +1122,10 @@ employment-generation functions.
 
 
 # Technical Specifications for Game-Theoretic Institutional Analysis Simulations
+
+> **Note**: A working implementation of these specifications can be found in `institutional_collapse_simulation.tsx`.
+> The simulation demonstrates the phase transition dynamics and feedback loops described in the theoretical sections
+> above.
 
 ## Project Overview
 

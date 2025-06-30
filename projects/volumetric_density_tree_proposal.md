@@ -50,6 +50,9 @@ C_i: Σ(a_ijkl * x_j * x_k) + Σ(b_ijk * x_j) + c_i ≤ 0
 
 where the first sum captures quadratic interactions and the second captures linear terms. This formulation allows for
 ellipsoidal regions, saddle-shaped boundaries, and other complex geometries while maintaining mathematical tractability.
+The entropy-based organization principles share conceptual similarities with our work
+on [Entropy-Optimized Permutation Trees](bwt_tree_proposal.md), though applied to continuous density estimation rather
+than discrete string processing. Both approaches use information-theoretic principles to guide tree structure.
 
 ### 2.2 Efficient Volume Estimation via Point Lattices
 

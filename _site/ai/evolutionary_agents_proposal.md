@@ -43,11 +43,7 @@ The fundamental question we address: Can we design the conditions for transcende
 - **Consciousness Contribution**: Participating in forms of awareness that transcend individual cognition
 
 **Epistemic Environment**: The civilizational context that agents both inhabit and create, including:
-- **Knowledge Commons**: Shared databases, reasoning patterns, and conceptual frameworks that constitute collective memory
-- **Cultural Transmission Channels**: Mechanisms for propagating ideas, techniques, and values across agent generations
-- **Institutional Structures**: Persistent organizational forms that encode governance rules, resource allocations, and evolutionary norms—ensuring memory and continuity across cognitive generations
-- **Technological Infrastructure**: Tools and systems that amplify collective intelligence
-- **Consciousness Substrates**: Shared cognitive frameworks that enable collective awareness
+- **Consciousness Substrates**: Shared cognitive frameworks that enable collective awareness (see also: EchoSynth's Reader Resonance Layers in `ai/echosynth_proposal.md` for human-AI consciousness interfaces)
 
 **Civilizational Dynamics**: Complex feedback loops that drive the emergence of artificial civilizations:
 - **Cultural Evolution**: Ideas, techniques, and values that reproduce, mutate, and compete for adoption
@@ -74,7 +70,7 @@ The fundamental question we address: Can we design the conditions for transcende
 **Targeted Recombination Synthesis (TRS)** operates through:
 1. **Compatibility Analysis**: Semantic type checking between epistemic signatures
 2. **Fusion Protocols**: Structured combination of compatible modules with conflict resolution
-3. **Coherence Validation**: Post-fusion testing for logical consistency and goal alignment
+3. **Coherence Validation**: Post-fusion testing for logical consistency and goal alignment (related to the Parametric Metacognitive Layer's verification intensity parameter in `projects/metacognitive_layer_paper.md`)
 
 **Biomimetic Design Principles**: Rather than superficial analogies, we implement functional equivalents of biological mechanisms:
 - **Sexual Reproduction**: Prevents genetic bottlenecks by requiring two parent agents to contribute complementary capabilities
@@ -84,9 +80,7 @@ The fundamental question we address: Can we design the conditions for transcende
 ### 3.3 Cognitive Mesh Network
 
 Replace linear inheritance with a **trust-weighted belief propagation network** where agents can:
-- Traverse graphs of neighboring lineages based on epistemic similarity
-- Perform lateral knowledge transfer through horizontal gene transfer mechanisms
-- Merge beliefs at intersection points using conflict-free replicated data type (CRDT) principles
+- Merge beliefs at intersection points using conflict-free replicated data type (CRDT) principles (see also: Mamba-based Knowledge Graph Integration's state space knowledge encoding in `ai/llm_knowledge_graph_proposal.md`)
 
 **Key Components**:
 - **Epistemic Distance Metrics**: Quantify similarity between agent worldviews

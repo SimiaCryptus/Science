@@ -910,14 +910,13 @@ document.addEventListener('DOMContentLoaded', function() {
 <p><strong>Hierarchical State Space Design</strong>: The architecture consists of nested Mamba blocks operating at different scales:</p>
 
 <ul>
-  <li><strong>Local Mamba</strong>: Processes conversational sequences with traditional state evolution for maintaining dialogue context</li>
-  <li><strong>Knowledge Mamba</strong>: Maintains a structured state space where each dimension corresponds to cached document transforms</li>
-  <li><strong>Meta Mamba</strong>: Orchestrates selective activation between local conversation state and knowledge state based on contextual relevance</li>
+  <li><strong>Knowledge Mamba</strong>: Maintains a structured state space where each dimension corresponds to cached document transforms (this structured knowledge representation complements the Cognitive Ecology’s Knowledge Commons in <code class="language-plaintext highlighter-rouge">ai/evolutionary_agents_proposal.md</code>)</li>
 </ul>
 
 <p><strong>State Space Knowledge Encoding</strong>: Documents are transformed into structured state representations where the state matrix A encodes semantic relationships between concepts. Each document becomes a learned state vector that can influence future state transitions through the structured state space dynamics.</p>
 
-<p><strong>Selective Knowledge Activation</strong>: Mamba’s selective mechanism is extended to perform intelligent knowledge retrieval. The selection matrices S determine which cached knowledge states should influence current generation based on input context, eliminating the need for expensive similarity searches.</p>
+<p><strong>Selective Knowledge Activation</strong>: Mamba’s selective mechanism is extended to perform intelligent knowledge retrieval. The selection matrices S determine which cached knowledge states should influence current generation based on input context, eliminating the need for expensive similarity searches.
+This selective activation mechanism shares conceptual similarities with the Parametric Metacognitive Layer’s orchestration strategies (see <code class="language-plaintext highlighter-rouge">projects/metacognitive_layer_paper.md</code>), though operating at a different architectural level.</p>
 
 <h3 id="22-core-technical-components">2.2 Core Technical Components</h3>
 
@@ -944,7 +943,8 @@ h_meta(t) = Select(h_local(t), h_knowledge(t), context)       # Selective integr
 
 <p><strong>Phase 2 - Selective Knowledge Integration</strong>: Train the selective mechanisms to efficiently route between conversational context and relevant knowledge states. Develop curriculum learning strategies that gradually increase knowledge base size and complexity.</p>
 
-<p><strong>Phase 3 - End-to-End State Space Optimization</strong>: Joint training of the complete hierarchical Mamba system on tasks requiring synthesis across multiple knowledge sources, with emphasis on maintaining stable state dynamics as knowledge grows.</p>
+<p><strong>Phase 3 - End-to-End State Space Optimization</strong>: Joint training of the complete hierarchical Mamba system on tasks requiring synthesis across multiple knowledge sources, with emphasis on maintaining stable state dynamics as knowledge grows.
+This multi-source synthesis capability could enhance the EchoSynth framework’s semantic constellation formation (see <code class="language-plaintext highlighter-rouge">ai/echosynth_proposal.md</code>).</p>
 
 <h2 id="3-expected-contributions">3. Expected Contributions</h2>
 

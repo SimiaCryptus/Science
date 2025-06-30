@@ -2,6 +2,10 @@
 title: "The Game Theory of Cognitive Effort: Technology, Time, and Social Outcomes"
 layout: post
 collection: social
+related_documents:
+  - game_theory_ethics.md: "Institutional contexts that shape cognitive effort decisions"
+  - conversation_intelligence_paper.md: "How cognitive effort manifests in conversational dynamics"
+  - social_truth_proposal.md: "Collective outcomes of individual cognitive choices"
 ---
 
 This paper examines the strategic dynamics underlying individual decisions to engage in cognitive effort, with particular attention to how technology mediates these choices and their collective consequences. We develop a formal model incorporating temporal discount rates, switching costs, and technological substitution/complementarity effects to explain why individuals may rationally choose cognitive shortcuts despite long-term personal and social costs. Our analysis reveals that technological innovations, while potentially cognitive-enhancing, often create equilibria favoring cognitive offloading due to misaligned incentive structures.
@@ -61,6 +65,9 @@ Where $\rho$ captures network effects between individuals' cognitive capital. Wh
 ### 3.2 The Public Goods Problem
 
 Each individual receives private benefit $b \cdot h_{i,t}$ from their cognitive capital, but society receives $B \cdot Y_t$. If $B > b$, we have a classic public goods problem where individual cognitive effort is undersupplied.
+> **Connection to Institutional Analysis**: This public goods problem is exacerbated by the institutional dynamics
+> described in `game_theory_ethics.md`, where professional intermediaries benefit from cognitive dependency rather than
+> cognitive development.
 
 ### 3.3 Social Signaling
 

@@ -12,6 +12,12 @@ We propose a novel tree-based data structure that integrates optimal coding theo
 
 Current approaches to string processing face a fundamental trade-off: data structures optimized for fast access (such as suffix arrays) consume significant space, while compressed representations sacrifice query performance. The Burrows-Wheeler Transform reveals rich permutation structures within strings, but these structures are typically exploited only for compression, not for creating efficient queryable representations.
 
+This work builds on insights from our research on [hierarchical n-gram compression](../ai/ngram_paper.md), where we
+demonstrated how entropy-based organization can dramatically reduce storage requirements. We extend these principles to
+more general string processing tasks. The permutation-aware approach connects to our work
+on [compression-based classification](../ai/compression_classification_paper.md), where BWT permutation structures serve
+as both compression mechanisms and classification features.
+
 ### 1.2 Key Insight
 
 The BWT creates multiple interrelated permutations that form a complete algebraic system for string navigation. By making these permutations first-class citizens in a tree structure and organizing nodes according to entropy density rather than simple cardinality, we can achieve both optimal compression and efficient access simultaneously.
@@ -201,10 +207,14 @@ The tree continuously optimizes structural parameters:
 ## 9. Broader Impact
 
 This research has applications in:
-- **Bioinformatics**: Efficient genome sequence analysis
-- **Information retrieval**: Compressed full-text search
-- **Data archival**: Query-optimized long-term storage
-- **Stream processing**: Real-time analysis of sequential data
+
+- **Text Classification**: Integration with compression-based classification systems where permutation structures
+  provide interpretable features (see [EOCT framework](../ai/compression_classification_paper.md))
+- **Language Modeling**: Efficient storage of large-scale n-gram models using similar entropy-based organization
+  principles (see [hierarchical compression](../ai/ngram_paper.md))
+- **Density Estimation**: The entropy-adaptive partitioning approach extends to continuous spaces in
+  our [Volumetric Density Trees](volumetric_density_tree_proposal.md)
+- **Bioinformatics**: Genome sequence analysis where BWT is already widely used but lacks efficient queryable structures
 
 ## 10. Resources Required
 

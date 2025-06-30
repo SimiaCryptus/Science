@@ -256,6 +256,7 @@ This research represents a paradigm shift from classical to quantum-collective a
 * Deeper understanding of many-body quantum systems
 * Novel tests of quantum mechanics in nuclear systems
 * Connections between condensed matter and nuclear physics
+* Implications for post-scarcity economics (see [post_scarcity_proposal.md](../social/post_scarcity_proposal.md))
 
 ## 7. Risk Assessment and Mitigation
 
@@ -386,6 +387,8 @@ This research represents a paradigm shift from classical to quantum-collective a
 * Postdoctoral training in interdisciplinary research
 * Undergraduate research opportunities
 * Public outreach and education initiatives
+* Ethical considerations for technology deployment in society (
+  see [managed_reality_paper.md](../social/managed_reality_paper.md))
 
 ## 12. Conclusion
 

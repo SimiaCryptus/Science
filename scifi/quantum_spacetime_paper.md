@@ -226,6 +226,22 @@ Anthropic selection filters for universes with observers, explaining apparent fi
 Information is never lost because it remains encoded in the atemporal structure. Black hole evaporation appears to destroy information only from the perspective of embedded observers.
 
 ## 8. Discussion
+
+### 8.5 Connections to Related Work
+
+Our framework connects to several related theoretical developments:
+**Quantum Graph Substrates**: The dynamic topology aspects of our model share conceptual similarities with quantum graph
+computational architectures (see [Dynamic Quantum Graphs](dynamic_quantum_graphs.md)), where computation occurs through
+graph topology transformations. Both frameworks suggest that dynamic structural changes may provide computational
+advantages over fixed architectures.
+**Multiverse Routing**: The observer-dependent projections in our model relate to multiverse access proposals (
+see [Multiverse Router](multiverse_router_paper.md)) through the shared quantum substrate concept. Different observer
+embeddings might correspond to different branches of quantum reality.
+**Computational Substrates**: The information-theoretic constraints on observer emergence parallel ideas in
+computational substrate theory (see [Simulation QFT Hashlife](simulation_qft_hashlife.md)), where reality emerges from
+optimized computational processes. The anthropic selection of 3+1 dimensions might reflect computational efficiency
+principles.
+
 ### 8.1 Emergence of Classical General Relativity
 In the semiclassical limit where S_eff >> ℏ, the path integral is dominated by stationary points satisfying:
 δS_eff/δg_{μν} = 0 → R_{μν} - ½g_{μν}R + Λg_{μν} = 8πG T_{μν}

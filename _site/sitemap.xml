@@ -232,6 +232,9 @@
 <loc>http://localhost:4000/Science/ai/evolutionary_agents_proposal.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/Science/creative_writing/quantum_archaeology.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/Science/creative_writing/three_minds_paper.html</loc>
 </url>
 <url>
@@ -242,6 +245,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/Science/profile.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/Science/projects/institutional_knowledge_systems.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/Science/node_modules/@img/sharp-libvips-linux-x64/</loc>

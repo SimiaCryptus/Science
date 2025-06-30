@@ -22,13 +22,16 @@ Our proposed Mamba-based Knowledge Graph Integration (MKGI) architecture leverag
 
 **Hierarchical State Space Design**: The architecture consists of nested Mamba blocks operating at different scales:
 
-- **Local Mamba**: Processes conversational sequences with traditional state evolution for maintaining dialogue context
-- **Knowledge Mamba**: Maintains a structured state space where each dimension corresponds to cached document transforms
-- **Meta Mamba**: Orchestrates selective activation between local conversation state and knowledge state based on contextual relevance
+- **Knowledge Mamba**: Maintains a structured state space where each dimension corresponds to cached document
+  transforms (this structured knowledge representation complements the Cognitive Ecology's Knowledge Commons in
+  `ai/evolutionary_agents_proposal.md`)
 
 **State Space Knowledge Encoding**: Documents are transformed into structured state representations where the state matrix A encodes semantic relationships between concepts. Each document becomes a learned state vector that can influence future state transitions through the structured state space dynamics.
 
 **Selective Knowledge Activation**: Mamba's selective mechanism is extended to perform intelligent knowledge retrieval. The selection matrices S determine which cached knowledge states should influence current generation based on input context, eliminating the need for expensive similarity searches.
+This selective activation mechanism shares conceptual similarities with the Parametric Metacognitive Layer's
+orchestration strategies (see `projects/metacognitive_layer_paper.md`), though operating at a different architectural
+level.
 
 ### 2.2 Core Technical Components
 
@@ -55,6 +58,8 @@ h_meta(t) = Select(h_local(t), h_knowledge(t), context)       # Selective integr
 **Phase 2 - Selective Knowledge Integration**: Train the selective mechanisms to efficiently route between conversational context and relevant knowledge states. Develop curriculum learning strategies that gradually increase knowledge base size and complexity.
 
 **Phase 3 - End-to-End State Space Optimization**: Joint training of the complete hierarchical Mamba system on tasks requiring synthesis across multiple knowledge sources, with emphasis on maintaining stable state dynamics as knowledge grows.
+This multi-source synthesis capability could enhance the EchoSynth framework's semantic constellation formation (see
+`ai/echosynth_proposal.md`).
 
 ## 3. Expected Contributions
 

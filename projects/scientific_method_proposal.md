@@ -9,6 +9,10 @@ We propose Scientific Method 2.0, a distributed AI-agent system designed to auto
 ## 1. Introduction
 
 Traditional scientific methods face critical limitations in economics and sociology: data fragmentation across disparate sources, inability to process vast behavioral datasets, slow hypothesis-testing cycles, and difficulty establishing causal relationships in complex social systems. These fields generate enormous amounts of observational data but lack the computational infrastructure to synthesize insights at scale.
+This proposal builds upon our theoretical work in [hypothesis breeding grounds](../ai/hypothesis_breeding_grounds.md),
+applying evolutionary approaches to scientific discovery in social sciences. The feedback dynamics explored in
+our [LLM research](../ai/llm_feedback_dynamics.md) inform our understanding of how AI agents can iteratively refine
+hypotheses through continuous interaction with data.
 
 Scientific Method 2.0 proposes a paradigm shift toward continuous, AI-mediated research that can process real-world data streams, generate testable hypotheses, and iteratively refine models based on empirical feedback. This framework is particularly suited to social sciences where traditional experimental methods are often impractical or unethical.
 

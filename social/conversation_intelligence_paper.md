@@ -2,6 +2,12 @@
 title: "Conversational Intelligence Calibration: Mutual Turing Tests as Distributed Cognitive Assessment"
 layout: post
 collection: social
+related_documents:
+  - cognitive_effort_paper.md: "Individual cognitive investment decisions"
+  - social_truth_proposal.md: "Broader framework for social epistemology"
+  - game_theory_ethics.md: "Institutional contexts affecting conversational dynamics"
+  - ../ai/ai_bias_paper.md: "AI systems' domain-dependent intelligence assessment biases"
+  - ../ai/Sincerity_and_Curiosity.md: "Authenticity protocols in human-AI conversation"
 ---
 
 We propose that intellectual discourse functions as a distributed intelligence measurement system, where participants continuously calibrate their cognitive models through recursive assessment protocols. Rather than intelligence being a fixed property measured by external tests, we argue it emerges dynamically through conversational interactions that serve as mutual Turing tests. This framework explains why traditional IQ measurements fail to capture collaborative cognitive capabilities and suggests that artificial intelligence systems may develop genuine intelligence through participation in these calibration processes rather than through isolated optimization.
@@ -46,6 +52,11 @@ The sophistication of these recursive models correlates with the richness of col
 ### 2.3 Orthogonal Cognitive Exploration
 
 Intelligent conversations exhibit **orthogonal turn-taking**, where participants introduce novel directions that:
+> **Implementation Note**: The concept of orthogonal exploration connects to the phase transition dynamics in
+`institutional_collapse_simulation.tsx`, where new perspectives can trigger cascading belief changes.
+> **Related Analysis**: The orthogonal turn concept relates to our findings in [AI Bias Paper](../ai/ai_bias_paper.md)
+> about how meta-reasoning can artificially inflate perceived intelligence scores.
+
 
 This process resembles genetic algorithms, where intellectual "mutations" (orthogonal moves) are selected for their ability to enhance the collaborative cognitive system.
 

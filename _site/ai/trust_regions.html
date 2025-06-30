@@ -966,7 +966,8 @@ document.addEventListener('DOMContentLoaded', function() {
 <ul>
   <li><strong>Orthogonalization</strong>: Projects weight updates to maintain orthogonal relationships</li>
   <li><strong>Normalization</strong>: Ensures unit-length vectors when required</li>
-  <li><strong>Index Mapping</strong>: Supports flexible grouping of parameters</li>
+  <li><strong>Index Mapping</strong>: Supports flexible grouping of parameters
+<em>This constraint type is particularly relevant for the Co-Inverse Permutation Modifiers discussed in <a href="../coperm_paper.md#mathematical-framework">CIPMs</a>, which exploit weight symmetries.</em></li>
 </ul>
 
 <h4 id="322-linearsumconstraint">3.2.2 LinearSumConstraint</h4>
@@ -1147,7 +1148,8 @@ document.addEventListener('DOMContentLoaded', function() {
 <ul>
   <li>More stable convergence trajectories</li>
   <li>Reduced oscillation in high-curvature regions</li>
-  <li>Better handling of ill-conditioned problems</li>
+  <li>Better handling of ill-conditioned problems
+These properties complement hybrid optimization approaches like <a href="/Science/ai/qqn_paper.html">QQN</a>, which addresses similar stability concerns through direction interpolation.</li>
 </ul>
 
 <h3 id="82-use-cases">8.2 Use Cases</h3>
@@ -1155,6 +1157,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <p>The framework has been applied to:</p>
 <ul>
   <li>Deep neural network training</li>
+  <li>Layer-wise optimization strategies (see <a href="/Science/ai/recursive_subspace_paper.html">RSO</a> for related layer-specific approaches)</li>
   <li>Reinforcement learning policy optimization</li>
   <li>Generative model training</li>
   <li>Scientific computing applications</li>

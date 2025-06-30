@@ -1,5 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, AreaChart, Area } from 'recharts';
+// This simulation implements the game-theoretic models described in:
+// - game_theory_ethics.md: "Perverse Incentives and Institutional Capture"
+// - social_truth_proposal.md: Section 3.3 on "Structural Resilience"
+// For technical implementation details, see game_theory_ethics.md#technical-specifications
+
 
 const InstitutionalCollapseSimulation = () => {
   const [isRunning, setIsRunning] = useState(false);

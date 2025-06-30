@@ -59,7 +59,9 @@ EchoSynth implements a four-tier hierarchical ensemble:
 
 **Semantic Phase Transition Detection:** We develop novel entropy metrics for identifying when concept clusters approach interpretive phase boundaries, enabling proactive management of meaning stability.
 
-**Ontological Pluralism Protocols:** Multi-framework reasoning engines that can simultaneously process concepts through Western analytical, Indigenous relational, Buddhist non-dual, and other cognitive ontologies.
+**Ontological Pluralism Protocols:** Multi-framework reasoning engines that can simultaneously process concepts through
+Western analytical, Indigenous relational, Buddhist non-dual, and other cognitive ontologies. (This multi-perspective
+approach parallels the Cognitive Ecology's epistemic diversity requirements in `ai/evolutionary_agents_proposal.md`)
 
 **Recursive Hermeneutic Loops:** Self-modifying interpretation algorithms that continuously reinterpret their own outputs, generating emergent meaning through iterative feedback cycles.
 

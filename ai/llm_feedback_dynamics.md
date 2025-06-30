@@ -9,6 +9,11 @@ Large Language Models (LLMs) deployed in iterative feedback environments exhibit
 ## 1. Introduction
 
 The deployment of Large Language Models in iterative feedback environments has become increasingly common across domains ranging from code generation to content refinement. These systems create closed-loop dynamics where model outputs are evaluated, critiqued, or modified, with results feeding back into subsequent iterations. While typically analyzed through optimization theory, such systems exhibit complex behaviors more accurately understood through the lens of chaotic dynamics.
+This work builds upon our broader research program in computational epistemology and automated discovery (
+see [Hypothesis Breeding Grounds](hypothesis_breeding_grounds.md)), extending evolutionary frameworks to understand LLM
+behavior in feedback systems. The ideatic dynamics explored
+in [small group configurations](ideatic_dynamics_experiments.md) provide additional context for understanding
+multi-agent LLM interactions.
 
 Traditional approaches to LLM training and deployment focus on convergence to optimal solutions through gradient-based methods. However, iterative feedback systems operate in a fundamentally different regime where discrete updates, environmental feedback, and model-specific biases create nonlinear dynamics that can exhibit chaotic behavior. Understanding these dynamics is crucial for designing robust human-AI collaborative systems.
 
@@ -227,6 +232,10 @@ The lattice system exhibits critical behavior near phase transitions controlled 
 ### 9.1 Analogies with Social Systems
 
 The agent lattice framework provides powerful analogies for understanding sociological phenomena:
+
+These social dynamics mirror the small group phenomena we investigate empirically in
+our [ideatic dynamics experiments](ideatic_dynamics_experiments.md), where 3-5 agent configurations exhibit unique
+behavioral patterns that cannot be reduced to simpler dyadic interactions or large-scale statistical behaviors.
 
 **Opinion Dynamics**: Individual cognitive biases aggregate into collective opinion polarization through local social interactions, mirroring how LLM systematic biases create synchronized error domains.
 

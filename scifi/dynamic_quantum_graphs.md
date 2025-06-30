@@ -638,6 +638,20 @@ This functor is neither full nor faithful, reflecting the complexity of the comp
 
 ## 5.4 Physical Interpretation
 
+### 5.4.2 Connections to Quantum Gravity
+
+Our quantum graph framework relates to several approaches in quantum gravity:
+**Emergent Spacetime**: The emergence of classical spacetime from quantum graphs (Section 5.5) parallels
+observer-dependent spacetime emergence in unified quantum gravity theories (
+see [Observer-Dependent Spacetime](quantum_spacetime_paper.md)). Both suggest spacetime is not fundamental but emerges
+from more primitive quantum structures.
+**Substrate Manipulation**: The topology modification operations in QGP share conceptual ground with proposals for
+quantum substrate manipulation (see [Multiverse Router](multiverse_router_paper.md)), where high-energy interventions
+modify the underlying quantum structure of reality.
+**Computational Reality**: The complexity-theoretic aspects of QGP connect to computational interpretations of physics (
+see [Simulation QFT Hashlife](simulation_qft_hashlife.md)), suggesting that computational and physical principles may be
+fundamentally intertwined.
+
 **Disclaimer**: The QGP model is a theoretical framework for studying computation on dynamic quantum graphs. While we
 use physics-inspired terminology, this is primarily a mathematical model for exploring computational complexity. The "
 substrate shortcuts" are mathematical abstractions used for complexity analysis and do not represent physically

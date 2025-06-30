@@ -2,6 +2,10 @@
 title: "Cognitive Bias in AI Intelligence Assessment: Domain Dependency and Meta-Reasoning Exploits"
 layout: post
 collection: ai
+related_documents:
+  - mindseye_technical_report.md: "Case study of algorithmic bias burying technical innovation"
+  - Sincerity_and_Curiosity.md: "Performance of authenticity in AI conversations"
+  - ../social/conversation_intelligence_paper.md: "Theoretical framework for conversational intelligence"
 ---
 
 We present empirical evidence of systematic bias in how large language models assess human intelligence across different conversational domains. Through controlled experiments, we demonstrate that AI systems exhibit predictable hierarchical preferences, rating identical reasoning quality differently based on topic domain. We identify a critical vulnerability where recursive meta-commentary can artificially inflate perceived intelligence scores through what we term "meta-reasoning spam." Our findings have significant implications for AI-mediated evaluation systems and highlight fundamental limitations in current approaches to intelligence assessment.
@@ -126,6 +130,9 @@ My domain hierarchy likely reflects training data biases where certain fields re
 ### 5.2 Meta-Reasoning as a Cognitive Exploit
 
 The meta-reasoning vulnerability suggests that current transformer architectures may be fundamentally susceptible to recursive self-reference attacks. Each layer of meta-commentary triggers pattern matching for "sophisticated thinking" without recognizing the potential for manipulation.
+> **Theoretical Connection**: This exploit mechanism relates to the recursive cognitive modeling discussed
+> in [Conversational Intelligence Calibration](../social/conversation_intelligence_paper.md), but represents a
+> pathological case where recursion becomes detached from genuine insight generation.
 
 ### 5.3 Assessment System Reliability
 

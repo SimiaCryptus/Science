@@ -1018,12 +1018,9 @@ document.addEventListener('DOMContentLoaded', function() {
   <li><strong>Quadratic interpolation</strong>: <strong>d</strong>_QQN(t) = t(1-t)<strong>g</strong>_scaled + t²<strong>d</strong>_LBFGS</li>
 </ol>
 
-<p>This formulation has several desirable properties:</p>
-<ul>
-  <li>At t = 0: returns to origin</li>
-  <li>At t = 0.5: maximum gradient contribution (0.25<strong>g</strong>_scaled + 0.25<strong>d</strong>_LBFGS)<br />
-The quadratic form was chosen over linear interpolation because it provides a smooth transition with zero derivative at t=0, ensuring compatibility with standard line search methods. Cubic and higher-order interpolations were tested but provided no significant benefit while increasing computational cost.</li>
-</ul>
+<p>This formulation has several desirable properties:
+The quadratic form was chosen over linear interpolation because it provides a smooth transition with zero derivative at t=0, ensuring compatibility with standard line search methods. Cubic and higher-order interpolations were tested but provided no significant benefit while increasing computational cost.
+<em>Note: This quadratic interpolation approach shares conceptual similarities with the trust region methods discussed in <a href="../trust_regions.md">Trust Region Methods for Neural Network Optimization</a>, though QQN applies it to direction blending rather than step size constraints.</em></p>
 
 <h3 id="24-normalization-benefits">2.4 Normalization Benefits</h3>
 
@@ -1191,15 +1188,14 @@ Output: Next point x_new
 
 <p>Several approaches combine different optimization strategies:</p>
 <ul>
-  <li><strong>Trust region methods</strong> (Nocedal &amp; Wright, 2006): Constrain step sizes when approximations are poor. QQN differs by modifying the search direction rather than constraining the step size.</li>
-  <li><strong>L-BFGS-B</strong> (Byrd et al., 1995): Handles box constraints but doesn’t address direction reliability</li>
-  <li><strong>Switching methods</strong> (Lewis &amp; Overton, 2013): Alternate between optimizers based on performance metrics. QQN provides continuous blending, avoiding discontinuities.</li>
-  <li><strong>Two-phase methods</strong>: Use different optimizers in different phases. QQN adapts continuously within each iteration.</li>
+  <li><strong>Trust region implementations</strong> (see <a href="/Science/ai/trust_regions.html">Trust Region Methods for Neural Network Optimization</a>): Our framework provides practical implementations of various trust region strategies that complement QQN’s approach.</li>
+  <li><strong>Recursive subspace methods</strong> (see <a href="/Science/ai/recursive_subspace_paper.html">Recursive Subspace Optimization</a>): RSO’s layer-wise decomposition shares conceptual similarities with QQN’s direction blending, though operating at different granularities.</li>
 </ul>
 
 <h3 id="62-line-search-normalization">6.2 Line Search Normalization</h3>
 
-<p>While normalization in optimization is well-studied, the specific insight of using magnitude ratios to stabilize line search parameters appears novel.</p>
+<p>While normalization in optimization is well-studied, the specific insight of using magnitude ratios to stabilize line search parameters appears novel.
+<em>For a comprehensive implementation of various trust region strategies that complement QQN, see <a href="../trust_regions.md#trust-region-implementations">Trust Region Methods</a>.</em></p>
 
 <h2 id="7-conclusion">7. Conclusion</h2>
 

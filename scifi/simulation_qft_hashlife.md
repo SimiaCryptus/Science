@@ -48,6 +48,19 @@ The uncertainty principle emerges naturally from this framework: precise positio
 
 ## Implications for Cosmological Structure
 
+### Cross-Theoretical Connections
+
+The computational substrate hypothesis connects to several related theoretical frameworks:
+**Quantum Gravity Unification**: The emergence of spacetime from computational optimization parallels observer-dependent
+emergence in quantum gravity theories (see [Observer-Dependent Spacetime](quantum_spacetime_paper.md)). Both suggest
+spacetime is emergent rather than fundamental, with the computational view providing a mechanism for this emergence.
+**Quantum Information Architectures**: The hashlife optimization principles relate to quantum graph computational
+models (see [Dynamic Quantum Graphs](dynamic_quantum_graphs.md)), where dynamic topology changes provide computational
+advantages. Both frameworks suggest that structural flexibility is key to efficient computation.
+**Multiverse Computation**: The computational substrate view naturally accommodates multiverse theories (
+see [Multiverse Router](multiverse_router_paper.md)), where different parameter choices or initial conditions lead to
+different emergent realities within the same computational framework.
+
 If reality operates on hashlife-like principles, we would expect to find:
 
 **Repetitive Structures**: The universe should exhibit self-similar patterns across scales, as these would be computationally memoizable. We observe this in fractal galaxy distributions, scale-invariant density fluctuations in the cosmic microwave background, and power-law relationships throughout physics.

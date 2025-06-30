@@ -931,7 +931,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <p><strong>π</strong> = M(<strong>C</strong>, <strong>θ</strong>_meta)</p>
 
-<p>where <strong>π</strong> represents a permutation policy (potentially stochastic) and <strong>θ</strong>_meta are learnable parameters that adapt to correlation patterns.</p>
+<p>where <strong>π</strong> represents a permutation policy (potentially stochastic) and <strong>θ</strong>_meta are learnable parameters that adapt to correlation patterns.
+<em>This meta-learning approach shares similarities with the meta-optimization in <a href="../recursive_subspace_paper.md#algorithm">Recursive Subspace Optimization</a>, though applied to permutation discovery rather than gradient weighting.</em></p>
 
 <h3 id="32-multi-scale-permutation-optimization">3.2 Multi-Scale Permutation Optimization</h3>
 
@@ -960,7 +961,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <h3 id="41-structured-pruning-enhancement">4.1 Structured Pruning Enhancement</h3>
 
-<p>Traditional pruning methods make local decisions about individual weights or neurons. CIPMs enable global reorganization before pruning, clustering redundant computations together for more effective removal. By permuting functionally similar neurons into contiguous blocks, structured pruning becomes more principled and can achieve higher compression ratios.</p>
+<p>Traditional pruning methods make local decisions about individual weights or neurons. CIPMs enable global reorganization before pruning, clustering redundant computations together for more effective removal. By permuting functionally similar neurons into contiguous blocks, structured pruning becomes more principled and can achieve higher compression ratios.
+This approach complements optimization methods that preserve network structure, such as <a href="/Science/ai/trust_regions.html">Trust Region Methods</a> which maintain parameter constraints during training.
+<em>For complementary approaches to network compression through optimization constraints, see <a href="../trust_regions.md#orthonormalconstraint">Trust Region Methods</a> and <a href="../dual_constraint_training_paper.md#adaptive-data-classification">Dual-Constraint Training</a>.</em></p>
 
 <h3 id="42-model-archaeology-and-interpretability">4.2 Model Archaeology and Interpretability</h3>
 

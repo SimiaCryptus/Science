@@ -159,10 +159,11 @@ M_anomaly = {Q : Tr(Q) = Tr(Q³) = 0, ∑hypercharges = 0}
 **Hypothesis:** Optimization discovers non-standard but highly efficient network topologies.
 
 **Expected Structures:**
-- Hyperbolic neural networks (exponential capacity growth)
-- Fractal architectures (self-similar multi-scale processing)
-- Topological networks (persistent homology-based layers)
-- Geometric attention mechanisms based on optimal transport
+
+*These exotic architectures could benefit from the optimization methods described
+in [QQN](../ai/qqn_paper.md), [RSO](../ai/recursive_subspace_paper.md), and constraint mechanisms
+in [Trust Regions](../ai/trust_regions.md).*
+
 ### 4.4 Concrete Example: Lepton Sector
 
 ### 4.5 Concrete Example: Neural Network Architecture Discovery
@@ -336,6 +337,10 @@ B_zero  = (0, 0, 1, 0)
 **Nature-Inspired Engineering:** Understanding natural optimization principles enables better artificial designs
 
 **Predictive Design:** Anticipate optimal structures before building/testing
+*The geometric optimization framework provides theoretical foundations that could enhance the practical optimization
+methods described in our [AI optimization papers](../ai/), particularly for discovering novel network architectures and
+training strategies.*
+
 ### 7.4 Connection to Existing Frameworks
 **String Theory**: Our optimization on moduli spaces parallels flux compactification, where vacuum selection follows similar geometric principles.
 **Grand Unification**: The framework naturally incorporates GUT structures as higher-symmetry points in the optimization landscape.

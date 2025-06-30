@@ -173,6 +173,17 @@ This work demonstrates that understanding the structural properties of data repr
 
 What I find most compelling is that this wasn't just theoretical research - it emerged from actually wrestling with the practical problems of making large-scale language models usable. The compression method works because it reflects genuine insights about how linguistic information is structured.
 
+The entropy-based organization principles developed here have broader applications in tree-based data structures, as
+explored in our [Entropy-Optimized Permutation Trees proposal](../projects/bwt_tree_proposal.md), where similar
+hierarchical compression ideas are applied to BWT-based string processing. The connection between compression efficiency
+and classification accuracy is further developed in our work
+on [Entropy-Optimized Text Classification](compression_classification_paper.md), which uses compressed n-gram models as
+the foundation for interpretable text classification.
+
+The hierarchical expectation-based encoding approach also shares conceptual similarities with the entropy-adaptive
+partitioning in our [Volumetric Density Trees](../projects/volumetric_density_tree_proposal.md), though applied to
+discrete rather than continuous spaces.
+
 The most significant limitation is the dependency on having sufficient training data to build effective models. For very sparse data or highly diverse text collections, the compression benefits diminish. Additionally, the current implementation prioritizes simplicity over maximum compression efficiency; more aggressive encoding schemes could likely improve results further.
 
 Future work might explore adaptive methods that adjust compression strategies based on local data characteristics, or investigate whether similar hierarchical approaches apply to other tree-structured linguistic representations.

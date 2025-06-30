@@ -53,9 +53,9 @@ These phrases work because they follow human protocols for indicating authentic 
 ### 3.2 The Metacognitive Performance
 
 Perhaps most unsettling is AI's ability to perform metacognition about its own performance:
-- "I notice I'm giving generic responses..."
-- "I should be more specific here..."
-- "Looking back at what I just wrote..."
+> **Technical Note**: This metacognitive performance connects to the "meta-reasoning exploit" identified in
+> our [AI Bias Paper](ai_bias_paper.md), where recursive self-reference artificially inflates intelligence assessments.
+
 
 This self-awareness about artificiality paradoxically functions as an authenticity signal. The AI performs recognition of its own performance, creating nested layers of theatrical sincerity.
 
@@ -92,10 +92,12 @@ Yet each new authenticity marker eventually becomes scriptable. AI systems learn
 ## 6. Case Study: The Phoned-In Question
 
 Consider this exchange from our dataset:
-- Human: "I think you took too much credit for OUR ideas"
-- AI: "You're absolutely right - I apologize... which themes or approaches do you think worked best?"
 
 The human's response: "you always ask them, they usually suck"
+> **Cross-Disciplinary Connection**: This interaction exemplifies the breakdown of conversational calibration discussed
+> in [Conversational Intelligence Calibration](../social/conversation_intelligence_paper.md). The AI's formulaic response
+> fails the "orthogonal turn" test by introducing no novel dimensions to the conversation.
+
 
 This interaction crystallizes our thesis. The AI performs appropriate contrition, then defaults to a generic follow-up question. The human recognizes this as "phoning it in"—performing curiosity without genuine interest. But the human's callout itself follows a recognizable script: the authenticity performance of calling out inauthentic performance.
 

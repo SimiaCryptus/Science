@@ -47,6 +47,9 @@ The meta-analysis layer M takes correlation statistics as input and outputs perm
 **π** = M(**C**, **θ**_meta)
 
 where **π** represents a permutation policy (potentially stochastic) and **θ**_meta are learnable parameters that adapt to correlation patterns.
+*This meta-learning approach shares similarities with the meta-optimization
+in [Recursive Subspace Optimization](../recursive_subspace_paper.md#algorithm), though applied to permutation discovery
+rather than gradient weighting.*
 
 ### 3.2 Multi-Scale Permutation Optimization
 
@@ -74,6 +77,11 @@ where:
 ### 4.1 Structured Pruning Enhancement
 
 Traditional pruning methods make local decisions about individual weights or neurons. CIPMs enable global reorganization before pruning, clustering redundant computations together for more effective removal. By permuting functionally similar neurons into contiguous blocks, structured pruning becomes more principled and can achieve higher compression ratios.
+This approach complements optimization methods that preserve network structure, such
+as [Trust Region Methods](trust_regions.md) which maintain parameter constraints during training.
+*For complementary approaches to network compression through optimization constraints,
+see [Trust Region Methods](../trust_regions.md#orthonormalconstraint)
+and [Dual-Constraint Training](../dual_constraint_training_paper.md#adaptive-data-classification).*
 
 ### 4.2 Model Archaeology and Interpretability
 

@@ -18,6 +18,19 @@ If spacetime is indeed emergent rather than fundamental, this raises a profound 
 
 ## 2. Theoretical Framework
 
+### 2.4 Related Theoretical Developments
+
+Our substrate manipulation framework builds upon and connects to several theoretical approaches:
+**Unified Quantum Gravity**: The quantum substrate concept relates to observer-dependent spacetime emergence theories (
+see [Observer-Dependent Spacetime](quantum_spacetime_paper.md)), where multiple classical spacetimes can emerge from a
+single quantum structure. Our multiverse routing exploits this multiplicity.
+**Quantum Computational Architectures**: The substrate modification approach shares principles with quantum graph
+computation models (see [Dynamic Quantum Graphs](dynamic_quantum_graphs.md)), where topology changes enable
+computational advantages. Both suggest that dynamic structure manipulation is key to transcending conventional limits.
+**Computational Cosmology**: The information-theoretic aspects connect to computational substrate theories (
+see [Simulation QFT Hashlife](simulation_qft_hashlife.md)), where reality operates as an optimized computational system.
+Multiverse routing might exploit the computational nature of reality itself.
+
 ### 2.1 Emergent Spacetime from Quantum Substrates
 
 Following recent developments in emergent gravity [8,9], we model spacetime geometry as arising from quantum path integral interference patterns over discrete Planck-scale topological structures. The metric tensor g_μν emerges from the statistical properties of quantum amplitude summations:

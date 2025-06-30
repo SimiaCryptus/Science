@@ -12,6 +12,11 @@ We propose a novel computational framework for automated theoretical development
 
 The generation of novel theoretical frameworks in science has traditionally relied on human intuition, analogical reasoning, and interdisciplinary synthesis. While this approach has proven remarkably successful, it suffers from cognitive limitations, disciplinary isolation, and the exponential growth of scientific knowledge that exceeds individual comprehension. Recent advances in large language models and automated reasoning suggest the possibility of augmenting human theoretical development through computational approaches.
 
+This framework complements our research on [chaotic dynamics in LLM feedback systems](llm_feedback_dynamics.md), where
+we examine how iterative processes can lead to complex emergent behaviors. The small group dynamics explored in
+our [ideatic dynamics experiments](ideatic_dynamics_experiments.md) provide empirical grounding for understanding how
+theoretical frameworks compete and evolve in multi-agent systems.
+
 We propose treating scientific theories as evolutionary entities subject to variation, selection, and inheritance. This framework, which we term "Hypothesis Breeding Grounds" (HBG), systematically explores theoretical space through controlled intellectual crossbreeding, introducing novel mutation operators and environmental selection pressures that favor consistency, explanatory power, and empirical grounding.
 
 ## 2. Theoretical Foundation
@@ -227,9 +232,13 @@ Theory Refinement → [Iteration]
 
 **Cross-Domain Integration Agents**: Meta-agents that identify opportunities for theoretical cross-breeding between domains and coordinate interdisciplinary validation efforts.
 
-### 8.5 Mathematical Discovery Through Numerical Coincidence
+## 8.5 Mathematical Discovery Through Numerical Coincidence
 
 **Computational Serendipity Framework**: A specialized subsystem for discovering mathematical relationships through large-scale numerical exploration:
+This approach to mathematical discovery through computational exploration connects to the systematic biases and pattern
+recognition behaviors documented in our [LLM feedback dynamics research](llm_feedback_dynamics.md). The self-referential
+patterns humorously explored in ["I Broke Claude"](../creative_writing/i_broke_claude.md) provide an informal case study
+of how AI systems can discover and document their own behavioral patterns.
 
 **Pattern Mining Agents**: Continuously execute millions of numerical experiments across mathematical domains, testing for unexpected relationships between constants, functions, and sequences. Unlike human mathematicians who test "reasonable" hypotheses, these agents explore truly random numerical relationships with superhuman computational capacity.
 

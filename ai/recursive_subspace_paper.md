@@ -153,8 +153,15 @@ This demonstrates the exhaustion mechanism: heavily used layers automatically re
 ## 5. Related Work
 
 **Second-order methods**: Natural gradient [3] and K-FAC [4] approximate the Fisher information matrix. RSO achieves similar preconditioning effects through layer-wise decomposition with lower computational cost.
+Related work on quasi-Newton methods like [QQN](qqn_paper.md) addresses similar optimization challenges through
+direction interpolation rather than layer decomposition.
 
 **Adaptive learning rates**: LARS [5] and LAMB [6] adapt learning rates per layer based on gradient/parameter norms. RSO generalizes this by optimizing the entire gradient combination rather than just scaling.
+**Trust region methods**: The [Trust Region Framework](trust_regions.md) provides complementary approaches for
+constraining optimization steps. RSO's layer-wise constraints can be viewed as a form of structured trust region.
+*For trust region approaches to layer-wise optimization,
+see [Trust Region Methods](../trust_regions.md#layer-specific-policies), which provides complementary constraint
+mechanisms.*
 
 **Gradient composition**: PCGrad [7] addresses gradient conflicts in multi-task learning. RSO applies similar principles to single-task optimization by treating layers as generating distinct "task" gradients.
 

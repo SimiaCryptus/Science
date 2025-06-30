@@ -78,6 +78,8 @@ Enforces orthonormality constraints on parameter subsets, useful for maintaining
 * **Orthogonalization**: Projects weight updates to maintain orthogonal relationships
 * **Normalization**: Ensures unit-length vectors when required
 * **Index Mapping**: Supports flexible grouping of parameters
+  *This constraint type is particularly relevant for the Co-Inverse Permutation Modifiers discussed
+  in [CIPMs](../coperm_paper.md#mathematical-framework), which exploit weight symmetries.*
 
 #### 3.2.2 LinearSumConstraint
 
@@ -244,11 +246,14 @@ Trust region methods typically exhibit:
 * More stable convergence trajectories
 * Reduced oscillation in high-curvature regions
 * Better handling of ill-conditioned problems
+  These properties complement hybrid optimization approaches like [QQN](qqn_paper.md), which addresses similar stability
+  concerns through direction interpolation.
 
 ### 8.2 Use Cases
 
 The framework has been applied to:
 * Deep neural network training
+* Layer-wise optimization strategies (see [RSO](recursive_subspace_paper.md) for related layer-specific approaches)
 * Reinforcement learning policy optimization
 * Generative model training
 * Scientific computing applications

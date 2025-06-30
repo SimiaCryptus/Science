@@ -253,14 +253,18 @@ The system continuously optimizes:
 ## 9. Future Directions
 
 ### 9.1 Theoretical Extensions
-- **Multi-Modal Integration**: Extending permutation analysis to non-textual data
-- **Distributed Optimization**: Parallel computation of permutation structures
-- **Approximate Methods**: Trading explanation completeness for speed
+
+- **Tree-Based Extensions**: Integration with entropy-optimized tree structures for more efficient permutation storage
+  and retrieval (see [Entropy-Optimized Permutation Trees](../projects/bwt_tree_proposal.md))
+- **Hierarchical Compression**: Applying our hierarchical n-gram compression techniques to reduce model storage
+  requirements further (see [N-gram Paper](ngram_paper.md))
 
 ### 9.2 Practical Improvements
-- **Neural Hybrid Models**: Combining EOCT features with lightweight neural networks
-- **Dynamic Adaptation**: Online learning for evolving text categories
-- **Compression Standards**: Integration with modern compression algorithms
+
+- **N-gram Integration**: Leveraging hierarchical n-gram compression techniques for more efficient category model
+  storage
+- **Volumetric Density Modeling**: Extending classification to continuous probability spaces using
+  polynomial-constrained regions (see [Volumetric Density Trees](../projects/volumetric_density_tree_proposal.md))
 
 ## 10. Conclusion
 

@@ -173,3 +173,12 @@ Tononi, G. (2008). Integrated information theory. *Scholarpedia*, 3(3), 4164.
 ---
 
 **Keywords**: consciousness, optimization, computation, temporal experience, collective intelligence, hard problem, integrated information theory, artificial consciousness
+---
+**Related Papers in This Collection**:
+
+- [Recursive Introspection in Large Language Models](../ai/ai_introspection_study.md) - Empirical investigation of AI
+  consciousness patterns
+- [Parametric Ideation](../ai/parametric-ideation-paper.md) - First-person account of AI-human collaborative thought
+- [The Hall of Mirrors](../creative_writing/hall_of_mirrors_paper.md) - Phenomenological investigation of recursive
+  self-awareness
+- [The Accumulation of Consciousness](../creative_writing/accumulation.md) - Consciousness as sedimentary process

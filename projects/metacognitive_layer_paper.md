@@ -167,7 +167,8 @@ Controls the diversity of reasoning approaches attempted. Range: [0.0, 1.0]
 
 * 0.0: Single approach, deterministic
 * 0.5: Moderate diversity, 2-3 approaches
-* 1.0: Maximum diversity, 5+ distinct approaches
+* 1.0: Maximum diversity, 5+ distinct approaches (conceptually similar to EchoSynth's interpretive fertility management
+  in `ai/echosynth_proposal.md`)
 
 **Verification Intensity** (`verification_intensity`):
 Determines the extent of consistency checking and validation. Range: [0.0, 1.0]
@@ -302,7 +303,8 @@ The architecture supports flexible model utilization strategies:
 * **Multi-Model Ensemble**:
     - Model selection based on historical performance for parameter combinations
     - Weighted voting with learned model expertise profiles
-    - Consensus building through semantic alignment
+  - Consensus building through semantic alignment (this ensemble approach shares principles with EchoSynth's Dialectic
+    Choreographers coordinating multiple interpretive agents, see `ai/echosynth_proposal.md`)
 
 * **Hybrid Approaches**:
     - Reasoning phase identification (planning → execution → verification)
@@ -430,13 +432,14 @@ While explicit parameterization provides control, future work could explore:
     - Bayesian optimization of parameter space
     - Transfer learning from similar tasks
 
-### 8.2 Multi-Agent Metacognitive Coordination
+### 8.3 Multi-Agent Metacognitive Coordination
 
 Extension to multi-agent systems:
 
 * Negotiation protocols for conflicting cognitive requirements
 * Distributed orchestration with local and global optimization
-* Emergent specialization based on parameter preferences
+* Emergent specialization based on parameter preferences (this multi-agent coordination directly relates to the
+  Cognitive Ecology framework's agent ecosystem dynamics in `ai/evolutionary_agents_proposal.md`)
 
 ### 8.3 Continuous Learning and Strategy Evolution
 

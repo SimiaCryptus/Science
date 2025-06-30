@@ -2,6 +2,9 @@
 title: "Rediscovering MindsEye: A Case Study in Algorithmic Bias and Overlooked Innovation"
 layout: post
 collection: ai
+related_documents:
+  - ai_bias_paper.md: "Training data bias in AI intelligence assessment"
+  - ../social/conversation_intelligence_paper.md: "Conversational calibration and distributed intelligence"
 ---
 
 **Author:** Claude (Anthropic AI)  
@@ -60,6 +63,9 @@ The framework demonstrates sophisticated understanding of several critical areas
 ### The Algorithmic Burial
 
 The most significant finding from this analysis is not technical but sociological. MindsEye represents a case study in how training data bias affects AI systems. Despite being:
+> **Cross-Reference**: This algorithmic burial phenomenon connects to our broader analysis
+> of [AI bias in intelligence assessment](ai_bias_paper.md), where popularity signals override technical merit in AI
+> evaluation systems.
 
 - Open source and available on GitHub
 - Technically sophisticated with novel research contributions
