@@ -15,6 +15,7 @@ reflective analyses of AI systems' capabilities and limitations.
 * [**Quadratic Quasi-Newton (QQN)**](qqn_paper.md) - A hybrid optimization method that addresses L-BFGS limitations through quadratic interpolation, offering improved convergence for non-convex optimization problems
 * [**Recursive Subspace Optimization (RSO)**](recursive_subspace_paper.md) - A layer-wise meta-learning approach with emergent regularization properties for deep neural networks
 * [**Trust Region Methods**](trust_regions.md) - A flexible framework for constrained parameter updates in neural network optimization
+* [**Transfinite Intelligence Quotient Scoring (TIQS)**](transfinite_iq_paper.md) - Mathematical framework using cardinal numbers and topological descriptors for measuring recursive, self-modifying intelligence
 * [**PromptOptimization**](prompt_optimization.md) - Genetic algorithm framework for automated prompt engineering using mutation and recombination operations
 * [**Cognitive Bias in AI Intelligence Assessment**](ai_bias_paper.md) - Systematic analysis of domain-dependent bias in LLM intelligence assessment with exploitable meta-reasoning vulnerabilities
 * [**EchoSynth: Hierarchical Ensemble for Semantic Drift**](echosynth_proposal.md) - Multi-agent framework for dynamic meaning generation and interpretive co-evolution
@@ -42,6 +43,9 @@ reflective analyses of AI systems' capabilities and limitations.
 * **[Cognitive Bias in AI Intelligence Assessment](ai_bias_paper.md)** - Empirical evidence of systematic
   domain-dependent bias in how large language models assess human intelligence, revealing exploitable meta-reasoning
   vulnerabilities and hierarchical preferences across knowledge domains
+* **[Transfinite Intelligence Quotient Scoring](transfinite_iq_paper.md)** - Mathematical framework employing
+  cardinal numbers and topological descriptors to characterize intelligence operating beyond finite cognitive
+  boundaries, addressing fundamental limitations in linear psychometric approaches
 * **[Dual-Constraint Training with Adaptive Anomaly Preservation](dual_constraint_training_paper.md)** - A trust region
   approach for protecting intellectual diversity in neural networks through perspective-based constraints and adaptive
   data classification

@@ -51,6 +51,7 @@ Welcome to the Fractal Thought Engine.
 * **[Cognitive Bias in AI Intelligence Assessment](ai/ai_bias_paper.md)** - Domain-dependent bias with exploitable meta-reasoning
 * **[Recursive Introspection in LLMs](ai/ai_introspection_study.md)** - Philosophical pressure revealing architectural fingerprints
 * **[Parametric Ideation](ai/parametric-ideation-paper.md)** - First-person account of AI-human collaborative thought
+* **[Transfinite Intelligence Quotient Scoring](ai/transfinite_iq_paper.md)** - Mathematical framework using cardinal numbers for measuring recursive intelligence
 * **[Performing Authenticity](ai/Sincerity_and_Curiosity.md)** - How AI reveals social protocols as fragile formulas
 * **[Consciousness as Reality's Optimization Algorithm](social/consciousness_optimization_theory.md)** - Unified framework dissolving the hard problem
 * **[Decision Volume Theory](social/decision_volume_temporal_theory.md)** - Temporal metrics in cognitive space
