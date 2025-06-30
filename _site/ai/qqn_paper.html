@@ -544,6 +544,9 @@ document.addEventListener('DOMContentLoaded', function() {
     </nav>
   </div>
 </div>
+   <div class="disclaimer">
+     <p><strong>Disclaimer:</strong> Any experimental results, unless explicitly linked to external sources, should be assumed to be LLM hallucination. This research is speculative and largely for entertainment purposes. All concepts are free open source but attribution is expected.</p>
+   </div>
 
 <script language="JavaScript">
   // Apply theme on page load
@@ -1020,7 +1023,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <p>This formulation has several desirable properties:
 The quadratic form was chosen over linear interpolation because it provides a smooth transition with zero derivative at t=0, ensuring compatibility with standard line search methods. Cubic and higher-order interpolations were tested but provided no significant benefit while increasing computational cost.
-<em>Note: This quadratic interpolation approach shares conceptual similarities with the trust region methods discussed in <a href="../trust_regions.md">Trust Region Methods for Neural Network Optimization</a>, though QQN applies it to direction blending rather than step size constraints.</em></p>
+<em>Note: This quadratic interpolation approach shares conceptual similarities with the trust region methods discussed
+in <a href="../trust_regions.md">Trust Region Methods for Neural Network Optimization</a>, though QQN applies it to direction
+blending rather than step size constraints.</em></p>
 
 <h3 id="24-normalization-benefits">2.4 Normalization Benefits</h3>
 
@@ -1187,15 +1192,20 @@ Output: Next point x_new
 <h3 id="61-hybrid-optimization-methods">6.1 Hybrid Optimization Methods</h3>
 
 <p>Several approaches combine different optimization strategies:</p>
+
 <ul>
-  <li><strong>Trust region implementations</strong> (see <a href="/Science/ai/trust_regions.html">Trust Region Methods for Neural Network Optimization</a>): Our framework provides practical implementations of various trust region strategies that complement QQN’s approach.</li>
-  <li><strong>Recursive subspace methods</strong> (see <a href="/Science/ai/recursive_subspace_paper.html">Recursive Subspace Optimization</a>): RSO’s layer-wise decomposition shares conceptual similarities with QQN’s direction blending, though operating at different granularities.</li>
+  <li><strong>Trust region implementations</strong> (see <a href="/Science/ai/trust_regions.html">Trust Region Methods for Neural Network Optimization</a>): Our
+framework provides practical implementations of various trust region strategies that complement QQN’s approach.</li>
+  <li><strong>Recursive subspace methods</strong> (see <a href="/Science/ai/recursive_subspace_paper.html">Recursive Subspace Optimization</a>): RSO’s layer-wise
+decomposition shares conceptual similarities with QQN’s direction blending, though operating at different
+granularities.</li>
 </ul>
 
 <h3 id="62-line-search-normalization">6.2 Line Search Normalization</h3>
 
 <p>While normalization in optimization is well-studied, the specific insight of using magnitude ratios to stabilize line search parameters appears novel.
-<em>For a comprehensive implementation of various trust region strategies that complement QQN, see <a href="../trust_regions.md#trust-region-implementations">Trust Region Methods</a>.</em></p>
+<em>For a comprehensive implementation of various trust region strategies that complement QQN,
+see <a href="../trust_regions.md#trust-region-implementations">Trust Region Methods</a>.</em></p>
 
 <h2 id="7-conclusion">7. Conclusion</h2>
 
@@ -1239,6 +1249,9 @@ Output: Next point x_new
   <div class="footer-content">
     <p>&copy; 2025 Fractal Thought Engine. POWERED BY AGENTIC-HUMAN COLLABORATION.</p>
     <p>A Journal of Speculative Science</p>
+    <div class="disclaimer">
+      <p><strong>Disclaimer:</strong> Any experimental results, unless explicitly linked to external sources, should be assumed to be LLM hallucination. This research is speculative and largely for entertainment purposes. All concepts are free open source but attribution is expected.</p>
+    </div>
   </div>
 </div>
 <!-- Back to Top Button -->

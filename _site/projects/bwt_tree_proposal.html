@@ -544,6 +544,9 @@ document.addEventListener('DOMContentLoaded', function() {
     </nav>
   </div>
 </div>
+   <div class="disclaimer">
+     <p><strong>Disclaimer:</strong> Any experimental results, unless explicitly linked to external sources, should be assumed to be LLM hallucination. This research is speculative and largely for entertainment purposes. All concepts are free open source but attribution is expected.</p>
+   </div>
 
 <script language="JavaScript">
   // Apply theme on page load
@@ -897,7 +900,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <p>Current approaches to string processing face a fundamental trade-off: data structures optimized for fast access (such as suffix arrays) consume significant space, while compressed representations sacrifice query performance. The Burrows-Wheeler Transform reveals rich permutation structures within strings, but these structures are typically exploited only for compression, not for creating efficient queryable representations.</p>
 
-<p>This work builds on insights from our research on <a href="/Science/ai/ngram_paper.html">hierarchical n-gram compression</a>, where we demonstrated how entropy-based organization can dramatically reduce storage requirements. We extend these principles to more general string processing tasks. The permutation-aware approach connects to our work on <a href="/Science/ai/compression_classification_paper.html">compression-based classification</a>, where BWT permutation structures serve as both compression mechanisms and classification features.</p>
+<p>This work builds on insights from our research on <a href="/Science/ai/ngram_paper.html">hierarchical n-gram compression</a>, where we
+demonstrated how entropy-based organization can dramatically reduce storage requirements. We extend these principles to
+more general string processing tasks. The permutation-aware approach connects to our work
+on <a href="/Science/ai/compression_classification_paper.html">compression-based classification</a>, where BWT permutation structures serve
+as both compression mechanisms and classification features.</p>
 
 <h3 id="12-key-insight">1.2 Key Insight</h3>
 
@@ -1111,10 +1118,14 @@ document.addEventListener('DOMContentLoaded', function() {
 <h2 id="9-broader-impact">9. Broader Impact</h2>
 
 <p>This research has applications in:</p>
+
 <ul>
-  <li><strong>Text Classification</strong>: Integration with compression-based classification systems where permutation structures provide interpretable features (see <a href="/Science/ai/compression_classification_paper.html">EOCT framework</a>)</li>
-  <li><strong>Language Modeling</strong>: Efficient storage of large-scale n-gram models using similar entropy-based organization principles (see <a href="/Science/ai/ngram_paper.html">hierarchical compression</a>)</li>
-  <li><strong>Density Estimation</strong>: The entropy-adaptive partitioning approach extends to continuous spaces in our <a href="/Science/projects/volumetric_density_tree_proposal.html">Volumetric Density Trees</a></li>
+  <li><strong>Text Classification</strong>: Integration with compression-based classification systems where permutation structures
+provide interpretable features (see <a href="/Science/ai/compression_classification_paper.html">EOCT framework</a>)</li>
+  <li><strong>Language Modeling</strong>: Efficient storage of large-scale n-gram models using similar entropy-based organization
+principles (see <a href="/Science/ai/ngram_paper.html">hierarchical compression</a>)</li>
+  <li><strong>Density Estimation</strong>: The entropy-adaptive partitioning approach extends to continuous spaces in
+our <a href="/Science/projects/volumetric_density_tree_proposal.html">Volumetric Density Trees</a></li>
   <li><strong>Bioinformatics</strong>: Genome sequence analysis where BWT is already widely used but lacks efficient queryable structures</li>
 </ul>
 
@@ -1188,6 +1199,9 @@ document.addEventListener('DOMContentLoaded', function() {
   <div class="footer-content">
     <p>&copy; 2025 Fractal Thought Engine. POWERED BY AGENTIC-HUMAN COLLABORATION.</p>
     <p>A Journal of Speculative Science</p>
+    <div class="disclaimer">
+      <p><strong>Disclaimer:</strong> Any experimental results, unless explicitly linked to external sources, should be assumed to be LLM hallucination. This research is speculative and largely for entertainment purposes. All concepts are free open source but attribution is expected.</p>
+    </div>
   </div>
 </div>
 <!-- Back to Top Button -->

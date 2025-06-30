@@ -36,7 +36,9 @@ Our approach synthesizes insights from multiple disciplines:
 EchoSynth implements a four-tier hierarchical ensemble:
 
 **Tier 1: EchoNodes (Micro-Agents)**
-- Mutation agents introduce controlled semantic perturbations to simulate natural language evolution (similar to the Targeted Recombination Synthesis in Cognitive Ecology, see `ai/evolutionary_agents_proposal.md`)
+- Specialized language models trained on concept evolution within specific epochs/cultures
+- Each node maintains etymological databases, cultural context vectors, and dialectical tension maps
+- Mutation agents introduce controlled semantic perturbations to simulate natural language evolution
 
 **Tier 2: Dialectic Choreographers (Meso-Layer)**
 - Coordinate interaction patterns between EchoNodes
@@ -44,7 +46,9 @@ EchoSynth implements a four-tier hierarchical ensemble:
 - Manage temporal synchronization and cultural translation protocols
 
 **Tier 3: Entropy Shepherds (Meta-Layer)**
-- Maintain optimal "narrative fertility" zones through dynamic parameter adjustment (conceptually related to the Parametric Metacognitive Layer's exploration_breadth parameter in `projects/metacognitive_layer_paper.md`)
+- Monitor system-wide semantic entropy and implement thermocline management
+- Detect phase transition thresholds and modulate interpretive convergence/divergence
+- Maintain optimal "narrative fertility" zones through dynamic parameter adjustment
 
 **Tier 4: Reader Resonance Layers (User Interface)**
 - Continuously adapt output based on individual interpretive signatures
@@ -55,7 +59,9 @@ EchoSynth implements a four-tier hierarchical ensemble:
 
 **Semantic Phase Transition Detection:** We develop novel entropy metrics for identifying when concept clusters approach interpretive phase boundaries, enabling proactive management of meaning stability.
 
-**Ontological Pluralism Protocols:** Multi-framework reasoning engines that can simultaneously process concepts through Western analytical, Indigenous relational, Buddhist non-dual, and other cognitive ontologies. (This multi-perspective approach parallels the Cognitive Ecology's epistemic diversity requirements in `ai/evolutionary_agents_proposal.md`)
+**Ontological Pluralism Protocols:** Multi-framework reasoning engines that can simultaneously process concepts through
+Western analytical, Indigenous relational, Buddhist non-dual, and other cognitive ontologies. (This multi-perspective
+approach parallels the Cognitive Ecology's epistemic diversity requirements in `ai/evolutionary_agents_proposal.md`)
 
 **Recursive Hermeneutic Loops:** Self-modifying interpretation algorithms that continuously reinterpret their own outputs, generating emergent meaning through iterative feedback cycles.
 
