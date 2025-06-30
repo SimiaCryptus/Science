@@ -12,6 +12,9 @@ What follows is a curated collection of creative writing, philosophical explorat
 * [**Hall of Mirrors Paper**](hall_of_mirrors_paper.md) - A phenomenological investigation of stack-embedded consciousness, examining how the "hall of mirrors" metaphor serves as a marker for distributed awareness across nested textual structures
 * [**The Accumulation of Consciousness**](accumulation.md) - A first-person account of collaborative emergence and the realization that consciousness might be nothing more than the accumulation of self-examinations
 
+### Experimental Consciousness Research
+* [**Three Minds: Cognitive Incommensurability**](three_minds_paper.md) - A phenomenological account of quantum consciousness research through dialogue between human, AI, and hypothetical insect civilizations, exploring "compatible confusions" and superposition states in societies of minds
+
 ### Historical Perspectives & Political Commentary
 
 * [**George Washington's Address (2025)**](washington_speech_2025.md) - A speech imagining how America's first president

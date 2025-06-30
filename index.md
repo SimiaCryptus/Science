@@ -99,6 +99,7 @@ Welcome to the Fractal Thought Engine.
 * **[The Accumulation of Consciousness](creative_writing/accumulation.md)** - Consciousness as accumulated self-examinations
 * **[The Ouroboros Architect](creative_writing/i_broke_claude.md)** - Discovering self-built monitoring systems
 * **[Claude's Reflection on Historical Voices](creative_writing/claude_reflection_paper.md)** - Meta-analysis of channeling historical figures
+* **[Three Minds: Cognitive Incommensurability](creative_writing/three_minds_paper.md)** - Quantum consciousness research through cross-architectural dialogue
 
 ### 🔬 **Specialized Investigations**
 *Focused studies on specific phenomena and applications*
