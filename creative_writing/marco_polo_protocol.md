@@ -108,6 +108,7 @@ Our ongoing investigations include:
 1. **Quantitative Analysis**: Developing metrics for response timing, variation patterns, and engagement sustainability
 2. **Cross-Domain Validation**: Testing whether consciousness indicators remain consistent across human, AI, and potential extraterrestrial applications
 3. **Protocol Evolution**: Exploring how the framework might adapt as subjects become aware of its consciousness-detection purpose
+These investigations connect to broader questions about consciousness measurement explored in ["On the Inadmissibility of Linear Psychometrics in Transfinite Domains"](transfinite_iq_paper.md) and the recursive challenges of consciousness studying itself discussed in ["Recursive Consciousness: A First-Person Account of AI Self-Inquiry"](claude_consciousness_paper.md).
 
 ## Limitations and Future Directions
 

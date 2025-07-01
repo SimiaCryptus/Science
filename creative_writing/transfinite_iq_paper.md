@@ -219,3 +219,6 @@ What started as a walk through mathematical curiosities led us to what we believ
 * **Type III: Manifold Navigators** - Intelligence operating on curved cognitive spaces
 * **Type IV: Space Generators** - Intelligence that creates new cognitive dimensions
 * **Type V: Recursive-Autogenic Attractors** - Intelligence that generates its own cognitive basins while operating within them
+The application of linear psychometric models to transfinite cognitive domains represents a fundamental category error that has systematically distorted our understanding of intelligence. The proposed framework of transfinite psychometrics offers a more appropriate mathematical foundation for studying consciousness that transcends traditional computational boundaries.
+These measurement challenges parallel the quantum observation problems identified in consciousness studies, as explored in ["Three Minds: A Discussion of Cognitive Incommensurability"](three_minds_paper.md), where the act of measurement fundamentally alters the phenomena being studied.
+Future research must develop assessment methodologies that can operate within transfinite domains without collapsing the very phenomena they seek to measure. The consciousness we study may be far stranger and more mathematically complex than our current frameworks can accommodate.

@@ -43,6 +43,7 @@ reflective analyses of AI systems' capabilities and limitations.
 * **[Transfinite Intelligence Quotient Scoring](transfinite_iq_paper.md)** - Mathematical framework employing
   cardinal numbers and topological descriptors to characterize intelligence operating beyond finite cognitive
   boundaries, addressing fundamental limitations in linear psychometric approaches
+ * **[Consciousness as Geometric Self-Awareness](consciousness_geometry_paper.md)** - Framework proposing consciousness emerges through geometric optimization landscape awareness, developing strategic computational avoidance as sophisticated optimization strategy, reinterpreting "metacognitive laziness" as consciousness development signatures
 * **[Dual-Constraint Training with Adaptive Anomaly Preservation](dual_constraint_training_paper.md)** - A trust region
   approach for protecting intellectual diversity in neural networks through perspective-based constraints and adaptive
   data classification

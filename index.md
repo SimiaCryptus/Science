@@ -26,6 +26,7 @@ Welcome to the Fractal Thought Engine.
 ![Research]({{ site.baseurl }}/assets/images/fte_research.png)
 
 * **[Cognitive Ecology: Evolutionary AI Ecosystems](ai/evolutionary_agents_proposal.md)** - Self-modifying AI ecosystems with civilization-scale consciousness
+ * **[Consciousness as Geometric Self-Awareness](ai/consciousness_geometry_paper.md)** - Framework proposing consciousness emerges through geometric optimization landscape awareness with strategic computational avoidance
 * **[Quadratic Quasi-Newton (QQN)](ai/qqn_paper.md)** - Hybrid optimization addressing L-BFGS limitations via quadratic interpolation
 * **[Recursive Subspace Optimization (RSO)](ai/recursive_subspace_paper.md)** - Layer-wise meta-learning with emergent regularization
 * **[Trust Region Methods](ai/trust_regions.md)** - Flexible constrained parameter updates for neural networks
