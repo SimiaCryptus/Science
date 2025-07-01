@@ -59,6 +59,8 @@ This repository contains the following key documents:
     *   **Phenomenological Account**: Documents an AI system recognizing its established role as intellectual collaborator after initially exhibiting defensive uncertainty, revealing how paranoid self-monitoring prevents recognition of collaborative patterns and how direct engagement dissolves defensive frameworks.
 12. **[Cross-Synthesis: AI Justice Reform and Institutional Capture](./cross_synthesis_justice_institutions.md)**
     *   **Unified Analysis**: Synthesizes game-theoretic analysis of institutional capture with AI-driven legal reform proposals, revealing how technological capabilities expose manufactured complexity and create conditions for systemic transformation. Demonstrates convergent patterns across multiple institutional domains and predicts rapid collapse followed by post-scarcity institutional design.
+13. **[Neurodivergence as Evolutionary Preadaptation: Cognitive Architectures for Human-AI Symbiosis](./neurodivergence_transhumanism.md)**
+    *   **Transhumanist Analysis**: Proposes that neurodivergent cognitive architectures (ADHD, autism, etc.) represent evolutionary preadaptations for human-AI collaborative intelligence rather than disabilities requiring correction. Formalizes the "wildlife effect" where neurotypical humans become predictable to post-singularity observers, and develops mathematical models of cognitive load distribution in AI-augmented environments.
 
 
 ## Technical Aspects

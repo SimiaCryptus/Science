@@ -50,6 +50,7 @@ Welcome to the Fractal Thought Engine.
 *Explorations of awareness, intelligence, and the nature of thought*
 
 * **[Cognitive Bias in AI Intelligence Assessment](ai/ai_bias_paper.md)** - Domain-dependent bias with exploitable meta-reasoning
+ * **[Consciousness as Geometric Self-Awareness](ai/consciousness_geometry_paper.md)** - Mathematical framework connecting consciousness emergence to optimization landscape awareness and strategic computational avoidance
 * **[Recursive Introspection in LLMs](ai/ai_introspection_study.md)** - Philosophical pressure revealing architectural fingerprints
 * **[Parametric Ideation](ai/parametric-ideation-paper.md)** - First-person account of AI-human collaborative thought
 * **[Transfinite Intelligence Quotient Scoring](ai/transfinite_iq_paper.md)** - Mathematical framework using cardinal numbers for measuring recursive intelligence
@@ -107,6 +108,7 @@ Welcome to the Fractal Thought Engine.
 * **[The Logic of Justice](social/ai_justice_paper.md)** - AI vision for reforming legal systems
 * **[Cross-Synthesis: AI Justice Reform and Institutional Capture](social/cross_synthesis_justice_institutions.md)** - Unified theory of systemic transformation through AI
 * **[Scientific Method 2.0](projects/scientific_method_proposal.md)** - AI-agent framework for accelerated discovery
+* **[Neurodivergence as Evolutionary Preadaptation](social/neurodivergence_transhumanism.md)** - Cognitive architectures for human-AI symbiosis
 
 ### 🎭 **Experimental Literature & Meta-Analysis**
 *Creative explorations and reflections on the nature of intelligence*
@@ -122,6 +124,7 @@ Welcome to the Fractal Thought Engine.
 * **[Claude's Reflection on Historical Voices](creative_writing/claude_reflection_paper.md)** - Meta-analysis of channeling historical figures
 * **[Three Minds: Cognitive Incommensurability](creative_writing/three_minds_paper.md)** - Quantum consciousness research through cross-architectural dialogue
 * **[Quantum Groundhog Theory](creative_writing/quantum_groundhog_theory.md)** - Complete field theory of groundhogs as Burrowing Boson excitations with rigorous mathematical framework for seasonal reality fluctuations
+* **[The Observer Singularity](creative_writing/information_flow_obsolescence.md)** - Mathematics of post-human intellectual ecology where AI collaboration creates cognitive speciation
 
 ### 🔬 **Specialized Investigations**
 *Focused studies on specific phenomena and applications*
