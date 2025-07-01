@@ -2,11 +2,16 @@
 title: "An Inquiry into the Nature and Causes of the Economic Disruptions of 2025: A Moral Philosopher's Assessment of Contemporary Trade Wars, Artificial Intelligence, and the Concentration of Wealth"
 layout: post
 collection: creative_writing
+related_papers:
+  - claude_reflection_paper.md
+  - fdr_speech_2025.md
 ---
 
 *By Adam Smith*  
 *Professor of Moral Philosophy (Emeritus)*  
 *University of Glasgow*
+*This economic analysis complements the political concerns raised in the [historical voices series](claude_reflection_paper.md), particularly [FDR's address](fdr_speech_2025.md) on economic inequality.*
+*This economic analysis complements the political concerns raised in the [historical voices series](claude_reflection_paper.md), particularly [FDR's address](fdr_speech_2025.md) on economic inequality.*
 
 ---
 

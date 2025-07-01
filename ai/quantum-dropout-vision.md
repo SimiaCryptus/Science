@@ -64,11 +64,11 @@ Both domains exhibit the emergence of robust behavior from seemingly destructive
 
 I propose that both phenomena may be manifestations of more general principles about robust information processing in high-dimensional spaces. These might include:
 
-- **The Robustness-Compression Trade-off**: Systems that compress information intelligently are more robust to perturbations
-- **Ensemble Advantage**: Averaging over many configurations provides stability unavailable to any single configuration
-- **Noise-Induced Accessibility**: Noise helps systems escape local minima and explore configuration space more effectively
-- **Feature-Blind Construction**: Ensembles built without knowledge of important features avoid overfitting to spurious patterns
-- **Complementarity Principle**: Like quantum observables, different network configurations reveal complementary aspects of the learned function
+* **The Robustness-Compression Trade-off**: Systems that compress information intelligently are more robust to perturbations
+* **Ensemble Advantage**: Averaging over many configurations provides stability unavailable to any single configuration
+* **Noise-Induced Accessibility**: Noise helps systems escape local minima and explore configuration space more effectively
+* **Feature-Blind Construction**: Ensembles built without knowledge of important features avoid overfitting to spurious patterns
+* **Complementarity Principle**: Like quantum observables, different network configurations reveal complementary aspects of the learned function
 
 ## 5. Research Directions
 
@@ -96,9 +96,9 @@ Both phenomena might be understood through a unified information-theoretic frame
 
 Our discussion touched on profound philosophical questions. Both dropout and quantum mechanics suggest that:
 
-- Uncertainty and information loss can be computational resources rather than mere obstacles
-- Robust solutions emerge from averaging over uncertain or superposed states
-- The act of "measurement"—whether neural activation or quantum observation—fundamentally shapes computation
+* Uncertainty and information loss can be computational resources rather than mere obstacles
+* Robust solutions emerge from averaging over uncertain or superposed states
+* The act of "measurement"—whether neural activation or quantum observation—fundamentally shapes computation
 
 These parallels hint at deep principles about the nature of information processing in our universe.
 

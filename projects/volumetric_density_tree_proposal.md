@@ -53,6 +53,13 @@ ellipsoidal regions, saddle-shaped boundaries, and other complex geometries whil
 The entropy-based organization principles share conceptual similarities with our work
 on [Entropy-Optimized Permutation Trees](bwt_tree_proposal.md), though applied to continuous density estimation rather
 than discrete string processing. Both approaches use information-theoretic principles to guide tree structure.
+The hierarchical expectation-based partitioning developed here extends the compression techniques from our 
+[N-gram language model research](../ai/ngram_paper.md) to continuous spaces, where volume estimation replaces 
+frequency counting. The entropy-adaptive organization also connects to our [compression-based classification](../ai/compression_classification_paper.md) 
+work, where similar information-theoretic principles optimize discrete decision boundaries.
+The probabilistic modeling aspects relate to our [Probabilistic Decision Trees](../ai/probabilistic_trees_paper.md) 
+research, though focused on continuous density estimation rather than discrete classification with uncertainty 
+quantification.
 
 ### 2.2 Efficient Volume Estimation via Point Lattices
 

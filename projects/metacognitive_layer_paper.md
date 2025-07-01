@@ -242,19 +242,19 @@ Strategy: Secure local processing pipeline
 The orchestration engine adapts its strategies based on intermediate results:
 
 * **Confidence Calibration**:
-    - Monitors model-reported confidence scores
-    - Adjusts retry counts: low confidence → more attempts
-    - Triggers ensemble methods when confidence variance is high
+    * Monitors model-reported confidence scores
+    * Adjusts retry counts: low confidence → more attempts
+    * Triggers ensemble methods when confidence variance is high
 
 * **Quality Assessment**:
-    - Uses learned quality predictors for early output evaluation
-    - Modifies verification intensity based on predicted quality
-    - Implements progressive refinement for near-threshold outputs
+    * Uses learned quality predictors for early output evaluation
+    * Modifies verification intensity based on predicted quality
+    * Implements progressive refinement for near-threshold outputs
 
 * **Resource Reallocation**:
-    - Tracks computational budget consumption in real-time
-    - Shifts resources from low-impact to high-impact reasoning steps
-    - Implements early stopping when quality plateaus
+    * Tracks computational budget consumption in real-time
+    * Shifts resources from low-impact to high-impact reasoning steps
+    * Implements early stopping when quality plateaus
 
 ### 5.3 Failure Recovery Mechanisms
 
@@ -269,25 +269,25 @@ The system includes robust failure handling:
 The system implements comprehensive security measures:
 
 * **Data Preprocessing Pipeline**:
-    - **PII Detection and Masking**: Regex and NER-based identification
-    - **Semantic Obfuscation**: Replace entities while preserving relationships
-    - **Pronoun Neutralization**: Gender-neutral language transformation
-    - **Context Preservation**: Maintain semantic meaning post-obfuscation
+    * **PII Detection and Masking**: Regex and NER-based identification
+    * **Semantic Obfuscation**: Replace entities while preserving relationships
+    * **Pronoun Neutralization**: Gender-neutral language transformation
+    * **Context Preservation**: Maintain semantic meaning post-obfuscation
 * **Model Selection Security**:
-    - **Trust Scoring**: Models rated on deployment security, data handling, and audit capabilities
-    - **Compliance Matching**: Automatic selection of models meeting regulatory requirements
-    - **Geographic Constraints**: Data residency requirements enforcement
-    - **Version Control**: Ensure only approved model versions are used
+    * **Trust Scoring**: Models rated on deployment security, data handling, and audit capabilities
+    * **Compliance Matching**: Automatic selection of models meeting regulatory requirements
+    * **Geographic Constraints**: Data residency requirements enforcement
+    * **Version Control**: Ensure only approved model versions are used
 * **Output Sanitization**:
-    - **Differential Privacy**: Add calibrated noise to prevent information leakage
-    - **Bias Detection**: Statistical analysis of output distributions
-    - **Re-identification Risk**: Assess and mitigate linkage attacks
-    - **Audit Trail**: Cryptographically signed logs of all operations
+    * **Differential Privacy**: Add calibrated noise to prevent information leakage
+    * **Bias Detection**: Statistical analysis of output distributions
+    * **Re-identification Risk**: Assess and mitigate linkage attacks
+    * **Audit Trail**: Cryptographically signed logs of all operations
 * **Bias Mitigation Strategies**:
-    - **Multi-Perspective Ensemble**: Use diverse models to reduce individual biases
-    - **Counterfactual Generation**: Test outputs with modified demographics
-    - **Fairness Constraints**: Enforce equal performance across groups
-    - **Adversarial Debiasing**: Train models to be invariant to protected attributes
+    * **Multi-Perspective Ensemble**: Use diverse models to reduce individual biases
+    * **Counterfactual Generation**: Test outputs with modified demographics
+    * **Fairness Constraints**: Enforce equal performance across groups
+    * **Adversarial Debiasing**: Train models to be invariant to protected attributes
 
 ## 6. Implementation Considerations
 
@@ -296,54 +296,54 @@ The system implements comprehensive security measures:
 The architecture supports flexible model utilization strategies:
 
 * **Single-Model Optimization**:
-    - Cognitive parameters determine prompt engineering strategies
-    - Adaptive temperature and sampling parameters
-    - Intelligent retry with modified prompts
+    * Cognitive parameters determine prompt engineering strategies
+    * Adaptive temperature and sampling parameters
+    * Intelligent retry with modified prompts
 
 * **Multi-Model Ensemble**:
-    - Model selection based on historical performance for parameter combinations
-    - Weighted voting with learned model expertise profiles
-  - Consensus building through semantic alignment (this ensemble approach shares principles with EchoSynth's Dialectic
+    * Model selection based on historical performance for parameter combinations
+    * Weighted voting with learned model expertise profiles
+  * Consensus building through semantic alignment (this ensemble approach shares principles with EchoSynth's Dialectic
     Choreographers coordinating multiple interpretive agents, see `ai/echosynth_proposal.md`)
 
 * **Hybrid Approaches**:
-    - Reasoning phase identification (planning → execution → verification)
-    - Phase-specific model routing
+    * Reasoning phase identification (planning → execution → verification)
+    * Phase-specific model routing
 * **Security-Aware Routing**:
-    - Model trust scoring based on deployment location and ownership
-    - Encrypted communication channels for sensitive data
-    - Compliance verification before model selection
-    - Fallback to local models when security requirements exceed cloud trust levels
+    * Model trust scoring based on deployment location and ownership
+    * Encrypted communication channels for sensitive data
+    * Compliance verification before model selection
+    * Fallback to local models when security requirements exceed cloud trust levels
 
 
 * **Model-Agnostic Abstraction**:
-    - Standardized confidence extraction across different model APIs
-    - Universal quality metrics based on task-agnostic features
-    - Adapter patterns for new model integration
+    * Standardized confidence extraction across different model APIs
+    * Universal quality metrics based on task-agnostic features
+    * Adapter patterns for new model integration
 
 ### 6.2 Computational Efficiency
 
 Despite increased orchestration complexity, the system achieves efficiency through:
 
 * **Adaptive Stopping**:
-    - Quality threshold monitoring with statistical significance testing
-    - Diminishing returns detection through quality derivative analysis
-    - Early termination when confidence intervals overlap target quality
+    * Quality threshold monitoring with statistical significance testing
+    * Diminishing returns detection through quality derivative analysis
+    * Early termination when confidence intervals overlap target quality
 
 * **Intelligent Resource Allocation**:
-    - Learned value functions for reasoning step importance
-    - Dynamic budget allocation based on expected quality improvement
-    - Parallel execution of independent reasoning branches
+    * Learned value functions for reasoning step importance
+    * Dynamic budget allocation based on expected quality improvement
+    * Parallel execution of independent reasoning branches
 
 * **Cached Strategy Patterns**:
-    - LRU cache of successful parameter → strategy mappings
-    - Similarity-based strategy retrieval for new parameter combinations
-    - Incremental learning from strategy outcomes
+    * LRU cache of successful parameter → strategy mappings
+    * Similarity-based strategy retrieval for new parameter combinations
+    * Incremental learning from strategy outcomes
 
 * **Computational Complexity**:
-    - Worst case: O(n·m·r) where n = models, m = max attempts, r = retry overhead
-    - Average case: O(n·log(m)) with early stopping
-    - Amortized: O(1) for cached parameter combinations
+    * Worst case: O(n·m·r) where n = models, m = max attempts, r = retry overhead
+    * Average case: O(n·log(m)) with early stopping
+    * Amortized: O(1) for cached parameter combinations
 
 ### 6.3 Extensibility
 
@@ -359,57 +359,57 @@ The parameter space is designed for extensibility:
 
 **Quality Improvement**:
 
-- Metric: Task-specific quality scores (e.g., BLEU for generation, accuracy for reasoning)
-- Baseline: Single-model, single-attempt performance
-- Target: 15-30% improvement across task categories
+* Metric: Task-specific quality scores (e.g., BLEU for generation, accuracy for reasoning)
+* Baseline: Single-model, single-attempt performance
+* Target: 15-30% improvement across task categories
 
 **Efficiency Gains**:
 
-- Metric: Quality per computational unit (QPU = quality_score / total_tokens)
-- Baseline: Fixed retry strategies with constant parameters
-- Target: 40% better QPU through adaptive resource allocation
+* Metric: Quality per computational unit (QPU = quality_score / total_tokens)
+* Baseline: Fixed retry strategies with constant parameters
+* Target: 40% better QPU through adaptive resource allocation
 
 **Robustness**:
 
-- Metric: Variance in quality scores across different model backends
-- Baseline: Direct model-specific optimization
-- Target: <10% quality variance across model changes
+* Metric: Variance in quality scores across different model backends
+* Baseline: Direct model-specific optimization
+* Target: <10% quality variance across model changes
 
 **Parameter Sensitivity**:
 
-- Metric: Correlation between parameter specifications and strategy effectiveness
-- Analysis: Ablation studies on parameter subsets
-- Target: Monotonic improvement with parameter precision
+* Metric: Correlation between parameter specifications and strategy effectiveness
+* Analysis: Ablation studies on parameter subsets
+* Target: Monotonic improvement with parameter precision
 
 ### 7.2 Benchmark Tasks
 
 Evaluation spans multiple domains to validate universal applicability:
 
 * **Code Generation** (HumanEval, MBPP):
-    - Parameter variations: constraint_density (low → high)
-    - Measured improvement: 25% on complex constraints
-    - Key finding: Verification loops critical for high constraint density
+    * Parameter variations: constraint_density (low → high)
+    * Measured improvement: 25% on complex constraints
+    * Key finding: Verification loops critical for high constraint density
 
 * **Mathematical Reasoning** (GSM8K, MATH):
-    - Parameter variations: reasoning_depth (shallow → proof_level)
-    - Measured improvement: 35% on proof-level problems
-    - Key finding: Multi-model verification prevents logical errors
+    * Parameter variations: reasoning_depth (shallow → proof_level)
+    * Measured improvement: 35% on proof-level problems
+    * Key finding: Multi-model verification prevents logical errors
 
 * **Creative Writing** (Custom benchmark):
-    - Parameter variations: solution_space (few_valid → open_ended)
-    - Measured improvement: 20% on diversity metrics
-    - Key finding: Ensemble methods crucial for creative tasks
+    * Parameter variations: solution_space (few_valid → open_ended)
+    * Measured improvement: 20% on diversity metrics
+    * Key finding: Ensemble methods crucial for creative tasks
 
 * **Analytical Reasoning** (BigBench Hard):
-    - Parameter variations: interdependence (isolated → circular_constraints)
+    * Parameter variations: interdependence (isolated → circular_constraints)
 * **Privacy-Preserving Analytics** (Custom benchmark with PII):
-    - Parameter variations: data_sensitivity (non_sensitive → regulated)
-    - Measured privacy: 99.9% PII removal with <5% semantic loss
-    - Key finding: Semantic obfuscation preserves task performance
+    * Parameter variations: data_sensitivity (non_sensitive → regulated)
+    * Measured privacy: 99.9% PII removal with <5% semantic loss
+    * Key finding: Semantic obfuscation preserves task performance
 * **Bias-Controlled Generation** (FairGen benchmark):
-    - Parameter variations: bias_control (none → adversarial_debiasing)
-    - Measured fairness: 90% reduction in demographic bias
-    - Key finding: Multi-model ensemble critical for bias reduction
+    * Parameter variations: bias_control (none → adversarial_debiasing)
+    * Measured fairness: 90% reduction in demographic bias
+    * Key finding: Multi-model ensemble critical for bias reduction
 
 ## 8. Future Directions
 
@@ -418,19 +418,19 @@ Evaluation spans multiple domains to validate universal applicability:
 While explicit parameterization provides control, future work could explore:
 
 * **Learning Parameter Selection Policies**:
-    - Supervised learning from human expert parameter choices
-    - Reinforcement learning with quality-based rewards
-    - Meta-learning across task families
+    * Supervised learning from human expert parameter choices
+    * Reinforcement learning with quality-based rewards
+    * Meta-learning across task families
 
 * **Parameter Recommendation Systems**:
-    - Natural language task description → parameter vector
-    - Confidence intervals for recommended parameters
-    - Interactive refinement based on user feedback
+    * Natural language task description → parameter vector
+    * Confidence intervals for recommended parameters
+    * Interactive refinement based on user feedback
 
 * **Adaptive Parameter Refinement**:
-    - Online parameter adjustment during execution
-    - Bayesian optimization of parameter space
-    - Transfer learning from similar tasks
+    * Online parameter adjustment during execution
+    * Bayesian optimization of parameter space
+    * Transfer learning from similar tasks
 
 ### 8.3 Multi-Agent Metacognitive Coordination
 

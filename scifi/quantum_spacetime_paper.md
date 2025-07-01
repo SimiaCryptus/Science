@@ -14,11 +14,11 @@ The proliferation of quantum gravity approaches—loop quantum gravity (LQG), ca
 
 ### 2.1 Basic Structure
 Define the fundamental spaces rigorously:
-- **G**: The space of Riemannian metrics on a compact 3-manifold Σ, modulo diffeomorphisms: G = Riem(Σ)/Diff(Σ). This is equipped with the DeWitt supermetric:
+* **G**: The space of Riemannian metrics on a compact 3-manifold Σ, modulo diffeomorphisms: G = Riem(Σ)/Diff(Σ). This is equipped with the DeWitt supermetric:
   G_{ijkl} = ½√h(h_{ik}h_{jl} + h_{il}h_{jk} - h_{ij}h_{kl})
-- **C**: The space of locally finite partially ordered sets (posets) with cardinality ≤ N, equipped with the Bombelli-Meyer metric:
+* **C**: The space of locally finite partially ordered sets (posets) with cardinality ≤ N, equipped with the Bombelli-Meyer metric:
   d(C₁,C₂) = inf{ε : ∃ bijection f: C₁ → C₂ with |x ≺ y ⟺ f(x) ≺ f(y)| < ε|C₁|}
-- **T**: The space of time orientation fields on Σ × ℝ, represented as unit timelike vector fields modulo gauge transformations
+* **T**: The space of time orientation fields on Σ × ℝ, represented as unit timelike vector fields modulo gauge transformations
 
 
 Define the fundamental quantum state as:
@@ -36,9 +36,9 @@ The fundamental structure is characterized by the quantum foam Hamiltonian const
 Ĥ₀|Ψ₀⟩ = 0
 
 Where Ĥ₀ = Ĥ_WDW + Ĥ_causal + Ĥ_temporal with:
-- Ĥ_WDW = ∫_Σ d³x [G_{ijkl}π^{ij}π^{kl} + √h(³R - 2Λ)]
-- Ĥ_causal = -iℏ∑_{x,y∈C} ∂/∂n(x,y) where n(x,y) is the causal relation
-- Ĥ_temporal = ∫_Σ d³x T^μ∇_μ
+* Ĥ_WDW = ∫_Σ d³x [G_{ijkl}π^{ij}π^{kl} + √h(³R - 2Λ)]
+* Ĥ_causal = -iℏ∑_{x,y∈C} ∂/∂n(x,y) where n(x,y) is the causal relation
+* Ĥ_temporal = ∫_Σ d³x T^μ∇_μ
 
 Where the operators are derived from the Wheeler-DeWitt constraint:
 Ĝₙ = -ℏ²G_{ijkl} δ²/δh_{ij}δh_{kl} + √h R(h)
@@ -59,9 +59,9 @@ Where μ(g,c,t) is a normalized Gaussian measure:
 μ(g,c,t) = (2πℏ)^{-n/2}(det Σ)^{-1/2} exp[-(1/2ℏ)(X-X₀)^T Σ^{-1}(X-X₀)]
 
 Where X = (g,c,t) represents the configuration, X₀ = (g₀,c₀,t₀) is the classical peak corresponding to a stable spacetime allowing information processing, and Σ is the covariance matrix determined by quantum fluctuations around the classical solution. The classical configuration satisfies:
-- Einstein equations: R_μν - ½g_μν R + Λg_μν = 8πG T_μν
-- Causal consistency: the poset c₀ embeds into the causal structure of (M,g₀)
-- Time orientation: t₀ defines a global time function on (M,g₀)
+* Einstein equations: R_μν - ½g_μν R + Λg_μν = 8πG T_μν
+* Causal consistency: the poset c₀ embeds into the causal structure of (M,g₀)
+* Time orientation: t₀ defines a global time function on (M,g₀)
 
 ## 3. Dimensional Selection via Information Constraints
 
@@ -206,9 +206,9 @@ S(V) = A/4G + α log(A/A_P) + β(V/V_P)^{1/3}
 
 
 Where the correction terms are derived as follows:
-- α = -3/2: This logarithmic correction arises from quantum fluctuations of the horizon geometry. Following the LQG calculation by Kaul and Majumdar (2000), integrating over quantum hair configurations yields S_quantum = -3/2 log(A/A_P).
-- β ≈ 0.1: The volume correction emerges from the discrete nature of the underlying causal set. For a region containing N ≈ V/ℓ³_P elements, combinatorial entropy contributes S_bulk ≈ 0.1(V/V_P)^{1/3} due to Poisson fluctuations in the sprinkling process.
-- These corrections become significant only near the Planck scale where A ∼ A_P or V ∼ V_P.
+* α = -3/2: This logarithmic correction arises from quantum fluctuations of the horizon geometry. Following the LQG calculation by Kaul and Majumdar (2000), integrating over quantum hair configurations yields S_quantum = -3/2 log(A/A_P).
+* β ≈ 0.1: The volume correction emerges from the discrete nature of the underlying causal set. For a region containing N ≈ V/ℓ³_P elements, combinatorial entropy contributes S_bulk ≈ 0.1(V/V_P)^{1/3} due to Poisson fluctuations in the sprinkling process.
+* These corrections become significant only near the Planck scale where A ∼ A_P or V ∼ V_P.
 
 ## 7. Cosmological Implications
 

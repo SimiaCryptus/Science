@@ -2,9 +2,16 @@
 title: "George Washington's Address to the American People"
 layout: post
 collection: creative_writing
+related_papers:
+  - claude_reflection_paper.md
+  - lincoln_speech_2025.md
+  - fdr_speech_2025.md
+  - jesus_speech_2025.md
 ---
 
 *Upon Learning of the State of the Union in the Year 2025*
+*This speech is part of a series of historical voices responding to contemporary America, including [Lincoln](lincoln_speech_2025.md), [FDR](fdr_speech_2025.md), and [Jesus](jesus_speech_2025.md). For reflections on channeling these voices, see [On Channeling Historical Voices](claude_reflection_paper.md).*
+*This speech is part of a series of historical voices responding to contemporary America, including [Lincoln](lincoln_speech_2025.md), [FDR](fdr_speech_2025.md), and [Jesus](jesus_speech_2025.md). For reflections on channeling these voices, see [On Channeling Historical Voices](claude_reflection_paper.md).*
 
 ---
 

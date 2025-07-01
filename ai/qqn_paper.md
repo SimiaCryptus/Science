@@ -22,23 +22,22 @@ The QQN algorithm operates by comparing the magnitudes of the L-BFGS direction *
 
 Given the current point **x** with gradient **g** and L-BFGS direction **d**_LBFGS, we compute:
 
-- ||**d**_LBFGS|| = magnitude of L-BFGS direction  
-- ||**g**|| = magnitude of gradient
-- Relative difference: ρ = |||||**d**_LBFGS|| - ||**g**|||| / (||||**d**_LBFGS|| + ||**g**||)
+* ||**d**_LBFGS|| = magnitude of L-BFGS direction  
+* ||**g**|| = magnitude of gradient
+* Relative difference: ρ = |||||**d**_LBFGS|| - ||**g**|||| / (||||**d**_LBFGS|| + ||**g**||)
 
 ### 2.3 Hybrid Direction Construction
 
 When ρ > τ (threshold, typically 0.01), QQN constructs a hybrid direction:
 
 1. **Scale normalization**: **g**_scaled = **g** × (||||**d**_LBFGS|| / ||**g**||)
-   - To prevent numerical issues when ||**g**|| is small, we use: **g**_scaled = **g** × (||||**d**_LBFGS|| / max(||**g**||, ε)) where ε = 1e-8
+   * To prevent numerical issues when ||**g**|| is small, we use: **g**_scaled = **g** × (||||**d**_LBFGS|| / max(||**g**||, ε)) where ε = 1e-8
 2. **Quadratic interpolation**: **d**_QQN(t) = t(1-t)**g**_scaled + t²**d**_LBFGS
 
 This formulation has several desirable properties:
 The quadratic form was chosen over linear interpolation because it provides a smooth transition with zero derivative at t=0, ensuring compatibility with standard line search methods. Cubic and higher-order interpolations were tested but provided no significant benefit while increasing computational cost.
-*Note: This quadratic interpolation approach shares conceptual similarities with the trust region methods discussed
-in [Trust Region Methods for Neural Network Optimization](../trust_regions.md), though QQN applies it to direction
-blending rather than step size constraints.*
+
+**Note**: This quadratic interpolation approach shares conceptual similarities with the [trust region methods](trust_regions.md), though QQN applies it to direction blending rather than step size constraints. The implementation benefits from the [MindsEye framework's modular architecture](mindseye_modularity_report.md), which cleanly separates direction computation from line search logic.
 
 
 ### 2.4 Normalization Benefits
@@ -82,14 +81,14 @@ Since **g**_scaled = α**g** where α > 0, we have:
 For t ∈ (0, 1), the first term is negative. For t near 0, this term dominates, ensuring descent. □
 
 For the quadratic combination:
-- The derivative at t = 0 is **g**_scaled (guaranteed descent)
-- The method gracefully transitions to L-BFGS behavior as t approaches 1
+* The derivative at t = 0 is **g**_scaled (guaranteed descent)
+* The method gracefully transitions to L-BFGS behavior as t approaches 1
 
 ### 3.2 Convergence Properties
 
 While formal convergence analysis is beyond the scope of this work, the algorithm inherits convergence properties from its component methods:
-- When ρ ≤ τ, it reduces to standard L-BFGS
-- When L-BFGS is unreliable, it incorporates the gradient direction, which has well-established convergence guarantees
+* When ρ ≤ τ, it reduces to standard L-BFGS
+* When L-BFGS is unreliable, it incorporates the gradient direction, which has well-established convergence guarantees
 
 ## 4. Implementation Details
 
@@ -99,9 +98,9 @@ The reference implementation uses explicit memory management with `addRef()` and
 
 ### 4.2 Practical Considerations
 
-- **Threshold Selection**: τ = 0.01 works well in practice, triggering hybridization when magnitude differences exceed 1%
-- **History Management**: Inherits L-BFGS history parameters (min/max history length)
-- **Computational Overhead**: Minimal additional cost beyond standard L-BFGS
+* **Threshold Selection**: τ = 0.01 works well in practice, triggering hybridization when magnitude differences exceed 1%
+* **History Management**: Inherits L-BFGS history parameters (min/max history length)
+* **Computational Overhead**: Minimal additional cost beyond standard L-BFGS
 
 ## 5. Empirical Evaluation
 
@@ -129,9 +128,9 @@ We evaluated QQN on three benchmark problems:
 ### 5.3 Sensitivity Analysis
 
 We tested τ values from 0.001 to 0.1:
-- τ < 0.005: Minimal hybridization, similar to L-BFGS
-- τ ∈ [0.005, 0.02]: Optimal range, best convergence
-- τ > 0.05: Excessive hybridization, slower convergence
+* τ < 0.005: Minimal hybridization, similar to L-BFGS
+* τ ∈ [0.005, 0.02]: Optimal range, best convergence
+* τ > 0.05: Excessive hybridization, slower convergence
 
 ### 5.4 Convergence Stability
 
@@ -143,27 +142,25 @@ QQN showed 73% fewer line search failures compared to L-BFGS on ill-conditioned 
 
 Several approaches combine different optimization strategies:
 
-- **Trust region implementations** (see [Trust Region Methods for Neural Network Optimization](trust_regions.md)): Our
-  framework provides practical implementations of various trust region strategies that complement QQN's approach.
-- **Recursive subspace methods** (see [Recursive Subspace Optimization](recursive_subspace_paper.md)): RSO's layer-wise
-  decomposition shares conceptual similarities with QQN's direction blending, though operating at different
-  granularities.
+* **Trust region methods**: Constrain step sizes rather than blending directions (see [Trust Region Methods](trust_regions.md)). The [MindsEye reference counting system](mindseye_refcount_analysis.md) enables efficient trust region implementations through deterministic memory management.
+* **Recursive subspace methods**: [RSO's](recursive_subspace_paper.md) layer-wise decomposition shares conceptual similarities with QQN's direction blending, though operating at different granularities.
+* **Modular optimization frameworks**: The [MindsEye architecture analysis](mindseye_modularity_report.md) demonstrates how clean separation of concerns enables hybrid methods like QQN to be implemented as composable components.
 
 ### 6.2 Line Search Normalization
 
 While normalization in optimization is well-studied, the specific insight of using magnitude ratios to stabilize line search parameters appears novel.
-*For a comprehensive implementation of various trust region strategies that complement QQN,
-see [Trust Region Methods](../trust_regions.md#trust-region-implementations).*
+
+The [MindsEye framework's modular design](mindseye_technical_report.md) particularly facilitates this type of algorithmic innovation by separating line search logic from direction computation, enabling QQN's hybrid approach to be implemented cleanly within the existing optimization infrastructure.
 
 ## 7. Conclusion
 
 QQN presents a practical solution to L-BFGS reliability issues through continuous interpolation with gradient descent. The magnitude-based normalization scheme addresses a subtle but important aspect of line search stability. The method is simple to implement, computationally efficient, and maintains the theoretical properties of its component algorithms.
 
 Future work could explore:
-- Formal convergence analysis
-- Extension to stochastic settings
-- Adaptive threshold selection
-- Application to other problem domains beyond neural networks
+* Formal convergence analysis
+* Extension to stochastic settings
+* Adaptive threshold selection
+* Application to other problem domains beyond neural networks
 
 ## References
 

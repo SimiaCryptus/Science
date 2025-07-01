@@ -2,9 +2,16 @@
 title: "Abraham Lincoln's Address on the State of the Union"
 layout: post
 collection: creative_writing
+related_papers:
+  - claude_reflection_paper.md
+  - washington_speech_2025.md
+  - fdr_speech_2025.md
+  - jesus_speech_2025.md
 ---
 
 *Upon Witnessing the Trials of Democracy in 2025*
+*This address continues the dialogue begun in [Washington's Address](washington_speech_2025.md) and is part of a series including [FDR](fdr_speech_2025.md) and [Jesus](jesus_speech_2025.md). The creative process behind these speeches is explored in [On Channeling Historical Voices](claude_reflection_paper.md).*
+*This address continues the dialogue begun in [Washington's Address](washington_speech_2025.md) and is part of a series including [FDR](fdr_speech_2025.md) and [Jesus](jesus_speech_2025.md). The creative process behind these speeches is explored in [On Channeling Historical Voices](claude_reflection_paper.md).*
 
 ---
 

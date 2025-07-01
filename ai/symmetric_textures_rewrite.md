@@ -95,12 +95,13 @@ At each resolution level, we run the optimization to convergence before upsampli
 Given the computational requirements (high-end GPU, substantial RAM), we designed the system for cloud deployment on AWS P2 instances. The entire pipeline is containerized and orchestrated through automated scripts that:
 
 1. Provision GPU-enabled EC2 instances
-2. Deploy the MindsEye software stack
+2. Deploy the [MindsEye software stack](mindseye_technical_report.md)
 3. Execute the optimization pipeline
 4. Publish results to S3-hosted galleries
 5. Automatically terminate instances upon completion
 
 This approach makes the system accessible to users without specialized hardware while controlling costs through precise resource allocation.
+The system leverages MindsEye's [modular optimization architecture](mindseye_modularity_report.md) and [reference counting system](mindseye_refcount_analysis.md) to efficiently manage GPU resources during the intensive geometric constraint optimization process.
 
 ## Results and Analysis
 
@@ -139,9 +140,9 @@ The restriction that only certain symmetry/aspect-ratio combinations converge re
 ### Differential Geometry and Curvature
 
 The three geometric spaces we explore represent the three possible constant-curvature geometries:
-- **Euclidean (flat)**: Zero curvature
-- **Spherical**: Positive constant curvature  
-- **Hyperbolic**: Negative constant curvature
+* **Euclidean (flat)**: Zero curvature
+* **Spherical**: Positive constant curvature  
+* **Hyperbolic**: Negative constant curvature
 
 This represents a systematic computational exploration of the complete classification of constant-curvature geometries. Our investigation of all three geometric possibilities provides a comprehensive framework for symmetric texture generation across all possible homogeneous, isotropic spaces.
 

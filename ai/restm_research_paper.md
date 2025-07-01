@@ -53,11 +53,11 @@ Beyond ZooKeeper, systems like etcd and Consul provide distributed coordination 
 
 reSTM employs a layered architecture that separates concerns across multiple abstraction levels:
 
-- **Application Layer**: Client applications using high-level data structures
-- **Client Library Layer**: Language-specific bindings providing STM semantics
-- **Storage Protocol Layer**: Stateless HTTP-based protocol handling routing and coordination  
-- **Actor Storage Layer**: Stateful actors managing individual memory pointers
-- **Cold Storage Layer**: Persistent storage for long-term data retention
+* **Application Layer**: Client applications using high-level data structures
+* **Client Library Layer**: Language-specific bindings providing STM semantics
+* **Storage Protocol Layer**: Stateless HTTP-based protocol handling routing and coordination  
+* **Actor Storage Layer**: Stateful actors managing individual memory pointers
+* **Cold Storage Layer**: Persistent storage for long-term data retention
 
 This separation enables the system to scale different concerns independently while maintaining transactional semantics end-to-end.
 
@@ -80,9 +80,9 @@ Transactions in reSTM follow a two-phase protocol:
 
 This approach provides several advantages over traditional distributed consensus protocols:
 
-- **No Global Coordinator**: Transactions coordinate directly with relevant storage actors
-- **Deadlock Freedom**: The system uses timeouts and retries rather than deadlock detection
-- **Fine-grained Concurrency**: Lock contention occurs only at the pointer level
+* **No Global Coordinator**: Transactions coordinate directly with relevant storage actors
+* **Deadlock Freedom**: The system uses timeouts and retries rather than deadlock detection
+* **Fine-grained Concurrency**: Lock contention occurs only at the pointer level
 
 ### 3.4 Distribution and Replication
 
@@ -90,16 +90,16 @@ The storage actor layer uses hash-based partitioning to distribute pointers acro
 
 The protocol layer handles routing between clients and the appropriate storage actors, abstracting distribution concerns from both clients and storage actors. This design enables:
 
-- **Horizontal Scaling**: Adding nodes increases both storage capacity and processing power
-- **Fault Tolerance**: Replica groups continue operating as long as one replica remains available
-- **Load Distribution**: Request load is distributed based on pointer hash distribution
+* **Horizontal Scaling**: Adding nodes increases both storage capacity and processing power
+* **Fault Tolerance**: Replica groups continue operating as long as one replica remains available
+* **Load Distribution**: Request load is distributed based on pointer hash distribution
 
 ### 3.5 Persistence
 
 reSTM separates hot data (in actor memory) from cold data (in persistent storage) to optimize for both performance and durability. The system supports pluggable persistence backends:
 
-- **Berkeley DB**: Local file system storage for single-node deployments
-- **Amazon DynamoDB**: Cloud-based storage for production deployments
+* **Berkeley DB**: Local file system storage for single-node deployments
+* **Amazon DynamoDB**: Cloud-based storage for production deployments
 
 Changes flow from actors to cold storage asynchronously, ensuring that performance-critical operations are not blocked by I/O latency.
 
@@ -109,11 +109,11 @@ Changes flow from actors to cold storage asynchronously, ensuring that performan
 
 The REST protocol exposes memory operations through standard HTTP methods:
 
-- `GET /ptr/{id}`: Read pointer value
-- `PUT /ptr/{id}`: Write pointer value (within transaction)
-- `POST /txn/begin`: Begin new transaction
-- `POST /txn/{id}/commit`: Commit transaction
-- `POST /txn/{id}/abort`: Abort transaction
+* `GET /ptr/{id}`: Read pointer value
+* `PUT /ptr/{id}`: Write pointer value (within transaction)
+* `POST /txn/begin`: Begin new transaction
+* `POST /txn/{id}/commit`: Commit transaction
+* `POST /txn/{id}/abort`: Abort transaction
 
 This design leverages existing HTTP infrastructure while providing the semantics required for transactional memory operations.
 
@@ -152,10 +152,10 @@ class VersionStore:
     self.versions[ptr_id] = pruned
 ```
 **2. Distributed Watermark Protocol**:
-- Each node maintains local minimum active transaction timestamp
-- Nodes periodically exchange watermarks via gossip protocol
-- Global watermark = minimum of all node watermarks
-- GC operates on versions older than global watermark - safety_margin
+* Each node maintains local minimum active transaction timestamp
+* Nodes periodically exchange watermarks via gossip protocol
+* Global watermark = minimum of all node watermarks
+* GC operates on versions older than global watermark - safety_margin
 **3. Adaptive Retention Policy**:
 ```
 def calculate_retention_window():
@@ -171,9 +171,9 @@ def calculate_retention_window():
 
 Built on the storage layer, reSTM includes a distributed task execution system that provides:
 
-- **Dependency Management**: Tasks can depend on the completion of other tasks
-- **Iterative Execution**: Tasks can spawn subtasks and wait for their completion
-- **Persistence**: Task state is maintained in the STM, providing fault tolerance
+* **Dependency Management**: Tasks can depend on the completion of other tasks
+* **Iterative Execution**: Tasks can spawn subtasks and wait for their completion
+* **Persistence**: Task state is maintained in the STM, providing fault tolerance
 
 ## 5. Evaluation
 
@@ -181,9 +181,9 @@ Built on the storage layer, reSTM includes a distributed task execution system t
 
 We implemented a complete decision tree learning system on reSTM to evaluate its effectiveness for non-trivial distributed algorithms. The application includes:
 
-- **Online Learning**: Trees can split nodes automatically as data arrives
-- **Batch Processing**: Offline splitting using distributed task execution
-- **Rule Generation**: Entropy-based splitting criteria with configurable parameters
+* **Online Learning**: Trees can split nodes automatically as data arrives
+* **Batch Processing**: Offline splitting using distributed task execution
+* **Rule Generation**: Entropy-based splitting criteria with configurable parameters
 
 The implementation demonstrates several key capabilities:
 
@@ -198,7 +198,7 @@ While we have not conducted extensive performance benchmarking, several design c
 **Strengths**:
 
 **Limitations**:
-- Memory usage growth requires active garbage collection strategies
+* Memory usage growth requires active garbage collection strategies
 
 ### 5.3 Memory Management and Garbage Collection
 
@@ -220,29 +220,29 @@ Algorithm: PruneVersions(pointer_id, retention_window)
 ```
 
 **2. Distributed Garbage Collection Protocol**:
-- **Local GC**: Each storage actor performs local version pruning based on transaction watermarks
-- **Global Coordination**: A distributed consensus protocol determines safe global pruning timestamps
-- **Incremental Collection**: GC runs continuously in background to avoid stop-the-world pauses
+* **Local GC**: Each storage actor performs local version pruning based on transaction watermarks
+* **Global Coordination**: A distributed consensus protocol determines safe global pruning timestamps
+* **Incremental Collection**: GC runs continuously in background to avoid stop-the-world pauses
 
 **3. Memory Pressure Adaptation**:
 The system dynamically adjusts retention policies based on memory pressure:
-- Under low pressure: Retain versions for debugging and auditing
-- Under high pressure: Aggressively prune to oldest active transaction
-- Critical pressure: Reject new transactions until memory is reclaimed
+* Under low pressure: Retain versions for debugging and auditing
+* Under high pressure: Aggressively prune to oldest active transaction
+* Critical pressure: Reject new transactions until memory is reclaimed
 
 ### 5.4 Operational Experience
 
 Deployment of reSTM clusters demonstrates both the benefits and challenges of the approach:
 
 **Benefits**:
-- No master server eliminates single points of failure
-- REST interface simplifies debugging and monitoring
-- Detailed transaction logging provides excellent observability
+* No master server eliminates single points of failure
+* REST interface simplifies debugging and monitoring
+* Detailed transaction logging provides excellent observability
 
 **Challenges**:
-- Manual cluster configuration increases operational complexity
-- Memory growth requires careful capacity planning
-- Network partitions can cause widespread transaction failures
+* Manual cluster configuration increases operational complexity
+* Memory growth requires careful capacity planning
+* Network partitions can cause widespread transaction failures
 
 ## 6. Discussion
 
@@ -263,16 +263,16 @@ We provide a formal specification of reSTM's transactional semantics and prove k
 #### 6.2.1 System Model
 
 **Definition 1 (System State)**: The system state S is a tuple (M, T, L) where:
-- M: P → V × TS is a memory mapping from pointers to (value, timestamp) pairs
-- T: TID → (TS, Status, RS, WS) is a transaction registry
-- L: P → TID ∪ {⊥} is a lock mapping
+* M: P → V × TS is a memory mapping from pointers to (value, timestamp) pairs
+* T: TID → (TS, Status, RS, WS) is a transaction registry
+* L: P → TID ∪ {⊥} is a lock mapping
 
 **Definition 2 (Transaction)**: A transaction T is a sequence of operations:
-- read(p): Returns value at pointer p
-- write(p, v): Writes value v to pointer p
-- begin(): Starts transaction with timestamp ts
-- commit(): Atomically applies all writes
-- abort(): Discards all writes
+* read(p): Returns value at pointer p
+* write(p, v): Writes value v to pointer p
+* begin(): Starts transaction with timestamp ts
+* commit(): Atomically applies all writes
+* abort(): Discards all writes
 
 #### 6.2.2 Operational Semantics
 
@@ -352,7 +352,7 @@ commit(tid) : S → S'
 
 reSTM's scalability characteristics are determined by several factors:
 
-- **Memory Usage**: Garbage collection enables long-term operation
+* **Memory Usage**: Garbage collection enables long-term operation
 
 **Scalability Theorem**: Given n nodes and m pointers uniformly distributed, expected lock contention probability for k concurrent transactions is:
 

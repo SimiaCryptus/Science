@@ -113,10 +113,10 @@ emphasize that these are not proven topological invariants but rather stable fea
 2. **Normalized spectral moments**: M_k = (1/n)Σᵢ (λᵢ/λ_max)^k where λᵢ are eigenvalues of D sorted in descending order
    and λ_max is the largest eigenvalue, providing scale invariance
 3. **Distance complexity**: C_D = H(D_norm)/log(n) where H is the Shannon entropy computed as follows:
-   - Normalize: D_norm = D/max(D) to [0,1]
-   - Discretize: bin into B=50 equal-width bins
-   - Compute histogram: h_i = count(D_norm ∈ bin_i) / total_count
-   - Shannon entropy: H = -Σᵢ h_i log(h_i) for h_i > 0
+   * Normalize: D_norm = D/max(D) to [0,1]
+   * Discretize: bin into B=50 equal-width bins
+   * Compute histogram: h_i = count(D_norm ∈ bin_i) / total_count
+   * Shannon entropy: H = -Σᵢ h_i log(h_i) for h_i > 0
 
 **Theoretical Note**: While eigenvalues of D depend on the embedding, we find that certain combinations of spectral
 features show empirical stability under isotopy. A rigorous theoretical analysis of this phenomenon is left for future
@@ -172,9 +172,9 @@ We use the Ripser library with optimizations:
 3. **Early termination**: Stop at persistence threshold based on knot scale
 4. **Complexity**: O(n³) worst case, but typically O(n² log n) for sparse filtrations
 **Persistence Diagram Vectorization**: We convert variable-size persistence diagrams to fixed-size vectors using:
-- Persistence statistics: [max_persistence, sum_persistence, count_bars, mean_persistence]
-- Persistence images: 20×20 pixel discretization with Gaussian kernel
-- Persistence landscapes: First 5 landscape functions sampled at 50 points
+* Persistence statistics: [max_persistence, sum_persistence, count_bars, mean_persistence]
+* Persistence images: 20×20 pixel discretization with Gaussian kernel
+* Persistence landscapes: First 5 landscape functions sampled at 50 points
 
 ```
 Algorithm 2: Optimized Persistence Computation
@@ -864,11 +864,11 @@ interface ColorScheme {
 ```
 
 **Implementation Details**:
-- Three.js for WebGL rendering
-- Custom shaders for curvature/torsion visualization
-- Optimized tube geometry generation
-- LOD system for complex knots
-- Touch/gesture support for mobile devices
+* Three.js for WebGL rendering
+* Custom shaders for curvature/torsion visualization
+* Optimized tube geometry generation
+* LOD system for complex knots
+* Touch/gesture support for mobile devices
 
 ### 2.2 Distance Matrix Explorer
 
@@ -910,11 +910,11 @@ interface BrushSelection {
 ```
 
 **Implementation Details**:
-- D3.js for interactive heatmaps
-- WebGL acceleration for large matrices
-- Efficient sparse matrix rendering
-- Real-time filtering and thresholding
-- Synchronized cursors across views
+* D3.js for interactive heatmaps
+* WebGL acceleration for large matrices
+* Efficient sparse matrix rendering
+* Real-time filtering and thresholding
+* Synchronized cursors across views
 
 ### 2.3 Persistence Diagram Analyzer
 
@@ -1150,11 +1150,11 @@ memory_limits:
   max_cached_knots: 50
 
 optimization_strategies:
-  - WebAssembly for compute-intensive operations
-  - GPU.js for parallel computations
-  - Progressive loading for large datasets
-  - Efficient memory pooling
-  - Request debouncing and caching
+  * WebAssembly for compute-intensive operations
+  * GPU.js for parallel computations
+  * Progressive loading for large datasets
+  * Efficient memory pooling
+  * Request debouncing and caching
 ```
 
 ### 3.2 Server-Side Performance
@@ -1270,15 +1270,15 @@ paths:
     get:
       summary: List knots
       parameters:
-        - name: type
+        * name: type
           in: query
           schema:
             type: string
-        - name: crossing_number
+        * name: crossing_number
           in: query
           schema:
             type: integer
-        - name: limit
+        * name: limit
           in: query
           schema:
             type: integer
@@ -1312,7 +1312,7 @@ paths:
     post:
       summary: Calculate features
       parameters:
-        - name: knot_id
+        * name: knot_id
           in: path
           required: true
           schema:
@@ -1338,8 +1338,8 @@ paths:
           application/json:
             schema:
               oneOf:
-                - $ref: '#/components/schemas/KnotData'
-                - $ref: '#/components/schemas/Features'
+                * $ref: '#/components/schemas/KnotData'
+                * $ref: '#/components/schemas/Features'
       responses:
         200:
           description: Classification result
@@ -1417,22 +1417,22 @@ interface WebSocketAPI {
 ```yaml
 authentication:
   providers:
-    - type: oauth2
+    * type: oauth2
       providers: [google, github, orcid]
-    - type: jwt
+    * type: jwt
       expiry: 24h
-    - type: api_key
+    * type: api_key
       for: programmatic_access
 
 authorization:
   roles:
-    - name: guest
+    * name: guest
       permissions: [view_public, run_basic_analysis]
-    - name: student
+    * name: student
       permissions: [save_work, access_tutorials, share_results]
-    - name: researcher
+    * name: researcher
       permissions: [batch_processing, custom_scripts, private_datasets]
-    - name: admin
+    * name: admin
       permissions: [user_management, system_config, monitoring]
 
 rate_limiting:
@@ -1459,53 +1459,53 @@ services:
   frontend:
     image: knotexplorer/frontend:latest
     ports:
-      - "3000:3000"
+      * "3000:3000"
     environment:
-      - API_URL=http://api:8000
-      - WEBSOCKET_URL=ws://api:8000/ws
+      * API_URL=http://api:8000
+      * WEBSOCKET_URL=ws://api:8000/ws
 
   api:
     image: knotexplorer/api:latest
     ports:
-      - "8000:8000"
+      * "8000:8000"
     environment:
-      - DATABASE_URL=postgresql://...
-      - REDIS_URL=redis://redis:6379
-      - MINIO_URL=http://minio:9000
+      * DATABASE_URL=postgresql://...
+      * REDIS_URL=redis://redis:6379
+      * MINIO_URL=http://minio:9000
     depends_on:
-      - postgres
-      - redis
-      - minio
+      * postgres
+      * redis
+      * minio
 
   worker:
     image: knotexplorer/worker:latest
     deploy:
       replicas: 4
     environment:
-      - CELERY_BROKER_URL=redis://redis:6379
-      - CUDA_VISIBLE_DEVICES=0,1
+      * CELERY_BROKER_URL=redis://redis:6379
+      * CUDA_VISIBLE_DEVICES=0,1
 
   postgres:
     image: postgres:14
     volumes:
-      - postgres_data:/var/lib/postgresql/data
+      * postgres_data:/var/lib/postgresql/data
     environment:
-      - POSTGRES_DB=knotexplorer
-      - POSTGRES_USER=knot_user
-      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      * POSTGRES_DB=knotexplorer
+      * POSTGRES_USER=knot_user
+      * POSTGRES_PASSWORD=${DB_PASSWORD}
 
   redis:
     image: redis:7-alpine
     volumes:
-      - redis_data:/data
+      * redis_data:/data
 
   minio:
     image: minio/minio:latest
     volumes:
-      - minio_data:/data
+      * minio_data:/data
     environment:
-      - MINIO_ROOT_USER=${MINIO_USER}
-      - MINIO_ROOT_PASSWORD=${MINIO_PASSWORD}
+      * MINIO_ROOT_USER=${MINIO_USER}
+      * MINIO_ROOT_PASSWORD=${MINIO_PASSWORD}
     command: server /data --console-address ":9001"
 
 volumes:
@@ -1533,10 +1533,10 @@ spec:
         app: knotexplorer-api
     spec:
       containers:
-      - name: api
+      * name: api
         image: knotexplorer/api:latest
         ports:
-        - containerPort: 8000
+        * containerPort: 8000
         resources:
           requests:
             memory: "2Gi"
@@ -1545,7 +1545,7 @@ spec:
             memory: "4Gi"
             cpu: "2000m"
         env:
-        - name: DATABASE_URL
+        * name: DATABASE_URL
           valueFrom:
             secretKeyRef:
               name: knotexplorer-secrets
@@ -1559,7 +1559,7 @@ spec:
   selector:
     app: knotexplorer-api
   ports:
-  - port: 8000
+  * port: 8000
     targetPort: 8000
   type: LoadBalancer
 ---
@@ -1575,13 +1575,13 @@ spec:
   minReplicas: 3
   maxReplicas: 20
   metrics:
-  - type: Resource
+  * type: Resource
     resource:
       name: cpu
       target:
         type: Utilization
         averageUtilization: 70
-  - type: Resource
+  * type: Resource
     resource:
       name: memory
       target:
@@ -1596,19 +1596,19 @@ spec:
 ```yaml
 monitoring:
   metrics:
-    - name: api_response_time
+    * name: api_response_time
       type: histogram
       labels: [endpoint, method, status]
 
-    - name: computation_duration
+    * name: computation_duration
       type: histogram
       labels: [computation_type, knot_complexity]
 
-    - name: active_users
+    * name: active_users
       type: gauge
       labels: [user_type]
 
-    - name: feature_calculation_accuracy
+    * name: feature_calculation_accuracy
       type: histogram
       labels: [feature_type, sampling_density]
 
@@ -1616,8 +1616,8 @@ monitoring:
     level: INFO
     format: json
     destinations:
-      - stdout
-      - elasticsearch
+      * stdout
+      * elasticsearch
 
   tracing:
     enabled: true
@@ -1625,12 +1625,12 @@ monitoring:
     exporter: jaeger
 
   alerting:
-    - name: high_error_rate
+    * name: high_error_rate
       condition: error_rate > 0.05
       duration: 5m
       action: notify_oncall
 
-    - name: slow_computation
+    * name: slow_computation
       condition: p95_computation_time > 10s
       duration: 10m
       action: scale_workers
@@ -1743,10 +1743,10 @@ documentation/
 
 ### 10.2 API Documentation
 
-- OpenAPI/Swagger specification
-- Interactive API explorer
-- Rate limiting and authentication guides
-- Webhook documentation
+* OpenAPI/Swagger specification
+* Interactive API explorer
+* Rate limiting and authentication guides
+* Webhook documentation
 
 ## 11. Accessibility Requirements
 
@@ -1755,21 +1755,21 @@ accessibility:
   standards: WCAG 2.1 Level AA
 
   features:
-    - keyboard_navigation: full support
-    - screen_reader: ARIA labels and descriptions
-    - color_contrast: 4.5:1 minimum
-    - text_scaling: 200% without horizontal scroll
-    - focus_indicators: visible and high contrast
+    * keyboard_navigation: full support
+    * screen_reader: ARIA labels and descriptions
+    * color_contrast: 4.5:1 minimum
+    * text_scaling: 200% without horizontal scroll
+    * focus_indicators: visible and high contrast
 
   3d_visualization:
-    - alternative_text_descriptions: true
-    - sonification_option: true
-    - 2d_projection_fallback: true
+    * alternative_text_descriptions: true
+    * sonification_option: true
+    * 2d_projection_fallback: true
 
   educational_content:
-    - closed_captions: for all videos
-    - transcript_availability: true
-    - multiple_representation: visual + textual + auditory
+    * closed_captions: for all videos
+    * transcript_availability: true
+    * multiple_representation: visual + textual + auditory
 ```
 
 ## 12. Internationalization
@@ -1777,23 +1777,23 @@ accessibility:
 ```yaml
 i18n:
   supported_languages:
-    - en: English (default)
-    - es: Spanish
-    - fr: French
-    - de: German
-    - zh: Chinese (Simplified)
-    - ja: Japanese
+    * en: English (default)
+    * es: Spanish
+    * fr: French
+    * de: German
+    * zh: Chinese (Simplified)
+    * ja: Japanese
 
   content_translation:
-    - ui_elements: 100%
-    - documentation: 100%
-    - error_messages: 100%
-    - educational_content: phased rollout
+    * ui_elements: 100%
+    * documentation: 100%
+    * error_messages: 100%
+    * educational_content: phased rollout
 
   localization:
-    - number_formats: locale-specific
-    - date_formats: locale-specific
-    - mathematical_notation: configurable
+    * number_formats: locale-specific
+    * date_formats: locale-specific
+    * mathematical_notation: configurable
 ```
 
 This comprehensive specification provides a complete blueprint for implementing the KnotExplorer platform, supporting both research and educational use cases with scalable, performant, and accessible design.

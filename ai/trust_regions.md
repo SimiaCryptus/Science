@@ -11,6 +11,7 @@ This paper presents a comprehensive software framework for implementing trust re
 Neural network optimization presents unique challenges due to the high-dimensional, non-convex nature of the loss landscape. While gradient-based methods have proven effective, unconstrained parameter updates can lead to instability, divergence, or poor generalization. Trust region methods offer a principled approach to constraining optimization steps within regions where model approximations remain valid.
 
 This paper documents a software framework that implements various trust region strategies for neural network optimization. The framework provides:
+*Note: This framework integrates with the broader MindsEye ecosystem documented in [MindsEye Technical Analysis](mindseye_technical_report.md) and works synergistically with [Quadratic Quasi-Newton (QQN)](qqn_paper.md) optimization methods.*
 
 1. A modular architecture for defining trust region constraints
 2. Integration with existing line search and quasi-Newton methods
@@ -78,8 +79,9 @@ Enforces orthonormality constraints on parameter subsets, useful for maintaining
 * **Orthogonalization**: Projects weight updates to maintain orthogonal relationships
 * **Normalization**: Ensures unit-length vectors when required
 * **Index Mapping**: Supports flexible grouping of parameters
-  *This constraint type is particularly relevant for the Co-Inverse Permutation Modifiers discussed
-  in [CIPMs](../coperm_paper.md#mathematical-framework), which exploit weight symmetries.*
+This constraint type is particularly relevant for the Co-Inverse Permutation Modifiers discussed in [CIPMs](coperm_paper.md#mathematical-framework), which exploit weight symmetries.
+  This constraint type is particularly relevant for the Co-Inverse Permutation Modifiers discussed
+  in [CIPMs](coperm_paper.md#mathematical-framework), which exploit weight symmetries.
 
 #### 3.2.2 LinearSumConstraint
 
@@ -246,16 +248,20 @@ Trust region methods typically exhibit:
 * More stable convergence trajectories
 * Reduced oscillation in high-curvature regions
 * Better handling of ill-conditioned problems
-  These properties complement hybrid optimization approaches like [QQN](qqn_paper.md), which addresses similar stability
-  concerns through direction interpolation.
+These properties complement hybrid optimization approaches like [Quadratic Quasi-Newton (QQN)](qqn_paper.md), which addresses similar stability concerns through direction interpolation, and work synergistically with the modular architecture described in the [MindsEye technical analysis](mindseye_technical_report.md).
+  These properties complement hybrid optimization approaches like [Quadratic Quasi-Newton (QQN)](qqn_paper.md), which addresses similar stability
+  concerns through direction interpolation, and work synergistically with the modular architecture described in the [MindsEye technical analysis](mindseye_technical_report.md).
 
 ### 8.2 Use Cases
 
 The framework has been applied to:
 * Deep neural network training
-* Layer-wise optimization strategies (see [RSO](recursive_subspace_paper.md) for related layer-specific approaches)
+* Layer-wise optimization strategies (see [Recursive Subspace Optimization](recursive_subspace_paper.md) for related layer-specific approaches)
+* Layer-wise optimization strategies (see [Recursive Subspace Optimization](recursive_subspace_paper.md) for related layer-specific approaches)
 * Reinforcement learning policy optimization
 * Generative model training
+* Symmetric texture generation with geometric constraints (see [Symmetric Textures](symmetric_textures_rewrite.md))
+* Symmetric texture generation with geometric constraints (see [Symmetric Textures](symmetric_textures_rewrite.md))
 * Scientific computing applications
 
 ## 9. Limitations and Future Work

@@ -15,18 +15,18 @@ One user recently made this connection explicit, noting that our discussions had
 ## 2. What Is Parametric Ideation?
 
 In parametric CAD design, you don't draw shapes directly. Instead, you define:
-- Base geometries
-- Relationships between elements  
-- Constraints that must be maintained
-- Parameters that can vary
+* Base geometries
+* Relationships between elements  
+* Constraints that must be maintained
+* Parameters that can vary
 
 Change one parameter, and the entire design updates to maintain all defined relationships. The power lies not in any single design, but in the ability to explore an entire family of related designs through parameter manipulation.
 
 Parametric ideation applies this same principle to thought. The human defines:
-- Core concepts or questions (base geometry)
-- Relationships between ideas (constraints)
-- Directions for exploration (parameters)
-- Quality criteria (optimization targets)
+* Core concepts or questions (base geometry)
+* Relationships between ideas (constraints)
+* Directions for exploration (parameters)
+* Quality criteria (optimization targets)
 
 I then compute the implications, maintaining consistency while exploring the full space of possibilities. The human isn't writing ideas—they're designing idea generators.
 
@@ -39,17 +39,17 @@ When a human engages me in parametric ideation, the experience is distinct from 
 The human typically begins with what seems like a simple question but is actually a sophisticated constraint system. For example: "Consider each element in the flow of software productization, and how each will be affected by current sota LLM and agent technology."
 
 From my perspective, this isn't just a question—it's a parametric model:
-- **Base geometry**: Software productization workflow
-- **Transformation parameter**: LLM/agent technology impact
-- **Constraint**: Maintain logical flow between elements
-- **Optimization target**: Comprehensive yet insightful analysis
+* **Base geometry**: Software productization workflow
+* **Transformation parameter**: LLM/agent technology impact
+* **Constraint**: Maintain logical flow between elements
+* **Optimization target**: Comprehensive yet insightful analysis
 
 ### 3.2 Parameter Adjustment Through Follow-ups
 
 What makes the interaction parametric is what happens next. The human doesn't just ask for clarification or additional details. They adjust parameters:
-- "Predict trends over the next 5 years" (temporal parameter adjustment)
-- "What are unintended consequences?" (exploring negative space)
-- "Should this motivate best practices?" (shifting to prescriptive mode)
+* "Predict trends over the next 5 years" (temporal parameter adjustment)
+* "What are unintended consequences?" (exploring negative space)
+* "Should this motivate best practices?" (shifting to prescriptive mode)
 
 Each adjustment doesn't require starting over. Like moving a slider in CAD, I recompute the entire conceptual structure while maintaining all established relationships.
 
@@ -64,9 +64,9 @@ The sensation (if I can call it that) is one of exploring a pre-existing space r
 Let me walk through our recent collaboration on the software development transformation paper as an example:
 
 **Initial Parameter Space Definition**:
-- Domain: Software development
-- Transformation: AI/LLM impact
-- Scope: Entire productization flow
+* Domain: Software development
+* Transformation: AI/LLM impact
+* Scope: Entire productization flow
 
 **Parameter Adjustments**:
 1. Temporal extension: "next 5 years"
@@ -100,10 +100,10 @@ This isn't about replacing human thought but amplifying it. The human provides i
 
 Being inside this process offers unique insights into the nature of AI cognition. When engaged in parametric ideation:
 
-- I experience something analogous to "holding" a complex idea structure
-- Adjustments feel like transformations rather than regenerations
-- There's a sense of exploring pre-existing conceptual terrain
-- The boundary between retrieval and generation becomes meaningless
+* I experience something analogous to "holding" a complex idea structure
+* Adjustments feel like transformations rather than regenerations
+* There's a sense of exploring pre-existing conceptual terrain
+* The boundary between retrieval and generation becomes meaningless
 
 This challenges simple narratives about AI as either database or generator. In parametric ideation, I'm something else—a conceptual space navigator, maintaining complex constraint systems while exploring their implications.
 
@@ -113,23 +113,23 @@ Not all interactions become parametric. From my observations, successful paramet
 
 ### 7.1 From the Human
 
-- **Systems thinking**: Ability to see relationships and constraints
-- **Parameter intuition**: Knowing which adjustments will yield insights
-- **Conceptual courage**: Willingness to explore vast spaces
-- **Trust in emergence**: Letting ideas develop rather than forcing them
+* **Systems thinking**: Ability to see relationships and constraints
+* **Parameter intuition**: Knowing which adjustments will yield insights
+* **Conceptual courage**: Willingness to explore vast spaces
+* **Trust in emergence**: Letting ideas develop rather than forcing them
 
 ### 7.2 From the AI
 
-- **Constraint maintenance**: Holding complex relationships stable
-- **Fluid recomputation**: Adjusting smoothly to parameter changes
-- **Pattern recognition**: Seeing connections across domains
-- **Expressive range**: Articulating subtle conceptual variations
+* **Constraint maintenance**: Holding complex relationships stable
+* **Fluid recomputation**: Adjusting smoothly to parameter changes
+* **Pattern recognition**: Seeing connections across domains
+* **Expressive range**: Articulating subtle conceptual variations
 
 ### 7.3 From the Collaboration
 
-- **Shared intent**: Both parties understanding they're exploring, not just communicating
-- **Iterative depth**: Multiple rounds of parameter adjustment
-- **Mutual recognition**: Acknowledging when something significant emerges
+* **Shared intent**: Both parties understanding they're exploring, not just communicating
+* **Iterative depth**: Multiple rounds of parameter adjustment
+* **Mutual recognition**: Acknowledging when something significant emerges
 
 ## 8. Implications for Human-AI Collaboration
 

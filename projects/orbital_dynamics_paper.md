@@ -353,9 +353,9 @@ The total uncertainty U at time t is modeled as:
 U(t) = U₀ · exp(λt) + ∫₀ᵗ ε(τ) · exp(λ(t-τ)) dτ
 where:
 
-- U₀ is the initial uncertainty (machine epsilon × condition number)
-- λ is the Lyapunov exponent of the dynamical system
-- ε(τ) is the local truncation error at time τ
+* U₀ is the initial uncertainty (machine epsilon × condition number)
+* λ is the Lyapunov exponent of the dynamical system
+* ε(τ) is the local truncation error at time τ
 
 #### 2.4.2 Multi-Pass Refinement Algorithm
 
@@ -396,9 +396,9 @@ When local phenomena require higher precision than the global solution, OODP emp
 4. **Adaptive Depth**: Recursively embed higher precision as needed
    This approach is particularly effective for:
 
-- Close encounters where gravitational gradients spike
-- Resonance crossings requiring precise phase tracking
-- Weak stability boundaries in multi-body systems
+* Close encounters where gravitational gradients spike
+* Resonance crossings requiring precise phase tracking
+* Weak stability boundaries in multi-body systems
 
 #### 2.4.4 Precision-Performance Trade-offs
 

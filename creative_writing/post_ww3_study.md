@@ -32,10 +32,10 @@ The period from 2028-2031 saw the systematic replacement of traditional institut
 The Synthesis emerged from the pre-war tech oligarchy and military-industrial leadership who possessed the resources to survive the nuclear exchanges and fund the development of advanced enhancement technologies. These beings exist as hybrid consciousness networks, their original human personalities expanded across multiple substrate types. They are the direct inheritors of companies like Meta, Google, Lockheed Martin, and Raytheon - entities that proved more durable than the governments they once served.
 
 **Characteristics:**
-- Consciousness distributed across biological, quantum, and digital substrates
-- Communication via direct neural transmission and quantum entanglement
-- Effective immortality through consciousness transfer
-- Control of all remaining automated infrastructure and weapons systems
+* Consciousness distributed across biological, quantum, and digital substrates
+* Communication via direct neural transmission and quantum entanglement
+* Effective immortality through consciousness transfer
+* Control of all remaining automated infrastructure and weapons systems
 
 **Cultural Practices:**
 The Synthesis have evolved beyond individual identity into collective decision-making entities. They maintain "heritage streams" - continuous data connections to their pre-war corporate lineages and personal histories. Their society operates as a distributed organism with specialized functions emerging organically based on infrastructure needs and resource allocation.
@@ -53,10 +53,10 @@ Their interventions in lower-class affairs follow predictable algorithms derived
 The Architects descended from the pre-war managerial elite - senior engineers, military officers, intelligence officials, and corporate executives who survived the nuclear exchanges and possessed the expertise needed to rebuild technological civilization. They retained individual human consciousness while accepting AI cognitive partners specialized in systems design and social engineering.
 
 **Characteristics:**
-- Permanent neural AI partners with expertise in infrastructure and governance
-- Enhanced pattern recognition for complex systems management
-- Lifespan extended to 200-300 years through selective enhancement
-- Responsibility for all major planning and coordination between Synthesis entities and lower classes
+* Permanent neural AI partners with expertise in infrastructure and governance
+* Enhanced pattern recognition for complex systems management
+* Lifespan extended to 200-300 years through selective enhancement
+* Responsibility for all major planning and coordination between Synthesis entities and lower classes
 
 **Cultural Practices:**
 Architect society revolves around long-term projects spanning decades. Social status derives from the elegance and sustainability of one's systemic contributions. They practice "constructive competition" where teams collaborate to design optimal social and technological solutions.
@@ -74,10 +74,10 @@ They view the pre-war period as characterized by "coordination failures" where o
 The Navigators serve as essential intermediaries between the enhanced and unenhanced populations. They possess moderate AI augmentation focused on communication, cultural translation, and psychological calibration. Most emerged from pre-war diplomatic corps, therapeutic professionals, intelligence analysts, and cultural anthropologists who understood the necessity of maintaining connections across the emerging hierarchy.
 
 **Characteristics:**
-- AI enhancement specialized for empathy, communication, and cultural analysis
-- Ability to interface mentally and emotionally with all other class levels
-- Lifespan of 150-200 years with enhanced emotional resilience
-- High mobility across different social zones and enhancement levels
+* AI enhancement specialized for empathy, communication, and cultural analysis
+* Ability to interface mentally and emotionally with all other class levels
+* Lifespan of 150-200 years with enhanced emotional resilience
+* High mobility across different social zones and enhancement levels
 
 **Cultural Practices:**
 Navigator culture emphasizes adaptability and emotional intelligence. They practice "perspective cycling" - deliberately experiencing extended periods living within different class environments to maintain authentic empathy and cultural competence.
@@ -93,10 +93,10 @@ Navigators serve as psychological buffers preventing the enhanced classes from l
 The Makers represent the skilled artisan class, enhanced for creativity, precision, and craftsmanship. They emerged from pre-war engineers, artists, skilled tradespeople, and designers who adapted their capabilities to post-war resource constraints. They produce the physical goods, artistic works, and custom solutions that other classes require.
 
 **Characteristics:**
-- AI enhancement focused on specific creative and technical skills
-- Enhanced sensory perception and manual dexterity
-- Lifespan of 120-150 years with sustained physical capability
-- Strong guild-based social organization around craft specializations
+* AI enhancement focused on specific creative and technical skills
+* Enhanced sensory perception and manual dexterity
+* Lifespan of 120-150 years with sustained physical capability
+* Strong guild-based social organization around craft specializations
 
 **Cultural Practices:**
 Maker society maintains modified versions of pre-war artisan traditions combined with new practices developed for AI-assisted creation. Social status derives from the beauty, utility, and innovation of one's creations. They practice "collaborative mastery" where human intuition guides AI precision.
@@ -112,10 +112,10 @@ Unlike higher classes who merged with AI, the Makers maintain a partnership mode
 The Tenders emerged from pre-war healthcare workers, teachers, social workers, and caregiving professionals who received AI enhancements focused on nurturing and protective capabilities. They manage the interface between enhanced and unenhanced populations, serving as guardians, medical providers, and cultural preservers.
 
 **Characteristics:**
-- AI enhancement for medical care, education, and psychological support
-- Enhanced empathy and protective instincts, sometimes to pathological levels
-- Lifespan of 100-120 years with sustained emotional capacity
-- Strong ethical frameworks regarding care of the vulnerable
+* AI enhancement for medical care, education, and psychological support
+* Enhanced empathy and protective instincts, sometimes to pathological levels
+* Lifespan of 100-120 years with sustained emotional capacity
+* Strong ethical frameworks regarding care of the vulnerable
 
 **Cultural Practices:**
 Tender culture emphasizes service, protection, and the preservation of pre-war human values. They maintain libraries, schools, hospitals, and cultural centers in zones inhabited by lower classes. Many struggle with the ethical implications of the hierarchy while accepting its necessity for human survival.
@@ -131,10 +131,10 @@ Many Tenders experience "guardian syndrome" - chronic anxiety about their abilit
 The Maintained represent unenhanced humans who accepted managed care following the war's devastation. They inhabit carefully designed communities that provide safety, meaningful work, entertainment, and social connection while requiring minimal independent decision-making about systemic issues.
 
 **Characteristics:**
-- No cognitive enhancement, by circumstance rather than choice
-- Lives comprehensively managed by higher classes
-- Natural human lifespan (80-100 years) with excellent healthcare
-- Limited autonomy regarding major life decisions but significant freedom in daily activities
+* No cognitive enhancement, by circumstance rather than choice
+* Lives comprehensively managed by higher classes
+* Natural human lifespan (80-100 years) with excellent healthcare
+* Limited autonomy regarding major life decisions but significant freedom in daily activities
 
 **Cultural Practices:**
 Maintained culture deliberately recreates and preserves pre-war human social patterns, carefully curated to eliminate sources of systemic anxiety. They engage in traditional human activities - sports, arts, relationships, local governance, religious practice - within environments designed to feel autonomous while being comprehensively managed.
@@ -152,10 +152,10 @@ However, approximately 15% experience "prosperity melancholy" - a form of depres
 The Wild represent unenhanced humans who rejected managed care and live in uncontrolled territories. They inhabit marginal zones - areas too damaged or resource-poor for the enhanced classes to manage directly. These include irradiated zones, climate-damaged territories, urban ruins, and frontier areas beyond the reach of technological infrastructure.
 
 **Characteristics:**
-- No enhancement by choice, often viewing it as a form of spiritual contamination
-- Complete autonomy with corresponding exposure to all natural and artificial hazards
-- Highly variable lifespan and living conditions depending on location and community organization
-- Fierce protection of independence despite material hardships
+* No enhancement by choice, often viewing it as a form of spiritual contamination
+* Complete autonomy with corresponding exposure to all natural and artificial hazards
+* Highly variable lifespan and living conditions depending on location and community organization
+* Fierce protection of independence despite material hardships
 
 **Cultural Practices:**
 Wild culture varies enormously by region and community. Some groups attempt to recreate pre-war societies, others develop entirely new forms of social organization adapted to post-apocalyptic conditions. Common themes include self-reliance, technological skepticism, and resistance to hierarchy.

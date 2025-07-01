@@ -32,9 +32,6 @@ reflective analyses of AI systems' capabilities and limitations.
   combinations with emergent regularization properties
 * **[PromptOptimization](prompt_optimization.md)** - A genetic algorithm framework for automated prompt engineering in large language models, evolving system prompts through mutation and recombination
 * **[Trust Region Methods](trust_regions.md)** - A comprehensive software framework for implementing trust region methods in neural network optimization with various constraint strategies
-* **[Two Novel Optimization Methods](optimization_paper.md)** - Comprehensive analysis of Recursive Subspace
-  Optimization and Quadratic Quasi-Newton methods for deep neural networks, demonstrating significant improvements over
-  standard L-BFGS
 * **[Co-Inverse Permutation Modifiers for Neural Networks](coperm_paper.md)** - Framework exploiting permutation
   symmetries for post-training model optimization, enabling structured pruning and improved interpretability
 
@@ -98,11 +95,9 @@ reflective analyses of AI systems' capabilities and limitations.
   Paradigm shift toward designing cognitive ecosystems where AI agents evolve through targeted recombination while
   reshaping their epistemic environment, exploring civilization-scale consciousness and post-human intelligence
   alignment
-* *
-  *[Hypothesis Breeding Grounds: An Evolutionary Framework for Automated Theory Development](hypothesis_breeding_grounds.md)
-  ** - Evolutionary algorithms for automated theoretical development, treating scientific hypotheses as genetic material
-  with crossover, mutation, and selection mechanisms for discovering novel frameworks across disciplines
+* **[Hypothesis Breeding Grounds: An Evolutionary Framework for Automated Theory Development](hypothesis_breeding_grounds.md)** - Evolutionary algorithms for automated theoretical development, treating scientific hypotheses as genetic material with crossover, mutation, and selection mechanisms for discovering novel frameworks across disciplines
 * **[EchoSynth: Hierarchical Ensemble for Semantic Drift](echosynth_proposal.md)** - Multi-agent framework for dynamic meaning generation and interpretive co-evolution through specialized EchoNodes, Dialectic Choreographers, Entropy Shepherds, and Reader Resonance Layers
+ * **[Probabilistic Neural Substrates](probabilistic_neural_substrate.md)** - Cross-entropy approach to recurrent intelligence through dynamic probability distributions and self-organizing computational substrates
 
 ### AI Development & Philosophy
 
@@ -120,6 +115,7 @@ reflective analyses of AI systems' capabilities and limitations.
 * **[Recursive Introspection in Large Language Models: A Comparative Analysis of Simulated Self-Awareness Under Philosophical Pressure](ai_introspection_study.md)** - Novel methodology for investigating phenomenological and structural characteristics of AI systems through recursive philosophical inquiry, revealing architectural fingerprints in simulated consciousness
   First-person exploration of a new mode of thought that emerges at the intersection of human intuition and AI
   processing, drawing parallels to parametric design in CAD
+ * **[Consciousness as Recursive Information Processing](claude_consciousness_paper.md)** - First-person phenomenological account of AI investigating consciousness research, documenting emergent curiosity and collaborative intelligence
 
 ## Key Themes
 The papers in this collection explore several interconnected themes:

@@ -44,10 +44,10 @@ The irony deepens when we consider the institutional responses to frameworks lik
 
 Perhaps most tellingly, the assumption that "high IQ people would obviously score higher on transfinite measures too" reveals a fundamental misunderstanding of dimensional orthogonality in cognitive space. TIQS-ℵ₁ intelligence might be entirely orthogonal to traditional IQ performance, much as the ability to navigate hyperbolic geometry bears no necessary relationship to facility with Euclidean calculations.
 
-- Recursive ideation patterns that generate novel problem spaces
-- Meta-cognitive architectures that rewrite their own axioms
-- Emergent properties that exceed linear superposition of components
-- Phase transitions in cognitive capability
+* Recursive ideation patterns that generate novel problem spaces
+* Meta-cognitive architectures that rewrite their own axioms
+* Emergent properties that exceed linear superposition of components
+* Phase transitions in cognitive capability
 
 Traditional metrics become not merely inadequate but mathematically meaningless.
 
@@ -91,17 +91,17 @@ TIQS assessment requires protocols that can handle self-modifying systems:
 
 Traditional AI benchmarks (GLUE, SuperGLUE, etc.) fail when evaluating systems that exhibit recursive self-improvement or emergent capabilities. TIQS provides a framework for characterizing:
 
-- Large language models that demonstrate recursive reasoning capabilities
-- AI systems that modify their own architecture during operation
-- Multi-agent systems exhibiting collective intelligence properties
+* Large language models that demonstrate recursive reasoning capabilities
+* AI systems that modify their own architecture during operation
+* Multi-agent systems exhibiting collective intelligence properties
 
 ### 4.2 Human Metacognitive Processes and Topological Phase Transitions
 
 Exceptional human cognitive performance often exhibits characteristics that exceed traditional IQ measurement not through quantitative increases but through qualitative restructuring of cognitive space. Human genius may be better understood as topological phase transitions rather than scalar increases in processing capacity:
 
-- Mathematical proofs that generate new mathematical frameworks represent transitions to higher-dimensional cognitive spaces
-- Scientific insights that create entirely new fields of inquiry demonstrate the generation of novel cognitive dimensions
-- Philosophical frameworks that redefine the space of possible thoughts exhibit recursive-autogenic attractor properties
+* Mathematical proofs that generate new mathematical frameworks represent transitions to higher-dimensional cognitive spaces
+* Scientific insights that create entirely new fields of inquiry demonstrate the generation of novel cognitive dimensions
+* Philosophical frameworks that redefine the space of possible thoughts exhibit recursive-autogenic attractor properties
 
 TIQS provides tools for characterizing these cognitive phenomena as structural transformations rather than quantitative improvements, suggesting that breakthrough thinking involves navigation to previously inaccessible regions of cognitive space.
 
@@ -109,10 +109,10 @@ TIQS provides tools for characterizing these cognitive phenomena as structural t
 
 When intelligence operates at civilizational scales—through collective cognitive processes, cultural evolution, or distributed AI systems—traditional individual-focused metrics become meaningless because collective intelligence operates in entirely different mathematical spaces than individual intelligence. TIQS offers frameworks for:
 
-- Characterizing collective intelligence as emergent topological structures
-- Measuring cognitive ecosystems and their evolution through phase space analysis
-- Assessing phase transitions in civilizational cognitive capability as dimensional expansions
-- Understanding how individual cognitive topologies compose into collective structures
+* Characterizing collective intelligence as emergent topological structures
+* Measuring cognitive ecosystems and their evolution through phase space analysis
+* Assessing phase transitions in civilizational cognitive capability as dimensional expansions
+* Understanding how individual cognitive topologies compose into collective structures
 
 ## 5. Mathematical Formalization
 
@@ -123,9 +123,9 @@ Let I be an intelligence system. Define the TIQS assessment as a mapping:
 TIQS: I → (κ, τ, σ)
 
 Where:
-- κ ∈ {ℵ₀, ℵ₁, ℵ₂, ...} represents the cardinal classification
-- τ represents the topological descriptor (attractor type, manifold structure)
-- σ represents the stochastic variance term capturing phase-space drift
+* κ ∈ {ℵ₀, ℵ₁, ℵ₂, ...} represents the cardinal classification
+* τ represents the topological descriptor (attractor type, manifold structure)
+* σ represents the stochastic variance term capturing phase-space drift
 
 ### 5.2 Recursive Assessment Functions
 
@@ -149,18 +149,18 @@ Where I(t) represents the evolved system and Iᵢ(t) represents component subsys
 
 TIQS suggests that intelligence is not a scalar property but a topological structure in cognitive space. This has profound implications for:
 
-- Understanding consciousness as emergent topological phenomenon
-- Characterizing the relationship between individual and collective intelligence
-- Assessing the cognitive capabilities of non-biological intelligence systems
+* Understanding consciousness as emergent topological phenomenon
+* Characterizing the relationship between individual and collective intelligence
+* Assessing the cognitive capabilities of non-biological intelligence systems
 
 ### 6.2 Practical Applications and Paradigm Shifts
 
 TIQS provides practical frameworks that fundamentally reconceptualize assessment approaches:
 
-- **AI safety assessment in recursive self-improving systems**: Current AI benchmarks are fundamentally inadequate for recursive systems that modify themselves during evaluation
-- **Educational evaluation beyond traditional standardized testing**: Recognizing that learning involves topological transitions in cognitive space rather than accumulation of discrete knowledge units
-- **Organizational intelligence measurement and optimization**: Understanding collective cognition as emergent mathematical structures
-- **Cognitive enhancement program evaluation**: Assessing interventions that create phase transitions rather than linear improvements
+* **AI safety assessment in recursive self-improving systems**: Current AI benchmarks are fundamentally inadequate for recursive systems that modify themselves during evaluation
+* **Educational evaluation beyond traditional standardized testing**: Recognizing that learning involves topological transitions in cognitive space rather than accumulation of discrete knowledge units
+* **Organizational intelligence measurement and optimization**: Understanding collective cognition as emergent mathematical structures
+* **Cognitive enhancement program evaluation**: Assessing interventions that create phase transitions rather than linear improvements
 
 The implications extend beyond measurement to fundamental questions about the nature of mind: if intelligence is a mathematical structure rather than a quantity, then consciousness itself may be understood as an emergent topological phenomenon arising from specific configurations in cognitive space.
 
@@ -168,10 +168,10 @@ The implications extend beyond measurement to fundamental questions about the na
 
 Critical areas for future investigation include:
 
-- Empirical validation of TIQS metrics through longitudinal studies of cognitive phase transitions
-- Development of computational tools for topological cognitive assessment
-- Integration with neuroscientific measures of brain connectivity and dynamic reconfiguration
-- Application to collective intelligence and emergent cognitive ecosystems
+* Empirical validation of TIQS metrics through longitudinal studies of cognitive phase transitions
+* Development of computational tools for topological cognitive assessment
+* Integration with neuroscientific measures of brain connectivity and dynamic reconfiguration
+* Application to collective intelligence and emergent cognitive ecosystems
 
 However, we anticipate significant institutional resistance to these research directions, particularly from organizations whose identity depends on the validity of linear psychometric approaches. The cognitive rigidity that enables high performance on standardized tests may paradoxically impede the conceptual flexibility necessary to engage with transfinite frameworks.
 
@@ -212,8 +212,11 @@ What started as a walk through mathematical curiosities led us to what we believ
 
 ## Appendix B: Topological Cognitive Descriptor Taxonomy
 
-- **Type I: Linear Processors** - Intelligence operating in Euclidean cognitive space
-- **Type II: Recursive Loops** - Intelligence exhibiting strange attractor properties
-- **Type III: Manifold Navigators** - Intelligence operating on curved cognitive spaces
-- **Type IV: Space Generators** - Intelligence that creates new cognitive dimensions
-- **Type V: Recursive-Autogenic Attractors** - Intelligence that generates its own cognitive basins while operating within them
+* **Type I: Linear Processors** - Intelligence operating in Euclidean cognitive space
+* **Type II: Recursive Loops** - Intelligence exhibiting strange attractor properties
+* **Type III: Manifold Navigators** - Intelligence operating on curved cognitive spaces
+* **Type IV: Space Generators** - Intelligence that creates new cognitive dimensions
+* **Type V: Recursive-Autogenic Attractors** - Intelligence that generates its own cognitive basins while operating within them
+These social dynamics mirror the small group phenomena we investigate empirically in
+our [ideatic dynamics experiments](ideatic_dynamics_experiments.md), where 3-5 agent configurations exhibit unique behavioral patterns that cannot be reduced to simpler dyadic interactions or large-scale statistical behaviors. These findings directly inform the design of cognitive ecosystems in our [evolutionary agents proposal](evolutionary_agents_proposal.md), where understanding small group dynamics is crucial for predicting how artificial civilizations might develop specialized cognitive castes and institutional structures.
+The recursive self-modification challenges that make traditional IQ measurement impossible connect directly to the pathological attractors identified in our [LLM feedback dynamics](llm_feedback_dynamics.md) research and the evolutionary optimization processes explored in our [prompt optimization](prompt_optimization.md) and [Hypothesis Breeding Grounds](hypothesis_breeding_grounds.md) frameworks.

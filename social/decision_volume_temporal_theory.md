@@ -21,10 +21,10 @@ Traditional theories of subjective time focus on attention, arousal, or informat
 **Core Proposition**: Temporal metric in consciousness correlates with decision volume—the rate at which meaningful choices are made within cognitive space.
 
 This hypothesis predicts that:
-- High-consequence, rapid decisions compress subjective time
-- Low-consequence, sparse decisions elongate temporal experience
-- The significance of decisions matters as much as their frequency
-- Internal cognitive decisions follow different temporal dynamics than external behavioral decisions
+* High-consequence, rapid decisions compress subjective time
+* Low-consequence, sparse decisions elongate temporal experience
+* The significance of decisions matters as much as their frequency
+* Internal cognitive decisions follow different temporal dynamics than external behavioral decisions
 
 ## Crisis Time Dilation
 
@@ -98,7 +98,7 @@ Decision volume theory reframes attention and mindfulness practices. Rather than
 
 For time-compressed focus, minimize unnecessary decisions through environmental design and routine automation. For time-expanded awareness, deliberately increase decision significance through novel experiences or conscious choice-making about normally automatic behaviors.
 
-This transforms mindfulness from passive awareness into active decision architecture—designing choice structures that produce desired temporal experiences.
+This transforms mindfulness from passive awareness into active decision architecture—designing choice structures that produce desired temporal experiences. This framework complements our analysis of [cognitive effort allocation](cognitive_effort_paper.md) by examining how decision-making choices affect temporal perception, and connects to the collaborative decision-making processes explored in our [conversational intelligence work](conversation_intelligence_paper.md).
 
 ## Therapeutic Applications
 

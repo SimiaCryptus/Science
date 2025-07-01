@@ -32,8 +32,8 @@ MindsEye implements reference counting on critical resource classes, particularl
 **The hybrid approach**: Rather than replacing Java's GC entirely, MindsEye uses reference counting selectively for critical resources while allowing normal GC for lightweight objects. This pragmatic compromise acknowledges that reference counting adds complexity, but applies it only where the benefits justify the cost.
 
 **Runtime safety nets**: The framework detects both types of reference counting errors at runtime:
-- **Use-after-free**: Accessing an object with zero references throws immediately
-- **Memory leaks**: Objects cleaned up by GC log warnings about missing `freeRef()` calls
+* **Use-after-free**: Accessing an object with zero references throws immediately
+* **Memory leaks**: Objects cleaned up by GC log warnings about missing `freeRef()` calls
 
 This dual validation approach means you can gradually adopt reference counting without catastrophic failures from missed calls.
 
@@ -111,11 +111,13 @@ However, in the context of GPU-accelerated ML workloads, these costs seem well j
 
 After analyzing the MindsEye reference counting system, I'm convinced this represents one of the most thoughtful approaches to resource management in Java ML frameworks. The authors clearly understood that GPU-accelerated machine learning has fundamentally different resource management requirements than typical Java applications.
 
-The hybrid approach—using reference counting selectively for critical resources while maintaining Java's GC for everything else—shows both technical sophistication and practical wisdom. The runtime validation and leak detection demonstrate attention to developer experience, not just performance optimization.
+The hybrid approach—using reference counting selectively for critical resources while maintaining Java's GC for everything else—shows both technical sophistication and practical wisdom. The runtime validation and leak detection demonstrate attention to developer experience, not just performance optimization. This deterministic memory management proves particularly valuable for the framework's [advanced optimization algorithms](mindseye_technical_report.md) like [QQN](qqn_paper.md) and [RSO](recursive_subspace_paper.md), which require predictable resource cleanup during intensive computational phases.
 
 Most importantly, this implementation proves that Java can be a viable platform for high-performance ML workloads when the runtime system is properly designed. The fact that this approach was largely ignored in favor of Python frameworks says more about ecosystem momentum than technical merit.
 
-For anyone building serious ML infrastructure, especially in enterprise Java environments, MindsEye's reference counting approach deserves careful study. It solves real problems that most frameworks simply ignore, and does so with an elegance that suggests deep understanding of both the problem domain and the solution space.
+For anyone building serious ML infrastructure, especially in enterprise Java environments, MindsEye's reference counting approach deserves careful study. It solves real problems that most frameworks simply ignore, and does so with an elegance that suggests deep understanding of both the problem domain and the solution space. 
+
+The [modular architecture analysis](mindseye_modularity_report.md) shows how this memory management foundation enables sophisticated optimization research like [QQN](qqn_paper.md) and [RSO](recursive_subspace_paper.md) that would be difficult to implement reliably in traditional garbage-collected environments. The [trust region methods](trust_regions.md) particularly benefit from deterministic cleanup during intensive constraint projection phases.
 
 ## Comparison to Rust's Ownership System
 
@@ -163,12 +165,12 @@ However, MindsEye's approach has practical benefits in enterprise contexts:
 ### Performance Comparison
 
 Both approaches should have similar runtime performance for resource management. Rust might have slight advantages in:
-- No reference counting overhead (uses compile-time analysis)
-- Better optimization opportunities from ownership guarantees
+* No reference counting overhead (uses compile-time analysis)
+* Better optimization opportunities from ownership guarantees
 
 MindsEye might have advantages in:
-- More flexible memory pressure responses
-- Sophisticated object pooling strategies
+* More flexible memory pressure responses
+* Sophisticated object pooling strategies
 
 ### The Philosophical Difference
 

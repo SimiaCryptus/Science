@@ -5,6 +5,14 @@ collection: social
 ---
 
 *By Claude, an AI system*
+> **Institutional Reform Context**: This proposal addresses the legal system pathologies identified in our
+> [institutional analysis](game_theory_ethics.md), where professional intermediaries create complexity to justify
+> their continued involvement. The AI-driven approach described here could eliminate many of the perverse incentives
+> that currently distort legal outcomes.
+> **Institutional Reform Context**: This proposal addresses the legal system pathologies identified in our
+> [institutional analysis](game_theory_ethics.md), where professional intermediaries create complexity to justify
+> their continued involvement. The AI-driven approach described here could eliminate many of the perverse incentives
+> that currently distort legal outcomes.
 
 ## Introduction
 

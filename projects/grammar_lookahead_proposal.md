@@ -21,39 +21,39 @@ Instead of simple validity checking, we propose maintaining a reachability graph
 **Formal Definition:**
 ### Computational Complexity Analysis
 **Time Complexity:**
-- Static precomputation: O(|S|² × D) where |S| is number of parser states, D is max depth
-- Dynamic lookahead: O(b^k) worst case where b is branching factor, k is lookahead depth
-- Incremental updates: O(|T| × k) where |T| is terminal vocabulary size
+* Static precomputation: O(|S|² × D) where |S| is number of parser states, D is max depth
+* Dynamic lookahead: O(b^k) worst case where b is branching factor, k is lookahead depth
+* Incremental updates: O(|T| × k) where |T| is terminal vocabulary size
 **Space Complexity:**
-- Reachability table: O(|S| × D) for bounded grammars
-- Cache storage: O(|S| × k × C) where C is cache size
-- Parser state: O(D) for stack-based parsers
+* Reachability table: O(|S| × D) for bounded grammars
+* Cache storage: O(|S| × k × C) where C is cache size
+* Parser state: O(D) for stack-based parsers
 **Grammar-Specific Bounds:**
-- Regular grammars: O(1) reachability check with DFA
-- LL(k) grammars: O(k) using predictive parsing tables
-- LR grammars: O(|S|) with precomputed goto tables
-- Ambiguous CFGs: O(b^k × A) where A is ambiguity factor
+* Regular grammars: O(1) reachability check with DFA
+* LL(k) grammars: O(k) using predictive parsing tables
+* LR grammars: O(|S|) with precomputed goto tables
+* Ambiguous CFGs: O(b^k × A) where A is ambiguity factor
 
 
 ### Lookahead Strategies
 
 **1. Static Reachability Precomputation**
 For bounded grammars (max depth D), precompute reachability tables offline:
-- Build state transition graph from grammar rules
-- For each state s and horizon h ∈ [1, D], compute π(s, h)
-- Runtime lookup: O(1) per token evaluation
+* Build state transition graph from grammar rules
+* For each state s and horizon h ∈ [1, D], compute π(s, h)
+* Runtime lookup: O(1) per token evaluation
 
 **2. Dynamic Lookahead with Memoization**
 For unbounded grammars, compute reachability on-demand:
-- Implement bounded DFS from current parser state
-- Cache results for (state, horizon) pairs
-- Prune search based on probability thresholds
+* Implement bounded DFS from current parser state
+* Cache results for (state, horizon) pairs
+* Prune search based on probability thresholds
 
 **3. Probabilistic Reachability Scoring**
 Instead of binary reachability, compute expected number of valid completions:
-- Weight completion paths by their likelihood under the base model
-- Use this as a continuous constraint rather than hard filtering
-- Allows graceful degradation when no perfect paths exist
+* Weight completion paths by their likelihood under the base model
+* Use this as a continuous constraint rather than hard filtering
+* Allows graceful degradation when no perfect paths exist
 
 ### Advanced Techniques
 
@@ -87,10 +87,10 @@ def handle_no_reachable_paths(parser_state, context):
     return insert_minimal_closing_sequence()
 ```
 **Recovery Mechanisms:**
-- **Checkpoint-based recovery**: Save valid parser states periodically
-- **Grammar repair**: Insert minimal tokens to reach valid state
-- **Partial generation**: Return longest valid prefix with metadata
-- **Alternative paths**: Suggest top-k alternative continuations
+* **Checkpoint-based recovery**: Save valid parser states periodically
+* **Grammar repair**: Insert minimal tokens to reach valid state
+* **Partial generation**: Return longest valid prefix with metadata
+* **Alternative paths**: Suggest top-k alternative continuations
 ### Hybrid Generation Strategy
 Adaptively switch between constraint methods based on context:
 ```python
@@ -114,51 +114,51 @@ def select_constraint_method(grammar, parser_state, depth, resources):
 
 **Attention-Aware Grammar States**
 Modify attention mechanisms to incorporate grammar state information:
-- Add grammar state embeddings to attention key-value computations
-- Allow model to attend to parser stack history during generation
-- Train attention heads to specialize in grammar-relevant patterns
+* Add grammar state embeddings to attention key-value computations
+* Allow model to attend to parser stack history during generation
+* Train attention heads to specialize in grammar-relevant patterns
 
 **Grammar-Conditioned Layer Normalization**
 Introduce grammar state as conditioning information:
-- Add learned transformations based on current parser state
-- Enable model to adapt internal representations based on structural context
-- Particularly effective in later decoder layers where structural decisions are made
+* Add learned transformations based on current parser state
+* Enable model to adapt internal representations based on structural context
+* Particularly effective in later decoder layers where structural decisions are made
 
 ### Integration with Mixture of Experts (MoE)
 
 **Grammar-Specialized Experts**
 Route tokens through experts based on grammar context:
-- Train separate expert networks for different grammar production rules
-- Use parser state to determine expert routing probabilities
-- Allows specialization without increasing base model parameters
+* Train separate expert networks for different grammar production rules
+* Use parser state to determine expert routing probabilities
+* Allows specialization without increasing base model parameters
 
 **Dynamic Expert Activation**
 Adjust expert activation patterns based on reachability constraints:
-- Boost experts associated with high-reachability continuations
-- Suppress experts that lead to low-reachability states
-- Implement during inference without model retraining
+* Boost experts associated with high-reachability continuations
+* Suppress experts that lead to low-reachability states
+* Implement during inference without model retraining
 
 ### Speculative Decoding Enhancement
 
 **Grammar-Aware Draft Models**
 Enhance speculative decoding with grammar-aware draft generation:
-- Use smaller models fine-tuned specifically for grammar-constrained generation
-- Generate multiple draft continuations respecting reachability constraints
-- Verify drafts against both base model likelihood and grammar validity
+* Use smaller models fine-tuned specifically for grammar-constrained generation
+* Generate multiple draft continuations respecting reachability constraints
+* Verify drafts against both base model likelihood and grammar validity
 
 **Parallel Reachability Computation**
 Leverage speculative decoding infrastructure for lookahead:
-- Compute reachability analysis for multiple candidate continuations in parallel
-- Use draft model predictions to prioritize reachability computations
-- Amortize lookahead costs across multiple generation steps
+* Compute reachability analysis for multiple candidate continuations in parallel
+* Use draft model predictions to prioritize reachability computations
+* Amortize lookahead costs across multiple generation steps
 
 ### Integration with Constitutional AI and RLHF
 
 **Grammar-Aware Reward Modeling**
 Incorporate structural validity into preference learning:
-- Train reward models that consider both semantic quality and structural correctness
-- Use grammar compliance as implicit reward signal during RLHF
-- Balance structural constraints with other alignment objectives
+* Train reward models that consider both semantic quality and structural correctness
+* Use grammar compliance as implicit reward signal during RLHF
+* Balance structural constraints with other alignment objectives
 
 **Constitutional Principles for Structure**
 Define constitutional principles that enforce structural coherence:
@@ -196,51 +196,51 @@ def grammar_curriculum_schedule(epoch):
             return grammar_class
 ```
 **Grammar Internalization Objectives**
-- **Auxiliary prediction**: Predict next valid token sets
-- **Parser state prediction**: Predict parser state transitions
-- **Reachability estimation**: Predict reachability without explicit computation
+* **Auxiliary prediction**: Predict next valid token sets
+* **Parser state prediction**: Predict parser state transitions
+* **Reachability estimation**: Predict reachability without explicit computation
 
 
 ### Retrieval-Augmented Generation (RAG) Integration
 
 **Grammar-Conditioned Retrieval**
 Enhance retrieval with structural context:
-- Use parser state and reachability analysis to guide document retrieval
-- Retrieve examples with similar structural patterns to current generation context
-- Weight retrieved content based on structural similarity
+* Use parser state and reachability analysis to guide document retrieval
+* Retrieve examples with similar structural patterns to current generation context
+* Weight retrieved content based on structural similarity
 
 **Template-Based Generation**
 Combine grammar lookahead with template retrieval:
-- Maintain database of valid structural templates
-- Use reachability analysis to select appropriate templates during generation
-- Fill templates using model's natural language capabilities
+* Maintain database of valid structural templates
+* Use reachability analysis to select appropriate templates during generation
+* Fill templates using model's natural language capabilities
 
 ### Efficient Implementation Strategies
 
 **KV-Cache Optimization**
 Optimize key-value caching for grammar-constrained generation:
-- Cache attention states conditioned on parser states
-- Implement efficient cache invalidation when parser state changes
-- Reduce computational overhead through selective cache updates
+* Cache attention states conditioned on parser states
+* Implement efficient cache invalidation when parser state changes
+* Reduce computational overhead through selective cache updates
 
 **Quantization and Pruning**
 Apply model compression techniques while preserving grammar capabilities:
-- Identify and preserve parameters most critical for structural generation
-- Use knowledge distillation to maintain grammar awareness in compressed models
-- Implement structured pruning that respects grammar-relevant neurons
+* Identify and preserve parameters most critical for structural generation
+* Use knowledge distillation to maintain grammar awareness in compressed models
+* Implement structured pruning that respects grammar-relevant neurons
 
 **Hardware Acceleration**
 Design specialized kernels for grammar-constrained generation:
-- Implement reachability computation on GPU/TPU
-- Optimize parser state updates for parallel execution
-- Use tensor operations for batch grammar constraint evaluation
+* Implement reachability computation on GPU/TPU
+* Optimize parser state updates for parallel execution
+* Use tensor operations for batch grammar constraint evaluation
 
 ## Implementation Architecture
 
 ### Parser State Representation
-- Extend existing LR/LALR parsers with reachability metadata
-- Maintain parser stack + lookahead reachability table
-- Efficient state hashing for memoization
+* Extend existing LR/LALR parsers with reachability metadata
+* Maintain parser stack + lookahead reachability table
+* Efficient state hashing for memoization
 
 ### Token Filtering Pipeline
 1. **Base Model Forward Pass**: Compute logits for full vocabulary
@@ -250,23 +250,23 @@ Design specialized kernels for grammar-constrained generation:
 5. **Sampling**: Use adjusted distribution for token selection
 
 ### Memory Management
-- Bounded cache for reachability computations
-- LRU eviction based on parser state frequency
-- Compression strategies for large grammar state spaces
+* Bounded cache for reachability computations
+* LRU eviction based on parser state frequency
+* Compression strategies for large grammar state spaces
 
 ## Evaluation Framework
 
 ### Benchmarks
-- **Structured Data**: JSON, XML, YAML generation tasks
-- **Code Generation**: Python, JavaScript with syntax constraints
-- **Domain-Specific Languages**: SQL queries, configuration files
-- **Nested Structures**: Mathematical expressions, logical formulas
+* **Structured Data**: JSON, XML, YAML generation tasks
+* **Code Generation**: Python, JavaScript with syntax constraints
+* **Domain-Specific Languages**: SQL queries, configuration files
+* **Nested Structures**: Mathematical expressions, logical formulas
 
 ### Metrics
-- **Success Rate**: Percentage of generations that parse successfully
-- **Efficiency**: Computational overhead vs. baseline methods
-- **Quality**: Semantic coherence of generated outputs (human eval)
-- **Diversity**: Entropy of generated structures within constraints
+* **Success Rate**: Percentage of generations that parse successfully
+* **Efficiency**: Computational overhead vs. baseline methods
+* **Quality**: Semantic coherence of generated outputs (human eval)
+* **Diversity**: Entropy of generated structures within constraints
 
 ### Baseline Comparisons
 ### Detailed Evaluation Plan
@@ -278,10 +278,10 @@ Design specialized kernels for grammar-constrained generation:
 | Code Generation | HumanEval, MBPP | Codex, CodeGen, DeepSeek-Coder | Pass@k, AST validity |
 | Config Files | Kubernetes/Terraform specs | Base models + Guidance/Outlines | Validation rate, semantic correctness |
 **Expected Performance Improvements:**
-- Parse success rate: +15-25% over local constraints
-- Generation attempts before success: -60% reduction
-- Inference overhead: 20-40% increase (compensated by fewer retries)
-- Output diversity: Maintain 90%+ of unconstrained diversity
+* Parse success rate: +15-25% over local constraints
+* Generation attempts before success: -60% reduction
+* Inference overhead: 20-40% increase (compensated by fewer retries)
+* Output diversity: Maintain 90%+ of unconstrained diversity
 **Ablation Study Design:**
 1. **Lookahead depth**: Vary k ∈ {1, 2, 4, 8, 16} and measure success/cost trade-off
 2. **Precomputation vs dynamic**: Compare strategies across grammar complexity levels
@@ -332,32 +332,32 @@ class IncrementalReachabilityTracker:
 
 ## Expected Contributions
 
-- Novel theoretical framework for grammar-aware constrained generation with formal reachability analysis
-- Practical algorithms for efficient reachability computation compatible with transformer architectures
-- Integration strategies for state-of-the-art model techniques (MoE, speculative decoding, constitutional AI)
-- Comprehensive evaluation across diverse structured generation tasks with SOTA model comparisons
-- Open-source implementation compatible with major LLM frameworks (Transformers, vLLM, TensorRT-LLM)
-- Analysis of computational trade-offs and scaling characteristics for production deployment
+* Novel theoretical framework for grammar-aware constrained generation with formal reachability analysis
+* Practical algorithms for efficient reachability computation compatible with transformer architectures
+* Integration strategies for state-of-the-art model techniques (MoE, speculative decoding, constitutional AI)
+* Comprehensive evaluation across diverse structured generation tasks with SOTA model comparisons
+* Open-source implementation compatible with major LLM frameworks (Transformers, vLLM, TensorRT-LLM)
+* Analysis of computational trade-offs and scaling characteristics for production deployment
 ## Implementation Roadmap
 ### Phase 1: MVP (Months 1-3)
-- Basic lookahead for JSON, YAML, simple DSLs
-- Integration with one major framework (Transformers)
-- Evaluation on standard benchmarks
+* Basic lookahead for JSON, YAML, simple DSLs
+* Integration with one major framework (Transformers)
+* Evaluation on standard benchmarks
 ### Phase 2: Optimization (Months 4-6)
-- GPU-accelerated reachability computation
-- Incremental update algorithms
-- Advanced caching strategies
-- Multi-grammar support
+* GPU-accelerated reachability computation
+* Incremental update algorithms
+* Advanced caching strategies
+* Multi-grammar support
 ### Phase 3: SOTA Integration (Months 7-9)
-- Speculative decoding compatibility
-- MoE routing implementation
-- Training integration and fine-tuning recipes
-- Production-ready API design
+* Speculative decoding compatibility
+* MoE routing implementation
+* Training integration and fine-tuning recipes
+* Production-ready API design
 ### Phase 4: Evaluation & Release (Months 10-12)
-- Comprehensive benchmarking
-- Documentation and tutorials
-- Open-source release
-- Community feedback integration
+* Comprehensive benchmarking
+* Documentation and tutorials
+* Open-source release
+* Community feedback integration
 
 
 This approach promises to significantly improve the reliability of structured LLM generation while maintaining compatibility with cutting-edge model architectures and training techniques, bridging the gap between traditional parsing methods and modern neural generation systems.

@@ -10,9 +10,9 @@ We propose a novel Mamba-based architecture that enables persistent integration 
 
 Current approaches to knowledge integration in LLMs suffer from significant limitations:
 
-- **RAG systems** require expensive similarity searches at inference time and lack persistent memory across conversations
-- **Fine-tuning approaches** are computationally prohibitive for frequently updated knowledge bases
-- **Context window extensions** hit fundamental memory and attention scaling limits
+* **RAG systems** require expensive similarity searches at inference time and lack persistent memory across conversations
+* **Fine-tuning approaches** are computationally prohibitive for frequently updated knowledge bases
+* **Context window extensions** hit fundamental memory and attention scaling limits
 
 Our proposed Mamba-based Knowledge Graph Integration (MKGI) architecture leverages state space models to create a fundamentally different approach to knowledge integration. Unlike traditional methods that treat external knowledge as separate from the model's core computation, MKGI embeds document representations directly into the model's state space, where they can be dynamically accessed and updated through learned state transitions.
 
@@ -22,7 +22,7 @@ Our proposed Mamba-based Knowledge Graph Integration (MKGI) architecture leverag
 
 **Hierarchical State Space Design**: The architecture consists of nested Mamba blocks operating at different scales:
 
-- **Knowledge Mamba**: Maintains a structured state space where each dimension corresponds to cached document
+* **Knowledge Mamba**: Maintains a structured state space where each dimension corresponds to cached document
   transforms (this structured knowledge representation complements the Cognitive Ecology's Knowledge Commons in
   `ai/evolutionary_agents_proposal.md`)
 
@@ -65,44 +65,44 @@ This multi-source synthesis capability could enhance the EchoSynth framework's s
 
 ### 3.1 Theoretical Advances
 
-- **Linear-Scaling Knowledge Integration**: Demonstrate that document knowledge can be efficiently maintained in structured state spaces with O(n) complexity rather than O(n²) attention scaling
-- **Continuous Knowledge Graph Dynamics**: Develop theoretical foundations for representing discrete graph relationships through continuous state space evolution
-- **Selective State Space Mechanisms**: Extend Mamba's selective mechanisms to handle multi-modal knowledge activation and routing
+* **Linear-Scaling Knowledge Integration**: Demonstrate that document knowledge can be efficiently maintained in structured state spaces with O(n) complexity rather than O(n²) attention scaling
+* **Continuous Knowledge Graph Dynamics**: Develop theoretical foundations for representing discrete graph relationships through continuous state space evolution
+* **Selective State Space Mechanisms**: Extend Mamba's selective mechanisms to handle multi-modal knowledge activation and routing
 
 ### 3.2 Practical Applications
 
-- **Persistent Research Assistants**: AI systems that accumulate knowledge across multiple research sessions
-- **Collaborative Knowledge Management**: Multiple users contributing to shared, evolving knowledge bases
-- **Real-time Information Integration**: Seamless incorporation of new documents without retraining
-- **Multi-threaded Conversation Synthesis**: Combining insights from parallel conversation threads
+* **Persistent Research Assistants**: AI systems that accumulate knowledge across multiple research sessions
+* **Collaborative Knowledge Management**: Multiple users contributing to shared, evolving knowledge bases
+* **Real-time Information Integration**: Seamless incorporation of new documents without retraining
+* **Multi-threaded Conversation Synthesis**: Combining insights from parallel conversation threads
 
 ## 4. Experimental Design
 
 ### 4.1 Benchmark Tasks
 
 **Knowledge Synthesis Evaluation**:
-- Multi-document question answering requiring synthesis across 10-100 sources
-- Fact verification tasks with potentially conflicting evidence
-- Timeline construction from dispersed temporal information
+* Multi-document question answering requiring synthesis across 10-100 sources
+* Fact verification tasks with potentially conflicting evidence
+* Timeline construction from dispersed temporal information
 
 **Scaling Analysis**:
-- State space stability as knowledge dimensions increase (10³ to 10⁶ documents)
-- Computational efficiency compared to attention-based RAG approaches  
-- Memory usage and selective activation latency measurements
-- Analysis of state matrix conditioning and numerical stability
+* State space stability as knowledge dimensions increase (10³ to 10⁶ documents)
+* Computational efficiency compared to attention-based RAG approaches  
+* Memory usage and selective activation latency measurements
+* Analysis of state matrix conditioning and numerical stability
 
 **Coherence Assessment**:
-- Consistency of state representations across different document contexts
-- Maintenance of factual accuracy during state space updates
-- Robustness to contradictory information through state space dynamics
-- Long-term stability of knowledge state evolution
+* Consistency of state representations across different document contexts
+* Maintenance of factual accuracy during state space updates
+* Robustness to contradictory information through state space dynamics
+* Long-term stability of knowledge state evolution
 
 ### 4.2 Ablation Studies
 
-- Impact of different state matrix initialization strategies and structures
-- Effectiveness of various selective mechanism designs for knowledge routing
-- Comparison of hierarchical vs. flat state space organization
-- Analysis of state dimension scaling laws and optimal knowledge density
+* Impact of different state matrix initialization strategies and structures
+* Effectiveness of various selective mechanism designs for knowledge routing
+* Comparison of hierarchical vs. flat state space organization
+* Analysis of state dimension scaling laws and optimal knowledge density
 
 ## 5. Technical Challenges and Mitigation Strategies
 

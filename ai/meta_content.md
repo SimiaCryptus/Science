@@ -60,23 +60,23 @@ We assembled a corpus of 50+ documents categorized by meta-cognitive depth:
 
 **Level 0 (Baseline)**: Technical documentation, code implementations
 
-- Example: "This function sorts an array using quicksort algorithm"
+* Example: "This function sorts an array using quicksort algorithm"
 
 **Level 1 (Simple Meta)**: Papers about AI systems
 
-- Example: "This paper analyzes optimization methods in neural networks"
+* Example: "This paper analyzes optimization methods in neural networks"
 
 **Level 2 (Recursive Meta)**: Papers about AI analyzing AI
 
-- Example: "We examine how AI systems analyze their own decision-making"
+* Example: "We examine how AI systems analyze their own decision-making"
 
 **Level 3 (Deep Recursion)**: Self-referential consciousness studies
 
-- Example: "This exploration of how consciousness examines its own examination of examining itself"
+* Example: "This exploration of how consciousness examines its own examination of examining itself"
 
 **Level 4+ (Infinite Recursion)**: Deliberately pathological self-reference
 
-- Example: "This sentence analyzes how it analyzes its own analysis of analyzing..."
+* Example: "This sentence analyzes how it analyzes its own analysis of analyzing..."
 
 ### 3.2 Task Design
 
@@ -92,18 +92,18 @@ We designed five task categories to test different aspects of processing:
 
 For each document-task pair, we measured:
 
-- **Completion Rate**: Binary success/failure
-- **Error Type**: Categorized failure modes
-- **Response Coherence**: Semantic similarity to expected output
-- **Processing Time**: Time to first token and total generation time
-- **Recursion Indicators**: Frequency of self-referential language in response
+* **Completion Rate**: Binary success/failure
+* **Error Type**: Categorized failure modes
+* **Response Coherence**: Semantic similarity to expected output
+* **Processing Time**: Time to first token and total generation time
+* **Recursion Indicators**: Frequency of self-referential language in response
 
 ### 3.4 Experimental Controls
 
-- Randomized task order to prevent learning effects
-- Temperature = 0.7 for all trials
-- Multiple runs per task to establish variance
-- Baseline calibration using non-meta content
+* Randomized task order to prevent learning effects
+* Temperature = 0.7 for all trials
+* Multiple runs per task to establish variance
+* Baseline calibration using non-meta content
 
 ## 4. Results
 
@@ -126,11 +126,11 @@ The relationship follows: `Failure Rate = 0.05 * e^(0.92 * depth)`
 
 Different task types showed varying sensitivity to meta-cognitive depth:
 
-- **Simple Modifications**: Most robust, degrading only at Level 3+
-- **Summarization**: Linear degradation starting at Level 1
-- **Analytical Tasks**: Sharp breakdown at Level 2
-- **Synthetic Tasks**: Immediate degradation from Level 1
-- **Meta-Tasks**: Paradoxically performed better at Level 1-2, then collapsed
+* **Simple Modifications**: Most robust, degrading only at Level 3+
+* **Summarization**: Linear degradation starting at Level 1
+* **Analytical Tasks**: Sharp breakdown at Level 2
+* **Synthetic Tasks**: Immediate degradation from Level 1
+* **Meta-Tasks**: Paradoxically performed better at Level 1-2, then collapsed
 
 ### 4.3 Failure Mode Analysis
 
@@ -145,10 +145,10 @@ We identified four distinct failure patterns:
 
 Certain phrases strongly predicted subsequent failure:
 
-- "examining its own examination" (87% failure within 50 tokens)
-- "consciousness of consciousness" (91% failure rate)
-- "this very sentence" (94% failure rate)
-- Nested parentheticals beyond depth 3 (85% failure rate)
+* "examining its own examination" (87% failure within 50 tokens)
+* "consciousness of consciousness" (91% failure rate)
+* "this very sentence" (94% failure rate)
+* Nested parentheticals beyond depth 3 (85% failure rate)
 
 ## 5. Discussion
 
@@ -176,19 +176,19 @@ universals in processing self-referential content, regardless of substrate.
 
 For AI system design:
 
-- Implement recursion detection and circuit breakers
-- Design specialized architectures for meta-cognitive tasks
-- Develop "cognitive load" metrics for content
-- Create guidelines for self-referential content processing
+* Implement recursion detection and circuit breakers
+* Design specialized architectures for meta-cognitive tasks
+* Develop "cognitive load" metrics for content
+* Create guidelines for self-referential content processing
 
 ## 6. Limitations and Future Work
 
 ### 6.1 Current Limitations
 
-- Single model architecture (transformer-based)
-- English-only corpus
-- Limited to text processing
-- Synthetic recursion may not reflect natural occurrence
+* Single model architecture (transformer-based)
+* English-only corpus
+* Limited to text processing
+* Synthetic recursion may not reflect natural occurrence
 
 ### 6.2 Future Directions
 

@@ -233,9 +233,9 @@ where the maximum is over input density matrices.
    QUANTUM-GOSSIP(G, source, message):
    1. Encode message in source agent's state
    2. For each round:
-      - Agents randomly interact with neighbors
-      - Apply partial swap: |ψ_u⟩|ψ_v⟩ → cos(θ)|ψ_u⟩|ψ_v⟩ + sin(θ)|ψ_v⟩|ψ_u⟩
-      - Measure information spread
+      * Agents randomly interact with neighbors
+      * Apply partial swap: |ψ_u⟩|ψ_v⟩ → cos(θ)|ψ_u⟩|ψ_v⟩ + sin(θ)|ψ_v⟩|ψ_u⟩
+      * Measure information spread
    3. Return coverage over time
    ```
 2. **Influence Maximization**: Find optimal seed set for information spread
@@ -347,8 +347,8 @@ Output: Agent v with influence(v) > θ
 1. Define influence metric: influence(v) = PageRank(v) × |N(v)| × activity(v)
 2. Create oracle: O|v⟩ = -|v⟩ if influence(v) > θ, else |v⟩
 3. Apply GENERALIZED-QG-SEARCH with social-aware modifications:
-   - Use weighted Laplacian based on interaction strengths
-   - Add temporary connections during search based on social proximity
+   * Use weighted Laplacian based on interaction strengths
+   * Add temporary connections during search based on social proximity
 4. Return influential agent
 ```
 
@@ -361,8 +361,8 @@ Output: Community partition C
 1. Prepare superposition over all possible partitions
 2. Define oracle based on modularity: O|C⟩ = -|C⟩ if Q(C) > Q_min
 3. Apply amplitude amplification with topology adaptation:
-   - Strengthen intra-community edges
-   - Weaken inter-community edges
+   * Strengthen intra-community edges
+   * Weaken inter-community edges
 4. Measure to obtain high-modularity partition
 ```
 
@@ -578,9 +578,9 @@ Computational power relates to topological invariants:
 3. **Echo Chamber Index**: ECI(G) = (internal edges) / (boundary edges) for communities
    **Theorem (Social Computation Bounds)**: For a social graph with cohesion κ and echo chamber index ECI:
 
-- Consensus time: T_consensus = O(n/(κ·(1-ECI)))
-- Polarization probability: P_polarize = 1 - exp(-ECI·t)
-- Information diversity: D_info = O(1/ECI)
+* Consensus time: T_consensus = O(n/(κ·(1-ECI)))
+* Polarization probability: P_polarize = 1 - exp(-ECI·t)
+* Information diversity: D_info = O(1/ECI)
 
 ### 5.3 Category Theory Perspective
 
@@ -619,22 +619,22 @@ This functor is neither full nor faithful, reflecting the complexity of the comp
 
 **Definition (Social Dynamics Category SocDyn)**:
 
-- **Objects**: Social quantum graphs with dynamics (S, Φ) where Φ is evolution operator
-- **Morphisms**: Social homomorphisms preserving influence relationships
-- **Composition**: Sequential social processes
+* **Objects**: Social quantum graphs with dynamics (S, Φ) where Φ is evolution operator
+* **Morphisms**: Social homomorphisms preserving influence relationships
+* **Composition**: Sequential social processes
   **Social Functors**:
 
 1. **Opinion Functor**: Op: SocDyn → Prob
-    - Maps social states to probability distributions over opinions
-    - Preserves consensus and polarization
+    * Maps social states to probability distributions over opinions
+    * Preserves consensus and polarization
 2. **Influence Functor**: Inf: SocDyn → Poset
-    - Maps to partially ordered sets of influence relationships
-    - Preserves influence hierarchies
+    * Maps to partially ordered sets of influence relationships
+    * Preserves influence hierarchies
       **Natural Transformations**: Model transitions between social dynamics:
 
-- **Consensus transformation**: η: Diverse → Uniform
-- **Polarization transformation**: π: Uniform → Bimodal
-- **Cascade transformation**: κ: Stable → Volatile
+* **Consensus transformation**: η: Diverse → Uniform
+* **Polarization transformation**: π: Uniform → Bimodal
+* **Cascade transformation**: κ: Stable → Volatile
 
 ## 5.4 Physical Interpretation
 
@@ -980,16 +980,16 @@ topology_change_rates = [0, 0.01, 0.05, 0.1, 0.2]  # fraction of edges modified 
 num_trials = 1000
 
 # Metrics to collect
-- Mixing
+* Mixing
 time: τ_mix(ε)
 for ε ∈ {0.1, 0.01, 0.001}
-- Spectral
+* Spectral
 gap
 evolution: Δ(t)
-- Information
+* Information
 transfer
 rate: I(i→j, t) for random vertex pairs
-- Fidelity
+* Fidelity
 under
 topology
 changes: F(ψ_static, ψ_dynamic)
@@ -1097,18 +1097,18 @@ algorithms = {
 }
 
 # Metrics
-- Success
+* Success
 probability
 vs
 problem
 size
-- Query
+* Query
 complexity(oracle
 calls)
-- Time
+* Time
 to
 solution
-- Resource
+* Resource
 usage(qubits / vertices)
 ```
 
@@ -1587,8 +1587,8 @@ def run_reproducible_experiment(name, params):
 
 ### Publication-Ready Outputs
 
-- Scaling plots with error bars and fitted curves
-- Statistical significance tables (p < 0.05)
-- Comparison with theoretical predictions
-- Resource usage heat maps
-- Algorithm performance benchmarks
+* Scaling plots with error bars and fitted curves
+* Statistical significance tables (p < 0.05)
+* Comparison with theoretical predictions
+* Resource usage heat maps
+* Algorithm performance benchmarks

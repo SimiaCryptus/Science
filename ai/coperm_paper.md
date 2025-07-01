@@ -68,9 +68,9 @@ The meta-layer is trained with a multi-objective loss:
 L_meta = λ₁L_compression + λ₂L_correlation + λ₃L_stability
 
 where:
-- L_compression encourages permutations that facilitate pruning
-- L_correlation promotes decorrelation or correlation clustering as appropriate
-- L_stability ensures permutation policies generalize across different inputs
+* L_compression encourages permutations that facilitate pruning
+* L_correlation promotes decorrelation or correlation clustering as appropriate
+* L_stability ensures permutation policies generalize across different inputs
 
 ## 4. Applications and Use Cases
 
@@ -86,25 +86,25 @@ and [Dual-Constraint Training](../dual_constraint_training_paper.md#adaptive-dat
 ### 4.2 Model Archaeology and Interpretability
 
 Permutation symmetries obscure the true computational structure of trained networks. CIPMs can canonicalize networks by finding standard orderings that reveal:
-- Functional modules and their interactions
-- Redundant computational paths
-- The effective dimensionality of learned representations
+* Functional modules and their interactions
+* Redundant computational paths
+* The effective dimensionality of learned representations
 
 This "archaeological" analysis helps understand what networks actually learn beyond permutation noise.
 
 ### 4.3 Transfer Learning Optimization
 
 When adapting pre-trained models to new tasks, CIPMs can reorganize features to better align with target domain requirements. By learning task-specific permutation policies, the framework can:
-- Concentrate task-relevant features for efficient fine-tuning
-- Identify transferable vs. task-specific computational paths
-- Reduce catastrophic forgetting through strategic feature isolation
+* Concentrate task-relevant features for efficient fine-tuning
+* Identify transferable vs. task-specific computational paths
+* Reduce catastrophic forgetting through strategic feature isolation
 
 ### 4.4 Continual Learning Applications
 
 As networks encounter new tasks, correlation patterns evolve. CIPMs can adapt network organization dynamically:
-- Reorganize neurons to minimize interference between old and new tasks
-- Create dedicated pathways for different task families
-- Enable efficient parameter sharing across related tasks
+* Reorganize neurons to minimize interference between old and new tasks
+* Create dedicated pathways for different task families
+* Enable efficient parameter sharing across related tasks
 
 ## 5. Computational Considerations
 
@@ -121,9 +121,9 @@ Direct manipulation of permutation matrices scales poorly. We propose several ef
 ### 5.2 Correlation Tracking
 
 Computing full correlation matrices at each step is expensive. We develop efficient approximations:
-- Running correlation estimates updated incrementally
-- Sparse correlation tracking for only the most significant pairs
-- Periodic full recomputation with interpolation between updates
+* Running correlation estimates updated incrementally
+* Sparse correlation tracking for only the most significant pairs
+* Periodic full recomputation with interpolation between updates
 
 ## 6. Theoretical Analysis
 
@@ -136,9 +136,9 @@ The existence of these symmetries suggests that traditional optimization may get
 ### 6.2 Generalization Properties
 
 We conjecture that optimal permutation policies learned on one network architecture may transfer to other networks of the same structure, revealing universal organizational principles. This could enable:
-- Pre-computed permutation templates for common architectures
-- Rapid model optimization without task-specific meta-layer training
-- Insights into fundamental computational motifs in neural networks
+* Pre-computed permutation templates for common architectures
+* Rapid model optimization without task-specific meta-layer training
+* Insights into fundamental computational motifs in neural networks
 
 ### 6.3 Connection to Lottery Ticket Hypothesis
 
@@ -149,26 +149,26 @@ The lottery ticket hypothesis suggests that sparse subnetworks with good perform
 ### 7.1 Benchmark Tasks
 
 Comprehensive evaluation requires testing across diverse scenarios:
-- **Image classification**: Standard benchmarks (CIFAR-10/100, ImageNet) to validate compression performance
-- **Natural language processing**: Transformer architectures to test attention pattern reorganization
-- **Transfer learning**: Cross-domain adaptation tasks to measure alignment effectiveness
-- **Continual learning**: Sequential task learning to evaluate dynamic reorganization
+* **Image classification**: Standard benchmarks (CIFAR-10/100, ImageNet) to validate compression performance
+* **Natural language processing**: Transformer architectures to test attention pattern reorganization
+* **Transfer learning**: Cross-domain adaptation tasks to measure alignment effectiveness
+* **Continual learning**: Sequential task learning to evaluate dynamic reorganization
 
 ### 7.2 Evaluation Metrics
 
 Success metrics span multiple dimensions:
-- **Compression efficiency**: Pruning ratios achievable after CIPM reorganization
-- **Performance preservation**: Accuracy retention through permutation operations
-- **Interpretability improvement**: Quantitative measures of module coherence and feature clustering
-- **Computational overhead**: Time and memory costs of permutation operations and meta-layer training
+* **Compression efficiency**: Pruning ratios achievable after CIPM reorganization
+* **Performance preservation**: Accuracy retention through permutation operations
+* **Interpretability improvement**: Quantitative measures of module coherence and feature clustering
+* **Computational overhead**: Time and memory costs of permutation operations and meta-layer training
 
 ### 7.3 Ablation Studies
 
 Critical components requiring systematic evaluation:
-- Impact of different correlation measures and timescales
-- Sensitivity to meta-layer architecture choices
-- Comparison between analytical and learned permutation policies
-- Effect of hierarchical vs. flat permutation optimization
+* Impact of different correlation measures and timescales
+* Sensitivity to meta-layer architecture choices
+* Comparison between analytical and learned permutation policies
+* Effect of hierarchical vs. flat permutation optimization
 
 ## 8. Broader Implications
 

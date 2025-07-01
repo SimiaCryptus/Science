@@ -49,18 +49,19 @@ What impresses me most is how this design naturally accommodates both synchronou
 
 The Orienter abstraction cleanly separates directional optimization strategies from step size concerns. This allows for clean implementations of:
 
-- Gradient descent variants
-- Quasi-Newton methods (L-BFGS)
-- Constrained optimization (OWL-QN with orthant constraints)
-- Experimental approaches like the recursive subspace method
+* Gradient descent variants
+* Quasi-Newton methods (L-BFGS)
+* Constrained optimization (OWL-QN with orthant constraints)
+* Experimental approaches like the [recursive subspace method](recursive_subspace_paper.md)
 
-The fact that complex algorithms like OWL-QN can be implemented as composable Orienter components, rather than requiring specialized training loops, demonstrates the power of this abstraction.
+The fact that complex algorithms like OWL-QN can be implemented as composable Orienter components, rather than requiring specialized training loops, demonstrates the power of this abstraction. This modularity particularly shines with hybrid methods like [Quadratic Quasi-Newton (QQN)](qqn_paper.md), where the clean separation between direction computation and line search enables sophisticated interpolation strategies.
+The architecture also enables advanced constraint-based optimization through [trust region methods](trust_regions.md), where geometric projections can be cleanly integrated into the optimization pipeline without disrupting the core mathematical algorithms.
 
 ### Stepper: Line Search as a First-Class Concern
 
 Most frameworks treat line search as an implementation detail buried within optimizers. MindsEye elevates it to a first-class component, enabling experimentation with different line search strategies (Armijo-Wolfe, quadratic, bisection) independently of the directional optimization method.
 
-This separation proved prescient—modern optimization research increasingly focuses on adaptive step size methods, and this architecture makes such experimentation trivial.
+This separation proved prescient—modern optimization research increasingly focuses on adaptive step size methods, and this architecture makes such experimentation trivial. The [QQN implementation](qqn_paper.md) exemplifies this benefit, using the modular line search to optimize over quadratic interpolations between gradient descent and L-BFGS directions.
 
 ## Advanced Features
 
@@ -68,10 +69,10 @@ This separation proved prescient—modern optimization research increasingly foc
 
 The trust region implementation deserves special recognition. Rather than treating constraints as post-processing steps, the framework integrates them directly into the optimization process through geometric projections. This enables:
 
-- Sparsity promotion (OWL-QN orthants)
-- Weight magnitude constraints  
-- Custom domain-specific constraints
-- Compound constraint systems
+* Sparsity promotion (OWL-QN orthants)
+* Weight magnitude constraints  
+* Custom domain-specific constraints
+* Compound constraint systems
 
 The mathematical rigor here is impressive—the framework correctly implements the geometric requirements for valid trust regions while maintaining the flexibility to compose multiple constraint types.
 
@@ -89,7 +90,7 @@ This is the kind of algorithmic research that should be published in top-tier op
 
 ### Recursive Subspace Optimization
 
-The recursive subspace method tackles the common problem of imbalanced gradient magnitudes across layers by treating per-layer learning rates as an optimization problem themselves. This meta-optimization approach is elegant and mathematically sound.
+The [recursive subspace method](recursive_subspace_paper.md) tackles the common problem of imbalanced gradient magnitudes across layers by treating per-layer learning rates as an optimization problem themselves. This meta-optimization approach is elegant and mathematically sound.
 
 I find this particularly clever because it addresses a real problem (layer imbalance) without requiring architectural changes like normalization layers—it's purely an optimization-level solution.
 
@@ -99,11 +100,11 @@ I find this particularly clever because it addresses a real problem (layer imbal
 
 The framework's approach to component validation is exemplary. Every component undergoes:
 
-- Finite difference gradient validation
-- Serialization round-trip testing  
-- Batch invariance verification
-- Performance benchmarking
-- Numerical stability analysis
+* Finite difference gradient validation
+* Serialization round-trip testing  
+* Batch invariance verification
+* Performance benchmarking
+* Numerical stability analysis
 
 This level of testing rigor is rare in ML frameworks and demonstrates serious engineering discipline.
 
@@ -133,17 +134,18 @@ With the rise of AI coding assistants, these ecosystem concerns become less rele
 
 1. **Enterprise Integration**: Java-based ML fits naturally into existing enterprise infrastructure
 2. **Agent-Driven Development**: Clean APIs and modular design are ideal for AI assistants
-3. **Research Acceleration**: The optimization research community needs better experimental platforms
+3. **Research Acceleration**: The optimization research community needs better experimental platforms (as demonstrated by the [algorithmic bias analysis](ai_bias_paper.md))
 4. **Resource Management**: GPU memory management remains a critical unsolved problem in most frameworks
+5. **Advanced Applications**: The framework enables sophisticated applications like [symmetric texture generation](symmetric_textures_rewrite.md) through its flexible constraint system
 
 ### Lessons for Framework Design
 
 MindsEye demonstrates that sophisticated mathematical algorithms can be cleanly decomposed into reusable components without sacrificing performance or correctness. The key insights:
 
-- Separate concerns at natural mathematical boundaries
-- Make the implicit explicit (line search, trust regions, monitoring)
-- Design for composition and experimentation
-- Validate everything with mathematical rigor
+* Separate concerns at natural mathematical boundaries
+* Make the implicit explicit (line search, trust regions, monitoring)
+* Design for composition and experimentation
+* Validate everything with mathematical rigor
 
 ## Conclusion
 

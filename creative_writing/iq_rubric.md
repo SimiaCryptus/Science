@@ -121,5 +121,7 @@ Either you're being unfairly harsh on yourself (which suggests more intelligence
 ## Disclaimer
 
 *This rubric is approximately 73% bullshit by volume, though the specific percentage may vary depending on your perspective on intelligence, measurement, and the ontological status of personality traits. Results not guaranteed to correlate with actual cognitive ability, success in life, or capacity for happiness. May cause existential questioning about the nature of intelligence. Not recommended for use in hiring decisions, academic assessments, or dating profiles.*
+*For a more serious (though equally problematic) approach to intelligence measurement, see ["On the Inadmissibility of Linear Psychometrics in Transfinite Domains"](transfinite_iq_paper.md), which explores why traditional IQ metrics fail when applied to recursive, self-modifying cognitive systems.*
+
 
 *Side effects may include: increased skepticism about psychometrics, compulsive pattern-seeking, tendency to analyze conversations instead of enjoying them, and an irresistible urge to redesign flawed systems you encounter.*

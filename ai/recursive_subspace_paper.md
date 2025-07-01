@@ -87,18 +87,18 @@ This property emerges from the non-convex loss landscape: as wᵢ increases, the
 
 ### 3.3 Computational Complexity
 
-- **Time complexity**: O(K·C_forward) additional cost per iteration, where K ≈ 5-6
-- **Space complexity**: O(L) for storing layer weights
-- **Relative overhead**: Approximately 5-10% increase in training time for K=5
+* **Time complexity**: O(K·C_forward) additional cost per iteration, where K ≈ 5-6
+* **Space complexity**: O(L) for storing layer weights
+* **Relative overhead**: Approximately 5-10% increase in training time for K=5
 
 ## 4. Experiments
 
 ### 4.1 Experimental Setup
 
 We evaluate RSO across multiple domains:
-- **Vision**: CIFAR-10/100, ImageNet with ResNet-{50,101,152}, ViT-B/16, DenseNet-121
-- **Language**: GPT-2 {124M, 355M} on OpenWebText
-- **Baselines**: SGD+Momentum, Adam, AdamW, LAMB, L-BFGS
+* **Vision**: CIFAR-10/100, ImageNet with ResNet-{50,101,152}, ViT-B/16, DenseNet-121
+* **Language**: GPT-2 {124M, 355M} on OpenWebText
+* **Baselines**: SGD+Momentum, Adam, AdamW, LAMB, L-BFGS
 
 ### 4.2 Main Results
 
@@ -120,9 +120,9 @@ We evaluate RSO across multiple domains:
 ### 4.3 Convergence Speed
 
 RSO consistently achieves faster convergence:
-- **CIFAR-100**: Reaches 90% accuracy in 72±3 epochs (vs. 98±5 for Adam)
-- **ImageNet**: Reaches target accuracy 24% faster than Adam
-- **GPT-2 124M**: Achieves perplexity <30 in 95K steps (vs. 125K for Adam)
+* **CIFAR-100**: Reaches 90% accuracy in 72±3 epochs (vs. 98±5 for Adam)
+* **ImageNet**: Reaches target accuracy 24% faster than Adam
+* **GPT-2 124M**: Achieves perplexity <30 in 95K steps (vs. 125K for Adam)
 
 ### 4.4 Layer Weight Dynamics
 
@@ -140,28 +140,27 @@ This demonstrates the exhaustion mechanism: heavily used layers automatically re
 ### 4.5 Ablation Studies
 
 **Impact of meta-optimization iterations (K):**
-- K=2: 77.2% accuracy, 2% overhead
-- K=4: 78.8% accuracy, 4% overhead
-- K=6: 79.3% accuracy, 6% overhead (optimal)
-- K=16: 79.3% accuracy, 18% overhead (no further improvement)
+* K=2: 77.2% accuracy, 2% overhead
+* K=4: 78.8% accuracy, 4% overhead
+* K=6: 79.3% accuracy, 6% overhead (optimal)
+* K=16: 79.3% accuracy, 18% overhead (no further improvement)
 
 **Layer grouping strategies:**
-- Individual layers: 77.8% accuracy
-- Architectural blocks: 79.3% accuracy (best)
-- Uniform groups of 5: 78.5% accuracy
+* Individual layers: 77.8% accuracy
+* Architectural blocks: 79.3% accuracy (best)
+* Uniform groups of 5: 78.5% accuracy
 
 ## 5. Related Work
 
 **Second-order methods**: Natural gradient [3] and K-FAC [4] approximate the Fisher information matrix. RSO achieves similar preconditioning effects through layer-wise decomposition with lower computational cost.
-Related work on quasi-Newton methods like [QQN](qqn_paper.md) addresses similar optimization challenges through
-direction interpolation rather than layer decomposition.
+
+**Hybrid optimization**: The [Quadratic Quasi-Newton (QQN)](qqn_paper.md) method addresses similar optimization challenges through direction interpolation rather than layer decomposition. Both approaches recognize that standard optimizers may benefit from more sophisticated gradient combination strategies.
+**Trust region methods**: [Trust region approaches](trust_regions.md) provide complementary constraint mechanisms that can be combined with RSO's layer-wise optimization for enhanced stability.
+
 
 **Adaptive learning rates**: LARS [5] and LAMB [6] adapt learning rates per layer based on gradient/parameter norms. RSO generalizes this by optimizing the entire gradient combination rather than just scaling.
-**Trust region methods**: The [Trust Region Framework](trust_regions.md) provides complementary approaches for
-constraining optimization steps. RSO's layer-wise constraints can be viewed as a form of structured trust region.
-*For trust region approaches to layer-wise optimization,
-see [Trust Region Methods](../trust_regions.md#layer-specific-policies), which provides complementary constraint
-mechanisms.*
+
+**Framework design**: The [MindsEye modular architecture](mindseye_modularity_report.md) enables RSO's implementation through clean separation of optimization components. The framework's [reference counting system](mindseye_refcount_analysis.md) provides the deterministic memory management necessary for RSO's meta-optimization phases. This technical foundation is analyzed in detail in the [MindsEye technical report](mindseye_technical_report.md).
 
 **Gradient composition**: PCGrad [7] addresses gradient conflicts in multi-task learning. RSO applies similar principles to single-task optimization by treating layers as generating distinct "task" gradients.
 

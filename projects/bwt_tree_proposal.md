@@ -17,6 +17,11 @@ demonstrated how entropy-based organization can dramatically reduce storage requ
 more general string processing tasks. The permutation-aware approach connects to our work
 on [compression-based classification](../ai/compression_classification_paper.md), where BWT permutation structures serve
 as both compression mechanisms and classification features.
+The entropy-optimized tree organization principles developed here share theoretical foundations with our 
+[Probabilistic Decision Trees](../ai/probabilistic_trees_paper.md) research, though applied to discrete string 
+processing rather than continuous probability modeling. The dynamic structural optimization also relates to our 
+[Probabilistic Neural Substrates](../ai/probabilistic_neural_substrate.md) work, where similar information-theoretic 
+principles guide adaptive network topology evolution.
 
 ### 1.2 Key Insight
 
@@ -27,10 +32,10 @@ The BWT creates multiple interrelated permutations that form a complete algebrai
 ### 2.1 Burrows-Wheeler Transform Permutation Structure
 
 The BWT generates several interconnected permutations:
-- **π₁**: Last-to-First column mapping (L-F mapping)
-- **π₂**: First-to-Last column mapping (F-L mapping)  
-- **π₃**: Forward movement resolution for character ambiguity
-- **π₄**: Backward movement resolution for character ambiguity
+* **π₁**: Last-to-First column mapping (L-F mapping)
+* **π₂**: First-to-Last column mapping (F-L mapping)  
+* **π₃**: Forward movement resolution for character ambiguity
+* **π₄**: Backward movement resolution for character ambiguity
 
 These permutations interact through composition rules that enable bidirectional string traversal without full reconstruction.
 
@@ -74,17 +79,17 @@ struct EOPTNode {
 
 Unlike traditional B-trees that split on key ranges, EOPT partitions data based on entropy density:
 
-- **High-entropy regions**: Receive deeper tree structure with fine-grained permutation indices
-- **Low-entropy regions**: Compressed into compact representations with coarser permutation resolution
-- **Entropy boundaries**: Dynamically adjusted based on data distribution and access patterns
+* **High-entropy regions**: Receive deeper tree structure with fine-grained permutation indices
+* **Low-entropy regions**: Compressed into compact representations with coarser permutation resolution
+* **Entropy boundaries**: Dynamically adjusted based on data distribution and access patterns
 
 ### 3.3 Permutation Composition Optimization
 
 The tree maintains a hierarchy of permutation compositions:
-- **Level 0**: Basic π₁, π₂, π₃, π₄ mappings
-- **Level 1**: Frequently used 2-permutation compositions
-- **Level 2**: Common 3+ permutation sequences
-- **Level n**: Cached complex traversal patterns
+* **Level 0**: Basic π₁, π₂, π₃, π₄ mappings
+* **Level 1**: Frequently used 2-permutation compositions
+* **Level 2**: Common 3+ permutation sequences
+* **Level n**: Cached complex traversal patterns
 
 ## 4. Core Algorithms
 
@@ -127,10 +132,10 @@ def query_substring(start, length):
 ### 4.3 Metaparameter Optimization
 
 The tree continuously optimizes structural parameters:
-- **Branching factor**: Adjusted based on entropy distribution
-- **Compression thresholds**: Tuned for optimal space-time trade-offs
-- **Cache sizes**: Dynamically sized based on access patterns
-- **Rebalancing triggers**: Entropy-variance based rather than height-based
+* **Branching factor**: Adjusted based on entropy distribution
+* **Compression thresholds**: Tuned for optimal space-time trade-offs
+* **Cache sizes**: Dynamically sized based on access patterns
+* **Rebalancing triggers**: Entropy-variance based rather than height-based
 
 ## 5. Theoretical Analysis
 
@@ -153,95 +158,95 @@ The tree continuously optimizes structural parameters:
 ## 6. Implementation Strategy
 
 ### 6.1 Phase 1: Core Structure (Months 1-6)
-- Implement basic EOPT node structure
-- Develop entropy-based partitioning algorithms
-- Create fundamental permutation mapping operations
+* Implement basic EOPT node structure
+* Develop entropy-based partitioning algorithms
+* Create fundamental permutation mapping operations
 
 ### 6.2 Phase 2: Optimization Layer (Months 7-12)
-- Implement permutation composition caching
-- Develop metaparameter optimization algorithms
-- Create adaptive rebalancing mechanisms
+* Implement permutation composition caching
+* Develop metaparameter optimization algorithms
+* Create adaptive rebalancing mechanisms
 
 ### 6.3 Phase 3: Advanced Features (Months 13-18)
-- Implement streaming BWT support
-- Develop approximate query processing
-- Create distributed/parallel versions
+* Implement streaming BWT support
+* Develop approximate query processing
+* Create distributed/parallel versions
 
 ## 7. Evaluation Plan
 
 ### 7.1 Benchmarks
-- **Compression ratio**: Compare against standard BWT implementations
-- **Query performance**: Measure substring and pattern matching speed
-- **Update performance**: Evaluate insertion/deletion throughput
-- **Memory usage**: Analyze space efficiency across different data types
+* **Compression ratio**: Compare against standard BWT implementations
+* **Query performance**: Measure substring and pattern matching speed
+* **Update performance**: Evaluate insertion/deletion throughput
+* **Memory usage**: Analyze space efficiency across different data types
 
 ### 7.2 Datasets
-- **Text corpora**: Natural language processing applications
-- **Genomic sequences**: Bioinformatics use cases
-- **Log files**: System monitoring and analysis
-- **Time series**: Sensor data and financial records
+* **Text corpora**: Natural language processing applications
+* **Genomic sequences**: Bioinformatics use cases
+* **Log files**: System monitoring and analysis
+* **Time series**: Sensor data and financial records
 
 ### 7.3 Baseline Comparisons
-- Suffix arrays with compression
-- FM-indices
-- Compressed suffix trees
-- Traditional B-trees with separate compression
+* Suffix arrays with compression
+* FM-indices
+* Compressed suffix trees
+* Traditional B-trees with separate compression
 
 ## 8. Expected Contributions
 
 ### 8.1 Theoretical Contributions
-- Novel integration of information theory with tree data structures
-- Formal analysis of permutation composition optimization
-- Entropy-based space allocation theory
+* Novel integration of information theory with tree data structures
+* Formal analysis of permutation composition optimization
+* Entropy-based space allocation theory
 
 ### 8.2 Practical Contributions
-- High-performance string processing data structure
-- Adaptive compression algorithms
-- Efficient bijective transform query processing
+* High-performance string processing data structure
+* Adaptive compression algorithms
+* Efficient bijective transform query processing
 
 ### 8.3 Algorithmic Contributions
-- Entropy-guided tree balancing algorithms
-- Permutation composition caching strategies
-- Metaparameter optimization techniques
+* Entropy-guided tree balancing algorithms
+* Permutation composition caching strategies
+* Metaparameter optimization techniques
 
 ## 9. Broader Impact
 
 This research has applications in:
 
-- **Text Classification**: Integration with compression-based classification systems where permutation structures
+* **Text Classification**: Integration with compression-based classification systems where permutation structures
   provide interpretable features (see [EOCT framework](../ai/compression_classification_paper.md))
-- **Language Modeling**: Efficient storage of large-scale n-gram models using similar entropy-based organization
+* **Language Modeling**: Efficient storage of large-scale n-gram models using similar entropy-based organization
   principles (see [hierarchical compression](../ai/ngram_paper.md))
-- **Density Estimation**: The entropy-adaptive partitioning approach extends to continuous spaces in
+* **Density Estimation**: The entropy-adaptive partitioning approach extends to continuous spaces in
   our [Volumetric Density Trees](volumetric_density_tree_proposal.md)
-- **Bioinformatics**: Genome sequence analysis where BWT is already widely used but lacks efficient queryable structures
+* **Bioinformatics**: Genome sequence analysis where BWT is already widely used but lacks efficient queryable structures
 
 ## 10. Resources Required
 
 ### 10.1 Personnel
-- 1 Principal Investigator (theoretical development)
-- 2 Graduate students (implementation and evaluation)
-- 1 Postdoctoral researcher (optimization and analysis)
+* 1 Principal Investigator (theoretical development)
+* 2 Graduate students (implementation and evaluation)
+* 1 Postdoctoral researcher (optimization and analysis)
 
 ### 10.2 Equipment
-- High-memory computing cluster for large-scale experiments
-- Storage systems for benchmark datasets
-- Development workstations
+* High-memory computing cluster for large-scale experiments
+* Storage systems for benchmark datasets
+* Development workstations
 
 ### 10.3 Timeline
-- **18 months**: Core research and implementation
-- **6 months**: Comprehensive evaluation and optimization
-- **6 months**: Paper writing and dissemination
+* **18 months**: Core research and implementation
+* **6 months**: Comprehensive evaluation and optimization
+* **6 months**: Paper writing and dissemination
 
 ## 11. Risk Assessment
 
 ### 11.1 Technical Risks
-- **Complexity**: Permutation composition optimization may be computationally expensive
-- **Mitigation**: Develop approximate algorithms and bounded caching strategies
+* **Complexity**: Permutation composition optimization may be computationally expensive
+* **Mitigation**: Develop approximate algorithms and bounded caching strategies
 
 ### 11.2 Theoretical Risks
-- **Optimality**: Entropy-based organization may not always be optimal
-- **Mitigation**: Develop hybrid approaches that fall back to traditional methods when needed
+* **Optimality**: Entropy-based organization may not always be optimal
+* **Mitigation**: Develop hybrid approaches that fall back to traditional methods when needed
 
 ## 12. Conclusion
 

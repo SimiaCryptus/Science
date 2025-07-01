@@ -20,9 +20,11 @@ The proposed training methodology operates under two simultaneous constraints:
 
 1. **Linear Gradient Constraint**: Traditional optimization for improved performance on new objectives
 2. **Trust Region Constraint**: Perspective-based preservation that enforces non-degradation on reference training sets
+The trust region component builds upon established frameworks (see [Trust Region Methods](trust_regions.md)) while introducing novel perspective-based adaptations. This approach shares conceptual similarities with [QQN](qqn_paper.md)'s hybrid optimization strategy.
    The trust region component builds upon established frameworks (see [Trust Region Methods](trust_regions.md)) while
    introducing novel perspective-based adaptations. This approach shares conceptual similarities
    with [QQN](qqn_paper.md)'s hybrid optimization strategy.
+
 
 The innovation lies not in either constraint individually, but in their interaction and the adaptive mechanism that determines what requires protection.
 *The trust region component builds upon the framework detailed in [Trust Region Methods](../trust_regions.md), while the
@@ -73,6 +75,7 @@ This training approach could enable systematic "intellectual archaeology" - the 
 ### Continual Learning
 
 The dual-constraint framework directly addresses catastrophic forgetting in continual learning scenarios. New tasks and domains can be learned without degrading performance on previous tasks, while maintaining the ability to recognize when new knowledge represents valuable anomalies rather than noise.
+This approach complements the layer-wise preservation strategies in [Recursive Subspace Optimization](recursive_subspace_paper.md#emergent-regularization) and the permutation-based approaches in [Co-Inverse Permutation Modifiers](coperm_paper.md#continual-learning-applications).
 *This approach complements the layer-wise preservation strategies
 in [Recursive Subspace Optimization](../recursive_subspace_paper.md#emergent-regularization) and the permutation-based
 approaches in [Co-Inverse Permutation Modifiers](../coperm_paper.md#continual-learning-applications).*
@@ -90,9 +93,9 @@ The selection of reference training sets for the trust region constraint require
 ### Computational Overhead
 
 The dual-constraint approach introduces additional computational requirements for:
-- Monitoring performance on reference sets
-- Classifying data into core/anomaly categories
-- Managing trust region constraints alongside primary optimization
+* Monitoring performance on reference sets
+* Classifying data into core/anomaly categories
+* Managing trust region constraints alongside primary optimization
 
 ### Hyperparameter Sensitivity
 

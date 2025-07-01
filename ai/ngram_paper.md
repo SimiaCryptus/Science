@@ -38,9 +38,9 @@ Consider a trie storing 4-grams from English text. If the root level contains on
 
 These constraints are formalized as hierarchical expectation bounds. For a node at depth d with character set C_d and frequency distribution F_d, the constraints for depth d+1 are:
 
-- Character set: C_{d+1} ⊆ C_d
-- Total frequency: Σ F_{d+1} ≤ min frequency of parent nodes  
-- Branching factor: |children| ≤ |C_d|
+* Character set: C_{d+1} ⊆ C_d
+* Total frequency: Σ F_{d+1} ≤ min frequency of parent nodes  
+* Branching factor: |children| ≤ |C_d|
 
 ### 3.2 Layer-wise Encoding Algorithm
 
@@ -81,9 +81,9 @@ Decoding reverses this process, reconstructing each layer by applying the record
 Traditional trie implementations suffer from object overhead, with each node requiring metadata that can exceed the actual data payload for small nodes. This implementation addresses this by storing the entire trie as a single serialized array.
 
 The array format interleaves three types of data:
-- **Navigation data:** Offsets and counts enabling tree traversal
-- **Character data:** The actual characters forming n-grams
-- **Frequency data:** Occurrence counts for each n-gram
+* **Navigation data:** Offsets and counts enabling tree traversal
+* **Character data:** The actual characters forming n-grams
+* **Frequency data:** Occurrence counts for each n-gram
 
 This format reduces memory usage by 60-80% compared to pointer-based implementations while maintaining O(1) access to any node given its array offset.
 
@@ -91,9 +91,9 @@ This format reduces memory usage by 60-80% compared to pointer-based implementat
 
 Scalability was tested using progressively larger text corpora, measuring both memory usage and operation times. The results demonstrate that this approach maintains efficient performance characteristics even at millions of nodes:
 
-- **Memory scaling:** Linear with the number of unique n-grams, with a constant factor 3-5x smaller than traditional implementations
-- **Access time:** O(n) where n is the n-gram length, independent of trie size
-- **Construction time:** O(m log m) where m is the number of input n-grams
+* **Memory scaling:** Linear with the number of unique n-grams, with a constant factor 3-5x smaller than traditional implementations
+* **Access time:** O(n) where n is the n-gram length, independent of trie size
+* **Construction time:** O(m log m) where m is the number of input n-grams
 
 The hierarchical compression adds negligible overhead to access operations while providing substantial space savings.
 
@@ -143,9 +143,9 @@ Comprehensive experiments validate both the compression effectiveness and practi
 
 Testing on diverse text corpora ranging from formal documents to social media posts, the hierarchical compression method achieves:
 
-- **Compression ratios:** 40-70% reduction in storage compared to uncompressed tries
-- **Combined with PPM:** Additional 20-30% reduction when encoding the compressed trie itself
-- **Access overhead:** <5% increase in lookup time compared to uncompressed structures
+* **Compression ratios:** 40-70% reduction in storage compared to uncompressed tries
+* **Combined with PPM:** Additional 20-30% reduction when encoding the compressed trie itself
+* **Access overhead:** <5% increase in lookup time compared to uncompressed structures
 
 The compression effectiveness varies with text type, achieving best results on text with regular patterns (formal writing, code) and somewhat lower ratios on highly irregular text (social media, chat logs).
 
@@ -153,9 +153,9 @@ The compression effectiveness varies with text type, achieving best results on t
 
 Scalability was tested using tries ranging from thousands to millions of nodes:
 
-- **Memory efficiency:** Linear scaling with 3-5x improvement over traditional implementations
-- **Construction time:** Sublinear scaling due to improved cache efficiency
-- **Query performance:** Constant-factor overhead regardless of trie size
+* **Memory efficiency:** Linear scaling with 3-5x improvement over traditional implementations
+* **Construction time:** Sublinear scaling due to improved cache efficiency
+* **Query performance:** Constant-factor overhead regardless of trie size
 
 These results demonstrate that this approach maintains efficiency characteristics necessary for production deployment.
 
@@ -163,9 +163,9 @@ These results demonstrate that this approach maintains efficiency characteristic
 
 The three validation applications show measurable improvements over existing methods:
 
-- **Shared dictionary compression:** 20-25% better compression ratios on small document collections
-- **PPM compression:** Enables previously impractical compression scenarios for specialized text types
-- **Similarity measurement:** Provides effective clustering and classification for content analysis
+* **Shared dictionary compression:** 20-25% better compression ratios on small document collections
+* **PPM compression:** Enables previously impractical compression scenarios for specialized text types
+* **Similarity measurement:** Provides effective clustering and classification for content analysis
 
 ## 7. Discussion and Implications
 
@@ -183,6 +183,12 @@ the foundation for interpretable text classification.
 The hierarchical expectation-based encoding approach also shares conceptual similarities with the entropy-adaptive
 partitioning in our [Volumetric Density Trees](../projects/volumetric_density_tree_proposal.md), though applied to
 discrete rather than continuous spaces.
+The information-theoretic principles underlying this compression method have broader applications in probabilistic
+modeling, as demonstrated in our [Probabilistic Decision Trees](probabilistic_trees_paper.md) work, which uses
+cross-entropy optimization for tree construction. These same principles of exploiting structural redundancy through
+hierarchical expectations could potentially be applied to the dynamic topology optimization in
+[Probabilistic Neural Substrates](probabilistic_neural_substrate.md).
+The most significant limitation is the dependency on having sufficient training data to build effective models.
 
 The most significant limitation is the dependency on having sufficient training data to build effective models. For very sparse data or highly diverse text collections, the compression benefits diminish. Additionally, the current implementation prioritizes simplicity over maximum compression efficiency; more aggressive encoding schemes could likely improve results further.
 

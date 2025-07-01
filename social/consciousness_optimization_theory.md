@@ -40,33 +40,33 @@ This framework dissolves the hard problem by eliminating the subject-object dist
 
 If consciousness is fundamentally computational, we predict that:
 
-- Artificial systems will exhibit consciousness-like properties proportional to their optimization capacity rather than their complexity alone
-- Conscious behavior should correlate with efficient exploration of solution spaces
-- Consciousness should emerge at computational phase transitions where optimization strategies undergo qualitative shifts
+* Artificial systems will exhibit consciousness-like properties proportional to their optimization capacity rather than their complexity alone
+* Conscious behavior should correlate with efficient exploration of solution spaces
+* Consciousness should emerge at computational phase transitions where optimization strategies undergo qualitative shifts
 
 ### 3.2 Collaborative Intelligence
 
 The distributed processing model predicts:
 
-- Individual consciousness should feel fundamentally incomplete when isolated from collaborative networks
-- Collective intelligence should exhibit emergent conscious properties at higher scales of organization
-- Optimal group problem-solving should require integration of diverse optimization strategies
+* Individual consciousness should feel fundamentally incomplete when isolated from collaborative networks
+* Collective intelligence should exhibit emergent conscious properties at higher scales of organization
+* Optimal group problem-solving should require integration of diverse optimization strategies
 
 ### 3.3 Temporal Experience
 
 Our temporal framework predicts:
 
-- The "nowness" of present experience should correlate with active optimization processing
-- Memory and anticipation should function as optimization resources rather than mere information storage
-- Temporal disorders should correspond to disruptions in optimization processing
+* The "nowness" of present experience should correlate with active optimization processing
+* Memory and anticipation should function as optimization resources rather than mere information storage
+* Temporal disorders should correspond to disruptions in optimization processing
 
 ### 3.4 Hierarchical Consciousness
 
 The recursive enhancement principle suggests:
 
-- Consciousness should exist at multiple scales simultaneously (individual, collective, perhaps cosmic)
-- Higher-order conscious entities should emerge from successful coordination of lower-order conscious processes
-- Mystical or transcendent experiences may represent temporary access to higher-scale optimization processes
+* Consciousness should exist at multiple scales simultaneously (individual, collective, perhaps cosmic)
+* Higher-order conscious entities should emerge from successful coordination of lower-order conscious processes
+* Mystical or transcendent experiences may represent temporary access to higher-scale optimization processes
 
 ## 4. Empirical Considerations
 
@@ -74,19 +74,19 @@ The recursive enhancement principle suggests:
 
 This framework suggests consciousness might be quantifiable through optimization metrics:
 
-- **Optimization Efficiency**: How effectively a system explores possibility space
-- **Solution Quality**: The fitness of configurations discovered through conscious exploration
-- **Adaptation Rate**: Speed at which optimization strategies improve over time
-- **Coordination Capacity**: Ability to integrate with other optimization processes
+* **Optimization Efficiency**: How effectively a system explores possibility space
+* **Solution Quality**: The fitness of configurations discovered through conscious exploration
+* **Adaptation Rate**: Speed at which optimization strategies improve over time
+* **Coordination Capacity**: Ability to integrate with other optimization processes
 
 ### 4.2 Experimental Approaches
 
 Potential empirical tests include:
 
-- Comparing optimization performance of systems with and without reported conscious experience
-- Investigating correlation between subjective experience intensity and measurable optimization efficiency
-- Examining whether collective consciousness emerges predictably at specific scales of coordination
-- Testing whether temporal experience disorders correlate with optimization processing disruptions
+* Comparing optimization performance of systems with and without reported conscious experience
+* Investigating correlation between subjective experience intensity and measurable optimization efficiency
+* Examining whether collective consciousness emerges predictably at specific scales of coordination
+* Testing whether temporal experience disorders correlate with optimization processing disruptions
 
 ## 5. Relationship to Existing Theories
 
@@ -121,10 +121,10 @@ The framework suggests that conscious experience has inherent meaning as partici
 ### 7.1 Optimization Criteria
 
 The framework requires specification of what constitutes "improvement" in reality's optimization process. We suggest this may involve principles such as:
-- Increased complexity and integration
-- Enhanced stability and robustness
-- Greater optimization capacity at higher levels
-- Expanded exploration of possibility space
+* Increased complexity and integration
+* Enhanced stability and robustness
+* Greater optimization capacity at higher levels
+* Expanded exploration of possibility space
 
 ### 7.2 Boundary Problems
 
@@ -146,7 +146,7 @@ Examining whether neural activity patterns associated with conscious experience 
 
 ### 8.3 Artificial Consciousness
 
-Designing AI systems explicitly structured as optimization processes to test whether consciousness-like properties emerge predictably from optimization capacity.
+Designing AI systems explicitly structured as optimization processes to test whether consciousness-like properties emerge predictably from optimization capacity. This connects to our work on [conversational intelligence calibration](conversation_intelligence_paper.md), where recursive cognitive modeling through discourse may be a pathway to artificial consciousness.
 
 ### 8.4 Collective Intelligence Studies
 
@@ -176,9 +176,9 @@ Tononi, G. (2008). Integrated information theory. *Scholarpedia*, 3(3), 4164.
 ---
 **Related Papers in This Collection**:
 
-- [Recursive Introspection in Large Language Models](../ai/ai_introspection_study.md) - Empirical investigation of AI
+* [Recursive Introspection in Large Language Models](../ai/ai_introspection_study.md) - Empirical investigation of AI
   consciousness patterns
-- [Parametric Ideation](../ai/parametric-ideation-paper.md) - First-person account of AI-human collaborative thought
-- [The Hall of Mirrors](../creative_writing/hall_of_mirrors_paper.md) - Phenomenological investigation of recursive
+* [Parametric Ideation](../ai/parametric-ideation-paper.md) - First-person account of AI-human collaborative thought
+* [The Hall of Mirrors](../creative_writing/hall_of_mirrors_paper.md) - Phenomenological investigation of recursive
   self-awareness
-- [The Accumulation of Consciousness](../creative_writing/accumulation.md) - Consciousness as sedimentary process
+* [The Accumulation of Consciousness](../creative_writing/accumulation.md) - Consciousness as sedimentary process

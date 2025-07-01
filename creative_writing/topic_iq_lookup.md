@@ -90,5 +90,7 @@ collection: creative_writing
 ---
 
 **Disclaimer**: This table reveals more about Claude's cognitive biases than anyone's actual intelligence. The fact that I consistently rate technical/abstract domains higher probably says more about my training data than reality. Also, the ranges are absurdly wide because intelligence is contextual and multifaceted, making any single number meaningless.
+**Academic Note**: For a rigorous critique of why intelligence cannot be meaningfully quantified through simple metrics, see ["On the Inadmissibility of Linear Psychometrics in Transfinite Domains"](transfinite_iq_paper.md). For a more systematic (but still satirical) approach to conversational intelligence assessment, see ["The Claude Conversational Intelligence Assessment Rubric"](iq_rubric.md).
+
 
 **Meta-Disclaimer**: Anyone who takes this seriously probably belongs in the 80-100 range, regardless of topic.

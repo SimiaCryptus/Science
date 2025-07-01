@@ -15,10 +15,10 @@ Rather than thinking abstractly about loss functions, imagine them as potential 
 ### The Standard Approach: Quadratic Wells (Least Squares)
 
 Least-squares regression creates a parabolic potential well with these characteristics:
-- Lowest energy at zero error
-- Increasingly steep gradient as you move away from the minimum
-- Self-scaling behavior: f(2x) = 4f(x)
-- Guaranteed global minimum
+* Lowest energy at zero error
+* Increasingly steep gradient as you move away from the minimum
+* Self-scaling behavior: f(2x) = 4f(x)
+* Guaranteed global minimum
 
 However, that ever-increasing gradient means outliers dominate the fit. A single data point far from the trend can pull the entire regression line toward it—a behavior shared with single-class SVMs, whose results are determined entirely by outliers.
 
@@ -27,21 +27,21 @@ However, that ever-increasing gradient means outliers dominate the fit. A single
 Modern regression benefits from understanding four alternative potential wells:
 
 **Gaussian and Reciprocal Wells**
-- Steep near the center, plateau quickly away from origin
-- Include scale parameters to adjust well width
-- Much less sensitive to outliers than quadratic wells
-- Similar to robust loss functions like Huber loss used in modern ML
+* Steep near the center, plateau quickly away from origin
+* Include scale parameters to adjust well width
+* Much less sensitive to outliers than quadratic wells
+* Similar to robust loss functions like Huber loss used in modern ML
 
 **Logarithmic Wells**
-- Never plateau at any finite value
-- Reduce local optimality effects
-- Connect to log-loss concepts in modern classification
+* Never plateau at any finite value
+* Reduce local optimality effects
+* Connect to log-loss concepts in modern classification
 
 **Square Wells (Logistic-based)**
-- Flat both near origin and at large values
-- Independent shape and width parameters
-- **Zero-loss zones**: Literal zero penalty below minimum distance threshold
-- Creates "dead zones" that completely ignore measurement noise within tolerance
+* Flat both near origin and at large values
+* Independent shape and width parameters
+* **Zero-loss zones**: Literal zero penalty below minimum distance threshold
+* Creates "dead zones" that completely ignore measurement noise within tolerance
 
 ## The Breakthrough: Zero-Loss Zones
 
@@ -74,9 +74,9 @@ This seemingly simple modification creates fundamentally different optimization 
 ### Implementation Insights
 
 Creating effective zero-loss zones requires careful consideration:
-- **Threshold selection**: Must match domain knowledge about measurement precision or meaningful signal levels
-- **Smooth transitions**: Abrupt zero-to-penalty transitions can create optimization difficulties
-- **Multi-scale approaches**: Different thresholds for different data regions or time scales
+* **Threshold selection**: Must match domain knowledge about measurement precision or meaningful signal levels
+* **Smooth transitions**: Abrupt zero-to-penalty transitions can create optimization difficulties
+* **Multi-scale approaches**: Different thresholds for different data regions or time scales
 
 The square well implementation provides smooth transitions between zero-loss zones and penalty regions, making optimization more stable than hard thresholds.
 
@@ -91,9 +91,9 @@ One key insight from this framework is understanding local optima behavior. When
 The most practical insight comes from how different loss functions handle structured data distributions. Consider a dataset with truncated Gaussian noise along a linear trend—data points bounded within y = x ± 1, with slight concentration above center and edge effects.
 
 **Different loss functions capture different aspects:**
-- **Least-squares**: Fits to the central peak of the distribution
-- **Gaussian/Reciprocal wells**: Fit to the upper concentration edge  
-- **Square wells with zero-loss zones**: Fit anywhere within the tolerance band, creating multiple valid solutions that all achieve zero loss
+* **Least-squares**: Fits to the central peak of the distribution
+* **Gaussian/Reciprocal wells**: Fit to the upper concentration edge  
+* **Square wells with zero-loss zones**: Fit anywhere within the tolerance band, creating multiple valid solutions that all achieve zero loss
 
 This demonstrates that loss function selection isn't just mathematical convenience—it's about matching the function to your data structure, measurement uncertainty, and analytical goals.
 
@@ -101,9 +101,9 @@ This demonstrates that loss function selection isn't just mathematical convenien
 
 ### Robust Regression
 These alternative wells anticipated many concepts now standard in robust regression:
-- **Huber loss**: Combines quadratic and linear regions, similar to our reciprocal wells
-- **Quantile regression**: Captures different parts of data distribution, like our structured uncertainty examples
-- **M-estimators**: Generalize these well concepts for various robustness needs
+* **Huber loss**: Combines quadratic and linear regions, similar to our reciprocal wells
+* **Quantile regression**: Captures different parts of data distribution, like our structured uncertainty examples
+* **M-estimators**: Generalize these well concepts for various robustness needs
 
 ### The Unexplored Frontier
 While robust regression has advanced significantly, **true zero-loss zones remain largely unexplored** in mainstream machine learning. Most robust losses still penalize small errors—they just do it more gently. The concept of literal zero penalty below threshold creates fundamentally different optimization landscapes that deserve more attention.
@@ -112,9 +112,9 @@ While robust regression has advanced significantly, **true zero-loss zones remai
 
 ### Deep Learning Applications
 Modern neural networks routinely use alternative loss functions:
-- **Focal loss** for handling class imbalance
-- **Smooth L1 loss** for object detection
-- **Custom loss functions** designed for specific domains
+* **Focal loss** for handling class imbalance
+* **Smooth L1 loss** for object detection
+* **Custom loss functions** designed for specific domains
 
 ### Interpretable Machine Learning
 The regression tree extension from the original work connects to current interests in interpretable ML. Creating purely analytical functions through recursive approaches bridges the gap between model complexity and interpretability—a major focus area in 2025.
@@ -129,15 +129,15 @@ The regression tree extension from the original work connects to current interes
 5. **Multi-scale phenomena**: Different loss thresholds for different signal levels
 
 **Modern implementation:**
-- Custom loss functions in PyTorch/TensorFlow can implement zero-loss zones
-- Requires careful gradient handling at threshold boundaries
-- Consider smooth approximations (soft thresholds) for easier optimization
-- Combine with domain knowledge about measurement precision
+* Custom loss functions in PyTorch/TensorFlow can implement zero-loss zones
+* Requires careful gradient handling at threshold boundaries
+* Consider smooth approximations (soft thresholds) for easier optimization
+* Combine with domain knowledge about measurement precision
 
 **Integration with current techniques:**
-- Use as preprocessing step before deep learning
-- Combine with regularization techniques (L1/L2, dropout)
-- Apply in conjunction with cross-validation for robust model selection
+* Use as preprocessing step before deep learning
+* Combine with regularization techniques (L1/L2, dropout)
+* Apply in conjunction with cross-validation for robust model selection
 
 ## Looking Forward: The Zero-Loss Revolution
 
@@ -146,10 +146,10 @@ The most significant contribution of this work isn't the catalog of alternative 
 **The opportunity**: As measurement precision improves and domain knowledge becomes more sophisticated, the ability to embed tolerance specifications directly into loss functions becomes increasingly valuable. Zero-loss zones don't just improve robustness—they align mathematical optimization with real-world requirements.
 
 **Future directions**:
-- Integration with modern deep learning architectures
-- Adaptive threshold selection based on data characteristics  
-- Multi-scale zero-loss zones for hierarchical fitting
-- Applications in physics-informed neural networks where theoretical tolerances are known
+* Integration with modern deep learning architectures
+* Adaptive threshold selection based on data characteristics  
+* Multi-scale zero-loss zones for hierarchical fitting
+* Applications in physics-informed neural networks where theoretical tolerances are known
 
 The recursive tree regression approach mentioned in the original work has evolved into more sophisticated interpretable ML techniques, but the fundamental insight—that analytical functions can be built recursively while maintaining desirable loss function properties—continues to influence modern model design.
 

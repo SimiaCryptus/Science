@@ -40,10 +40,10 @@ economic pressures no longer organize human behavior.
 
 Our framework considers multiple possible equilibrium states:
 
-- **Labor-leisure equilibria** where creative activity and leisure optimization become primary
-- **Status competition equilibria** focused on positional goods and social hierarchy
-- **Innovation-driven equilibria** organized around research and novel experience creation  
-- **Curated reality equilibria** where information management systems shape distinct economic experiences (
+* **Labor-leisure equilibria** where creative activity and leisure optimization become primary
+* **Status competition equilibria** focused on positional goods and social hierarchy
+* **Innovation-driven equilibria** organized around research and novel experience creation  
+* **Curated reality equilibria** where information management systems shape distinct economic experiences (
   see [managed_reality_paper.md](../social/managed_reality_paper.md))
 
 ## 3. Methodology
@@ -52,64 +52,64 @@ Our framework considers multiple possible equilibrium states:
 
 **Core Architecture**: Heterogeneous agents with differentiated utility functions, cognitive constraints, and resource endowments operating within multi-layer networks representing economic exchange, social influence, and information flows.
 **Technical Implementation**:
-- Multi-threaded simulation engine using Julia for computational efficiency
-- Graph-based network representation using NetworkX and GraphBLAS algorithms
-- Distributed computing architecture for parameter sweeps across 10^6+ simulation runs
-- CUDA acceleration for utility optimization and market clearing operations
+* Multi-threaded simulation engine using Julia for computational efficiency
+* Graph-based network representation using NetworkX and GraphBLAS algorithms
+* Distributed computing architecture for parameter sweeps across 10^6+ simulation runs
+* CUDA acceleration for utility optimization and market clearing operations
 
 **Agent Types**:
 
 **Agent Decision Models**:
-- Bounded rationality implemented via Monte Carlo Tree Search (MCTS) with depth limitations
-- Reinforcement learning using Proximal Policy Optimization (PPO) for strategy adaptation
-- Bayesian belief updating with sparse priors for information processing
-- Attention allocation modeled as constrained optimization with diminishing returns
+* Bounded rationality implemented via Monte Carlo Tree Search (MCTS) with depth limitations
+* Reinforcement learning using Proximal Policy Optimization (PPO) for strategy adaptation
+* Bayesian belief updating with sparse priors for information processing
+* Attention allocation modeled as constrained optimization with diminishing returns
 
 **Environmental Dynamics**:
 
 **Simulation Parameters**:
-- Time resolution: 1 month per tick, with 100-year simulation horizons
-- Population scale: 10^4 to 10^6 agents with hierarchical abstraction for larger scales
-- Network density: Small-world networks with configurable clustering coefficients (0.1-0.5)
-- Technology advancement: Logistic and exponential curves with stochastic breakthrough events
+* Time resolution: 1 month per tick, with 100-year simulation horizons
+* Population scale: 10^4 to 10^6 agents with hierarchical abstraction for larger scales
+* Network density: Small-world networks with configurable clustering coefficients (0.1-0.5)
+* Technology advancement: Logistic and exponential curves with stochastic breakthrough events
 
 ### 3.2 Game-Theoretic Submodels
 
 **Status Competition Games**: Positional goods markets with relative utility functions, tournament models for attention allocation, and costly signaling equilibria in social hierarchies.
 **Mathematical Formulation**:
-- Utility functions: U(x_i, x_j) = α·v(x_i) - β·r(x_i, x_j) where v() is absolute value and r() is relative position
-- Tournament payoffs modeled as Tullock contests with effort cost functions
-- Signaling games with Bayesian Nash equilibria and costly verification mechanisms
+* Utility functions: U(x_i, x_j) = α·v(x_i) - β·r(x_i, x_j) where v() is absolute value and r() is relative position
+* Tournament payoffs modeled as Tullock contests with effort cost functions
+* Signaling games with Bayesian Nash equilibria and costly verification mechanisms
 
 **Coordination Games**: Public goods provision mechanisms, commons management with monitoring and sanctioning, and coalition formation for infrastructure investment.
 **Implementation Details**:
-- Ostrom-inspired institutional analysis and development (IAD) framework
-- Multi-level governance with nested Markov Decision Processes
-- Reputation systems using distributed ledger simulation with Byzantine fault tolerance
-- Coalition formation via hedonic games with transferable utility
+* Ostrom-inspired institutional analysis and development (IAD) framework
+* Multi-level governance with nested Markov Decision Processes
+* Reputation systems using distributed ledger simulation with Byzantine fault tolerance
+* Coalition formation via hedonic games with transferable utility
 
 **Innovation Races**: R&D competition with spillover effects, intellectual property strategy choices, and network effects in platform adoption.
 **Algorithmic Approach**:
-- Patent race modeling using stochastic differential equations
-- Knowledge diffusion via epidemic models on complex networks
-- Platform competition using Bass diffusion with network externalities
-- Open source dynamics using public goods games with reputation benefits
+* Patent race modeling using stochastic differential equations
+* Knowledge diffusion via epidemic models on complex networks
+* Platform competition using Bass diffusion with network externalities
+* Open source dynamics using public goods games with reputation benefits
 
 ### 3.3 Evolutionary Dynamics
 
 **Cultural Evolution Module**: Group selection on institutional arrangements, individual learning and social transmission of economic strategies, and mutation operators introducing novel organizational forms.
 **Technical Implementation**:
-- Replicator dynamics with mutation rates calibrated to historical institutional change
-- Cultural transmission modeled via Price equations with selection coefficients
-- Meme diffusion using agent-based epidemiological models with exposure thresholds
-- Institutional innovation via genetic programming with fitness based on multiple welfare metrics
+* Replicator dynamics with mutation rates calibrated to historical institutional change
+* Cultural transmission modeled via Price equations with selection coefficients
+* Meme diffusion using agent-based epidemiological models with exposure thresholds
+* Institutional innovation via genetic programming with fitness based on multiple welfare metrics
 
 **Economic System Evolution**: Fitness landscapes for different economic arrangements, migration between communities with different systems, and analysis of hybrid system emergence and stability.
 **Computational Methods**:
-- NK fitness landscapes with tunable ruggedness (K) for institutional complementarity
-- Migration dynamics using gravity models with preference heterogeneity
-- Hybrid stability analysis using Lyapunov functions and basin of attraction mapping
-- Path dependence quantification via information-theoretic entropy measures
+* NK fitness landscapes with tunable ruggedness (K) for institutional complementarity
+* Migration dynamics using gravity models with preference heterogeneity
+* Hybrid stability analysis using Lyapunov functions and basin of attraction mapping
+* Path dependence quantification via information-theoretic entropy measures
 
 ### 3.4 Multi-Scale Implementation
 
@@ -117,15 +117,15 @@ Our framework considers multiple possible equilibrium states:
 **Meso-level**: Market clearing mechanisms, network formation, and institutional emergence
 **Macro-level**: System-wide resource flows, technological progress, and equilibrium dynamics
 **Integration Architecture**:
-- Hierarchical temporal abstraction with event-driven updates across scales
-- Meso-level market clearing using double auction mechanisms with O(log n) matching algorithms
-- Macro-level flows modeled via system dynamics with adaptive time-stepping
-- Cross-scale feedback implemented through message-passing interfaces with priority queues
+* Hierarchical temporal abstraction with event-driven updates across scales
+* Meso-level market clearing using double auction mechanisms with O(log n) matching algorithms
+* Macro-level flows modeled via system dynamics with adaptive time-stepping
+* Cross-scale feedback implemented through message-passing interfaces with priority queues
 **Data Structures and Algorithms**:
-- Agent state representation: Sparse feature vectors with dimensional reduction via autoencoders
-- Network operations: Optimized graph algorithms with O(n log n) complexity for large-scale simulations
-- Resource allocation: Constraint satisfaction problems solved with approximate algorithms (simulated annealing)
-- Institutional rule representation: Formal grammar with production rules and constraint logic programming
+* Agent state representation: Sparse feature vectors with dimensional reduction via autoencoders
+* Network operations: Optimized graph algorithms with O(n log n) complexity for large-scale simulations
+* Resource allocation: Constraint satisfaction problems solved with approximate algorithms (simulated annealing)
+* Institutional rule representation: Formal grammar with production rules and constraint logic programming
 
 ## 4. Research Questions
 
@@ -145,56 +145,56 @@ Our framework considers multiple possible equilibrium states:
 
 ### 5.1 Theoretical Contributions
 
-- Comprehensive taxonomy of constraints that persist beyond material scarcity
-- Formal characterization of post-scarcity equilibrium conditions and stability properties
-- Analysis of evolutionary pathways between different economic system configurations
+* Comprehensive taxonomy of constraints that persist beyond material scarcity
+* Formal characterization of post-scarcity equilibrium conditions and stability properties
+* Analysis of evolutionary pathways between different economic system configurations
 
 ### 5.2 Policy Implications
 
-- Identification of institutional designs that promote stable, equitable post-scarcity transitions
-- Analysis of policy interventions that can influence trajectory toward preferred equilibria
-- Assessment of risks associated with different transition strategies
+* Identification of institutional designs that promote stable, equitable post-scarcity transitions
+* Analysis of policy interventions that can influence trajectory toward preferred equilibria
+* Assessment of risks associated with different transition strategies
 
 ### 5.3 Methodological Advances
 
-- Novel computational framework for analyzing complex economic transitions
-- Integration of agent-based modeling with evolutionary game theory for institutional analysis
-- Validation approaches for speculative economic modeling
+* Novel computational framework for analyzing complex economic transitions
+* Integration of agent-based modeling with evolutionary game theory for institutional analysis
+* Validation approaches for speculative economic modeling
 
 ## 6. Validation and Robustness
 
 **Historical Benchmarking**: Validation against known economic transitions (agricultural to industrial, planned to market economies)
 **Data Sources and Methods**:
-- Historical time series from Maddison Project Database and Clio Infra
-- Synthetic control methods for counterfactual analysis of past transitions
-- Pattern-oriented modeling with stylized facts from economic history
-- Calibration using Approximate Bayesian Computation with summary statistics
+* Historical time series from Maddison Project Database and Clio Infra
+* Synthetic control methods for counterfactual analysis of past transitions
+* Pattern-oriented modeling with stylized facts from economic history
+* Calibration using Approximate Bayesian Computation with summary statistics
 
 **Experimental Validation**: Cross-validation with laboratory experiments on resource allocation behavior and existing UBI pilot program data
 **Experimental Design**:
-- Online experiments (n=1000) using oTree platform for strategic interaction
-- Field experiments in collaboration with existing UBI pilots (GiveDirectly, Stockton SEED)
-- Virtual laboratory economies with real monetary incentives
-- Prediction markets for model outcome validation
+* Online experiments (n=1000) using oTree platform for strategic interaction
+* Field experiments in collaboration with existing UBI pilots (GiveDirectly, Stockton SEED)
+* Virtual laboratory economies with real monetary incentives
+* Prediction markets for model outcome validation
 
 **Sensitivity Analysis**: Systematic parameter sweeps across automation rates, resource abundance levels, initial inequality distributions, and network topologies
 **Technical Approach**:
-- Latin Hypercube Sampling for efficient parameter space exploration
-- Sobol sequence generation for quasi-random parameter combinations
-- Variance decomposition using ANOVA and global sensitivity indices
-- Machine learning metamodels (Gaussian Processes) for response surface analysis
+* Latin Hypercube Sampling for efficient parameter space exploration
+* Sobol sequence generation for quasi-random parameter combinations
+* Variance decomposition using ANOVA and global sensitivity indices
+* Machine learning metamodels (Gaussian Processes) for response surface analysis
 
 **Robustness Testing**: Analysis of model behavior under extreme parameter values and structural assumptions
 **Methodological Details**:
-- Monte Carlo filtering to identify critical parameter thresholds
-- Structural breaks analysis using changepoint detection algorithms
-- Adversarial validation with intentionally misspecified models
-- Cross-model validation with alternative implementations (agent-based vs. system dynamics)
+* Monte Carlo filtering to identify critical parameter thresholds
+* Structural breaks analysis using changepoint detection algorithms
+* Adversarial validation with intentionally misspecified models
+* Cross-model validation with alternative implementations (agent-based vs. system dynamics)
 **Computational Infrastructure**:
-- High-performance computing cluster with 1000+ cores for parallel simulations
-- Containerized environments using Docker for reproducibility
-- Version control and experiment tracking using Git and MLflow
-- Automated sensitivity analysis pipeline with distributed task queue (Celery)
+* High-performance computing cluster with 1000+ cores for parallel simulations
+* Containerized environments using Docker for reproducibility
+* Version control and experiment tracking using Git and MLflow
+* Automated sensitivity analysis pipeline with distributed task queue (Celery)
 
 ## 7. Timeline and Milestones
 

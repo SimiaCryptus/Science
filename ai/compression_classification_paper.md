@@ -16,10 +16,10 @@ We propose a unified framework that resolves this trilemma by integrating compre
 
 ### 1.1 Core Contributions
 
-- **Unified Architecture**: Integration of compression efficiency with explicit permutation structure organization
-- **Entropy-Adaptive Classification**: Dynamic model organization based on local information density rather than fixed feature sets
-- **Permutation-Derived Interpretability**: Classification decisions explained through explicit permutation pathways rather than opaque attention mechanisms
-- **Multi-Scale Efficiency**: Simultaneous optimization for storage, computation, and interpretability
+* **Unified Architecture**: Integration of compression efficiency with explicit permutation structure organization
+* **Entropy-Adaptive Classification**: Dynamic model organization based on local information density rather than fixed feature sets
+* **Permutation-Derived Interpretability**: Classification decisions explained through explicit permutation pathways rather than opaque attention mechanisms
+* **Multi-Scale Efficiency**: Simultaneous optimization for storage, computation, and interpretability
 
 ## 2. Theoretical Foundation
 
@@ -27,9 +27,9 @@ We propose a unified framework that resolves this trilemma by integrating compre
 
 The BWT creates multiple interrelated permutations that capture different aspects of textual structure:
 
-- **π₁ (L-F mapping)**: Captures character transition patterns characteristic of specific languages/categories
-- **π₂ (F-L mapping)**: Reveals reverse linguistic patterns for bidirectional analysis  
-- **π₃, π₄ (Resolution mappings)**: Handle ambiguity resolution in ways specific to textual categories
+* **π₁ (L-F mapping)**: Captures character transition patterns characteristic of specific languages/categories
+* **π₂ (F-L mapping)**: Reveals reverse linguistic patterns for bidirectional analysis  
+* **π₃, π₄ (Resolution mappings)**: Handle ambiguity resolution in ways specific to textual categories
 
 Our classification framework operates on the principle that category-specific permutation structures will compress similar text more efficiently while providing explicit pathways for decision explanation.
 
@@ -229,42 +229,48 @@ Decision Path:
 
 ### 7.1 Adaptive Model Organization
 The system continuously optimizes:
-- **Entropy thresholds**: Dynamically adjusted based on classification performance
-- **Permutation cache size**: Scaled based on memory constraints and access patterns
-- **Decision tree depth**: Balanced between accuracy and interpretability requirements
+* **Entropy thresholds**: Dynamically adjusted based on classification performance
+* **Permutation cache size**: Scaled based on memory constraints and access patterns
+* **Decision tree depth**: Balanced between accuracy and interpretability requirements
 
 ### 7.2 Multi-Scale Efficiency
-- **Storage**: Entropy-based compression reduces model sizes by 40-60%
-- **Computation**: Permutation caching accelerates repeated operations by 3-5x  
-- **Interpretability**: Decision paths require 85% fewer tokens than attention-based explanations
+* **Storage**: Entropy-based compression reduces model sizes by 40-60%
+* **Computation**: Permutation caching accelerates repeated operations by 3-5x  
+* **Interpretability**: Decision paths require 85% fewer tokens than attention-based explanations
 
 ## 8. Broader Applications
 
 ### 8.1 Domain-Specific Extensions
-- **Bioinformatics**: DNA sequence classification with genetic feature interpretability
-- **Code Analysis**: Programming language detection with syntactic pattern explanation
-- **Time Series**: Pattern classification with temporal permutation analysis
+* **Bioinformatics**: DNA sequence classification with genetic feature interpretability
+* **Code Analysis**: Programming language detection with syntactic pattern explanation
+* **Time Series**: Pattern classification with temporal permutation analysis
 
 ### 8.2 Real-Time Applications  
-- **Stream Processing**: Incremental classification with adaptive model updates
-- **Edge Computing**: Ultra-low resource classification for IoT devices
-- **Interactive Systems**: Real-time explanation generation for user interfaces
+* **Stream Processing**: Incremental classification with adaptive model updates
+* **Edge Computing**: Ultra-low resource classification for IoT devices
+* **Interactive Systems**: Real-time explanation generation for user interfaces
 
 ## 9. Future Directions
 
 ### 9.1 Theoretical Extensions
 
-- **Tree-Based Extensions**: Integration with entropy-optimized tree structures for more efficient permutation storage
+* **Tree-Based Extensions**: Integration with entropy-optimized tree structures for more efficient permutation storage
   and retrieval (see [Entropy-Optimized Permutation Trees](../projects/bwt_tree_proposal.md))
-- **Hierarchical Compression**: Applying our hierarchical n-gram compression techniques to reduce model storage
+* **Hierarchical Compression**: Applying our hierarchical n-gram compression techniques to reduce model storage
   requirements further (see [N-gram Paper](ngram_paper.md))
+* **Probabilistic Extensions**: The entropy-optimization principles developed here could be extended to probabilistic
+  classification systems that maintain uncertainty estimates throughout the decision process, as explored in our
+  [Probabilistic Decision Trees](probabilistic_trees_paper.md) and [Probabilistic Neural Substrates](probabilistic_neural_substrate.md) research
 
 ### 9.2 Practical Improvements
 
-- **N-gram Integration**: Leveraging hierarchical n-gram compression techniques for more efficient category model
+* **N-gram Integration**: Leveraging hierarchical n-gram compression techniques for more efficient category model
   storage
-- **Volumetric Density Modeling**: Extending classification to continuous probability spaces using
+* **Volumetric Density Modeling**: Extending classification to continuous probability spaces using
   polynomial-constrained regions (see [Volumetric Density Trees](../projects/volumetric_density_tree_proposal.md))
+* **Neural Substrate Integration**: The interpretable decision pathways developed here could inform the query
+  interfaces in [Probabilistic Neural Substrates](probabilistic_neural_substrate.md), providing structured
+  approaches to extracting explanations from continuous probability distributions
 
 ## 10. Conclusion
 
@@ -289,3 +295,17 @@ As we face increasing demands for efficient, interpretable AI systems, the integ
 [6] Ribeiro, M. T., Singh, S., & Guestrin, C. (2016). Why should I trust you?: Explaining the predictions of any classifier. KDD.
 
 [Additional references covering BWT theory, entropy optimization, and interpretable machine learning...]
+The EOCT framework opens several promising research directions:
+While EOCT provides interpretable baselines, hybrid approaches could combine compression-based features with neural 
+architectures for applications requiring both interpretability and maximum performance.
+The hierarchical compression techniques developed in our [N-gram language model research](ngram_paper.md) could 
+significantly reduce the storage requirements for the compressed representations used in EOCT, enabling deployment 
+on resource-constrained devices. The entropy-based organization principles also connect to our work on 
+[Probabilistic Decision Trees](probabilistic_trees_paper.md), where cross-entropy optimization provides uncertainty 
+quantification that could enhance EOCT's confidence estimates.
+The computational efficiency of compression-based classification makes it suitable for real-time applications where 
+interpretability and speed are both critical.
+The connection between compression efficiency and classification accuracy explored here has influenced our broader 
+research program on entropy-optimized data structures, including [BWT-based string processing trees](../projects/bwt_tree_proposal.md) 
+and [volumetric density estimation](../projects/volumetric_density_tree_proposal.md), where similar information-theoretic 
+principles guide structural optimization.

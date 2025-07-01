@@ -13,10 +13,10 @@ This paper presents a comprehensive methodology for implementing scalable 2D con
 Modern deep neural networks require convolution layers capable of processing increasingly large inputs while maintaining computational efficiency and memory constraints. Traditional implementations face significant limitations when dealing with high-resolution images and high-dimensional feature maps, often exceeding available GPU memory or compute unit scaling limits. This paper presents a systematic approach to developing scalable 2D convolution layers that addresses these constraints through hierarchical implementation strategies and dynamic partitioning.
 
 The primary contributions of this work include:
-- A multi-tiered implementation framework progressing from reference to optimized implementations
-- A novel dynamic partitioning strategy for both spatial and channel dimensions
-- Runtime adaptive network generation based on input characteristics
-- Validation methodology ensuring correctness across implementation variants
+* A multi-tiered implementation framework progressing from reference to optimized implementations
+* A novel dynamic partitioning strategy for both spatial and channel dimensions
+* Runtime adaptive network generation based on input characteristics
+* Validation methodology ensuring correctness across implementation variants
 
 ## 2. Related Work
 

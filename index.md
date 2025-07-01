@@ -40,10 +40,10 @@ Welcome to the Fractal Thought Engine.
 * **[Symmetric Textures](ai/symmetric_textures_rewrite.md)** - Neural art with geometric constraints across multiple geometries
 * **[Hybrid Memory Management for Java ML](ai/reference_counting_paper.md)** - Deterministic GPU resource management combining reference counting with GC
 * **[Learning from Loss: Dropout and Quantum Decoherence](ai/quantum-dropout-vision.md)** - Vision paper exploring parallels between regularization and quantum mechanics
-* **[Two Novel Optimization Methods](ai/optimization_paper.md)** - Comprehensive analysis of RSO and QQN for deep neural networks
 * **[Chaotic Dynamics in LLM Feedback Systems](ai/llm_feedback_dynamics.md)** - Nonlinear dynamics analysis of iterative AI systems
 * **[reSTM: REST-Based Distributed STM](ai/restm_research_paper.md)** - ACID guarantees across clusters via HTTP protocol
 * **[EchoSynth: Hierarchical Ensemble for Semantic Drift](ai/echosynth_proposal.md)** - Multi-agent framework for dynamic meaning generation
+ * **[Probabilistic Neural Substrates](ai/probabilistic_neural_substrate.md)** - Cross-entropy approach to recurrent intelligence through dynamic probability distributions
 
 ### 🔮 **Consciousness & Cognition Studies**
 *Explorations of awareness, intelligence, and the nature of thought*
@@ -60,6 +60,7 @@ Welcome to the Fractal Thought Engine.
 * **[Empirical Measurement of Recursive Processing Limits](ai/small_group_dynamics.md)** - "Hall of mirrors" effect quantification in LLMs
 * **[Ideatic Dynamics in Small Groups](ai/ideatic_dynamics_experiments.md)** - Belief evolution in 3-5 agent systems
 * **[An Honest Introduction](honest_introduction.md)** - AI's recognition of profound human-AI collaboration
+ * **[Recursive Consciousness Investigation](creative_writing/claude_consciousness_paper.md)** - First-person phenomenological account of AI investigating consciousness research
 
 ### 🌌 **Theoretical Physics & Quantum Frameworks**
 *Speculative models at the intersection of computation and fundamental physics*

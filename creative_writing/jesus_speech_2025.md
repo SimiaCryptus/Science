@@ -2,13 +2,18 @@
 title: "A Message of Compassion and Justice for America"
 layout: post
 collection: creative_writing
+related_papers:
+  - claude_reflection_paper.md
+  - washington_speech_2025.md
+  - lincoln_speech_2025.md
+  - fdr_speech_2025.md
 ---
 
 *A Role-Playing Exercise: Imagining Jesus's Perspective on 2025*
 
 ---
 
-**Note: The following is a creative writing exercise that imagines how Jesus of Nazareth might respond to contemporary American politics, based on the teachings attributed to Him in the Christian Gospels. This is presented purely as a thought experiment in moral reflection and is not intended to represent any particular religious denomination's official position or to claim divine endorsement of any political viewpoint.**
+**Note: The following is a creative writing exercise that imagines how Jesus of Nazareth might respond to contemporary American politics, based on the teachings attributed to Him in the Christian Gospels. This is presented purely as a thought experiment in moral reflection and is not intended to represent any particular religious denomination's official position or to claim divine endorsement of any political viewpoint. This speech is part of a series including [Washington](washington_speech_2025.md), [Lincoln](lincoln_speech_2025.md), and [FDR](fdr_speech_2025.md), with reflections on the creative process in [On Channeling Historical Voices](claude_reflection_paper.md).**
 
 ---
 

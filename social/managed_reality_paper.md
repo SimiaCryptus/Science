@@ -24,6 +24,9 @@ provide organizing principles for society.
 Meanwhile, the Ukraine-Russia conflict showcases China's sophisticated information management - appearing as a neutral
 mediator internationally while economically enabling Russia's war machine. These are primitive examples of the kind of
 reality curation that will become necessary at scale.
+> **Institutional Context**: The information management challenges described here operate within
+> the institutional frameworks analyzed in [game_theory_ethics.md](game_theory_ethics.md), where
+> professional intermediaries often benefit from information chaos rather than clarity.
 
 War, as the ultimate evolutionary pressure, demands rapid adaptation. Societies that cannot coherently process and
 respond to information will face extinction through poor decision-making, internal collapse, or defeat by more organized
@@ -313,6 +316,10 @@ As we approach potential post-scarcity conditions through technological breakthr
 see [superfluid_fusion_proposal.md](../scifi/superfluid_fusion_proposal.md)
 and [post_scarcity_proposal.md](../social/post_scarcity_proposal.md)), the need for sophisticated information management
 systems becomes not just desirable but essential for maintaining functional societies.
+> **Institutional Reform Connection**: The consensual curation framework proposed here could address many of the
+> institutional pathologies identified in our [game theory analysis](game_theory_ethics.md), where information
+> asymmetries enable professional capture. By providing more coherent information environments, we might enable
+> the kind of distributed intelligence assessment described in our [conversational intelligence framework](conversation_intelligence_paper.md).
 
 The success of such systems depends on their sophistication, their genuine respect for human agency, and their ability
 to provide superior outcomes compared to information chaos. Most importantly, they represent an evolutionary adaptation
@@ -321,6 +328,10 @@ to the information age rather than authoritarian control.
 The red pill will always be available for those who truly want it. But for most of humanity, a well-designed reality
 curation system may be exactly what we need to navigate an increasingly complex and dangerous world while preserving
 both social stability and individual dignity.
+> **Cognitive Effort Implications**: The success of consensual curation systems will depend partly on maintaining
+> incentives for cognitive effort within curated environments, as analyzed in our [cognitive effort framework](cognitive_effort_paper.md).
+> Without such incentives, even well-designed curation could lead to cognitive atrophy and institutional capture
+> of the kind described in [game_theory_ethics.md](game_theory_ethics.md).
 
 War and evolution are driving us toward these systems whether we choose them consciously or not. The question is whether
 we will develop them thoughtfully and ethically, or whether they will emerge chaotically through crisis and conflict.
