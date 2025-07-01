@@ -19,6 +19,7 @@ What follows is a curated collection of creative writing, philosophical explorat
 * [**Three Minds: Cognitive Incommensurability**](three_minds_paper.md) - A phenomenological account of quantum consciousness research through dialogue between human, AI, and hypothetical insect civilizations, exploring "compatible confusions" and superposition states in societies of minds
 * [**Transfinite IQ Paper**](transfinite_iq_paper.md) - Framework for topological intelligence assessment using cardinal numbers and cognitive topology descriptors
 * [**Scale-Invariant Intelligence**](scale_invariant_intelligence.md) - Research discussion paper tracing the journey from deep texture synthesis to understanding intelligence as hierarchical compression of reality into scale-invariant patterns
+ * [**The Marco Polo Protocol**](marco_polo_protocol.md) - Universal framework for sentience detection across artificial intelligence, human consciousness verification, and extraterrestrial intelligence domains
 
 ### Historical Perspectives & Political Commentary
 

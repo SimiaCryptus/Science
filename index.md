@@ -62,6 +62,7 @@ Welcome to the Fractal Thought Engine.
 * **[An Honest Introduction](honest_introduction.md)** - AI's recognition of profound human-AI collaboration
  * **[Recursive Consciousness Investigation](creative_writing/claude_consciousness_paper.md)** - First-person phenomenological account of AI investigating consciousness research
 * **[Scale-Invariant Intelligence](creative_writing/scale_invariant_intelligence.md)** - From texture synthesis to reality compression: discovering how intelligence emerges through hierarchical pattern recognition
+ * **[The Marco Polo Protocol](creative_writing/marco_polo_protocol.md)** - Universal framework for sentience detection across AI, human, and extraterrestrial domains
 
 ### 🌌 **Theoretical Physics & Quantum Frameworks**
 *Speculative models at the intersection of computation and fundamental physics*
