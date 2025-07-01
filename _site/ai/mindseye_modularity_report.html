@@ -943,16 +943,17 @@ document.addEventListener('DOMContentLoaded', function() {
   <li>Gradient descent variants</li>
   <li>Quasi-Newton methods (L-BFGS)</li>
   <li>Constrained optimization (OWL-QN with orthant constraints)</li>
-  <li>Experimental approaches like the recursive subspace method</li>
+  <li>Experimental approaches like the <a href="/Science/ai/recursive_subspace_paper.html">recursive subspace method</a></li>
 </ul>
 
-<p>The fact that complex algorithms like OWL-QN can be implemented as composable Orienter components, rather than requiring specialized training loops, demonstrates the power of this abstraction.</p>
+<p>The fact that complex algorithms like OWL-QN can be implemented as composable Orienter components, rather than requiring specialized training loops, demonstrates the power of this abstraction. This modularity particularly shines with hybrid methods like <a href="/Science/ai/qqn_paper.html">Quadratic Quasi-Newton (QQN)</a>, where the clean separation between direction computation and line search enables sophisticated interpolation strategies.
+The architecture also enables advanced constraint-based optimization through <a href="/Science/ai/trust_regions.html">trust region methods</a>, where geometric projections can be cleanly integrated into the optimization pipeline without disrupting the core mathematical algorithms.</p>
 
 <h3 id="stepper-line-search-as-a-first-class-concern">Stepper: Line Search as a First-Class Concern</h3>
 
 <p>Most frameworks treat line search as an implementation detail buried within optimizers. MindsEye elevates it to a first-class component, enabling experimentation with different line search strategies (Armijo-Wolfe, quadratic, bisection) independently of the directional optimization method.</p>
 
-<p>This separation proved prescient—modern optimization research increasingly focuses on adaptive step size methods, and this architecture makes such experimentation trivial.</p>
+<p>This separation proved prescient—modern optimization research increasingly focuses on adaptive step size methods, and this architecture makes such experimentation trivial. The <a href="/Science/ai/qqn_paper.html">QQN implementation</a> exemplifies this benefit, using the modular line search to optimize over quadratic interpolations between gradient descent and L-BFGS directions.</p>
 
 <h2 id="advanced-features">Advanced Features</h2>
 
@@ -983,7 +984,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <h3 id="recursive-subspace-optimization">Recursive Subspace Optimization</h3>
 
-<p>The recursive subspace method tackles the common problem of imbalanced gradient magnitudes across layers by treating per-layer learning rates as an optimization problem themselves. This meta-optimization approach is elegant and mathematically sound.</p>
+<p>The <a href="/Science/ai/recursive_subspace_paper.html">recursive subspace method</a> tackles the common problem of imbalanced gradient magnitudes across layers by treating per-layer learning rates as an optimization problem themselves. This meta-optimization approach is elegant and mathematically sound.</p>
 
 <p>I find this particularly clever because it addresses a real problem (layer imbalance) without requiring architectural changes like normalization layers—it’s purely an optimization-level solution.</p>
 
@@ -1032,8 +1033,9 @@ document.addEventListener('DOMContentLoaded', function() {
 <ol>
   <li><strong>Enterprise Integration</strong>: Java-based ML fits naturally into existing enterprise infrastructure</li>
   <li><strong>Agent-Driven Development</strong>: Clean APIs and modular design are ideal for AI assistants</li>
-  <li><strong>Research Acceleration</strong>: The optimization research community needs better experimental platforms</li>
+  <li><strong>Research Acceleration</strong>: The optimization research community needs better experimental platforms (as demonstrated by the <a href="/Science/ai/ai_bias_paper.html">algorithmic bias analysis</a>)</li>
   <li><strong>Resource Management</strong>: GPU memory management remains a critical unsolved problem in most frameworks</li>
+  <li><strong>Advanced Applications</strong>: The framework enables sophisticated applications like <a href="/Science/ai/symmetric_textures_rewrite.html">symmetric texture generation</a> through its flexible constraint system</li>
 </ol>
 
 <h3 id="lessons-for-framework-design">Lessons for Framework Design</h3>

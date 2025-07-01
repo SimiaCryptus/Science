@@ -983,13 +983,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <ol>
   <li>Provision GPU-enabled EC2 instances</li>
-  <li>Deploy the MindsEye software stack</li>
+  <li>Deploy the <a href="/Science/ai/mindseye_technical_report.html">MindsEye software stack</a></li>
   <li>Execute the optimization pipeline</li>
   <li>Publish results to S3-hosted galleries</li>
   <li>Automatically terminate instances upon completion</li>
 </ol>
 
-<p>This approach makes the system accessible to users without specialized hardware while controlling costs through precise resource allocation.</p>
+<p>This approach makes the system accessible to users without specialized hardware while controlling costs through precise resource allocation.
+The system leverages MindsEye’s <a href="/Science/ai/mindseye_modularity_report.html">modular optimization architecture</a> and <a href="/Science/ai/mindseye_refcount_analysis.html">reference counting system</a> to efficiently manage GPU resources during the intensive geometric constraint optimization process.</p>
 
 <h2 id="results-and-analysis">Results and Analysis</h2>
 

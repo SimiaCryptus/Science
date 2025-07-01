@@ -11,29 +11,29 @@ highlighter: rouge
 # theme: jekyll-theme-minimal # Comment out if using custom theme
 
 exclude:
-  * Gemfile
-  * Gemfile.lock
-  * README.md
-  * LICENSE
-  * .gitignore
-  * .idea/
-  * Science.iml
-  * .logs/
-  * .git/
-  * .gitignore
-  * README.md
-  * LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - .gitignore
+  - .idea/
+  - Science.iml
+  - .logs/
+  - .git/
+  - .gitignore
+  - README.md
+  - LICENSE
 
 # Consolidated list of plugins
 plugins:
-  * jekyll-feed
-  * jekyll-sitemap
-  * jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
 # Pagination
 paginate: 10
 paginate_path: "/blog/page:num/"
 collections:
-  * jekyll-seo-tag
+  - jekyll-seo-tag
 
 # Feed settings
 feed:
@@ -50,8 +50,8 @@ twitter:
 
 name: Journal of Speculative Science
 links:
-  * https://twitter.com/yourusername
-  * https://github.com/yourusername
+  - https://twitter.com/yourusername
+  - https://github.com/yourusername
 social:
     sort_by: date
 # Defaults

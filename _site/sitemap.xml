@@ -46,6 +46,9 @@
 <loc>http://localhost:4000/Science/ai/coperm_paper.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/Science/social/cross_synthesis_justice_institutions.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/Science/social/decision_volume_temporal_theory.html</loc>
 </url>
 <url>
@@ -145,9 +148,6 @@
 <loc>http://localhost:4000/Science/ai/ngram_paper.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/Science/ai/optimization_paper.html</loc>
-</url>
-<url>
 <loc>http://localhost:4000/Science/projects/orbital_dynamics_paper.html</loc>
 </url>
 <url>
@@ -235,10 +235,13 @@
 <loc>http://localhost:4000/Science/ai/evolutionary_agents_proposal.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/Science/ai/probabilistic_neural_substrate.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/Science/ai/transfinite_iq_paper.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/Science/creative_writing/quantum_archaeology.html</loc>
+<loc>http://localhost:4000/Science/creative_writing/claude_consciousness_paper.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/Science/creative_writing/three_minds_paper.html</loc>
@@ -256,7 +259,7 @@
 <loc>http://localhost:4000/Science/profile.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/Science/projects/institutional_knowledge_systems.html</loc>
+<loc>http://localhost:4000/Science/projects/ontological_compiler_proposal.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/Science/social/iterative_recognition_paper.html</loc>

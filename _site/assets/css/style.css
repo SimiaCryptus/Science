@@ -1361,7 +1361,7 @@ img:hover {
     font-size: 0.8em;
     padding: 12px;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    *webkit-overflow-scrolling: touch;
     white-space: pre;
     word-wrap: normal;
   }
@@ -1403,7 +1403,7 @@ img:hover {
     font-size: 0.8em;
     padding: 10px;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    *webkit-overflow-scrolling: touch;
   }
 
   /* Post styles for mobile */

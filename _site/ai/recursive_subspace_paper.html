@@ -1049,16 +1049,14 @@ Epoch 31+:    w = [0.18, 0.22, 0.24, ..., 0.21]  (balanced distribution)
 
 <h2 id="5-related-work">5. Related Work</h2>
 
-<p><strong>Second-order methods</strong>: Natural gradient [3] and K-FAC [4] approximate the Fisher information matrix. RSO achieves similar preconditioning effects through layer-wise decomposition with lower computational cost.
-Related work on quasi-Newton methods like <a href="/Science/ai/qqn_paper.html">QQN</a> addresses similar optimization challenges through
-direction interpolation rather than layer decomposition.</p>
+<p><strong>Second-order methods</strong>: Natural gradient [3] and K-FAC [4] approximate the Fisher information matrix. RSO achieves similar preconditioning effects through layer-wise decomposition with lower computational cost.</p>
 
-<p><strong>Adaptive learning rates</strong>: LARS [5] and LAMB [6] adapt learning rates per layer based on gradient/parameter norms. RSO generalizes this by optimizing the entire gradient combination rather than just scaling.
-<strong>Trust region methods</strong>: The <a href="/Science/ai/trust_regions.html">Trust Region Framework</a> provides complementary approaches for
-constraining optimization steps. RSO’s layer-wise constraints can be viewed as a form of structured trust region.
-<em>For trust region approaches to layer-wise optimization,
-see <a href="../trust_regions.md#layer-specific-policies">Trust Region Methods</a>, which provides complementary constraint
-mechanisms.</em></p>
+<p><strong>Hybrid optimization</strong>: The <a href="/Science/ai/qqn_paper.html">Quadratic Quasi-Newton (QQN)</a> method addresses similar optimization challenges through direction interpolation rather than layer decomposition. Both approaches recognize that standard optimizers may benefit from more sophisticated gradient combination strategies.
+<strong>Trust region methods</strong>: <a href="/Science/ai/trust_regions.html">Trust region approaches</a> provide complementary constraint mechanisms that can be combined with RSO’s layer-wise optimization for enhanced stability.</p>
+
+<p><strong>Adaptive learning rates</strong>: LARS [5] and LAMB [6] adapt learning rates per layer based on gradient/parameter norms. RSO generalizes this by optimizing the entire gradient combination rather than just scaling.</p>
+
+<p><strong>Framework design</strong>: The <a href="/Science/ai/mindseye_modularity_report.html">MindsEye modular architecture</a> enables RSO’s implementation through clean separation of optimization components. The framework’s <a href="/Science/ai/mindseye_refcount_analysis.html">reference counting system</a> provides the deterministic memory management necessary for RSO’s meta-optimization phases. This technical foundation is analyzed in detail in the <a href="/Science/ai/mindseye_technical_report.html">MindsEye technical report</a>.</p>
 
 <p><strong>Gradient composition</strong>: PCGrad [7] addresses gradient conflicts in multi-task learning. RSO applies similar principles to single-task optimization by treating layers as generating distinct “task” gradients.</p>
 

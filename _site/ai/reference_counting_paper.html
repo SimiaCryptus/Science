@@ -1243,7 +1243,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <hr />
 
-<p><em>This paper is based on the MindsEye open source project, available at: [github.com/author/mindseye]</em></p>
+<p><em>This paper is based on the MindsEye open source project, available at: [github.com/author/mindseye]</em>
+An interesting parallel exists between MindsEye’s reference counting approach and Rust’s ownership system. Both tackle the fundamental problem of deterministic resource cleanup, but with different trade-offs:
+This comparison is particularly relevant given the <a href="/Science/ai/mindseye_technical_report.html">MindsEye framework’s sophisticated optimization algorithms</a>, which benefit significantly from deterministic memory management during intensive computational phases.
+<strong>Deterministic cleanup</strong>: Both systems ensure resources are freed immediately when no longer needed, rather than waiting for garbage collection.
+<strong>Zero-cost abstractions</strong>: When used properly, both approaches impose minimal runtime overhead compared to their benefits.
+<strong>Resource safety</strong>: Both prevent use-after-free bugs through different mechanisms—Rust at compile time, MindsEye at runtime.</p>
 
     </div>
 

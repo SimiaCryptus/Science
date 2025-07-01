@@ -1,7 +1,0 @@
-## 1. Introduction
- 
- Modern institutions face an unprecedented challenge: the exponential growth of information coupled with the fragmentation of knowledge across organizational silos. Traditional knowledge management systems, designed for document storage and retrieval, fail to capture the dynamic, interconnected nature of institutional intelligence. We propose a fundamental reimagining of how organizations create, maintain, and evolve their collective knowledge through Institutional Knowledge Systems (IKS)—living computational frameworks that treat organizational knowledge as an active, evolving ecosystem rather than a static repository.
-+The theoretical foundations for this work draw from our research on [ideatic dynamics in small groups](../ai/ideatic_dynamics_experiments.md), which demonstrates how collective intelligence emerges from structured interactions. The evolutionary mechanisms we employ are inspired by our [hypothesis breeding grounds](../ai/hypothesis_breeding_grounds.md) framework, adapted here for institutional contexts.
- 
- 
- This paper introduces a comprehensive architecture for IKS that integrates recent advances in graph neural networks, natural language processing, and complex systems theory to create self-organizing knowledge structures that actively participate in institutional decision-making and learning processes.

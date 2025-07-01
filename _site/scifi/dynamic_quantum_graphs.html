@@ -1467,8 +1467,8 @@ Output: Agent v with influence(v) &gt; θ
 1. Define influence metric: influence(v) = PageRank(v) × |N(v)| × activity(v)
 2. Create oracle: O|v⟩ = -|v⟩ if influence(v) &gt; θ, else |v⟩
 3. Apply GENERALIZED-QG-SEARCH with social-aware modifications:
-   - Use weighted Laplacian based on interaction strengths
-   - Add temporary connections during search based on social proximity
+   * Use weighted Laplacian based on interaction strengths
+   * Add temporary connections during search based on social proximity
 4. Return influential agent
 </code></pre></div></div>
 
@@ -1480,8 +1480,8 @@ Output: Community partition C
 1. Prepare superposition over all possible partitions
 2. Define oracle based on modularity: O|C⟩ = -|C⟩ if Q(C) &gt; Q_min
 3. Apply amplitude amplification with topology adaptation:
-   - Strengthen intra-community edges
-   - Weaken inter-community edges
+   * Strengthen intra-community edges
+   * Weaken inter-community edges
 4. Measure to obtain high-modularity partition
 </code></pre></div></div>
 
@@ -2322,16 +2322,16 @@ information transfer rates.</p>
 </span><span class="n">num_trials</span> <span class="o">=</span> <span class="mi">1000</span>
 
 <span class="c1"># Metrics to collect
-</span><span class="o">-</span> <span class="n">Mixing</span>
+</span><span class="o">*</span> <span class="n">Mixing</span>
 <span class="n">time</span><span class="p">:</span> <span class="n">τ_mix</span><span class="p">(</span><span class="n">ε</span><span class="p">)</span>
 <span class="k">for</span> <span class="n">ε</span> <span class="err">∈</span> <span class="p">{</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.01</span><span class="p">,</span> <span class="mf">0.001</span><span class="p">}</span>
-<span class="o">-</span> <span class="n">Spectral</span>
+<span class="o">*</span> <span class="n">Spectral</span>
 <span class="n">gap</span>
 <span class="n">evolution</span><span class="p">:</span> <span class="n">Δ</span><span class="p">(</span><span class="n">t</span><span class="p">)</span>
-<span class="o">-</span> <span class="n">Information</span>
+<span class="o">*</span> <span class="n">Information</span>
 <span class="n">transfer</span>
 <span class="n">rate</span><span class="p">:</span> <span class="n">I</span><span class="p">(</span><span class="n">i</span><span class="err">→</span><span class="n">j</span><span class="p">,</span> <span class="n">t</span><span class="p">)</span> <span class="k">for</span> <span class="n">random</span> <span class="n">vertex</span> <span class="n">pairs</span>
-<span class="o">-</span> <span class="n">Fidelity</span>
+<span class="o">*</span> <span class="n">Fidelity</span>
 <span class="n">under</span>
 <span class="n">topology</span>
 <span class="n">changes</span><span class="p">:</span> <span class="n">F</span><span class="p">(</span><span class="n">ψ_static</span><span class="p">,</span> <span class="n">ψ_dynamic</span><span class="p">)</span>
@@ -2436,18 +2436,18 @@ information transfer rates.</p>
 <span class="p">}</span>
 
 <span class="c1"># Metrics
-</span><span class="o">-</span> <span class="n">Success</span>
+</span><span class="o">*</span> <span class="n">Success</span>
 <span class="n">probability</span>
 <span class="n">vs</span>
 <span class="n">problem</span>
 <span class="n">size</span>
-<span class="o">-</span> <span class="n">Query</span>
+<span class="o">*</span> <span class="n">Query</span>
 <span class="n">complexity</span><span class="p">(</span><span class="n">oracle</span>
 <span class="n">calls</span><span class="p">)</span>
-<span class="o">-</span> <span class="n">Time</span>
+<span class="o">*</span> <span class="n">Time</span>
 <span class="n">to</span>
 <span class="n">solution</span>
-<span class="o">-</span> <span class="n">Resource</span>
+<span class="o">*</span> <span class="n">Resource</span>
 <span class="n">usage</span><span class="p">(</span><span class="n">qubits</span> <span class="o">/</span> <span class="n">vertices</span><span class="p">)</span>
 </code></pre></div></div>
 

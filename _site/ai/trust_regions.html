@@ -898,7 +898,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <p>Neural network optimization presents unique challenges due to the high-dimensional, non-convex nature of the loss landscape. While gradient-based methods have proven effective, unconstrained parameter updates can lead to instability, divergence, or poor generalization. Trust region methods offer a principled approach to constraining optimization steps within regions where model approximations remain valid.</p>
 
-<p>This paper documents a software framework that implements various trust region strategies for neural network optimization. The framework provides:</p>
+<p>This paper documents a software framework that implements various trust region strategies for neural network optimization. The framework provides:
+<em>Note: This framework integrates with the broader MindsEye ecosystem documented in <a href="/Science/ai/mindseye_technical_report.html">MindsEye Technical Analysis</a> and works synergistically with <a href="/Science/ai/qqn_paper.html">Quadratic Quasi-Newton (QQN)</a> optimization methods.</em></p>
 
 <ol>
   <li>A modular architecture for defining trust region constraints</li>
@@ -970,8 +971,9 @@ document.addEventListener('DOMContentLoaded', function() {
   <li><strong>Orthogonalization</strong>: Projects weight updates to maintain orthogonal relationships</li>
   <li><strong>Normalization</strong>: Ensures unit-length vectors when required</li>
   <li><strong>Index Mapping</strong>: Supports flexible grouping of parameters
-<em>This constraint type is particularly relevant for the Co-Inverse Permutation Modifiers discussed
-in <a href="../coperm_paper.md#mathematical-framework">CIPMs</a>, which exploit weight symmetries.</em></li>
+This constraint type is particularly relevant for the Co-Inverse Permutation Modifiers discussed in <a href="/Science/ai/coperm_paper.html#mathematical-framework">CIPMs</a>, which exploit weight symmetries.
+This constraint type is particularly relevant for the Co-Inverse Permutation Modifiers discussed
+in <a href="/Science/ai/coperm_paper.html#mathematical-framework">CIPMs</a>, which exploit weight symmetries.</li>
 </ul>
 
 <h4 id="322-linearsumconstraint">3.2.2 LinearSumConstraint</h4>
@@ -1153,8 +1155,9 @@ in <a href="../coperm_paper.md#mathematical-framework">CIPMs</a>, which exploit 
   <li>More stable convergence trajectories</li>
   <li>Reduced oscillation in high-curvature regions</li>
   <li>Better handling of ill-conditioned problems
-These properties complement hybrid optimization approaches like <a href="/Science/ai/qqn_paper.html">QQN</a>, which addresses similar stability
-concerns through direction interpolation.</li>
+These properties complement hybrid optimization approaches like <a href="/Science/ai/qqn_paper.html">Quadratic Quasi-Newton (QQN)</a>, which addresses similar stability concerns through direction interpolation, and work synergistically with the modular architecture described in the <a href="/Science/ai/mindseye_technical_report.html">MindsEye technical analysis</a>.
+These properties complement hybrid optimization approaches like <a href="/Science/ai/qqn_paper.html">Quadratic Quasi-Newton (QQN)</a>, which addresses similar stability
+concerns through direction interpolation, and work synergistically with the modular architecture described in the <a href="/Science/ai/mindseye_technical_report.html">MindsEye technical analysis</a>.</li>
 </ul>
 
 <h3 id="82-use-cases">8.2 Use Cases</h3>
@@ -1162,9 +1165,12 @@ concerns through direction interpolation.</li>
 <p>The framework has been applied to:</p>
 <ul>
   <li>Deep neural network training</li>
-  <li>Layer-wise optimization strategies (see <a href="/Science/ai/recursive_subspace_paper.html">RSO</a> for related layer-specific approaches)</li>
+  <li>Layer-wise optimization strategies (see <a href="/Science/ai/recursive_subspace_paper.html">Recursive Subspace Optimization</a> for related layer-specific approaches)</li>
+  <li>Layer-wise optimization strategies (see <a href="/Science/ai/recursive_subspace_paper.html">Recursive Subspace Optimization</a> for related layer-specific approaches)</li>
   <li>Reinforcement learning policy optimization</li>
   <li>Generative model training</li>
+  <li>Symmetric texture generation with geometric constraints (see <a href="/Science/ai/symmetric_textures_rewrite.html">Symmetric Textures</a>)</li>
+  <li>Symmetric texture generation with geometric constraints (see <a href="/Science/ai/symmetric_textures_rewrite.html">Symmetric Textures</a>)</li>
   <li>Scientific computing applications</li>
 </ul>
 

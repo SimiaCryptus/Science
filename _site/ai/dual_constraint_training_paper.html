@@ -909,6 +909,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <ol>
   <li><strong>Linear Gradient Constraint</strong>: Traditional optimization for improved performance on new objectives</li>
   <li><strong>Trust Region Constraint</strong>: Perspective-based preservation that enforces non-degradation on reference training sets
+The trust region component builds upon established frameworks (see <a href="/Science/ai/trust_regions.html">Trust Region Methods</a>) while introducing novel perspective-based adaptations. This approach shares conceptual similarities with <a href="/Science/ai/qqn_paper.html">QQN</a>’s hybrid optimization strategy.
 The trust region component builds upon established frameworks (see <a href="/Science/ai/trust_regions.html">Trust Region Methods</a>) while
 introducing novel perspective-based adaptations. This approach shares conceptual similarities
 with <a href="/Science/ai/qqn_paper.html">QQN</a>’s hybrid optimization strategy.</li>
@@ -965,6 +966,7 @@ dual-constraint approach offers a novel application to knowledge preservation.</
 <h3 id="continual-learning">Continual Learning</h3>
 
 <p>The dual-constraint framework directly addresses catastrophic forgetting in continual learning scenarios. New tasks and domains can be learned without degrading performance on previous tasks, while maintaining the ability to recognize when new knowledge represents valuable anomalies rather than noise.
+This approach complements the layer-wise preservation strategies in <a href="/Science/ai/recursive_subspace_paper.html#emergent-regularization">Recursive Subspace Optimization</a> and the permutation-based approaches in <a href="/Science/ai/coperm_paper.html#continual-learning-applications">Co-Inverse Permutation Modifiers</a>.
 <em>This approach complements the layer-wise preservation strategies
 in <a href="../recursive_subspace_paper.md#emergent-regularization">Recursive Subspace Optimization</a> and the permutation-based
 approaches in <a href="../coperm_paper.md#continual-learning-applications">Co-Inverse Permutation Modifiers</a>.</em></p>

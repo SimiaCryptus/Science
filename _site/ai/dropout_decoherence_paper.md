@@ -156,17 +156,17 @@ Our framework generates several testable predictions:
 
 The decoherence analogy suggests new approaches to regularization:
 
-- **Coherence-based dropout**: Mask neurons based on their entanglement with other network components
-- **Observable-specific training**: Explicitly train networks to be robust to specific measurement choices
-- **Quantum-inspired ensembles**: Use quantum superposition principles to generate diverse model configurations
+* **Coherence-based dropout**: Mask neurons based on their entanglement with other network components
+* **Observable-specific training**: Explicitly train networks to be robust to specific measurement choices
+* **Quantum-inspired ensembles**: Use quantum superposition principles to generate diverse model configurations
 
 ### 4.3 Connections to Broader Phenomena
 
 This framework opens connections to other mysterious aspects of neural network training:
 
-- **The lottery ticket hypothesis**: Winning tickets might represent "pointer states" that survive decoherent elimination
-- **Neural network pruning**: Structured elimination of parameters as a form of controlled decoherence
-- **Adversarial robustness**: Training against adversarial examples as a form of environmental decoherence
+* **The lottery ticket hypothesis**: Winning tickets might represent "pointer states" that survive decoherent elimination
+* **Neural network pruning**: Structured elimination of parameters as a form of controlled decoherence
+* **Adversarial robustness**: Training against adversarial examples as a form of environmental decoherence
 
 ## 5. Philosophical Implications: Toward a Quantum Theory of Learning
 

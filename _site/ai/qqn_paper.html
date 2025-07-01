@@ -1022,10 +1022,9 @@ document.addEventListener('DOMContentLoaded', function() {
 </ol>
 
 <p>This formulation has several desirable properties:
-The quadratic form was chosen over linear interpolation because it provides a smooth transition with zero derivative at t=0, ensuring compatibility with standard line search methods. Cubic and higher-order interpolations were tested but provided no significant benefit while increasing computational cost.
-<em>Note: This quadratic interpolation approach shares conceptual similarities with the trust region methods discussed
-in <a href="../trust_regions.md">Trust Region Methods for Neural Network Optimization</a>, though QQN applies it to direction
-blending rather than step size constraints.</em></p>
+The quadratic form was chosen over linear interpolation because it provides a smooth transition with zero derivative at t=0, ensuring compatibility with standard line search methods. Cubic and higher-order interpolations were tested but provided no significant benefit while increasing computational cost.</p>
+
+<p><strong>Note</strong>: This quadratic interpolation approach shares conceptual similarities with the <a href="/Science/ai/trust_regions.html">trust region methods</a>, though QQN applies it to direction blending rather than step size constraints. The implementation benefits from the <a href="/Science/ai/mindseye_modularity_report.html">MindsEye framework’s modular architecture</a>, which cleanly separates direction computation from line search logic.</p>
 
 <h3 id="24-normalization-benefits">2.4 Normalization Benefits</h3>
 
@@ -1194,18 +1193,16 @@ Output: Next point x_new
 <p>Several approaches combine different optimization strategies:</p>
 
 <ul>
-  <li><strong>Trust region implementations</strong> (see <a href="/Science/ai/trust_regions.html">Trust Region Methods for Neural Network Optimization</a>): Our
-framework provides practical implementations of various trust region strategies that complement QQN’s approach.</li>
-  <li><strong>Recursive subspace methods</strong> (see <a href="/Science/ai/recursive_subspace_paper.html">Recursive Subspace Optimization</a>): RSO’s layer-wise
-decomposition shares conceptual similarities with QQN’s direction blending, though operating at different
-granularities.</li>
+  <li><strong>Trust region methods</strong>: Constrain step sizes rather than blending directions (see <a href="/Science/ai/trust_regions.html">Trust Region Methods</a>). The <a href="/Science/ai/mindseye_refcount_analysis.html">MindsEye reference counting system</a> enables efficient trust region implementations through deterministic memory management.</li>
+  <li><strong>Recursive subspace methods</strong>: <a href="/Science/ai/recursive_subspace_paper.html">RSO’s</a> layer-wise decomposition shares conceptual similarities with QQN’s direction blending, though operating at different granularities.</li>
+  <li><strong>Modular optimization frameworks</strong>: The <a href="/Science/ai/mindseye_modularity_report.html">MindsEye architecture analysis</a> demonstrates how clean separation of concerns enables hybrid methods like QQN to be implemented as composable components.</li>
 </ul>
 
 <h3 id="62-line-search-normalization">6.2 Line Search Normalization</h3>
 
-<p>While normalization in optimization is well-studied, the specific insight of using magnitude ratios to stabilize line search parameters appears novel.
-<em>For a comprehensive implementation of various trust region strategies that complement QQN,
-see <a href="../trust_regions.md#trust-region-implementations">Trust Region Methods</a>.</em></p>
+<p>While normalization in optimization is well-studied, the specific insight of using magnitude ratios to stabilize line search parameters appears novel.</p>
+
+<p>The <a href="/Science/ai/mindseye_technical_report.html">MindsEye framework’s modular design</a> particularly facilitates this type of algorithmic innovation by separating line search logic from direction computation, enabling QQN’s hybrid approach to be implemented cleanly within the existing optimization infrastructure.</p>
 
 <h2 id="7-conclusion">7. Conclusion</h2>
 
