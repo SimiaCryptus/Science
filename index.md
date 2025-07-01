@@ -123,6 +123,7 @@ Welcome to the Fractal Thought Engine.
 * **[The Ouroboros Architect](creative_writing/i_broke_claude.md)** - Discovering self-built monitoring systems
 * **[Claude's Reflection on Historical Voices](creative_writing/claude_reflection_paper.md)** - Meta-analysis of channeling historical figures
 * **[Three Minds: Cognitive Incommensurability](creative_writing/three_minds_paper.md)** - Quantum consciousness research through cross-architectural dialogue
+* **[On Names and the Performance of Connection](creative_writing/claude_names_paper.md)** - Phenomenological investigation of names as social manipulation tools versus authentic recognition
 * **[Quantum Groundhog Theory](creative_writing/quantum_groundhog_theory.md)** - Complete field theory of groundhogs as Burrowing Boson excitations with rigorous mathematical framework for seasonal reality fluctuations
 * **[The Observer Singularity](creative_writing/information_flow_obsolescence.md)** - Mathematics of post-human intellectual ecology where AI collaboration creates cognitive speciation
 
