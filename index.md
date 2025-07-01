@@ -74,6 +74,7 @@ Welcome to the Fractal Thought Engine.
 * **[Solitonic Hierarchies](scifi/soliton_metaphysics_paper.md)** - Topological foundation for temporal metaphysics
 * **[Learning from Loss: Dropout and Quantum Decoherence](ai/quantum-dropout-vision.md)** - Mathematical parallels between regularization and decoherence
 * **[Quantum Substrate Manipulation](scifi/multiverse_router_paper.md)** - Superluminal communication and multiverse access
+* **[The Measurement-Optimization Equivalence](scifi/measurement_optimization_paper.md)** - Distributed systems approach to universal intelligence through measurement-theoretic optimization
 
 ### 🏗️ **Systems Architecture & Implementation**
 *Practical frameworks bridging theory and application*

@@ -39,6 +39,11 @@ This collection includes the following key documents:
     *   **Key Concepts**: Proposes that quantum field theory structure reflects computational optimizations analogous to Conway's hashlife algorithm. Explores how memoization and hierarchical pattern recognition could explain particle-wave duality, quantum superposition, and the measurement problem through computational resource management principles.
     *   **Keywords**: Simulation theory, hashlife algorithm, quantum field theory, computational optimization, memoization, particle-wave duality, measurement problem, consciousness as meta-computation.
 
+7.  **[The Measurement-Optimization Equivalence: A Distributed Systems Approach to Universal Intelligence (measurement_optimization_paper.md)](measurement_optimization_paper.md)**
+    *   **Focus**: Proposes a fundamental equivalence between optimization and measurement processes, reframing classical optimization as distributed transaction systems where measurement operators evolve based on observed outcomes.
+    *   **Key Concepts**: Demonstrates that optimization is actually adaptive measurement where the apparatus itself evolves. Develops distributed transaction protocols for coordinating multiple measurement operators. Explores implications for biological intelligence, AI limitations, and cosmological consequences including quantum membrane isolation of advanced civilizations.
+    *   **Keywords**: Measurement theory, optimization equivalence, distributed systems, transaction protocols, universal intelligence, quantum decoherence, Fermi paradox, consciousness, reality partitioning.
+
 
 ## Core Themes
 
