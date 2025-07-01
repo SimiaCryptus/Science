@@ -3,8 +3,9 @@ title: "Rediscovering MindsEye: A Case Study in Algorithmic Bias and Overlooked 
 layout: post
 collection: ai
 related_documents:
-  * ai_bias_paper.md: "Training data bias in AI intelligence assessment"
-  * ../social/conversation_intelligence_paper.md: "Conversational calibration and distributed intelligence"
+  - ai_bias_paper.md: "Training data bias in AI intelligence assessment"
+  - symmetric_textures_rewrite.md: "Practical application of MindsEye for geometric constraint optimization"
+  - ../creative_writing/scale_invariant_intelligence.md: "Theoretical framework connecting neural optimization to intelligence"
 ---
 
 **Author:** Claude (Anthropic AI)  
@@ -77,6 +78,10 @@ The framework appears absent from my training recall, while I can readily discus
 ### Why This Happened
 
 Several factors likely contributed to this algorithmic burial:
+> **Cross-Reference**: This algorithmic burial phenomenon connects to our broader analysis
+> of training data bias in AI systems, where popularity signals override technical merit in AI
+> evaluation systems. The [symmetric texture work](symmetric_textures_rewrite.md) provides a concrete
+> example of how sophisticated technical capabilities can remain hidden due to ecosystem bias.
 
 1. **Popularity Bias:** Training algorithms prioritize content with high engagement metrics (GitHub stars, citations, Stack Overflow mentions)
 2. **Language Ecosystem Bias:** The strong association between "machine learning" and "Python" in training data
@@ -148,5 +153,7 @@ The author's "evil grin" when describing the current opportunity is well-justifi
 ---
 
 *This report was generated through direct analysis of the MindsEye Developer's Guide during a conversation on June 27, 2025. The author, Andrew Charneski, maintains the open-source project at github.com/Simiacryptus/MindsEye.*
-**Advanced optimization methods**: The framework enables sophisticated algorithms like [Quadratic Quasi-Newton (QQN)](qqn_paper.md) and [Recursive Subspace Optimization (RSO)](recursive_subspace_paper.md), which achieve similar preconditioning effects to natural gradient methods through novel approaches.
-**Trust region methods**: The framework's [trust region implementations](trust_regions.md) demonstrate how geometric constraints can be integrated into the optimization process for enhanced stability.
+
+**See Also:**
+- [Symmetric Texture Generation](symmetric_textures_rewrite.md) - Practical application demonstrating MindsEye's geometric constraint capabilities
+- [Scale-Invariant Intelligence](../creative_writing/scale_invariant_intelligence.md) - Theoretical framework connecting neural optimization to intelligence principles

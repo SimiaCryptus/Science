@@ -148,6 +148,11 @@ No preferred temporal direction exists at the fundamental level.
 The perceived arrow of time emerges through decoherence in the observer's interaction with the foam:
 
 ρ_O(t) = Tr_env[|Ψ₀⟩⟨Ψ₀| ⊗ |O(t)⟩⟨O(t)|]
+This decoherence process exhibits the same hierarchical, scale-invariant structure observed in neural network 
+dynamics at the edge of chaos. The observer's information processing capabilities determine which aspects of 
+the quantum foam become accessible, creating apparent temporal flow through the same compression mechanisms 
+that enable pattern recognition in artificial neural networks.
+
 
 
 The von Neumann entropy S(ρ_O(t)) = -Tr[ρ_O(t) log ρ_O(t)] increases monotonically, creating the thermodynamic arrow.
@@ -235,6 +240,13 @@ computational substrate theories (see [Simulation QFT Hashlife](simulation_qft_h
 quantum foam |Ψ₀⟩ can be viewed as the fundamental computational state, with different observer embeddings 
 corresponding to different hashlife optimization paths. The anthropic selection of 3+1 dimensions might 
 reflect computational efficiency principles in pattern recognition and memoization.
+**Scale-Invariant Intelligence**: The hierarchical compression principles discovered in neural texture synthesis 
+(see [Scale-Invariant Intelligence](../creative_writing/scale_invariant_intelligence.md)) provide empirical 
+evidence for the multi-scale coherence requirements in our quantum foam model. The "edge of chaos" dynamics 
+observed in neural networks operating at critical points mirror the observer embedding conditions we propose. 
+The fact that neural networks discover scale-invariant patterns suggests these patterns reflect fundamental 
+organizational principles of the quantum foam itself.
+
 **Wavelet Basis Optimization**: The multi-scale structure of our observer embeddings relates to wavelet 
 geometric optimization (see [Wavelet Geometric Optimization](../projects/wavelet-geometric-optimization.md)). 
 The hierarchical decomposition G ⊗ C ⊗ T mirrors wavelet multi-resolution analysis, where different scales 

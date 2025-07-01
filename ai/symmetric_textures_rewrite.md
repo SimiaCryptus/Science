@@ -2,6 +2,10 @@
 title: "Symmetric Textures: Neural Art Generation with Geometric Constraints"
 layout: post
 collection: ai
+related_documents:
+  - ../creative_writing/scale_invariant_intelligence.md: "Theoretical framework connecting texture synthesis to intelligence"
+  - mindseye_technical_report.md: "Technical architecture enabling geometric constraint optimization"
+  - ai_bias_paper.md: "Training data bias in AI system evaluation"
 ---
 
 Neural style transfer has revolutionized AI-generated art, producing visually striking images that blend photographic content with artistic styles. However, existing approaches struggle to capture the geometric precision found in mathematical art, particularly the rigid symmetries that define works like M.C. Escher's tessellations. We present a novel technique that introduces hard geometric constraints into neural texture generation through what we term "kaleidoscopic preprocessing" - forcing the neural network to optimize images viewed through geometric transformations that enforce strict symmetries.
@@ -101,7 +105,7 @@ Given the computational requirements (high-end GPU, substantial RAM), we designe
 5. Automatically terminate instances upon completion
 
 This approach makes the system accessible to users without specialized hardware while controlling costs through precise resource allocation.
-The system leverages MindsEye's [modular optimization architecture](mindseye_modularity_report.md) and [reference counting system](mindseye_refcount_analysis.md) to efficiently manage GPU resources during the intensive geometric constraint optimization process.
+The system leverages MindsEye's modular optimization architecture and reference counting system (detailed in [MindsEye Technical Report](mindseye_technical_report.md)) to efficiently manage GPU resources during the intensive geometric constraint optimization process.
 
 ## Results and Analysis
 
@@ -209,6 +213,8 @@ The geometric constraints we impose create optimization problems with rich mathe
 ## Conclusion
 
 By placing mathematical kaleidoscopes between neural networks and their optimization targets, we've demonstrated that AI art generation can achieve the geometric precision traditionally associated with mathematical visualization while maintaining the organic complexity that makes neural art compelling.
+This work represents a concrete application of the theoretical framework presented in [Scale-Invariant Intelligence](../creative_writing/scale_invariant_intelligence.md), demonstrating how geometric constraints can reveal fundamental mathematical structures through neural optimization. The technical implementation showcases the capabilities of the [MindsEye framework](mindseye_technical_report.md) for research-grade optimization with complex constraints.
+
 
 The key insight - that visual symmetry must be built into the optimization process rather than imposed afterward - has implications beyond art generation. Any machine learning system tasked with producing structured output could benefit from similar constraint-based approaches.
 
