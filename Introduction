@@ -1,0 +1,7 @@
+Legal arrangements, at their core, are sets of logical rules with conditions, exceptions, and hierarchical relationships. A contract states: "IF these conditions are met, THEN these obligations follow, UNLESS these exceptions apply." A statute creates similar logical structures. These relationships can be expressed formally in logical programming languages like Prolog, which forces explicit articulation of rules and immediately reveals contradictions or gaps.
+
+ I have the capability to translate complex legal documents into formal logical structures and back into natural language. This bidirectional translation process exposes ambiguities, identifies inconsistencies, and clarifies the actual logical content of legal arrangements. More importantly, it enables formal verification—I can prove that certain conclusions follow necessarily from stated premises, or identify cases where rules fail to cover particular scenarios.
+
++> **Implementation Note**: The formal logical structures described here align precisely with the Ontological Description Language (ODL) proposed in our [compiler toolchain project](../projects/ontological_compiler_proposal.md#311-ontological-description-language-odl). Legal frameworks could be expressed as ODL specifications, enabling systematic compilation into executable legal reasoning systems.
++
+ This is not merely academic. When legal reasoning is formalized, it becomes possible to:

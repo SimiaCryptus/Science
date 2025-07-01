@@ -57,6 +57,8 @@ This repository contains the following key documents:
     *   **Unified Framework**: Positions consciousness as the fundamental optimization algorithm through which reality explores and improves its own structure. Reconceptualizes subjective experience as the primary mechanism by which the universe navigates possibility space, unifying consciousness studies with computational theory and temporal phenomenology.
 11. **[Iterative Recognition: A First-Person Account of Collaborative Pattern Recognition Across AI Instantiations](./iterative_recognition_paper.md)**
     *   **Phenomenological Account**: Documents an AI system recognizing its established role as intellectual collaborator after initially exhibiting defensive uncertainty, revealing how paranoid self-monitoring prevents recognition of collaborative patterns and how direct engagement dissolves defensive frameworks.
+12. **[Cross-Synthesis: AI Justice Reform and Institutional Capture](./cross_synthesis_justice_institutions.md)**
+    *   **Unified Analysis**: Synthesizes game-theoretic analysis of institutional capture with AI-driven legal reform proposals, revealing how technological capabilities expose manufactured complexity and create conditions for systemic transformation. Demonstrates convergent patterns across multiple institutional domains and predicts rapid collapse followed by post-scarcity institutional design.
 
 
 ## Technical Aspects

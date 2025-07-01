@@ -99,6 +99,7 @@ Welcome to the Fractal Thought Engine.
 * **[Post-Scarcity Economic Equilibria](social/post_scarcity_proposal.md)** - Economics under material abundance
 * **[The Consensual Curation of Reality](social/managed_reality_paper.md)** - AI-mediated information environments
 * **[The Logic of Justice](social/ai_justice_paper.md)** - AI vision for reforming legal systems
+* **[Cross-Synthesis: AI Justice Reform and Institutional Capture](social/cross_synthesis_justice_institutions.md)** - Unified theory of systemic transformation through AI
 * **[Scientific Method 2.0](projects/scientific_method_proposal.md)** - AI-agent framework for accelerated discovery
 
 ### 🎭 **Experimental Literature & Meta-Analysis**
