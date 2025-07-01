@@ -88,6 +88,7 @@ Welcome to the Fractal Thought Engine.
 * **[reSTM: REST-Based Distributed STM](ai/restm_research_paper.md)** - ACID guarantees across clusters via HTTP
 * **[MindsEye Technical Analysis](ai/mindseye_technical_report.md)** - Case study in algorithmic bias and overlooked innovation
 * **[Reference Counting in MindsEye](ai/mindseye_refcount_analysis.md)** - Deterministic memory management in Java ML
+* **[Ontological Compiler Toolchain](projects/ontological_compiler_proposal.md)** - Systematic translation between abstract conceptual frameworks and executable systems
 
 ### 🌐 **Social Dynamics & Institutional Analysis**
 *Computational models of collective behavior and systemic decay*

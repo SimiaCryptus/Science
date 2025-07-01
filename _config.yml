@@ -56,36 +56,36 @@ social:
     sort_by: date
 # Defaults
 defaults:
-  * scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
       author: "Human-AI Collaboration"
-  * scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
-  * scope:
+  - scope:
       path: ""
       type: "social"
     values:
       layout: "page"
       category: "Social Sciences"
-  * scope:
+  - scope:
       path: ""
       type: "scifi"
     values:
       layout: "page"
       category: "SciFi Concepts"
-  * scope:
+  - scope:
       path: ""
       type: "projects"
     values:
       layout: "page"
       category: "Projects"
-  * scope:
+  - scope:
       path: ""
       type: "creative_writing"
     values:

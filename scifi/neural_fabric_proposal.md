@@ -36,11 +36,12 @@ panpsychist theories of mind.
 4. Demonstrate superior performance on constraint satisfaction through conscious field dynamics rather than algorithmic
    processing
 
-## Background and Motivation
+### Background and Motivation
 
 ### Theoretical Foundations and Related Work
 
 Our consciousness orchestration approach builds upon several theoretical frameworks:
+**Probabilistic Substrate Computing**: The fabric's probability distribution maintenance and cross-entropy optimization directly extends principles developed in our [Probabilistic Neural Substrates](../ai/probabilistic_neural_substrate.md) research, which itself builds upon [probabilistic decision tree methodologies](../ai/probabilistic_trees_paper.md). The consciousness orchestration approach can be viewed as applying these information-theoretic principles to quantum field substrates rather than classical computational systems.
 **Quantum Substrate Theories**: The quantum field consciousness concept relates to theories where consciousness emerges from fundamental quantum structures (see [Observer-Dependent Spacetime](quantum_spacetime_paper.md) and [Multiverse Router](multiverse_router_paper.md)). These suggest that consciousness might be intrinsic to quantum substrates rather than emergent from classical computation.
 **Probabilistic Substrate Computing**: The fabric's probability distribution maintenance and cross-entropy optimization directly extends principles developed in our [Probabilistic Neural Substrates](../ai/probabilistic_neural_substrate.md) research, which itself builds upon [probabilistic decision tree methodologies](../ai/probabilistic_trees_paper.md). The consciousness orchestration approach can be viewed as applying these information-theoretic principles to quantum field substrates rather than classical computational systems.
 **Computational Architectures**: The fabric's dynamic topology manipulation parallels quantum graph computational models (see [Dynamic Quantum Graphs](dynamic_quantum_graphs.md)), where structural changes enable novel computational capabilities. Both suggest that dynamic architectures transcend fixed-structure limitations.

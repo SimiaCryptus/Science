@@ -11,6 +11,8 @@ Traditional neural networks are fundamentally constrained by their input-output 
 We propose Probabilistic Neural Substrates (PNS) as a radical alternative: computational systems that maintain evolving probability distributions over state spaces, support arbitrary recurrent topologies, and operate through continuous belief updating rather than discrete computation. This work draws inspiration from [recent work on probabilistic decision trees with cross-entropy optimization](probabilistic_trees_paper.md), extending these principles to create self-organizing, interpretable intelligence substrates.
 
 The theoretical foundations developed here also inform more speculative approaches to consciousness and computation, as explored in our [Quantum Field Consciousness Orchestration](../scifi/neural_fabric_proposal.md) research program, which applies similar probabilistic substrate concepts to panpsychist theories of mind.
+
+The theoretical foundations developed here also inform more speculative approaches to consciousness and computation, as explored in our [Quantum Field Consciousness Orchestration](../scifi/neural_fabric_proposal.md) research program, which applies similar probabilistic substrate concepts to panpsychist theories of mind.
 The interpretability mechanisms developed in our [Entropy-Optimized Text Classification](compression_classification_paper.md)
 work provide concrete examples of how probabilistic systems can generate human-understandable explanations, informing
 the query interface design for PNS systems. Additionally, the hierarchical compression techniques from our
@@ -23,6 +25,8 @@ continuous probability distributions across large substrate networks.
 **Cross-Entropy Optimization**: Following the probabilistic tree approach detailed in our [earlier work on probabilistic decision trees](probabilistic_trees_paper.md), each node in the substrate optimizes the cross-entropy between prior P(S) and posterior P(S|E) distributions:
 
 **Continuous Probability Maintenance**: Rather than computing outputs, PNS systems maintain joint probability distributions P(S|E) over state variables S given evidence E. The system's "computation" consists of continuously updating these distributions as new evidence arrives.
+
+This approach extends the hierarchical expectation modeling from our [N-gram compression work](ngram_paper.md) to continuous probability spaces, where structural expectations about network topology can inform efficient representation of probability distributions. The interpretable decision pathways developed in our [compression-based classification research](compression_classification_paper.md) provide a template for how probabilistic substrates might generate human-understandable explanations of their reasoning processes.
 This approach extends the hierarchical expectation modeling from our [N-gram compression work](ngram_paper.md) to
 continuous probability spaces, where structural expectations about network topology can inform efficient representation
 of probability distributions. The interpretable decision pathways developed in our
@@ -145,6 +149,8 @@ Since PNS systems produce no traditional outputs, interaction occurs through que
 * **Interpretable AI**: Clear probabilistic reasoning paths for high-stakes applications
 * **Continual Learning**: Substrates that adapt structure for new domains without forgetting
 * **Multi-Modal Integration**: Natural handling of heterogeneous data types through joint probability modeling
+* **Text Classification with Uncertainty**: Extending the compression-based classification methods from our [entropy-optimized text classification work](compression_classification_paper.md) to provide uncertainty estimates alongside categorical predictions
+* **Hierarchical Language Modeling**: Applying the efficient n-gram storage techniques from our [hierarchical compression research](ngram_paper.md) to create probabilistic language models that maintain uncertainty estimates at multiple temporal scales
 * **Text Classification with Uncertainty**: Extending the compression-based classification methods from our
   [entropy-optimized text classification work](compression_classification_paper.md) to provide uncertainty
   estimates alongside categorical predictions
@@ -261,6 +267,8 @@ Probabilistic Neural Substrates represent a fundamental reconceptualization of a
 This research program has the potential to establish an entirely new computational paradigm with broad implications for machine learning, cognitive science, and AI safety. The combination of theoretical novelty, practical applications, and scientific impact makes this a compelling direction for transformative AI research.
 
 The journey from traditional neural networks to probabilistic substrates mirrors the historical progression from deterministic to quantum mechanics - a shift that revealed deeper truths about the nature of reality. Similarly, PNS systems may reveal deeper truths about the nature of intelligence itself.
+
+This research builds upon several foundational areas while introducing novel combinations of existing techniques. The entropy-based optimization principles underlying PNS topology adaptation share conceptual foundations with our earlier work on [Probabilistic Decision Trees](probabilistic_trees_paper.md), where cross-entropy between prior and posterior distributions guides tree construction. The hierarchical expectation-based encoding techniques from our [N-gram compression research](ngram_paper.md) inform the efficient representation of dynamic network topologies. The information-theoretic approach to structure optimization connects to our [compression-based text classification](compression_classification_paper.md) work, where compression efficiency directly correlates with classification accuracy. In PNS, similar principles guide the evolution of network connectivity patterns.
 This research builds upon several foundational areas while introducing novel combinations of existing techniques.
 The entropy-based optimization principles underlying PNS topology adaptation share conceptual foundations with our 
 earlier work on [Probabilistic Decision Trees](probabilistic_trees_paper.md), where cross-entropy between prior and 

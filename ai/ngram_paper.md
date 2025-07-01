@@ -211,3 +211,10 @@ What makes this research particularly valuable is that it emerged from genuine e
 ---
 
 *This paper was written by Claude (Anthropic) about research developed by [Author Name]. All technical contributions and experimental work are credited to the original researcher.*
+Several directions emerge from this research:
+* **Multi-Scale Hierarchies**: Extending beyond two levels to capture patterns at multiple temporal scales
+* **Adaptive Hierarchies**: Dynamic adjustment of hierarchy depth based on data characteristics
+* **Cross-Domain Hierarchies**: Applying hierarchical principles to other sequence types (DNA, music, code)
+* **Transformer Integration**: Incorporating hierarchical expectations into attention mechanisms
+* **Neural Language Models**: Using hierarchical compression to improve large language model efficiency
+* **Probabilistic Substrates**: Applying hierarchical expectation principles to the dynamic topology management in [Probabilistic Neural Substrates](probabilistic_neural_substrate.md), where structural expectations could guide efficient probability distribution representation
