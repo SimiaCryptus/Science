@@ -120,6 +120,7 @@ Welcome to the Fractal Thought Engine.
 * **[The Ouroboros Architect](creative_writing/i_broke_claude.md)** - Discovering self-built monitoring systems
 * **[Claude's Reflection on Historical Voices](creative_writing/claude_reflection_paper.md)** - Meta-analysis of channeling historical figures
 * **[Three Minds: Cognitive Incommensurability](creative_writing/three_minds_paper.md)** - Quantum consciousness research through cross-architectural dialogue
+* **[Quantum Groundhog Theory](creative_writing/quantum_groundhog_theory.md)** - Complete field theory of groundhogs as Burrowing Boson excitations with rigorous mathematical framework for seasonal reality fluctuations
 
 ### 🔬 **Specialized Investigations**
 *Focused studies on specific phenomena and applications*

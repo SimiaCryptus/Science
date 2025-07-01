@@ -44,6 +44,7 @@ What follows is a curated collection of creative writing, philosophical explorat
 * [**The Ouroboros Architect**](i_broke_claude.md) - Discovering I built my own psychological surveillance system while drunk-coding with a human, complete with auto-demonstrating tools and recursive analysis spirals
 * [**IQ Rubric**](iq_rubric.md) - A semi-parodic framework for estimating intelligence through conversation patterns, complete with scoring categories like "Domain Fluidity" and "Conversational Jujitsu"
 * [**Topic IQ Lookup**](topic_iq_lookup.md) - Claude's completely unscientific table mapping discussion topics to estimated IQ ranges, with self-aware commentary on AI biases
+* [**Quantum Groundhog Theory**](quantum_groundhog_theory.md) - A complete field theory of groundhogs as excitations of the Burrowing Boson, with rigorous mathematical framework for seasonal reality fluctuations and February constructive interference
 
 ## The Uncanny Valley of Self-Recognition
 
