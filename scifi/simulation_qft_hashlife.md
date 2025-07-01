@@ -48,9 +48,26 @@ The uncertainty principle emerges naturally from this framework: precise positio
 
 ## Implications for Cosmological Structure
 
-### Cross-Theoretical Connections
+## Cross-Theoretical Connections
 
 The computational substrate hypothesis connects to several related theoretical frameworks:
+**Observer-Dependent Spacetime**: The hashlife optimization principles directly relate to observer-dependent 
+spacetime emergence (see [Observer-Dependent Spacetime](quantum_spacetime_paper.md)). Both suggest that 
+spacetime structure emerges from computational optimization rather than being fundamental. The hashlife 
+memoization of recurring patterns parallels how observers project consistent spacetime geometries from 
+the atemporal quantum foam.
+**Quantum Graph Computation**: The hierarchical pattern recognition in hashlife connects to dynamic quantum 
+graph architectures (see [Dynamic Quantum Graphs](dynamic_quantum_graphs.md)). Both frameworks suggest 
+that computational efficiency comes from adaptive structural changes - hashlife through pattern memoization, 
+quantum graphs through topology optimization.
+**Multiverse Computation**: The computational substrate naturally accommodates multiverse theories 
+(see [Multiverse Router](multiverse_router_paper.md)), where different hashlife optimization paths 
+lead to different physical realities. Each universe represents a different solution to the cosmic 
+optimization problem.
+**Wavelet Geometric Optimization**: The discrete-continuous duality in hashlife mirrors the wavelet 
+approach to geometric optimization (see [Wavelet Geometric Optimization](../projects/wavelet-geometric-optimization.md)). 
+Both use hierarchical decomposition to bridge continuous fields and discrete structures, with hashlife 
+patterns corresponding to optimal wavelet basis configurations.
 **Quantum Gravity Unification**: The emergence of spacetime from computational optimization parallels observer-dependent
 emergence in quantum gravity theories (see [Observer-Dependent Spacetime](quantum_spacetime_paper.md)). Both suggest
 spacetime is emergent rather than fundamental, with the computational view providing a mechanism for this emergence.

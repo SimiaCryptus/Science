@@ -259,7 +259,13 @@
 <loc>http://localhost:4000/Science/profile.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/Science/projects/knot_wavelets.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/Science/projects/ontological_compiler_proposal.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/Science/projects/wavelet-geometric-optimization.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/Science/social/iterative_recognition_paper.html</loc>

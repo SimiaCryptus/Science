@@ -1592,3 +1592,22 @@ def run_reproducible_experiment(name, params):
 * Comparison with theoretical predictions
 * Resource usage heat maps
 * Algorithm performance benchmarks
+This framework connects to several related theoretical developments:
+**Computational Substrate Integration**: The dynamic quantum graph model provides a natural implementation 
+platform for computational substrate theories (see [Simulation QFT Hashlife](simulation_qft_hashlife.md)). 
+The graph topology changes correspond to hashlife pattern recognition and memoization - frequently used 
+computational patterns become stabilized graph structures, while rare patterns remain dynamic. The quantum 
+graph serves as the hardware for the cosmic computation.
+**Observer-Dependent Spacetime**: The quantum reference frames in our model directly implement the observer 
+embeddings from spacetime emergence theory (see [Observer-Dependent Spacetime](quantum_spacetime_paper.md)). 
+Each quantum reference frame corresponds to a different projection of the atemporal quantum foam, with the 
+graph topology encoding the causal and geometric structure visible to that observer.
+**Multiverse Router Architecture**: The dynamic topology provides the switching mechanism for multiverse 
+routing (see [Multiverse Router](multiverse_router_paper.md)). Different graph configurations correspond 
+to different universe branches, with quantum tunneling between topologies enabling multiverse navigation. 
+The entanglement structure encodes the routing tables between realities.
+**Wavelet Geometric Optimization**: The hierarchical graph structures naturally implement wavelet-like 
+multi-resolution analysis (see [Wavelet Geometric Optimization](../projects/wavelet-geometric-optimization.md)). 
+Different scales of graph clustering correspond to different wavelet scales, with the dynamic topology 
+enabling adaptive basis selection. The graph Laplacian eigenfunctions serve as the geometric wavelets.
+The dynamic quantum graph model provides a natural implementation platform for computational substrate theories.

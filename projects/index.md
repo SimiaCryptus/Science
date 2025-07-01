@@ -15,6 +15,8 @@ Welcome to this collection of interdisciplinary computational science projects. 
 6.  [Entropy-Optimized Permutation Trees for Bijective String Transforms](./bwt_tree_proposal.md)
 7.  [Scientific Method 2.0: An AI-Agent Framework for Accelerated Discovery](./scientific_method_proposal.md)
 8.  [Ontological Compiler Toolchain: Bridging Abstract Conceptual Frameworks and Computational Reality](./ontological_compiler_proposal.md)
+9.  [Cross-Synthesis: Wavelet Geometric Optimization × Topological Knot Analysis](./knot_wavelets.md)
+10. [Wavelet Basis Geometric Optimization with Autoadaptive Permutations](./wavelet-geometric-optimization.md)
 
 ---
 
@@ -181,6 +183,31 @@ This research proposal introduces the Ontological Compiler Toolchain (OCT), a no
 
 **Relevant Files:**
 *   [Research Proposal: Ontological Compiler Toolchain: Bridging Abstract Conceptual Frameworks and Computational Reality](./ontological_compiler_proposal.md)
+## 9. [Cross-Synthesis: Wavelet Geometric Optimization × Topological Knot Analysis](./knot_wavelets.md)
+**Overview:**
+This cross-synthesis project combines wavelet geometric optimization with topological knot analysis to create a unified framework for multi-scale topological feature extraction. By applying wavelet decomposition to distance matrices derived from knot curves, the approach extracts robust topological invariants that are both computationally efficient and theoretically grounded. The framework introduces novel concepts including persistent homology in wavelet space, autoadaptive knot basis discovery, and quantum knot invariants, while providing practical applications in real-time knot recognition and automated knot family discovery.
+**Key Features:**
+*   **Wavelet-Based Knot Invariants:** Multi-scale topological features through wavelet decomposition of knot distance matrices, revealing how complexity manifests at different scales.
+*   **Autoadaptive Basis Discovery:** Geometric optimization to find optimal wavelet bases for different knot families through discriminative power analysis.
+*   **Enhanced Invariants via Optimization:** Canonical distance matrix representations and multi-scale knot signatures combining wavelet coefficients across sampling densities.
+*   **Novel Applications:** Automated knot family discovery through wavelet feature clustering, quantum knot invariants inspired by quantum mechanics, and real-time recognition using wavelet-based locality-sensitive hashing.
+*   **Theoretical Insights:** Emergence of knot types as optimal configurations in continuous space, suggesting discrete prime knots emerge from geometric optimization principles.
+*   **Unified Software Platform:** Extension of KnotExplorer with wavelet analysis, interactive wavelet exploration, and fast recognition capabilities.
+**Relevant Files:**
+*   [Cross-Synthesis Paper: Wavelet Geometric Optimization × Topological Knot Analysis](./knot_wavelets.md)
+---
+## 10. [Wavelet Basis Geometric Optimization with Autoadaptive Permutations](./wavelet-geometric-optimization.md)
+**Overview:**
+This theoretical framework extends geometric optimization by representing configurations as coefficients in manifold-adapted wavelet bases, with dynamic permutation of the basis during optimization. The approach bridges the fundamental "stuff and things" duality—how continuous reality crystallizes into discrete objects—through wavelets that naturally represent continuous fields via discrete coefficients. The framework suggests reality itself might be a recursive quantum system optimizing its own configuration, with autoadaptive permutations revealing that physical "laws" could be the universe's current best compression algorithm for itself.
+**Key Features:**
+*   **Manifold-Adapted Wavelets:** Construction of geometric wavelets using diffusion operators, spectral graph methods, and geodesic lifting schemes tailored to specific manifold structures.
+*   **Autoadaptive Permutation Strategy:** Dynamic reordering of wavelet basis during optimization based on emerging structure, mirroring how perception organizes continuous sensory input into meaningful discrete objects.
+*   **Multi-Resolution Optimization:** Scale-dependent optimization revealing different "things" at different levels of observation, from coarse to fine structural details.
+*   **Physics Applications:** Gauge-invariant wavelets for particle physics, emergent spacetime from discrete structures, and symmetry detection through permutation analysis.
+*   **Philosophical Framework:** Mathematical lens for understanding emergence, explaining why particular structures exist as optimal geometric solutions, and modeling reality as living computation.
+*   **Advanced Implementation:** Quantum-inspired permutation search, continuous permutation relaxation, and distributed optimization with convergence guarantees.
+**Relevant Files:**
+*   [Theoretical Framework: Wavelet Basis Geometric Optimization with Autoadaptive Permutations](./wavelet-geometric-optimization.md)
 
 ## 9. [Formal Grammar Lookahead for Constrained LLM Generation](./grammar_lookahead_proposal.md)
 **Overview:**

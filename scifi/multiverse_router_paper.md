@@ -156,3 +156,22 @@ Future work should focus on developing more detailed mathematical models of subs
 [8] Van Raamsdonk, M. (2010). "Building up spacetime with quantum entanglement." Gen. Rel. Grav. 42, 2323.
 
 [9] Ryu, S. & Takayanagi, T. (2006). "Holographic derivation of entanglement entropy from AdS/CFT." Phys. Rev. Lett. 96, 181602.
+This framework connects to several related theoretical developments:
+**Quantum Graph Implementation**: The multiverse router finds natural implementation in dynamic quantum 
+graph architectures (see [Dynamic Quantum Graphs](dynamic_quantum_graphs.md)). Each universe branch 
+corresponds to a different graph topology, with quantum tunneling between configurations enabling 
+multiverse navigation. The entanglement structure provides the routing mechanism between realities.
+**Computational Substrate Foundation**: The multiverse router operates on the computational substrate 
+described in hashlife optimization theory (see [Simulation QFT Hashlife](simulation_qft_hashlife.md)). 
+Different universe branches represent different solutions to the cosmic optimization problem, with the 
+router enabling exploration of the solution space. Each branch corresponds to a different hashlife 
+pattern library.
+**Observer-Dependent Projections**: The routing mechanism directly implements the observer-dependent 
+spacetime projections (see [Observer-Dependent Spacetime](quantum_spacetime_paper.md)). Each universe 
+branch represents a different observer embedding in the atemporal quantum foam, with routing enabling 
+transitions between different observational perspectives on the same fundamental reality.
+**Wavelet Multiverse Decomposition**: The multiverse structure can be analyzed using wavelet geometric 
+optimization (see [Wavelet Geometric Optimization](../projects/wavelet-geometric-optimization.md)). 
+Different universe branches correspond to different regions in the wavelet coefficient space, with 
+routing paths corresponding to geodesics in the manifold of possible realities.
+The multiverse router finds natural implementation in dynamic quantum graph architectures.

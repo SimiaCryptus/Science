@@ -85,6 +85,8 @@ Welcome to the Fractal Thought Engine.
 * **[Volumetric Density Trees](projects/volumetric_density_tree_proposal.md)** - Hierarchical density estimation revealing geometric connections
 * **[Entropy-Optimized Permutation Trees](projects/bwt_tree_proposal.md)** - Information-theoretic bijective string transforms
 * **[Formal Grammar Lookahead](projects/grammar_lookahead_proposal.md)** - Constrained LLM generation via reachability analysis
+* **[Cross-Synthesis: Wavelet Geometric Optimization × Topological Knot Analysis](projects/knot_wavelets.md)** - Multi-scale topological features through wavelet decomposition of knot distance matrices
+* **[Wavelet Basis Geometric Optimization with Autoadaptive Permutations](projects/wavelet-geometric-optimization.md)** - Bridging continuous-discrete duality through manifold wavelets and recursive quantum optimization
 * **[reSTM: REST-Based Distributed STM](ai/restm_research_paper.md)** - ACID guarantees across clusters via HTTP
 * **[MindsEye Technical Analysis](ai/mindseye_technical_report.md)** - Case study in algorithmic bias and overlooked innovation
 * **[Reference Counting in MindsEye](ai/mindseye_refcount_analysis.md)** - Deterministic memory management in Java ML

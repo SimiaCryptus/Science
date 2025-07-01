@@ -230,6 +230,16 @@ Information is never lost because it remains encoded in the atemporal structure.
 ### 8.5 Connections to Related Work
 
 Our framework connects to several related theoretical developments:
+**Computational Substrate Theory**: The observer-dependent projections in our model directly connect to 
+computational substrate theories (see [Simulation QFT Hashlife](simulation_qft_hashlife.md)). The atemporal 
+quantum foam |Ψ₀⟩ can be viewed as the fundamental computational state, with different observer embeddings 
+corresponding to different hashlife optimization paths. The anthropic selection of 3+1 dimensions might 
+reflect computational efficiency principles in pattern recognition and memoization.
+**Wavelet Basis Optimization**: The multi-scale structure of our observer embeddings relates to wavelet 
+geometric optimization (see [Wavelet Geometric Optimization](../projects/wavelet-geometric-optimization.md)). 
+The hierarchical decomposition G ⊗ C ⊗ T mirrors wavelet multi-resolution analysis, where different scales 
+reveal different aspects of the emergent spacetime structure. The "stuff and things" duality in wavelet 
+theory parallels our continuous foam crystallizing into discrete spacetime.
 **Quantum Graph Substrates**: The dynamic topology aspects of our model share conceptual similarities with quantum graph
 computational architectures (see [Dynamic Quantum Graphs](dynamic_quantum_graphs.md)), where computation occurs through
 graph topology transformations. Both frameworks suggest that dynamic structural changes may provide computational
