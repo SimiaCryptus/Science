@@ -18,3 +18,5 @@
  # Favicon generation temp files
  temp/
  .*
+ resume.md
+_site/

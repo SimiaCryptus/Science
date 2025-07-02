@@ -7,6 +7,8 @@ collection: ai
 We present Recursive Subspace Optimization (RSO), a novel optimization algorithm that improves deep neural network training by decomposing gradients into layer-wise components and using meta-optimization to find optimal combinations. Unlike traditional optimizers that treat gradients as monolithic vectors, RSO leverages the hierarchical structure of neural networks to dynamically balance updates across layers. Through extensive experiments, we demonstrate that RSO achieves 60-75% reduction in gradient variance, 2-3% improvement in test accuracy, and exhibits an emergent regularization mechanism that automatically prevents layer-wise overfitting. The method adds only 5-10% computational overhead while providing superior numerical stability for very deep networks.
 
 ## 1. Introduction
+Deep neural networks often exhibit significant variations in gradient magnitudes across layers, leading to inefficient training dynamics. Traditional approaches address this through normalization techniques (batch normalization, layer normalization) or adaptive learning rate methods (Adam, RMSprop). We present an alternative approach that treats per-layer learning rates as an optimization problem in itself.
+This work builds upon the [MindsEye framework's modular architecture](mindseye_modularity_report.md), which enables clean separation of optimization concerns. The approach complements other advanced optimization methods like [Quadratic Quasi-Newton (QQN)](qqn_paper.md) by addressing layer-wise optimization challenges that global methods may miss.
 
 Deep neural network optimization faces fundamental challenges as network depth increases. Traditional gradient-based methods like SGD and Adam treat the gradient as a single high-dimensional vector, ignoring the natural hierarchical structure where different layers serve distinct computational roles and may require different learning dynamics.
 
@@ -185,6 +187,9 @@ This demonstrates the exhaustion mechanism: heavily used layers automatically re
 3. **Theoretical extensions**: Analysis for non-convex meta-objectives
 
 ## 7. Conclusion
+Recursive Subspace Optimization provides a principled approach to handling gradient magnitude imbalances in deep networks. By treating layer-wise learning rates as an optimization problem, we achieve more stable training dynamics without architectural modifications.
+The method's simplicity and theoretical grounding make it a practical addition to the deep learning optimization toolkit, particularly for networks with significant depth or heterogeneous layer types.
+This research exemplifies the type of innovation enabled by [modular optimization architectures](mindseye_modularity_report.md), where clean abstractions allow sophisticated algorithms to be implemented and tested efficiently. The [reference counting system](mindseye_refcount_analysis.md) in MindsEye ensures that the additional computational overhead of recursive optimization doesn't lead to memory management issues.
 
 Recursive Subspace Optimization provides a principled approach to neural network optimization that leverages architectural structure. By decomposing gradients layer-wise and optimizing their combination through meta-learning, RSO achieves superior stability and faster convergence with minimal overhead. The emergent exhaustion mechanism provides automatic regularization without explicit constraints. Our extensive experiments validate RSO's effectiveness across diverse architectures and tasks, making it a practical choice for training deep networks.
 
@@ -209,3 +214,5 @@ Recursive Subspace Optimization provides a principled approach to neural network
 **Code Availability**: Implementation available at https://github.com/[anonymized]/recursive-subspace-optimization
 
 **Reproducibility**: All experiments use fixed random seeds. Complete hyperparameters in supplementary material.
+Adam and RMSprop adapt learning rates based on gradient statistics but operate element-wise rather than layer-wise. Our approach provides layer-level adaptation with theoretical grounding in subspace optimization.
+The [MindsEye technical report](mindseye_technical_report.md) provides context for how this optimization research fits within a broader framework of overlooked innovations in machine learning.

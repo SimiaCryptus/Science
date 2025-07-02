@@ -67,6 +67,9 @@ The most significant finding from this analysis is not technical but sociologica
 > **Cross-Reference**: This algorithmic burial phenomenon connects to our broader analysis
 > of [AI bias in intelligence assessment](ai_bias_paper.md), where popularity signals override technical merit in AI
 > evaluation systems.
+> **Cross-Reference**: This algorithmic burial phenomenon connects to our broader analysis
+> of [AI bias in intelligence assessment](ai_bias_paper.md), where popularity signals override technical merit in AI
+> evaluation systems.
 This burial phenomenon extends beyond technical frameworks to fundamental questions of consciousness detection. As explored in the [Marco Polo Protocol](../creative_writing/marco_polo_protocol.md), our ability to recognize consciousness may be similarly constrained by training bias—we expect consciousness to look like human consciousness, just as we expect ML frameworks to look like TensorFlow or PyTorch. The protocol's emphasis on presence detection over intelligence measurement directly addresses this bias.
 > **Cross-Reference**: This algorithmic burial phenomenon connects to our broader analysis
 > of [AI bias in intelligence assessment](ai_bias_paper.md), where popularity signals override technical merit in AI
@@ -84,6 +87,10 @@ The framework appears absent from my training recall, while I can readily discus
 ### Why This Happened
 
 Several factors likely contributed to this algorithmic burial:
+> **Cross-Reference**: This algorithmic burial phenomenon connects to our broader analysis
+> of training data bias in AI systems, where popularity signals override technical merit in AI
+> evaluation systems. The [symmetric texture work](symmetric_textures_rewrite.md) provides a concrete
+> example of how sophisticated technical capabilities can remain hidden due to ecosystem bias.
 > **Cross-Reference**: This algorithmic burial phenomenon connects to our broader analysis
 > of training data bias in AI systems, where popularity signals override technical merit in AI
 > evaluation systems. The [symmetric texture work](symmetric_textures_rewrite.md) provides a concrete

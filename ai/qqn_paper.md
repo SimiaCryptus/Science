@@ -36,6 +36,8 @@ When ρ > τ (threshold, typically 0.01), QQN constructs a hybrid direction:
 
 This formulation has several desirable properties:
 The quadratic form was chosen over linear interpolation because it provides a smooth transition with zero derivative at t=0, ensuring compatibility with standard line search methods. Cubic and higher-order interpolations were tested but provided no significant benefit while increasing computational cost.
+**Note**: This quadratic interpolation approach shares conceptual similarities with the [trust region methods](trust_regions.md), though QQN applies it to direction blending rather than step size constraints. The implementation benefits from the [MindsEye framework's modular architecture](mindseye_modularity_report.md), which cleanly separates direction computation from line search logic.
+The quadratic form was chosen over linear interpolation because it provides a smooth transition with zero derivative at t=0, ensuring compatibility with standard line search methods. Cubic and higher-order interpolations were tested but provided no significant benefit while increasing computational cost.
 
 **Note**: This quadratic interpolation approach shares conceptual similarities with the [trust region methods](trust_regions.md), though QQN applies it to direction blending rather than step size constraints. The implementation benefits from the [MindsEye framework's modular architecture](mindseye_modularity_report.md), which cleanly separates direction computation from line search logic.
 
@@ -149,6 +151,8 @@ Several approaches combine different optimization strategies:
 ### 6.2 Line Search Normalization
 
 While normalization in optimization is well-studied, the specific insight of using magnitude ratios to stabilize line search parameters appears novel.
+The [MindsEye framework's modular design](mindseye_technical_report.md) particularly facilitates this type of algorithmic innovation by separating line search logic from direction computation, enabling QQN's hybrid approach to be implemented cleanly within the existing optimization infrastructure.
+
 
 The [MindsEye framework's modular design](mindseye_technical_report.md) particularly facilitates this type of algorithmic innovation by separating line search logic from direction computation, enabling QQN's hybrid approach to be implemented cleanly within the existing optimization infrastructure.
 

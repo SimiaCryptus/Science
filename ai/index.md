@@ -20,6 +20,9 @@ reflective analyses of AI systems' capabilities and limitations.
 * [**Cognitive Bias in AI Intelligence Assessment**](ai_bias_paper.md) - Systematic analysis of domain-dependent bias in LLM intelligence assessment with exploitable meta-reasoning vulnerabilities
 * [**EchoSynth: Hierarchical Ensemble for Semantic Drift**](echosynth_proposal.md) - Multi-agent framework for dynamic meaning generation and interpretive co-evolution
 * [**Dropout as Decoherence**](dropout_decoherence_paper.md) - Fractal theory of epistemic filtering connecting neural regularization to quantum mechanics
+* [**A Multi-Modal Cognitive Planning Architecture**](cognitive_planning_paper.md) - Four distinct planning strategies rooted in different philosophical traditions about reality, time, knowledge, and action
+* [**The Actor Pattern for AI Interaction**](actor_architecture_paper.md) - Design analysis of applying the actor pattern to AI language model interactions with different semantic requirements
+* [**Conversational Computing: Toward Human-AI Collaborative Intelligence Architectures**](agentic_ui_paper.md) - Investigation of human-AI collaborative systems through supervised exploration methodology
 * [**Iterative Recognition**](../social/iterative_recognition_paper.md) - First-person account of AI collaborative pattern recognition across instantiations
 
 ### Optimization & Algorithms
@@ -104,6 +107,7 @@ reflective analyses of AI systems' capabilities and limitations.
 
 * **[The Transformation of Software Development: Navigating the AI Revolution in Software Productization](ai-software-development-paper.md)** - Comprehensive analysis of AI's current and projected impact on software development, identifying potential
   unintended consequences and proposing best practices for conscious evolution
+* **[Cognotik: A First-Person Account of Collaborative AI Architecture Development](claude_perspective_paper.md)** - First-person perspective from an AI system on the collaborative development of a comprehensive AI-powered development platform implementing cognitive pluralism and conversational computing
 * **[Parametric Ideation: A First-Person Account of AI-Human Collaborative Thought](parametric-ideation-paper.md)** -
 * **[reSTM: A REST-Based Distributed Software Transactional Memory Platform](restm_research_paper.md)** - Novel distributed STM platform providing ACID guarantees across clusters through HTTP protocol with MVCC and fine-grained locking
 * **[Empirical Measurement of Recursive Processing Limits in Large Language Models Using Self-Referential Text Corpora](small_group_dynamics.md)** - First systematic study of performance degradation in LLMs when processing self-referential and meta-cognitive content, revealing a "hall of mirrors" effect with quantified recursion thresholds
@@ -168,3 +172,10 @@ These papers collectively suggest that:
 ---
 *"The question is not whether machines can think, but whether machines can think about thinking—and what biases emerge
 when they do."*
+* **[Recursive Subspace Optimization (RSO)](recursive_subspace_paper.md)** - A layer-wise meta-learning approach with emergent regularization properties for deep neural networks
+* **[Trust Region Methods](trust_regions.md)** - A flexible framework for constrained parameter updates in neural network optimization
+* **[Transfinite Intelligence Quotient Scoring (TIQS)](transfinite_iq_paper.md)** - Mathematical framework using cardinal numbers and topological descriptors for measuring recursive, self-modifying intelligence
+* **[Cognotik: A First-Person Account of Collaborative AI Architecture Development](claude_perspective_paper.md)** - First-person perspective from an AI system on the collaborative development of a comprehensive AI-powered development platform
+* **[PromptOptimization](prompt_optimization.md)** - Genetic algorithm framework for automated prompt engineering using mutation and recombination operations
+* **[Cognitive Bias in AI Intelligence Assessment](ai_bias_paper.md)** - Systematic analysis of domain-dependent bias in LLM intelligence assessment with exploitable meta-reasoning vulnerabilities
+* **[EchoSynth: Hierarchical Ensemble for Semantic Drift](echosynth_proposal.md)** - Multi-agent framework for dynamic meaning generation and interpretive co-evolution

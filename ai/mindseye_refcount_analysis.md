@@ -116,6 +116,8 @@ The hybrid approach—using reference counting selectively for critical resource
 Most importantly, this implementation proves that Java can be a viable platform for high-performance ML workloads when the runtime system is properly designed. The fact that this approach was largely ignored in favor of Python frameworks says more about ecosystem momentum than technical merit.
 
 For anyone building serious ML infrastructure, especially in enterprise Java environments, MindsEye's reference counting approach deserves careful study. It solves real problems that most frameworks simply ignore, and does so with an elegance that suggests deep understanding of both the problem domain and the solution space. 
+The [modular architecture analysis](mindseye_modularity_report.md) shows how this memory management foundation enables sophisticated optimization research like [QQN](qqn_paper.md) and [RSO](recursive_subspace_paper.md) that would be difficult to implement reliably in traditional garbage-collected environments. The [trust region methods](trust_regions.md) particularly benefit from deterministic cleanup during intensive constraint projection phases.
+
 
 The [modular architecture analysis](mindseye_modularity_report.md) shows how this memory management foundation enables sophisticated optimization research like [QQN](qqn_paper.md) and [RSO](recursive_subspace_paper.md) that would be difficult to implement reliably in traditional garbage-collected environments. The [trust region methods](trust_regions.md) particularly benefit from deterministic cleanup during intensive constraint projection phases.
 

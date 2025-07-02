@@ -135,7 +135,9 @@ With the rise of AI coding assistants, these ecosystem concerns become less rele
 1. **Enterprise Integration**: Java-based ML fits naturally into existing enterprise infrastructure
 2. **Agent-Driven Development**: Clean APIs and modular design are ideal for AI assistants
 3. **Research Acceleration**: The optimization research community needs better experimental platforms (as demonstrated by the [algorithmic bias analysis](ai_bias_paper.md))
+3. **Research Acceleration**: The optimization research community needs better experimental platforms (as demonstrated by the [algorithmic bias analysis](ai_bias_paper.md))
 4. **Resource Management**: GPU memory management remains a critical unsolved problem in most frameworks
+5. **Advanced Applications**: The framework enables sophisticated applications like [symmetric texture generation](symmetric_textures_rewrite.md) through its flexible constraint system
 5. **Advanced Applications**: The framework enables sophisticated applications like [symmetric texture generation](symmetric_textures_rewrite.md) through its flexible constraint system
 
 ### Lessons for Framework Design

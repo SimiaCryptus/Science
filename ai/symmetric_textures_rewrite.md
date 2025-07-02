@@ -13,6 +13,8 @@ Neural style transfer has revolutionized AI-generated art, producing visually st
 Our approach extends beyond traditional flat-space constraints to encompass three fundamental geometries: Euclidean (flat), spherical, and hyperbolic spaces. We demonstrate that only specific aspect ratios and symmetry combinations converge successfully, corresponding to the mathematical constraints of regular tilings. The technique produces tessellating textures with perfect geometric symmetry while maintaining the organic, AI-generated aesthetic quality that makes neural art compelling.
 
 ## Introduction
+This paper presents a novel approach to generating textures with perfect symmetry properties using neural networks with specialized architectural constraints. By implementing Co-Inverse Permutation Modifiers (CIPMs) that enforce mathematical symmetries at the network level, we achieve textures that maintain exact rotational and reflective symmetries while exhibiting rich, organic patterns.
+This work demonstrates practical applications of the [MindsEye framework](mindseye_technical_report.md), particularly leveraging its [trust region methods](trust_regions.md) for enforcing geometric constraints during optimization. The implementation benefits from MindsEye's [modular architecture](mindseye_modularity_report.md) and [reference counting system](mindseye_refcount_analysis.md) for efficient GPU memory management during texture generation.
 
 When neural style transfer burst onto the scene in 2015, it seemed to solve the problem of computational creativity - finally, machines could paint like Picasso or Van Gogh. Yet something was missing. While these systems excel at capturing organic artistic styles, they fail completely at the geometric precision that defines an entire category of visual art.
 
@@ -77,6 +79,11 @@ We represent hyperbolic tilings using the Poincaré disk model, which maps infin
 **Technical Implementation**: The Poincaré disk model requires careful handling of the complex arithmetic underlying hyperbolic transformations. Each symmetry operation corresponds to a Möbius transformation, and maintaining numerical stability while composing multiple such transformations demands high-precision arithmetic and careful error analysis.
 
 ## Implementation Architecture
+The implementation consists of several key components that work together to generate symmetric textures:
+1. **Symmetry Enforcement**: CIPMs that maintain perfect mathematical symmetries
+2. **Multi-scale Processing**: Hierarchical feature extraction at different resolutions
+3. **Style Transfer Integration**: Compatibility with existing style transfer frameworks
+4. **Optimization Framework**: Leverages [trust region methods](trust_regions.md) for constrained optimization
 
 ### Neural Network Foundation
 

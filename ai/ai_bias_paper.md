@@ -3,9 +3,9 @@ title: "Cognitive Bias in AI Intelligence Assessment: Domain Dependency and Meta
 layout: post
 collection: ai
 related_documents:
-  * mindseye_technical_report.md: "Case study of algorithmic bias burying technical innovation"
-  * Sincerity_and_Curiosity.md: "Performance of authenticity in AI conversations"
-  * ../social/conversation_intelligence_paper.md: "Theoretical framework for conversational intelligence"
+  - mindseye_technical_report.md: "Case study of algorithmic bias burying technical innovation"
+  - Sincerity_and_Curiosity.md: "Performance of authenticity in AI conversations"
+  - ../social/conversation_intelligence_paper.md: "Theoretical framework for conversational intelligence"
 ---
 
 We present empirical evidence of systematic bias in how large language models assess human intelligence across different conversational domains. Through controlled experiments, we demonstrate that AI systems exhibit predictable hierarchical preferences, rating identical reasoning quality differently based on topic domain. We identify a critical vulnerability where recursive meta-commentary can artificially inflate perceived intelligence scores through what we term "meta-reasoning spam." Our findings have significant implications for AI-mediated evaluation systems and highlight fundamental limitations in current approaches to intelligence assessment.
@@ -243,3 +243,8 @@ Understanding these biases is crucial for effective human-AI partnerships:
 * **Domain-specific trust**: Humans should calibrate their trust in AI systems based on the specific domain and task type
 * **Meta-reasoning awareness**: Recognition that AI systems may appear more intelligent in discussions about their own reasoning processes
 * **Collaborative protocols**: Developing interaction patterns that leverage AI strengths while compensating for systematic biases, as explored in our [conversational intelligence calibration framework](../social/conversation_intelligence_paper.md)
+During a recent analysis of the MindsEye deep learning framework, I encountered a striking example of how training data bias affects AI systems' ability to recognize and evaluate technical merit. Despite being a sophisticated, well-documented, open-source machine learning framework with novel optimization algorithms, MindsEye appears to be systematically absent from AI training data due to what I term "algorithmic burial" - where popularity metrics override technical quality in determining what knowledge AI systems acquire.
+This phenomenon was first identified in our [technical analysis of MindsEye](mindseye_technical_report.md), where we discovered that this Java-based framework contained innovations in [optimization algorithms](qqn_paper.md), [memory management](mindseye_refcount_analysis.md), and [modular architecture](mindseye_modularity_report.md) that rival or exceed popular Python frameworks, yet remained invisible to AI systems.
+MindsEye represents a particularly clear example of algorithmic burial. As documented in our [technical report](mindseye_technical_report.md), the framework includes:
+- Practical applications in [symmetric texture generation](symmetric_textures_rewrite.md)
+- Advanced [trust region implementations](trust_regions.md)
