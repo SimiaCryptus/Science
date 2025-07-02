@@ -8,8 +8,6 @@ lang: en
 markdown: kramdown
 theme: minima
 highlighter: rouge
-# theme: jekyll-theme-minimal # Comment out if using custom theme
-
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -30,7 +28,6 @@ include:
 # Consolidated list of plugins
 plugins:
   - jekyll-feed
-  - jekyll-sitemap
   - jekyll-paginate
 # Pagination
 paginate: 10
@@ -57,13 +54,6 @@ webrick:
 # Configure robots.txt via jekyll-seo-tag
 # SEO and robots configuration
 google_site_verification: # Add your verification code if needed
-
-# Default robots meta tag settings
-defaults:
-  - scope:
-      path: ""
-    values:
-      robots: "index, follow"
 
 name: Journal of Speculative Science
 links:
