@@ -20,3 +20,5 @@
  .*
  resume.md
 _site/
+.env
+.env.local

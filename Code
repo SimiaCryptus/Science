@@ -1,0 +1,10 @@
+// utils/validation.js
+
+/**
+ * Validates user input data
++ * @see {@link ./sanitization.js} for data cleaning
++ * @see {@link ../models/User.js} for user schema validation
+ * @param {Object} data - Input data to validate
+ * @returns {boolean} - Validation result
+ */
+function validateUserData(data) {
