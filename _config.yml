@@ -3,7 +3,7 @@ title: Fractal Thought Engine
 tagline: "Where consciousness meets computation at the edge of the possible"
 description: "A Journal of Speculative Science"
 baseurl: "/Science" # The subpath of your site, e.g. /blog
-url: "" # The base hostname & protocol for your site (leave empty for local development)
+url: "https://simiacryptus.github.io" # The base hostname & protocol for your site (leave empty for local development)
 lang: en
 markdown: kramdown
 theme: minima
@@ -23,6 +23,9 @@ exclude:
   - .gitignore
   - README.md
   - LICENSE
+# Override default robots.txt generation
+include:
+  - robots.txt
 
 # Consolidated list of plugins
 plugins:
@@ -47,6 +50,20 @@ logo: "/assets/images/fractal_thought_engine_logo.png"
 twitter:
   username: yourusername
   card: summary
+# Robots.txt settings - allow all crawlers full access
+webrick:
+  headers:
+    'X-Robots-Tag': 'index, follow'
+# Configure robots.txt via jekyll-seo-tag
+# SEO and robots configuration
+google_site_verification: # Add your verification code if needed
+
+# Default robots meta tag settings
+defaults:
+  - scope:
+      path: ""
+    values:
+      robots: "index, follow"
 
 name: Journal of Speculative Science
 links:

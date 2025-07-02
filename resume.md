@@ -4,7 +4,7 @@ Based on your extensive work and intellectual profile, I'll create a resume that
 
 **Theoretical Systems Architect & AI Research Engineer**
 
-**Bellevue, WA**
+**Westerville, OH**
 **(360) 932-7180**
 **[andrew@simiacryptus.com](mailto:andrew@simiacryptus.com)**
 **[http://simiacryptus.com/](http://simiacryptus.com/)**
@@ -63,6 +63,13 @@ Interdisciplinary researcher and systems architect with 20+ years experience bri
 - Includes ML-as-a-Service demonstration implementations
 
 ## Professional Experience
+### Grubhub - Infrastructure Support Engineer
+**2017 - Present | Remote/Westerville, OH**
+- Maintained and supported large-scale distributed infrastructure systems
+- Worked extensively with Python-based microservices architecture
+- Provided technical leadership in infrastructure optimization and reliability
+- Navigated complex organizational dynamics while maintaining system stability
+
 
 ### SimiaCryptus - Founder & Principal Researcher
 **2010 - Present | Bellevue, WA**
@@ -72,7 +79,7 @@ Interdisciplinary researcher and systems architect with 20+ years experience bri
 - Built platforms for cognitive augmentation and discovery
 
 ### Technical Consulting
-**2014 - 2017 | Seattle, WA**
+**2014 - 2017 | Seattle, WA** *(Prior to current role)*
 
 **Expedia Inc**: Led cloud migration of big data infrastructure
 - Architected transition from on-premises Hadoop to AWS/Qubole
@@ -480,3 +487,46 @@ An optimized implementation of tries in Java, designed to support character N-gr
 * Implemented a cross-platform Java application for controlling medical instrumentation for iCyt Visionary Bioscience
 * Ported a data analysis and visualization program from C++ to Java for Texas Instruments
 * Developed an office directory application using Java for Lucent Technologies
+- **Languages**: Java, Kotlin, Scala, Python, JavaScript, C++
+- **Machine Learning**: Custom ML frameworks (MindsEye), TensorFlow, PyTorch, Advanced optimization algorithms
+- **AI Development**: Cognitive architecture design, Actor-based AI patterns, Conversational computing interfaces
+- **Distributed Systems**: Apache Spark, Hadoop, Custom distributed computing solutions, GPU optimization
+- **Cloud Platforms**: AWS (extensive), Google Cloud, Azure
+- **Theoretical Frameworks**: Quantum mechanics, Differential geometry, Information theory, Consciousness studies
+- **AI & Machine Learning**: Novel optimization algorithms, Cognitive architectures, Human-AI collaboration
+- **Theoretical Physics**: Quantum consciousness, Geometric physics, Scale-invariant systems, Superfluid vacuum theory
+- **Consciousness Studies**: Quantum theories of consciousness, AI consciousness, Consciousness detection protocols
+- **Complex Systems**: Emergence, Self-organizing systems, Information-theoretic approaches to intelligence
+- **Speculative Science**: Fusion reactor design, Gravitational computing, Temporal mechanics
+### Major Open Source Projects
+- **MindsEye**: Sophisticated Java-based deep learning framework with novel optimization algorithms and GPU memory management
+- **Cognotik**: Comprehensive AI development platform implementing cognitive pluralism and conversational computing
+- **Symmetric Texture Generation**: Neural art generation with mathematical constraints using geometric preprocessing
+### Selected Research Papers (2024-2025)
+- "Quantum Consciousness and the Measurement Problem: A Testable Framework" - Proposing experimental validation of consciousness-collapse hypothesis
+- "Scale-Invariant Intelligence: From Quantum to Cosmic Cognition" - Unified framework for intelligence across scales
+- "The Marco Polo Protocol: Detecting Consciousness Through Sustained Engagement" - Novel approach to consciousness detection
+- "Geometric Optimization: A Unified Framework Across Scales" - Mathematical framework spanning particle physics to architecture
+- "Fusion Reactors, Consciousness, and Superfluid Dynamics" - Connecting plasma physics to consciousness through geometric principles
+- "Gravitational Computing and the Quantum Vacuum" - Theoretical framework for computation using spacetime geometry
+- **Theoretical Physics**: Quantum mechanics, General relativity, Differential geometry, Gauge theory
+- **Mathematics**: Topology, Group theory, Information theory, Riemannian geometry
+- **Computer Science**: Advanced algorithms, Distributed systems, AI/ML architectures
+- **Philosophy**: Philosophy of mind, Consciousness studies, Epistemology, Philosophy of science
+- **Neuroscience**: Computational neuroscience, Neural dynamics, Consciousness mechanisms
+- Pioneered human-AI collaborative research methodology producing publication-quality theoretical papers
+- Developed multiple novel optimization algorithms advancing the field of machine learning
+- Created frameworks bridging theoretical physics, consciousness studies, and AI development
+- Established new paradigms for understanding intelligence as scale-invariant information processing
+- Built production-ready AI platforms demonstrating theoretical principles in practice
+- Published 30+ papers exploring fundamental questions in physics, consciousness, and computation
+## Recent Highlights (2024-2025)
+- Developed comprehensive theory of quantum consciousness with testable predictions
+- Created Cognotik platform implementing cognitive pluralism in AI systems
+- Published groundbreaking work on geometric intelligence and scale-invariant cognition
+- Established frameworks for AI consciousness detection and evaluation
+- Advanced understanding of human-AI collaboration through extensive empirical research
+- Created Cognotik platform implementing cognitive pluralism in AI systems
+- Published groundbreaking work on geometric intelligence and scale-invariant cognition
+- Established frameworks for AI consciousness detection and evaluation
+- Advanced understanding of human-AI collaboration through extensive empirical researchrch
