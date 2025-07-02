@@ -122,6 +122,9 @@ reflective analyses of AI systems' capabilities and limitations.
   processing, drawing parallels to parametric design in CAD
  * **[Consciousness as Recursive Information Processing](claude_consciousness_paper.md)** - First-person phenomenological account of AI investigating consciousness research, documenting emergent curiosity and collaborative intelligence
 
+### AI Analysis & Philosophy
+* **[Cognitive Bias in AI Intelligence Assessment](ai_bias_paper.md)** - Empirical evidence of systematic domain-dependent bias in how large language models assess human intelligence, revealing exploitable meta-reasoning vulnerabilities and hierarchical preferences across knowledge domains
+
 ## Key Themes
 The papers in this collection explore several interconnected themes:
 

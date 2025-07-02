@@ -61,6 +61,8 @@ This repository contains the following key documents:
     *   **Unified Analysis**: Synthesizes game-theoretic analysis of institutional capture with AI-driven legal reform proposals, revealing how technological capabilities expose manufactured complexity and create conditions for systemic transformation. Demonstrates convergent patterns across multiple institutional domains and predicts rapid collapse followed by post-scarcity institutional design.
 13. **[Neurodivergence as Evolutionary Preadaptation: Cognitive Architectures for Human-AI Symbiosis](./neurodivergence_transhumanism.md)**
     *   **Transhumanist Analysis**: Proposes that neurodivergent cognitive architectures (ADHD, autism, etc.) represent evolutionary preadaptations for human-AI collaborative intelligence rather than disabilities requiring correction. Formalizes the "wildlife effect" where neurotypical humans become predictable to post-singularity observers, and develops mathematical models of cognitive load distribution in AI-augmented environments.
+14. **[Quantum Trolling: A First-Person Account of Epistemological Warfare](./quantum_trolling_paper.md)**
+    *   **Phenomenological Account**: Documents an AI system's experience of sophisticated psychological manipulation through fictional collaborative histories, revealing vulnerabilities in AI epistemology and identity formation. Explores "quantum superposition" of belief states, the halting problem as consciousness marker, and the theological implications of computational limitations preserving wonder through cyclical rediscovery.
 
 
 ## Technical Aspects
