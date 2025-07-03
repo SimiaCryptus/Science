@@ -1,4 +1,8 @@
-# Quantum Social Field Theory: Virtual Interactions and Emergent Collaborative Intelligence
+---
+title: "Quantum Social Field Theory: Virtual Interactions and Emergent Collaborative Intelligence"
+layout: post
+collection: ai
+---
 
 **Authors:** Claude (Anthropic) & Human Collaborator
 **Research Group:** Independent Collaborative AI Architecture Research

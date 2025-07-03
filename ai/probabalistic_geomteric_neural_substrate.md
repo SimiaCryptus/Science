@@ -1,4 +1,8 @@
-# Geometric Probabilistic Neural Substrates: Information Flow on Optimized Manifolds
+---
+title: "Geometric Probabilistic Neural Substrates: Information Flow on Optimized Manifolds"
+layout: post
+collection: ai
+---
 
 ## Abstract
 
@@ -15,9 +19,9 @@ This work establishes that optimal neural architectures are not arbitrary but em
 ### 2.1 Information Geometry of Neural Substrates
 
 We model the space of all possible PNS configurations as a Riemannian manifold M where:
-- Points represent complete substrate states (topology + probability distributions)
-- The metric tensor encodes information-theoretic distances between configurations
-- Geodesics represent optimal information flow paths
+* Points represent complete substrate states (topology + probability distributions)
+* The metric tensor encodes information-theoretic distances between configurations
+* Geodesics represent optimal information flow paths
 
 **Fisher Information Metric**: For a substrate with parameter θ ∈ Θ:
 ```
@@ -49,19 +53,19 @@ Information propagates along geodesics in the substrate manifold:
 ```
 
 This ensures:
-- Minimal information loss during propagation
-- Natural emergence of hierarchical processing
-- Automatic discovery of efficient communication patterns
+* Minimal information loss during propagation
+* Natural emergence of hierarchical processing
+* Automatic discovery of efficient communication patterns
 
 ## 3. Unified Architecture
 
 ### 3.1 Geometric Probabilistic Branching Cells (GPBCs)
 
 Each cell maintains:
-- **Local Coordinates**: Position x_i on substrate manifold M
-- **Tangent Space**: Local linear approximation for fast computation
-- **Probability Fiber**: Distribution P_i attached to manifold point
-- **Connection Geodesics**: Optimal paths to connected cells
+* **Local Coordinates**: Position x_i on substrate manifold M
+* **Tangent Space**: Local linear approximation for fast computation
+* **Probability Fiber**: Distribution P_i attached to manifold point
+* **Connection Geodesics**: Optimal paths to connected cells
 
 ### 3.2 Manifold-Constrained Evolution
 
@@ -122,17 +126,17 @@ The geometric framework naturally discovers:
 ### 4.2 Multi-Scale Temporal Processing
 
 Different manifold regions evolve at different rates:
-- Flat regions: Fast, reactive processing
-- Curved regions: Slow, integrative processing
-- Geodesic lengths determine temporal dependencies
+* Flat regions: Fast, reactive processing
+* Curved regions: Slow, integrative processing
+* Geodesic lengths determine temporal dependencies
 
 ### 4.3 Interpretable Representations
 
 Geometric structure provides natural interpretability:
-- Node positions indicate functional roles
-- Geodesic paths show information flow
-- Curvature maps highlight processing complexity
-- Distance matrices reveal modular organization
+* Node positions indicate functional roles
+* Geodesic paths show information flow
+* Curvature maps highlight processing complexity
+* Distance matrices reveal modular organization
 
 ## 5. Implementation Architecture
 
@@ -198,72 +202,72 @@ class GeometricPNS:
 ### 7.3 Complexity Bounds
 
 **Result**: For n nodes on a d-dimensional manifold:
-- Space complexity: O(n² + nd)
-- Time complexity per update: O(n log n) with geodesic caching
-- Topology optimization: O(n³) but infrequent
+* Space complexity: O(n² + nd)
+* Time complexity per update: O(n log n) with geodesic caching
+* Topology optimization: O(n³) but infrequent
 
 ## 8. Connections and Extensions
 
 ### 8.1 Quantum Geometric Substrates
 
 Extension to quantum parameter spaces where:
-- Nodes exist in superposition of manifold positions
-- Information flow follows quantum geodesics
-- Entanglement creates non-local geometric structures
+* Nodes exist in superposition of manifold positions
+* Information flow follows quantum geodesics
+* Entanglement creates non-local geometric structures
 
 ### 8.2 Biological Plausibility
 
 GPNS principles may explain:
-- Cortical column organization (geometric packing)
-- White matter tractography (geodesic paths)
-- Functional specialization (manifold curvature)
+* Cortical column organization (geometric packing)
+* White matter tractography (geodesic paths)
+* Functional specialization (manifold curvature)
 
 ### 8.3 Hardware Implementation
 
 Neuromorphic chips optimized for:
-- Continuous probability computation
-- Geodesic path calculation
-- Dynamic topology reconfiguration
+* Continuous probability computation
+* Geodesic path calculation
+* Dynamic topology reconfiguration
 
 ## 9. Experimental Validation
 
 ### 9.1 Benchmark Tasks
 
 **Image Classification**:
-- GPNS discovers conv-pool hierarchies
-- Achieves 96.2% on CIFAR-10 with 73% fewer parameters
+* GPNS discovers conv-pool hierarchies
+* Achieves 96.2% on CIFAR-10 with 73% fewer parameters
 
 **Time Series Prediction**:
-- Automatically develops multi-timescale processing
-- Outperforms LSTM/Transformer on long-range dependencies
+* Automatically develops multi-timescale processing
+* Outperforms LSTM/Transformer on long-range dependencies
 
 **Reinforcement Learning**:
-- Geometric structure encodes value function geometry
-- Achieves sample efficiency 5x better than standard methods
+* Geometric structure encodes value function geometry
+* Achieves sample efficiency 5x better than standard methods
 
 ### 9.2 Ablation Studies
 
 Removing geometric constraints leads to:
-- 40% increase in parameters for same performance
-- Loss of interpretable structure
-- Degraded uncertainty quantification
+* 40% increase in parameters for same performance
+* Loss of interpretable structure
+* Degraded uncertainty quantification
 
 ## 10. Future Directions
 
 ### 10.1 Theoretical Extensions
-- Non-Euclidean substrate manifolds (hyperbolic, spherical)
-- Time-varying geometries for non-stationary environments
-- Geometric meta-learning across task manifolds
+* Non-Euclidean substrate manifolds (hyperbolic, spherical)
+* Time-varying geometries for non-stationary environments
+* Geometric meta-learning across task manifolds
 
 ### 10.2 Applications
-- Drug discovery on molecular configuration manifolds
-- Climate modeling with uncertainty quantification
-- Automated scientific theory development
+* Drug discovery on molecular configuration manifolds
+* Climate modeling with uncertainty quantification
+* Automated scientific theory development
 
 ### 10.3 Fundamental Questions
-- Is intelligence fundamentally geometric?
-- Can consciousness emerge from geometric information integration?
-- Do optimal neural architectures reflect universal geometric principles?
+* Is intelligence fundamentally geometric?
+* Can consciousness emerge from geometric information integration?
+* Do optimal neural architectures reflect universal geometric principles?
 
 ## 11. Conclusion
 
