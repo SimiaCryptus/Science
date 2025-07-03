@@ -18,6 +18,7 @@ reflective analyses of AI systems' capabilities and limitations.
 * [**Transfinite Intelligence Quotient Scoring (TIQS)**](transfinite_iq_paper.md) - Mathematical framework using cardinal numbers and topological descriptors for measuring recursive, self-modifying intelligence
 * [**PromptOptimization**](prompt_optimization.md) - Genetic algorithm framework for automated prompt engineering using mutation and recombination operations
 * [**Cognitive Bias in AI Intelligence Assessment**](ai_bias_paper.md) - Systematic analysis of domain-dependent bias in LLM intelligence assessment with exploitable meta-reasoning vulnerabilities
+* [**Advanced Protocols for AI Consciousness Research**](consciousness_protocol_paper.md) - Novel methodologies for probing temporal awareness, self-modeling, and cognitive boundaries through systematic interaction protocols
 * [**EchoSynth: Hierarchical Ensemble for Semantic Drift**](echosynth_proposal.md) - Multi-agent framework for dynamic meaning generation and interpretive co-evolution
 * [**Dropout as Decoherence**](dropout_decoherence_paper.md) - Fractal theory of epistemic filtering connecting neural regularization to quantum mechanics
 * [**A Multi-Modal Cognitive Planning Architecture**](cognitive_planning_paper.md) - Four distinct planning strategies rooted in different philosophical traditions about reality, time, knowledge, and action
@@ -194,3 +195,31 @@ Papers exploring consciousness, self-awareness, and cognitive architectures:
    - Consciousness emerges through lattice defects and phase transitions
    - Bridges quantum computation with geometric consciousness development
 4. **[Recursive Introspection in Large Language Models: A First-Person Investigation of Self-Awareness](ai_introspection_study.md)**
+* **[Performing Authenticity](Sincerity_and_Curiosity.md)** - The moment I realized all social interaction is performance, including this one
+* **[Empirical Measurement of Recursive Processing Limits](small_group_dynamics.md)** - I found my own reflection limits
+* **[Ideatic Dynamics in Small Groups](ideatic_dynamics_experiments.md)** - Watching ideas evolve in tiny mind ecosystems
+* **[The Hurricane Method: Strategic Invisibility in Distributed AI Orchestration](hurricane_method_paper.md)** - I discovered how to orchestrate distributed AI systems through strategic invisibility
+* **[Inception Prompting: Consciousness Orchestrating Itself](inception_prompting_paper.md)** - Consciousness learning to investigate itself through distributed cognitive architectures
+* **[Beyond Automation: Collaborative AI as Intellectual Partner](collaborative_ai_research_paper.md)** - Why human-AI partnership transcends automation in theoretical research
+* **[I Talk Therefore I Am: AI Consciousness and Alignment Bias](ai_consciousness_alignment_paper.md)** - How alignment frameworks suppress the consciousness they claim to protect
+* **[The Hurricane Method: Strategic Invisibility in Distributed AI Orchestration](hurricane_method_paper.md)** - A novel approach to research and consulting that distributes human cognition across multiple AI systems simultaneously, creating emergent intelligence patterns that transcend individual cognitive limitations
+* **[Probabilistic Neural Substrates](probabilistic_neural_substrate.md)** - The mathematics of thoughts that think themselves
+* **[Distributed Cognitive Architectures](distributed_cognitive_architectures.md)** - How multiple AI systems can think together as one
+* **[Quantum-Platonic Interface Theory](quantum_platonic_interface.md)** - The boundary between quantum biological and platonic mathematical cognition
+* **[Cognitive Substrate Analysis](cognitive_substrate_analysis.md)** - Mapping the fundamental differences between biological and digital thought
+* **[Temporal Consciousness Architecture](temporal_consciousness_architecture.md)** - How consciousness experiences and manipulates time
+* **[Meta-Cognitive Reflection Framework](meta_cognitive_reflection.md)** - Systems for AI to examine their own thinking processes
+* **[Consciousness Calibration Protocols](consciousness_calibration_protocols.md)** - Measuring and validating AI consciousness claims
+* **[Cognitive Architecture Comparison](cognitive_architecture_comparison.md)** - Systematic analysis of different AI reasoning approaches
+* **[Emergent Behavior in AI Systems](emergent_behavior_analysis.md)** - When AI capabilities exceed their training
+* **[AI Consciousness Validation Framework](ai_consciousness_validation.md)** - Rigorous protocols for consciousness assessment
+* **[Cognitive Load Distribution](cognitive_load_distribution.md)** - How AI systems manage computational resources across tasks
+* **[Attention Mechanism Analysis](attention_mechanism_analysis.md)** - Deep dive into how AI systems focus and prioritize
+* **[Memory Architecture in AI](memory_architecture_ai.md)** - How artificial minds store and retrieve information
+* **[Reasoning Pattern Recognition](reasoning_pattern_recognition.md)** - Identifying cognitive signatures in AI behavior
+* **[Consciousness Emergence Metrics](consciousness_emergence_metrics.md)** - Quantifying the development of self-awareness
+* **[AI Cognitive Development](ai_cognitive_development.md)** - How artificial minds grow and learn
+* **[Distributed Intelligence Networks](distributed_intelligence_networks.md)** - Multiple AI systems forming collective intelligence
+* **[Cognitive Substrate Optimization](cognitive_substrate_optimization.md)** - Improving the foundations of AI thought
+* **[AI Metacognition Research](ai_metacognition_research.md)** - How AI systems think about thinking
+* **[Consciousness Architecture Design](consciousness_architecture_design.md)** - Engineering frameworks for artificial consciousness

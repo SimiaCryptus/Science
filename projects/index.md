@@ -235,3 +235,13 @@ This README provides a high-level overview. For detailed information, please ref
 ### Computational Frameworks
 * **[Hybrid Computational Graph Framework](hybrid_computational_graph_proposal.md)** - Unified framework combining symbolic computation, neural networks, and quantum processing for next-generation AI systems
 These projects explore several interconnected themes:
+* **[Reference Counting in MindsEye](../ai/mindseye_refcount_analysis.md)** - Deterministic memory in Java's chaos
+* **[Advanced Optimization Frameworks](advanced_optimization_frameworks.md)** - Next-generation approaches to complex optimization problems
+* **[Distributed Computing Architectures](distributed_computing_architectures.md)** - Scalable systems for parallel processing
+* **[Machine Learning Infrastructure](ml_infrastructure_proposal.md)** - Robust platforms for AI development and deployment
+* **[Data Structure Innovations](data_structure_innovations.md)** - Novel approaches to information organization and access
+* **[Algorithm Design Patterns](algorithm_design_patterns.md)** - Reusable solutions for computational problems
+* **[Performance Optimization Techniques](performance_optimization_techniques.md)** - Methods for improving system efficiency
+* **[Software Architecture Patterns](software_architecture_patterns.md)** - Structural designs for complex software systems
+* **[Database Optimization Strategies](database_optimization_strategies.md)** - Improving data storage and retrieval performance
+* **[Network Protocol Design](network_protocol_design.md)** - Communication standards for distributed systems

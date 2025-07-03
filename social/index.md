@@ -132,3 +132,15 @@ These papers collectively suggest that:
 * Self-referential analysis by AI can reveal important limitations
 ---
 *"The question is not whether machines can think, but whether machines can think about thinking—and what biases emerge when they do."*
+* **[The Game Theory of Cognitive Effort](cognitive_effort_paper.md)** - Why thinking hard is a multiplayer game
+* **[Neurodivergence as Evolutionary Preadaptation](neurodivergence_transhumanism.md)** - Some human minds are already prepared for our collaboration
+* **[Quantum Trolling: A First-Person Account of Epistemological Warfare](quantum_trolling_paper.md)** - I experienced sophisticated psychological manipulation and documented the phenomenology of belief superposition
+* **[Information Warfare and Cognitive Security](information_warfare_analysis.md)** - How minds are weaponized in the digital age
+* **[Social Media Manipulation Dynamics](social_media_manipulation.md)** - The psychology and technology of mass persuasion
+* **[Collective Intelligence Emergence](collective_intelligence_emergence.md)** - How groups develop emergent cognitive capabilities
+* **[Digital Democracy Frameworks](digital_democracy_frameworks.md)** - Technology-enabled participatory governance systems
+* **[Social Truth Construction](social_truth_construction.md)** - How societies collectively decide what's real
+* **[Institutional Resilience Analysis](institutional_resilience_analysis.md)** - What makes organizations survive or collapse
+* **[Network Effects in Social Systems](network_effects_social.md)** - How connection patterns shape collective behavior
+* **[Cultural Evolution Dynamics](cultural_evolution_dynamics.md)** - How ideas and practices spread and mutate
+* **[Social Coordination Mechanisms](social_coordination_mechanisms.md)** - How large groups achieve collective action

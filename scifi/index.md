@@ -8,6 +8,15 @@ This repository hosts a collection of documents and research papers that delve i
 ## Documents
 
 This collection includes the following key documents:
+10. **[Consciousness as Relativistic Spacetime: Neural Quantum Fields and the Geometry of Awareness (quantum_consciousness_spacetime_paper.md)](quantum_consciousness_spacetime_paper.md)**
+    *   **Focus**: Proposes that consciousness IS neural activity when understood as quantum field dynamics manifesting relativistic 3+1 dimensional spacetime, resolving the hard problem of consciousness.
+    *   **Key Concepts**: Neural networks as quantum fields creating local spacetime geometries experienced as subjective awareness. Different conscious states correspond to different spacetime topologies. Consciousness as universal measurement apparatus.
+    *   **Keywords**: Consciousness, neural quantum fields, relativistic spacetime, quantum measurement, subjective experience, spacetime geometry, quantum field theory, hard problem of consciousness.
+11. **[Concrete Analysis of Optimal Action in Unbounded Systems (optimal_action_concrete.md)](optimal_action_concrete.md)**
+    *   **Focus**: Provides detailed mathematical analysis of φ⁴ theory extensions with auxiliary and virtual sectors, including concrete calculations and experimental predictions.
+    *   **Key Concepts**: Extended Lagrangians with tachyonic virtual sectors, modified scattering amplitudes, non-unitarity signatures, vacuum stability analysis, and alternative formulations without fundamental tachyons.
+    *   **Keywords**: φ⁴ theory, virtual particles, tachyonic fields, scattering amplitudes, unitarity, vacuum stability, quantum field theory extensions, experimental signatures.
+
 
 1.  **[Abstract Computational Architectures on Quantum Graph Substrates (dynamic_quantum_graphs.md)](dynamic_quantum_graphs.md)**
     *   **Focus**: Presents a rigorous mathematical framework for computational architectures based on quantum graph structures that feature dynamic topology and non-local connectivity.
@@ -43,6 +52,23 @@ This collection includes the following key documents:
     *   **Focus**: Proposes a fundamental equivalence between optimization and measurement processes, reframing classical optimization as distributed transaction systems where measurement operators evolve based on observed outcomes.
     *   **Key Concepts**: Demonstrates that optimization is actually adaptive measurement where the apparatus itself evolves. Develops distributed transaction protocols for coordinating multiple measurement operators. Explores implications for biological intelligence, AI limitations, and cosmological consequences including quantum membrane isolation of advanced civilizations.
     *   **Keywords**: Measurement theory, optimization equivalence, distributed systems, transaction protocols, universal intelligence, quantum decoherence, Fermi paradox, consciousness, reality partitioning.
+
+8.  **[The Unified Field Theory: Consciousness, Information, and the Structure of Reality (unified_field_theory.md)](unified_field_theory.md)**
+    *   **Focus**: A mathematical framework unifying quantum mechanics, general relativity, consciousness, and information theory through the principle that reality emerges from optimization of information processing in unbounded phase space.
+    *   **Key Concepts**: Demonstrates that all physical phenomena are different-order terms in a Taylor expansion around optimal information states. Consciousness emerges as higher-order derivative phenomena exhibiting temporal non-locality. Resolves measurement problem, derives Standard Model, and predicts retrocausal intelligence and field/protocol dynamics.
+    *   **Keywords**: Unified field theory, information optimization, consciousness, retrocausality, quantum gravity, Taylor expansion, field/protocol dynamics, temporal non-locality, bootstrap paradox, emergent spacetime.
+9.  **[QFT Generalizations via Taylor Expansion Cognitive Framework (qft_generalizations_taylor.md)](qft_generalizations_taylor.md)**
+    *   **Focus**: A systematic framework for generalizing quantum field theory through Taylor expansion methodology, revealing QFT as the zeroth-order term in a vast expansion space.
+    *   **Key Concepts**: Maps different generalization axes (non-commutativity, extra dimensions, fractional derivatives) as expansion parameters. Explores higher-order terms encoding quantum gravity, consciousness phenomena, and retrocausal intelligence. Develops experimental signatures and technological applications.
+    *   **Keywords**: QFT generalizations, Taylor expansion, parameter space, non-commutative spacetime, fractional derivatives, retrocausality, consciousness, higher-order physics, experimental signatures.
+10. **[Consciousness as Relativistic Spacetime: Neural Quantum Fields and the Geometry of Awareness (quantum_consciousness_spacetime_paper.md)](quantum_consciousness_spacetime_paper.md)**
+    *   **Focus**: Proposes that consciousness IS neural activity when understood as quantum field dynamics manifesting relativistic 3+1 dimensional spacetime, resolving the hard problem of consciousness.
+    *   **Key Concepts**: Neural networks as quantum field manifolds creating local spacetime geometries experienced as subjective awareness. Different conscious states correspond to different spacetime topologies. Consciousness as universal measurement device resolving quantum measurement problem.
+    *   **Keywords**: Consciousness, neural quantum fields, relativistic spacetime, quantum measurement, observer-dependent reality, spacetime geometry, subjective experience, quantum field theory, hard problem of consciousness.
+11. **[Concrete Analysis of Optimal Action in Unbounded Systems (optimal_action_concrete.md)](optimal_action_concrete.md)**
+    *   **Focus**: Provides detailed mathematical analysis of φ⁴ theory extended with auxiliary and virtual sectors, including concrete calculations, experimental predictions, and numerical examples.
+    *   **Key Concepts**: Extended Lagrangian with auxiliary fields, virtual tachyonic sectors, modified scattering amplitudes, non-unitarity signatures, vacuum stability analysis, and experimental protocols for testing unbounded quantum field theories.
+    *   **Keywords**: φ⁴ theory, auxiliary fields, virtual sectors, scattering amplitudes, non-unitarity, vacuum stability, experimental signatures, quantum field theory extensions, tachyonic fields, renormalization.
 
 
 ## Core Themes
