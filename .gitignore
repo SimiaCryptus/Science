@@ -18,7 +18,7 @@
  # Favicon generation temp files
  temp/
  .*
- resume.md
 _site/
 .env
 .env.local
+personal/
