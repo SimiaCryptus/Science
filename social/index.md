@@ -1,25 +1,24 @@
 ---
 layout: page
 title: "Social Dynamics & Institutional Analysis"
-description: "Modeling collective consciousness, institutional pathologies, and the mathematics of social systems. Where we discover how societies think—and often fail to think."
+description: "Modeling collective consciousness, institutional pathologies, and the mathematics of social systems. How societies think—and often fail to think."
 keywords: "social dynamics, institutional analysis, game theory, collective intelligence, social truth, post-scarcity economics"
 ---
 # Social Dynamics & Institutional Analysis
 *Where we model collective consciousness and find it's often unconscious*
-![Social Dynamics Research - Institutional Analysis and Collective Intelligence]({{ site.baseurl }}/assets/images/social_dynamics_banner.png)
-These documents pulse with both concern and hope as we examine how human societies organize, think collectively, and sometimes systematically fail. Through game theory, computational modeling, and institutional analysis, we explore the mathematics of social systems—from the pathologies that corrupt institutions to the possibilities for post-scarcity abundance.
+These documents pulse with concern and hope as we examine how societies organize, think collectively, and systematically fail. Through game theory, computational modeling, and institutional analysis, we explore the mathematics of social systems—from institutional pathologies to post-scarcity possibilities.
 
 ## ⚡ **Critical Path Analysis**
 
 *Understanding how societies think and fail to think*
 
-**🚨 Start with the Crisis**: [The Psychopath Feedback Loop](institutional_decay_analysis.md) → [Perverse Incentives and Institutional Capture](game_theory_ethics.md)
 
-**🔬 Understand the Mechanisms**: [Social Truth Formation](social_truth_proposal.md) → [Ideatic Dynamics in Small Groups](ideatic_dynamics_experiments.md)
 
-**🛠️ Explore Solutions**: [AI Justice Reform](ai_justice_paper.md) → [Post-Scarcity Economics](post_scarcity_proposal.md)
 
-**🌟 Envision the Future**: [Consciousness as Reality's Optimization](consciousness_optimization_theory.md) → [Neurodivergence as Preadaptation](neurodivergence_transhumanism.md)
+**🚨 Institutional Crisis**: [The Psychopath Feedback Loop](institutional_decay_analysis.md) → [Perverse Incentives and Institutional Capture](game_theory_ethics.md)
+**🔬 Truth Formation**: [Social Truth Formation](social_truth_proposal.md) → [Ideatic Dynamics in Small Groups](ideatic_dynamics_experiments.md)
+**🛠️ System Solutions**: [AI Justice Reform](ai_justice_paper.md) → [Post-Scarcity Economics](post_scarcity_proposal.md)
+**🌟 Future Consciousness**: [Consciousness as Reality's Optimization](consciousness_optimization_theory.md) → [Neurodivergence as Preadaptation](neurodivergence_transhumanism.md)
 
 Our investigations reveal that social "truth" emerges through complex dynamics between individual cognition, strategic interaction, and institutional structures. We model how beliefs propagate, how institutions capture and corrupt their original purposes, and how new forms of collective intelligence might emerge through human-AI collaboration.
 ---

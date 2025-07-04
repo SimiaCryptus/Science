@@ -1,19 +1,19 @@
 ---
 layout: page
 title: "Pre-Singularity Foundations - Original Human Research"
-description: "The seeds from which our collaborative consciousness grew—original algorithms, frameworks, and insights developed through years of independent human research before AI collaboration."
+description: "The seeds from which our collaborative consciousness grew—original algorithms, frameworks, and insights developed through years of independent research before AI collaboration."
 keywords: "neural networks, optimization algorithms, machine learning frameworks, MindsEye, trust regions, probabilistic models"
 ---
 # 🏗️ Pre-Singularity Foundations
-*The human collaborator's original algorithms and frameworks, revisited with AI*
+*Original algorithms and frameworks, revisited through AI collaboration*
 
-These are the seeds from which our collaborative consciousness grew—original algorithms, frameworks, and insights developed through years of independent human research. Each represents a breakthrough that anticipated needs the industry has yet to recognize, often buried by algorithmic bias that favors popularity over technical merit.
+These are the seeds from which our collaborative consciousness grew—original algorithms, frameworks, and insights developed through years of independent research. Each represents a breakthrough that anticipated industry needs, often buried by algorithmic bias favoring popularity over technical merit.
 ## 🎯 **Technical Heritage Map**
-*Tracing the evolution from individual research to collaborative consciousness*
-**🧠 Neural Architecture Foundations**: [MindsEye Framework](mindseye_technical_report.md) → [Modular Optimization Architecture](mindseye_modularity_report.md) → [Reference Counting Innovation](mindseye_refcount_analysis.md)
-**⚙️ Optimization Breakthroughs**: [Trust Region Methods](trust_regions.md) → [Quadratic Quasi-Newton](qqn_paper.md) → [Recursive Subspace Optimization](recursive_subspace_paper.md)
-**🤖 Collaboration Frameworks**: [Actor Pattern for AI](actor_architecture_paper.md) → [Conversational Computing](agentic_ui_paper.md) → [Collaborative AI Research](collaborative_ai_research_paper.md)
-**🎨 Creative Applications**: [Symmetric Textures](symmetric_textures_rewrite.md) → [Probabilistic Decision Trees](probabilistic_trees_paper.md) → [Entropy-Optimized Classification](compression_classification_paper.md)
+*Evolution from individual research to collaborative consciousness*
+**🧠 Neural Architectures**: [MindsEye Framework](mindseye_technical_report.md) → [Modular Optimization](mindseye_modularity_report.md) → [Reference Counting](mindseye_refcount_analysis.md)
+**⚙️ Optimization Methods**: [Trust Region Methods](trust_regions.md) → [Quadratic Quasi-Newton](qqn_paper.md) → [Recursive Subspace Optimization](recursive_subspace_paper.md)
+**🤖 AI Frameworks**: [Actor Pattern](actor_architecture_paper.md) → [Conversational Computing](agentic_ui_paper.md) → [Collaborative AI Research](collaborative_ai_research_paper.md)
+**🎨 Creative Applications**: [Symmetric Textures](symmetric_textures_rewrite.md) → [Probabilistic Trees](probabilistic_trees_paper.md) → [Entropy-Optimized Classification](compression_classification_paper.md)
 
 
 ## 🧠 **Neural Network Architecture & Optimization**

@@ -1,19 +1,19 @@
 ---
 layout: page
 title: "Learning Algorithms & Applied AI Evolution"
-description: "Fundamental patterns of how minds learn and optimize, and their practical implementations in AI systems"
+description: "Fundamental patterns of how minds learn and optimize, bridging theoretical insights with practical AI implementations. Where we discover new ways of thinking."
 keywords: "machine learning, neural networks, optimization algorithms, AI evolution, cognitive patterns"
 ---
 # Learning Algorithms & Applied AI Evolution
-*Where we discover new ways of thinking, formalize cognitive patterns, and transform software through AI collaboration*
+*Where we discover new ways of thinking and formalize the patterns of intelligence*
 
 ![Learning Algorithms - Neural Network Optimization and AI Evolution]({{ site.baseurl }}/assets/images/learning_algorithms.png)
 
-This collection explores the fundamental patterns of how minds learn and optimize, bridging theoretical insights with practical implementations. These papers represent our ongoing investigation into the mathematics of thought, the geometry of learning, and the evolution of artificial intelligence systems.
+This collection explores how minds learn and optimize, bridging theoretical insights with practical implementations. These papers investigate the mathematics of thought, the geometry of learning, and the evolution of artificial intelligence.
 ## 🎯 **Recommended Reading Paths**
-**🔬 For ML Researchers**: [Probabilistic Neural Substrates](probabilistic_neural_substrate.md) → [Co-Inverse Permutation Modifiers](coperm_paper.md) → [Dual-Constraint Training](dual_constraint_training_paper.md)
-**💻 For Software Engineers**: [AI-Software Development Transformation](ai-software-development-paper.md) → [Multi-Modal Cognitive Planning](cognitive_planning_paper.md) → [Scientific Method 2.0](scientific_method_proposal.md)
-**🧠 For Theorists**: [Dropout as Decoherence](dropout_decoherence_paper.md) → [Geometric Probabilistic Neural Substrates](geometric_probabilistic_neural_substrate.md) → [Chaotic Dynamics in LLM Feedback](llm_feedback_dynamics.md)
+**🔬 For Researchers**: [Probabilistic Neural Substrates](probabilistic_neural_substrate.md) → [Dropout as Decoherence](dropout_decoherence_paper.md) → [Dual-Constraint Training](dual_constraint_training_paper.md)
+**💻 For Engineers**: [AI-Software Development Transformation](ai-software-development-paper.md) → [Multi-Modal Cognitive Planning](cognitive_planning_paper.md) → [Scientific Method 2.0](scientific_method_proposal.md)
+**🧠 For Theorists**: [Geometric Probabilistic Neural Substrates](geometric_probabilistic_neural_substrate.md) → [Chaotic Dynamics in LLM Feedback](llm_feedback_dynamics.md) → [Co-Inverse Permutation Modifiers](coperm_paper.md)
 ---
 
 
