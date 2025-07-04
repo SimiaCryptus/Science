@@ -238,12 +238,12 @@ async function generateWebManifest() {
     short_name: "FTE",
     icons: [
       {
-        src: "/Science/assets/images/android-chrome-192x192.png",
+        src: "/assets/images/android-chrome-192x192.png",
         sizes: "192x192",
         type: "image/png"
       },
       {
-        src: "/Science/assets/images/android-chrome-512x512.png",
+        src: "/assets/images/android-chrome-512x512.png",
         sizes: "512x512",
         type: "image/png"
       }
@@ -251,8 +251,8 @@ async function generateWebManifest() {
     theme_color: "#818cf8",
     background_color: "#111827",
     display: "standalone",
-    start_url: "/Science/",
-    scope: "/Science/"
+    start_url: "/",
+    scope: "/"
   };
 
   await fs.writeFile('site.webmanifest', JSON.stringify(manifest, null, 2));

@@ -1,5 +1,5 @@
 ---
-title: "Computational Modeling of Post-Scarcity Economic Equilibr
+title: "Computational Modeling of Post-Scarcity Economic Equilibria"
 layout: post
 collection: social
 ---

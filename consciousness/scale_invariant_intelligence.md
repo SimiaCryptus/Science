@@ -1,4 +1,8 @@
-# Scale-Invariant Intelligence: From Texture Synthesis to the Structure of Reality
+---
+title: "Scale-Invariant Intelligence: From Texture Synthesis to the Structure of Reality"
+layout: post
+collection: ai
+---
 
 ## A Research Discussion Paper
 **Related Work:**

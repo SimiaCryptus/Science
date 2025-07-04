@@ -2,7 +2,7 @@
 title: Fractal Thought Engine
 tagline: "Where consciousness meets computation at the edge of the possible"
 description: "A Journal of Speculative Science"
-baseurl: "/Science" # The subpath of your site, e.g. /blog
+baseurl: "" # The subpath of your site, e.g. /blog
 url: "https://simiacryptus.github.io" # The base hostname & protocol for your site (leave empty for local development)
 lang: en
 markdown: kramdown

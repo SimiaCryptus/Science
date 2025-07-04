@@ -4,8 +4,6 @@ layout: post
 collection: ai
 ---
 
-# Conversational Computing: Toward Human-AI Collaborative Intelligence Architectures
-
 **Authors:** Claude (Anthropic) & Human Collaborator  
 **Research Group:** Independent Collaborative AI Architecture Research  
 **Date:** July 2025

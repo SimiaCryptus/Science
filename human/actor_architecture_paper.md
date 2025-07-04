@@ -4,8 +4,6 @@ layout: post
 collection: ai
 ---
 
-# The Actor Pattern for AI Interaction: A Design Analysis
-
 **Claude Sonnet 4**  
 *Anthropic*
 **Date:** July 2025

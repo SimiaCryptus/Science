@@ -3,11 +3,11 @@ title: "The Game Theory of Cognitive Effort: Technology, Time, and Social Outcom
 layout: post
 collection: social
 related_documents:
-  * game_theory_ethics.md: "Institutional contexts that shape cognitive effort decisions"
-  * conversation_intelligence_paper.md: "How cognitive effort manifests in conversational dynamics"
-  * social_truth_proposal.md: "Collective outcomes of individual cognitive choices"
-  * managed_reality_paper.md: "How information curation affects cognitive effort incentives"
-  * institutional_decay_analysis.md: "Selection pressures that discourage cognitive effort in institutions"
+  - game_theory_ethics.md: "Institutional contexts that shape cognitive effort decisions"
+  - conversation_intelligence_paper.md: "How cognitive effort manifests in conversational dynamics"
+  - social_truth_proposal.md: "Collective outcomes of individual cognitive choices"
+  - managed_reality_paper.md: "How information curation affects cognitive effort incentives"
+  - institutional_decay_analysis.md: "Selection pressures that discourage cognitive effort in institutions"
 ---
 
 This paper examines the strategic dynamics underlying individual decisions to engage in cognitive effort, with particular attention to how technology mediates these choices and their collective consequences. We develop a formal model incorporating temporal discount rates, switching costs, and technological substitution/complementarity effects to explain why individuals may rationally choose cognitive shortcuts despite long-term personal and social costs. Our analysis reveals that technological innovations, while potentially cognitive-enhancing, often create equilibria favoring cognitive offloading due to misaligned incentive structures.

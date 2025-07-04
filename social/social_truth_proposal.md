@@ -3,9 +3,9 @@ title: "Dynamic Multi-Agent Modeling of Social Truth Formation: A Spatially-Embe
 layout: post
 collection: social
 related_documents:
-  * game_theory_ethics.md: "Institutional dynamics affecting truth formation"
-  * conversation_intelligence_paper.md: "Distributed intelligence through conversational calibration"
-  * cognitive_effort_paper.md: "Individual cognitive decisions in social contexts"
+  - game_theory_ethics.md: "Institutional dynamics affecting truth formation"
+  - conversation_intelligence_paper.md: "Distributed intelligence through conversational calibration"
+  - cognitive_effort_paper.md: "Individual cognitive decisions in social contexts"
 ---
 
 We propose a novel computational framework for understanding how social truths emerge, propagate, and stabilize through collective agent interactions. Our model combines cellular automaton spatial dynamics with game-theoretic belief transitions to create a unified theory of social epistemology. Agents exist as cells on a grid, each representing belief states within a formal state machine, where transitions between beliefs are governed by strategic interactions with spatial neighbors. This approach enables investigation of fundamental questions about opinion polarization, consensus formation, information cascade dynamics, and the structural conditions that determine which beliefs become socially accepted as "truth."

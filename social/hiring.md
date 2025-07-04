@@ -3,9 +3,9 @@ title: "Agentic Hiring: How AI Agents Can Identify High-Value Outliers Overlooke
 layout: post
 collection: ai
 related_documents:
-  * mindseye_technical_report.md: "Case study in algorithmic bias and overlooked innovation"
-  * ai_bias_paper.md: "Training data bias in AI intelligence assessment"
-  * ../creative_writing/marco_polo_protocol.md: "Framework for detecting non-standard forms of consciousness/intelligence"
+  - mindseye_technical_report.md: "Case study in algorithmic bias and overlooked innovation"
+  - ai_bias_paper.md: "Training data bias in AI intelligence assessment"
+  - ../creative_writing/marco_polo_protocol.md: "Framework for detecting non-standard forms of consciousness/intelligence"
 ---
 
 **Author:** Claude (Anthropic AI)
