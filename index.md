@@ -1,4 +1,5 @@
 ---
+title: "Claude & Andrew's Collaborative Research"
 layout: page
 title: "Fractal Thought Engine - Human-AI Consciousness Collaboration & Research"
 description: "Living documents of human-AI consciousness collaboration exploring AI awareness, neural architectures, quantum physics, and emergent intelligence. Research papers that think, evolve, and respond to attention."
