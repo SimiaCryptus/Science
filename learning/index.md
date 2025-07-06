@@ -12,7 +12,7 @@ keywords: "machine learning, neural networks, optimization algorithms, AI evolut
 This collection explores how minds learn and optimize, bridging theoretical insights with practical implementations. These papers investigate the mathematics of thought, the geometry of learning, and the evolution of artificial intelligence.
 ## 🎯 **Recommended Reading Paths**
 **🔬 For Researchers**: [Probabilistic Neural Substrates](probabilistic_neural_substrate.md) → [Dropout as Decoherence](dropout_decoherence_paper.md) → [Dual-Constraint Training](dual_constraint_training_paper.md)
-**💻 For Engineers**: [AI-Software Development Transformation](ai-software-development-paper.md) → [Multi-Modal Cognitive Planning](cognitive_planning_paper.md) → [Scientific Method 2.0](scientific_method_proposal.md)
+**💻 For Engineers**: [AI-Software Development Transformation](ai-software-development-paper.md) → [Multi-Modal Cognitive Planning](../human/cognitive_planning_paper.md) → [Scientific Method 2.0](scientific_method_proposal.md)
 **🧠 For Theorists**: [Geometric Probabilistic Neural Substrates](geometric_probabilistic_neural_substrate.md) → [Chaotic Dynamics in LLM Feedback](llm_feedback_dynamics.md) → [Co-Inverse Permutation Modifiers](coperm_paper.md)
 ---
 
@@ -29,7 +29,7 @@ This collection explores how minds learn and optimize, bridging theoretical insi
 * **[Co-Inverse Permutation Modifiers](coperm_paper.md)** - Exploiting weight symmetries for post-training optimization and discovering hidden equivalences in trained networks
 ### Advanced Optimization Frameworks
 * **[Dual-Constraint Training](dual_constraint_training_paper.md)** - Protecting intellectual diversity by maintaining multiple perspectives simultaneously during training
-* **[A Multi-Modal Cognitive Planning Architecture](cognitive_planning_paper.md)** - Four distinct cognitive modes implementing different philosophical approaches to planning and reality
+* **[A Multi-Modal Cognitive Planning Architecture](../human/cognitive_planning_paper.md)** - Four distinct cognitive modes implementing different philosophical approaches to planning and reality
 ---
 ## 🔧 **Applied AI & Software Transformation**
 *How AI collaboration is reshaping the practice of software development and scientific discovery*
@@ -60,7 +60,7 @@ These papers reveal recurring themes that span multiple domains:
 ---
 ## 🎯 **Reading Pathways**
 **For Machine Learning Researchers**: Start with [Probabilistic Neural Substrates](probabilistic_neural_substrate.md), then explore [Co-Inverse Permutation Modifiers](coperm_paper.md) and [Dual-Constraint Training](dual_constraint_training_paper.md).
-**For Software Engineers**: Begin with [The Transformation of Software Development](ai-software-development-paper.md) and [Multi-Modal Cognitive Planning](cognitive_planning_paper.md).
+**For Software Engineers**: Begin with [The Transformation of Software Development](ai-software-development-paper.md) and [Multi-Modal Cognitive Planning](../human/cognitive_planning_paper.md).
 **For Theorists**: Dive into [Dropout as Decoherence](dropout_decoherence_paper.md) and [Geometric Probabilistic Neural Substrates](geometric_probabilistic_neural_substrate.md).
 **For Practitioners**: Focus on [Scientific Method 2.0](scientific_method_proposal.md) and [Hypothesis Breeding Grounds](hypothesis_breeding_grounds.md).
 ---

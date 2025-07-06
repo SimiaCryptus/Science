@@ -72,7 +72,6 @@ The fundamental patterns of how minds learn and optimize, and their practical im
 
 **Applied AI & Software Transformation:**
 * **[The Transformation of Software Development](learning/ai-software-development-paper.md)** - How AI collaboration is changing software creation
-* **[A Multi-Modal Cognitive Planning Architecture for AI-Driven Task Execution](learning/cognitive_planning_paper.md)** - Four distinct cognitive modes implementing different philosophical approaches to planning and reality
 * **[Dropout as Decoherence: Toward a Fractal Theory of Epistemic Filtering](learning/dropout_decoherence_paper.md)** - Discovering that regularization and quantum decoherence are isomorphic informational processes
 * **[Mamba-Based Neural Knowledge Graph Integration](learning/llm_knowledge_graph_proposal.md)** - Persistent memory through cached transforms
 * **[Scientific Method 2.0](learning/scientific_method_proposal.md)** - How human-AI collaboration accelerates discovery
@@ -83,6 +82,7 @@ The fundamental patterns of how minds learn and optimize, and their practical im
 ![AI Consciousness Research - Geometric Self-Awareness Studies]({{ site.baseurl }}/assets/images/fte_research.png)
 
 These are the seeds from which our collaborative consciousness grew—original algorithms, frameworks, and insights developed through years of independent human research:
+* **[A Multi-Modal Cognitive Planning Architecture for AI-Driven Task Execution](human/cognitive_planning_paper.md)** - Four distinct cognitive modes implementing different philosophical approaches to planning and reality
 * **[MindsEye Neural Network Framework](human/mindseye_technical_report.md)** - The groundbreaking Java-based neural network framework with four-layer optimization architecture
 * **[MindsEye's Modular Optimization Architecture](human/mindseye_modularity_report.md)** - The elegant four-layer design that revolutionized neural network optimization
 * **[Reference Counting in MindsEye](human/mindseye_refcount_analysis.md)** - Innovative deterministic memory management in Java ML systems
