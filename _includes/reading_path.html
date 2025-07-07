@@ -1,0 +1,142 @@
+{% comment %}
+Generates suggested reading sequences based on prerequisites,
+difficulty levels, and conceptual progression
+{% endcomment %}
+
+<div class="reading-path-container">
+  {% assign current_doc = page %}
+  {% assign current_category = current_doc.category %}
+  {% assign category_docs = site.documents | where: "category", current_category %}
+  
+  <div class="reading-path-header">
+    <h2 class="path-title">Suggested Reading Path</h2>
+    <p class="path-description">Navigate through related concepts in a logical sequence</p>
+  </div>
+
+  {% comment %} Prerequisites Path {% endcomment %}
+  {% if current_doc.prerequisites %}
+    <div class="path-section prerequisites-path">
+      <h3 class="path-section-title">
+        <span class="path-icon">📚</span>
+        Prerequisites
+      </h3>
+      <div class="path-flow">
+        {% for prereq in current_doc.prerequisites %}
+          {% assign prereq_docs = site.documents | where_exp: "item", "item.tags contains prereq or item.keywords contains prereq" %}
+          {% if prereq_docs.size > 0 %}
+            {% assign best_prereq = prereq_docs | where: "difficulty_level", "accessible" | first %}
+            {% assign best_prereq = best_prereq | default: prereq_docs.first %}
+            <div class="path-step prerequisite">
+              <a href="{{ best_prereq.url | relative_url }}" class="path-link">
+                <span class="step-title">{{ best_prereq.title }}</span>
+                <span class="step-meta">{{ prereq | capitalize }}</span>
+              </a>
+            </div>
+          {% else %}
+            <div class="path-step prerequisite external">
+              <span class="step-title">{{ prereq | capitalize }}</span>
+              <span class="step-meta">External knowledge</span>
+            </div>
+          {% endif %}
+        {% endfor %}
+        <div class="path-arrow">→</div>
+        <div class="path-step current">
+          <span class="step-title">{{ current_doc.title }}</span>
+          <span class="step-meta">Current</span>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+
+  {% comment %} Next Steps Path {% endcomment %}
+  {% assign next_steps = site.documents | where_exp: "item", "item.prerequisites contains current_doc.title or item.parent_document == current_doc.path" %}
+  {% if next_steps.size > 0 %}
+    <div class="path-section next-steps-path">
+      <h3 class="path-section-title">
+        <span class="path-icon">➡️</span>
+        Next Steps
+      </h3>
+      <div class="path-grid">
+        {% for next_doc in next_steps limit: 4 %}
+          <div class="path-step next-step">
+            <a href="{{ next_doc.url | relative_url }}" class="path-link">
+              <span class="step-title">{{ next_doc.title }}</span>
+              <span class="step-meta">
+                {{ next_doc.difficulty_level | default: "intermediate" }}
+                {% if next_doc.reading_time_minutes %}
+                  • {{ next_doc.reading_time_minutes }}min
+                {% endif %}
+              </span>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
+  {% comment %} Difficulty Progression {% endcomment %}
+  {% assign same_topic_docs = category_docs | where_exp: "item", "item.tags and current_doc.tags and item.tags.first == current_doc.tags.first" %}
+  {% if same_topic_docs.size > 1 %}
+    <div class="path-section difficulty-progression">
+      <h3 class="path-section-title">
+        <span class="path-icon">📈</span>
+        Difficulty Progression
+      </h3>
+      <div class="difficulty-ladder">
+        {% assign difficulty_order = "accessible,intermediate,advanced,research" | split: "," %}
+        {% for difficulty in difficulty_order %}
+          {% assign level_docs = same_topic_docs | where: "difficulty_level", difficulty %}
+          {% if level_docs.size > 0 %}
+            <div class="difficulty-level {{ difficulty }}">
+              <h4 class="level-title">{{ difficulty | capitalize }}</h4>
+              <ul class="level-docs">
+                {% for doc in level_docs limit: 3 %}
+                  <li class="level-doc {% if doc.url == current_doc.url %}current{% endif %}">
+                    <a href="{{ doc.url | relative_url }}" class="level-link">
+                      {{ doc.title }}
+                      {% if doc.url == current_doc.url %}
+                        <span class="current-indicator">← You are here</span>
+                      {% endif %}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
+  {% comment %} Conceptual Journey {% endcomment %}
+  {% if current_doc.conceptual_threads %}
+    <div class="path-section conceptual-journey">
+      <h3 class="path-section-title">
+        <span class="path-icon">🧠</span>
+        Conceptual Journey
+      </h3>
+      {% for thread in current_doc.conceptual_threads %}
+        {% assign thread_docs = site.documents | where_exp: "item", "item.conceptual_threads contains thread" %}
+        {% if thread_docs.size > 1 %}
+          <div class="conceptual-thread" data-thread="{{ thread }}">
+            <h4 class="thread-title">{{ thread | replace: "_", " " | capitalize }}</h4>
+            <div class="thread-progression">
+              {% assign sorted_thread_docs = thread_docs | sort: "reading_order" %}
+              {% for doc in sorted_thread_docs limit: 5 %}
+                <div class="thread-step {% if doc.url == current_doc.url %}current{% endif %}">
+                  <a href="{{ doc.url | relative_url }}" class="thread-link">
+                    <span class="step-number">{{ forloop.index }}</span>
+                    <span class="step-title">{{ doc.title }}</span>
+                  </a>
+                </div>
+                {% unless forloop.last %}
+                  <div class="thread-connector">→</div>
+                {% endunless %}
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+</div>

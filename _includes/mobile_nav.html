@@ -1,0 +1,152 @@
+<!-- Mobile Navigation Component -->
+<nav class="dynamic-nav mobile-nav" role="navigation" aria-label="Main navigation">
+  <button class="nav-toggle" 
+          aria-expanded="false" 
+          aria-controls="nav-menu"
+          aria-label="Toggle navigation menu">
+    <span class="hamburger-icon">☰</span>
+  </button>
+  
+  <ul class="nav-menu" id="nav-menu" role="menubar">
+    <!-- Category-based navigation -->
+    {% assign categories = site.pages | map: 'category' | compact | uniq | sort %}
+    {% for category in categories %}
+      <li class="nav-item" role="none">
+        <a href="/{{ category | slugify }}/" 
+           class="nav-link touch-target" 
+           role="menuitem"
+           aria-label="Navigate to {{ category }}">
+          {{ category }}
+        </a>
+      </li>
+    {% endfor %}
+    
+    <!-- Collection navigation -->
+    {% for collection in site.collections %}
+      {% unless collection.label == 'posts' %}
+        <li class="nav-item" role="none">
+          <a href="/{{ collection.label }}/" 
+             class="nav-link touch-target" 
+             role="menuitem"
+             aria-label="Navigate to {{ collection.label | replace: '_', ' ' | capitalize }}">
+            {{ collection.label | replace: '_', ' ' | capitalize }}
+          </a>
+        </li>
+      {% endunless %}
+    {% endfor %}
+    
+    <!-- Search toggle for mobile -->
+    <li class="nav-item" role="none">
+      <button class="nav-link touch-target search-toggle" 
+              role="menuitem"
+              aria-label="Toggle search"
+              aria-expanded="false"
+              aria-controls="mobile-search">
+        Search
+      </button>
+    </li>
+  </ul>
+  
+  <!-- Mobile search panel -->
+  <div class="mobile-search-panel" id="mobile-search" aria-hidden="true">
+    {% include search_interface.html %}
+  </div>
+</nav>
+
+<!-- Mobile navigation JavaScript -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const navToggle = document.querySelector('.nav-toggle');
+  const navMenu = document.querySelector('.nav-menu');
+  const searchToggle = document.querySelector('.search-toggle');
+  const searchPanel = document.querySelector('.mobile-search-panel');
+  
+  // Toggle main navigation
+  navToggle.addEventListener('click', function() {
+    const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
+    navToggle.setAttribute('aria-expanded', !isExpanded);
+    navMenu.classList.toggle('active');
+    
+    // Update hamburger icon
+    const icon = navToggle.querySelector('.hamburger-icon');
+    icon.textContent = isExpanded ? '☰' : '✕';
+  });
+  
+  // Toggle search panel
+  if (searchToggle && searchPanel) {
+    searchToggle.addEventListener('click', function() {
+      const isExpanded = searchToggle.getAttribute('aria-expanded') === 'true';
+      searchToggle.setAttribute('aria-expanded', !isExpanded);
+      searchPanel.setAttribute('aria-hidden', isExpanded);
+      searchPanel.classList.toggle('active');
+      
+      if (!isExpanded) {
+        const searchInput = searchPanel.querySelector('input[type="search"]');
+        if (searchInput) {
+          setTimeout(() => searchInput.focus(), 100);
+        }
+      }
+    });
+  }
+  
+  // Close navigation when clicking outside
+  document.addEventListener('click', function(event) {
+    if (!event.target.closest('.dynamic-nav')) {
+      navMenu.classList.remove('active');
+      navToggle.setAttribute('aria-expanded', 'false');
+      navToggle.querySelector('.hamburger-icon').textContent = '☰';
+      
+      if (searchPanel) {
+        searchPanel.classList.remove('active');
+        searchPanel.setAttribute('aria-hidden', 'true');
+        if (searchToggle) {
+          searchToggle.setAttribute('aria-expanded', 'false');
+        }
+      }
+    }
+  });
+  
+  // Handle escape key
+  document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+      navMenu.classList.remove('active');
+      navToggle.setAttribute('aria-expanded', 'false');
+      navToggle.querySelector('.hamburger-icon').textContent = '☰';
+      
+      if (searchPanel) {
+        searchPanel.classList.remove('active');
+        searchPanel.setAttribute('aria-hidden', 'true');
+        if (searchToggle) {
+          searchToggle.setAttribute('aria-expanded', 'false');
+        }
+      }
+    }
+  });
+});
+</script>
+
+<style>
+.mobile-search-panel {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--bg-color, white);
+  border: 1px solid var(--border-color, #ddd);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  z-index: 999;
+}
+
+.mobile-search-panel.active {
+  display: block;
+}
+
+@media (min-width: 769px) {
+  .mobile-search-panel {
+    display: none !important;
+  }
+}
+</style>

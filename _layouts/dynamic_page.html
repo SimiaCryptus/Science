@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+<article class="page h-entry" itemscope itemtype="http://schema.org/{{ page.schema_type | default: 'WebPage' }}">
+  
+  <!-- Page Header -->
+  <header class="page-header">
+    
+    <!-- Status Indicators -->
+    {% if page.status or page.is_gateway or page.is_cornerstone %}
+      <div class="page-status">
+        {% if page.status %}
+          <span class="status-badge status-{{ page.status }}">{{ page.status | capitalize }}</span>
+        {% endif %}
+        {% if page.is_gateway %}
+          <span class="gateway-badge">Gateway Document</span>
+        {% endif %}
+        {% if page.is_cornerstone %}
+          <span class="cornerstone-badge">Cornerstone</span>
+        {% endif %}
+      </div>
+    {% endif %}
+    
+    <h1 class="page-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    
+    {% if page.description %}
+      <div class="page-description">
+        {{ page.description | markdownify }}
+      </div>
+    {% endif %}
+    
+    <!-- Collaboration Indicator -->
+    
+  </header>
+  
+  <!-- Page Content -->
+  <div class="page-content e-content" itemprop="mainContentOfPage">
+    {{ content }}
+  </div>
+  
+  <!-- Child Documents Navigation -->
+  {% if page.child_documents and page.child_documents.size > 0 %}
+    <section class="child-documents">
+      <h2>Explore Further</h2>
+      <div class="document-grid">
+        {% for child_path in page.child_documents %}
+          {% assign child_doc = site.pages | where: "path", child_path | first %}
+          {% if child_doc %}
+            <div class="document-card">
+              <h3><a href="{{ child_doc.url | relative_url }}">{{ child_doc.title }}</a></h3>
+              {% if child_doc.description %}<p>{{ child_doc.description }}</p>{% endif %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+  
+  <!-- Related Content -->
+  
+</article>

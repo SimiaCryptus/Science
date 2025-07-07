@@ -1,0 +1,130 @@
+---
+layout: default
+---
+
+<div class="collection-index">
+  
+<!-- Collection overview -->
+  <header class="collection-header">
+    <h1>{{ page.title | default: collection.label | capitalize }}</h1>
+    
+    {% if page.description %}
+      <div class="collection-description">
+        {{ page.description | markdownify }}
+      </div>
+    {% endif %}
+    
+<!-- Collection statistics -->
+    <div class="collection-stats">
+      {% assign collection_docs = site[page.collection_name] | where_exp: "doc", "doc.status != 'archived'" %}
+          <span class="doc-count">{{ collection_docs | size }} documents</span>
+      
+      {% assign living_docs = collection_docs | where: "status", "living" %}
+      {% if living_docs.size > 0 %}
+        <span class="separator">•</span>
+        <span class="living-count">{{ living_docs.size }} living</span>
+      {% endif %}
+      
+      {% assign last_updated = collection_docs | sort: "last_modified" | reverse | first %}
+      {% if last_updated %}
+        <span class="separator">•</span>
+        <span class="last-updated">Last updated {{ last_updated.last_modified | date: '%B %d, %Y' }}</span>
+      {% endif %}
+    </div>
+  </header>
+  
+  <!-- Search and Filter Interface -->
+  
+  <!-- Content -->
+  {{ content }}
+  
+  <!-- Document Listing -->
+  <section class="document-listing">
+    
+    <!-- Featured Documents -->
+    {% assign featured_docs = collection_docs | where: "is_featured", true %}
+    {% if featured_docs.size > 0 %}
+      <div class="featured-section">
+        <h2>Featured Documents</h2>
+        <div class="document-grid featured-grid">
+          {% for doc in featured_docs %}
+            <div class="document-card featured">
+              <h3><a href="{{ doc.url | relative_url }}">{{ doc.title }}</a></h3>
+              {% if doc.description %}<p>{{ doc.description }}</p>{% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+    
+    <!-- Gateway Documents -->
+    {% assign gateway_docs = collection_docs | where: "is_gateway", true %}
+    {% if gateway_docs.size > 0 %}
+      <div class="gateway-section">
+    <h2>🚪 Start Here</h2>
+    <div class="document-grid featured">
+          {% for doc in gateway_docs %}
+            <div class="document-card gateway">
+              <h3><a href="{{ doc.url | relative_url }}">{{ doc.title }}</a></h3>
+              {% if doc.description %}<p>{{ doc.description }}</p>{% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+    
+    <!-- All Documents by Category -->
+    {% assign categories = collection_docs | map: "category" | uniq | sort %}
+    {% for category in categories %}
+      {% assign category_docs = collection_docs | where: "category", category | sort: "reading_order" %}
+      
+      <div class="category-section">
+        <h2>{{ category }}</h2>
+        
+        <!-- Subcategories -->
+        {% assign subcategories = category_docs | map: "subcategory" | uniq | compact | sort %}
+        {% if subcategories.size > 0 %}
+          {% for subcategory in subcategories %}
+            {% assign subcat_docs = category_docs | where: "subcategory", subcategory %}
+            <div class="subcategory-section">
+              <h3>{{ subcategory }}</h3>
+              <div class="document-grid">
+                {% for doc in subcat_docs %}
+                  <div class="document-card">
+                    <h4><a href="{{ doc.url | relative_url }}">{{ doc.title }}</a></h4>
+                    {% if doc.description %}<p>{{ doc.description }}</p>{% endif %}
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+          {% endfor %}
+          
+          <!-- Documents without subcategory -->
+          {% assign no_subcat_docs = category_docs | where: "subcategory", nil %}
+          {% if no_subcat_docs.size > 0 %}
+            <div class="document-grid">
+              {% for doc in no_subcat_docs %}
+                <div class="document-card">
+                  <h4><a href="{{ doc.url | relative_url }}">{{ doc.title }}</a></h4>
+                  {% if doc.description %}<p>{{ doc.description }}</p>{% endif %}
+                </div>
+              {% endfor %}
+            </div>
+          {% endif %}
+        {% else %}
+          <!-- All documents in category -->
+          <div class="document-grid">
+            {% for doc in category_docs %}
+              <div class="document-card">
+                <h4><a href="{{ doc.url | relative_url }}">{{ doc.title }}</a></h4>
+                {% if doc.description %}<p>{{ doc.description }}</p>{% endif %}
+              </div>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+    
+  </section>
+  
+</div>

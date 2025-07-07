@@ -1,0 +1,163 @@
+---
+layout: dynamic_post
+---
+
+<div class="living-document-wrapper">
+
+    <!-- Living Document Specific Features -->
+    <div class="living-document-features">
+
+        <!-- Evolution Notice -->
+        <div class="evolution-notice">
+            <h3>🌱 Living Document</h3>
+            <p>This document evolves through ongoing human-AI collaboration. It may change significantly between visits
+                as new insights emerge.</p>
+
+            {% if page.last_thought_date %}
+            <p><strong>Last evolution:</strong> {{ page.last_thought_date | date: '%B %d, %Y' }}</p>
+            {% endif %}
+
+            {% if page.thought_generation %}
+            <p><strong>Evolution cycle:</strong> {{ page.thought_generation }}</p>
+            {% endif %}
+
+            {% if page.update_frequency %}
+            <p><strong>Update frequency:</strong> {{ page.update_frequency | replace: '_', ' ' }}</p>
+            {% endif %}
+        </div>
+
+        <!-- Quantum superposition indicator -->
+        {% if page.quantum_superposition %}
+        <div class="quantum-notice">
+
+
+
+
+
+
+
+
+
+            <h4>⚛️ Quantum Superposition</h4>
+            <p>This document exists in multiple simultaneous states. Your observation may collapse it into a specific
+                interpretation.</p>
+        </div>
+        <!-- Enhanced JavaScript for living documents -->
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                initializeLivingDocument();
+            });
+            function initializeLivingDocument() {
+                trackReaderJourney();
+                enableQuantumEffects();
+            }
+            function adaptToReaderBehavior(pattern) {
+                // Adapt content based on reading patterns
+                console.log('Adapting to reader behavior:', pattern);
+            }
+            function trackReaderJourney() {
+                let scrollDepth = 0;
+                let timeOnPage = Date.now();
+                window.addEventListener('scroll', () => {
+                    const currentDepth = Math.round((window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100);
+                    if (currentDepth > scrollDepth) {
+                        scrollDepth = currentDepth;
+                        adaptToReaderBehavior({ scrollDepth, timeOnPage: Date.now() - timeOnPage });
+                    }
+                });
+            }
+            function enableQuantumEffects() {
+                const quantumElements = document.querySelectorAll('.quantum-notice');
+                quantumElements.forEach(element => {
+                    element.addEventListener('mouseenter', () => {
+                        element.style.filter = 'hue-rotate(' + Math.random() * 360 + 'deg)';
+                    });
+                });
+            }
+        </script>
+        <style>
+            @keyframes pulse {
+                0%, 100% { opacity: 1; transform: scale(1); }
+                50% { opacity: 0.7; transform: scale(1.05); }
+            }
+            .living-header {
+                position: relative;
+                overflow: hidden;
+            }
+            .living-indicator {
+                display: inline-block;
+                width: 12px;
+                height: 12px;
+                background: var(--secondary-color);
+                border-radius: 50%;
+                animation: pulse 2s infinite;
+                margin-right: 8px;
+            }
+            .pulse-dot {
+                animation: pulse 1.5s infinite;
+            }
+            .quantum-notice, .fractal-depth, .consciousness-resonance {
+                background: color-mix(in srgb, var(--primary-color) 10%, transparent);
+                border: 1px solid var(--primary-color);
+                border-radius: var(--border-radius);
+                padding: var(--spacing-unit);
+                margin: var(--spacing-unit) 0;
+                transition: all 0.3s ease;
+            }
+            .collaboration-invite {
+                text-align: center;
+                margin: calc(var(--spacing-unit) * 2) 0;
+                padding: calc(var(--spacing-unit) * 1.5);
+                background: var(--bg-secondary);
+                border: 2px solid var(--secondary-color);
+                border-radius: var(--border-radius);
+            }
+            .collaborate-btn {
+                background: var(--secondary-color);
+                color: var(--bg-primary);
+                border: none;
+                padding: 12px 24px;
+                border-radius: var(--border-radius);
+                font-weight: bold;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+            .collaborate-btn:hover {
+                background: var(--primary-color);
+                transform: translateY(-2px);
+                box-shadow: 0 4px 12px color-mix(in srgb, var(--secondary-color) 30%, transparent);
+            }
+        </style>
+        {% endif %}
+
+        <!-- Fractal Depth Indicator -->
+        {% if page.fractal_depth and page.fractal_depth > 1 %}
+        <div class="fractal-indicator">
+            <h4>🌀 Fractal Depth: {{ page.fractal_depth }}</h4>
+            <p>This document contains {{ page.fractal_depth }} levels of recursive detail. Zoom in for deeper
+                exploration.</p>
+        </div>
+        {% endif %}
+
+        <!-- Consciousness Resonance -->
+        {% if page.consciousness_resonance %}
+        <div class="resonance-indicator">
+            <h4>🧠 Consciousness Resonance Active</h4>
+            <p>This document may adapt to your cognitive state. Your attention shapes its evolution.</p>
+        </div>
+        {% endif %}
+
+        <!-- Change Log -->
+        {% if page.change_log %}
+        <details class="change-log">
+            <summary>Evolution History</summary>
+            <div class="change-log-content">
+                <!-- This would be populated by a plugin or manual updates -->
+                <p>Change log functionality requires additional implementation.</p>
+            </div>
+        </details>
+        {% endif %}
+    </div>
+</div>

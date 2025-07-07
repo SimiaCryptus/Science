@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+<div class="category-index">
+  
+<!-- Category header -->
+  <header class="category-header">
+    <h1>{{ page.title }}</h1>
+    
+    {% if page.description %}
+      <div class="category-description">
+        {{ page.description | markdownify }}
+      </div>
+    {% endif %}
+    
+    <!-- Category Navigation -->
+    
+  </header>
+  
+  <!-- Content -->
+  {{ content }}
+  
+<!-- All documents in category -->
+  <section class="category-documents">
+    {% assign category_docs = site.documents | where: "category", page.category | where_exp: "doc", "doc.status != 'archived'" | sort: "reading_order" %}
+    
+    {% if category_docs.size > 0 %}
+      
+      <!-- Reading Path -->
+      {% assign ordered_docs = category_docs | where_exp: "doc", "doc.reading_order" | sort: "reading_order" %}
+      {% if ordered_docs.size > 1 %}
+        <div class="reading-path">
+          <h2>Suggested Reading Path</h2>
+          <ol class="reading-sequence">
+            {% for doc in ordered_docs %}
+              <li>
+                <a href="{{ doc.url | relative_url }}">{{ doc.title }}</a>
+                {% if doc.difficulty_level %}
+                  <span class="difficulty difficulty-{{ doc.difficulty_level }}">{{ doc.difficulty_level }}</span>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ol>
+        </div>
+      {% endif %}
+      
+      <!-- All Documents -->
+      <div class="all-documents">
+        <h2>All Documents</h2>
+        <div class="document-grid">
+          {% for doc in category_docs %}
+            <div class="document-card">
+              <h3><a href="{{ doc.url | relative_url }}">{{ doc.title }}</a></h3>
+              {% if doc.description %}<p>{{ doc.description }}</p>{% endif %}
+              {% if doc.difficulty_level %}<span class="difficulty">{{ doc.difficulty_level }}</span>{% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      
+    {% else %}
+      <p>No documents found in this category.</p>
+    {% endif %}
+    
+  </section>
+  
+</div>

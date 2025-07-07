@@ -300,6 +300,7 @@
   position: relative;
   overflow: hidden;
 }
+
 .theme-preview-random::before {
   content: '?';
   position: absolute;
@@ -309,6 +310,31 @@
   font-size: 24px;
   font-weight: bold;
   opacity: 0.3;
+}
+/* Fix incomplete theme preview styles */
+.theme-preview-dark .preview-header {
+  background: #b19cd9;
+}
+.theme-preview-cyber .preview-header {
+  background: #00ffff;
+}
+.theme-preview-prof .preview-header {
+  background: #2563eb;
+}
+.theme-preview-ocean .preview-header {
+  background: #0369a1;
+}
+.theme-preview-forest .preview-header {
+  background: #15803d;
+}
+.theme-preview-sunset .preview-header {
+  background: #ea580c;
+}
+.theme-preview-mono .preview-header {
+  background: #404040;
+}
+.theme-preview-random .preview-header {
+  background: linear-gradient(90deg, #ff6b6b, #4ecdc4);
 }
 
 
@@ -477,11 +503,11 @@ document.addEventListener('DOMContentLoaded', function() {
   themeOptions.forEach(option => {
     option.addEventListener('click', function() {
       const themeName = this.dataset.theme;
-    if (window.themeModel) {
+        if (window.themeModel) {
         window.themeModel.applyTheme(themeName);
         updateActiveTheme(themeName);
         dropdown.classList.remove('active');
-    }
+        }
     });
   });
 });
