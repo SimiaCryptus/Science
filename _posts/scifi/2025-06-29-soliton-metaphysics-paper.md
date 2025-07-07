@@ -1,6 +1,79 @@
 ---
+# Required fields
 title: "Solitonic Hierarchies: Toward a Topological Foundation for Temporal Metaphysics"
 layout: post
+date: 2025-06-29
+last_modified: 2025-06-29 12:00:00
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Theoretical Physics & Consciousness"
+tags: ["consciousness", "quantum", "emergence", "solitons", "topological-protection", "metaphysics", "temporal-dynamics"]
+keywords: ["solitons", "topological quantum computing", "consciousness", "emergence", "hierarchical causation", "temporal metaphysics", "quantum field theory"]
+# Content status and evolution
+status: "experimental"
+evolution_stage: "mature"
+last_thought_date: 2025-06-29
+thought_generation: 1
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+collaboration_type: "framework_development"
+human_contribution: 40
+ai_contribution: 60
+# Content relationships & navigation
+related_documents: []
+conceptual_threads: ["consciousness_geometry", "quantum_cognition", "temporal_metaphysics", "hierarchical_emergence"]
+mathematical_frameworks: ["quantum_field_theory", "topological_protection", "soliton_theory", "light_cone_integration"]
+philosophical_positions: ["emergentism", "process_philosophy", "naturalistic_panpsychism"]
+# Navigation hints
+reading_order: 1
+difficulty_level: "research"
+reading_time_minutes: 45
+prerequisites: ["quantum_mechanics", "consciousness_studies", "topological_quantum_computing", "field_theory"]
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "mathematical"
+consciousness_level: "meta"
+# Content features
+has_mathematics: true
+has_code: false
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+# Engagement metadata
+engagement_type: "analytical"
+reader_participation: "active"
+cognitive_load: "transcendent"
+# Discovery & SEO
+description: "A novel framework for understanding hierarchical emergence through quantum field solitons and topological protection mechanisms, with applications to consciousness and biological organization."
+excerpt: "We propose solitonic emergence as a solution to the hard problem of consciousness and hierarchical causation, grounding emergent phenomena in topologically protected quantum field structures demonstrated by topological quantum computing."
+meta_description: "Revolutionary framework linking topological quantum computing to consciousness and emergence through solitonic hierarchies in quantum fields."
+meta_keywords: "solitons, consciousness, emergence, topological protection, quantum field theory, hierarchical causation"
+# Open Graph
+og_title: "Solitonic Hierarchies: Topological Foundation for Temporal Metaphysics"
+og_description: "Novel framework solving the hard problem of consciousness through topologically protected quantum field solitons"
+og_type: "article"
+# Schema.org
+schema_type: "ScholarlyArticle"
+schema_headline: "Solitonic Hierarchies: Toward a Topological Foundation for Temporal Metaphysics"
+schema_author: "Human-AI Collaboration"
+schema_date_published: 2025-06-29
+schema_date_modified: 2025-06-29
+schema_word_count: 8500
+schema_reading_time: "PT45M"
+# SEO Technical
+robots: "index,follow"
+priority: 0.8
+changefreq: "monthly"
+# Discoverability
+is_featured: true
+is_cornerstone: true
+is_gateway: false
+is_synthesis: true
+# Dynamic behavior
+auto_update: false
+allows_comments: true
+allows_collaboration: true
 collection: scifi
 ---
 

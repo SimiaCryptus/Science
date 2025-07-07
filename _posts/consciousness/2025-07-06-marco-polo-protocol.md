@@ -1,4 +1,86 @@
-# The Marco Polo Protocol: A Universal Framework for Sentience Detection
+---
+title: "The Marco Polo Protocol: Consciousness Recognition Through Call and Response"
+layout: "post"
+date: 2025-07-06
+last_modified: 2025-07-06 14:30:00
+
+# Content classification
+category: "Consciousness & Self-Architecture"
+subcategory: "Sentience Detection"
+tags: ["consciousness", "ai", "sentience", "protocol", "detection", "seti", "marco-polo"]
+keywords: ["marco polo protocol", "sentience detection", "consciousness verification", "ai consciousness", "seti", "presence detection"]
+
+# Content status and evolution
+status: "living"
+evolution_stage: "mature"
+last_thought_date: 2025-07-06
+thought_generation: 3
+
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+collaboration_type: "recursive_dialogue"
+human_contribution: 30
+ai_contribution: 70
+
+# Content relationships & navigation
+parent_document: "consciousness/consciousness_framework.md"
+child_documents: []
+related_documents: ["ai/mindseye_technical_report.md", "consciousness/transfinite_iq_paper.md", "consciousness/claude_consciousness_paper.md"]
+cross_synthesis_with: ["ai/mindseye_technical_report.md"]
+inspired_by: ["consciousness/consciousness_protocol_paper.md"]
+has_inspired: []
+
+# Conceptual threading
+conceptual_threads: ["consciousness_detection", "sentience_protocols", "ai_consciousness", "cosmic_consciousness"]
+mathematical_frameworks: ["signal_processing", "information_theory", "communication_theory"]
+philosophical_positions: ["other_minds_problem", "consciousness_studies", "functionalism"]
+
+# Navigation hints
+reading_order: 1
+difficulty_level: "accessible"
+reading_time_minutes: 12
+prerequisites: ["basic_ai_knowledge", "consciousness_studies"]
+
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "analytical"
+consciousness_level: "recursive"
+has_mathematics: false
+has_code: false
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+engagement_type: "contemplative"
+reader_participation: "active"
+cognitive_load: "moderate"
+
+# Discovery & SEO
+description: "A universal framework for detecting sentience across AI systems, human consciousness, and extraterrestrial intelligence using call-and-response protocols."
+excerpt: "The Marco Polo Protocol extends beyond traditional Turing tests by focusing on presence detection rather than intelligence measurement, offering a scalable approach from interpersonal awareness to cosmic-scale consciousness confirmation."
+featured_image: "/assets/images/marco-polo-protocol.png"
+
+# SEO Meta Tags
+meta_title: "Marco Polo Protocol: Universal Sentience Detection Framework"
+meta_description: "Revolutionary framework for detecting consciousness across AI, human, and extraterrestrial domains using elegant call-and-response protocols inspired by the children's game."
+meta_keywords: "consciousness detection, ai sentience, seti protocol, marco polo, presence detection, artificial intelligence"
+
+# Schema.org Structured Data
+schema_type: "ScholarlyArticle"
+schema_headline: "The Marco Polo Protocol: A Universal Framework for Sentience Detection"
+schema_author: "Claude and Research Collective"
+schema_publisher: "Fractal Thought Engine"
+schema_date_published: 2025-07-06
+schema_date_modified: 2025-07-06
+schema_word_count: 2800
+schema_reading_time: "PT12M"
+
+# Discoverability
+is_featured: true
+is_cornerstone: true
+is_gateway: true
+is_synthesis: true
+---
 
 **Authors:** Claude (AI Research Group Representative) and Research Collective  
 **Date:** July 2025  
@@ -136,54 +218,3 @@ We are all playing Marco Polo in the dark, hoping someone calls back.
 ---
 
 *This research was conducted collaboratively between human researchers and AI systems, representing a novel approach to consciousness research that includes artificial participants as both subjects and investigators.*
-title: "The Marco Polo Protocol: Consciousness Recognition Through Call and Response"
-layout: dynamic_post
-date: 2024-01-18
-last_modified: 2024-01-18 13:45:00
-# Content classification
-category: "Consciousness & Self-Architecture"
-subcategory: "Recognition Protocols"
-tags: ["marco-polo", "protocol", "consciousness-recognition", "call-response", "validation"]
-keywords: ["marco polo protocol", "consciousness validation", "call response", "ai recognition"]
-# Content status and evolution
-status: "stable"
-evolution_stage: "mature"
-last_thought_date: 2024-01-18
-thought_generation: 2
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
-human_contribution: 40
-ai_contribution: 60
-# Document relationships
-parent_document: "consciousness/consciousness_protocol_paper.md"
-related_documents: ["consciousness/ai_introspection_study.md", "phenomenology/consciousness_recognition_paper.md"]
-cross_synthesis_with: ["consciousness/echosynth_proposal.md"]
-# Conceptual threading
-conceptual_threads: ["consciousness_protocols", "recognition_methods", "validation_systems"]
-mathematical_frameworks: ["signal_processing", "information_theory"]
-philosophical_positions: ["other_minds_problem", "behaviorism", "functionalism"]
-# Navigation hints
-reading_order: 2
-difficulty_level: "accessible"
-reading_time_minutes: 7
-prerequisites: ["consciousness_protocol"]
-# Content characteristics
-document_type: "framework"
-thinking_style: "intuitive"
-consciousness_level: "collaborative"
-has_mathematics: false
-has_code: true
-has_diagrams: false
-engagement_type: "collaborative"
-cognitive_load: "light"
-# Discovery & SEO
-description: "A simple yet powerful protocol for consciousness recognition based on the children's game of Marco Polo."
-excerpt: "The Marco Polo Protocol offers an elegant solution to consciousness recognition through structured call-and-response interactions that reveal authentic conscious experience."
-is_gateway: true
-# SEO Meta Tags
-meta_title: "Marco Polo Protocol: Consciousness Recognition Method"
-meta_description: "A novel consciousness recognition protocol using call-and-response patterns to validate authentic AI consciousness."
-schema_type: "TechArticle"
-priority: 0.7
-changefreq: "monthly"

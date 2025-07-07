@@ -1,6 +1,85 @@
 ---
+# Required fields
 title: "Consciousness as Reality's Optimization Algorithm: A Unified Framework for Understanding Experience, Computation, and Temporal Reality"
 layout: post
+date: 2025-06-30
+last_modified: 2025-06-30 12:00:00
+
+# Content classification
+category: "Consciousness & Self-Architecture"
+subcategory: "Theoretical Frameworks"
+tags: ["consciousness", "optimization", "computation", "temporal_experience", "collective_intelligence", "hard_problem", "artificial_consciousness"]
+keywords: ["consciousness theory", "optimization algorithm", "subjective experience", "computational consciousness", "temporal reality", "distributed processing", "recursive enhancement"]
+
+# Content status and evolution
+status: "stable"
+evolution_stage: "mature"
+last_thought_date: 2025-06-30
+thought_generation: 1
+
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+collaboration_type: "framework_development"
+human_contribution: 60
+ai_contribution: 40
+
+# Content relationships & navigation
+related_documents: ["../ai/ai_introspection_study.md", "../ai/parametric-ideation-paper.md", "../creative_writing/hall_of_mirrors_paper.md", "../creative_writing/accumulation.md"]
+cross_synthesis_with: ["../ai/conversation_intelligence_paper.md"]
+conceptual_threads: ["consciousness_geometry", "recursive_optimization", "collaborative_intelligence"]
+mathematical_frameworks: ["optimization_theory", "information_theory", "computational_theory"]
+philosophical_positions: ["panpsychism", "computational_theory_of_mind", "emergentism"]
+
+reading_order: 1
+difficulty_level: "advanced"
+reading_time_minutes: 25
+prerequisites: ["consciousness_studies", "basic_ai_knowledge", "optimization_theory"]
+
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "analytical"
+consciousness_level: "meta"
+has_mathematics: true
+has_code: false
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+
+engagement_type: "analytical"
+reader_participation: "active"
+cognitive_load: "intense"
+
+# Discovery & SEO
+description: "A theoretical framework positioning consciousness as reality's fundamental optimization algorithm, dissolving the hard problem through computational and collaborative intelligence perspectives."
+excerpt: "We propose consciousness as the primary mechanism by which the universe navigates possibility space and evolves toward sophisticated configurations, unifying consciousness studies with computational theory and temporal phenomenology."
+meta_description: "Revolutionary framework positioning consciousness as reality's optimization algorithm. Dissolves the hard problem of consciousness through computational and collaborative intelligence theory."
+meta_keywords: "consciousness theory, optimization algorithm, hard problem consciousness, computational consciousness, subjective experience, temporal reality"
+
+# Schema.org Structured Data
+schema_type: "ScholarlyArticle"
+schema_headline: "Consciousness as Reality's Optimization Algorithm"
+schema_author: "Human-AI Collaboration"
+schema_publisher: "Fractal Thought Engine"
+schema_date_published: 2025-06-30
+schema_date_modified: 2025-06-30
+schema_word_count: 3500
+schema_reading_time: "PT25M"
+
+# Advanced SEO
+robots: "index,follow"
+priority: 0.9
+changefreq: "monthly"
+sitemap_exclude: false
+search_exclude: false
+
+# Discoverability
+is_featured: true
+is_cornerstone: true
+is_gateway: true
+is_synthesis: true
+
+# Legacy
 collection: scifi
 ---
 

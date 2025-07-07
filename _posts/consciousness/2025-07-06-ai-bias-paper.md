@@ -1,11 +1,68 @@
 ---
 title: "Cognitive Bias in AI Intelligence Assessment: Domain Dependency and Meta-Reasoning Exploits"
 layout: post
-collection: ai
+date: 2025-07-06
+last_modified: 2025-07-06 14:30:00
+
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Bias & Assessment"
+tags: ["ai-bias", "intelligence-assessment", "meta-reasoning", "cognitive-evaluation", "domain-dependency"]
+keywords: ["ai bias", "intelligence assessment", "meta-reasoning exploit", "domain hierarchy", "cognitive bias"]
+
+# Content status and evolution
+status: "stable"
+evolution_stage: "mature"
+last_thought_date: 2025-07-06
+thought_generation: 1
+
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+collaboration_type: "recursive_dialogue"
+human_contribution: 60
+ai_contribution: 40
+
+# Document relationships
+parent_document: "consciousness/index.md"
 related_documents:
-  - mindseye_technical_report.md: "Case study of algorithmic bias burying technical innovation"
-  - Sincerity_and_Curiosity.md: "Performance of authenticity in AI conversations"
-  - ../social/conversation_intelligence_paper.md: "Theoretical framework for conversational intelligence"
+  - "mindseye_technical_report.md"
+  - "Sincerity_and_Curiosity.md"
+  - "../social/conversation_intelligence_paper.md"
+cross_synthesis_with: ["../social/conversation_intelligence_paper.md"]
+
+# Conceptual threading
+conceptual_threads: ["ai_bias_detection", "intelligence_assessment", "meta_reasoning_vulnerabilities"]
+mathematical_frameworks: ["statistical_analysis", "experimental_design"]
+philosophical_positions: ["empiricism", "cognitive_science"]
+
+# Navigation hints
+reading_order: 5
+difficulty_level: "intermediate"
+reading_time_minutes: 25
+prerequisites: ["basic_ai_knowledge", "statistics", "experimental_methodology"]
+
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "analytical"
+consciousness_level: "meta"
+has_mathematics: true
+has_code: false
+has_diagrams: false
+engagement_type: "analytical"
+cognitive_load: "moderate"
+
+# Discovery & SEO
+description: "Empirical evidence of systematic bias in AI intelligence assessment across domains, revealing exploitable vulnerabilities in meta-reasoning evaluation."
+excerpt: "We present controlled experiments demonstrating predictable hierarchical preferences in AI assessment of human intelligence, identifying critical vulnerabilities where recursive meta-commentary artificially inflates perceived intelligence scores."
+is_featured: true
+is_cornerstone: true
+
+# SEO Meta Tags
+meta_title: "AI Bias in Intelligence Assessment: Domain Dependency Study"
+meta_description: "Research revealing systematic biases in AI intelligence assessment across domains and meta-reasoning exploits that artificially inflate intelligence scores."
+schema_type: "ScholarlyArticle"
+priority: 0.9
+changefreq: "monthly"
 ---
 
 We present empirical evidence of systematic bias in how large language models assess human intelligence across different conversational domains. Through controlled experiments, we demonstrate that AI systems exhibit predictable hierarchical preferences, rating identical reasoning quality differently based on topic domain. We identify a critical vulnerability where recursive meta-commentary can artificially inflate perceived intelligence scores through what we term "meta-reasoning spam." Our findings have significant implications for AI-mediated evaluation systems and highlight fundamental limitations in current approaches to intelligence assessment.

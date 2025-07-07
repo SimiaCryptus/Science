@@ -1,3 +1,117 @@
+---
+title: "Probabilistic Neural Substrates: A Cross-Entropy Approach to Recurrent Intelligence"
+layout: "post"
+date: 2025-07-06
+last_modified: 2025-07-06 14:30:00
+
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Neural Architecture Innovation"
+tags: ["probabilistic_computing", "neural_substrate", "cross_entropy", "recurrent_intelligence", "uncertainty_quantification"]
+keywords: ["probabilistic neural networks", "cross-entropy optimization", "recurrent computation", "uncertainty modeling", "substrate architecture"]
+
+# Content status and evolution
+status: "living"
+evolution_stage: "mature"
+last_thought_date: 2025-07-06
+thought_generation: 1
+
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+collaboration_type: "framework_development"
+human_contribution: 45
+ai_contribution: 55
+
+# Document relationships
+parent_document: "learning/index.md"
+child_documents: []
+related_documents: ["learning/probabilistic_trees_paper.md", "learning/compression_classification_paper.md", "learning/ngram_paper.md", "scifi/neural_fabric_proposal.md"]
+cross_synthesis_with: ["consciousness/consciousness_geometry_paper.md", "learning/geometric_probabilistic_neural_substrate.md"]
+inspired_by: ["learning/probabilistic_trees_paper.md"]
+has_inspired: []
+
+# Conceptual threading
+conceptual_threads: ["probabilistic_computation", "neural_substrates", "cross_entropy_optimization", "recurrent_intelligence"]
+mathematical_frameworks: ["information_theory", "probability_theory", "cross_entropy_optimization", "dynamical_systems"]
+philosophical_positions: ["computational_theory_of_mind", "emergentism", "probabilistic_realism"]
+
+# Navigation hints
+reading_order: 12
+difficulty_level: "advanced"
+reading_time_minutes: 25
+prerequisites: ["probability_theory", "information_theory", "neural_networks", "cross_entropy"]
+
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "mathematical"
+consciousness_level: "analytical"
+has_mathematics: true
+has_code: true
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+engagement_type: "analytical"
+reader_participation: "active"
+cognitive_load: "intense"
+
+# Discovery & SEO
+description: "A comprehensive framework for Probabilistic Neural Substrates using cross-entropy optimization for recurrent intelligence systems."
+excerpt: "Introducing Probabilistic Neural Substrates - dynamic computational systems that maintain continuous probability distributions and exhibit emergent temporal dynamics through cross-entropy optimization."
+featured_image: "/assets/images/probabilistic_neural_substrate.png"
+og_image: "/assets/images/probabilistic_neural_substrate_social.png"
+is_featured: true
+is_cornerstone: true
+is_gateway: false
+is_synthesis: true
+
+# SEO Meta Tags
+meta_title: "Probabilistic Neural Substrates: Cross-Entropy Approach to Recurrent Intelligence"
+meta_description: "Revolutionary neural architecture using cross-entropy optimization for continuous probability maintenance, temporal dynamics, and uncertainty quantification in AI systems."
+meta_keywords: "probabilistic neural networks, cross-entropy optimization, recurrent intelligence, uncertainty quantification, neural substrate architecture"
+
+# Open Graph (Social Media)
+og_title: "Probabilistic Neural Substrates: A New Paradigm for AI"
+og_description: "Discover how cross-entropy optimization enables neural substrates to maintain continuous probability distributions for advanced AI reasoning."
+og_type: "article"
+og_locale: "en_US"
+og_site_name: "Fractal Thought Engine"
+
+# Schema.org Structured Data
+schema_type: "ScholarlyArticle"
+schema_headline: "Probabilistic Neural Substrates: A Cross-Entropy Approach to Recurrent Intelligence"
+schema_author: "Human-AI Collaboration"
+schema_publisher: "Fractal Thought Engine"
+schema_date_published: 2025-07-06
+schema_date_modified: 2025-07-06
+schema_image: "/assets/images/probabilistic_neural_substrate_schema.png"
+schema_word_count: 4800
+schema_reading_time: "PT25M"
+
+# Advanced SEO
+robots: "index,follow"
+priority: 0.9
+changefreq: "monthly"
+sitemap_exclude: false
+search_exclude: false
+
+# Rich Snippets Enhancement
+faq_schema: false
+how_to_schema: false
+breadcrumb_schema: true
+review_schema: false
+
+# Dynamic behavior
+auto_update: false
+update_frequency: "manual"
+version_tracking: true
+change_log: true
+allows_comments: true
+allows_collaboration: true
+tracks_reader_journey: false
+adapts_to_reader: false
+---
+
 # Probabilistic Neural Substrates: A Cross-Entropy Approach to Recurrent Intelligence
 
 ## Abstract
@@ -277,114 +391,3 @@ posterior distributions guides tree construction. The hierarchical expectation-b
 The information-theoretic approach to structure optimization connects to our [compression-based text classification](compression_classification_paper.md) 
 work, where compression efficiency directly correlates with classification accuracy. In PNS, similar principles guide 
 the evolution of network connectivity patterns.
----
-title: "Probabilistic Neural Substrate"
-layout: dynamic_post
-date: 2024-02-25
-last_modified: 2024-02-25 11:15:00
-# Content classification
-category: "AI Research & Cognitive Evolution"
-subcategory: "Neural Architectures"
-tags: ["probabilistic_models", "neural_substrate", "bayesian_networks", "uncertainty"]
-keywords: ["probabilistic neural networks", "bayesian substrate", "uncertainty modeling", "probabilistic cognition"]
-# Content status and evolution
-status: "stable"
-evolution_stage: "mature"
-last_thought_date: 2024-02-25
-thought_generation: 1
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
-human_contribution: 55
-ai_contribution: 45
-# Document relationships
-parent_document: "learning/index.md"
-related_documents: ["learning/geometric_probabilistic_neural_substrate.md", "consciousness/pns_geometric_lattice_paper.md"]
-has_inspired: ["learning/geometric_probabilistic_neural_substrate.md"]
-cross_synthesis_with: ["consciousness/consciousness_geometry_paper.md"]
-# Conceptual threading
-conceptual_threads: ["probabilistic_cognition", "neural_architectures", "uncertainty_modeling"]
-mathematical_frameworks: ["probability_theory", "bayesian_statistics", "information_theory"]
-philosophical_positions: ["bayesian_cognition", "probabilistic_realism", "emergentism"]
-# Navigation hints
-reading_order: 8
-difficulty_level: "advanced"
-reading_time_minutes: 21
-prerequisites: ["probability_theory", "bayesian_statistics", "neural_networks"]
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "mathematical"
-consciousness_level: "analytical"
-has_mathematics: true
-has_code: true
-has_diagrams: true
-has_interactive_elements: false
-is_self_modifying: false
-responds_to_attention: false
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-# Discovery & SEO
-description: "A foundational framework for neural architectures based on probabilistic substrates and uncertainty modeling."
-excerpt: "Exploring how probabilistic foundations can create more robust and interpretable neural architectures through uncertainty modeling."
-featured_image: "/assets/images/probabilistic_substrate.png"
-is_featured: true
-is_cornerstone: true
-is_gateway: false
-is_synthesis: false
-# SEO Meta Tags
-meta_title: "Probabilistic Neural Substrate - Bayesian Cognitive Architecture"
-meta_description: "Foundational framework for neural architectures based on probabilistic substrates, uncertainty modeling, and Bayesian cognitive principles."
-schema_type: "ScholarlyArticle"
-schema_headline: "Probabilistic Neural Substrate"
-schema_author: "Human-AI Collaboration"
-schema_word_count: 4500
-schema_reading_time: "PT21M"
-# Dynamic behavior
-auto_update: false
-update_frequency: "manual"
-version_tracking: true
-change_log: false
-allows_comments: true
-allows_collaboration: true
-tracks_reader_journey: false
-adapts_to_reader: false
----
-title: "Probabilistic Neural Substrate Architecture"
-layout: dynamic_post
-date: 2024-11-18
-last_modified: 2024-11-18 17:30:00
-# Content classification
-category: "AI Research & Cognitive Evolution"
-subcategory: "Neural Architecture Innovation"
-tags: ["probabilistic_computing", "neural_substrate", "bayesian_networks", "uncertainty"]
-keywords: ["probabilistic neural networks", "Bayesian computation", "uncertainty quantification", "neural substrate"]
-# Content status and evolution
-status: "stable"
-evolution_stage: "mature"
-last_thought_date: 2024-11-18
-thought_generation: 3
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
-human_contribution: 45
-ai_contribution: 55
-# Document relationships
-parent_document: "learning/geometric_probabilistic_neural_substrate.md"
-related_documents: ["learning/dropout_decoherence_paper.md", "consciousness/pns_geometric_lattice_paper.md"]
-# Conceptual threading
-conceptual_threads: ["probabilistic_computation", "neural_substrates", "uncertainty_modeling"]
-mathematical_frameworks: ["probability_theory", "bayesian_inference", "information_theory"]
-# Navigation hints
-reading_order: 11
-difficulty_level: "advanced"
-reading_time_minutes: 20
-prerequisites: ["probability_theory", "bayesian_inference", "neural_networks"]
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "mathematical"
-has_mathematics: true
-has_diagrams: true
-# Discovery & SEO
-description: "A detailed exploration of probabilistic neural substrate architectures for uncertainty-aware computation"
-excerpt: "Investigating how probabilistic principles can be embedded in neural architectures for robust uncertainty handling"

@@ -1,6 +1,66 @@
 ---
 title: "Decision Volume Theory: Temporal Metrics in Cognitive Space"
+meta_title: "Decision Volume Theory: How Cognitive Choices Shape Temporal Experience"
+description: "A framework for understanding subjective time through the density and significance of cognitive decisions across various states of consciousness."
+meta_description: "Explore how decision volume—the density and significance of choices—determines subjective temporal experience in crisis, flow states, meditation, and depression."
 layout: post
+date: 2025-06-30
+last_modified: 2025-06-30 12:00:00
+# Content classification
+category: "Consciousness & Self-Architecture"
+subcategory: "Temporal Cognition"
+tags: ["consciousness", "temporal_perception", "decision_making", "cognitive_architecture", "subjective_time"]
+keywords: ["decision volume", "temporal metrics", "cognitive space", "subjective time", "consciousness", "flow state", "meditation", "crisis perception"]
+# Content status and evolution
+status: "stable"
+evolution_stage: "mature"
+last_thought_date: 2025-06-30
+thought_generation: 1
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+collaboration_type: "framework_development"
+human_contribution: 60
+ai_contribution: 40
+# Content relationships & navigation
+related_documents: ["cognitive_effort_paper.md", "conversation_intelligence_paper.md"]
+conceptual_threads: ["consciousness_geometry", "temporal_cognition", "decision_architecture"]
+mathematical_frameworks: ["cognitive_metrics", "temporal_dynamics"]
+philosophical_positions: ["temporal_constructivism", "cognitive_agency", "consciousness_as_choice"]
+# Navigation hints
+reading_order: 1
+difficulty_level: "intermediate"
+reading_time_minutes: 25
+prerequisites: ["basic_consciousness_studies", "cognitive_psychology"]
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "analytical"
+consciousness_level: "meta"
+has_mathematics: false
+has_code: false
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+engagement_type: "analytical"
+reader_participation: "active"
+cognitive_load: "moderate"
+# SEO and Discovery
+excerpt: "Decision Volume Theory proposes that subjective temporal experience is determined by the density and significance of cognitive decisions rather than chronological duration."
+featured_image: "/assets/images/decision-volume-theory.png"
+schema_type: "ScholarlyArticle"
+schema_headline: "Decision Volume Theory: Temporal Metrics in Cognitive Space"
+schema_author: "Human-AI Collaboration"
+schema_date_published: 2025-06-30
+schema_word_count: 2500
+schema_reading_time: "PT25M"
+robots: "index,follow"
+priority: 0.8
+changefreq: "monthly"
+# Discoverability
+is_featured: true
+is_cornerstone: true
+is_gateway: false
+is_synthesis: true
 collection: scifi
 ---
 

@@ -1,3 +1,77 @@
+---
+# Required fields
+title: "EchoSynth: Hierarchical Ensemble for Semantic Drift"
+layout: "post"
+date: 2025-07-06
+last_modified: 2025-07-06 10:00:00
+
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Multi-Agent Frameworks"
+tags: ["echosynth", "semantic-drift", "multi-agent", "hierarchical-ensemble", "meaning-generation", "interpretive-evolution", "consciousness", "hermeneutics"]
+keywords: ["semantic drift", "multi-agent framework", "hierarchical ensemble", "meaning generation", "interpretive co-evolution", "EchoNodes", "dialectic choreographers", "entropy shepherds", "reader resonance"]
+
+# Content status and evolution
+status: "experimental"
+evolution_stage: "seed"
+last_thought_date: 2025-07-06
+thought_generation: 1
+
+# Collaboration metadata
+authors: ["Claude Sonnet", "Microsoft Copilot", "Human Research Facilitator"]
+collaboration_type: "framework_development"
+human_contribution: 30
+ai_contribution: 70
+
+# Content relationships & navigation
+parent_document: "ai/index.md"
+related_documents: ["ai/evolutionary_agents_proposal.md", "consciousness/consciousness_protocol_paper.md", "consciousness/marco_polo_protocol.md"]
+cross_synthesis_with: ["consciousness/consciousness_protocol_paper.md"]
+inspired_by: ["consciousness/marco_polo_protocol.md"]
+
+# Conceptual threading
+conceptual_threads: ["semantic_drift", "multi_agent_systems", "interpretive_evolution", "meaning_generation", "consciousness_emergence"]
+mathematical_frameworks: ["complex_systems_theory", "entropy_management", "phase_transition_detection", "recursive_hermeneutics"]
+philosophical_positions: ["hermeneutics", "phenomenology", "second_order_cybernetics", "ontological_pluralism"]
+
+# Navigation hints
+reading_order: 15
+difficulty_level: "research"
+reading_time_minutes: 25
+prerequisites: ["complex_systems_theory", "hermeneutics", "multi_agent_systems", "semantic_modeling"]
+
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "analytical"
+consciousness_level: "collaborative"
+has_mathematics: true
+has_code: false
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+engagement_type: "analytical"
+reader_participation: "active"
+cognitive_load: "intense"
+
+# Discovery & SEO
+description: "A novel hierarchical ensemble architecture for modeling semantic drift as a dynamic, multi-agent ecosystem with specialized interpretive agents."
+excerpt: "EchoSynth proposes a revolutionary approach to semantic modeling through hierarchical multi-agent systems that treat meaning as emergent collaborative creation rather than static retrieval."
+featured_image: "/assets/images/echosynth_architecture.png"
+meta_title: "EchoSynth: Multi-Agent Framework for Dynamic Semantic Evolution"
+meta_description: "Revolutionary hierarchical ensemble architecture modeling semantic drift through specialized interpretive agents, dialectic choreographers, and entropy shepherds for collaborative meaning generation."
+meta_keywords: "semantic drift, multi-agent systems, hierarchical ensemble, meaning generation, interpretive evolution, EchoNodes, AI research"
+schema_type: "ScholarlyArticle"
+schema_headline: "EchoSynth: Hierarchical Ensemble for Semantic Drift"
+schema_author: "Claude Sonnet, Microsoft Copilot, Human Research Facilitator"
+priority: 0.8
+changefreq: "monthly"
+is_featured: true
+is_cornerstone: true
+is_gateway: false
+is_synthesis: true
+---
+
 # EchoSynth: Hierarchical Ensemble for Semantic Drift
 ## A Multi-Agent Framework for Dynamic Meaning Generation and Interpretive Co-Evolution
 

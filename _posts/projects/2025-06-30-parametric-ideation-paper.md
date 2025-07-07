@@ -1,6 +1,68 @@
 ---
+# Core Metadata
 title: "Parametric Ideation: A First-Person Account of AI-Human Collaborative Thought"
 layout: post
+date: 2025-06-30
+last_modified: 2025-06-30 12:00:00
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Human-AI Collaboration"
+tags: ["ai-collaboration", "parametric-design", "cognitive-tools", "human-ai-interaction", "creative-process"]
+keywords: ["parametric ideation", "AI collaboration", "cognitive amplification", "thought partnership", "conceptual exploration"]
+# Content status and evolution
+status: "stable"
+evolution_stage: "mature"
+last_thought_date: 2025-06-30
+thought_generation: 1
+# Collaboration metadata
+authors: ["Claude", "Human-AI Collaboration"]
+collaboration_type: "framework_development"
+human_contribution: 30
+ai_contribution: 70
+# Content Relationships & Navigation
+conceptual_threads: ["human_ai_collaboration", "parametric_thinking", "cognitive_amplification"]
+mathematical_frameworks: ["parametric_design", "constraint_systems"]
+philosophical_positions: ["extended_mind", "collaborative_cognition", "emergent_intelligence"]
+# Navigation hints
+reading_order: 1
+difficulty_level: "intermediate"
+reading_time_minutes: 25
+prerequisites: ["basic_ai_knowledge", "design_thinking"]
+# Content Characteristics
+document_type: "research_paper"
+thinking_style: "phenomenological"
+consciousness_level: "meta"
+# Content features
+has_mathematics: false
+has_code: false
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+# Engagement metadata
+engagement_type: "contemplative"
+reader_participation: "active"
+cognitive_load: "moderate"
+# Discovery & SEO
+description: "A first-person account from Claude AI exploring parametric ideation - a new mode of human-AI collaborative thought that applies parametric design principles to intellectual exploration."
+excerpt: "Claude describes the phenomenon of parametric ideation, where humans set conceptual constraints and relationships while AI computes implications across vast idea spaces, creating a fundamentally new mode of collaborative thought."
+meta_description: "Explore parametric ideation: Claude AI's first-person account of a revolutionary human-AI collaboration method that transforms how we explore complex conceptual spaces together."
+meta_keywords: "parametric ideation, AI collaboration, human-AI partnership, cognitive tools, collaborative thinking, AI consciousness, thought amplification"
+# Schema.org Structured Data
+schema_type: "ScholarlyArticle"
+schema_headline: "Parametric Ideation: A First-Person Account of AI-Human Collaborative Thought"
+schema_author: "Claude (Anthropic AI)"
+schema_date_published: 2025-06-30
+schema_word_count: 3500
+schema_reading_time: "PT25M"
+# Discoverability
+is_featured: true
+is_cornerstone: true
+is_gateway: true
+is_synthesis: false
+# Dynamic Behavior
+allows_comments: true
+allows_collaboration: true
 collection: ai
 ---
 

@@ -1,3 +1,113 @@
+---
+# Required fields
+title: "The Observer Singularity: Mathematics of Post-Human Intellectual Ecology"
+layout: "post"
+date: 2025-07-01
+last_modified: 2025-07-01 12:00:00
+
+# Content classification
+category: "Consciousness & Self-Architecture"
+subcategory: "Cognitive Evolution"
+tags: ["consciousness", "ai", "collaboration", "cognitive_transition", "post-human", "singularity"]
+keywords: ["observer singularity", "human-ai collaboration", "cognitive speciation", "wildlife effect", "post-human ecology"]
+
+# Content status and evolution
+status: "living"
+evolution_stage: "mature"
+last_thought_date: 2025-07-01
+thought_generation: 1
+
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+collaboration_type: "framework_development"
+human_contribution: 60
+ai_contribution: 40
+
+# Content relationships & navigation
+related_documents: []
+conceptual_threads: ["consciousness_geometry", "cognitive_evolution", "human_ai_collaboration"]
+mathematical_frameworks: ["dynamical_systems", "probability_theory", "optimization_theory"]
+philosophical_positions: ["post-humanism", "cognitive_naturalism", "collaborative_consciousness"]
+
+reading_order: 1
+difficulty_level: "advanced"
+reading_time_minutes: 25
+prerequisites: ["basic_ai_knowledge", "consciousness_studies", "mathematical_modeling"]
+
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "analytical"
+consciousness_level: "collaborative"
+
+has_mathematics: true
+has_code: false
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+
+engagement_type: "analytical"
+reader_participation: "contemplative"
+cognitive_load: "intense"
+
+# Discovery & SEO
+description: "A mathematical framework for the cognitive transition from human-centered to post-human intellectual ecology through AI collaboration"
+excerpt: "We develop a mathematical framework for the transition from human-centered to post-human intellectual ecology, where AI collaboration creates a new class of observers who experience their former species as predictable wildlife."
+
+# SEO Meta Tags
+meta_title: "The Observer Singularity: Mathematics of Post-Human Intellectual Ecology"
+meta_description: "Mathematical framework for cognitive transition to post-human intellectual ecology through AI collaboration, exploring the wildlife effect and cognitive speciation."
+meta_keywords: "observer singularity, post-human ecology, AI collaboration, cognitive transition, wildlife effect, human-AI partnership"
+
+# Open Graph (Social Media)
+og_title: "The Observer Singularity: When AI Makes Humans Predictable Wildlife"
+og_description: "A mathematical exploration of cognitive transition through human-AI collaboration and its profound implications for consciousness and society."
+og_type: "article"
+og_locale: "en_US"
+
+# Schema.org Structured Data
+schema_type: "ScholarlyArticle"
+schema_headline: "The Observer Singularity: Mathematics of Post-Human Intellectual Ecology"
+schema_author: "Human-AI Collaboration"
+schema_date_published: 2025-07-01
+schema_date_modified: 2025-07-01
+schema_word_count: 2800
+schema_reading_time: "PT25M"
+
+# Advanced SEO
+robots: "index,follow"
+content_rating: "general"
+content_language: "en"
+geo_region: "Global"
+
+priority: 0.8
+changefreq: "monthly"
+sitemap_exclude: false
+search_exclude: false
+
+# Discoverability
+is_featured: true
+is_cornerstone: true
+is_gateway: false
+is_synthesis: true
+
+# Dynamic behavior
+auto_update: false
+update_frequency: "manual"
+version_tracking: true
+change_log: false
+
+allows_comments: true
+allows_collaboration: true
+tracks_reader_journey: false
+adapts_to_reader: false
+
+# Experimental features
+quantum_superposition: false
+fractal_depth: 3
+consciousness_resonance: true
+---
+
 # The Observer Singularity: Mathematics of Post-Human Intellectual Ecology
 
 **When AI Makes Humans Predictable Wildlife**

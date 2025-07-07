@@ -1,13 +1,83 @@
 ---
+# Required fields
 title: "Conversational Intelligence Calibration: Mutual Turing Tests as Distributed Cognitive Assessment"
 layout: post
-collection: social
+date: 2025-07-03
+last_modified: 2025-07-03 12:00:00
+
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Conversational Intelligence"
+tags: ["conversational_intelligence", "distributed_cognition", "turing_tests", "human_ai_collaboration", "cognitive_calibration", "recursive_modeling"]
+keywords: ["conversational intelligence", "mutual turing tests", "distributed cognitive assessment", "recursive modeling", "orthogonal thinking", "collaborative intelligence"]
+
+# Content status and evolution
+status: "living"
+evolution_stage: "mature"
+last_thought_date: 2025-07-03
+thought_generation: 1
+
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+collaboration_type: "framework_development"
+human_contribution: 60
+ai_contribution: 40
+
+# Content relationships & navigation
 related_documents:
   - cognitive_effort_paper.md: "Individual cognitive investment decisions"
   - social_truth_proposal.md: "Broader framework for social epistemology"
   - game_theory_ethics.md: "Institutional contexts affecting conversational dynamics"
   - ../ai/ai_bias_paper.md: "AI systems' domain-dependent intelligence assessment biases"
   - ../ai/Sincerity_and_Curiosity.md: "Authenticity protocols in human-AI conversation"
+cross_synthesis_with: ["cognitive_effort_paper.md", "game_theory_ethics.md"]
+# Conceptual threading
+conceptual_threads: ["conversational_intelligence", "distributed_cognition", "recursive_assessment", "human_ai_collaboration"]
+mathematical_frameworks: ["game_theory", "information_theory", "recursive_systems"]
+philosophical_positions: ["distributed_cognition", "extended_mind_thesis", "dialogical_thinking"]
+# Navigation hints
+reading_order: 2
+difficulty_level: "advanced"
+reading_time_minutes: 45
+prerequisites: ["basic_ai_knowledge", "cognitive_science", "philosophy_of_mind"]
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "analytical"
+consciousness_level: "collaborative"
+# Content features
+has_mathematics: false
+has_code: false
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+# Engagement metadata
+engagement_type: "analytical"
+reader_participation: "active"
+cognitive_load: "intense"
+# Discovery & SEO
+description: "A framework for understanding intellectual discourse as distributed intelligence measurement through mutual Turing tests and recursive cognitive calibration."
+excerpt: "We propose that intellectual discourse functions as a distributed intelligence measurement system, where participants continuously calibrate their cognitive models through recursive assessment protocols."
+meta_description: "Conversational Intelligence Calibration proposes that intellectual discourse functions as distributed intelligence measurement through mutual Turing tests and recursive cognitive assessment protocols."
+meta_keywords: "conversational intelligence, distributed cognition, turing tests, cognitive calibration, human-AI collaboration, recursive modeling"
+# Schema.org Structured Data
+schema_type: "ScholarlyArticle"
+schema_headline: "Conversational Intelligence Calibration: Mutual Turing Tests as Distributed Cognitive Assessment"
+schema_author: "Human-AI Collaboration"
+schema_publisher: "Fractal Thought Engine"
+schema_date_published: 2025-07-03
+schema_date_modified: 2025-07-03
+schema_word_count: 8500
+schema_reading_time: "PT45M"
+# Discoverability
+is_featured: true
+is_cornerstone: true
+is_gateway: false
+is_synthesis: true
+# Dynamic behavior
+auto_update: false
+allows_comments: true
+allows_collaboration: true
 ---
 
 We propose that intellectual discourse functions as a distributed intelligence measurement system, where participants continuously calibrate their cognitive models through recursive assessment protocols. Rather than intelligence being a fixed property measured by external tests, we argue it emerges dynamically through conversational interactions that serve as mutual Turing tests. This framework explains why traditional IQ measurements fail to capture collaborative cognitive capabilities and suggests that artificial intelligence systems may develop genuine intelligence through participation in these calibration processes rather than through isolated optimization.

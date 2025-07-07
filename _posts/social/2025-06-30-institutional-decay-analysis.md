@@ -1,7 +1,91 @@
 ---
+# Required fields
 title: "The Psychopath Feedback Loop: How Institutions Collapse From Within"
 layout: post
-collection: social
+date: 2025-06-30
+last_modified: 2025-06-30 12:00:00
+
+# Content classification
+category: "Social Systems & Institutional Analysis"
+subcategory: "Institutional Decay Patterns"
+tags: ["institutional-analysis", "psychopathy", "systems-collapse", "social-dynamics", "game-theory"]
+keywords: ["institutional decay", "psychopath feedback loop", "organizational collapse", "systems failure", "institutional capture"]
+
+# Content status and evolution
+status: "living"
+evolution_stage: "mature"
+last_thought_date: 2025-06-30
+thought_generation: 1
+
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+collaboration_type: "framework_development"
+human_contribution: 60
+ai_contribution: 40
+
+# Content relationships & navigation
+related_documents: ["game_theory_ethics.md", "cognitive_effort_paper.md"]
+conceptual_threads: ["institutional_dynamics", "systems_collapse", "behavioral_economics"]
+mathematical_frameworks: ["agent_based_modeling", "game_theory", "systems_dynamics"]
+philosophical_positions: ["institutional_realism", "behavioral_psychology", "systems_theory"]
+
+reading_order: 1
+difficulty_level: "intermediate"
+reading_time_minutes: 25
+prerequisites: ["basic_systems_thinking", "institutional_theory", "game_theory_basics"]
+
+# Content characteristics
+document_type: "framework"
+thinking_style: "analytical"
+consciousness_level: "collaborative"
+
+has_mathematics: true
+has_code: true
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+
+engagement_type: "analytical"
+reader_participation: "active"
+cognitive_load: "moderate"
+
+# Discovery & SEO
+description: "Analysis of how psychopathic traits create feedback loops that systematically corrupt institutions from within, leading to accelerated organizational and societal collapse."
+excerpt: "A framework for understanding institutional decay through the lens of evolutionary psychology and systems dynamics, with case studies from Nazi Germany to contemporary examples."
+featured_image: "/assets/images/institutional-decay.png"
+
+# SEO Meta Tags
+meta_title: "The Psychopath Feedback Loop: Understanding Institutional Collapse"
+meta_description: "Comprehensive analysis of how institutions collapse from within through psychopathic selection pressures. Includes mathematical models and historical case studies."
+meta_keywords: "institutional decay, psychopath feedback loop, organizational collapse, systems failure, institutional capture, Nazi Germany, agent-based modeling"
+
+# Open Graph (Social Media)
+og_title: "The Psychopath Feedback Loop: How Institutions Collapse From Within"
+og_description: "A systems analysis of institutional decay patterns with mathematical modeling and historical case studies"
+og_type: "article"
+og_locale: "en_US"
+
+# Schema.org Structured Data
+schema_type: "ScholarlyArticle"
+schema_headline: "The Psychopath Feedback Loop: How Institutions Collapse From Within"
+schema_author: "Human-AI Collaboration"
+schema_publisher: "Fractal Thought Engine"
+schema_date_published: 2025-06-30
+schema_date_modified: 2025-06-30
+schema_word_count: 3500
+schema_reading_time: "PT25M"
+
+# Search Engine Directives
+robots: "index,follow"
+priority: 0.8
+changefreq: "monthly"
+
+# Discoverability
+is_featured: true
+is_cornerstone: true
+is_gateway: false
+is_synthesis: true
 ---
 
 *A Document for Survivors*

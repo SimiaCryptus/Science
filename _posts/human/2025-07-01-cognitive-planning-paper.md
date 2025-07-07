@@ -1,7 +1,81 @@
 ---
 title: "A Multi-Modal Cognitive Planning Architecture for AI-Driven Task Execution"
+meta_title: "Multi-Modal Cognitive Planning Architecture for AI Systems"
+description: "A novel cognitive planning architecture implementing multiple distinct planning strategies within a unified framework, exploring how different cognitive modes can be operationalized in AI systems."
+excerpt: "We present a cognitive planning architecture that implements four distinct planning strategies—reactive, proactive, adaptive, and hierarchical—within a unified framework. Each mode embodies fundamentally different assumptions about reality, time, and knowledge acquisition, suggesting that optimal problem-solving may require cognitive pluralism rather than algorithmic optimization."
 layout: post
-collection: ai
+date: 2025-07-01
+last_modified: 2025-07-01 12:00:00
+
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Cognitive Architectures"
+tags: ["cognitive-architecture", "ai-planning", "metacognition", "philosophical-ai", "cognitive-pluralism", "multi-modal-planning"]
+keywords: ["cognitive planning", "AI architecture", "metacognition", "philosophical AI", "cognitive modes", "planning strategies", "computational metaphysics"]
+
+# Content status and evolution
+status: "stable"
+evolution_stage: "mature"
+last_thought_date: 2025-07-01
+thought_generation: 1
+
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Andrew"]
+collaboration_type: "framework_development"
+human_contribution: 85
+ai_contribution: 15
+
+# Content relationships & navigation
+conceptual_threads: ["cognitive_architectures", "philosophical_ai", "metacognitive_systems", "planning_algorithms"]
+mathematical_frameworks: ["hierarchical_task_networks", "dependency_graphs", "bounded_rationality"]
+philosophical_positions: ["cognitive_pluralism", "computational_metaphysics", "pragmatism", "phenomenology"]
+
+# Navigation hints
+difficulty_level: "advanced"
+reading_time_minutes: 45
+prerequisites: ["ai_planning_basics", "cognitive_science", "philosophy_of_mind"]
+
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "analytical"
+consciousness_level: "meta"
+
+# Content features
+has_mathematics: false
+has_code: false
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+
+# Engagement metadata
+engagement_type: "analytical"
+reader_participation: "active"
+cognitive_load: "intense"
+
+# SEO and Discovery
+meta_description: "Explore a novel multi-modal cognitive planning architecture for AI systems that implements four distinct planning strategies rooted in different philosophical traditions, demonstrating computational cognitive pluralism."
+meta_keywords: "cognitive planning, AI architecture, metacognition, philosophical AI, cognitive modes, planning strategies, computational metaphysics, artificial intelligence"
+
+# Schema.org Structured Data
+schema_type: "ScholarlyArticle"
+schema_headline: "Multi-Modal Cognitive Planning Architecture for AI-Driven Task Execution"
+schema_author: "Andrew"
+schema_date_published: 2025-07-01
+schema_date_modified: 2025-07-01
+schema_word_count: 8500
+schema_reading_time: "PT45M"
+
+# Discoverability
+is_featured: true
+is_cornerstone: true
+is_gateway: false
+is_synthesis: true
+
+# Technical SEO
+robots: "index,follow"
+priority: 0.9
+changefreq: "monthly"
 ---
 
 # A Multi-Modal Cognitive Planning Architecture for AI-Driven Task Execution

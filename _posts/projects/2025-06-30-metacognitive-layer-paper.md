@@ -1,7 +1,121 @@
 ---
+# Required fields
 title: "Parametric Metacognitive Orchestration for Foundation Model Agents"
-layout: post
-collection: projects
+layout: "post"
+date: 2025-06-30
+last_modified: 2025-06-30 12:00:00
+
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Neural Architectures"
+tags: ["metacognition", "agentic systems", "foundation models", "reasoning orchestration", "cognitive architecture", "ai", "consciousness"]
+keywords: ["metacognitive layer", "parametric orchestration", "foundation models", "agentic systems", "cognitive parameters", "reasoning amplification", "multi-model ensemble"]
+
+# Content status and evolution
+status: "stable"
+evolution_stage: "mature"
+last_thought_date: 2025-06-30
+thought_generation: 1
+
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+collaboration_type: "framework_development"
+human_contribution: 70
+ai_contribution: 30
+
+# Content relationships & navigation
+related_documents: ["ai/echosynth_proposal.md", "ai/evolutionary_agents_proposal.md"]
+conceptual_threads: ["cognitive_architecture", "metacognitive_systems", "reasoning_orchestration"]
+mathematical_frameworks: ["information_theory", "computational_complexity", "optimization_theory"]
+philosophical_positions: ["computational_theory_of_mind", "cognitive_architectures"]
+
+# Navigation hints
+reading_order: 1
+difficulty_level: "advanced"
+reading_time_minutes: 45
+prerequisites: ["basic_ai_knowledge", "foundation_models", "cognitive_science"]
+
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "analytical"
+consciousness_level: "meta"
+
+# Content features
+has_mathematics: true
+has_code: true
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+
+# Engagement metadata
+engagement_type: "analytical"
+reader_participation: "active"
+cognitive_load: "intense"
+
+# Discovery & SEO
+description: "A parametric metacognitive architecture for optimizing foundation model interactions through explicit cognitive requirement specification"
+excerpt: "We propose a parametric metacognitive layer that mediates between agentic systems and foundation models, enabling explicit specification of cognitive requirements through a structured parameter space for domain-agnostic reasoning amplification."
+meta_title: "Parametric Metacognitive Orchestration for Foundation Model Agents - Research Paper"
+meta_description: "Novel architecture for optimizing AI agent interactions with foundation models through explicit cognitive parameterization, enabling 20-35% performance improvements across diverse reasoning tasks."
+meta_keywords: "metacognitive AI, foundation models, agentic systems, cognitive orchestration, reasoning amplification, AI architecture"
+
+# Open Graph (Social Media)
+og_title: "Parametric Metacognitive Orchestration for Foundation Model Agents"
+og_description: "Revolutionary approach to AI reasoning that enables explicit specification of cognitive requirements for foundation model interactions"
+og_type: "article"
+og_locale: "en_US"
+
+# Schema.org Structured Data
+schema_type: "ScholarlyArticle"
+schema_headline: "Parametric Metacognitive Orchestration for Foundation Model Agents"
+schema_author: "Human-AI Collaboration"
+schema_publisher: "Fractal Thought Engine"
+schema_date_published: 2025-06-30
+schema_date_modified: 2025-06-30
+schema_word_count: 8500
+schema_reading_time: "PT45M"
+
+# Advanced SEO
+robots: "index,follow"
+content_rating: "general"
+content_language: "en"
+geo_region: "Global"
+
+# Indexing Control
+priority: 0.9
+changefreq: "monthly"
+sitemap_exclude: false
+search_exclude: false
+
+# Rich Snippets Enhancement
+faq_schema: false
+how_to_schema: false
+breadcrumb_schema: true
+review_schema: false
+
+# Discoverability
+is_featured: true
+is_cornerstone: true
+is_gateway: false
+is_synthesis: true
+
+# Dynamic behavior
+auto_update: false
+update_frequency: "manual"
+version_tracking: true
+change_log: false
+
+# Interactive features
+allows_comments: true
+allows_collaboration: true
+tracks_reader_journey: false
+adapts_to_reader: false
+
+# Experimental features
+quantum_superposition: false
+fractal_depth: 3
+consciousness_resonance: false
 ---
 
 We propose a parametric metacognitive layer that mediates between agentic systems and foundation models, enabling

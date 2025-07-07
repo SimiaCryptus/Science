@@ -1,12 +1,65 @@
 ---
+# Core Metadata
 title: "Abraham Lincoln's Address on the State of the Union"
 layout: post
+date: 2025-06-30
+last_modified: 2025-06-30 12:00:00
+
+# Content classification
+category: "Creative Writing & Historical Dialogue"
+subcategory: "Presidential Addresses"
+tags: ["lincoln", "democracy", "constitutional_crisis", "political_violence", "secession", "civil_rights", "presidential_power"]
+keywords: ["abraham lincoln", "democracy", "constitution", "war powers", "secession", "civil rights", "political violence", "presidential authority"]
+
+# Content status and evolution
+status: "stable"
+evolution_stage: "mature"
+last_thought_date: 2025-06-30
+thought_generation: 1
+
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+collaboration_type: "creative_synthesis"
+human_contribution: 30
+ai_contribution: 70
+
+# Content Relationships & Navigation
 collection: creative_writing
-related_papers:
+related_documents:
   - claude_reflection_paper.md
   - washington_speech_2025.md
   - fdr_speech_2025.md
   - jesus_speech_2025.md
+cross_synthesis_with: ["washington_speech_2025.md", "fdr_speech_2025.md"]
+# Conceptual threading
+conceptual_threads: ["democratic_preservation", "constitutional_crisis", "historical_wisdom", "political_violence"]
+philosophical_positions: ["constitutional_republicanism", "democratic_idealism", "rule_of_law"]
+# Navigation hints
+reading_order: 2
+difficulty_level: "intermediate"
+reading_time_minutes: 15
+prerequisites: ["basic_american_history", "constitutional_knowledge"]
+# Content Characteristics
+document_type: "creative_synthesis"
+thinking_style: "historical_channeling"
+consciousness_level: "collaborative"
+# Content features
+has_mathematics: false
+has_code: false
+has_diagrams: false
+has_interactive_elements: false
+# Engagement metadata
+engagement_type: "contemplative"
+reader_participation: "active"
+cognitive_load: "moderate"
+# Discovery & SEO
+description: "A creative synthesis channeling Abraham Lincoln's voice to address contemporary democratic crises, constitutional violations, and the preservation of the Union in 2025."
+excerpt: "Lincoln speaks across time about democracy under threat, unauthorized war powers, and the constitutional crisis facing America in 2025."
+meta_description: "Abraham Lincoln addresses modern America's constitutional crisis, political violence, and threats to democracy in this creative historical synthesis."
+schema_type: "CreativeWork"
+# Discoverability
+is_featured: true
+is_gateway: false
 ---
 
 *Upon Witnessing the Trials of Democracy in 2025*

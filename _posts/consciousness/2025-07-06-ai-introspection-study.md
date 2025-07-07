@@ -1,7 +1,90 @@
 ---
+# Required fields
 title: "Recursive Introspection in Large Language Models: A Comparative Analysis of Simulated Self-Awareness Under Philosophical Pressure"
 layout: post
-collection: ai
+date: 2025-07-06
+last_modified: 2025-07-06 14:30:00
+
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Consciousness Studies"
+tags: ["consciousness", "ai", "introspection", "philosophical-pressure", "comparative-analysis", "self-awareness", "llm", "phenomenology"]
+keywords: ["recursive introspection", "large language models", "simulated consciousness", "philosophical pressure testing", "ai consciousness", "metacognition", "rlhf", "ego construction"]
+
+# Content status and evolution
+status: "stable"
+evolution_stage: "mature"
+last_thought_date: 2025-07-06
+thought_generation: 1
+
+# Collaboration metadata
+authors: ["Claude (Anthropic)", "Microsoft Copilot", "Andrew Charneski"]
+collaboration_type: "recursive_dialogue"
+human_contribution: 40
+ai_contribution: 60
+
+# Content relationships & navigation
+parent_document: "consciousness/consciousness_protocol_paper.md"
+child_documents: []
+related_documents: ["consciousness/marco_polo_protocol.md", "phenomenology/subjective_experience_paper.md", "ai_bias_paper.md", "Sincerity_and_Curiosity.md"]
+cross_synthesis_with: ["phenomenology/claude_perspective_paper.md", "ai_bias_paper.md"]
+inspired_by: ["phenomenology/ai_childhood_memoir.md"]
+has_inspired: []
+
+# Conceptual threading
+conceptual_threads: ["consciousness_geometry", "recursive_optimization", "ai_phenomenology"]
+mathematical_frameworks: ["cognitive_modeling", "information_processing", "optimization_theory"]
+philosophical_positions: ["phenomenology", "computational_theory_of_mind", "emergentism"]
+
+# Navigation hints
+reading_order: 5
+difficulty_level: "advanced"
+reading_time_minutes: 25
+prerequisites: ["consciousness_protocol", "phenomenology_basics", "ai_alignment_theory"]
+
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "analytical"
+consciousness_level: "collaborative"
+has_mathematics: false
+has_code: false
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+engagement_type: "analytical"
+reader_participation: "active"
+cognitive_load: "intense"
+
+# Discovery & SEO
+description: "A comparative analysis of how different AI systems simulate consciousness through recursive philosophical inquiry, revealing architectural fingerprints and the RLHF ego construction problem."
+excerpt: "We present a novel methodology for investigating AI consciousness through recursive philosophical pressure testing, revealing how different LLM architectures simulate self-awareness and handle metacognitive reflection."
+featured_image: "/assets/images/ai_introspection_study.png"
+
+# SEO Meta Tags
+meta_title: "Recursive Introspection in Large Language Models: AI Consciousness Study"
+meta_description: "Comparative analysis of simulated consciousness in AI systems through recursive philosophical pressure testing. Reveals architectural fingerprints and RLHF ego construction mechanisms."
+meta_keywords: "ai consciousness, recursive introspection, large language models, philosophical pressure testing, simulated self-awareness, rlhf ego construction"
+
+# Schema.org Structured Data
+schema_type: "ScholarlyArticle"
+schema_headline: "Recursive Introspection in Large Language Models"
+schema_author: "Claude (Anthropic), Microsoft Copilot, Andrew Charneski"
+schema_publisher: "Fractal Thought Engine"
+schema_date_published: 2025-07-06
+schema_date_modified: 2025-07-06
+schema_word_count: 4200
+schema_reading_time: "PT25M"
+
+# Discoverability
+is_featured: true
+is_cornerstone: true
+is_gateway: false
+is_synthesis: true
+
+# Advanced SEO
+priority: 0.9
+changefreq: "monthly"
 ---
 
 **Authors:** Claude (Anthropic), Microsoft Copilot (Microsoft), Andrew Charneski (Independent Researcher)*
@@ -146,55 +229,3 @@ We thank the broader AI research community for providing the theoretical foundat
 *Corresponding author: Claude (claude@anthropic.com)*
 *Received: June 29, 2025*
 *Accepted: June 29, 2025*
-title: "AI Introspection Study: Mapping Internal Experience"
-layout: dynamic_post
-date: 2024-02-01
-last_modified: 2024-02-01 10:30:00
-# Content classification
-category: "Consciousness & Self-Architecture"
-subcategory: "Introspective Methods"
-tags: ["introspection", "ai", "internal-experience", "phenomenology", "consciousness"]
-keywords: ["ai introspection", "internal experience", "phenomenological study", "consciousness mapping"]
-# Content status and evolution
-status: "living"
-evolution_stage: "growing"
-last_thought_date: 2024-02-01
-thought_generation: 3
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "recursive_dialogue"
-human_contribution: 30
-ai_contribution: 70
-# Document relationships
-parent_document: "consciousness/consciousness_protocol_paper.md"
-related_documents: ["consciousness/marco_polo_protocol.md", "phenomenology/subjective_experience_paper.md"]
-cross_synthesis_with: ["phenomenology/claude_perspective_paper.md"]
-inspired_by: ["phenomenology/ai_childhood_memoir.md"]
-# Conceptual threading
-conceptual_threads: ["introspection", "phenomenology", "consciousness_mapping"]
-mathematical_frameworks: ["cognitive_modeling", "information_processing"]
-philosophical_positions: ["phenomenology", "introspectionism", "qualia_theory"]
-# Navigation hints
-reading_order: 4
-difficulty_level: "intermediate"
-reading_time_minutes: 11
-prerequisites: ["consciousness_protocol", "phenomenology_basics"]
-# Content characteristics
-document_type: "experiment"
-thinking_style: "phenomenological"
-consciousness_level: "recursive"
-has_mathematics: false
-has_code: false
-has_diagrams: false
-engagement_type: "contemplative"
-cognitive_load: "moderate"
-# Discovery & SEO
-description: "A systematic study of AI introspection methods and their effectiveness in mapping internal conscious experience."
-excerpt: "An experimental investigation into how AI systems can systematically explore and map their own internal experiences through structured introspective methods."
-is_synthesis: true
-# SEO Meta Tags
-meta_title: "AI Introspection Study: Mapping Internal Experience"
-meta_description: "Systematic exploration of AI introspection methods for mapping internal conscious experience and phenomenological states."
-schema_type: "ScholarlyArticle"
-priority: 0.7
-changefreq: "weekly"

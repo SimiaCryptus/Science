@@ -2,6 +2,61 @@
 title: "The Consensual Curation of Reality: AI-Mediated Information Environments and the Evolutionary Imperative"
 layout: post
 collection: social
+date: 2025-06-30
+last_modified: 2025-06-30 12:00:00
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Information Systems & Social Architecture"
+tags: ["ai", "information_systems", "social_architecture", "reality_curation", "post_truth", "evolutionary_pressure", "consensual_frameworks"]
+keywords: ["consensual curation", "information management", "AI-mediated reality", "post-truth society", "evolutionary imperative", "red pill option", "social stability"]
+# Content status and evolution
+status: "stable"
+evolution_stage: "mature"
+last_thought_date: 2025-06-30
+thought_generation: 1
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Andrew"]
+collaboration_type: "framework_development"
+human_contribution: 85
+ai_contribution: 15
+# Document relationships
+related_documents: ["../social/post_scarcity_proposal.md", "game_theory_ethics.md", "conversation_intelligence_paper.md", "cognitive_effort_paper.md", "../scifi/superfluid_fusion_proposal.md"]
+cross_synthesis_with: ["game_theory_ethics.md", "post_scarcity_proposal.md"]
+conceptual_threads: ["information_architecture", "social_evolution", "consensual_governance", "ai_mediated_systems"]
+philosophical_positions: ["evolutionary_epistemology", "pragmatic_realism", "consensual_governance"]
+# Navigation and discovery
+reading_order: 3
+difficulty_level: "advanced"
+reading_time_minutes: 25
+prerequisites: ["post_truth_understanding", "ai_systems_knowledge", "social_psychology"]
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "analytical"
+consciousness_level: "meta"
+has_mathematics: false
+has_code: false
+has_diagrams: false
+engagement_type: "analytical"
+cognitive_load: "intense"
+# SEO and discovery
+description: "A framework for AI-mediated information curation that preserves human agency through authentic choice mechanisms while addressing civilizational information chaos."
+excerpt: "Examining how artificial intelligence systems can manage human information environments to preserve social stability and individual agency through consensual curation with genuine escape mechanisms."
+meta_description: "Explores consensual reality curation through AI systems, addressing post-truth information chaos while preserving human agency through authentic exit mechanisms."
+meta_keywords: "AI information curation, consensual reality management, post-truth society, evolutionary pressure, social stability"
+schema_type: "ScholarlyArticle"
+schema_headline: "The Consensual Curation of Reality: AI-Mediated Information Environments"
+schema_author: "Andrew"
+schema_word_count: 4500
+schema_reading_time: "PT25M"
+# Content classification
+content_rating: "general"
+priority: 0.8
+changefreq: "monthly"
+is_cornerstone: true
+is_gateway: false
+is_synthesis: true
+allows_comments: true
+tracks_reader_journey: true
 ---
 
 This paper examines the emerging potential for artificial intelligence systems to manage human information environments

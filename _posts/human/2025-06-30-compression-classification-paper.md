@@ -1,6 +1,75 @@
 ---
 title: "Entropy-Optimized Text Classification: Integrating Compression-Based Learning with Permutation-Aware Data Structures"
 layout: post
+date: 2025-06-30
+last_modified: 2025-06-30 12:00:00
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Neural Architectures"
+tags: ["compression", "classification", "entropy", "interpretability", "BWT", "permutation", "NLP", "information-theory"]
+keywords: ["compression-based classification", "entropy optimization", "interpretable AI", "Burrows-Wheeler Transform", "permutation structures", "efficient NLP", "text classification", "information theory"]
+# Content status and evolution
+status: "stable"
+evolution_stage: "mature"
+last_thought_date: 2025-06-30
+thought_generation: 1
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Andrew"]
+collaboration_type: "framework_development"
+human_contribution: 85
+ai_contribution: 15
+# Content relationships & navigation
+related_documents: ["../projects/bwt_tree_proposal.md", "ngram_paper.md", "probabilistic_trees_paper.md", "probabilistic_neural_substrate.md", "../projects/volumetric_density_tree_proposal.md"]
+cross_synthesis_with: ["../projects/bwt_tree_proposal.md", "probabilistic_neural_substrate.md"]
+# Conceptual threading
+conceptual_threads: ["compression_theory", "information_theory", "interpretable_ai", "entropy_optimization"]
+mathematical_frameworks: ["information_theory", "permutation_algebra", "entropy_optimization", "compression_theory"]
+philosophical_positions: ["interpretable_ai", "information_theoretic_learning"]
+# Navigation hints
+reading_order: 1
+difficulty_level: "advanced"
+reading_time_minutes: 25
+prerequisites: ["information_theory", "text_classification", "compression_algorithms", "machine_learning"]
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "analytical"
+consciousness_level: "collaborative"
+# Content features
+has_mathematics: true
+has_code: true
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+# Engagement metadata
+engagement_type: "analytical"
+reader_participation: "active"
+cognitive_load: "intense"
+# Discovery & SEO
+description: "A novel framework unifying compression-based text classification with entropy-optimized data structures for efficient, interpretable AI systems"
+excerpt: "We present a unified framework that integrates compression-based text classification with entropy-optimized permutation structures, achieving 99.4% accuracy in language detection with 40% smaller models while providing complete transparency in classification decisions."
+# SEO Meta Tags
+meta_title: "Entropy-Optimized Text Classification: Compression-Based Learning with Interpretable AI"
+meta_description: "Novel framework combining compression theory with interpretable AI for efficient text classification. Achieves 99.4% accuracy with 40% smaller models and complete decision transparency."
+meta_keywords: "compression classification, entropy optimization, interpretable AI, BWT, permutation structures, efficient NLP, text classification"
+# Open Graph (Social Media)
+og_title: "Breakthrough in Interpretable AI: Compression-Based Text Classification"
+og_description: "Revolutionary approach to text classification that combines compression efficiency with complete interpretability, achieving state-of-the-art results with dramatically smaller models."
+og_type: "article"
+# Schema.org Structured Data
+schema_type: "ScholarlyArticle"
+schema_headline: "Entropy-Optimized Text Classification: Integrating Compression-Based Learning with Permutation-Aware Data Structures"
+schema_author: "Andrew"
+schema_date_published: 2025-06-30
+schema_date_modified: 2025-06-30
+schema_word_count: 4200
+schema_reading_time: "PT25M"
+# Discoverability
+is_featured: true
+is_cornerstone: true
+is_gateway: false
+is_synthesis: true
+
 collection: ai
 ---
 

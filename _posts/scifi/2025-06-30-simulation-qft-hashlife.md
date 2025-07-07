@@ -1,6 +1,74 @@
 ---
 title: "Computational Substrate Theory: Hashlife Optimization in Quantum Field Simulation"
 layout: post
+date: 2025-06-30
+last_modified: 2025-06-30 12:00:00
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Computational Physics"
+tags: ["simulation", "quantum", "hashlife", "computation", "consciousness", "physics"]
+keywords: ["computational substrate", "hashlife algorithm", "quantum field theory", "simulation theory", "consciousness", "optimization"]
+# Content status and evolution
+status: "experimental"
+evolution_stage: "growing"
+last_thought_date: 2025-06-30
+thought_generation: 1
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+collaboration_type: "framework_development"
+human_contribution: 40
+ai_contribution: 60
+# Content relationships & navigation
+related_documents: ["quantum_spacetime_paper.md", "dynamic_quantum_graphs.md", "multiverse_router_paper.md", "../projects/wavelet-geometric-optimization.md"]
+cross_synthesis_with: ["quantum_spacetime_paper.md", "dynamic_quantum_graphs.md"]
+conceptual_threads: ["computational_physics", "quantum_cognition", "simulation_theory"]
+mathematical_frameworks: ["cellular_automata", "quantum_field_theory", "computational_complexity"]
+philosophical_positions: ["computational_theory_of_mind", "simulation_hypothesis", "emergentism"]
+reading_order: 3
+difficulty_level: "advanced"
+reading_time_minutes: 25
+prerequisites: ["quantum_mechanics", "computational_complexity", "cellular_automata"]
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "analytical"
+consciousness_level: "meta"
+has_mathematics: true
+has_code: false
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+engagement_type: "analytical"
+reader_participation: "active"
+cognitive_load: "intense"
+# Discovery & SEO
+description: "Exploring reality as an optimized computational system using hashlife-like algorithms to simulate quantum field dynamics"
+excerpt: "A speculative framework proposing that quantum field theory might reflect computational optimizations analogous to Conway's hashlife algorithm, potentially explaining particle-wave duality and quantum superposition through computational resource management."
+meta_description: "Computational substrate theory exploring how hashlife optimization algorithms might explain quantum field dynamics, particle-wave duality, and consciousness as meta-computation."
+meta_keywords: "computational substrate, hashlife algorithm, quantum field theory, simulation theory, consciousness, computational physics"
+# Open Graph
+og_title: "Computational Substrate Theory: Hashlife Optimization in Quantum Field Simulation"
+og_description: "Exploring reality as an optimized computational system using hashlife-like algorithms to simulate quantum field dynamics"
+og_type: "article"
+og_locale: "en_US"
+# Schema.org
+schema_type: "ScholarlyArticle"
+schema_headline: "Computational Substrate Theory: Hashlife Optimization in Quantum Field Simulation"
+schema_author: "Human-AI Collaboration"
+schema_date_published: 2025-06-30
+schema_date_modified: 2025-06-30
+schema_word_count: 2800
+schema_reading_time: "PT25M"
+# SEO Control
+robots: "index,follow"
+priority: 0.8
+changefreq: "monthly"
+# Discoverability
+is_featured: false
+is_cornerstone: false
+is_gateway: false
+is_synthesis: true
+
 collection: scifi
 ---
 

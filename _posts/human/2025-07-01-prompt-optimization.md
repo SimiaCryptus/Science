@@ -1,7 +1,93 @@
 ---
 title: "PromptOptimization: A Genetic Algorithm Framework for Automated Prompt Engineering in Large Language Models"
 layout: post
-collection: ai
+date: 2025-07-01
+last_modified: 2025-07-01 12:00:00
+
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Evolutionary AI Systems"
+tags: ["genetic_algorithms", "prompt_engineering", "llm", "optimization", "evolutionary_computation", "ai_research"]
+keywords: ["prompt optimization", "genetic algorithms", "large language models", "automated prompt engineering", "evolutionary computation", "OpenAI API"]
+
+# Content status and evolution
+status: "stable"
+evolution_stage: "mature"
+last_thought_date: 2025-07-01
+thought_generation: 1
+
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Andrew"]
+collaboration_type: "framework_development"
+human_contribution: 85
+ai_contribution: 15
+
+# Document relationships
+related_documents: ["hypothesis_breeding_grounds.md", "llm_feedback_dynamics.md", "evolutionary_agents_proposal.md", "ideatic_dynamics_experiments.md", "transfinite_iq_paper.md"]
+cross_synthesis_with: ["hypothesis_breeding_grounds.md", "llm_feedback_dynamics.md"]
+
+# Conceptual threading
+conceptual_threads: ["evolutionary_ai", "genetic_optimization", "prompt_engineering", "llm_enhancement"]
+mathematical_frameworks: ["genetic_algorithms", "optimization_theory", "embedding_similarity"]
+philosophical_positions: ["computational_evolution", "automated_intelligence_enhancement"]
+
+# Navigation hints
+reading_order: 3
+difficulty_level: "advanced"
+reading_time_minutes: 25
+prerequisites: ["genetic_algorithms", "llm_basics", "api_integration", "kotlin_programming"]
+
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "analytical"
+consciousness_level: "collaborative"
+
+# Content features
+has_mathematics: true
+has_code: true
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+
+# Engagement metadata
+engagement_type: "analytical"
+reader_participation: "active"
+cognitive_load: "intense"
+
+# Discovery & SEO
+description: "A comprehensive framework for automated prompt optimization using genetic algorithms, enabling systematic improvement of Large Language Model prompts through evolutionary computation."
+excerpt: "PromptOptimization presents a novel software framework that applies genetic algorithms to automatically optimize prompts for Large Language Models, addressing the challenge of manual prompt engineering through systematic evolution of system prompts."
+meta_title: "PromptOptimization: Genetic Algorithm Framework for LLM Prompt Engineering"
+meta_description: "Automated prompt optimization framework using genetic algorithms for Large Language Models. Systematic approach to evolving effective prompts through mutation and recombination operations."
+meta_keywords: "prompt optimization, genetic algorithms, large language models, automated prompt engineering, evolutionary computation, OpenAI API, LLM optimization"
+
+# Open Graph
+og_title: "PromptOptimization: Genetic Algorithm Framework for Automated Prompt Engineering"
+og_description: "Revolutionary framework for automatically optimizing LLM prompts using genetic algorithms and evolutionary computation techniques."
+og_type: "article"
+og_locale: "en_US"
+
+# Schema.org
+schema_type: "ScholarlyArticle"
+schema_headline: "PromptOptimization: A Genetic Algorithm Framework for Automated Prompt Engineering in Large Language Models"
+schema_author: "Andrew"
+schema_publisher: "Fractal Thought Engine"
+schema_date_published: 2025-07-01
+schema_date_modified: 2025-07-01
+schema_word_count: 3500
+schema_reading_time: "PT25M"
+
+# Discoverability
+is_featured: true
+is_cornerstone: false
+is_gateway: false
+is_synthesis: true
+
+# Dynamic behavior
+auto_update: false
+allows_comments: true
+allows_collaboration: true
 ---
 
 We present PromptOptimization, a novel software framework that applies genetic algorithms to automatically optimize prompts for Large Language Models (LLMs). The framework addresses the challenge of prompt engineering by evolving system prompts through mutation and recombination operations, evaluated against user-defined test cases and expectations. Our implementation provides a flexible, extensible architecture supporting multiple distance metrics for embedding-based similarity calculations and customizable mutation strategies. The framework integrates with OpenAI's API and supports various chat model types, making it suitable for both research and practical applications in prompt optimization.

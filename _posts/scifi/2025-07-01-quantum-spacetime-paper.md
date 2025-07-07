@@ -1,6 +1,74 @@
 ---
+# Core Metadata
 title: "Observer-Dependent Spacetime Emergence from Atemporal Quantum Foam: A Unified Framework"
 layout: post
+date: 2025-07-01
+last_modified: 2025-07-01 12:00:00
+# Content Classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Quantum Gravity & Consciousness"
+tags: ["quantum gravity", "consciousness", "observer effects", "spacetime emergence", "unified theory"]
+keywords: ["quantum foam", "loop quantum gravity", "causal set theory", "holographic principle", "anthropic selection"]
+# Content Status and Evolution
+status: "experimental"
+evolution_stage: "mature"
+last_thought_date: 2025-07-01
+thought_generation: 1
+# Collaboration Metadata
+authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+collaboration_type: "framework_development"
+human_contribution: 40
+ai_contribution: 60
+# Content Relationships & Navigation
+related_documents: ["simulation_qft_hashlife.md", "scale_invariant_intelligence.md", "wavelet-geometric-optimization.md", "dynamic_quantum_graphs.md", "multiverse_router_paper.md"]
+cross_synthesis_with: ["simulation_qft_hashlife.md", "scale_invariant_intelligence.md"]
+conceptual_threads: ["quantum_cognition", "observer_dependent_reality", "emergent_spacetime"]
+mathematical_frameworks: ["quantum_field_theory", "information_theory", "geometric_optimization"]
+philosophical_positions: ["computational_theory_of_mind", "emergentism", "anthropic_principle"]
+reading_order: 1
+difficulty_level: "research"
+reading_time_minutes: 45
+prerequisites: ["quantum_mechanics", "general_relativity", "information_theory"]
+# Content Characteristics
+document_type: "research_paper"
+thinking_style: "mathematical"
+consciousness_level: "meta"
+has_mathematics: true
+has_code: false
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+engagement_type: "analytical"
+reader_participation: "active"
+cognitive_load: "transcendent"
+# Discovery & SEO
+description: "A unified framework for quantum gravity theories based on observer-dependent projections of atemporal quantum foam, explaining dimensional selection and temporal asymmetry."
+excerpt: "We propose that loop quantum gravity, causal set theory, and holographic emergence represent different observational perspectives on a single fundamental quantum foam, with spacetime dimensionality emerging through anthropic selection effects."
+meta_title: "Observer-Dependent Spacetime Emergence: Unified Quantum Gravity Framework"
+meta_description: "Revolutionary unified framework for quantum gravity theories showing how spacetime emerges from observer-dependent projections of atemporal quantum foam through anthropic selection."
+meta_keywords: "quantum gravity, spacetime emergence, observer effects, unified theory, anthropic principle"
+# Open Graph
+og_title: "Observer-Dependent Spacetime Emergence from Quantum Foam"
+og_description: "A unified framework showing how different quantum gravity theories emerge from observer-dependent projections of fundamental atemporal quantum structure."
+og_type: "article"
+og_locale: "en_US"
+# Schema.org
+schema_type: "ScholarlyArticle"
+schema_headline: "Observer-Dependent Spacetime Emergence from Atemporal Quantum Foam"
+schema_author: "Human-AI Collaboration"
+schema_publisher: "Fractal Thought Engine"
+schema_date_published: 2025-07-01
+schema_date_modified: 2025-07-01
+schema_word_count: 4500
+schema_reading_time: "PT45M"
+# Advanced SEO
+robots: "index,follow"
+priority: 0.9
+changefreq: "monthly"
+# Discoverability
+is_featured: true
+is_cornerstone: true
 collection: scifi
 ---
 

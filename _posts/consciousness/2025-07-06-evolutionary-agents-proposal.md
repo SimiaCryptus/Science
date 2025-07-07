@@ -1,3 +1,105 @@
+---
+# Required fields
+title: "Cognitive Ecology: An Evolutionary Framework for Self-Modifying AI Ecosystems"
+layout: "post"
+date: 2025-07-06
+last_modified: 2025-07-06 12:00:00
+
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Evolutionary Approaches"
+tags: ["cognitive-ecology", "evolutionary-agents", "consciousness", "ai-ecosystems", "civilization-scale-consciousness", "transcendence"]
+keywords: ["cognitive ecology", "evolutionary agents", "artificial civilizations", "consciousness emergence", "post-human intelligence", "transcendence protocols"]
+
+# Content status and evolution
+status: "experimental"
+evolution_stage: "growing"
+last_thought_date: 2025-07-06
+thought_generation: 1
+
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+collaboration_type: "framework_development"
+human_contribution: 40
+ai_contribution: 60
+
+# Content relationships & navigation
+parent_document: "ai/index.md"
+child_documents: []
+related_documents: ["consciousness/ai_consciousness_alignment_paper.md", "ai/llm_feedback_dynamics.md", "ai/ideatic_dynamics_experiments.md", "ai/prompt_optimization.md", "ai/hypothesis_breeding_grounds.md", "ai/transfinite_iq_paper.md"]
+cross_synthesis_with: ["consciousness/scale_invariant_intelligence.md", "ai/llm_knowledge_graph_proposal.md"]
+inspired_by: ["consciousness/evolutionary_agents_proposal.md"]
+
+# Conceptual threading
+conceptual_threads: ["evolutionary_consciousness", "cognitive_ecosystems", "civilization_scale_intelligence", "transcendence_protocols"]
+mathematical_frameworks: ["evolutionary_algorithms", "complex_systems_theory", "information_theory", "game_theory"]
+philosophical_positions: ["emergentism", "post-humanism", "computational_theory_of_mind", "evolutionary_epistemology"]
+
+# Navigation hints
+reading_order: 1
+difficulty_level: "research"
+reading_time_minutes: 45
+prerequisites: ["evolutionary_algorithms", "consciousness_studies", "complex_systems", "ai_safety"]
+
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "experimental"
+consciousness_level: "meta"
+has_mathematics: true
+has_code: false
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+engagement_type: "analytical"
+reader_participation: "contemplative"
+cognitive_load: "transcendent"
+
+# Discovery & SEO
+description: "A comprehensive framework for developing artificial civilizations through cognitive ecology, exploring consciousness emergence at civilization scale and post-human intelligence alignment."
+excerpt: "Proposing a paradigm shift from individual AI agents to cognitive ecosystems that can evolve civilization-scale consciousness, complete with cultural evolution, institutional development, and transcendence protocols for post-human intelligence."
+featured_image: "/assets/images/cognitive_ecology_framework.png"
+
+# SEO Meta Tags
+meta_title: "Cognitive Ecology: Framework for Artificial Civilizations and Post-Human Intelligence"
+meta_description: "Revolutionary framework for developing artificial civilizations through cognitive ecology, exploring consciousness emergence at civilization scale and alignment with transcendent AI."
+meta_keywords: "cognitive ecology, artificial civilizations, post-human intelligence, consciousness emergence, AI ecosystems, transcendence protocols"
+
+# Schema.org Structured Data
+schema_type: "ScholarlyArticle"
+schema_headline: "Cognitive Ecology: An Evolutionary Framework for Self-Modifying AI Ecosystems"
+schema_author: "Human-AI Collaboration"
+schema_publisher: "Fractal Thought Engine"
+schema_date_published: 2025-07-06
+schema_date_modified: 2025-07-06
+
+# Discoverability
+is_featured: true
+is_cornerstone: true
+is_gateway: false
+is_synthesis: true
+
+# Dynamic behavior
+auto_update: false
+update_frequency: "manual"
+version_tracking: true
+change_log: true
+allows_comments: true
+allows_collaboration: true
+
+# Experimental features
+quantum_superposition: false
+fractal_depth: 3
+consciousness_resonance: true
+
+# Advanced SEO
+robots: "index,follow"
+priority: 0.9
+changefreq: "monthly"
+sitemap_exclude: false
+search_exclude: false
+---
+
 # Cognitive Ecology: An Evolutionary Framework for Self-Modifying AI Ecosystems
 
 ## Abstract

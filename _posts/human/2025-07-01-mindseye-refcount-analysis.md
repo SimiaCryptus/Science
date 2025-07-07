@@ -1,7 +1,82 @@
 ---
+# Required fields
 title: "MindsEye Reference Counting Analysis"
 layout: post
-collection: ai
+date: 2025-07-01
+last_modified: 2025-07-01 12:00:00
+
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Neural Architectures"
+tags: ["java", "memory-management", "gpu", "machine-learning", "reference-counting", "cuda"]
+keywords: ["MindsEye", "reference counting", "GPU memory", "Java ML", "deterministic cleanup", "CUDA"]
+
+# Content status and evolution
+status: "stable"
+evolution_stage: "mature"
+last_thought_date: 2025-07-01
+thought_generation: 1
+
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Andrew"]
+collaboration_type: "framework_development"
+human_contribution: 85
+ai_contribution: 15
+
+# Content relationships & navigation
+related_documents: ["mindseye_technical_report.md", "qqn_paper.md", "recursive_subspace_paper.md", "mindseye_modularity_report.md", "trust_regions.md"]
+conceptual_threads: ["memory_management", "gpu_optimization", "java_ml_frameworks"]
+mathematical_frameworks: ["reference_counting", "resource_management"]
+
+# Navigation hints
+reading_order: 1
+difficulty_level: "intermediate"
+reading_time_minutes: 15
+prerequisites: ["basic_java_knowledge", "gpu_programming_concepts"]
+
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "analytical"
+consciousness_level: "analytical"
+
+# Content features
+has_mathematics: false
+has_code: true
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+
+# Engagement metadata
+engagement_type: "analytical"
+reader_participation: "passive"
+cognitive_load: "moderate"
+
+# Discovery & SEO
+description: "An in-depth analysis of MindsEye's sophisticated reference counting approach for GPU memory management in Java ML frameworks"
+excerpt: "Examining MindsEye's innovative reference counting system that brings deterministic memory management to Java-based machine learning, particularly for GPU resource management."
+meta_description: "Analysis of MindsEye framework's reference counting implementation for GPU memory management in Java ML applications"
+meta_keywords: "MindsEye, reference counting, Java machine learning, GPU memory management, CUDA, deterministic cleanup"
+schema_type: "TechArticle"
+schema_headline: "MindsEye Reference Counting Analysis"
+schema_author: "Andrew"
+schema_date_published: 2025-07-01
+schema_word_count: 2500
+schema_reading_time: "PT15M"
+robots: "index,follow"
+priority: 0.8
+changefreq: "monthly"
+
+# Discoverability
+is_featured: false
+is_cornerstone: true
+is_gateway: false
+is_synthesis: false
+
+# Dynamic behavior
+auto_update: false
+update_frequency: "manual"
+version_tracking: false
 ---
 
 *An examination of unconventional memory management in Java-based machine learning*

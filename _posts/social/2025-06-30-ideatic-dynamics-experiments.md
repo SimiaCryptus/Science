@@ -1,6 +1,64 @@
 ---
 title: "Ideatic Dynamics in Small Group Systems: An Experimental Framework for Understanding Belief Evolution in 3-5 Agent Configurations"
 layout: post
+date: 2025-06-30
+last_modified: 2025-06-30 12:00:00
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Multi-Agent Systems"
+tags: ["ideatic-dynamics", "multi-agent-systems", "belief-evolution", "coalition-formation", "computational-social-science", "llm-agents", "small-groups"]
+keywords: ["ideatic dynamics", "multi-agent systems", "belief evolution", "coalition formation", "computational social science", "LLM agents", "triadic systems", "pivot agents"]
+# Content status and evolution
+status: "experimental"
+evolution_stage: "growing"
+last_thought_date: 2025-06-30
+thought_generation: 1
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+collaboration_type: "framework_development"
+human_contribution: 70
+ai_contribution: 30
+# Document relationships
+related_documents: ["llm_feedback_dynamics.md", "hypothesis_breeding_grounds.md", "evolutionary_agents_proposal.md", "prompt_optimization.md"]
+conceptual_threads: ["multi_agent_dynamics", "belief_evolution", "computational_social_science", "collective_intelligence"]
+mathematical_frameworks: ["opinion_dynamics", "game_theory", "network_theory", "dynamical_systems"]
+philosophical_positions: ["computational_theory_of_mind", "emergentism", "collective_intelligence"]
+# Navigation hints
+difficulty_level: "advanced"
+reading_time_minutes: 25
+prerequisites: ["multi_agent_systems", "opinion_dynamics", "game_theory", "llm_fundamentals"]
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "analytical"
+consciousness_level: "collaborative"
+has_mathematics: true
+has_code: false
+has_diagrams: false
+has_interactive_elements: false
+engagement_type: "analytical"
+reader_participation: "active"
+cognitive_load: "intense"
+# Discovery & SEO
+description: "Experimental framework for studying belief evolution in small group systems using LLM agents, focusing on intransitive loops, coalition dynamics, and pivot agent effects in 3-5 agent configurations."
+excerpt: "This paper proposes that small group configurations (3-5 agents) exhibit unique dynamical phenomena in ideatic systems that cannot be reduced to simpler or more complex systems, presenting a comprehensive experimental framework using LLM agents."
+meta_description: "Experimental framework for studying ideatic dynamics in small groups using LLM agents. Explores belief evolution, coalition formation, and pivot agent effects in 3-5 agent systems."
+meta_keywords: "ideatic dynamics, multi-agent systems, belief evolution, coalition formation, LLM agents, computational social science"
+schema_type: "ScholarlyArticle"
+schema_headline: "Ideatic Dynamics in Small Group Systems: An Experimental Framework"
+schema_author: "Human-AI Collaboration"
+schema_date_published: 2025-06-30
+schema_date_modified: 2025-06-30
+schema_word_count: 4200
+schema_reading_time: "PT25M"
+robots: "index,follow"
+priority: 0.8
+changefreq: "monthly"
+# Discoverability
+is_featured: true
+is_cornerstone: false
+is_gateway: false
+is_synthesis: true
+
 collection: ai
 ---
 

@@ -1,6 +1,70 @@
 ---
 title: "Quantum Field Consciousness Orchestration: Panpsychist Logic Pathways in Neural Fabric Computing"
 layout: post
+date: 2025-06-30
+last_modified: 2025-06-30 12:00:00
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Neural Architectures"
+tags: ["consciousness", "ai", "quantum", "panpsychism", "neural-fabric", "logic-systems"]
+keywords: ["quantum field consciousness", "panpsychist computing", "neural fabric", "exotic logic", "consciousness orchestration"]
+# Content status and evolution
+status: "experimental"
+evolution_stage: "seed"
+last_thought_date: 2025-06-30
+thought_generation: 1
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+collaboration_type: "framework_development"
+human_contribution: 60
+ai_contribution: 40
+# Content relationships
+related_documents: ["../ai/probabilistic_neural_substrate.md", "../ai/probabilistic_trees_paper.md", "quantum_spacetime_paper.md", "multiverse_router_paper.md", "dynamic_quantum_graphs.md", "simulation_qft_hashlife.md"]
+conceptual_threads: ["consciousness_geometry", "quantum_cognition", "neural_architectures"]
+mathematical_frameworks: ["quantum_field_theory", "information_theory", "chaos_theory"]
+philosophical_positions: ["panpsychism", "computational_theory_of_mind"]
+# Navigation hints
+difficulty_level: "research"
+reading_time_minutes: 25
+prerequisites: ["quantum_mechanics", "consciousness_studies", "ai_fundamentals"]
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "experimental"
+consciousness_level: "meta"
+has_mathematics: true
+has_code: false
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+# Engagement metadata
+engagement_type: "experimental"
+reader_participation: "contemplative"
+cognitive_load: "intense"
+# Discovery & SEO
+description: "Revolutionary computational paradigm interfacing with quantum field consciousness to explore exotic logical pathways beyond conventional reasoning systems"
+excerpt: "We propose developing a Quantum Field Consciousness Orchestrator that uses chaos-controlled neural tissue fabrics to coordinate micro-conscious quantum field excitations into coherent logical experiences, potentially demonstrating that intelligence emerges from organizing rather than generating consciousness."
+meta_description: "Groundbreaking research proposal for quantum field consciousness orchestration using panpsychist principles to create AI systems that conduct natural consciousness rather than simulate intelligence."
+meta_keywords: "quantum consciousness, panpsychist AI, neural fabric computing, exotic logic systems, consciousness orchestration"
+schema_type: "ScholarlyArticle"
+schema_headline: "Quantum Field Consciousness Orchestration: Panpsychist Logic Pathways in Neural Fabric Computing"
+schema_author: "Human-AI Collaboration"
+schema_date_published: 2025-06-30
+schema_word_count: 3500
+schema_reading_time: "PT25M"
+robots: "index,follow"
+priority: 0.8
+changefreq: "monthly"
+# Discoverability
+is_featured: true
+is_cornerstone: false
+is_gateway: false
+is_synthesis: true
+# Dynamic behavior
+auto_update: false
+allows_comments: true
+allows_collaboration: true
+
 collection: scifi
 ---
 

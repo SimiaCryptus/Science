@@ -1,6 +1,66 @@
 ---
 title: "MindsEye's Modular Optimization Architecture: A Technical Analysis"
 layout: post
+date: 2025-07-01
+last_modified: 2025-07-01 12:00:00
+
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Neural Architectures"
+tags: ["machine-learning", "optimization", "architecture", "java", "framework", "deep-learning"]
+keywords: ["MindsEye", "modular optimization", "ML framework", "quasi-Newton", "trust regions", "QQN"]
+
+# Content status and evolution
+status: "stable"
+evolution_stage: "mature"
+last_thought_date: 2025-07-01
+thought_generation: 1
+
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Andrew"]
+collaboration_type: "framework_development"
+human_contribution: 85
+ai_contribution: 15
+
+# Content relationships
+related_documents: ["recursive_subspace_paper.md", "qqn_paper.md", "trust_regions.md", "ai_bias_paper.md", "symmetric_textures_rewrite.md"]
+conceptual_threads: ["optimization_theory", "modular_architecture", "enterprise_ml"]
+mathematical_frameworks: ["quasi_newton_methods", "trust_region_optimization", "line_search_algorithms"]
+
+# Navigation hints
+difficulty_level: "advanced"
+reading_time_minutes: 15
+prerequisites: ["machine_learning_fundamentals", "optimization_theory", "software_architecture"]
+
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "analytical"
+has_mathematics: true
+has_code: false
+has_diagrams: false
+
+# Engagement metadata
+engagement_type: "analytical"
+reader_participation: "passive"
+cognitive_load: "intense"
+
+# Discovery & SEO
+description: "Technical analysis of MindsEye's modular optimization architecture, examining its four-layer decomposition and innovative approaches to machine learning framework design."
+excerpt: "An in-depth examination of MindsEye's sophisticated modular optimization system, highlighting its elegant four-layer architecture and advanced features like QQN and trust regions that anticipated modern ML needs."
+meta_description: "Comprehensive technical analysis of MindsEye deep learning framework's modular optimization architecture, covering its innovative four-layer design and advanced optimization algorithms."
+meta_keywords: "MindsEye, machine learning framework, modular optimization, Java ML, quasi-Newton methods, trust regions, QQN algorithm"
+
+# Schema.org structured data
+schema_type: "TechArticle"
+schema_headline: "MindsEye's Modular Optimization Architecture: A Technical Analysis"
+schema_author: "Andrew"
+schema_date_published: 2025-07-01
+schema_word_count: 2500
+schema_reading_time: "PT15M"
+
+# Discoverability
+is_featured: true
+is_cornerstone: true
 collection: ai
 ---
 

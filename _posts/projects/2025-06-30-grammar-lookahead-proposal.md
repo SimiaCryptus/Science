@@ -1,6 +1,77 @@
 ---
 title: "Formal Grammar Lookahead for Constrained LLM Generation"
 layout: post
+date: 2025-06-30
+last_modified: 2025-06-30 12:00:00
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Neural Architectures"
+tags: ["llm", "constrained-generation", "formal-grammar", "parsing", "ai-research"]
+keywords: ["grammar lookahead", "constrained generation", "LLM", "parser", "reachability analysis", "structured generation"]
+# Content status and evolution
+status: "experimental"
+evolution_stage: "growing"
+last_thought_date: 2025-06-30
+thought_generation: 1
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+collaboration_type: "framework_development"
+human_contribution: 70
+ai_contribution: 30
+# Content relationships & navigation
+conceptual_threads: ["ai_architecture", "formal_methods", "language_models"]
+mathematical_frameworks: ["formal_grammar_theory", "graph_theory", "computational_complexity"]
+philosophical_positions: ["computational_theory_of_mind"]
+reading_order: 1
+difficulty_level: "advanced"
+reading_time_minutes: 25
+prerequisites: ["formal_grammar_theory", "llm_architecture", "parsing_algorithms"]
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "analytical"
+consciousness_level: "collaborative"
+has_mathematics: true
+has_code: true
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+engagement_type: "analytical"
+reader_participation: "active"
+cognitive_load: "intense"
+# Discovery & SEO
+description: "A novel approach to constrained LLM generation using formal grammar lookahead for improved structured output reliability"
+excerpt: "Current constrained generation methods for large language models rely on local validity checking, leading to generation failures. We propose a lookahead-based constraint mechanism that evaluates token choices based on their potential to reach valid terminal states."
+# SEO Meta Tags
+meta_title: "Grammar Lookahead for Constrained LLM Generation - Research Proposal"
+meta_description: "Novel framework for improving structured LLM generation through formal grammar lookahead and reachability analysis, addressing limitations of current local constraint methods."
+meta_keywords: "LLM, constrained generation, formal grammar, parsing, AI research, structured output"
+# Open Graph
+og_title: "Formal Grammar Lookahead for Constrained LLM Generation"
+og_description: "Research proposal for improving structured LLM generation through grammar lookahead and reachability analysis"
+og_type: "article"
+og_locale: "en_US"
+# Schema.org
+schema_type: "ScholarlyArticle"
+schema_headline: "Formal Grammar Lookahead for Constrained LLM Generation"
+schema_author: "Human-AI Collaboration"
+schema_date_published: 2025-06-30
+schema_date_modified: 2025-06-30
+schema_word_count: 3500
+schema_reading_time: "PT25M"
+# Advanced SEO
+robots: "index,follow"
+content_rating: "general"
+content_language: "en"
+geo_region: "Global"
+priority: 0.8
+changefreq: "monthly"
+# Discoverability
+is_featured: true
+is_cornerstone: false
+is_gateway: false
+is_synthesis: false
+
 collection: projects
 ---
 

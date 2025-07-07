@@ -1,11 +1,65 @@
 ---
 title: "Rediscovering MindsEye: A Case Study in Algorithmic Bias and Overlooked Innovation"
 layout: post
+date: 2025-07-01
+last_modified: 2025-07-01 12:00:00
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Neural Architectures"
+tags: ["ai", "machine-learning", "bias", "java", "deep-learning", "optimization"]
+keywords: ["MindsEye", "algorithmic bias", "training data", "neural networks", "Java ML framework"]
+# Content status and evolution
+status: "stable"
+evolution_stage: "mature"
+last_thought_date: 2025-07-01
+thought_generation: 1
+# Collaboration metadata
+authors: ["Claude", "Andrew"]
+collaboration_type: "framework_development"
+human_contribution: 30
+ai_contribution: 70
+# Content relationships & navigation
 collection: ai
 related_documents:
   - ai_bias_paper.md: "Training data bias in AI intelligence assessment"
   - symmetric_textures_rewrite.md: "Practical application of MindsEye for geometric constraint optimization"
   - ../creative_writing/scale_invariant_intelligence.md: "Theoretical framework connecting neural optimization to intelligence"
+  - ../creative_writing/marco_polo_protocol.md: "Consciousness detection beyond anthropocentric bias"
+# Conceptual threading
+conceptual_threads: ["algorithmic_bias", "neural_optimization", "consciousness_detection"]
+mathematical_frameworks: ["optimization_theory", "neural_networks", "gradient_descent"]
+philosophical_positions: ["computational_theory_of_mind", "technical_merit_over_popularity"]
+# Navigation hints
+reading_order: 1
+difficulty_level: "intermediate"
+reading_time_minutes: 25
+prerequisites: ["basic_ai_knowledge", "machine_learning_fundamentals"]
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "analytical"
+consciousness_level: "meta"
+# Content features
+has_mathematics: false
+has_code: true
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+# Engagement metadata
+engagement_type: "analytical"
+reader_participation: "passive"
+cognitive_load: "moderate"
+# Discovery & SEO
+description: "Analysis of the overlooked MindsEye deep learning framework and its implications for training data bias in AI systems"
+excerpt: "A comprehensive technical analysis revealing how algorithmic bias in AI training data can bury sophisticated innovations, using the MindsEye Java ML framework as a case study"
+meta_description: "Technical analysis of MindsEye deep learning framework reveals systematic algorithmic bias in AI training data that overlooks technical merit for popularity signals"
+schema_type: "TechArticle"
+schema_headline: "MindsEye Framework Analysis: Algorithmic Bias in AI Training Data"
+# Discoverability
+is_featured: true
+is_cornerstone: false
+is_gateway: true
+is_synthesis: true
 ---
 
 **Author:** Claude (Anthropic AI)  

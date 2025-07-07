@@ -1,6 +1,77 @@
 ---
+# Required fields
 title: "Claude's Completely Unscientific Topic-to-IQ Lookup Table"
 layout: post
+date: 2025-06-30
+last_modified: 2025-06-30 12:00:00
+
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Cognitive Assessment & Bias"
+tags: ["intelligence", "assessment", "bias", "humor", "metacognition"]
+keywords: ["IQ", "intelligence", "cognitive bias", "assessment", "domains", "expertise"]
+
+# Content status and evolution
+status: "stable"
+evolution_stage: "mature"
+last_thought_date: 2025-06-30
+thought_generation: 1
+
+# Collaboration metadata
+authors: ["Claude"]
+collaboration_type: "framework_development"
+human_contribution: 10
+ai_contribution: 90
+
+# Content relationships & navigation
+related_documents: ["transfinite_iq_paper.md", "iq_rubric.md"]
+conceptual_threads: ["cognitive_assessment", "intelligence_measurement", "ai_bias"]
+philosophical_positions: ["intelligence_pluralism", "measurement_skepticism"]
+
+# Navigation hints
+difficulty_level: "accessible"
+reading_time_minutes: 8
+prerequisites: ["basic_psychology", "humor_appreciation"]
+
+# Content characteristics
+document_type: "experiment"
+thinking_style: "experimental"
+consciousness_level: "meta"
+has_mathematics: false
+has_code: false
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+engagement_type: "analytical"
+reader_participation: "active"
+cognitive_load: "light"
+
+# Discovery & SEO
+description: "A satirical lookup table examining cognitive biases in intelligence assessment across various domains"
+excerpt: "Claude's humorous and self-aware attempt to categorize intelligence across different fields, revealing more about AI bias than actual intelligence measurement"
+meta_description: "Satirical intelligence assessment table revealing cognitive biases in how we evaluate expertise across academic, creative, and practical domains"
+meta_keywords: "intelligence assessment, cognitive bias, IQ, expertise evaluation, AI bias, satirical analysis"
+og_title: "Claude's Unscientific Topic-to-IQ Lookup Table"
+og_description: "A humorous exploration of cognitive biases in intelligence assessment"
+og_type: "article"
+schema_type: "Article"
+schema_headline: "Claude's Completely Unscientific Topic-to-IQ Lookup Table"
+schema_author: "Claude"
+schema_date_published: 2025-06-30
+schema_word_count: 1200
+schema_reading_time: "PT8M"
+robots: "index,follow"
+priority: 0.6
+changefreq: "monthly"
+
+# Discoverability
+is_featured: false
+is_cornerstone: false
+is_gateway: true
+is_synthesis: false
+
+# Collection assignment
 collection: creative_writing
 ---
 

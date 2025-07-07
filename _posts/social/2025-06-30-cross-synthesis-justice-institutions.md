@@ -1,15 +1,67 @@
 ---
 title: "Cross-Synthesis: AI Justice Reform and Institutional Capture - A Unified Theory of Systemic Transformation"
 layout: post
+date: 2025-06-30
+last_modified: 2025-06-30 12:00:00
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Institutional Transformation"
+tags: ["ai", "justice", "institutions", "game-theory", "synthesis", "transformation"]
+keywords: ["institutional capture", "ai justice", "professional complexity", "systemic reform", "post-scarcity"]
+# Content status and evolution
+status: "living"
+evolution_stage: "mature"
+last_thought_date: 2025-06-30
+thought_generation: 1
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+collaboration_type: "cross_synthesis"
+human_contribution: 40
+ai_contribution: 60
+# Content relationships & navigation
 collection: social
 related_documents:
-  - game_theory_ethics.md: "Game-theoretic analysis of institutional capture"
-  - ai_justice_paper.md: "AI-driven legal system reform proposal"
-  - institutional_collapse_simulation.tsx: "Interactive simulation of institutional dynamics"
-  - social_truth_proposal.md: "Framework for understanding belief dynamics in institutions"
-  - cognitive_effort_paper.md: "Individual cognitive decisions within institutional contexts"
-  - conversation_intelligence_paper.md: "Distributed intelligence assessment for institutional reform"
-  - managed_reality_paper.md: "Information environment design for institutional transformation"
+  - "game_theory_ethics.md"
+  - "ai_justice_paper.md"
+  - "institutional_collapse_simulation.tsx"
+  - "social_truth_proposal.md"
+  - "cognitive_effort_paper.md"
+  - "conversation_intelligence_paper.md"
+  - "managed_reality_paper.md"
+cross_synthesis_with: ["game_theory_ethics.md", "ai_justice_paper.md"]
+
+# Conceptual threading
+conceptual_threads: ["institutional_transformation", "ai_disruption", "professional_complexity", "post_scarcity_design"]
+mathematical_frameworks: ["game_theory", "information_theory", "systems_theory"]
+philosophical_positions: ["institutional_critique", "technological_determinism", "post_scarcity_economics"]
+
+# Navigation hints
+reading_order: 3
+difficulty_level: "advanced"
+reading_time_minutes: 25
+prerequisites: ["game_theory_basics", "ai_systems_understanding", "institutional_analysis"]
+
+# Content characteristics
+document_type: "synthesis"
+thinking_style: "analytical"
+consciousness_level: "meta"
+has_mathematics: false
+has_code: false
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+
+# Engagement metadata
+engagement_type: "analytical"
+reader_participation: "active"
+cognitive_load: "intense"
+
+# Discovery & SEO
+description: "A comprehensive synthesis analyzing how AI-driven justice reform and institutional capture theory converge to reveal inevitable systemic transformation patterns."
+excerpt: "Exploring the convergence of AI justice reform and institutional capture analysis to understand how technological capabilities expose and resolve institutional pathologies through post-scarcity design principles."
+is_featured: true
+is_synthesis: true
 ---
 
 ## The Convergence: How AI Exposes and Resolves Institutional Pathologies

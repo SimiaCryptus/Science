@@ -1,6 +1,92 @@
 ---
+# Required fields
 title: "Probabilistic Decision Trees: A Cross-Entropy Approach to Joint Distribution Modeling"
 layout: post
+date: 2025-06-30
+last_modified: 2025-06-30 12:00:00
+
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Machine Learning Methodologies"
+tags: ["decision_trees", "probabilistic_modeling", "cross_entropy", "uncertainty_quantification", "bayesian_methods", "joint_distributions"]
+keywords: ["probabilistic decision trees", "cross-entropy optimization", "joint probability distributions", "uncertainty quantification", "bayesian modeling", "machine learning"]
+
+# Content status and evolution
+status: "stable"
+evolution_stage: "mature"
+last_thought_date: 2025-06-30
+thought_generation: 1
+
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+collaboration_type: "framework_development"
+human_contribution: 70
+ai_contribution: 30
+
+# Document relationships
+related_documents: ["ngram_paper.md", "compression_classification_paper.md", "probabilistic_neural_substrate.md"]
+cross_synthesis_with: ["probabilistic_neural_substrate.md"]
+
+# Conceptual threading
+conceptual_threads: ["probabilistic_modeling", "information_theory", "uncertainty_quantification", "bayesian_inference"]
+mathematical_frameworks: ["information_theory", "probability_theory", "cross_entropy", "bayesian_statistics"]
+philosophical_positions: ["bayesian_epistemology", "information_theoretic_learning"]
+
+# Navigation hints
+reading_order: 2
+difficulty_level: "advanced"
+reading_time_minutes: 15
+prerequisites: ["machine_learning_basics", "probability_theory", "information_theory", "decision_trees"]
+
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "analytical"
+consciousness_level: "collaborative"
+has_mathematics: true
+has_code: false
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+
+# Engagement metadata
+engagement_type: "analytical"
+reader_participation: "active"
+cognitive_load: "intense"
+
+# Discovery & SEO
+description: "Novel extension to decision tree methodology that models joint probability distributions using cross-entropy optimization between prior and posterior distributions."
+excerpt: "A retrospective analysis of innovative research from 2010-2011 that anticipated modern trends in uncertainty quantification and probabilistic modeling, introducing cross-entropy optimization for Bayesian decision tree construction."
+meta_title: "Probabilistic Decision Trees: Cross-Entropy Approach to Joint Distribution Modeling"
+meta_description: "Innovative decision tree methodology using cross-entropy optimization for joint probability distributions, uncertainty quantification, and Bayesian modeling in machine learning."
+meta_keywords: "probabilistic decision trees, cross-entropy optimization, joint probability distributions, uncertainty quantification, bayesian machine learning"
+
+# Open Graph (Social Media)
+og_title: "Probabilistic Decision Trees: A Cross-Entropy Approach"
+og_description: "Novel machine learning methodology that models joint probability distributions using cross-entropy optimization, offering unique uncertainty quantification capabilities."
+og_type: "article"
+og_locale: "en_US"
+
+# Schema.org Structured Data
+schema_type: "ScholarlyArticle"
+schema_headline: "Probabilistic Decision Trees: A Cross-Entropy Approach to Joint Distribution Modeling"
+schema_author: "Human-AI Collaboration"
+schema_date_published: 2025-06-30
+schema_date_modified: 2025-06-30
+schema_word_count: 2800
+schema_reading_time: "PT15M"
+
+# Search Engine Directives
+robots: "index,follow"
+priority: 0.8
+changefreq: "monthly"
+
+# Discoverability
+is_featured: true
+is_cornerstone: false
+is_gateway: false
+is_synthesis: true
+
 collection: ai
 ---
 

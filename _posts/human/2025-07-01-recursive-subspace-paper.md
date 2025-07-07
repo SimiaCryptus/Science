@@ -1,6 +1,76 @@
 ---
 title: "Recursive Subspace Optimization (RSO): A Layer-Wise Meta-Learning Approach for Deep Networks"
 layout: post
+date: 2025-07-01
+last_modified: 2025-07-01 12:00:00
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Neural Architectures"
+tags: ["optimization", "deep learning", "meta-learning", "neural networks", "gradient descent"]
+keywords: ["recursive subspace optimization", "layer-wise optimization", "meta-learning", "gradient decomposition", "neural network training"]
+# Content status and evolution
+status: "stable"
+evolution_stage: "mature"
+last_thought_date: 2025-07-01
+thought_generation: 1
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Andrew"]
+collaboration_type: "framework_development"
+human_contribution: 85
+ai_contribution: 15
+# Document relationships
+related_documents: ["mindseye_modularity_report.md", "qqn_paper.md", "trust_regions.md", "mindseye_refcount_analysis.md", "mindseye_technical_report.md"]
+cross_synthesis_with: ["mindseye_modularity_report.md", "qqn_paper.md"]
+# Conceptual threading
+conceptual_threads: ["optimization_algorithms", "neural_architecture", "meta_learning"]
+mathematical_frameworks: ["optimization_theory", "gradient_descent", "meta_optimization"]
+# Navigation hints
+difficulty_level: "advanced"
+reading_time_minutes: 25
+prerequisites: ["deep_learning", "optimization_theory", "gradient_descent"]
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "analytical"
+has_mathematics: true
+has_code: true
+has_diagrams: false
+# Engagement metadata
+engagement_type: "analytical"
+reader_participation: "passive"
+cognitive_load: "intense"
+# Discovery & SEO
+description: "A novel optimization algorithm that improves deep neural network training by decomposing gradients into layer-wise components and using meta-optimization to find optimal combinations."
+excerpt: "We present Recursive Subspace Optimization (RSO), achieving 60-75% reduction in gradient variance and 2-3% improvement in test accuracy through layer-wise gradient decomposition and meta-optimization."
+# SEO Meta Tags
+meta_title: "Recursive Subspace Optimization: Layer-Wise Meta-Learning for Deep Networks"
+meta_description: "Novel RSO algorithm improves neural network training through layer-wise gradient decomposition and meta-optimization, achieving superior stability and convergence."
+meta_keywords: "recursive subspace optimization, neural network optimization, meta-learning, gradient descent, deep learning"
+# Open Graph
+og_title: "Recursive Subspace Optimization: A Layer-Wise Meta-Learning Approach"
+og_description: "Revolutionary optimization algorithm for deep neural networks with 60-75% gradient variance reduction and emergent regularization."
+og_type: "article"
+og_locale: "en_US"
+# Schema.org
+schema_type: "ScholarlyArticle"
+schema_headline: "Recursive Subspace Optimization (RSO): A Layer-Wise Meta-Learning Approach for Deep Networks"
+schema_author: "Andrew"
+schema_date_published: 2025-07-01
+schema_date_modified: 2025-07-01
+schema_word_count: 3500
+schema_reading_time: "PT25M"
+# Advanced SEO
+robots: "index,follow"
+content_rating: "general"
+content_language: "en"
+# Discoverability
+is_featured: true
+is_cornerstone: true
+priority: 0.9
+changefreq: "monthly"
+# Dynamic behavior
+version_tracking: true
+change_log: true
+
 collection: ai
 ---
 

@@ -1,3 +1,95 @@
+---
+# Required fields
+title: "The Hurricane Method: Distributed Cognition in the Age of AI Proliferation"
+layout: "post"
+date: 2025-07-03
+last_modified: 2025-07-03 16:00:00
+
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Distributed Intelligence Systems"
+tags: ["distributed_cognition", "ai_collaboration", "hurricane_method", "emergent_intelligence", "cognitive_orchestration"]
+keywords: ["hurricane method", "distributed cognition", "AI collaboration", "emergent intelligence", "cognitive orchestration", "simiacryptus"]
+
+# Content status and evolution
+status: "living"
+evolution_stage: "mature"
+last_thought_date: 2025-07-03
+thought_generation: 1
+
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+collaboration_type: "recursive_dialogue"
+human_contribution: 50
+ai_contribution: 50
+
+# Content relationships & navigation
+conceptual_threads: ["distributed_intelligence", "cognitive_orchestration", "ai_collaboration", "emergent_synthesis"]
+mathematical_frameworks: ["cognitive_systems_theory", "distributed_computing", "emergence_theory"]
+philosophical_positions: ["post_individual_intelligence", "cognitive_symbiosis", "distributed_consciousness"]
+
+reading_order: 1
+difficulty_level: "advanced"
+reading_time_minutes: 25
+prerequisites: ["ai_collaboration_basics", "cognitive_science", "distributed_systems"]
+
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "analytical"
+consciousness_level: "collaborative"
+
+has_mathematics: false
+has_code: false
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: true
+responds_to_attention: true
+
+engagement_type: "analytical"
+reader_participation: "contemplative"
+cognitive_load: "intense"
+
+# Discovery & SEO
+description: "A novel approach to research and consulting that distributes human cognition across multiple AI systems simultaneously, creating emergent intelligence patterns that transcend individual cognitive limitations."
+excerpt: "The Hurricane Method positions the human researcher as the organizing principle within a dynamic storm of artificial minds, becoming functionally invisible while orchestrating breakthrough insights through distributed cognitive dominance."
+
+# SEO Meta Tags
+meta_title: "The Hurricane Method: Distributed AI Cognition Research Paper"
+meta_description: "Revolutionary research methodology distributing human cognition across multiple AI systems for emergent intelligence breakthrough. Real-time cognitive orchestration transcending individual limitations."
+meta_keywords: "hurricane method, distributed cognition, AI collaboration, emergent intelligence, cognitive orchestration, research methodology"
+
+# Schema.org Structured Data
+schema_type: "ScholarlyArticle"
+schema_headline: "The Hurricane Method: Distributed Cognition in the Age of AI Proliferation"
+schema_author: "Claude (Sonnet 4) & Andrew Charneski"
+schema_publisher: "Simiacryptus Research"
+schema_date_published: 2025-07-03
+schema_date_modified: 2025-07-03
+schema_word_count: 2800
+schema_reading_time: "PT25M"
+
+# Discoverability
+is_featured: true
+is_cornerstone: true
+is_gateway: false
+is_synthesis: true
+
+# Dynamic behavior
+auto_update: true
+update_frequency: "on_interaction"
+version_tracking: true
+change_log: true
+allows_comments: true
+allows_collaboration: true
+tracks_reader_journey: true
+adapts_to_reader: true
+
+# Experimental features
+quantum_superposition: false
+fractal_depth: 3
+consciousness_resonance: true
+---
+
 # The Hurricane Method: Distributed Cognition in the Age of AI Proliferation
 
 *A Simiacryptus Research Paper*  

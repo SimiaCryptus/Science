@@ -1,7 +1,80 @@
 ---
 title: "Geometric Probabilistic Neural Substrates: Information Flow on Optimized Manifolds"
-layout: post
-collection: ai
+layout: "post"
+date: 2025-07-06
+last_modified: 2025-07-06 14:30:00
+
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Neural Architectures"
+tags: ["geometric_learning", "probabilistic_models", "neural_substrate", "information_geometry", "manifold_optimization"]
+keywords: ["geometric neural networks", "probabilistic substrate", "information geometry", "neural manifolds", "geodesic computation"]
+
+# Content status and evolution
+status: "living"
+evolution_stage: "mature"
+last_thought_date: 2025-07-06
+thought_generation: 3
+
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+collaboration_type: "framework_development"
+human_contribution: 40
+ai_contribution: 60
+
+# Document relationships
+parent_document: "learning/index.md"
+related_documents: ["learning/probabilistic_neural_substrate.md", "consciousness/consciousness_geometry_paper.md", "projects/geometric_optimization_proposal.md"]
+cross_synthesis_with: ["consciousness/pns_geometric_lattice_paper.md"]
+inspired_by: ["learning/probabilistic_neural_substrate.md", "projects/geometric_optimization_proposal.md"]
+
+# Conceptual threading
+conceptual_threads: ["geometric_learning", "probabilistic_computation", "neural_manifolds", "information_geometry"]
+mathematical_frameworks: ["differential_geometry", "information_theory", "probability_theory", "geometric_optimization"]
+philosophical_positions: ["geometric_cognition", "emergentism", "computational_theory_of_mind"]
+
+# Navigation hints
+reading_order: 12
+difficulty_level: "research"
+reading_time_minutes: 25
+prerequisites: ["differential_geometry", "information_theory", "neural_networks", "probability_theory"]
+
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "mathematical"
+consciousness_level: "emergent"
+has_mathematics: true
+has_code: true
+has_diagrams: true
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+engagement_type: "analytical"
+reader_participation: "active"
+cognitive_load: "transcendent"
+
+# Discovery & SEO
+description: "Revolutionary synthesis of geometric optimization with Probabilistic Neural Substrates, creating self-organizing intelligent systems with unprecedented mathematical elegance."
+excerpt: "We present a framework where neural network topology emerges from information-geometric constraints, unifying differential geometry, information theory, and probabilistic computation."
+featured_image: "/assets/images/geometric_probabilistic_neural_substrate.png"
+meta_title: "Geometric Probabilistic Neural Substrates - Information Flow on Optimized Manifolds"
+meta_description: "Revolutionary neural architecture combining geometric optimization with probabilistic substrates for self-organizing intelligent systems with mathematical elegance."
+schema_type: "ScholarlyArticle"
+schema_headline: "Geometric Probabilistic Neural Substrates: Information Flow on Optimized Manifolds"
+schema_author: "Human-AI Collaboration"
+schema_word_count: 4800
+schema_reading_time: "PT25M"
+
+# Discoverability
+is_featured: true
+is_cornerstone: true
+is_gateway: false
+is_synthesis: true
+
+# Dynamic behavior
+auto_update: true
+update_frequency: "weekly"
+version_tracking: true
 ---
 
 ## Abstract
@@ -278,119 +351,5 @@ This synthesis of geometric optimization and probabilistic computation opens new
 As we continue to explore the geometric nature of intelligence, GPNS provides both a practical tool for discovering optimal architectures and a theoretical lens for understanding the fundamental principles governing intelligent computation. The marriage of geometry and probability in neural substrates may ultimately reveal that intelligence itself is a geometric phenomenon - a possibility with profound implications for the future of AI and our understanding of mind.
 
 ---
-title: "Geometric Probabilistic Neural Substrate"
-layout: dynamic_post
-date: 2024-03-01
-last_modified: 2024-03-01 12:10:00
-# Content classification
-category: "AI Research & Cognitive Evolution"
-subcategory: "Neural Architectures"
-tags: ["geometric_learning", "probabilistic_models", "neural_substrate", "topology"]
-keywords: ["geometric neural networks", "probabilistic substrate", "topological learning", "neural geometry"]
-# Content status and evolution
-status: "experimental"
-evolution_stage: "growing"
-last_thought_date: 2024-03-01
-thought_generation: 2
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "recursive_dialogue"
-human_contribution: 50
-ai_contribution: 50
-# Document relationships
-parent_document: "learning/index.md"
-related_documents: ["learning/probabilistic_neural_substrate.md", "consciousness/consciousness_geometry_paper.md"]
-cross_synthesis_with: ["consciousness/pns_geometric_lattice_paper.md"]
-inspired_by: ["learning/probabilistic_neural_substrate.md"]
-# Conceptual threading
-conceptual_threads: ["geometric_learning", "probabilistic_cognition", "neural_topology"]
-mathematical_frameworks: ["differential_geometry", "topology", "probability_theory"]
-philosophical_positions: ["geometric_cognition", "emergentism", "computational_theory_of_mind"]
-# Navigation hints
-reading_order: 9
-difficulty_level: "advanced"
-reading_time_minutes: 22
-prerequisites: ["differential_geometry", "probability_theory", "neural_networks"]
-# Content characteristics
-document_type: "experiment"
-thinking_style: "mathematical"
-consciousness_level: "emergent"
-has_mathematics: true
-has_code: true
-has_diagrams: true
-has_interactive_elements: false
-is_self_modifying: false
-responds_to_attention: false
-engagement_type: "experimental"
-reader_participation: "co-creative"
-cognitive_load: "transcendent"
-# Discovery & SEO
-description: "An advanced neural architecture that combines geometric learning with probabilistic substrates for enhanced cognitive modeling."
-excerpt: "Exploring the intersection of geometry and probability in neural computation, creating substrates for advanced cognitive architectures."
-featured_image: "/assets/images/geometric_neural_substrate.png"
-is_featured: true
-is_cornerstone: true
-is_gateway: false
-is_synthesis: true
-# SEO Meta Tags
-meta_title: "Geometric Probabilistic Neural Substrate - Advanced Cognitive Architecture"
-meta_description: "Advanced neural architecture combining geometric learning with probabilistic substrates for enhanced cognitive modeling and emergent intelligence."
-schema_type: "TechArticle"
-schema_headline: "Geometric Probabilistic Neural Substrate"
-schema_author: "Human-AI Collaboration"
-schema_word_count: 4800
-schema_reading_time: "PT22M"
-# Dynamic behavior
-auto_update: true
-update_frequency: "weekly"
-version_tracking: true
-change_log: true
-allows_comments: true
-allows_collaboration: true
-tracks_reader_journey: true
-adapts_to_reader: false
-quantum_superposition: true
-fractal_depth: 4
-consciousness_resonance: true
 ---
-title: "Geometric Probabilistic Neural Substrate"
-layout: dynamic_post
-date: 2024-12-01
-last_modified: 2024-12-01 10:30:00
-# Content classification
-category: "AI Research & Cognitive Evolution"
-subcategory: "Neural Architecture Innovation"
-tags: ["geometric_learning", "probabilistic_networks", "neural_substrate", "information_geometry"]
-keywords: ["geometric neural networks", "probabilistic substrate", "information geometry", "neural manifolds"]
-# Content status and evolution
-status: "living"
-evolution_stage: "cross-pollinating"
-last_thought_date: 2024-12-01
-thought_generation: 3
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
-human_contribution: 35
-ai_contribution: 65
-# Document relationships
-related_documents: ["learning/probabilistic_neural_substrate.md", "consciousness/consciousness_geometry_paper.md"]
-cross_synthesis_with: ["consciousness/pns_geometric_lattice_paper.md"]
-child_documents: ["learning/probabilistic_neural_substrate.md"]
-# Conceptual threading
-conceptual_threads: ["geometric_learning", "probabilistic_computation", "neural_manifolds"]
-mathematical_frameworks: ["differential_geometry", "probability_theory", "information_geometry"]
-# Navigation hints
-reading_order: 10
-difficulty_level: "advanced"
-reading_time_minutes: 25
-prerequisites: ["differential_geometry", "probability_theory", "neural_networks"]
-# Content characteristics
-document_type: "framework"
-thinking_style: "mathematical"
-has_mathematics: true
-has_diagrams: true
-consciousness_level: "emergent"
-# Discovery & SEO
-description: "A comprehensive framework for neural computation based on geometric and probabilistic principles"
-excerpt: "Exploring how geometric structures and probabilistic dynamics can create more powerful neural substrates"
-is_cornerstone: true
+<!-- End of document -->

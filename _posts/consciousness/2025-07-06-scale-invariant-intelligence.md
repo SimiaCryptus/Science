@@ -1,7 +1,72 @@
 ---
 title: "Scale-Invariant Intelligence: From Texture Synthesis to the Structure of Reality"
 layout: post
-collection: ai
+date: 2025-07-06
+last_modified: 2025-07-06 10:30:00
+
+# Content classification
+category: "AI Research & Cognitive Evolution"
+subcategory: "Neural Architectures"
+tags: ["scale-invariance", "texture-synthesis", "neural-networks", "consciousness", "reality-compression", "geometric-constraints"]
+keywords: ["scale invariant intelligence", "texture synthesis", "neural networks", "hierarchical compression", "geometric constraints", "edge of chaos"]
+
+# Content status and evolution
+status: "living"
+evolution_stage: "mature"
+last_thought_date: 2025-07-06
+thought_generation: 3
+
+# Collaboration metadata
+authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+collaboration_type: "framework_development"
+human_contribution: 60
+ai_contribution: 40
+
+# Document relationships
+parent_document: "ai/index.md"
+child_documents: ["ai/symmetric_textures_rewrite.md", "ai/mindseye_technical_report.md"]
+related_documents: ["ai/ai_bias_paper.md", "scifi/quantum_spacetime_paper.md"]
+cross_synthesis_with: ["consciousness/consciousness_geometry_paper.md"]
+inspired_by: ["ai/symmetric_textures_rewrite.md"]
+
+# Conceptual threading
+conceptual_threads: ["scale_invariance", "reality_compression", "edge_of_chaos", "hierarchical_patterns"]
+mathematical_frameworks: ["geometric_optimization", "fractal_geometry", "information_theory", "complexity_theory"]
+philosophical_positions: ["emergentism", "computational_theory_of_mind", "panpsychism"]
+
+# Navigation hints
+reading_order: 15
+difficulty_level: "advanced"
+reading_time_minutes: 25
+prerequisites: ["neural_networks", "texture_synthesis", "geometric_constraints", "complexity_theory"]
+
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "experimental"
+consciousness_level: "recursive"
+has_mathematics: true
+has_code: false
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: false
+responds_to_attention: false
+engagement_type: "analytical"
+reader_participation: "active"
+cognitive_load: "intense"
+
+# Discovery & SEO
+description: "A unified framework for understanding intelligence as emerging through hierarchical compression of reality into scale-invariant patterns, from texture synthesis to consciousness."
+excerpt: "Exploring how deep texture synthesis experiments revealed fundamental principles about intelligence, reality compression, and the edge of chaos where consciousness emerges."
+is_featured: true
+is_cornerstone: true
+is_gateway: false
+is_synthesis: true
+
+# SEO Meta Tags
+meta_description: "Research paper exploring scale-invariant intelligence through texture synthesis experiments, revealing connections between neural networks, geometric constraints, and consciousness emergence."
+schema_type: "ScholarlyArticle"
+priority: 0.9
+changefreq: "monthly"
 ---
 
 ## A Research Discussion Paper
