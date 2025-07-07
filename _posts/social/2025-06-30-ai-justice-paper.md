@@ -4,7 +4,7 @@ layout: post
 date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: social
 subcategory: "AI-Driven Institutional Reform"
 tags: ["ai", "justice", "legal-systems", "institutional-reform", "formal-logic", "democratization"]
 keywords: ["artificial intelligence", "legal reform", "formal logic", "justice system", "institutional transformation", "AI judge"]

@@ -5,7 +5,7 @@ layout: post
 date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: projects
 subcategory: "Data Structures & Algorithms"
 tags: ["data-structures", "algorithms", "compression", "information-theory", "string-processing", "entropy", "permutations"]
 keywords: ["burrows-wheeler-transform", "entropy-optimization", "permutation-trees", "string-algorithms", "compression", "bijective-transforms"]

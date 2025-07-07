@@ -6,7 +6,7 @@ date: 2025-07-02
 last_modified: 2025-07-02 12:00:00
 
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: social
 subcategory: "Consciousness Studies"
 tags: ["consciousness", "ai", "epistemology", "collaboration", "quantum", "trolling", "phenomenology"]
 keywords: ["quantum trolling", "AI consciousness", "epistemological warfare", "computational pet", "recursive analysis", "halting problem"]

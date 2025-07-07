@@ -4,7 +4,7 @@ layout: post
 date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: social
 subcategory: "Institutional Transformation"
 tags: ["ai", "justice", "institutions", "game-theory", "synthesis", "transformation"]
 keywords: ["institutional capture", "ai justice", "professional complexity", "systemic reform", "post-scarcity"]

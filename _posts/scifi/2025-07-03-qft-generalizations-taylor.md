@@ -6,7 +6,7 @@ date: 2025-07-03
 last_modified: 2025-07-03 12:00:00
 
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: scifi
 subcategory: "Mathematical Frameworks"
 tags: ["quantum-field-theory", "effective-field-theory", "mathematical-physics", "taylor-expansion", "particle-physics"]
 keywords: ["QFT", "effective field theory", "SMEFT", "chiral perturbation theory", "Wilson coefficients", "experimental constraints"]

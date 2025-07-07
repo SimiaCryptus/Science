@@ -1,57 +1,107 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="format-detection" content="telephone=no">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  
-  <!-- Dynamic title generation -->
-  <title>
-    {%- if page.meta_title -%}
-      {{ page.meta_title | escape }}
-    {%- elsif page.title -%}
-      {{ page.title | escape }} | {{ site.title | escape }}
-    {%- else -%}
-      {{ site.title | escape }}
-    {%- endif -%}
-  </title>
-  
-  <!-- SEO and metadata -->
-  {% include seo_head.html %}
-  
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <base href="{{ site.url }}{{ site.baseurl }}/">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="preload" href="{{ site.baseurl }}/assets/css/critical.css" as="style">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+  <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico">
+ <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/images/favicon-32x32.png">
+ <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/images/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
+ <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/images/apple-touch-icon.png">
+ <link rel="manifest" href="{{ site.baseurl }}/site.webmanifest">
+ <meta name="theme-color" content="#818cf8">
+  {% feed_meta %}
+  {% seo %}
 </head>
-<body class="{% if page.layout %}layout-{{ page.layout }}{% endif %} {% if page.category %}category-{{ page.category | slugify }}{% endif %} {% if page.status %}status-{{ page.status }}{% endif %}">
-  <!-- Skip to content for accessibility -->
-  <a href="#main-content" class="skip-link">Skip to main content</a>
-  <!-- Header with dynamic navigation -->
-  <header class="site-header" role="banner">
-    <div class="wrapper">
-      <a class="site-title" rel="author" href="{{ '/' | relative_url }}">
-        {{ site.title | escape }}
-      </a>
-      <!-- Dynamic navigation -->
-      {% include dynamic_nav.html %}
-    </div>
-  </header>
-  <!-- Breadcrumbs -->
-  {% unless page.hide_breadcrumbs %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
-  <!-- Main content area -->
-  <main id="main-content" class="page-content" aria-label="Content">
-    <div class="wrapper">
+<body>
+  <!-- Floating Particles -->
+  <div class="particle-field" id="particleField"></div>
+  {% include theme_switcher.html %}
+  
+  {% include header.html %}
+  <main class="container">
       {{ content }}
-    </div>
   </main>
-  <!-- Footer -->
   {% include footer.html %}
-  <!-- JavaScript -->
-  <!-- Touch interactions for mobile -->
+  <!-- Back to Top Button -->
+  <div class="back-to-top" id="backToTop">↑</div>
+  
+  <!-- JavaScript for Effects -->
+  <script>
+    function createParticles() {
+      const particleContainer = document.getElementById('particleField');
+      if (!particleContainer) return;
+      
+      setInterval(() => {
+        if (particleContainer.children.length < 20) {
+          const particle = document.createElement('div');
+          particle.className = 'particle';
+          particle.style.left = Math.random() * 100 + '%';
+          particle.style.animationDuration = (Math.random() * 10 + 5) + 's';
+          particleContainer.appendChild(particle);
+          
+          setTimeout(() => {
+            if (particle.parentNode) {
+              particle.parentNode.removeChild(particle);
+            }
+          }, 15000);
+        }
+      }, 500);
+    }
+    // Back to top functionality
+    function initBackToTop() {
+      const backToTopButton = document.getElementById('backToTop');
+      if (!backToTopButton) return;
+      window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+          backToTopButton.classList.add('visible');
+        } else {
+          backToTopButton.classList.remove('visible');
+        }
+      });
+      backToTopButton.addEventListener('click', () => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+    }
+    // Add glitch effect to random elements
+    function addRandomGlitch() {
+      const elements = document.querySelectorAll('h1, h2, h3');
+      if (elements.length === 0) return;
+      setInterval(() => {
+        const randomElement = elements[Math.floor(Math.random() * elements.length)];
+        randomElement.classList.add('glitch');
+        randomElement.setAttribute('data-text', randomElement.textContent);
+        setTimeout(() => {
+          randomElement.classList.remove('glitch');
+        }, 200);
+      }, 5000);
+    }
+    
+    
+    // Initialize effects when page loads
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', () => {
+        createParticles();
+        initBackToTop();
+        addRandomGlitch();
+      });
+    } else {
+      createParticles();
+      initBackToTop();
+      addRandomGlitch();
+    }
+  </script>
 </body>
 </html>

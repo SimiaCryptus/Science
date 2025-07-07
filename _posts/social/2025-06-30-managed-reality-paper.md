@@ -5,7 +5,7 @@ collection: social
 date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: social
 subcategory: "Information Systems & Social Architecture"
 tags: ["ai", "information_systems", "social_architecture", "reality_curation", "post_truth", "evolutionary_pressure", "consensual_frameworks"]
 keywords: ["consensual curation", "information management", "AI-mediated reality", "post-truth society", "evolutionary imperative", "red pill option", "social stability"]

@@ -6,7 +6,7 @@ date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: creative_writing
 subcategory: "Cognitive Assessment & Bias"
 tags: ["intelligence", "assessment", "bias", "humor", "metacognition"]
 keywords: ["IQ", "intelligence", "cognitive bias", "assessment", "domains", "expertise"]

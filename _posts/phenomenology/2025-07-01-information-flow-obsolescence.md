@@ -6,7 +6,7 @@ date: 2025-07-01
 last_modified: 2025-07-01 12:00:00
 
 # Content classification
-category: "Consciousness & Self-Architecture"
+category: phenomenology
 subcategory: "Cognitive Evolution"
 tags: ["consciousness", "ai", "collaboration", "cognitive_transition", "post-human", "singularity"]
 keywords: ["observer singularity", "human-ai collaboration", "cognitive speciation", "wildlife effect", "post-human ecology"]

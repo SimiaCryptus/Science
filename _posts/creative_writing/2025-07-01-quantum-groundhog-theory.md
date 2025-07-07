@@ -6,7 +6,7 @@ date: 2025-07-01
 last_modified: 2025-07-01 12:00:00
 
 # Content Classification
-category: "AI Research & Cognitive Evolution"
+category: creative_writing
 subcategory: "Rigorous Absurdism & Physics Pedagogy"
 tags: ["quantum_mechanics", "field_theory", "physics_humor", "educational", "groundhogs", "feynman_diagrams", "particle_physics", "cosmology", "thermodynamics"]
 keywords: ["quantum field theory", "groundhog physics", "physics education", "rigorous absurdism", "particle physics humor", "quantum mechanics pedagogy"]

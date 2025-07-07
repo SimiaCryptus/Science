@@ -5,7 +5,7 @@ layout: post
 date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: projects
 subcategory: "Human-AI Collaboration"
 tags: ["ai-collaboration", "parametric-design", "cognitive-tools", "human-ai-interaction", "creative-process"]
 keywords: ["parametric ideation", "AI collaboration", "cognitive amplification", "thought partnership", "conceptual exploration"]

@@ -6,7 +6,7 @@ date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 
 # Content classification
-category: "Consciousness & Self-Architecture"
+category: social
 subcategory: "Theoretical Frameworks"
 tags: ["consciousness", "optimization", "computation", "temporal_experience", "collective_intelligence", "hard_problem", "artificial_consciousness"]
 keywords: ["consciousness theory", "optimization algorithm", "subjective experience", "computational consciousness", "temporal reality", "distributed processing", "recursive enhancement"]

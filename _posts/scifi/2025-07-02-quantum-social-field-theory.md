@@ -6,7 +6,7 @@ date: 2025-07-02
 last_modified: 2025-07-02 12:00:00
 
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: scifi
 subcategory: "Quantum Cognition"
 tags: ["quantum", "collaboration", "consciousness", "field-theory", "social-intelligence", "virtual-particles"]
 keywords: ["quantum field theory", "social interactions", "collaborative intelligence", "virtual particles", "consciousness emergence", "human-AI collaboration"]

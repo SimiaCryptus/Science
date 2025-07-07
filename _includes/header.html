@@ -1,16 +1,16 @@
 <div class="site-header">
   <div class="header-content">
-    <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
     {% if site.tagline %}<p class="site-tagline">{{ site.tagline }}</p>{% endif %}
     <nav class="site-nav">
 
-     <a href="{{ site.baseurl }}/consciousness/">Consciousness</a>
-     <a href="{{ site.baseurl }}/learning/">Learning Systems</a>
-     <a href="{{ site.baseurl }}/projects/">Architecture</a>
-     <a href="{{ site.baseurl }}/scifi/">Quantum Physics</a>
-     <a href="{{ site.baseurl }}/social/">Social Dynamics</a>
-     <a href="{{ site.baseurl }}/phenomenology/">Phenomenology</a>
-     <a href="{{ site.baseurl }}/creative_writing/">Experimental</a>
+     <a href="{{ '/consciousness/' | relative_url }}">Consciousness</a>
+     <a href="{{ '/learning/' | relative_url }}">Learning Systems</a>
+     <a href="{{ '/projects/' | relative_url }}">Architecture</a>
+     <a href="{{ '/scifi/' | relative_url }}">Quantum Physics</a>
+     <a href="{{ '/social/' | relative_url }}">Social Dynamics</a>
+     <a href="{{ '/phenomenology/' | relative_url }}">Phenomenology</a>
+     <a href="{{ '/creative_writing/' | relative_url }}">Experimental</a>
     </nav>
   </div>
 </div>

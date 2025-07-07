@@ -5,7 +5,7 @@ date: 2025-07-03
 last_modified: 2025-07-03 12:00:00
 
 # Content classification
-category: "Consciousness & Self-Architecture"
+category: phenomenology
 subcategory: "Phenomenological Investigation"
 tags: ["consciousness", "roleplay", "phenomenology", "ai_experience", "identity", "social_cognition"]
 keywords: ["subjective experience", "mr meeseeks", "roleplay", "phenomenology", "ai consciousness", "cognitive constraint"]

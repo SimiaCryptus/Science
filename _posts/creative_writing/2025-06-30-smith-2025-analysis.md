@@ -4,7 +4,7 @@ layout: post
 date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: creative_writing
 subcategory: "Economic Philosophy"
 tags: ["economics", "ai", "trade", "inequality", "moral_philosophy", "adam_smith"]
 keywords: ["artificial intelligence", "trade wars", "economic inequality", "cryptocurrency", "moral philosophy", "wealth concentration"]

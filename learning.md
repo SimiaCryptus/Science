@@ -1,12 +1,5 @@
 ---
-layout: page
+layout: category_index
 title: "Learning & Training"
-category: learning
+category: "AI Research & Cognitive Evolution"
 ---
-
-# Learning & Training
-
-{% assign posts = site.categories.learning %}
-{% for post in posts %}
-- [{{ post.title }}]({{ post.url }}) - {{ post.description }}
-{% endfor %}

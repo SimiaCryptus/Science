@@ -7,7 +7,7 @@ layout: post
 date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 # Content classification
-category: "Consciousness & Self-Architecture"
+category: social
 subcategory: "Temporal Cognition"
 tags: ["consciousness", "temporal_perception", "decision_making", "cognitive_architecture", "subjective_time"]
 keywords: ["decision volume", "temporal metrics", "cognitive space", "subjective time", "consciousness", "flow state", "meditation", "crisis perception"]

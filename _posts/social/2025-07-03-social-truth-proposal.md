@@ -6,7 +6,7 @@ date: 2025-07-03
 last_modified: 2025-07-03 12:00:00
 
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: social
 subcategory: "Social Dynamics & Collective Intelligence"
 tags: ["social_truth", "game_theory", "multi_agent_systems", "belief_dynamics", "spatial_modeling", "collective_intelligence"]
 keywords: ["social epistemology", "belief propagation", "cellular automaton", "opinion dynamics", "consensus formation", "polarization"]

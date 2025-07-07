@@ -6,7 +6,7 @@ date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: scifi
 subcategory: "Quantum Computational Architectures"
 tags: ["quantum-computation", "graph-theory", "complexity-theory", "quantum-walks", "social-dynamics", "computational-substrate", "spacetime-emergence"]
 keywords: ["quantum graphs", "computational complexity", "BQP", "QGP", "PSPACE", "graph theory", "distributed algorithms", "quantum field theory", "lattice gauge theory", "social networks", "influence maximization"]

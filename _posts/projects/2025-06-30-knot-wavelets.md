@@ -6,7 +6,7 @@ date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: projects
 subcategory: "Mathematical Frameworks"
 tags: ["wavelets", "topology", "knots", "geometric-optimization", "cross-synthesis", "quantum-invariants"]
 keywords: ["wavelet analysis", "knot theory", "topological invariants", "geometric optimization", "distance matrices", "persistent homology"]

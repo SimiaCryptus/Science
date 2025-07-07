@@ -23,6 +23,29 @@ exclude:
   - package.json
   - package-lock.json
   - yarn.lock
+collections:
+  consciousness:
+    output: true
+    permalink: /:collection/:name/
+  learning:
+    output: true
+    permalink: /:collection/:name/
+  projects:
+    output: true
+    permalink: /:collection/:name/
+  scifi:
+    output: true
+    permalink: /:collection/:name/
+  social:
+    output: true
+    permalink: /:collection/:name/
+  phenomenology:
+    output: true
+    permalink: /:collection/:name/
+  creative_writing:
+    output: true
+    permalink: /:collection/:name/
+
 # Default frontmatter values
 defaults:
   - scope:
@@ -30,7 +53,7 @@ defaults:
       type: "posts"
     values:
       layout: "dynamic_post"
-      author: "Human-AI Collaboration"
+      author: "Simiacryptus Consulting"
       collaboration_type: "recursive_dialogue"
       status: "living"
       evolution_stage: "growing"
@@ -42,7 +65,7 @@ defaults:
       type: "pages"
     values:
       layout: "dynamic_page"
-      author: "Human-AI Collaboration"
+      author: "Simiacryptus Consulting"
       status: "stable"
   - scope:
       path: ""

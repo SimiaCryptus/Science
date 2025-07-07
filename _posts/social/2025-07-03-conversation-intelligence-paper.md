@@ -6,7 +6,7 @@ date: 2025-07-03
 last_modified: 2025-07-03 12:00:00
 
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: social
 subcategory: "Conversational Intelligence"
 tags: ["conversational_intelligence", "distributed_cognition", "turing_tests", "human_ai_collaboration", "cognitive_calibration", "recursive_modeling"]
 keywords: ["conversational intelligence", "mutual turing tests", "distributed cognitive assessment", "recursive modeling", "orthogonal thinking", "collaborative intelligence"]

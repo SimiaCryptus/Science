@@ -4,7 +4,7 @@ layout: post
 date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: projects
 subcategory: "Computational Frameworks"
 tags: ["orbital-dynamics", "space-mission-design", "computational-physics", "open-source", "gpu-acceleration", "automatic-differentiation", "relativistic-dynamics", "optimization", "adjoint-methods", "quantum-gravity"]
 keywords: ["orbital mechanics", "spacecraft trajectory", "n-body dynamics", "geodesic integration", "constellation optimization", "OODP", "TensorFlow for space", "collaborative framework"]

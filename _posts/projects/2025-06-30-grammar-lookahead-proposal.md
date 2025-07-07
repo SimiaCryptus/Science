@@ -4,7 +4,7 @@ layout: post
 date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: projects
 subcategory: "Neural Architectures"
 tags: ["llm", "constrained-generation", "formal-grammar", "parsing", "ai-research"]
 keywords: ["grammar lookahead", "constrained generation", "LLM", "parser", "reachability analysis", "structured generation"]

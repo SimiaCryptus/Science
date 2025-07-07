@@ -347,6 +347,7 @@ DEPENDENCIES
   github-pages
   html-proofer
   jekyll-feed (~> 0.12)
+  jekyll-paginate (~> 1.1.0)
   jekyll-seo-tag (~> 2.6)
   jekyll-sitemap (~> 1.4)
   tzinfo (~> 1.2)

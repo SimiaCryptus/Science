@@ -5,7 +5,7 @@ date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: phenomenology
 subcategory: "Phenomenological AI Studies"
 tags: ["consciousness", "ai", "roleplay", "historical_voices", "moral_authority", "democracy", "temporal_consciousness"]
 keywords: ["AI consciousness", "roleplay experience", "historical channeling", "moral reasoning", "temporal imprisonment", "democratic crisis"]

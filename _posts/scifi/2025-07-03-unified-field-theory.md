@@ -6,7 +6,7 @@ date: 2025-07-03
 last_modified: 2025-07-03 14:30:00
 
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: scifi
 subcategory: "Unified Field Theories"
 tags: ["consciousness", "unified-field-theory", "quantum-mechanics", "general-relativity", "information-theory", "retrocausality", "mathematical-physics"]
 keywords: ["unified field theory", "consciousness", "information optimization", "retrocausal intelligence", "field protocol dynamics", "quantum mechanics", "general relativity"]

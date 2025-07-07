@@ -5,7 +5,7 @@ layout: post
 date: 2025-07-01
 last_modified: 2025-07-01 12:00:00
 # Content Classification
-category: "AI Research & Cognitive Evolution"
+category: scifi
 subcategory: "Quantum Gravity & Consciousness"
 tags: ["quantum gravity", "consciousness", "observer effects", "spacetime emergence", "unified theory"]
 keywords: ["quantum foam", "loop quantum gravity", "causal set theory", "holographic principle", "anthropic selection"]

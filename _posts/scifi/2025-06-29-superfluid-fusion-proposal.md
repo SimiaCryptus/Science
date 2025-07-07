@@ -5,7 +5,7 @@ collection: scifi
 date: 2025-06-29
 last_modified: 2025-06-29 12:00:00
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: scifi
 subcategory: "Experimental Physics"
 tags: ["quantum", "fusion", "superfluid", "nuclear", "physics", "energy", "synthesis"]
 keywords: ["superfluid helium", "quantum coherence", "nuclear fusion", "heavy elements", "muon catalysis", "vortex dynamics"]

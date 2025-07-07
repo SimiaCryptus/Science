@@ -6,7 +6,7 @@ date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: projects
 subcategory: "Computational Frameworks"
 tags: ["ontology", "compiler", "ai", "formalization", "interdisciplinary", "computational-theory", "systematic-translation"]
 keywords: ["ontological compiler", "abstract frameworks", "computational implementation", "ODL", "pattern recognition", "cross-domain", "theoretical formalization"]
@@ -686,7 +686,7 @@ Relation:
 Pattern:
   id: UUID
   name: String
-  category: PatternCategory
+  category: projects
   structure: GraphStructure
   parameters: [Parameter]
   applications: [ApplicationRecord]

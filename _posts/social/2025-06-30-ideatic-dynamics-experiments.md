@@ -4,7 +4,7 @@ layout: post
 date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: social
 subcategory: "Multi-Agent Systems"
 tags: ["ideatic-dynamics", "multi-agent-systems", "belief-evolution", "coalition-formation", "computational-social-science", "llm-agents", "small-groups"]
 keywords: ["ideatic dynamics", "multi-agent systems", "belief evolution", "coalition formation", "computational social science", "LLM agents", "triadic systems", "pivot agents"]

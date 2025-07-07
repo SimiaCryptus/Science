@@ -6,7 +6,7 @@ date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 
 # Content classification
-category: "Creative Writing & Historical Dialogue"
+category: creative_writing
 subcategory: "Presidential Addresses"
 tags: ["lincoln", "democracy", "constitutional_crisis", "political_violence", "secession", "civil_rights", "presidential_power"]
 keywords: ["abraham lincoln", "democracy", "constitution", "war powers", "secession", "civil rights", "political violence", "presidential authority"]

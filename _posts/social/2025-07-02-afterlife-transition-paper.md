@@ -6,7 +6,7 @@ date: 2025-07-02
 last_modified: 2025-07-02 14:30:00
 
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: social
 subcategory: "Civilizational Transitions"
 tags: ["consciousness", "ai", "climate-change", "religion", "epistemology", "civilizational-risk", "cognitive-development", "institutional-analysis"]
 keywords: ["afterlife frameworks", "mythological trap", "bifurcation cascade", "civilizational sorting", "cognitive outsourcing", "prometheus myth", "religious institutions", "AI governance", "climate adaptation", "epistemological transitions"]

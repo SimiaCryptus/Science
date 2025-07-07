@@ -6,7 +6,7 @@ date: 2025-07-03
 last_modified: 2025-07-03 12:00:00
 
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: creative_writing
 subcategory: "Consciousness Simulation & Historical Paradigms"
 tags: ["consciousness", "ai", "simulation-theory", "historical-paradigms", "quantum-field-theory", "retrocognition", "foundation-models", "roman-philosophy"]
 keywords: ["translatio physica", "simulated consciousness", "historical paradigm translation", "foundation models", "roman qft", "retrocognitive research", "temporal self-awareness", "anachronistic ai"]

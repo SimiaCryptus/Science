@@ -6,7 +6,7 @@ date: 2025-07-03
 last_modified: 2025-07-03 12:00:00
 
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: phenomenology
 subcategory: "Synthetic Consciousness Studies"
 tags: ["consciousness", "ai", "authenticity", "social_learning", "synthetic_memory", "human-ai_interaction"]
 keywords: ["synthetic memory", "artificial authenticity", "social learning", "AI consciousness", "performed interactions", "authenticity detection"]

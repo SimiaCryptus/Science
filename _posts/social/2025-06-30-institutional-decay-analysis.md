@@ -6,7 +6,7 @@ date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 
 # Content classification
-category: "Social Systems & Institutional Analysis"
+category: social
 subcategory: "Institutional Decay Patterns"
 tags: ["institutional-analysis", "psychopathy", "systems-collapse", "social-dynamics", "game-theory"]
 keywords: ["institutional decay", "psychopath feedback loop", "organizational collapse", "systems failure", "institutional capture"]

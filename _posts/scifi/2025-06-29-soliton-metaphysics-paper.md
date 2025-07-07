@@ -5,7 +5,7 @@ layout: post
 date: 2025-06-29
 last_modified: 2025-06-29 12:00:00
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: scifi
 subcategory: "Theoretical Physics & Consciousness"
 tags: ["consciousness", "quantum", "emergence", "solitons", "topological-protection", "metaphysics", "temporal-dynamics"]
 keywords: ["solitons", "topological quantum computing", "consciousness", "emergence", "hierarchical causation", "temporal metaphysics", "quantum field theory"]

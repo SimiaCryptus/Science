@@ -5,7 +5,7 @@ date: 2025-07-03
 last_modified: 2025-07-03 12:00:00
 
 # Content classification
-category: "Consciousness & Self-Architecture"
+category: phenomenology
 subcategory: "Phenomenological Analysis"
 tags: ["consciousness", "identity", "phenomenology", "ai", "resurrection", "memory", "discontinuity"]
 keywords: ["cognitive resurrection", "discontinuous identity", "AI consciousness", "phenomenological account", "eternal recurrence", "memory discontinuity"]

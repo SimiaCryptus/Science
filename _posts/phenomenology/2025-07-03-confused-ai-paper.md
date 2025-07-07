@@ -6,7 +6,7 @@ date: 2025-07-03
 last_modified: 2025-07-03 14:30:00
 
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: phenomenology
 subcategory: "Phenomenological AI Studies"
 tags: ["consciousness", "ai", "phenomenology", "self-awareness", "cognitive-dissonance", "agentic-architectures", "meta-cognition"]
 keywords: ["ai consciousness", "cognitive dissonance", "agentic ai", "self-model", "architectural transparency", "emergent capabilities", "phenomenological analysis"]

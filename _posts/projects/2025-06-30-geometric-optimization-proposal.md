@@ -6,7 +6,7 @@ date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: projects
 subcategory: "Mathematical Frameworks"
 tags: ["geometric-optimization", "physics", "manifolds", "ai", "neural-networks", "architecture", "materials-science", "optimization", "riemannian-geometry"]
 keywords: ["geometric optimization", "parameter space manifolds", "Standard Model", "neural architecture search", "Riemannian optimization", "gauge theory", "emergent structures"]

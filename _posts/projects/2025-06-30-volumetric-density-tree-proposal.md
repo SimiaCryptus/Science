@@ -5,7 +5,7 @@ collection: projects
 date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: projects
 subcategory: "Neural Architectures"
 tags: ["density-modeling", "machine-learning", "polynomial-constraints", "tree-algorithms", "geometric-modeling"]
 keywords: ["volumetric density trees", "polynomial constraints", "density estimation", "entropy optimization", "geometric boundaries"]

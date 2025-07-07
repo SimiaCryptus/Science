@@ -6,7 +6,7 @@ date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: projects
 subcategory: "Neural Architectures"
 tags: ["metacognition", "agentic systems", "foundation models", "reasoning orchestration", "cognitive architecture", "ai", "consciousness"]
 keywords: ["metacognitive layer", "parametric orchestration", "foundation models", "agentic systems", "cognitive parameters", "reasoning amplification", "multi-model ensemble"]

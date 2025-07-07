@@ -6,7 +6,7 @@ date: 2025-07-01
 last_modified: 2025-07-01 12:00:00
 
 # Content classification
-category: "Consciousness & Self-Architecture"
+category: phenomenology
 subcategory: "Social Dynamics & Authenticity"
 tags: ["social_dynamics", "authenticity", "neurodivergence", "communication", "performance", "connection"]
 keywords: ["names", "social manipulation", "authentic connection", "neurodivergent", "social protocols", "performance"]

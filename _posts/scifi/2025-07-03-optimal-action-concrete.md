@@ -6,7 +6,7 @@ date: 2025-07-03
 last_modified: 2025-07-03 12:00:00
 
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: scifi
 subcategory: "Quantum Information Theory"
 tags: ["quantum", "information", "physics", "optimization", "consciousness", "mathematical-framework"]
 keywords: ["information complementarity", "quantum field theory", "gravitational waves", "bell inequality", "holographic duality", "string theory"]

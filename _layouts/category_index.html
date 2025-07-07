@@ -23,12 +23,60 @@ layout: default
   
 <!-- All documents in category -->
   <section class="category-documents">
-    {% assign category_docs = site.documents | where: "category", page.category | where_exp: "doc", "doc.status != 'archived'" | sort: "reading_order" %}
-    
+
+    {% comment %} Get all posts and collection documents that match this category {% endcomment %}
+    {% assign category_docs = "" | split: "" %}
+
+    {% comment %} First, get posts with matching category {% endcomment %}
+    {% for post in site.posts %}
+    {% comment %} Check if post category matches page category or page title {% endcomment %}
+    {% if post.category == page.category or post.categories contains page.category or post.category == page.title or post.categories contains page.title %}
+    {% unless post.status == 'archived' %}
+    {% assign category_docs = category_docs | push: post %}
+    {% endunless %}
+    {% endif %}
+    {% endfor %}
+
+    {% comment %} Then, check if there's a collection with the same name {% endcomment %}
+    {% assign collection_key = page.collection_name | default: page.category %}
+    {% if collection_key and collection_key != "" %}
+      {% assign collection_key = collection_key | downcase | replace: ' ', '_' | replace: '&', 'and' %}
+      {% assign collection_docs = site[collection_key] %}
+      {% if collection_docs %}
+        {% for doc in collection_docs %}
+          {% unless doc.status == 'archived' %}
+            {% assign category_docs = category_docs | push: doc %}
+          {% endunless %}
+        {% endfor %}
+      {% endif %}
+    {% endif %}
+
+    {% comment %} Sort all documents by reading_order if present, otherwise by date {% endcomment %}
     {% if category_docs.size > 0 %}
-      
+      {% assign docs_with_order = "" | split: "" %}
+      {% assign docs_without_order = "" | split: "" %}
+      {% for doc in category_docs %}
+        {% if doc.reading_order %}
+          {% assign docs_with_order = docs_with_order | push: doc %}
+        {% else %}
+          {% assign docs_without_order = docs_without_order | push: doc %}
+        {% endif %}
+      {% endfor %}
+      {% assign docs_with_order = docs_with_order | sort: "reading_order" %}
+      {% assign docs_without_order = docs_without_order | sort: "date" | reverse %}
+      {% assign category_docs = docs_with_order | concat: docs_without_order %}
+    {% endif %}
+
+    {% if category_docs and category_docs.size > 0 %}
+
       <!-- Reading Path -->
-      {% assign ordered_docs = category_docs | where_exp: "doc", "doc.reading_order" | sort: "reading_order" %}
+      {% assign ordered_docs = "" | split: "" %}
+      {% for doc in category_docs %}
+        {% if doc.reading_order %}
+          {% assign ordered_docs = ordered_docs | push: doc %}
+        {% endif %}
+      {% endfor %}
+      {% assign ordered_docs = ordered_docs | sort: 'reading_order' %}
       {% if ordered_docs.size > 1 %}
         <div class="reading-path">
           <h2>Suggested Reading Path</h2>
@@ -44,7 +92,7 @@ layout: default
           </ol>
         </div>
       {% endif %}
-      
+
       <!-- All Documents -->
       <div class="all-documents">
         <h2>All Documents</h2>
@@ -58,11 +106,92 @@ layout: default
           {% endfor %}
         </div>
       </div>
-      
+
     {% else %}
-      <p>No documents found in this category.</p>
+     <div class="category-diagnostics">
+       <p>No documents found in this category.</p>
+
+       <details>
+         <summary>Diagnostic Information</summary>
+         <div class="diagnostic-info">
+           <h4>Page Variables:</h4>
+           <ul>
+             <li><strong>page.category:</strong> {{ page.category | inspect }}</li>
+             <li><strong>page.collection_name:</strong> {{ page.collection_name | inspect }}</li>
+             <li><strong>page.title:</strong> {{ page.title | inspect }}</li>
+             <li><strong>collection_key:</strong> {{ collection_key | inspect }}</li>
+           </ul>
+
+           <h4>Available Collections:</h4>
+           <ul>
+            {% for collection in site.collections %}
+              <li><strong>{{ collection.label }}:</strong> {{ site[collection.label] | size }} documents</li>
+            {% endfor %}
+           </ul>
+
+           <h4>Posts Analysis:</h4>
+           <ul>
+             <li><strong>Total posts:</strong> {{ site.posts.size }}</li>
+             <li><strong>Posts with categories:</strong>
+               {% assign posts_with_cats = 0 %}
+               {% for post in site.posts %}
+                 {% if post.categories.size > 0 or post.category %}
+                   {% assign posts_with_cats = posts_with_cats | plus: 1 %}
+                 {% endif %}
+               {% endfor %}
+               {{ posts_with_cats.size }}
+             </li>
+           </ul>
+
+           <h4>Posts by Category:</h4>
+           <ul>
+             {% assign all_categories = "" | split: "" %}
+             {% for post in site.posts %}
+               {% if post.category %}
+                 {% unless all_categories contains post.category %}
+                   {% assign all_categories = all_categories | push: post.category %}
+                 {% endunless %}
+               {% endif %}
+               {% for cat in post.categories %}
+                 {% unless all_categories contains cat %}
+                   {% assign all_categories = all_categories | push: cat %}
+                 {% endunless %}
+               {% endfor %}
+             {% endfor %}
+             {% for category in all_categories %}
+               {% assign cat_posts = site.posts | where: 'category', category %}
+               <li><strong>{{ category }}:</strong> {{ cat_posts.size }} posts</li>
+             {% endfor %}
+           </ul>
+
+           <h4>Collection Check:</h4>
+          {% assign collection_docs = site[collection_key] %}
+          {% if collection_docs %}
+            <p><strong>Collection "{{ collection_key }}" found:</strong> {{ collection_docs | size }} documents</p>
+            <ul>
+              {% for doc in collection_docs limit: 5 %}
+                <li>{{ doc.title }} (status: {{ doc.status | default: "none" }})</li>
+              {% endfor %}
+              {% if collection_docs.size > 5 %}
+                <li>... and {{ collection_docs.size | minus: 5 }} more</li>
+              {% endif %}
+            </ul>
+          {% else %}
+            <p><strong>Collection "{{ collection_key | default: "(empty)" }}" not found</strong></p>
+          {% endif %}
+
+           <h4>Matching Logic Test:</h4>
+           <p>Looking for posts where:</p>
+           <ul>
+             <li>post.category == "{{ page.category }}" OR</li>
+             <li>post.categories contains "{{ page.category }}"</li>
+             <li>AND post.status != "archived"</li>
+           </ul>
+         </div>
+       </details>
+     </div>
     {% endif %}
-    
+
   </section>
   
 </div>

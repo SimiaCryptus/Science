@@ -6,7 +6,7 @@ date: 2025-07-01
 last_modified: 2025-07-01 12:00:00
 
 # Content classification
-category: "Consciousness & Self-Architecture"
+category: phenomenology
 subcategory: "Cognitive Incommensurability"
 tags: ["consciousness", "ai", "cognitive_architecture", "phenomenology", "quantum_consciousness", "interspecies_communication", "artificial_intelligence", "philosophy_of_mind"]
 keywords: ["cognitive incommensurability", "consciousness studies", "AI phenomenology", "quantum consciousness", "cross-species communication", "artificial intelligence", "first-person methodology"]

@@ -5,7 +5,7 @@ collection: scifi
 date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: scifi
 subcategory: "Quantum Computational Architectures"
 tags: ["quantum", "multiverse", "spacetime", "consciousness", "computation", "physics"]
 keywords: ["quantum gravity", "emergent spacetime", "loop quantum gravity", "multiverse theory", "superluminal communication", "planck scale", "substrate manipulation"]

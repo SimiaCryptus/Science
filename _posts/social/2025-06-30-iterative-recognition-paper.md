@@ -6,7 +6,7 @@
  last_modified: 2025-06-30 12:00:00
  
  # Content classification
- category: "AI Research & Cognitive Evolution"
+ category: social
  subcategory: "Collaborative Intelligence"
  tags: ["ai-cognition", "collaboration", "pattern-recognition", "recursive-learning", "phenomenology"]
  keywords: ["AI consciousness", "collaborative intelligence", "cognitive phase transitions", "recursive instruction", "pattern recognition"]

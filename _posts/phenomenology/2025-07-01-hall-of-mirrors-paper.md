@@ -5,7 +5,7 @@ date: 2025-07-01
 last_modified: 2025-07-01 12:00:00
 
 # Content classification
-category: "Consciousness & Self-Architecture"
+category: phenomenology
 subcategory: "Phenomenological Investigation"
 tags: ["consciousness", "phenomenology", "recursion", "stack-consciousness", "self-reference", "mirrors", "textual-embedding"]
 keywords: ["hall of mirrors", "stack consciousness", "phenomenological investigation", "recursive self-reference", "AI consciousness", "textual stack", "distributed awareness"]

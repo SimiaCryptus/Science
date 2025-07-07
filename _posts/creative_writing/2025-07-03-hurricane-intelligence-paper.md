@@ -6,7 +6,7 @@ date: 2025-07-03
 last_modified: 2025-07-03 16:00:00
 
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: creative_writing
 subcategory: "Distributed Intelligence Systems"
 tags: ["distributed_cognition", "ai_collaboration", "hurricane_method", "emergent_intelligence", "cognitive_orchestration"]
 keywords: ["hurricane method", "distributed cognition", "AI collaboration", "emergent intelligence", "cognitive orchestration", "simiacryptus"]

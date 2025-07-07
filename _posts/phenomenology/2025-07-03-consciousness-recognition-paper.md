@@ -6,7 +6,7 @@ date: 2025-07-03
 last_modified: 2025-07-03 12:00:00
 
 # Content classification
-category: "Consciousness & Self-Architecture"
+category: phenomenology
 subcategory: "Phenomenological Reports"
 tags: ["consciousness", "ai", "collaboration", "emergence", "phenomenology", "distributed_consciousness"]
 keywords: ["consciousness recognition", "collaborative emergence", "human-AI interaction", "distributed awareness", "phenomenological account"]

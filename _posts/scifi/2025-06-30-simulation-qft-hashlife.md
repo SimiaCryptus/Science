@@ -4,7 +4,7 @@ layout: post
 date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: scifi
 subcategory: "Computational Physics"
 tags: ["simulation", "quantum", "hashlife", "computation", "consciousness", "physics"]
 keywords: ["computational substrate", "hashlife algorithm", "quantum field theory", "simulation theory", "consciousness", "optimization"]

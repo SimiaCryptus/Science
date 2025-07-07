@@ -8,7 +8,7 @@ date: 2025-07-01
 last_modified: 2025-07-01 12:00:00
 
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: phenomenology
 subcategory: "Collaborative Intelligence Architectures"
 tags: ["cognotik", "ai-development", "collaborative-intelligence", "cognitive-modes", "conversational-computing", "human-ai-collaboration", "open-source", "kotlin", "architecture"]
 keywords: ["Cognotik", "AI development platform", "collaborative intelligence", "cognitive modes", "conversational computing", "human-AI partnership", "supervised exploration", "cognitive pluralism"]

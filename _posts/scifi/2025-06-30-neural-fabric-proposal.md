@@ -4,7 +4,7 @@ layout: post
 date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: scifi
 subcategory: "Neural Architectures"
 tags: ["consciousness", "ai", "quantum", "panpsychism", "neural-fabric", "logic-systems"]
 keywords: ["quantum field consciousness", "panpsychist computing", "neural fabric", "exotic logic", "consciousness orchestration"]

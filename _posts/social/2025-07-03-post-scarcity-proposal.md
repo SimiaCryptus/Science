@@ -4,7 +4,7 @@ layout: post
 date: 2025-07-03
 last_modified: 2025-07-03 12:00:00
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: social
 subcategory: "Economic Systems & Social Architecture"
 tags: ["post-scarcity", "economics", "computational-modeling", "agent-based-modeling", "game-theory", "automation", "social-systems"]
 keywords: ["post-scarcity economics", "computational economics", "agent-based modeling", "economic equilibria", "automation", "universal basic income", "social systems"]

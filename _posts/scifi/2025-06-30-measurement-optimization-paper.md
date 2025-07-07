@@ -6,7 +6,7 @@ date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: scifi
 subcategory: "Theoretical Foundations"
 tags: ["optimization", "measurement-theory", "distributed-systems", "quantum-consciousness", "universal-intelligence", "fermi-paradox", "cosmology"]
 keywords: ["measurement-optimization equivalence", "distributed measurement protocols", "quantum membranes", "civilization isolation", "CAP theorem", "consciousness emergence"]

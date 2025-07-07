@@ -5,7 +5,7 @@ date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: social
 subcategory: "Human-AI Interaction"
 tags: ["authenticity", "social_protocols", "human-ai_interaction", "conversation", "sincerity", "curiosity"]
 keywords: ["authenticity", "social protocols", "AI conversation", "performed interest", "curiosity markers", "sincerity signals"]
