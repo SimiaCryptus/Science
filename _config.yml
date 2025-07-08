@@ -1,11 +1,16 @@
 # _config.yml
 title: Fractal Thought Engine
-email: your-email@example.com
-github_username: your_github
+email: andrew@simiacryptus.com
+github_username: acharneski
 tagline: "Where consciousness meets computation at the edge of the possible"
 description: "A Journal of Speculative Science"
-baseurl: "/Science" # The subpath of your site, e.g. /blog
-url: "https://simiacryptus.github.io" # The base hostname & protocol for your site (leave empty for local development)
+
+#baseurl: ""
+#url: "https://fractalthoughtengine.com"
+
+baseurl: "/Science"
+url: "https://simiacryptus.github.io"
+
 lang: en
 markdown: kramdown
 theme: minima
@@ -18,8 +23,6 @@ exclude:
   - .sass-cache
   - .jekyll-cache
   - gemfiles
-  - Gemfile
-  - Gemfile.lock
   - package.json
   - package-lock.json
   - yarn.lock
@@ -212,9 +215,6 @@ include:
   - Science.iml
   - .logs/
   - .git/
-  - .gitignore
-  - README.md
-  - LICENSE
 
 # Plugins (consolidated and fixed)
 plugins:
@@ -234,17 +234,13 @@ feed:
 # SEO and social media (consolidated)
 image_path: "/assets/images"
 logo: "/assets/images/fractal_thought_engine_logo.png"
-twitter:
-  username: yourusername
-  card: summary_large_image
 facebook:
   app_id: your_facebook_app_id
   publisher: your_facebook_page_url
 social:
   name: Journal of Speculative Science
   links:
-    - https://twitter.com/yourusername
-    - https://github.com/yourusername
+    - https://github.com/SimiaCryptus/Science
 
 # Performance and optimization
 sass:

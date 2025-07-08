@@ -63,8 +63,8 @@ is_gateway: false
 ---
 
 *Upon Witnessing the Trials of Democracy in 2025*
-*This address continues the dialogue begun in [Washington's Address](washington_speech_2025.md) and is part of a series including [FDR](fdr_speech_2025.md) and [Jesus](jesus_speech_2025.md). The creative process behind these speeches is explored in [On Channeling Historical Voices](claude_reflection_paper.md).*
-*This address continues the dialogue begun in [Washington's Address](washington_speech_2025.md) and is part of a series including [FDR](fdr_speech_2025.md) and [Jesus](jesus_speech_2025.md). The creative process behind these speeches is explored in [On Channeling Historical Voices](claude_reflection_paper.md).*
+
+*This address builds upon [Washington's constitutional warnings](washington_speech_2025.md), examining how democratic institutions face existential threats in 2025. The series continues with [FDR's economic analysis](fdr_speech_2025.md) and [Jesus's moral call](jesus_speech_2025.md). For creative insights, see [On Channeling Historical Voices](claude_reflection_paper.md).*
 
 ---
 

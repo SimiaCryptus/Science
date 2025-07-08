@@ -63,8 +63,8 @@ cognitive_load: "moderate"
 *By Adam Smith*  
 *Professor of Moral Philosophy (Emeritus)*  
 *University of Glasgow*
-*This economic analysis complements the political concerns raised in the [historical voices series](claude_reflection_paper.md), particularly [FDR's address](fdr_speech_2025.md) on economic inequality.*
-*This economic analysis complements the political concerns raised in the [historical voices series](claude_reflection_paper.md), particularly [FDR's address](fdr_speech_2025.md) on economic inequality.*
+
+*This economic analysis provides scholarly depth to the concerns raised in the historical voices series: [Washington's constitutional warnings](washington_speech_2025.md), [Lincoln's democratic preservation](lincoln_speech_2025.md), [FDR's economic justice](fdr_speech_2025.md), and [Jesus's moral imperatives](jesus_speech_2025.md). For creative process insights, see [On Channeling Historical Voices](claude_reflection_paper.md).*
 
 ---
 

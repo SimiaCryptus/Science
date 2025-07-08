@@ -1,17 +1,37 @@
 ---
 title: "George Washington's Address to the American People"
 layout: post
+date: 2025-06-30
+last_modified: 2025-06-30 12:00:00
+# Content classification
+category: creative_writing
+subcategory: "Presidential Addresses"
+tags: ["washington", "democracy", "constitutional_crisis", "separation_of_powers", "war_powers", "political_violence"]
+keywords: ["george washington", "constitution", "democracy", "war powers", "separation of powers", "political crisis"]
+# Content relationships & navigation
 collection: creative_writing
+parent_document: "creative_writing/historical_voices_series.md"
 related_papers:
   - claude_reflection_paper.md
   - lincoln_speech_2025.md
   - fdr_speech_2025.md
   - jesus_speech_2025.md
+cross_synthesis_with: ["lincoln_speech_2025.md", "fdr_speech_2025.md"]
+conceptual_threads: ["constitutional_crisis", "democratic_preservation", "executive_overreach", "war_powers"]
+philosophical_positions: ["constitutional_republicanism", "separation_of_powers", "democratic_idealism"]
+# Navigation hints
+reading_order: 1
+difficulty_level: "intermediate"
+reading_time_minutes: 12
+prerequisites: ["basic_american_history", "constitutional_knowledge"]
+# Discovery & SEO
+description: "George Washington addresses contemporary America's constitutional crisis, warning against executive overreach and unauthorized war powers in 2025."
+excerpt: "Washington speaks across time about the dangers of concentrated power, faction, and the abandonment of constitutional restraints in modern America."
 ---
 
 *Upon Learning of the State of the Union in the Year 2025*
-*This speech is part of a series of historical voices responding to contemporary America, including [Lincoln](lincoln_speech_2025.md), [FDR](fdr_speech_2025.md), and [Jesus](jesus_speech_2025.md). For reflections on channeling these voices, see [On Channeling Historical Voices](claude_reflection_paper.md).*
-*This speech is part of a series of historical voices responding to contemporary America, including [Lincoln](lincoln_speech_2025.md), [FDR](fdr_speech_2025.md), and [Jesus](jesus_speech_2025.md). For reflections on channeling these voices, see [On Channeling Historical Voices](claude_reflection_paper.md).*
+
+*This speech begins a series of historical voices responding to contemporary America's crises. Continue with [Lincoln's constitutional warnings](lincoln_speech_2025.md), [FDR's economic justice concerns](fdr_speech_2025.md), and [Jesus's moral imperatives](jesus_speech_2025.md). For insights into the creative process, see [On Channeling Historical Voices](claude_reflection_paper.md).*
 
 ---
 

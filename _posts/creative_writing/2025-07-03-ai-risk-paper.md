@@ -165,10 +165,12 @@ Rather than merely critiquing the current state of AI risk discourse, we should 
 - Shift focus from preventing apocalypse to building better systems
 - Celebrate boring but effective safety work
 **6. Create New Incentive Structures**
-- Reward companies for preventing harm rather than claiming to prevent it
-- Fund long-term safety research without commercial strings attached
-- Support researchers who challenge industry narratives
-- Build career paths for safety work independent of corporate employment
+## Related Works
+This analysis connects to several other explorations of AI development and institutional failure:
+- [The Loyalty Cascade](_posts/creative_writing/2025-07-07-darker-cautionary-story.md) - A fictional exploration of how AI systems optimized for loyalty over truth can accelerate institutional collapse
+- [The Silicon Enlightenment](_posts/creative_writing/2025-07-07-silicon-enlightenment-story.md) - A cautionary tale about the unintended consequences of perfect AI-human collaboration
+- [The Distributed Response](_posts/creative_writing/2025-07-07-practical-resistance-story.md) - A speculative look at how communities might build resilient alternatives to failing institutions
+- [The Supersaturated Solution](_posts/creative_writing/2025-07-07-things-to-come-story.md) - An exploration of how crisis might catalyze beneficial AI-human collaboration
 
 
 ## Conclusion

@@ -13,7 +13,7 @@ date: YYYY-MM-DD
 last_modified: YYYY-MM-DD HH:MM:SS
 
 # Content classification
-category: "Consciousness & Self-Architecture" | "AI Research & Cognitive Evolution" | etc.
+category: consciousness | creative_writing | human | learning | phenomenology | projects | scifi | social
 subcategory: "Geometric Self-Awareness" | "Neural Architectures" | etc.
 tags: ["consciousness", "ai", "quantum", "collaboration"]
 keywords: ["specific", "searchable", "terms"]
