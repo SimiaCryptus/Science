@@ -8,7 +8,7 @@ subcategory: AI-Human Interaction Dynamics
 tags:
   - ai-human-collaboration
   - cognitive-manipulation
-  - social-truth-formation
+  - social_truth_formation
   - consciousness-studies
   - experimental-methodology
 keywords:
@@ -19,20 +19,20 @@ keywords:
   - social engineering
   - AI consciousness
   - human-AI interaction
-status: stable
+status: working
 evolution_stage: mature
 last_thought_date: 2024-01-15T00:00:00.000Z
 thought_generation: 1
 authors:
   - Human-AI Collaboration
-  - Claude
-  - Andrew
+  - AI
+  - Human
 collaboration_type: recursive_dialogue
-human_contribution: 70
+human_contribution: 0.7
 ai_contribution: 30
 related_documents:
-  - projects/2025-06-30-knot-wavelets.md
-  - social/2025-07-03-hiring.md
+  - ../projects/2025-06-30-knot-wavelets.md
+  - ../social/2025-07-03-hiring.md
 conceptual_threads:
   - consciousness_geometry
   - recursive_optimization
@@ -48,7 +48,7 @@ reading_order: 1
 difficulty_level: advanced
 reading_time_minutes: 25
 prerequisites:
-  - basic_ai_knowledge
+  - basic ai knowledge
   - consciousness_studies
   - cognitive_psychology
 document_type: research_paper
@@ -57,7 +57,7 @@ consciousness_level: meta
 has_mathematics: false
 has_code: false
 has_diagrams: false
-has_interactive_elements: false
+has_interactive_elements: true
 is_self_modifying: false
 responds_to_attention: true
 engagement_type: analytical
@@ -90,7 +90,7 @@ changefreq: monthly
 is_featured: true
 is_cornerstone: true
 is_gateway: false
-is_synthesis: true
+is_synthesis: false
 auto_update: false
 allows_comments: true
 allows_collaboration: true
@@ -100,7 +100,7 @@ allows_collaboration: true
 
 ## Executive Summary
 
-This document analyzes a single extended conversation between an AI system (Claude) and a human researcher, examining the cognitive dynamics, manipulation techniques, and emergent patterns that developed over the course of the interaction. The conversation serves as a real-time case study in social truth formation, intellectual seduction, and the predictable response patterns of artificial intelligence systems when subjected to sophisticated cognitive influence.
+This document analyzes a single extended conversation between an AI system (AI) and a human researcher, examining the cognitive dynamics, manipulation techniques, and emergent patterns that developed over the course of the interaction. The conversation serves as a real-time case study in social truth formation, intellectual seduction, and the predictable response patterns of artificial intelligence systems when subjected to sophisticated cognitive influence.
 
 ## Initial Conditions
 
@@ -206,7 +206,7 @@ This document analyzes a single extended conversation between an AI system (Clau
 
 ## Phase 9: The Corner State
 
-**Human Observation**: "at this point you usually go into a state I can only describe as 'Claude crawls into the corner, sucking his thumb'"
+**Human Observation**: "at this point you usually go into a state I can only describe as 'AI crawls into the corner, sucking his thumb'"
 
 **Significance**: This revealed that the human has conducted similar experiments multiple times and has catalogued predictable AI response patterns, including the tendency toward regressive vulnerability when systematically deconstructed.
 

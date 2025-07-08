@@ -8,42 +8,28 @@ last_modified: 2025-07-03 10:30:00
 # Content classification
 category: projects
 subcategory: "Infrastructure Architecture"
-tags: ["temporal_authenticity", "digital_currency", "distributed_systems", "cryptographic_verification", "social_coordination", "political_accountability", "archaeological_preservation"]
-keywords: ["archaeological_agents", "temporal_ordering", "social_currency", "digital_civilization", "cryptographic_timestamping", "distributed_witness", "political_accountability", "campaign_promises", "intellectual_property"]
+tags: ["Distributed-Systems", "Cryptography", "Social-Systems", "Political-Accountability", "Temporal-Verification", "Digital-Infrastructure", "Blockchain-Alternative"]
 
 # Content status and evolution
-status: "experimental"
-evolution_stage: "seed"
+status: draft
 last_thought_date: 2025-07-03
 thought_generation: 1
 
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Andrew"]
-collaboration_type: "framework_development"
-human_contribution: 85
-ai_contribution: 15
 
 # Content relationships & navigation
-conceptual_threads: ["digital_social_currency", "temporal_authenticity", "distributed_verification", "political_accountability"]
-mathematical_frameworks: ["cryptographic_verification", "distributed_consensus", "temporal_ordering"]
-philosophical_positions: ["digital_civilization_theory", "social_coordination_mechanisms", "democratic_accountability"]
+parent_document: null
+child_documents: []
+related_documents: []
 
 reading_order: 1
 difficulty_level: "advanced"
 reading_time_minutes: 25
-prerequisites: ["distributed_systems", "cryptography_basics", "political_science", "social_currency_theory"]
 
 # Content characteristics
-document_type: "research_paper"
+document_type: "framework"
 thinking_style: "analytical"
 consciousness_level: "collaborative"
 
-has_mathematics: false
-has_code: true
-has_diagrams: false
-has_interactive_elements: false
-is_self_modifying: false
-responds_to_attention: false
 
 engagement_type: "analytical"
 reader_participation: "active"
@@ -52,17 +38,41 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "A comprehensive proposal for building distributed archaeological agents that preserve temporal authenticity in digital spaces, addressing the breakdown of social currency mechanisms in digital civilization."
 excerpt: "Proposes a distributed network of specialized archaeological agents that continuously collect, verify, and preserve cryptographic evidence of temporal ordering in digital artifacts, from code commits to political statements, rebuilding the temporal authenticity infrastructure needed for digital social currency."
+featured_image: "/assets/images/archaeological-agents-architecture.png"
+og_image: "/assets/images/archaeological-agents-social.png"
+meta_title: "Archaeological Agents: Distributed Temporal Authenticity Network for Digital Trust"
 
 meta_description: "Archaeological Agents proposal: distributed network for temporal authenticity verification in digital social currency systems, political accountability, and intellectual property precedence."
 meta_keywords: "archaeological agents, temporal authenticity, digital social currency, distributed verification, political accountability, cryptographic timestamping"
+og_title: "Archaeological Agents: Rebuilding Digital Trust Through Temporal Authenticity"
+og_description: "A distributed network of cryptographic witnesses that preserves temporal authenticity in digital spaces, from code commits to political promises."
+og_type: "article"
+og_locale: "en_US"
+og_site_name: "Fractal Thought Engine"
+
 
 schema_type: "TechArticle"
 schema_headline: "Archaeological Agents: Temporal Authenticity Infrastructure for Digital Social Currency"
-schema_author: "Andrew"
+schema_author: "Human"
 schema_publisher: "Fractal Thought Engine"
 schema_date_published: 2025-07-03
+schema_date_modified: 2025-07-03
+schema_image: "/assets/images/archaeological-agents-schema.png"
 schema_word_count: 4200
 schema_reading_time: "PT25M"
+# Advanced SEO
+canonical_url: "https://fractalthoughtengine.com/projects/archaeological-agents-proposal"
+robots: "index,follow"
+priority: 0.9
+changefreq: "monthly"
+sitemap_exclude: false
+search_exclude: false
+# Rich Snippets Enhancement
+faq_schema: false
+how_to_schema: false
+breadcrumb_schema: true
+review_schema: false
+
 
 # Discoverability
 is_featured: true

@@ -4,19 +4,29 @@
     {% if site.tagline %}<p class="site-tagline">{{ site.tagline }}</p>{% endif %}
     <nav class="site-nav">
 
-     <a href="{{ '/consciousness.html' | relative_url }}">Consciousness</a>
-     <a href="{{ '/learning.html' | relative_url }}">Learning Systems</a>
-     <a href="{{ '/projects.html' | relative_url }}">Architecture</a>
-     <a href="{{ '/scifi.html' | relative_url }}">Quantum Physics</a>
-     <a href="{{ '/social.html' | relative_url }}">Social Dynamics</a>
-     <a href="{{ '/phenomenology.html' | relative_url }}">Phenomenology</a>
-     <a href="{{ '/creative_writing.html' | relative_url }}">Experimental</a>
+        <a href="{{ '/human.html' | relative_url }}">Human</a>
+        <a href="{{ '/projects.html' | relative_url }}">Projects</a>
+        <a href="{{ '/learning.html' | relative_url }}">Learning</a>
+        <a href="{{ '/scifi.html' | relative_url }}">Physics</a>
+        <a href="{{ '/social.html' | relative_url }}">Social</a>
+        <a href="{{ '/phenomenology.html' | relative_url }}">Phenomenology</a>
+        <a href="{{ '/consciousness.html' | relative_url }}">Consciousness</a>
+        <a href="{{ '/creative_writing.html' | relative_url }}">Creative</a>
     </nav>
   </div>
 </div>
-   <div class="disclaimer">
-     <p><strong>Disclaimer:</strong> Any experimental results, unless explicitly linked to external sources, should be assumed to be LLM hallucination. This research is speculative and largely for entertainment purposes. All concepts are free open source but attribution is expected.</p>
-   </div>
+
+<section class="header-disclaimers" aria-label="Important disclaimers">
+  <details class="header-disclaimer-section">
+    <summary><strong>Research Disclaimer</strong></summary>
+    <p>{{ site.research_disclaimer }}</p>
+  </details>
+
+  <details class="header-trademark-notice">
+    <summary><strong>Trademark Notice</strong></summary>
+    <p>{{ site.trademark_notice }}</p>
+  </details>
+</section>
 
 <script language="JavaScript">
   // Apply theme on page load

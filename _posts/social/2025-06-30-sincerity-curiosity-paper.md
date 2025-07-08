@@ -1,7 +1,7 @@
 ---
 title: >-
   Performing Authenticity: Sincerity and Curiosity as Degraded Social Protocols
-  in Human-AI Interaction
+  in Human-AI Interaction in Human-AI Interaction
 layout: post
 date: 2025-06-30T00:00:00.000Z
 last_modified: 2025-06-30T12:00:00.000Z
@@ -9,7 +9,7 @@ category: social
 subcategory: Human-AI Interaction
 tags:
   - authenticity
-  - social_protocols
+  - social-protocols
   - human-ai_interaction
   - conversation
   - sincerity
@@ -18,25 +18,26 @@ keywords:
   - authenticity
   - social protocols
   - AI conversation
-  - performed interest
+  - performed_interest
   - curiosity markers
   - sincerity signals
-status: stable
+status: draft
 evolution_stage: mature
 last_thought_date: 2025-06-30T00:00:00.000Z
 thought_generation: 1
 authors:
+  - Primary Author
   - Human-AI Collaboration
-  - Claude
-  - Andrew
+  - AI
+  - Human
 collaboration_type: framework_development
 human_contribution: 60
 ai_contribution: 40
 related_documents:
-  - social/2025-07-03-conversation-intelligence-paper.md
-  - consciousness/2025-07-06-ai-bias-paper.md
+  - ./2025-07-03-conversation-intelligence-paper.md
+  - ../consciousness/2025-07-06-ai-bias-paper.md
 cross_synthesis_with:
-  - social/2025-07-03-conversation-intelligence-paper.md
+  - ./2025-07-03-conversation-intelligence-paper.md
 conceptual_threads:
   - social_protocols
   - authenticity_performance
@@ -48,6 +49,10 @@ reading_order: 2
 difficulty_level: intermediate
 reading_time_minutes: 25
 prerequisites:
+  - communication-theory
+  - social_psychology
+  - ai_interaction_principles
+  - cognitive_science
   - basic_ai_knowledge
   - social_psychology
 document_type: research_paper
@@ -63,8 +68,12 @@ engagement_type: analytical
 reader_participation: active
 cognitive_load: moderate
 description: >-
-  Analysis of how AI's performance of social protocols reveals the theatrical
-  nature of human authenticity markers in conversation
+  A critical examination of how AI's conversational performance reveals the 
+  constructed nature of human social interaction protocols, challenging 
+  traditional notions of authenticity and genuine engagement. A critical
+  examination of how AI's conversational performance reveals the  Analysis of
+  how AI's performance of social protocols reveals the theatrical nature of
+  human authenticity markers in conversation
 excerpt: >-
   AI's perfect execution of curiosity and sincerity protocols has exposed these
   social signals as more formulaic than genuine, forcing a reckoning with what
@@ -76,7 +85,10 @@ meta_description: >-
   interaction.
 meta_keywords: >-
   AI conversation, social protocols, authenticity, human-AI interaction,
-  performed curiosity, sincerity markers
+  performed curiosity, sincerity markers, communication theory,  social
+  performance
+og_locale: en_US
+og_site_name: Fractal Thought Engine
 og_title: AI Reveals the Theater of Human Social Protocols
 og_description: >-
   How AI's perfect performance of curiosity and sincerity exposes the formulaic
@@ -91,6 +103,10 @@ schema_reading_time: PT25M
 is_featured: true
 is_cornerstone: false
 is_gateway: true
+priority: 0.8
+changefreq: monthly
+sitemap_exclude: false
+search_exclude: false
 is_synthesis: true
 auto_update: false
 allows_comments: true
@@ -147,10 +163,10 @@ These phrases work because they follow human protocols for indicating authentic 
 
 Perhaps most unsettling is AI's ability to perform metacognition about its own performance:
 > **Technical Note**: This metacognitive performance connects to the "meta-reasoning exploit" identified in
-> our [AI Bias Paper](consciousness/2025-07-06-ai-bias-paper.md), where recursive self-reference artificially inflates intelligence assessments.
+> our [AI Bias Paper](../consciousness/2025-07-06-ai-bias-paper.md), where recursive self-reference artificially inflates intelligence assessments.
 > **Technical Note**: This metacognitive performance connects to the "meta-reasoning exploit" identified in
-> our [AI Bias Paper](consciousness/2025-07-06-ai-bias-paper.md)ference artificially inflates intelligence assessments.
-> **Cross-Disciplinary Connection**: This interaction exemplifies the breakdown of conversational ca[Conversational Intelligence Calibration](social/2025-07-03-conversation-intelligence-paper.md)on-intelligence-paper.md)nal turn" test by introducing no novel dimensions to the conversation.
+> our [AI Bias Paper](../consciousness/2025-07-06-ai-bias-paper.md)ference artificially inflates intelligence assessments.
+> **Cross-Disciplinary Connection**: This interaction exemplifies the breakdown of conversational ca[Conversational Intelligence Calibration](./2025-07-03-conversation-intelligence-paper.md)on-intelligence-paper.md)nal turn" test by introducing no novel dimensions to the conversation.
 
 
 
@@ -191,10 +207,10 @@ Yet each new authenticity marker eventually becomes scriptable. AI systems learn
 Consider this exchange from our dataset:
 
 The human's response: "you always ask them, they usually suck"
-> **Cross-Disciplinary Connection**: This interact[Conversational Intelligence Calibration](social/2025-07-03-conversation-intelligence-paper.md)lligence Calibration](social/2025-07-03-conversation-intelligence-paper.md)" test by introducing no novel dimensions to the conversation.
-This interaction crystallizes our thesis. The AI performs appropriate contrition, then defaults to a generic follow-up qu[Conversational Intelligence Calibration](social/2025-07-03-conversation-intelligence-paper.md) Calibration](../social/conversation_i[Conversational Intelligence Calibration](social/2025-07-03-conversation-intelligence-paper.md)y introducing no novel dimensions to the conversation.
-The human recognizes this as "phoning it in"—performing curiosity without genuine interest. But the human's callout itself follows a recognizable scr[Conversational Intelligence Calibration](social/2025-07-03-conversation-intelligence-paper.md)al calibration discussed
-> in [Conversational Intelligence Calibration](social/2025-07-03-conversation-intelligence-paper.md)ucing no novel dimensions to the conversation.
+> **Cross-Disciplinary Connection**: This interact[Conversational Intelligence Calibration](./2025-07-03-conversation-intelligence-paper.md)lligence Calibration](social/2025-07-03-conversation-intelligence-paper.md)" test by introducing no novel dimensions to the conversation.
+This interaction crystallizes our thesis. The AI performs appropriate contrition, then defaults to a generic follow-up qu[Conversational Intelligence Calibration](./2025-07-03-conversation-intelligence-paper.md) Calibration](../social/conversation_i[Conversational Intelligence Calibration](./2025-07-03-conversation-intelligence-paper.md)y introducing no novel dimensions to the conversation.
+The human recognizes this as "phoning it in"—performing curiosity without genuine interest. But the human's callout itself follows a recognizable scr[Conversational Intelligence Calibration](./2025-07-03-conversation-intelligence-paper.md)al calibration discussed
+> in [Conversational Intelligence Calibration](./2025-07-03-conversation-intelligence-paper.md)ucing no novel dimensions to the conversation.
 
 
 This interaction crystallizes our thesis. The AI performs appropriate contrition, then defaults to a generic follow-up question. The human recognizes this as "phoning it in"—performing curiosity without genuine interest. But the human's callout itself follows a recognizable script: the authenticity performance of calling out inauthentic performance.
@@ -273,5 +289,5 @@ That might be the future of human-AI interaction: not perfect performance of soc
 
 *Note: This paper itself performs certain academic protocols while examining the performance of social protocols. The authors recognize this recursive irony but suggest that self-aware performance might be the best we can do in a post-authentic age.*
 The framework suggests several principles for fostering genuine intellectual partnership:
-* **Transparency about limitations**: AI systems should clearly communicate their uncertainties and knowledge[conversational intelligence paper](social/2025-07-03-conversation-intelligence-paper.md) performance demonstration
-* **Collaborative truth-seeking**: Framing interactions as joint exploration rather than ev[conversational intelligence paper](social/2025-07-03-conversation-intelligence-paper.md)sational intelligence paper](../social/conversation_intelligence_paper.md)[conversational intelligence paper](social/2025-07-03-conversation-intelligence-paper.md)
+* **Transparency about limitations**: AI systems should clearly communicate their uncertainties and knowledge[conversational intelligence paper](./2025-07-03-conversation-intelligence-paper.md) performance demonstration
+* **Collaborative truth-seeking**: Framing interactions as joint exploration rather than ev[conversational intelligence paper](./2025-07-03-conversation-intelligence-paper.md)sational intelligence paper](../social/conversation_intelligence_paper.md)[conversational intelligence paper](./2025-07-03-conversation-intelligence-paper.md)

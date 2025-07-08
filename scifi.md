@@ -1,5 +1,5 @@
 ---
 layout: category_index
-title: "Science Fiction & Speculation"
+title: "Speculative Physics and SciFi"
 category: scifi
 ---

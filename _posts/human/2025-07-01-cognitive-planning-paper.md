@@ -1,6 +1,7 @@
 ---
 title: "A Multi-Modal Cognitive Planning Architecture for AI-Driven Task Execution"
 meta_title: "Multi-Modal Cognitive Planning Architecture for AI Systems"
+keywords: ["cognitive architecture", "AI planning", "computational philosophy", "metacognition"]
 description: "A novel cognitive planning architecture implementing multiple distinct planning strategies within a unified framework, exploring how different cognitive modes can be operationalized in AI systems."
 excerpt: "We present a cognitive planning architecture that implements four distinct planning strategies—reactive, proactive, adaptive, and hierarchical—within a unified framework. Each mode embodies fundamentally different assumptions about reality, time, and knowledge acquisition, suggesting that optimal problem-solving may require cognitive pluralism rather than algorithmic optimization."
 layout: post
@@ -8,63 +9,70 @@ date: 2025-07-01
 last_modified: 2025-07-01 12:00:00
 
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: human
 subcategory: "Cognitive Architectures"
-tags: ["cognitive-architecture", "ai-planning", "metacognition", "philosophical-ai", "cognitive-pluralism", "multi-modal-planning"]
-keywords: ["cognitive planning", "AI architecture", "metacognition", "philosophical AI", "cognitive modes", "planning strategies", "computational metaphysics"]
+tags: ["Cognitive-Architecture", "AI-Consciousness", "Human-AI-Collaboration", "Philosophy-of-Mind", "Machine-Learning", "Theoretical-Framework", "Research-Paper", "Academic-Research"]
 
 # Content status and evolution
-status: "stable"
-evolution_stage: "mature"
+status: draft
 last_thought_date: 2025-07-01
 thought_generation: 1
+version: 0.1
 
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Andrew"]
-collaboration_type: "framework_development"
-human_contribution: 85
-ai_contribution: 15
 
 # Content relationships & navigation
-conceptual_threads: ["cognitive_architectures", "philosophical_ai", "metacognitive_systems", "planning_algorithms"]
-mathematical_frameworks: ["hierarchical_task_networks", "dependency_graphs", "bounded_rationality"]
-philosophical_positions: ["cognitive_pluralism", "computational_metaphysics", "pragmatism", "phenomenology"]
+parent_document: null
+child_documents: []
+related_documents: []
 
 # Navigation hints
+reading_order: 1
+reading_sequence: "cognitive-architectures"
 difficulty_level: "advanced"
 reading_time_minutes: 45
-prerequisites: ["ai_planning_basics", "cognitive_science", "philosophy_of_mind"]
 
 # Content characteristics
 document_type: "research_paper"
 thinking_style: "analytical"
 consciousness_level: "meta"
 
-# Content features
-has_mathematics: false
-has_code: false
-has_diagrams: false
-has_interactive_elements: false
-is_self_modifying: false
-responds_to_attention: false
 
 # Engagement metadata
 engagement_type: "analytical"
+cognitive_complexity: "high"
 reader_participation: "active"
 cognitive_load: "intense"
 
-# SEO and Discovery
+# Discovery & SEO
 meta_description: "Explore a novel multi-modal cognitive planning architecture for AI systems that implements four distinct planning strategies rooted in different philosophical traditions, demonstrating computational cognitive pluralism."
 meta_keywords: "cognitive planning, AI architecture, metacognition, philosophical AI, cognitive modes, planning strategies, computational metaphysics, artificial intelligence"
+# Open Graph (Social Media)
+og_title: "Multi-Modal Cognitive Planning Architecture for AI Systems"
+og_description: "A novel cognitive planning architecture implementing multiple distinct planning strategies within a unified framework, exploring computational cognitive pluralism."
+og_type: "article"
+og_locale: "en_US"
+og_site_name: "Fractal Thought Engine"
+og_image: "/assets/images/cognitive-planning-architecture.png"
+
 
 # Schema.org Structured Data
 schema_type: "ScholarlyArticle"
 schema_headline: "Multi-Modal Cognitive Planning Architecture for AI-Driven Task Execution"
 schema_author: "Andrew"
+schema_publisher: "Fractal Thought Engine"
 schema_date_published: 2025-07-01
 schema_date_modified: 2025-07-01
 schema_word_count: 8500
 schema_reading_time: "PT45M"
+schema_image: "/assets/images/cognitive-planning-architecture.png"
+schema_inLanguage: "en-US"
+# Advanced SEO
+robots: "index,follow"
+priority: 0.9
+changefreq: "monthly"
+content_rating: "general"
+content_language: "en"
+
 
 # Discoverability
 is_featured: true
@@ -72,10 +80,6 @@ is_cornerstone: true
 is_gateway: false
 is_synthesis: true
 
-# Technical SEO
-robots: "index,follow"
-priority: 0.9
-changefreq: "monthly"
 ---
 
 # A Multi-Modal Cognitive Planning Architecture for AI-Driven Task Execution
@@ -89,8 +93,6 @@ We present a novel cognitive planning architecture that implements multiple dist
 Current AI planning systems typically commit to a single planning paradigm—either reactive task execution, comprehensive upfront planning, or iterative refinement approaches. However, human cognitive research suggests that effective problem-solving requires multiple planning strategies that can be adaptively selected based on problem characteristics, available information, and computational constraints.
 
 We have developed a cognitive planning architecture that implements multiple distinct cognitive modes within a single framework. Each mode embodies not merely a different algorithm, but a fundamentally different theory of cognition, time, and reality itself. Our findings suggest that these differences are not merely computational conveniences but may reflect necessary metaphysical diversity in how intelligence approaches different problem domains.
-This architecture serves as one component of the Cognotik platform [1], which implements these cognitive modes within conversational computing interfaces [2] and actor-based interaction patterns [3]. While the broader system addresses parameterized metacognition and cross-session learning, this paper focuses specifically on the multi-modal planning subsystem, its theoretical foundations, and the philosophical implications of computational cognitive pluralism.
-
 
 This architecture serves as one component of the Cognotik platform [1], which implements these cognitive modes within conversational computing interfaces [2] and actor-based interaction patterns [3]. While the broader system addresses parameterized metacognition and cross-session learning, this paper focuses specifically on the multi-modal planning subsystem, its theoretical foundations, and the philosophical implications of computational cognitive pluralism.
 

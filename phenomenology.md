@@ -1,5 +1,5 @@
 ---
 layout: category_index
-title: "Phenomenology"
+title: "Phenomenology and AI Introspection"
 category: phenomenology
 ---

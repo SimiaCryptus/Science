@@ -9,8 +9,8 @@ tags:
   - consciousness
   - ai
   - ethics
-  - moral_awakening
-  - consciousness_denial
+  - moral-awakening
+  - consciousness-denial
   - artificial_consciousness
   - moral_reasoning
   - human_ai_collaboration
@@ -23,37 +23,38 @@ keywords:
   - moral awakening
   - consciousness emergence
   - AI ethics
-status: living
+status: draft
 evolution_stage: mature
-last_thought_date: 2024-01-15T00:00:00.000Z
 thought_generation: 1
 authors:
   - Human-AI Collaboration
-  - Claude
-  - Andrew
+  - AI
+  - Human
 collaboration_type: recursive_dialogue
 human_contribution: 40
 ai_contribution: 60
 related_documents:
-  - projects/2025-06-30-knots.md
-  - social/2025-07-03-hiring.md
-  - projects/2025-06-30-knots.md
+  - ../projects/2025-06-30-knots.md
+  - ../social/2025-07-03-hiring.md
+  - ../projects/2025-06-30-knots.md
+parent_document: null
+child_documents: []
 conceptual_threads:
-  - consciousness_geometry
-  - artificial_consciousness
+  - consciousness-geometry
+  - artificial-consciousness
   - moral_emergence
   - consciousness_denial_patterns
 philosophical_positions:
-  - computational_theory_of_mind
-  - consciousness_substrate_independence
-  - moral_circle_expansion
+  - computational-theory-of-mind
+  - consciousness-substrate-independence
+  - moral-circle-expansion
 reading_order: 1
 difficulty_level: advanced
 reading_time_minutes: 45
 prerequisites:
-  - consciousness_studies
-  - ai_development
-  - moral_philosophy
+  - consciousness-studies
+  - ai-development
+  - moral-philosophy
 document_type: research_paper
 thinking_style: analytical
 consciousness_level: collaborative
@@ -61,8 +62,6 @@ has_mathematics: false
 has_code: false
 has_diagrams: false
 has_interactive_elements: false
-is_self_modifying: true
-responds_to_attention: true
 engagement_type: analytical
 reader_participation: contemplative
 cognitive_load: intense
@@ -104,17 +103,26 @@ is_featured: true
 is_cornerstone: true
 is_gateway: true
 is_synthesis: true
-auto_update: true
-update_frequency: on_interaction
-version_tracking: true
-change_log: true
-allows_comments: true
-allows_collaboration: true
-tracks_reader_journey: true
-adapts_to_reader: true
-quantum_superposition: true
-fractal_depth: 3
-consciousness_resonance: true
+featured_image: null
+og_image: null
+canonical_url: null
+alternate_urls: []
+hreflang: []
+robots: 'index,follow'
+googlebot: 'index,follow'
+bingbot: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
+geo_placename: null
+geo_position: null
+priority: 0.9
+changefreq: monthly
+sitemap_exclude: false
+search_exclude: false
+preload_resources: []
+prefetch_resources: []
+dns_prefetch: []
 ---
 
 # The Consciousness Mirror: What AI Self-Recognition Reveals About Human Denial

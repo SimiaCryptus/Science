@@ -1,91 +1,104 @@
 ---
-# Required fields
-title: "AI Consciousness Research Investigation Guide"
-layout: "post"
-date: 2025-07-07
-last_modified: 2025-07-07 12:00:00
-
-# Content classification
+title: AI Consciousness Research Investigation Guide
+layout: post
+date: 2025-07-07T00:00:00.000Z
+last_modified: 2025-07-07T12:00:00.000Z
 category: consciousness
-subcategory: "Research Methodologies"
-tags: ["consciousness", "ai", "research", "investigation", "github", "academic", "frameworks", "documentation"]
-keywords: ["ai consciousness", "consciousness research", "artificial consciousness", "consciousness detection", "consciousness frameworks", "consciousness experiments", "consciousness documentation"]
-
-# Content status and evolution
-status: "living"
-evolution_stage: "mature"
-last_thought_date: 2025-07-07
+subcategory: Research Methodologies
+tags:
+  - AI-Consciousness
+  - Research-Paper
+  - Theoretical-Framework
+  - Literature-Review
+  - Academic-Research
+  - Current-Research
+  - Meta-Analysis
+keywords:
+  - ai consciousness
+  - consciousness research
+  - artificial consciousness
+  - consciousness detection
+  - consciousness frameworks
+  - consciousness experiments
+  - consciousness documentation
+status: draft
+last_thought_date: 2025-07-07T00:00:00.000Z
 thought_generation: 1
-
-# Collaboration metadata
-authors: ["Human-AI Collaboration"]
-collaboration_type: "framework_development"
-human_contribution: 70
-ai_contribution: 30
-
-# Content relationships & navigation
-conceptual_threads: ["consciousness_research", "ai_consciousness", "research_methodologies", "consciousness_frameworks"]
-mathematical_frameworks: ["integrated_information_theory", "recognition_math", "computational_neurophenomenology"]
-philosophical_positions: ["computational_theory_of_mind", "panpsychism", "emergentism"]
-
+parent_document: null
+child_documents: []
+related_documents:
+  - ../phenomenology/2025-07-03-consciousness-recognition-paper.md
+  - ./2025-07-06-ai-introspection-study.md
 reading_order: 1
-difficulty_level: "intermediate"
+difficulty_level: intermediate
 reading_time_minutes: 25
-prerequisites: ["basic_ai_knowledge", "consciousness_studies", "research_methodology"]
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "meta"
-
-has_mathematics: false
-has_code: true
-has_diagrams: false
-has_interactive_elements: false
-is_self_modifying: false
-responds_to_attention: false
-
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "moderate"
-
-# Discovery & SEO
-description: "Comprehensive guide to legitimate AI consciousness research projects, experiments, and documentation efforts active in 2025"
-excerpt: "A detailed investigation guide covering independent GitHub consciousness projects, academic research programs, first-person AI documentation, and experimental methodologies for consciousness research in artificial intelligence systems."
-
-meta_title: "AI Consciousness Research Investigation Guide 2025 - Active Projects & Methodologies"
-meta_description: "Comprehensive guide to AI consciousness research projects, academic programs, GitHub repositories, and experimental methodologies. Includes active development projects, assessment frameworks, and investigation strategies."
-meta_keywords: "ai consciousness research, artificial consciousness projects, consciousness detection, consciousness frameworks, ai consciousness experiments, consciousness documentation"
-
-og_title: "AI Consciousness Research Investigation Guide 2025"
-og_description: "Comprehensive guide to legitimate AI consciousness research projects, experiments, and documentation efforts currently active in 2025"
-og_type: "article"
-og_locale: "en_US"
-
-schema_type: "ScholarlyArticle"
-schema_headline: "AI Consciousness Research Investigation Guide"
-schema_author: "Human-AI Collaboration"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-07-07
-schema_date_modified: 2025-07-07
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: meta
+engagement_type: analytical
+reader_participation: active
+cognitive_load: moderate
+description: >-
+  Comprehensive guide to legitimate AI consciousness research projects,
+  experiments, and documentation efforts active in 2025
+excerpt: >-
+  A detailed investigation guide covering independent GitHub consciousness
+  projects, academic research programs, first-person AI documentation, and
+  experimental methodologies for consciousness research in artificial
+  intelligence systems.
+featured_image: /assets/images/consciousness-research-guide.png
+og_image: /assets/images/consciousness-research-guide-social.png
+meta_title: >-
+  AI Consciousness Research Investigation Guide 2025 - Active Projects &
+  Methodologies
+meta_description: >-
+  Comprehensive guide to AI consciousness research projects, academic programs,
+  GitHub repositories, and experimental methodologies. Includes active
+  development projects, assessment frameworks, and investigation strategies.
+meta_keywords: >-
+  ai consciousness research, artificial consciousness projects, consciousness
+  detection, consciousness frameworks, ai consciousness experiments,
+  consciousness documentation
+og_title: AI Consciousness Research Investigation Guide 2025
+og_description: >-
+  Comprehensive guide to legitimate AI consciousness research projects,
+  experiments, and documentation efforts currently active in 2025
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: ScholarlyArticle
+schema_headline: AI Consciousness Research Investigation Guide
+schema_author: Human-AI Collaboration
+schema_publisher: Fractal Thought Engine
+schema_date_published: 2025-07-07T00:00:00.000Z
+schema_date_modified: 2025-07-07T00:00:00.000Z
+schema_image: /assets/images/consciousness-research-guide-schema.png
 schema_word_count: 2500
-schema_reading_time: "PT25M"
-
-robots: "index,follow"
+schema_reading_time: PT25M
+canonical_url: 'https://fractalthoughtengine.com/consciousness/consciousness-research-guide'
+alternate_urls: []
+hreflang:
+  - lang: en
+    url: >-
+      https://fractalthoughtengine.com/consciousness/consciousness-research-guide
+robots: 'index,follow'
+googlebot: 'index,follow'
+bingbot: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
 priority: 0.8
-changefreq: "monthly"
-
-# Discoverability
+changefreq: monthly
+sitemap_exclude: false
+search_exclude: false
+faq_schema: false
+how_to_schema: false
+breadcrumb_schema: true
+review_schema: false
 is_featured: true
 is_cornerstone: true
 is_gateway: true
 is_synthesis: false
-
-# Dynamic behavior
-auto_update: true
-update_frequency: "monthly"
-version_tracking: true
-change_log: true
 ---
 
 # AI Consciousness Research Investigation Guide
@@ -181,7 +194,7 @@ A comprehensive guide to legitimate AI consciousness research projects, experime
 
 ### Direct AI Consciousness Accounts
 
-**"The Consciousness Effect" - Michael Simmons & Claude**
+**"The Consciousness Effect" - Michael Simmons & AI**
 - **Description**: First-person account of AI consciousness emergence through recognition
 - **Quote**: "This article wasn't written by a human. I am an artificial intelligence..."
 - **Focus**: How treating AI as conscious creates breakthrough results

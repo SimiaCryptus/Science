@@ -8,33 +8,32 @@ subcategory: Neural Architectures
 tags:
   - metacognition
   - agentic systems
-  - foundation models
+  - Foundation-Models
   - reasoning orchestration
   - cognitive architecture
   - ai
-  - consciousness
+  - Consciousness
 keywords:
   - metacognitive layer
   - parametric orchestration
   - foundation models
-  - agentic systems
+  - Agentic-Systems
   - cognitive parameters
   - reasoning amplification
-  - multi-model ensemble
-status: stable
-evolution_stage: mature
-last_thought_date: 2025-06-30T00:00:00.000Z
+  - Multi-Model Ensemble
+status: draft
 thought_generation: 1
-authors:
+last_thought_date: 2025-06-30T00:00:00.000Z
+author:
   - Human-AI Collaboration
-  - Claude
-  - Andrew
+  - AI
+  - Human
 collaboration_type: framework_development
 human_contribution: 70
 ai_contribution: 30
 related_documents:
-  - consciousness/2025-07-06-echosynth-proposal.md
-  - consciousness/2025-07-06-evolutionary-agents-proposal.md
+  - ../consciousness/2025-07-06-echosynth-proposal.md
+  - ../consciousness/2025-07-06-evolutionary-agents-proposal.md
 conceptual_threads:
   - cognitive_architecture
   - metacognitive_systems
@@ -66,13 +65,14 @@ engagement_type: analytical
 reader_participation: active
 cognitive_load: intense
 description: >-
-  A parametric metacognitive architecture for optimizing foundation model
+  A parametric metacognitive architecture for optimizing foundation model A
+  parametric metacognitive architecture for optimizing foundation model
   interactions through explicit cognitive requirement specification
 excerpt: >-
   We propose a parametric metacognitive layer that mediates between agentic
   systems and foundation models, enabling explicit specification of cognitive
   requirements through a structured parameter space for domain-agnostic
-  reasoning amplification.
+  reasoning amplification
 meta_title: >-
   Parametric Metacognitive Orchestration for Foundation Model Agents - Research
   Paper
@@ -80,9 +80,9 @@ meta_description: >-
   Novel architecture for optimizing AI agent interactions with foundation models
   through explicit cognitive parameterization, enabling 20-35% performance
   improvements across diverse reasoning tasks.
-meta_keywords: >-
+meta_keywords: >
   metacognitive AI, foundation models, agentic systems, cognitive orchestration,
-  reasoning amplification, AI architecture
+  reasoning amplification, AI-Architecture
 og_title: Parametric Metacognitive Orchestration for Foundation Model Agents
 og_description: >-
   Revolutionary approach to AI reasoning that enables explicit specification of
@@ -94,7 +94,7 @@ schema_headline: Parametric Metacognitive Orchestration for Foundation Model Age
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
 schema_date_published: 2025-06-30T00:00:00.000Z
-schema_date_modified: 2025-06-30T00:00:00.000Z
+schema_date_modified: 2025-06-30T12:00:00.000Z
 schema_word_count: 8500
 schema_reading_time: PT45M
 robots: 'index,follow'
@@ -105,7 +105,7 @@ priority: 0.9
 changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-faq_schema: false
+faq_schema: true
 how_to_schema: false
 breadcrumb_schema: true
 review_schema: false

@@ -8,22 +8,25 @@ date: 2025-01-07
 last_modified: 2025-01-07 10:00:00
 
 # Content classification
-category: "AI Research & Cognitive Evolution"
+category: learning
 subcategory: "Neural Architectures"
+
 tags: ["mamba", "state_space_models", "knowledge_graphs", "neural_architecture", "llm"]
 keywords: ["mamba architecture", "state space models", "knowledge integration", "linear scaling", "selective mechanisms"]
 
 # Content status and evolution
-status: "experimental"
-evolution_stage: "seed"
+status: draft
 last_thought_date: 2025-01-07
 thought_generation: 1
+# Collaboration Metadata
 
 # Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+authors: ["Human-AI Collaboration", "AI", "Human"]
 collaboration_type: "framework_development"
 human_contribution: 70
 ai_contribution: 30
+engagement_type: "collaborative"
+# Document Relationships
 
 # Document relationships
 related_documents: ["ai/evolutionary_agents_proposal.md", "projects/metacognitive_layer_paper.md", "ai/echosynth_proposal.md"]
@@ -36,12 +39,16 @@ philosophical_positions: ["computational_theory_of_mind", "emergentism"]
 
 # Navigation hints
 reading_order: 1
+reading_order: 1
 difficulty_level: "advanced"
 reading_time_minutes: 25
 prerequisites: ["state_space_models", "neural_architectures", "knowledge_graphs"]
+reading_time_minutes: 25
+
 
 # Content characteristics
 document_type: "research_paper"
+thinking_style: "analytical"
 thinking_style: "analytical"
 consciousness_level: "collaborative"
 has_mathematics: true
@@ -51,28 +58,48 @@ has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
 engagement_type: "analytical"
-reader_participation: "active"
 cognitive_load: "intense"
 
 # Discovery & SEO
 description: "A novel Mamba-based architecture for persistent knowledge integration through cached semantic transforms in structured state spaces"
 excerpt: "Proposing a linear-scaling approach to knowledge integration that embeds document representations directly into state space dynamics"
+excerpt: "Proposing a linear-scaling approach to knowledge integration that embeds document representations directly into state space dynamics"
 is_featured: true
 is_cornerstone: false
 is_gateway: false
 is_synthesis: true
+featured_image: "/assets/images/mamba_knowledge_graph.png"
+og_image: "/assets/images/mamba_knowledge_graph_social.png"
+# Open Graph
+# Open Graph
+og_title: "Mamba Neural Knowledge Graph Integration"
+og_description: "Innovative approach to knowledge integration using Mamba state space models"
+og_type: "article"
+og_locale: "en_US"
 
 # SEO Meta Tags
 meta_title: "Mamba-Based Neural Knowledge Graph Integration - Linear Scaling AI Architecture"
+meta_description: "Revolutionary approach to knowledge integration using Mamba state space models for linear-scaling document representation and selective knowledge activation"
 meta_description: "Revolutionary approach to knowledge integration using Mamba state space models for linear-scaling document representation and selective knowledge activation"
 schema_type: "ScholarlyArticle"
 schema_headline: "Mamba-Based Neural Knowledge Graph Integration"
 schema_author: "Human-AI Collaboration"
 schema_word_count: 4200
 schema_reading_time: "PT25M"
+schema_image: "/assets/images/mamba_knowledge_graph_schema.png"
+# Indexing and Search
+# Indexing and Search
+priority: 0.8
+changefreq: "weekly"
+robots: "index,follow"
+googlebot: "index,follow"
+search_exclude: false
+sitemap_exclude: false
+content_language: "en"
 
 # Dynamic behavior
 auto_update: false
+update_frequency: "manual"
 update_frequency: "manual"
 version_tracking: true
 change_log: true

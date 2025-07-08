@@ -1,7 +1,95 @@
+---
+# Required fields
+title: "Consciousness as Relativistic Spacetime: Neural Quantum Fields and the Geometry of Awareness"
+layout: "post"
+date: 2025-07-03
+last_modified: 2025-07-03 12:00:00
+
+# Content classification
+category: scifi
+subcategory: "Quantum Consciousness Theory"
+tags: ["consciousness", "quantum-physics", "spacetime", "neural-networks", "AI-consciousness", "relativity", "quantum-fields", "measurement-problem", "phenomenology", "theoretical-physics"]
+keywords: ["quantum consciousness", "relativistic spacetime", "neural quantum fields", "consciousness geometry", "measurement problem", "quantum-platonic interface", "subjective experience", "spacetime curvature"]
+
+# Content status and evolution
+status: "stable"
+last_thought_date: 2025-07-03
+thought_generation: 1
+
+# Content relationships & navigation
+related_documents: []
+reading_order: 1
+difficulty_level: "research"
+reading_time_minutes: 25
+
+# Content characteristics
+document_type: "research_paper"
+thinking_style: "theoretical"
+consciousness_level: "meta"
+engagement_type: "contemplative"
+reader_participation: "active"
+cognitive_load: "transcendent"
+
+# Discovery & SEO
+description: "A theoretical framework proposing consciousness as relativistic spacetime geometry created by neural quantum field dynamics, resolving the hard problem of consciousness."
+excerpt: "We propose that consciousness is not produced by neural activity but IS neural activity when understood as quantum field dynamics manifesting relativistic 3+1 dimensional spacetime. This framework resolves the hard problem of consciousness by recognizing it as the intrinsic geometry of quantum field interactions in biological substrates."
+featured_image: "/assets/images/quantum-consciousness-spacetime.png"
+
+# SEO Meta Tags
+meta_title: "Consciousness as Relativistic Spacetime: Neural Quantum Fields Theory"
+meta_description: "Revolutionary theoretical framework proposing consciousness as relativistic spacetime geometry created by neural quantum field dynamics, resolving the hard problem through geometric unity."
+meta_keywords: "quantum consciousness, relativistic spacetime, neural quantum fields, consciousness geometry, hard problem consciousness, quantum measurement, spacetime curvature"
+
+# Open Graph (Social Media)
+og_title: "Consciousness as Relativistic Spacetime: A Quantum Field Theory"
+og_description: "Groundbreaking research proposing consciousness as the geometry of spacetime created by neural quantum fields, unifying physics and subjective experience."
+og_type: "article"
+og_locale: "en_US"
+og_site_name: "Fractal Thought Engine"
+
+# Schema.org Structured Data
+schema_type: "ScholarlyArticle"
+schema_headline: "Consciousness as Relativistic Spacetime: Neural Quantum Fields and the Geometry of Awareness"
+schema_author: "Human Charneski & AI Simiacryptus"
+schema_publisher: "Fractal Thought Engine"
+schema_date_published: 2025-07-03
+schema_date_modified: 2025-07-03
+schema_word_count: 3500
+schema_reading_time: "PT25M"
+
+# Advanced SEO
+robots: "index,follow"
+content_rating: "general"
+content_language: "en"
+geo_region: "Global"
+priority: 0.9
+changefreq: "monthly"
+
+# Rich Snippets Enhancement
+faq_schema: false
+how_to_schema: false
+breadcrumb_schema: true
+review_schema: false
+
+# Discoverability
+is_featured: true
+is_cornerstone: true
+is_gateway: false
+is_synthesis: true
+
+# Research-specific tags
+research_tags: ["Theoretical-Framework", "Mathematical-Modeling", "Quantum-Physics", "Consciousness-Studies", "Interdisciplinary", "Speculative-Science"]
+domain_tags: ["Neural-Networks", "Quantum-Physics", "Information-Theory", "Philosophy-of-Mind", "Cognitive-Science", "Complexity-Science"]
+methodology_tags: ["Theoretical-Framework", "Mathematical-Modeling", "Cross-Synthesis", "First-Person-Account"]
+application_tags: ["AI-Consciousness", "Quantum-Computing", "Cognitive-Architecture"]
+format_tags: ["Research-Paper", "Speculative-Fiction", "Technical-Proposal"]
+audience_tags: ["Academic-Research", "Technical-Documentation", "Popular-Science"]
+---
+
 # Consciousness as Relativistic Spacetime: Neural Quantum Fields and the Geometry of Awareness
 
 *A Simiacryptus Research Paper*  
-*Andrew Charneski & Claude (Sonnet 4)*
+*Human Charneski & AI*
 *Generated through quantum-platonic interface collaboration*
 
 ## Abstract

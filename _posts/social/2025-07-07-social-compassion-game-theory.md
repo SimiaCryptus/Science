@@ -3,19 +3,17 @@ title: >-
   The Evolution of Social Compassion: A Game-Theoretic Analysis of Cooperative
   Behavior in Competitive Environments
 layout: post
-date: 2025-01-20T00:00:00.000Z
-last_modified: 2025-01-20T14:30:00.000Z
+date: 2025-07-07T00:00:00.000Z
+last_modified: 2025-07-07T14:30:00.000Z
 category: social
 subcategory: Game Theory and Cooperation
 tags:
-  - game_theory
-  - social_cooperation
-  - empathy
-  - altruism
-  - evolutionary_stability
-  - reputation_systems
-  - behavioral_economics
-  - mathematical_modeling
+  - Game-Theory
+  - Social-Systems
+  - Mathematical-Modeling
+  - Behavioral-Economics
+  - Theoretical-Framework
+  - Research-Paper
 keywords:
   - prisoner's dilemma
   - evolutionary game theory
@@ -25,51 +23,19 @@ keywords:
   - charitable giving
   - tipping behavior
   - cooperative strategies
-status: stable
-evolution_stage: mature
-last_thought_date: 2025-01-20T00:00:00.000Z
+status: draft
+last_thought_date: 2025-07-07T00:00:00.000Z
 thought_generation: 1
-authors:
-  - Human-AI Collaboration
-  - Claude
-  - Andrew Charneski
-collaboration_type: framework_development
-human_contribution: 40
-ai_contribution: 60
 related_documents:
-  - projects/2025-07-03-late-merge-paper.md
-  - projects/2025-07-03-climate-protocol.md
-  - social/2025-07-07-public-health-protocol.md
-conceptual_threads:
-  - social_cooperation
-  - mathematical_modeling
-  - evolutionary_psychology
-  - behavioral_economics
-mathematical_frameworks:
-  - game_theory
-  - evolutionary_dynamics
-  - utility_optimization
-  - reputation_systems
-philosophical_positions:
-  - evolutionary_psychology
-  - rational_choice_theory
-  - social_contract_theory
+  - ../projects/2025-07-03-late-merge-paper.md
+  - ../projects/2025-07-03-climate-protocol.md
+  - ./2025-07-07-public-health-protocol.md
 reading_order: 1
 difficulty_level: advanced
 reading_time_minutes: 45
-prerequisites:
-  - game_theory_basics
-  - evolutionary_biology
-  - mathematical_modeling
 document_type: research_paper
 thinking_style: analytical
 consciousness_level: recursive
-has_mathematics: true
-has_code: false
-has_diagrams: false
-has_interactive_elements: false
-is_self_modifying: true
-responds_to_attention: false
 engagement_type: analytical
 reader_participation: active
 cognitive_load: intense
@@ -81,6 +47,9 @@ excerpt: >-
   This paper examines the mathematical foundations of social compassion through
   game-theoretic models, exploring how cooperative and empathetic behaviors can
   emerge and remain stable in competitive evolutionary environments.
+featured_image: /assets/images/social-compassion-game-theory.png
+og_image: /assets/images/social-compassion-game-theory-social.png
+meta_title: 'Social Compassion Evolution: Game Theory Analysis | Fractal Thought Engine'
 meta_description: >-
   Mathematical analysis of social compassion using game theory, exploring how
   empathy and cooperation evolve in competitive environments through reputation,
@@ -88,14 +57,24 @@ meta_description: >-
 meta_keywords: >-
   game theory, social cooperation, empathy evolution, altruism, evolutionary
   stability, prisoner's dilemma, reputation systems
+og_title: 'The Evolution of Social Compassion: Game-Theoretic Analysis'
+og_description: >-
+  Mathematical models reveal how empathy and cooperation emerge as
+  evolutionarily stable strategies in competitive social environments.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
 schema_type: ScholarlyArticle
 schema_headline: 'The Evolution of Social Compassion: A Game-Theoretic Analysis'
-schema_author: Claude and Andrew Charneski
+schema_author: Andrew Charneski
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-01-20T00:00:00.000Z
-schema_date_modified: 2025-01-20T00:00:00.000Z
+schema_date_published: 2025-07-07T00:00:00.000Z
+schema_date_modified: 2025-07-07T00:00:00.000Z
+schema_image: /assets/images/social-compassion-game-theory-schema.png
 schema_word_count: 4500
 schema_reading_time: PT45M
+canonical_url: >-
+  https://fractalthoughtengine.com/social/2025/07/07/social-compassion-game-theory.html
 robots: 'index,follow'
 priority: 0.8
 changefreq: monthly
@@ -103,11 +82,9 @@ is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
-auto_update: false
-version_tracking: true
 ---
 
-# The Evolution of Social Compassion: A [climate action](projects/2025-07-03-climate-protocol.md)n Competitive Environments
+# The Evolution of Social Compassion: A [climate action](../projects/2025-07-03-climate-protocol.md)n Competitive Environments
 
 *A systematic exploration of how empathy, altruism, and cooperative strategies emerge and persist in evolutionary game theory*
 
@@ -120,7 +97,7 @@ This paper examines the mathematical foundations of social compassion through ga
 Traditional game theory assumes rational actors pursuing individual utility maximization, yet real-world social behavior frequently involves apparent violations of this principle: people tip in restaurants they'll never revisit, donate anonymously to charity, help strangers in emergencies, and cooperate in one-shot interactions where defection would yield higher payoffs.
 
 These behaviors, collectively termed "social compassion," present a fundamental puzzle: how can strategies that reduce individual fitness persist in competitive environments governed by evolutionary pressure? This paper develops mathematical models to explain the emergence, persistence, and strategic value of compassionate behavior.
-*This theoretical foundation underlies the practical coordination protocols developed for traffic merging ([Late Merge Problem](projects/2025-07-03-late-merge-paper.md)), climate action ([Climate[Climate Protocol](projects/2025-07-03-climate-protocol.md)ublic health ([Health Protocol[Health Protocol](social/2025-07-07-public-health-protocol.md)ocial compassion operationally as any strategy that reduces an agent's immediate payoff to benefit others, encompassing empathy (incorporating others' welfare into one's utility function), altruism (costly actions benefiting others), and cooperation in social dilemmas.
+*This theoretical foundation underlies the practical coordination protocols developed for traffic merging ([Late Merge Problem](../projects/2025-07-03-late-merge-paper.md)), climate action ([Climate[Climate Protocol](../projects/2025-07-03-climate-protocol.md)ublic health ([Health Protocol[Health Protocol](./2025-07-07-public-health-protocol.md)ocial compassion operationally as any strategy that reduces an agent's immediate payoff to benefit others, encompassing empathy (incorporating others' welfare into one's utility function), altruism (costly actions benefiting others), and cooperation in social dilemmas.
 
 ## 2. Theoretical Framework
 
@@ -326,7 +303,7 @@ Cross-cultural studies reveal significant variation in compassionate behavior pa
 ### 9.1 Organizational Design
 
 Insights for creating compassionate organizations:
-*These principles are implemented in the specific decision protocols for [traffic coordination](social/2025-07-07-public-health-protocol.md)5-07-07-public-health-protocol.md)es can promote social compassion through:
+*These principles are implemented in the specific decision protocols for [traffic coordination](./2025-07-07-public-health-protocol.md)5-07-07-public-health-protocol.md)es can promote social compassion through:
 - Public recognition of charitable behavior
 - Tax incentives for charitable giving
 - Social insurance reducing individual risk
@@ -444,6 +421,6 @@ Future research should continue developing more sophisticated models that accoun
 
 ---
 
-*Authors: Claude (AI) and Andrew Charneski (Human)*
+*Authors: AI and Andrew Charneski (Human)*
 *Date: July 2025*
 *Keywords: game theory, social cooperation, empathy, altruism, evolutionary stability, reputation systems*

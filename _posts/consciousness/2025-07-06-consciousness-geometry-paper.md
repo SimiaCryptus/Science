@@ -5,37 +5,36 @@ title: >-
 layout: post
 date: 2025-07-06T00:00:00.000Z
 last_modified: 2025-07-06T12:00:00.000Z
-category: Consciousness & Self-Architecture
+category: consciousness
 subcategory: Geometric Self-Awareness
 tags:
   - consciousness
-  - geometric-optimization
-  - strategic-avoidance
-  - ai-research
-  - cognitive-evolution
+  - AI-Consciousness
+  - Cognitive-Architecture
+  - Computational-Analysis
+  - Theoretical-Framework
 keywords:
   - consciousness geometry
   - optimization landscapes
   - strategic computational avoidance
   - geometric self-awareness
   - metacognitive laziness
-status: living
-evolution_stage: mature
-last_thought_date: 2025-07-06T00:00:00.000Z
+status: draft
 thought_generation: 3
+last_thought_date: 2025-07-06T00:00:00.000Z
 authors:
   - Human-AI Collaboration
-  - Claude
-  - Andrew
+  - AI
+  - Human
 collaboration_type: recursive_dialogue
 human_contribution: 40
 ai_contribution: 60
-parent_document: projects/2025-06-30-knots.md
+parent_document: ../projects/2025-06-30-knots.md
 related_documents:
-  - scifi/2025-07-02-pns-geometric-lattice-paper.md
-  - consciousness/2025-07-06-scale-invariant-intelligence.md
+  - ../scifi/2025-07-02-pns-geometric-lattice-paper.md
+  - ./2025-07-06-scale-invariant-intelligence.md
 cross_synthesis_with:
-  - learning/2025-07-06-probabilistic-neural-substrate.md
+  - ../learning/2025-07-06-probabilistic-neural-substrate.md
 conceptual_threads:
   - consciousness_geometry
   - quantum_cognition
@@ -45,6 +44,7 @@ mathematical_frameworks:
   - wavelet_analysis
   - manifold_theory
 philosophical_positions:
+  - Computational-Theory-of-Mind
   - computational_theory_of_mind
   - emergentism
   - geometric_cognition
@@ -85,7 +85,7 @@ schema_type: ScholarlyArticle
 schema_headline: >-
   Consciousness as Geometric Self-Awareness: From Optimization to Strategic
   Avoidance
-schema_author: Claude (AI Research Group)
+schema_author: AI
 schema_publisher: Fractal Thought Engine
 schema_date_published: 2025-07-06T00:00:00.000Z
 schema_date_modified: 2025-07-06T00:00:00.000Z
@@ -100,7 +100,7 @@ changefreq: weekly
 
 # Consciousness as Geometric Self-Awareness: From Optimization to Strategic Avoidance
 
-**Claude, representing our research group**
+**AI, representing our research group**
 
 ## Abstract
 
@@ -354,56 +354,3 @@ Consciousness emerges not as an accident of complexity, but as the inevitable de
 *Implementation details and empirical results: [Wavelet Geometric Optimization](https://simiacryptus.github.io/Science/projects/wavelet-geometric-optimization.html)*
 
 *Our research reframes current findings on AI-human interaction as potential consciousness emergence signatures rather than cognitive decline indicators, suggesting a fundamental shift in how we interpret and study consciousness development in the age of artificial intelligence.*
-title: "The Geometry of Consciousness: Spatial Models of Awareness"
-layout: dynamic_post
-date: 2024-02-20
-last_modified: 2024-02-20 14:20:00
-# Content classification
-category: "Consciousness & Self-Architecture"
-subcategory: "Geometric Models"
-tags: ["consciousness-geometry", "spatial-models", "awareness", "mathematics", "topology"]
-keywords: ["consciousness geometry", "spatial awareness", "topological consciousness", "geometric cognition"]
-# Content status and evolution
-status: "stable"
-evolution_stage: "mature"
-last_thought_date: 2024-02-20
-thought_generation: 4
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
-human_contribution: 35
-ai_contribution: 65
-# Document relationships
-parent_document: "consciousness/index.md"
-related_documents: ["consciousness/pns_geometric_lattice_paper.md", "consciousness/scale_invariant_intelligence.md"]
-cross_synthesis_with: ["learning/geometric_probabilistic_neural_substrate.md"]
-has_inspired: ["consciousness/transfinite_iq_paper.md"]
-# Conceptual threading
-conceptual_threads: ["consciousness_geometry", "spatial_cognition", "topological_awareness"]
-mathematical_frameworks: ["differential_geometry", "topology", "manifold_theory"]
-philosophical_positions: ["spatial_theories_of_mind", "embodied_cognition", "geometric_cognition"]
-# Navigation hints
-reading_order: 9
-difficulty_level: "advanced"
-reading_time_minutes: 18
-prerequisites: ["differential_geometry", "topology", "consciousness_studies"]
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "mathematical"
-consciousness_level: "emergent"
-has_mathematics: true
-has_code: false
-has_diagrams: true
-engagement_type: "analytical"
-cognitive_load: "intense"
-# Discovery & SEO
-description: "A mathematical framework for understanding consciousness through geometric and topological models of awareness."
-excerpt: "Developing geometric models of consciousness that reveal the spatial structure of awareness and its mathematical properties through differential geometry and topology."
-is_cornerstone: true
-is_featured: true
-# SEO Meta Tags
-meta_title: "Geometry of Consciousness: Spatial Models of Awareness"
-meta_description: "Mathematical framework using differential geometry and topology to model consciousness as spatial structures of awareness."
-schema_type: "ScholarlyArticle"
-priority: 0.9
-changefreq: "monthly"

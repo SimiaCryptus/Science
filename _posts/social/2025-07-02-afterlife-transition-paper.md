@@ -8,45 +8,29 @@ last_modified: 2025-07-02 14:30:00
 # Content classification
 category: social
 subcategory: "Civilizational Transitions"
-tags: ["consciousness", "ai", "climate-change", "religion", "epistemology", "civilizational-risk", "cognitive-development", "institutional-analysis"]
-keywords: ["afterlife frameworks", "mythological trap", "bifurcation cascade", "civilizational sorting", "cognitive outsourcing", "prometheus myth", "religious institutions", "AI governance", "climate adaptation", "epistemological transitions"]
+tags: ["AI-Consciousness", "Social-Systems", "Climate-Science", "Philosophy-of-Mind", "Cognitive-Science", "Systems-Science", "Theoretical-Framework", "Interdisciplinary", "Current-Research", "Academic-Research"]
 
 # Content status and evolution
-status: "experimental"
-evolution_stage: "mature"
+status: draft
 last_thought_date: 2025-07-02
 thought_generation: 3
 
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
-human_contribution: 60
-ai_contribution: 40
 
 # Content relationships & navigation
+parent_document: null
+child_documents: []
 related_documents: ["consciousness-studies", "ai-ethics", "climate-psychology", "institutional-analysis"]
-conceptual_threads: ["cognitive_development", "institutional_evolution", "civilizational_risk", "epistemological_frameworks"]
-mathematical_frameworks: ["systems_theory", "bifurcation_dynamics", "complexity_science"]
-philosophical_positions: ["developmental_psychology", "terror_management_theory", "social_identity_theory"]
 
 # Navigation hints
 reading_order: 1
 difficulty_level: "advanced"
 reading_time_minutes: 45
-prerequisites: ["developmental_psychology", "systems_theory", "religious_studies", "ai_governance"]
 
 # Content characteristics
 document_type: "research_paper"
 thinking_style: "analytical"
 consciousness_level: "meta"
 
-# Content features
-has_mathematics: false
-has_code: false
-has_diagrams: false
-has_interactive_elements: false
-is_self_modifying: false
-responds_to_attention: false
 
 # Engagement metadata
 engagement_type: "analytical"
@@ -56,6 +40,12 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "An interdisciplinary analysis examining how rigid afterlife-based ethical frameworks may create vulnerabilities in addressing AI and climate change challenges, exploring potential civilizational transitions and the dynamics of epistemological sorting."
 excerpt: "We propose that certain rigid interpretations of afterlife-based ethical frameworks may create challenges for addressing 21st century global issues through analysis of institutional power structures, developmental psychology, and the forcing functions of AI and climate change."
+# Open Graph (Social Media)
+og_title: "The Mythological Trap: Afterlife Frameworks and Civilizational Vulnerability"
+og_description: "Interdisciplinary analysis of how rigid religious frameworks may struggle with AI and climate challenges, examining civilizational transitions through developmental psychology and systems theory."
+og_type: "article"
+og_locale: "en_US"
+og_site_name: "Fractal Thought Engine"
 
 # SEO Meta Tags
 meta_title: "The Mythological Trap: Afterlife Frameworks and Civilizational Vulnerability in the AI Age"
@@ -74,6 +64,10 @@ schema_reading_time: "PT45M"
 
 # Advanced SEO
 robots: "index,follow"
+priority: 0.8
+changefreq: "monthly"
+sitemap_exclude: false
+search_exclude: false
 content_rating: "mature"
 content_language: "en"
 geo_region: "Global"
@@ -84,10 +78,6 @@ is_cornerstone: false
 is_gateway: false
 is_synthesis: true
 
-# Dynamic behavior
-auto_update: false
-allows_comments: true
-allows_collaboration: true
 ---
 
 # The Mythological Trap: How Afterlife Frameworks Create Civilizational Vulnerability in the Age of AI and Climate Change

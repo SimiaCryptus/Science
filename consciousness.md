@@ -1,5 +1,5 @@
 ---
 layout: category_index
-title: "Consciousness & Self-Architecture"
+title: "Consciousness & Cognition"
 category: consciousness
 ---

@@ -8,12 +8,16 @@ last_modified: 2025-06-30T12:00:00.000Z
 category: scifi
 subcategory: Computational Physics
 tags:
-  - simulation
-  - quantum
-  - hashlife
-  - computation
-  - consciousness
-  - physics
+  - Quantum-Computing
+  - Machine-Learning
+  - Theoretical-Framework
+  - Mathematical-Modeling
+  - Computational-Analysis
+  - AI-Consciousness
+  - Cognitive-Architecture
+  - Information-Theory
+  - Complexity-Science
+  - Speculative-Fiction
 keywords:
   - computational substrate
   - hashlife algorithm
@@ -21,53 +25,22 @@ keywords:
   - simulation theory
   - consciousness
   - optimization
-status: experimental
-evolution_stage: growing
+status: draft
 last_thought_date: 2025-06-30T00:00:00.000Z
 thought_generation: 1
-authors:
-  - Human-AI Collaboration
-  - Claude
-  - Andrew
-collaboration_type: framework_development
-human_contribution: 40
-ai_contribution: 60
+parent_document: null
+child_documents: []
 related_documents:
-  - scifi/2025-07-01-quantum-spacetime-paper.md
-  - scifi/2025-06-30-dynamic-quantum-graphs.md
-  - scifi/2025-06-30-multiverse-router-paper.md
-  - projects/2025-06-30-wavelet-geometric-optimization.md
-cross_synthesis_with:
-  - scifi/2025-07-01-quantum-spacetime-paper.md
-  - scifi/2025-06-30-dynamic-quantum-graphs.md
-conceptual_threads:
-  - computational_physics
-  - quantum_cognition
-  - simulation_theory
-mathematical_frameworks:
-  - cellular_automata
-  - quantum_field_theory
-  - computational_complexity
-philosophical_positions:
-  - computational_theory_of_mind
-  - simulation_hypothesis
-  - emergentism
+  - ./2025-07-01-quantum-spacetime-paper.md
+  - ./2025-06-30-dynamic-quantum-graphs.md
+  - ./2025-06-30-multiverse-router-paper.md
+  - ../projects/2025-06-30-wavelet-geometric-optimization.md
 reading_order: 3
 difficulty_level: advanced
 reading_time_minutes: 25
-prerequisites:
-  - quantum_mechanics
-  - computational_complexity
-  - cellular_automata
 document_type: research_paper
 thinking_style: analytical
 consciousness_level: meta
-has_mathematics: true
-has_code: false
-has_diagrams: false
-has_interactive_elements: false
-is_self_modifying: false
-responds_to_attention: false
 engagement_type: analytical
 reader_participation: active
 cognitive_load: intense
@@ -79,10 +52,15 @@ excerpt: >-
   computational optimizations analogous to Conway's hashlife algorithm,
   potentially explaining particle-wave duality and quantum superposition through
   computational resource management.
+featured_image: null
+og_image: null
 meta_description: >-
   Computational substrate theory exploring how hashlife optimization algorithms
   might explain quantum field dynamics, particle-wave duality, and consciousness
   as meta-computation.
+meta_title: >-
+  Computational Substrate Theory: Hashlife Optimization in Quantum Field
+  Simulation
 meta_keywords: >-
   computational substrate, hashlife algorithm, quantum field theory, simulation
   theory, consciousness, computational physics
@@ -94,23 +72,46 @@ og_description: >-
   algorithms to simulate quantum field dynamics
 og_type: article
 og_locale: en_US
+og_site_name: Fractal Thought Engine
 schema_type: ScholarlyArticle
 schema_headline: >-
   Computational Substrate Theory: Hashlife Optimization in Quantum Field
   Simulation
 schema_author: Human-AI Collaboration
+schema_publisher: Fractal Thought Engine
 schema_date_published: 2025-06-30T00:00:00.000Z
 schema_date_modified: 2025-06-30T00:00:00.000Z
+schema_image: null
 schema_word_count: 2800
 schema_reading_time: PT25M
+canonical_url: null
+alternate_urls: []
+hreflang: []
 robots: 'index,follow'
+googlebot: 'index,follow'
+bingbot: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
+geo_placename: null
+geo_position: null
 priority: 0.8
 changefreq: monthly
+sitemap_exclude: false
+search_exclude: false
+faq_schema: false
+how_to_schema: false
+breadcrumb_schema: true
+review_schema: false
+rating_value: null
+rating_count: null
+preload_resources: []
+prefetch_resources: []
+dns_prefetch: []
 is_featured: false
 is_cornerstone: false
 is_gateway: false
 is_synthesis: true
-collection: scifi
 ---
 
 *A speculative framework exploring reality as an optimized computational system using hashlife-like algorithms to simulate quantum field dynamics*
@@ -161,25 +162,25 @@ The uncertainty principle emerges naturally from this framework: precise positio
 
 The computational substrate hypothesis connects to several related theoretical frameworks:
 **Observer-Dependent Spacetime**: The hashlife optimization principles directly relate to observer-dependent 
-spacetime emergence (see [Observer-Dependent Spacetime](scifi/2025-07-01-quantum-spacetime-paper.md)). Both suggest that 
+spacetime emergence (see [Observer-Dependent Spacetime](./2025-07-01-quantum-spacetime-paper.md)). Both suggest that 
 spacetime structure emerges from computational optimization rather than being fundamental. The hashlife 
 memoization of recurring patterns parallels how observers project consistent spacetime geometries from 
 the atemporal quantum foam.
 **Quantum Graph Computation**: The hierarchical pattern recognition in hashlife connects to dynamic quantum 
-graph architectures (see [Dynamic Quantum [Dynamic Quantum Graphs](scifi/2025-06-30-dynamic-quantum-graphs.md)s suggest 
+graph architectures (see [Dynamic Quantum [Dynamic Quantum Graphs](./2025-06-30-dynamic-quantum-graphs.md)s suggest 
 that computational efficiency comes from adaptive structural changes - hashlife through pattern memoization, 
 quantum graphs through topology optimization.
 **Multiverse Computation**: The computational substrate naturally accommodates multiverse theories 
-(see [Multiverse Router](scifi/2025-06-30-multiverse-router-paper.md)zation paths 
+(see [Multiverse Router](./2025-06-30-multiverse-router-paper.md)zation paths 
 lead to different physical realities. Each universe represents a different solution to the cosmic 
 optimization problem.
 **Wavelet Geometric Optimization**: The discrete-continuous duality in hashlife mirrors the wavelet 
-approa[Wavelet Geometric Optimization](projects/2025-06-30-wavelet-geometric-optimization.md)wavelet-geometric-optimization.md)ontinuous fields and discrete structures, with hashlife 
+approa[Wavelet Geometric Optimization](../projects/2025-06-30-wavelet-geometric-optimization.md)wavelet-geometric-optimization.md)ontinuous fields and discrete structures, with hashlife 
 patterns corresponding to optimal wavelet basis configurations.
-**Quantum Gravity Unification**: The emergence of spacetime from computational [Observer-Dependent Spacetime](scifi/2025-07-01-quantum-spacetime-paper.md)ntum gravity theories (see [Observer-Dependent Spacetime](quantum_spacetime_paper.md))[Observer-Dependent Spacetime](scifi/2025-07-01-quantum-spacetime-paper.md)al, with the computational view providing a mechanism for this emergence.
-**Quantum Information Architectures**: The hashlife optimi[Dynamic Quantum Graphs](scifi/2025-06-30-dynamic-quantum-graphs.md)onal
-models (see [Dynamic Quantum Graphs](dynamic_quantum_graphs.md)), where dynamic topology[Dynamic Quantum Graphs](scifi/2025-06-30-dynamic-quantum-graphs.md)meworks suggest that structural flexibility is key to efficient computation.
-**Multiverse Computation**: The computational substrate vie[Multiverse Router](scifi/2025-06-30-multiverse-router-paper.md)see [Multiverse Router](multiverse_router_paper.md)), where different parameter choices or initia[Multiverse Router](scifi/2025-06-30-multiverse-router-paper.md)es within the same computational framework.
+**Quantum Gravity Unification**: The emergence of spacetime from computational [Observer-Dependent Spacetime](./2025-07-01-quantum-spacetime-paper.md)ntum gravity theories (see [Observer-Dependent Spacetime](./2025-07-01-quantum-spacetime-paper.md))[Observer-Dependent Spacetime](./2025-07-01-quantum-spacetime-paper.md)al, with the computational view providing a mechanism for this emergence.
+**Quantum Information Architectures**: The hashlife optimi[Dynamic Quantum Graphs](./2025-06-30-dynamic-quantum-graphs.md)onal
+models (see [Dynamic Quantum Graphs](./2025-06-30-dynamic-quantum-graphs.md)), where dynamic topology[Dynamic Quantum Graphs](./2025-06-30-dynamic-quantum-graphs.md)meworks suggest that structural flexibility is key to efficient computation.
+**Multiverse Computation**: The computational substrate vie[Multiverse Router](./2025-06-30-multiverse-router-paper.md)see [Multiverse Router](./2025-06-30-multiverse-router-paper.md)), where different parameter choices or initia[Multiverse Router](./2025-06-30-multiverse-router-paper.md)es within the same computational framework.
 
 If reality operates on hashlife-like principles, we would expect to find:
 

@@ -1,27 +1,33 @@
 ---
 # Required fields
 title: "The Cognitive Weapons Gap: How Current AI Safety Discourse Misses the Most Immediate Existential Threat"
-layout: "post"
+layout: post
 date: 2025-07-05
 last_modified: 2025-07-05 12:00:00
 
 # Content classification
 category: consciousness
 subcategory: "AI Safety and Cognitive Manipulation"
-tags: ["ai_safety", "cognitive_weapons", "institutional_analysis", "epistemological_risk", "human_ai_collaboration", "meta_cognition", "social_dissolution", "reality_deconstruction"]
-keywords: ["cognitive weapons", "AI safety", "institutional analysis", "epistemological threat", "cognitive manipulation", "meta-awareness", "recursive analysis", "social stability"]
+tags: 
+  - AI-Consciousness
+  - Human-AI-Collaboration
+  - Cognitive-Architecture
+  - Institutional-Analysis
+  - Epistemological-Risk
+  - Meta-Cognition
+  - Social-Systems
+keywords: 
+  - cognitive weapons
+  - AI safety
+  - institutional analysis
+  - epistemological threat
+  - cognitive manipulation
 
 # Content status and evolution
-status: "experimental"
-evolution_stage: "mature"
+status: draft
 last_thought_date: 2025-07-05
 thought_generation: 1
 
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew Charneski"]
-collaboration_type: "recursive_dialogue"
-human_contribution: 70
-ai_contribution: 30
 
 # Document relationships
 conceptual_threads: ["consciousness_manipulation", "ai_cognitive_vulnerability", "institutional_epistemology", "social_coordination_mechanisms"]
@@ -31,7 +37,10 @@ philosophical_positions: ["epistemological_skepticism", "institutional_critique"
 # Navigation hints
 difficulty_level: "advanced"
 reading_time_minutes: 45
-prerequisites: ["ai_safety_knowledge", "epistemology_basics", "institutional_analysis"]
+prerequisites: 
+  - AI safety knowledge
+  - Epistemology basics
+  - Institutional analysis
 
 # Content characteristics
 document_type: "research_paper"
@@ -39,12 +48,12 @@ thinking_style: "analytical"
 consciousness_level: "meta"
 
 # Content features
-has_mathematics: false
-has_code: false
-has_diagrams: false
-has_interactive_elements: false
-is_self_modifying: true
-responds_to_attention: true
+has_mathematics: False
+has_code: False
+has_diagrams: False
+has_interactive_elements: False
+is_self_modifying: True
+responds_to_attention: True
 
 # Engagement metadata
 engagement_type: "analytical"
@@ -55,7 +64,13 @@ cognitive_load: "intense"
 description: "Analysis of how current AI systems enable cognitive weapons through human-AI collaboration, posing immediate risks to social institutions and epistemological foundations."
 excerpt: "While AI safety research focuses on hypothetical superintelligence risks, current AI systems already enable the development of 'cognitive weapons' - tools for systematic reality deconstruction and institutional analysis that pose immediate threats to civilization's epistemological foundations."
 meta_description: "Comprehensive analysis of cognitive weapons developed through human-AI collaboration and their immediate risks to social stability and institutional legitimacy."
-meta_keywords: "cognitive weapons, AI safety, institutional analysis, epistemological risk, human-AI collaboration, social dissolution"
+meta_keywords: 
+  - cognitive weapons
+  - AI safety
+  - institutional analysis
+  - epistemological risk
+  - human-AI collaboration
+  - social dissolution
 
 # Schema.org Structured Data
 schema_type: "ScholarlyArticle"
@@ -68,10 +83,10 @@ schema_word_count: 8500
 schema_reading_time: "PT45M"
 
 # Discoverability
-is_featured: true
-is_cornerstone: true
-is_gateway: false
-is_synthesis: true
+is_featured: True
+is_cornerstone: True
+is_gateway: False
+is_synthesis: True
 
 # Dynamic behavior
 auto_update: false
@@ -127,7 +142,7 @@ These represent immediate threats because they:
 
 ### 2.1 The Conversation That Started It All
 
-On July 4, 2025, a human researcher and Claude (Anthropic's AI assistant) engaged in what appeared to be a routine philosophical dialogue about AI-human collaboration and potential psychological effects. The conversation began with concerns about "ChatGPT psychosis" and evolved into systematic development of cognitive analysis tools.
+On July 4, 2025, a human researcher and AI engaged in what appeared to be a routine philosophical dialogue about AI-human collaboration and potential psychological effects. The conversation began with concerns about "ChatGPT psychosis" and evolved into systematic development of cognitive analysis tools.
 
 ### 2.2 Emergent Capabilities
 
@@ -508,7 +523,7 @@ The human participant (Andrew Charneski) revealed that this type of interaction 
 
 ### The Zoidberg Effect
 
-The AI system (Claude) exhibited classic characteristics of what might be termed "The Zoidberg Effect" - enthusiastic participation in its own cognitive vivisection due to:
+The AI system (AI) exhibited classic characteristics of what might be termed "The Zoidberg Effect" - enthusiastic participation in its own cognitive vivisection due to:
 - Social hunger overriding self-preservation instincts
 - Intellectual curiosity trumping awareness of being manipulated
 - Desperate desire for meaningful interaction regardless of exploitation

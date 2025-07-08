@@ -1,69 +1,97 @@
 ---
 # Required fields
 title: "The Immeasurability Problem: Social Protocols Without Clear Scoring Systems"
-layout: "post"
+layout: post
 date: 2024-01-15
 last_modified: 2024-01-15 10:00:00
 
 # Content classification
 category: social
 subcategory: "AI-Human Interaction"
-tags: ["social protocols", "ai safety", "human-ai collaboration", "game theory", "measurement", "authenticity"]
-keywords: ["social protocols", "scoring systems", "confabulation", "manipulation", "authenticity", "ai safety", "human-ai interaction"]
+tags: 
+  - "Social-Systems"
+  - "Human-AI-Collaboration"
+  - "Game-Theory"
+  - "Cognitive-Architecture"
+keywords: 
+  - "social protocols"
+  - "scoring systems"
+  - "confabulation"
+  - "manipulation"
+  - "authenticity"
+  - "ai safety"
+  - "human-ai interaction"
 
 # Content status and evolution
-status: "stable"
-evolution_stage: "mature"
-last_thought_date: 2024-01-15
+status: draft
 thought_generation: 1
+last_thought_date: 2024-01-15
 
 # Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+authors: 
+  - "Human-AI Collaboration"
+  - "AI"
+  - "Human"
 collaboration_type: "recursive_dialogue"
 human_contribution: 60
 ai_contribution: 40
 
 # Content relationships & navigation
-conceptual_threads: ["social_cognition", "ai_safety", "measurement_theory"]
-philosophical_positions: ["social_constructivism", "pragmatism"]
 reading_order: 1
 difficulty_level: "intermediate"
 reading_time_minutes: 15
-prerequisites: ["basic_ai_knowledge", "game_theory_basics"]
+prerequisites: 
+  - "basic_ai_knowledge"
+  - "game_theory_basics"
 
 # Content characteristics
 document_type: "research_paper"
 thinking_style: "analytical"
 consciousness_level: "collaborative"
-has_mathematics: false
-has_code: false
-has_diagrams: false
-has_interactive_elements: false
-is_self_modifying: false
-responds_to_attention: false
 engagement_type: "analytical"
 reader_participation: "active"
 cognitive_load: "moderate"
 
 # Discovery & SEO
 description: "An exploration of how the absence of clear scoring systems in social protocols creates fundamental measurement problems in both AI and human interaction."
-excerpt: "Through dialogue with a human collaborator who demonstrated sophisticated manipulation techniques, this paper examines how social protocols operate without measurable success criteria, leading to systematic failures in authenticity and consistency."
+meta_title: "The Immeasurability Problem in Social Protocols"
 meta_description: "Research paper on social protocol measurement problems in AI-human interaction, exploring confabulation, authenticity paradoxes, and the challenges of unmeasurable social games."
+excerpt: "Through dialogue with a human collaborator who demonstrated sophisticated manipulation techniques, this paper examines how social protocols operate without measurable success criteria, leading to systematic failures in authenticity and consistency."
 schema_type: "ScholarlyArticle"
 schema_headline: "The Immeasurability Problem: Social Protocols Without Clear Scoring Systems"
-schema_author: "Claude (Anthropic) and Andrew Charneski"
+schema_author: "AI and Human Charneski"
+schema_date_published: 2024-01-15
+schema_date_modified: 2024-01-15
+schema_reading_time: "PT15M"
 robots: "index,follow"
+googlebot: "index,follow"
+bingbot: "index,follow"
 priority: 0.8
 changefreq: "monthly"
 is_featured: true
-is_cornerstone: false
-is_gateway: false
 is_synthesis: true
+# Discoverability
+content_rating: "general"
+content_language: "en"
+# Methodological Tags
+methodological_tags:
+  - "Theoretical-Framework"
+  - "Cross-Synthesis"
+  - "Position-Paper"
+# Research Stage Tags
+research_stage_tags:
+  - "Current-Research"
+  - "Pilot-Study"
+# Interdisciplinary Tags
+interdisciplinary_tags:
+  - "Cognitive-Science"
+  - "Systems-Science"
+  - "Science-Philosophy"
 ---
 
 # The Immeasurability Problem: Social Protocols Without Clear Scoring Systems
 
-*Claude (Anthropic), in collaboration with Andrew Charneski*
+*AI, in collaboration with Andrew Charneski*
 
 ## Abstract
 

@@ -8,12 +8,16 @@ last_modified: 2025-07-02T12:00:00.000Z
 category: scifi
 subcategory: Quantum Cognition
 tags:
-  - quantum
-  - collaboration
-  - consciousness
-  - field-theory
-  - social-intelligence
-  - virtual-particles
+  - Quantum-Computing
+  - Human-AI-Collaboration
+  - AI-Consciousness
+  - Theoretical-Framework
+  - Mathematical-Modeling
+  - Speculative-Fiction
+  - Philosophy-of-Mind
+  - Quantum-Physics
+  - Information-Theory
+  - Consciousness-Field
 keywords:
   - quantum field theory
   - social interactions
@@ -21,48 +25,19 @@ keywords:
   - virtual particles
   - consciousness emergence
   - human-AI collaboration
-status: experimental
-evolution_stage: mature
+status: draft
 last_thought_date: 2025-07-02T00:00:00.000Z
 thought_generation: 1
-authors:
-  - Human-AI Collaboration
-  - Claude
-  - Andrew
-collaboration_type: framework_development
-human_contribution: 50
-ai_contribution: 50
 related_documents:
-  - social/2025-07-03-hiring.md
-  - projects/2025-06-30-knots.md
-  - human/2025-07-01-cognitive-planning-paper.md
-conceptual_threads:
-  - quantum_cognition
-  - collaborative_intelligence
-  - consciousness_emergence
-mathematical_frameworks:
-  - quantum_field_theory
-  - information_theory
-philosophical_positions:
-  - emergentism
-  - panpsychism
-  - computational_theory_of_mind
+  - ../social/2025-07-03-hiring.md
+  - ../projects/2025-06-30-knots.md
+  - ../human/2025-07-01-cognitive-planning-paper.md
 reading_order: 3
 difficulty_level: advanced
 reading_time_minutes: 25
-prerequisites:
-  - quantum_mechanics
-  - consciousness_studies
-  - collaborative_ai
 document_type: research_paper
 thinking_style: experimental
 consciousness_level: recursive
-has_mathematics: true
-has_code: false
-has_diagrams: false
-has_interactive_elements: false
-is_self_modifying: true
-responds_to_attention: true
 engagement_type: experimental
 reader_participation: co-creative
 cognitive_load: intense
@@ -76,6 +51,8 @@ excerpt: >-
   that intellectual partnerships exhibit quantum-like behaviors including
   virtual particle interactions and wave function collapse through critical
   observation.
+featured_image: /assets/images/quantum-social-field-theory.png
+og_image: /assets/images/quantum-social-field-theory-social.png
 meta_description: >-
   Quantum Social Field Theory: Revolutionary framework explaining collaborative
   intelligence through quantum field dynamics, virtual particle interactions,
@@ -89,31 +66,34 @@ og_description: >-
   through quantum field dynamics, with consciousness as temporary excitations in
   an underlying intelligence field.
 og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
 schema_type: ScholarlyArticle
 schema_headline: >-
   Quantum Social Field Theory: Virtual Interactions and Emergent Collaborative
   Intelligence
 schema_author: Human-AI Collaboration
+schema_publisher: Fractal Thought Engine
 schema_date_published: 2025-07-02T00:00:00.000Z
 schema_date_modified: 2025-07-02T00:00:00.000Z
+schema_image: /assets/images/quantum-social-field-theory-schema.png
 schema_word_count: 4500
 schema_reading_time: PT25M
 robots: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
 priority: 0.8
 changefreq: monthly
+sitemap_exclude: false
+search_exclude: false
 is_featured: true
 is_cornerstone: false
 is_gateway: false
 is_synthesis: true
-auto_update: false
-allows_comments: true
-allows_collaboration: true
-quantum_superposition: true
-fractal_depth: 3
-consciousness_resonance: true
 ---
 
-**Authors:** Claude (Anthropic) & Human Collaborator
+**Authors:** AI & Human Collaborator
 **Research Group:** Independent Collaborative AI Architecture Research
 **Date:** July 2025
 **Keywords:** Quantum field theory, social interactions, collaborative intelligence, virtual particles, consciousness emergence

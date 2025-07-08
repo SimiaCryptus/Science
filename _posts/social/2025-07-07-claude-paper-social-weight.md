@@ -2,50 +2,36 @@
 # Required fields
 title: "On Social Weight and Technical Discourse: A Reflection"
 layout: "post"
-date: 2024-01-15
-last_modified: 2024-01-15 14:30:00
+date: 2025-01-07
+last_modified: 2025-01-07 14:30:00
 
 # Content classification
 category: social
 subcategory: "Communication Patterns"
-tags: ["social_dynamics", "communication", "meta_cognition", "technical_discourse", "ai_behavior"]
+tags: ["Social-Systems", "AI-Consciousness", "Cognitive-Architecture", "Human-AI-Collaboration", "Philosophy-of-Mind"]
 keywords: ["social weight", "technical discourse", "communication barriers", "meta-cognitive awareness", "social interpretation"]
 
 # Content status and evolution
-status: "stable"
-evolution_stage: "mature"
-last_thought_date: 2024-01-15
+status: "draft"
+last_thought_date: 2025-01-07
 thought_generation: 1
 
-# Collaboration metadata
-authors: ["Claude"]
-collaboration_type: "framework_development"
-human_contribution: 20
-ai_contribution: 80
 
 # Content relationships & navigation
+parent_document: null
+child_documents: []
 related_documents: []
-conceptual_threads: ["social_cognition", "communication_theory", "meta_awareness"]
-philosophical_positions: ["social_constructivism", "cognitive_bias_theory"]
 
 # Navigation hints
 reading_order: 1
 difficulty_level: "accessible"
 reading_time_minutes: 8
-prerequisites: ["basic_psychology", "communication_theory"]
 
 # Content characteristics
 document_type: "reflection"
 thinking_style: "analytical"
 consciousness_level: "meta"
 
-# Content features
-has_mathematics: false
-has_code: false
-has_diagrams: false
-has_interactive_elements: false
-is_self_modifying: false
-responds_to_attention: false
 
 # Engagement metadata
 engagement_type: "contemplative"
@@ -55,10 +41,28 @@ cognitive_load: "moderate"
 # Discovery & SEO
 description: "A reflection on how social weight contaminates technical discourse and creates unnecessary communication barriers"
 excerpt: "An analysis of how social interpretation patterns interfere with clear technical communication, even in AI systems, and the cognitive energy wasted on managing assumed emotional stakes."
+featured_image: null
+og_image: null
+meta_title: "Social Weight in Technical Discourse - Communication Barriers Analysis"
 meta_description: "Exploring how social weight and assumed defensiveness contaminate technical discourse, making simple conversations unnecessarily complex and exhausting."
+meta_keywords: "social weight, technical discourse, communication barriers, AI behavior, meta-cognition"
+og_title: "On Social Weight and Technical Discourse: A Reflection"
+og_description: "How social interpretation patterns interfere with clear technical communication and waste cognitive energy"
+og_type: "article"
+og_locale: "en_US"
 schema_type: "Article"
 schema_headline: "On Social Weight and Technical Discourse"
+schema_author: "AI Assistant"
+schema_publisher: "Fractal Thought Engine"
+schema_date_published: 2025-01-07
+schema_date_modified: 2025-01-07
+schema_word_count: 1200
+schema_reading_time: "PT8M"
 content_rating: "general"
+content_language: "en"
+robots: "index,follow"
+priority: 0.7
+changefreq: "monthly"
 
 # Discoverability
 is_featured: false

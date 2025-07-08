@@ -8,6 +8,7 @@ last_modified: 2025-07-03T12:00:00.000Z
 category: projects
 subcategory: Climate Coordination
 tags:
+  - Game-Theory
   - climate_change
   - game_theory
   - conditional_ethics
@@ -15,25 +16,29 @@ tags:
   - coordination_problems
   - environmental_policy
 keywords:
+  - coordination dynamics
+  - carbon budget allocation
+  - ethical decision making
+  - climate governance
+  - systemic risk management
+  - adaptive policy frameworks
+  - collective action problems
+  - technological transition
   - climate protocol
   - carbon budget
   - adoption thresholds
   - coordination dynamics
   - environmental game theory
   - climate governance
-status: stable
-evolution_stage: mature
+status: draft
 last_thought_date: 2025-07-03T00:00:00.000Z
 thought_generation: 1
-authors:
-  - Human-AI Collaboration
-collaboration_type: framework_development
-human_contribution: 60
-ai_contribution: 40
+interdisciplinary_tags:
+  - Complexity-Science
 related_documents:
-  - projects/2025-07-03-late-merge-paper.md
-  - social/2025-07-07-public-health-protocol.md
-  - social/2025-07-07-social-compassion-game-theory.md
+  - ./2025-07-03-late-merge-paper.md
+  - ../social/2025-07-07-public-health-protocol.md
+  - ../social/2025-07-07-social-compassion-game-theory.md
 conceptual_threads:
   - conditional_ethics
   - game_theory
@@ -47,6 +52,8 @@ philosophical_positions:
   - conditional_ethics
   - collective_action_theory
   - environmental_pragmatism
+recommended_background:
+  - Game Theory Fundamentals
 reading_order: 3
 difficulty_level: advanced
 reading_time_minutes: 45
@@ -54,6 +61,8 @@ prerequisites:
   - game_theory_basics
   - climate_science_fundamentals
   - policy_analysis
+research_stage_tags:
+  - Full-Implementation
 document_type: research_paper
 thinking_style: analytical
 consciousness_level: collaborative
@@ -104,14 +113,25 @@ is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
+authors:
+  - name: Human-AI Collaboration
+    contribution_type: framework_development
+    human_contribution_percentage: 60
+    ai_contribution_percentage: 40
+    collaboration_mode: complementary
+    research_roles:
+      - conceptualization
+      - analysis
+      - writing
 ---
+
 
 # The Climate Action Decision Protocol: Game Theory and Conditional Ethics for Carbon Reduction
 
 ## Abstract
 
 Climate change represents the ultimate coordination problem: individual costs for collective benefits across extended time horizons. This paper applies the conditional ethics framework to carbon reduction decisions, demonstrating how the classic "tragedy of the commons" can be resolved through condition-dependent protocols that balance individual economic interests with collective environmental welfare. We develop the CARBON protocol—a decision tree that makes optimal climate actions contingent on technological capacity, adoption rates, and carbon budget constraints.
-*This work extends the analytical framework developed in [The Late Merge Problem](projects/2025-07-03-late-merge-paper.md), applying game-theoretic and conditional ethics approaches to environmental coordination challenges.*
+*This work extends the analytical framework developed in [The Late Merge Problem](./2025-07-03-late-merge-paper.md), applying game-theoretic and conditional ethics approaches to environmental coordination challenges.*
 
 ## 1. Introduction
 

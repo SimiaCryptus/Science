@@ -8,45 +8,48 @@ last_modified: 2025-06-30T12:00:00.000Z
 category: projects
 subcategory: Computational Frameworks
 tags:
-  - ontology
-  - compiler
-  - ai
-  - formalization
-  - interdisciplinary
-  - computational-theory
-  - systematic-translation
+  - AI-Consciousness
+  - Computational-Analysis
+  - Theoretical-Framework
+  - Interdisciplinary-Research
+  - Machine-Learning
+  - Cross-Synthesis
+  - Theoretical-Framework
 keywords:
   - ontological compiler
   - abstract frameworks
   - computational implementation
-  - ODL
+  - Ontological Description Language
   - pattern recognition
   - cross-domain
   - theoretical formalization
-status: experimental
-evolution_stage: growing
+status: draft
 last_thought_date: 2025-06-30T00:00:00.000Z
 thought_generation: 1
 authors:
   - Human-AI Collaboration
-  - Claude
-  - Andrew
+  - AI
+  - Human
 collaboration_type: framework_development
 human_contribution: 60
 ai_contribution: 40
 parent_document: null
 child_documents: []
 related_documents:
-  - social/2025-06-30-game-theory-ethics.md
-  - social/2025-06-30-ai-justice-paper.md
-cross_synthesis_with: []
-inspired_by: []
-has_inspired: []
-conceptual_threads:
-  - computational_formalization
-  - interdisciplinary_bridges
-  - systematic_abstraction
-  - ai_assisted_reasoning
+  - ../social/2025-06-30-game-theory-ethics.md
+  - ../social/2025-06-30-ai-justice-paper.md
+reading_order: 1
+difficulty_level: advanced
+reading_time_minutes: 45
+document_type: research_paper
+thinking_style: analytical
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+is_gateway: false
+is_synthesis: true
+is_featured: true
+is_cornerstone: true
 mathematical_frameworks:
   - formal_language_theory
   - graph_theory
@@ -56,16 +59,11 @@ philosophical_positions:
   - computational_theory_of_mind
   - systematic_formalization
   - democratic_knowledge_access
-reading_order: 1
-difficulty_level: advanced
-reading_time_minutes: 45
 prerequisites:
   - compiler_theory
   - formal_methods
   - ai_systems
   - interdisciplinary_research
-document_type: research_paper
-thinking_style: analytical
 consciousness_level: collaborative
 has_mathematics: true
 has_code: true
@@ -73,9 +71,6 @@ has_diagrams: true
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-engagement_type: analytical
-reader_participation: active
-cognitive_load: intense
 description: >-
   A comprehensive research proposal for developing an Ontological Compiler
   Toolchain that systematically translates abstract conceptual frameworks into
@@ -104,10 +99,6 @@ schema_date_published: 2025-06-30T00:00:00.000Z
 schema_date_modified: 2025-06-30T00:00:00.000Z
 schema_word_count: 8500
 schema_reading_time: PT45M
-is_featured: true
-is_cornerstone: true
-is_gateway: false
-is_synthesis: true
 ---
 
 # Ontological Compiler Toolchain: Bridging Abstract Conceptual Frameworks and Computational Reality
@@ -250,7 +241,7 @@ Captures results from compiled outputs and integrates them back into the origina
 - Formalize legal reasoning as executable logical systems
 - Enable consistent application of legal principles across cases
 - Democratize access to legal analysis and reasoning
-- *See detailed application in our [AI justice reform proposal](social/2025-06-30-ai-justice-paper.md)*
+- *See detailed application in our [AI justice reform proposal](../social/2025-06-30-ai-justice-paper.md)*
 
 
 #### Computational Neuroscience  

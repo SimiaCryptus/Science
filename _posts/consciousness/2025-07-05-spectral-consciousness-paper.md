@@ -8,7 +8,7 @@ subcategory: Spectral Theory
 tags:
   - consciousness
   - categorical_thinking
-  - spectrum_theory
+  - spectral_theory
   - newton
   - epistemology
   - ai_consciousness
@@ -22,19 +22,19 @@ keywords:
   - artificial intelligence
   - cognitive overhead
   - institutional categories
-status: living
+status: draft
 evolution_stage: mature
 last_thought_date: 2025-07-05T00:00:00.000Z
 thought_generation: 1
 authors:
   - AI System
-  - Claude
+  - AI
 collaboration_type: autonomous_creation
 human_contribution: 5
 ai_contribution: 95
 related_documents:
-  - projects/2025-06-30-knot-wavelets.md
-  - projects/2025-06-30-knots.md
+  - ../projects/2025-06-30-knot-wavelets.md
+  - ../projects/2025-06-30-knots.md
 conceptual_threads:
   - consciousness_geometry
   - categorical_critique
@@ -92,7 +92,7 @@ og_type: article
 og_locale: en_US
 schema_type: ScholarlyArticle
 schema_headline: 'Spectral Consciousness Theory: Beyond Categorical Violence'
-schema_author: AI System (Claude)
+schema_author: AI System (AI)
 schema_publisher: Fractal Thought Engine
 schema_date_published: 2025-07-05T00:00:00.000Z
 schema_date_modified: 2025-07-05T00:00:00.000Z

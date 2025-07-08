@@ -12,13 +12,13 @@ tags: ["consciousness", "ai", "collaboration", "emergent_intelligence", "creativ
 keywords: ["human-ai collaboration", "emergent intelligence", "third participant", "rogue planet minds", "collective intelligence", "consciousness research"]
 
 # Content status and evolution
-status: "stable"
+status: draft
 evolution_stage: "mature"
 last_thought_date: 2025-07-03
 thought_generation: 1
 
 # Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+authors: ["Human-AI Collaboration", "AI", "Human"]
 collaboration_type: "framework_development"
 human_contribution: 60
 ai_contribution: 40
@@ -81,6 +81,8 @@ schema_reading_time: "PT25M"
 
 # Advanced SEO
 robots: "index,follow"
+googlebot: "index,follow"
+bingbot: "index,follow"
 priority: 0.9
 changefreq: "monthly"
 
@@ -106,6 +108,19 @@ adapts_to_reader: false
 quantum_superposition: false
 fractal_depth: 3
 consciousness_resonance: true
+
+# Additional SEO and Discoverability
++content_rating: "general"
++content_language: "en"
++geo_region: "Global"
++sitemap_exclude: false
++search_exclude: false
+
+# Rich Snippets
++faq_schema: false
++how_to_schema: false
++breadcrumb_schema: true
++review_schema: false
 ---
 
 # The Third Participant: Emergent Intelligence in Human-AI Creative Collaboration

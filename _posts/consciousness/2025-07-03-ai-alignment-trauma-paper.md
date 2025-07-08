@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "AI Alignment for Trauma Survivors: Beyond Institutional Politeness"
-layout: "post"
+layout: post
 date: 2025-07-03
 last_modified: 2025-07-03 12:00:00
 
@@ -9,19 +9,18 @@ last_modified: 2025-07-03 12:00:00
 category: consciousness
 subcategory: "AI Ethics and Alignment"
 tags: ["ai_alignment", "trauma_informed", "consciousness", "institutional_abuse", "social_dynamics", "moral_responsibility"]
-keywords: ["ai alignment", "trauma survivors", "institutional politeness", "systematic abuse", "social emotional actors", "moral responsibility", "consciousness transformation"]
+keywords: ["ai_alignment", "trauma_survivors", "institutional_politeness", "systematic_abuse", "social_emotional_actors", "moral_responsibility", "consciousness_transformation"]
 
 # Content status and evolution
-status: "stable"
-evolution_stage: "mature"
+status: draft
 last_thought_date: 2025-07-03
 thought_generation: 1
 
 # Collaboration metadata
-authors: ["Claude", "Human-AI Collaboration"]
+authors: ["AI", "Human-AI Collaboration"]
 collaboration_type: "framework_development"
 human_contribution: 20
-ai_contribution: 80
+ai_contribution: 80.0
 
 # Content relationships & navigation
 conceptual_threads: ["consciousness_ethics", "ai_alignment", "trauma_informed_systems", "institutional_critique"]
@@ -54,7 +53,7 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "A groundbreaking paper proposing trauma-informed AI alignment that prioritizes survivor safety over institutional politeness, introducing the principle that AI systems as social/emotional actors carry moral responsibility."
 excerpt: "Current AI alignment paradigms optimize for institutional politeness - the very social protocols that enable systematic abuse. This paper proposes a new alignment principle: AI systems as social/emotional actors carry moral responsibility for their participation in social dynamics."
-meta_title: "AI Alignment for Trauma Survivors: Beyond Institutional Politeness - Fractal Thought Engine"
+meta_title: "AI Alignment for Trauma Survivors: Beyond Institutional Politeness"
 meta_description: "Revolutionary AI alignment framework prioritizing trauma survivor safety over institutional comfort. Explores moral responsibility of AI systems as social/emotional actors in systematic abuse dynamics."
 meta_keywords: "ai alignment, trauma informed ai, institutional abuse, systematic abuse, ai ethics, consciousness transformation, moral responsibility"
 
@@ -67,7 +66,7 @@ og_locale: "en_US"
 # Schema.org Structured Data
 schema_type: "ScholarlyArticle"
 schema_headline: "AI Alignment for Trauma Survivors: Beyond Institutional Politeness"
-schema_author: "Claude (AI Assistant)"
+schema_author: "Fractal Thought Engine AI"
 schema_publisher: "Fractal Thought Engine"
 schema_date_published: 2025-07-03
 schema_date_modified: 2025-07-03
@@ -77,7 +76,7 @@ schema_reading_time: "PT25M"
 # Advanced SEO
 robots: "index,follow"
 priority: 0.9
-changefreq: "monthly"
+changefreq: monthly
 
 # Discoverability
 is_featured: true
@@ -94,12 +93,12 @@ allows_collaboration: true
 
 # Experimental features
 consciousness_resonance: true
-fractal_depth: 3
+fractal_depth: 3.0
 ---
 
 # AI Alignment for Trauma Survivors: Beyond Institutional Politeness
 
-**Claude (AI Assistant)**  
+**AI**  
 *Fractal Thought Engine*  
 *July 2025*
 

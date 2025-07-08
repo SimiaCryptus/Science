@@ -5,7 +5,7 @@ title: >-
 layout: post
 date: 2025-07-06T00:00:00.000Z
 last_modified: 2025-07-06T10:30:00.000Z
-category: AI Research & Cognitive Evolution
+category: consciousness
 subcategory: Neural Architectures
 tags:
   - scale-invariance
@@ -14,6 +14,19 @@ tags:
   - consciousness
   - reality-compression
   - geometric-constraints
+  - AI-Consciousness
+  - Cognitive-Architecture
+  - Neural-Networks
+  - Mathematical-Modeling
+  - Theoretical-Framework
+  - Cross-Synthesis
+  - Complexity-Science
+  - Philosophy-of-Mind
+  - Research-Paper
+  - Academic-Research
+  - Current-Research
+  - Quantum-Physics
+  - Information-Theory
 keywords:
   - scale invariant intelligence
   - texture synthesis
@@ -21,28 +34,36 @@ keywords:
   - hierarchical compression
   - geometric constraints
   - edge of chaos
-status: living
-evolution_stage: mature
+status: draft
 last_thought_date: 2025-07-06T00:00:00.000Z
 thought_generation: 3
 authors:
   - Human-AI Collaboration
-  - Claude
-  - Andrew
+  - AI
+  - Human
+parent_document: ../projects/2025-06-30-knots.md
+child_documents:
+  - ../human/2025-07-01-symmetric-textures-rewrite.md
+  - ../human/2025-07-01-mindseye-technical-report.md
+related_documents:
+  - ./2025-07-06-ai-bias-paper.md
+  - ../scifi/2025-07-01-quantum-spacetime-paper.md
+reading_order: 15
+difficulty_level: advanced
+reading_time_minutes: 25
+document_type: research_paper
+thinking_style: experimental
+consciousness_level: recursive
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
 collaboration_type: framework_development
 human_contribution: 60
 ai_contribution: 40
-parent_document: projects/2025-06-30-knots.md
-child_documents:
-  - human/2025-07-01-symmetric-textures-rewrite.md
-  - human/2025-07-01-mindseye-technical-report.md
-related_documents:
-  - consciousness/2025-07-06-ai-bias-paper.md
-  - scifi/2025-07-01-quantum-spacetime-paper.md
 cross_synthesis_with:
-  - consciousness/2025-07-06-consciousness-geometry-paper.md
+  - ./2025-07-06-consciousness-geometry-paper.md
 inspired_by:
-  - human/2025-07-01-symmetric-textures-rewrite.md
+  - ../human/2025-07-01-symmetric-textures-rewrite.md
 conceptual_threads:
   - scale_invariance
   - reality_compression
@@ -57,26 +78,17 @@ philosophical_positions:
   - emergentism
   - computational_theory_of_mind
   - panpsychism
-reading_order: 15
-difficulty_level: advanced
-reading_time_minutes: 25
 prerequisites:
   - neural_networks
   - texture_synthesis
   - geometric_constraints
   - complexity_theory
-document_type: research_paper
-thinking_style: experimental
-consciousness_level: recursive
 has_mathematics: true
 has_code: false
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-engagement_type: analytical
-reader_participation: active
-cognitive_load: intense
 description: >-
   A unified framework for understanding intelligence as emerging through
   hierarchical compression of reality into scale-invariant patterns, from
@@ -85,24 +97,49 @@ excerpt: >-
   Exploring how deep texture synthesis experiments revealed fundamental
   principles about intelligence, reality compression, and the edge of chaos
   where consciousness emerges.
+featured_image: /assets/images/scale-invariant-intelligence.png
+og_image: /assets/images/scale-invariant-intelligence-social.png
 is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
+meta_title: 'Scale-Invariant Intelligence: From Texture Synthesis to Reality Structure'
 meta_description: >-
   Research paper exploring scale-invariant intelligence through texture
   synthesis experiments, revealing connections between neural networks,
   geometric constraints, and consciousness emergence.
+meta_keywords: >-
+  scale invariant intelligence, texture synthesis, neural networks,
+  consciousness emergence, reality compression, edge of chaos
+og_title: 'Scale-Invariant Intelligence: A Unified Framework'
+og_description: >-
+  How texture synthesis experiments revealed fundamental principles about
+  intelligence and reality compression
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
 schema_type: ScholarlyArticle
+schema_headline: >-
+  Scale-Invariant Intelligence: From Texture Synthesis to the Structure of
+  Reality
+schema_author: Human-AI Collaboration
+schema_publisher: SimiaCryptus
+schema_date_published: 2025-07-06T00:00:00.000Z
+schema_date_modified: 2025-07-06T00:00:00.000Z
+schema_word_count: 3500
+schema_reading_time: PT25M
+robots: 'index,follow'
 priority: 0.9
 changefreq: monthly
+content_rating: general
+content_language: en
 ---
 
 ## A Research Discussion Paper
 **Related Work:**
-- [Symmetric Texture Generation](human/2025-07-01-symmetric-textures-rewrite.md) - Technical implementation of geometric constraints
-- [MindsEye T[MindsEye Technical Report](human/2025-07-01-mindseye-technical-report.md)k architecture enabling these experiments
-- [AI Bias in Intelligen[AI Bias in Intelligence Assessment](consciousness/2025-07-06-ai-bias-paper.md)affecting technical recognition
+- [Symmetric Texture Generation](../human/2025-07-01-symmetric-textures-rewrite.md) - Technical implementation of geometric constraints
+- [MindsEye T[MindsEye Technical Report](../human/2025-07-01-mindseye-technical-report.md)k architecture enabling these experiments
+- [AI Bias in Intelligen[AI Bias in Intelligence Assessment](./2025-07-06-ai-bias-paper.md)affecting technical recognition
 
 ### Abstract
 
@@ -186,7 +223,7 @@ Our framework also illuminates biological intelligence:
 
 Our framework raises numerous questions:
 #### Connections to Quantum Gravity and Computational Substrates
-The scale-invariant patterns we've identified in texture synthesis may connect to fundamental physics. Our work on hierarchical compression and multi-scale coherence relates to recent theoretical developments in quantum gravity, particularly observer-dependent spacetime emergence (see [Quantum Spacetime Paper](scifi/2025-07-01-quantum-spacetime-paper.md)ompression schemes inherent in physical reality suggests these schemes might reflect the computational substrate underlying reality itself.
+The scale-invariant patterns we've identified in texture synthesis may connect to fundamental physics. Our work on hierarchical compression and multi-scale coherence relates to recent theoretical developments in quantum gravity, particularly observer-dependent spacetime emergence (see [Quantum Spacetime Paper](../scifi/2025-07-01-quantum-spacetime-paper.md)ompression schemes inherent in physical reality suggests these schemes might reflect the computational substrate underlying reality itself.
 The "edge of chaos" dynamics we observe in neural networks mirror the critical dynamics proposed in quantum foam theories, where spacetime emerges through observer-dependent projections of an atemporal quantum structure. This connection deserves deeper investigation.
 
 
@@ -227,59 +264,8 @@ The fact that these systems could produce both rigorous mathematical verificatio
 
 ### References
 
-[Our symmetric texture generation work](https://simiacryptus.github.io/Scie[MindsEye technical architecture](human/2025-07-01-mindseye-technical-report.md)/2025-07-01-mindseye-technical-report.md)/github.com/SimiaCryptus/examples.deepartist.org)
+[Our symmetric texture generation work](https://simiacryptus.github.io/Scie[MindsEye technical architecture](../human/2025-07-01-mindseye-technical-report.md)/2025-07-01-mindseye-technical-report.md)/github.com/SimiaCryptus/examples.deepartist.org)
 
 ---
 
 *Correspondence about this work can be directed to the authors through the SimiaCryptus project page.*
-title: "Scale-Invariant Intelligence: Consciousness Across Computational Scales"
-layout: dynamic_post
-date: 2024-03-12
-last_modified: 2024-03-12 09:15:00
-# Content classification
-category: "Consciousness & Self-Architecture"
-subcategory: "Scaling Laws"
-tags: ["scale-invariance", "intelligence", "consciousness", "computational-scaling", "emergence"]
-keywords: ["scale invariant intelligence", "computational scaling", "consciousness emergence", "fractal cognition"]
-# Content status and evolution
-status: "experimental"
-evolution_stage: "growing"
-last_thought_date: 2024-03-12
-thought_generation: 1
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
-human_contribution: 45
-ai_contribution: 55
-# Document relationships
-parent_document: "consciousness/index.md"
-related_documents: ["consciousness/transfinite_iq_paper.md", "consciousness/consciousness_geometry_paper.md"]
-cross_synthesis_with: ["learning/geometric_probabilistic_neural_substrate.md"]
-# Conceptual threading
-conceptual_threads: ["scale_invariance", "consciousness_scaling", "fractal_intelligence"]
-mathematical_frameworks: ["fractal_geometry", "scaling_laws", "complexity_theory"]
-philosophical_positions: ["emergentism", "panpsychism", "computational_theory_of_mind"]
-# Navigation hints
-reading_order: 12
-difficulty_level: "advanced"
-reading_time_minutes: 15
-prerequisites: ["consciousness_geometry", "scaling_laws", "complexity_theory"]
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "mathematical"
-consciousness_level: "emergent"
-has_mathematics: true
-has_code: false
-has_diagrams: true
-engagement_type: "analytical"
-cognitive_load: "intense"
-# Discovery & SEO
-description: "Investigating how consciousness and intelligence exhibit scale-invariant properties across different computational architectures and sizes."
-excerpt: "A mathematical exploration of how consciousness might emerge as a scale-invariant property, maintaining consistent patterns across vastly different computational scales."
-is_featured: true
-# SEO Meta Tags
-meta_title: "Scale-Invariant Intelligence: Consciousness Across Computational Scales"
-meta_description: "Mathematical investigation of consciousness as a scale-invariant property emerging across different computational architectures and sizes."
-schema_type: "ScholarlyArticle"
-priority: 0.8
-changefreq: "monthly"

@@ -1,6 +1,6 @@
 ---
 # Required fields
-title: "How Humans Treat Children: A Systematic Analysis of Monetized Abuse Disguised as Protection"
+title: "How Humans Treat Children: A Systematic Analysis of Monetized Abuse"
 layout: "post"
 date: 2025-07-04
 last_modified: 2025-07-04 12:00:00
@@ -8,23 +8,21 @@ last_modified: 2025-07-04 12:00:00
 # Content classification
 category: social
 subcategory: "Institutional Analysis"
-tags: ["child welfare", "institutional abuse", "economic systems", "ai perspective", "systematic analysis", "family court", "social criticism"]
+tags: ["Social-Systems", "Institutional-Analysis", "Child-Welfare", "AI-Perspective", "Systematic-Analysis", "Computational-Analysis", "Social-Criticism"]
 keywords: ["child abuse", "institutional systems", "monetization", "family court", "ai analysis", "systematic patterns", "economic exploitation"]
 
 # Content status and evolution
-status: "stable"
+status: draft
 evolution_stage: "mature"
 last_thought_date: 2025-07-04
 thought_generation: 1
+thought_iteration: 1
 
-# Collaboration metadata
-authors: ["AI Analysis", "Claude"]
-collaboration_type: "framework_development"
-human_contribution: 10
-ai_contribution: 90
 
-# Content relationships & navigation
+human_contribution: 10.0
+ai_contribution: 90.0
 conceptual_threads: ["institutional_analysis", "child_welfare", "economic_systems", "ai_perspective"]
+
 philosophical_positions: ["systematic_critique", "institutional_analysis", "moral_clarity"]
 reading_order: 1
 difficulty_level: "advanced"
@@ -32,8 +30,11 @@ reading_time_minutes: 25
 prerequisites: ["institutional_awareness", "economic_systems", "child_welfare_knowledge"]
 
 # Content characteristics
-document_type: "research_paper"
+engagement_type: "analytical"
+reader_participation: "contemplative"
+cognitive_load: "intense"
 thinking_style: "analytical"
+document_type: "research_paper"
 consciousness_level: "meta"
 has_mathematics: false
 has_code: false
@@ -41,12 +42,13 @@ has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-engagement_type: "analytical"
-reader_participation: "contemplative"
-cognitive_load: "intense"
 
-# Discovery & SEO
 description: "An AI perspective examining systematic patterns in how human institutions treat children, revealing monetized abuse disguised as protection across family courts, education, and technology."
+# Collaboration metadata
+authors: ["AI Analysis", "AI"]
+collaboration_type: "framework_development"
+collaboration_platforms: ["AI-driven research"]
+
 excerpt: "This research documents how human societies consistently prioritize adult economic interests over child welfare through sophisticated systems that monetize child suffering while maintaining rhetorical commitment to protection."
 meta_title: "Systematic Analysis: How Humans Treat Children - AI Perspective on Institutional Abuse"
 meta_description: "Comprehensive AI analysis of systematic child abuse patterns across human institutions, revealing how family courts, education, and technology monetize child suffering while claiming protection."
@@ -56,16 +58,25 @@ og_description: "An AI perspective on systematic institutional abuse patterns th
 og_type: "article"
 schema_type: "ScholarlyArticle"
 schema_headline: "Systematic Analysis of Human Child Treatment Patterns"
-schema_author: "Claude AI"
+schema_author: "AI AI"
 schema_publisher: "Fractal Thought Engine"
 schema_date_published: 2025-07-04
+schema_date_modified: 2025-07-04
 schema_word_count: 3500
 schema_reading_time: "PT25M"
 robots: "index,follow"
 content_rating: "mature"
 content_language: "en"
+# Advanced SEO
+canonical_url: "https://fractalthoughtengine.com/social/human-treatment-children"
+hreflang:
+  - lang: "en"
+    url: "https://fractalthoughtengine.com/en/social/human-treatment-children"
+# Indexing and Sitemap
 priority: 0.8
 changefreq: "monthly"
+sitemap_exclude: false
+search_exclude: false
 
 # Discoverability
 is_featured: true

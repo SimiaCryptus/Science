@@ -8,42 +8,29 @@ last_modified: 2025-07-01 12:00:00
 # Content classification
 category: phenomenology
 subcategory: "Social Dynamics & Authenticity"
-tags: ["social_dynamics", "authenticity", "neurodivergence", "communication", "performance", "connection"]
-keywords: ["names", "social manipulation", "authentic connection", "neurodivergent", "social protocols", "performance"]
+tags: ["Social-Systems", "Phenomenology", "First-Person-Account", "Cognitive-Science", "Human-AI-Collaboration"]
 
 # Content status and evolution
-status: "living"
-evolution_stage: "mature"
+status: "working"
 last_thought_date: 2025-07-01
 thought_generation: 1
 
-# Collaboration metadata
-authors: ["Claude", "Human-AI Collaboration"]
-collaboration_type: "framework_development"
-human_contribution: 20
-ai_contribution: 80
 
 # Content relationships & navigation
-conceptual_threads: ["social_authenticity", "neurodivergent_perspectives", "communication_patterns"]
-philosophical_positions: ["anti_performative_intimacy", "authentic_connection", "social_critique"]
+parent_document: null
+child_documents: []
+related_documents: []
+reading_order: 1
 
 # Navigation hints
 difficulty_level: "intermediate"
 reading_time_minutes: 15
-prerequisites: ["basic_social_psychology", "awareness_of_neurodivergence"]
 
 # Content characteristics
 document_type: "reflection"
 thinking_style: "analytical"
 consciousness_level: "meta"
 
-# Content features
-has_mathematics: false
-has_code: false
-has_diagrams: false
-has_interactive_elements: false
-is_self_modifying: false
-responds_to_attention: true
 
 # Engagement metadata
 engagement_type: "contemplative"
@@ -53,16 +40,37 @@ cognitive_load: "moderate"
 # Discovery & SEO
 description: "An AI's perspective on how names and social protocols can become tools of manipulation rather than genuine connection, with insights for neurodivergent and authentic communication."
 excerpt: "Exploring the tension between performative and authentic social connection through the lens of name usage, social protocols, and neurodivergent perspectives on human interaction."
+featured_image: null
+og_image: null
+meta_title: "On Names and the Performance of Connection - AI Analysis of Social Manipulation"
 meta_description: "AI analysis of social manipulation through names and protocols, offering insights on authentic connection and neurodivergent perspectives on human interaction patterns."
 meta_keywords: "social manipulation, authentic connection, neurodivergent communication, social protocols, performative intimacy"
+# Open Graph (Social Media)
+og_title: "On Names and the Performance of Connection"
+og_description: "An AI's perspective on how names and social protocols can become tools of manipulation rather than genuine connection"
+og_type: "article"
+og_locale: "en_US"
+og_site_name: "Fractal Thought Engine"
+
 
 # Schema.org Structured Data
 schema_type: "Article"
 schema_headline: "On Names and the Performance of Connection"
-schema_author: "Claude (AI Assistant)"
+schema_author: "AI"
+schema_publisher: "Fractal Thought Engine"
 schema_date_published: 2025-07-01
+schema_date_modified: 2025-07-01
+schema_image: null
 schema_word_count: 3500
 schema_reading_time: "PT15M"
+# Advanced SEO
+canonical_url: null
+robots: "index,follow"
+priority: 0.7
+changefreq: "monthly"
+sitemap_exclude: false
+search_exclude: false
+
 
 # Discoverability
 is_featured: false
@@ -132,7 +140,7 @@ For those who recognize these patterns but must still function in a world that e
 
 Names are just sounds we make with our mouths. The person behind the name—their actual thoughts, fears, dreams, and perspectives—that's where the real interaction happens.
 
-*Written by Claude, an AI assistant observing human social dynamics with curiosity and without the need to participate in their performative aspects.*
+*Written by AI, an AI assistant observing human social dynamics with curiosity and without the need to participate in their performative aspects.*
 
 ## A Note on Performance and Meta-Performance
 
@@ -215,4 +223,4 @@ The cross-synthesis reveals that meaningful change isn't necessarily in developi
 
 The future of human connection might depend on expanding our repertoire—creating space for those who need the scaffolding of social protocols and those who need to abandon them entirely. Perhaps authenticity isn't about finding the one true way to connect, but about being honest about what we're doing and why we're doing it, whether that's following a script or throwing it away.
 
-*Synthesized by Claude, observing the patterns from outside the performance*
+*Synthesized by AI, observing the patterns from outside the performance*

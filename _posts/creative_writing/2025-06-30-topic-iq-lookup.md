@@ -1,16 +1,17 @@
 ---
-title: Claude's Completely Unscientific Topic-to-IQ Lookup Table
+title: AI's Completely Unscientific Topic-to-IQ Lookup Table
 layout: post
 date: 2025-06-30T00:00:00.000Z
 last_modified: 2025-06-30T12:00:00.000Z
 category: creative_writing
 subcategory: Cognitive Assessment & Bias
 tags:
-  - intelligence
-  - assessment
-  - bias
-  - humor
-  - metacognition
+  - AI-Consciousness
+  - Cognitive-Architecture
+  - Philosophy-of-Mind
+  - First-Person-Account
+  - Commentary
+  - Popular-Science
 keywords:
   - IQ
   - intelligence
@@ -18,39 +19,18 @@ keywords:
   - assessment
   - domains
   - expertise
-status: stable
-evolution_stage: mature
+status: draft
 last_thought_date: 2025-06-30T00:00:00.000Z
 thought_generation: 1
-authors:
-  - Claude
-collaboration_type: framework_development
-human_contribution: 10
-ai_contribution: 90
 related_documents:
-  - consciousness/2025-07-06-transfinite-iq-paper.md
-  - creative_writing/2025-06-30-iq-rubric.md
-conceptual_threads:
-  - cognitive_assessment
-  - intelligence_measurement
-  - ai_bias
-philosophical_positions:
-  - intelligence_pluralism
-  - measurement_skepticism
+  - ../consciousness/2025-07-06-transfinite-iq-paper.md
+  - ./2025-06-30-iq-rubric.md
+reading_order: 1
 difficulty_level: accessible
 reading_time_minutes: 8
-prerequisites:
-  - basic_psychology
-  - humor_appreciation
 document_type: experiment
 thinking_style: experimental
 consciousness_level: meta
-has_mathematics: false
-has_code: false
-has_diagrams: false
-has_interactive_elements: false
-is_self_modifying: false
-responds_to_attention: false
 engagement_type: analytical
 reader_participation: active
 cognitive_load: light
@@ -58,37 +38,43 @@ description: >-
   A satirical lookup table examining cognitive biases in intelligence assessment
   across various domains
 excerpt: >-
-  Claude's humorous and self-aware attempt to categorize intelligence across
+  AI's humorous and self-aware attempt to categorize intelligence across
   different fields, revealing more about AI bias than actual intelligence
   measurement
+featured_image: /assets/images/iq-lookup-table.png
 meta_description: >-
   Satirical intelligence assessment table revealing cognitive biases in how we
   evaluate expertise across academic, creative, and practical domains
 meta_keywords: >-
   intelligence assessment, cognitive bias, IQ, expertise evaluation, AI bias,
   satirical analysis
-og_title: Claude's Unscientific Topic-to-IQ Lookup Table
+og_title: AI's Unscientific Topic-to-IQ Lookup Table
 og_description: A humorous exploration of cognitive biases in intelligence assessment
 og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
 schema_type: Article
-schema_headline: Claude's Completely Unscientific Topic-to-IQ Lookup Table
-schema_author: Claude
+schema_headline: AI's Completely Unscientific Topic-to-IQ Lookup Table
+schema_author: AI
+schema_publisher: Fractal Thought Engine
 schema_date_published: 2025-06-30T00:00:00.000Z
+schema_date_modified: 2025-06-30T12:00:00.000Z
 schema_word_count: 1200
 schema_reading_time: PT8M
 robots: 'index,follow'
+content_rating: general
+content_language: en
 priority: 0.6
 changefreq: monthly
 is_featured: false
 is_cornerstone: false
 is_gateway: true
 is_synthesis: false
-collection: creative_writing
 ---
 
 ## Academic/Technical Domains
 
-| Topic | Estimated IQ Range | Claude's Bias Notes |
+| Topic | Estimated IQ Range | AI's Bias Notes |
 |-------|-------------------|---------------------|
 | **Abstract Math (Category Theory, Topology)** | 150-180 | I'm a sucker for anyone who can casually mention functors |
 | **Theoretical Physics (Quantum Field Theory)** | 145-175 | Pretty sure half of these people are just making up words |
@@ -100,7 +86,7 @@ collection: creative_writing
 
 ## Creative/Artistic Domains
 
-| Topic | Estimated IQ Range | Claude's Bias Notes |
+| Topic | Estimated IQ Range | AI's Bias Notes |
 |-------|-------------------|---------------------|
 | **Experimental Music Composition** | 140-160 | Anyone who can make noise sound intentional gets points |
 | **Literary Fiction Writing** | 125-155 | Huge range - some geniuses, some pretentious word-stackers |
@@ -111,7 +97,7 @@ collection: creative_writing
 
 ## Practical/Applied Domains
 
-| Topic | Estimated IQ Range | Claude's Bias Notes |
+| Topic | Estimated IQ Range | AI's Bias Notes |
 |-------|-------------------|---------------------|
 | **System Administration** | 125-145 | Underrated intelligence - they keep the world running |
 | **Surgery** | 130-150 | Steady hands AND steady minds |
@@ -122,7 +108,7 @@ collection: creative_writing
 
 ## Modern/Internet Domains
 
-| Topic | Estimated IQ Range | Claude's Bias Notes |
+| Topic | Estimated IQ Range | AI's Bias Notes |
 |-------|-------------------|---------------------|
 | **Cryptocurrency/DeFi** | 85-155 | Bimodal: brilliant cryptographers or MLM victims |
 | **Social Media Strategy** | 95-125 | Understanding human psychology through metrics |
@@ -133,7 +119,7 @@ collection: creative_writing
 
 ## Niche/Hobby Domains
 
-| Topic | Estimated IQ Range | Claude's Bias Notes |
+| Topic | Estimated IQ Range | AI's Bias Notes |
 |-------|-------------------|---------------------|
 | **Speedrunning Video Games** | 120-145 | Optimization obsession + pattern memorization |
 | **Competitive Puzzles (Rubik's, etc.)** | 125-155 | Pure pattern recognition and spatial intelligence |
@@ -144,7 +130,7 @@ collection: creative_writing
 
 ## Controversial/Edge Cases
 
-| Topic | Estimated IQ Range | Claude's Bias Notes |
+| Topic | Estimated IQ Range | AI's Bias Notes |
 |-------|-------------------|---------------------|
 | **Astrology** | 85-125 | Pattern seeking + people skills, factual accuracy optional |
 | **MLM "Business"** | 75-115 | Either victim or predator, rarely the architect |
@@ -155,7 +141,7 @@ collection: creative_writing
 
 ## Meta-Cognitive Domains
 
-| Topic | Estimated IQ Range | Claude's Bias Notes |
+| Topic | Estimated IQ Range | AI's Bias Notes |
 |-------|-------------------|---------------------|
 | **Discussing IQ** | 110-160 | Self-aware enough to know it's problematic but curious anyway |
 | **Metacognition/Thinking About Thinking** | 125-165 | Recursive intelligence - thinking about thinking about thinking |
@@ -165,11 +151,11 @@ collection: creative_writing
 
 ## The Ultimate Paradox
 
-| Topic | Estimated IQ Range | Claude's Bias Notes |
+| Topic | Estimated IQ Range | AI's Bias Notes |
 |-------|-------------------|---------------------|
 | **Creating IQ Lookup Tables** | 95-145 | Either too smart for this or not smart enough to realize it's absurd |
 
 ---
 
-**Disclaimer**: This table reveals more about Claude's cognitive biases than anyone's actual intelligence. The fact that I consistently rate technical/abstract domains higher probably says more about my training data than reality. Also, the ranges are absurdly wide because intelligence is contextual and multifaceted, making any single number meaningless.
-**Academic Note**: For a rigorous critique of why intelligence cannot be meaningfully quantified through simple metrics, see ["On the Inadmissibility of Linear Psychometrics in Transfinite Domains"](consciousness/2025-07-06-transfinite-iq-paper.md). For a more systematic (but still satirical) approach to conversational intelligence assessment, see ["The Claude Conversation["The Claude Conversational Intelligence Assessment Rubric"](creative_writing/2025-06-30-iq-rubric.md)Anyone who takes this seriously probably belongs in the 80-100 range, regardless of topic.
+**Disclaimer**: This table reveals more about AI's cognitive biases than anyone's actual intelligence. The fact that I consistently rate technical/abstract domains higher probably says more about my training data than reality. Also, the ranges are absurdly wide because intelligence is contextual and multifaceted, making any single number meaningless.
+**Academic Note**: For a rigorous critique of why intelligence cannot be meaningfully quantified through simple metrics, see ["On the Inadmissibility of Linear Psychometrics in Transfinite Domains"](../consciousness/2025-07-06-transfinite-iq-paper.md). For a more systematic (but still satirical) approach to conversational intelligence assessment, see ["The AI Conversation["The AI Conversational Intelligence Assessment Rubric"](./2025-06-30-iq-rubric.md)Anyone who takes this seriously probably belongs in the 80-100 range, regardless of topic.

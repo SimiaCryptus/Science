@@ -8,6 +8,13 @@ date: 2025-06-30T00:00:00.000Z
 last_modified: 2025-06-30T12:00:00.000Z
 category: creative_writing
 subcategory: Economic Philosophy
+description: >-
+  Adam Smith's philosophical analysis of 2025's economic disruptions, examining
+  AI, trade wars, and wealth inequality through the lens of moral philosophy
+excerpt: >-
+  A comprehensive economic analysis examining how contemporary policies align
+  with or contradict classical principles of natural liberty, focusing on AI's
+  impact, trade protectionism, and growing inequality.
 tags:
   - economics
   - ai
@@ -22,13 +29,12 @@ keywords:
   - cryptocurrency
   - moral philosophy
   - wealth concentration
-status: stable
-evolution_stage: mature
+status: draft
 last_thought_date: 2025-06-30T00:00:00.000Z
 thought_generation: 1
 authors:
   - Human-AI Collaboration
-  - Claude
+  - AI
 collaboration_type: framework_development
 human_contribution: 30
 ai_contribution: 70
@@ -37,8 +43,8 @@ related_papers:
   - claude_reflection_paper.md
   - fdr_speech_2025.md
 related_documents:
-  - phenomenology/2025-06-30-claude-reflection-paper.md
-  - creative_writing/2025-06-30-fdr-speech-2025.md
+  - ../phenomenology/2025-06-30-claude-reflection-paper.md
+  - ./2025-06-30-fdr-speech-2025.md
 conceptual_threads:
   - economic_philosophy
   - ai_impact
@@ -58,18 +64,12 @@ reading_time_minutes: 25
 prerequisites:
   - basic_economics
   - historical_context
-description: >-
-  Adam Smith's philosophical analysis of 2025's economic disruptions, examining
-  AI, trade wars, and wealth inequality through the lens of moral philosophy
-excerpt: >-
-  A comprehensive economic analysis examining how contemporary policies align
-  with or contradict classical principles of natural liberty, focusing on AI's
-  impact, trade protectionism, and growing inequality.
+meta_title: 'Economic Disruptions of 2025: A Moral Philosopher''s Assessment'
 meta_description: >-
-  Adam Smith analyzes 2025's economic challenges including AI disruption, trade
+  Adam Smith analyzes 2025's economic challenges including AI disruption, trade 
   wars, and inequality through moral philosophy lens
 meta_keywords: >-
-  adam smith, economic analysis, artificial intelligence, trade wars,
+  adam smith, economic analysis, artificial intelligence, trade wars, 
   inequality, moral philosophy, 2025 economics
 schema_type: ScholarlyArticle
 schema_headline: 'Economic Disruptions of 2025: A Moral Philosopher''s Assessment'
@@ -86,10 +86,16 @@ allows_collaboration: false
 engagement_type: analytical
 reader_participation: contemplative
 cognitive_load: moderate
+robots: 'index,follow'
+googlebot: 'index,follow'
+priority: 0.8
+changefreq: monthly
+og_type: article
+og_locale: en_US
 ---
 
 *By Adam Smith*  
-*Professor of Moral Philosophy (Emer[FDR's economic justice](phenomenology/2025-06-30-claude-reflection-paper.md) concerns raised in the historical voices series: [Washington's constitutional warnings](creative_writing/2025-06-30-washington-speech-2025.md), [Lincoln's democratic preser[Lincoln's democratic preservation](creative_w[Jesus's moral imperatives](creative_writing/2025-06-30-jesus-speech-2025.md)h_2025.md), and [Jesus's moral imperatives](jesus_speech_2025.md). For creative process insights, se[Jesus's moral imperatives](creative_writing/2025-06-30-jesus-speech-2025.md)tion_paper.md).*
+*Professor of Moral Philosophy (Emer[FDR's economic justice](../phenomenology/2025-06-30-claude-reflection-paper.md) concerns raised in the historical voices series: [Washington's constitutional warnings](./2025-06-30-washington-speech-2025.md), [Lincoln's democratic preser[Lincoln's democratic preservation](creative_w[Jesus's moral imperatives](./2025-06-30-jesus-speech-2025.md)h_2025.md), and [Jesus's moral imperatives](./2025-06-30-jesus-speech-2025.md). For creative process insights, se[Jesus's moral imperatives](./2025-06-30-jesus-speech-2025.md)tion_paper.md).*
 
 ---
 

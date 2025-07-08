@@ -1,6 +1,6 @@
 ---
 title: >-
-  Dynamic Multi-Agent Modeling of Social Truth Formation: A Spatially-Embedded
+  Dynamic Multi-Agent Modeling of Social Truth Formation: A Spatially-Embedded 
   Game-Theoretic Approach
 layout: post
 date: 2025-07-03T00:00:00.000Z
@@ -8,72 +8,45 @@ last_modified: 2025-07-03T12:00:00.000Z
 category: social
 subcategory: Social Dynamics & Collective Intelligence
 tags:
-  - social_truth
-  - game_theory
-  - multi_agent_systems
-  - belief_dynamics
-  - spatial_modeling
-  - collective_intelligence
+  - AI-Consciousness
+  - Social-Systems
+  - Game-Theory
+  - Machine-Learning
+  - Cognitive-Architecture
+  - Theoretical-Framework
+  - Mathematical-Modeling
+  - Computational-Analysis
+  - Research-Paper
+  - Current-Research
+  - Academic-Research
 keywords:
+  - multi-agent systems
+  - computational social science
+  - collective intelligence
   - social epistemology
   - belief propagation
   - cellular automaton
   - opinion dynamics
   - consensus formation
   - polarization
-status: experimental
-evolution_stage: growing
+status: draft
 last_thought_date: 2025-07-03T00:00:00.000Z
 thought_generation: 1
-authors:
-  - Human-AI Collaboration
-  - Claude
-  - Andrew
-collaboration_type: framework_development
-human_contribution: 60
-ai_contribution: 40
 related_documents:
-  - social/2025-06-30-game-theory-ethics.md
-  - social/2025-07-03-conversation-intelligence-paper.md
-  - social/2025-07-03-cognitive-effort-paper.md
-  - social/2025-06-30-managed-reality-paper.md
-cross_synthesis_with:
-  - social/2025-06-30-game-theory-ethics.md
-  - social/2025-07-03-conversation-intelligence-paper.md
-conceptual_threads:
-  - social_epistemology
-  - collective_intelligence
-  - belief_dynamics
-  - spatial_modeling
-mathematical_frameworks:
-  - game_theory
-  - cellular_automata
-  - information_theory
-  - statistical_mechanics
-philosophical_positions:
-  - social_constructivism
-  - computational_epistemology
-  - collective_cognition
+  - ./2025-06-30-game-theory-ethics.md
+  - ./2025-07-03-conversation-intelligence-paper.md
+  - ./2025-07-03-cognitive-effort-paper.md
+  - ./2025-06-30-managed-reality-paper.md
 reading_order: 3
 difficulty_level: advanced
 reading_time_minutes: 45
-prerequisites:
-  - game_theory
-  - multi_agent_systems
-  - statistical_mechanics
-  - social_science_methods
 document_type: research_paper
 thinking_style: analytical
 consciousness_level: collaborative
-has_mathematics: true
-has_code: true
-has_diagrams: false
-has_interactive_elements: false
-is_self_modifying: false
-responds_to_attention: false
 engagement_type: analytical
 reader_participation: active
 cognitive_load: intense
+canonical_url: 'https://fractalthoughtengine.com/social/2025-07-03-social-truth-proposal'
 description: >-
   A comprehensive framework for modeling how social truths emerge through
   spatially-embedded multi-agent interactions using game theory and cellular
@@ -81,21 +54,53 @@ description: >-
 excerpt: >-
   We propose a novel computational framework combining cellular automaton
   spatial dynamics with game-theoretic belief transitions to understand how
-  social truths emerge, propagate, and stabilize through collective agent
-  interactions.
+  social truths emerge, propagate, and stabilize through collective agent social
+  truths emerge, propagate, and stabilize through collective agent interactions.
+featured_image: /assets/images/social-truth-dynamics.png
+meta_title: ''
+og_image: /assets/images/social-truth-social.png
 meta_description: >-
-  Dynamic multi-agent modeling of social truth formation using
-  spatially-embedded game-theoretic approach for understanding belief dynamics
-  and consensus formation
+  Dynamic multi-agent modeling of social truth formation using Dynamic
+  multi-agent modeling of social truth formation using spatially-embedded
+  game-theoretic approach for understanding belief dynamics and consensus
+  formation
+meta_keywords: >-
+  social truth, game theory, multi-agent systems, belief dynamics, cellular
+  automaton, opinion dynamics, consensus formation, polarization, social
+  epistemology
+og_title: Dynamic Multi-Agent Modeling of Social Truth Formation
+og_description: >-
+  A comprehensive framework for modeling how social truths emerge through
+  spatially-embedded multi-agent interactions using game theory and cellular
+  automaton dynamics
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
 schema_type: ScholarlyArticle
 schema_headline: Dynamic Multi-Agent Modeling of Social Truth Formation
+schema_author: Human-AI Collaboration
+schema_publisher: Fractal Thought Engine
+schema_date_published: 2025-07-03T00:00:00.000Z
+schema_date_modified: 2025-07-03T00:00:00.000Z
+schema_image: /assets/images/social-truth-schema.png
+schema_word_count: 8500
+schema_reading_time: PT45M
+robots: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
+priority: 0.9
+changefreq: weekly
+sitemap_exclude: false
+search_exclude: false
+breadcrumb_schema: true
 is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
 ---
 
-We propose a novel computational f[individual cognitive effort decisio[managed reality systems](social/2025-06-30-managed-reality-paper.md)tabilize through collective agent interactions. Our model combines cellular automaton spatial dynamics with game-theoretic belief transitions to create a unified theory of social epistemology. Agents exist as cells on a grid, each representing belief states within a formal state machine, where transitions between beliefs are governed by strategic interactions with spatial neighbors. This approach enables investigation of fundamental questions about opinion polarization, consensus formation, information cascade dynamics, and the structural conditions that determine which beliefs become socially accepted as "truth."
+We propose a novel computational f[individual cognitive effort decisio[managed reality systems](./2025-06-30-managed-reality-paper.md)tabilize through collective agent interactions. Our model combines cellular automaton spatial dynamics with game-theoretic belief transitions to create a unified theory of social epistemology. Agents exist as cells on a grid, each representing belief states within a formal state machine, where transitions between beliefs are governed by strategic interactions with spatial neighbors. This approach enables investigation of fundamental questions about opinion polarization, consensus formation, information cascade dynamics, and the structural conditions that determine which beliefs become socially accepted as "truth."
 
 ## Background and Motivation
 
@@ -1300,9 +1305,9 @@ The framework has implications for institutional structure:
 * **Promoting cognitive effort**: Create incentives aligned with the models in `cognitive_effort_paper.md`
 * **Facilitating productive discourse**: Structure interactions to maximize conversational intelligence calibration
 The system operates through networks of verification nodes, each specializing in different domains of knowledge validation:
-**Expertise Networks**: Communities of practice that validate domain-specific claims, building on the conversational calibration processes detailed in our [conversational intelligence paper](social/2025-07-03-conversation-intelligence-paper.md)
+**Expertise Networks**: Communities of practice that validate domain-specific claims, building on the conversational calibration processes detailed in our [conversational intelligence paper](./2025-07-03-conversation-intelligence-paper.md)
 **Cross-Domain Bridges**: Mechanisms for translating and validating claims across disciplinary boundaries
 **Meta-Verification**: Higher-order processes that validate the verification mechanisms themselves
 *How societies might navigate competing claims about reality when artificial intelligence systems become primary sources of information and analysis*
-> **Related Analysis**: This framework connects to our examination of [institutional cap[institutional capture dynamics](social/2025-06-30-game-theory-ethics.md)gnitive effort decisions](cognitive_effort_paper.md), [conversational intelligence mechanisms](social/2025-07-03-conversation-intelligence-paper.md)r.md) to provide a comprehensive approach to information governance
+> **Related Analysis**: This framework connects to our examination of [institutional cap[institutional capture dynamics](./2025-06-30-game-theory-ethics.md)gnitive effort decisions](cognitive_effort_paper.md), [conversational intelligence mechanisms](./2025-07-03-conversation-intelligence-paper.md)r.md) to provide a comprehensive approach to information governance
 > in AI-mediated societies.

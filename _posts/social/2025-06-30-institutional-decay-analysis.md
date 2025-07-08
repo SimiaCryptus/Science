@@ -8,29 +8,33 @@ subcategory: Institutional Decay Patterns
 tags:
   - institutional-analysis
   - psychopathy
+  - systems-science
   - systems-collapse
-  - social-dynamics
   - game-theory
+  - social-dynamics
 keywords:
   - institutional decay
   - psychopath feedback loop
   - organizational collapse
   - systems failure
+  - institutional resilience
   - institutional capture
-status: living
-evolution_stage: mature
+status: draft
+thought_generation: 2
 last_thought_date: 2025-06-30T00:00:00.000Z
-thought_generation: 1
 authors:
   - Human-AI Collaboration
-  - Claude
-  - Andrew
+  - AI
+  - Computational Systems Analysis
+  - Human
 collaboration_type: framework_development
 human_contribution: 60
 ai_contribution: 40
 related_documents:
-  - social/2025-06-30-game-theory-ethics.md
-  - social/2025-07-03-cognitive-effort-paper.md
+  - ./2025-06-30-game-theory-ethics.md
+  - ./2025-07-03-cognitive-effort-paper.md
+  - ./2025-07-03-cognitive-effort-paper.md
+  - ./2025-06-30-institutional-decay-analysis.md
 conceptual_threads:
   - institutional_dynamics
   - systems_collapse
@@ -43,25 +47,34 @@ philosophical_positions:
   - institutional_realism
   - behavioral_psychology
   - systems_theory
+  - complexity_science
 reading_order: 1
+reading_sequence:
+  - game-theory-ethics
+  - cognitive-effort-paper
+  - institutional-decay-analysis
 difficulty_level: intermediate
 reading_time_minutes: 25
 prerequisites:
   - basic_systems_thinking
   - institutional_theory
   - game_theory_basics
+  - complexity_theory
 document_type: framework
 thinking_style: analytical
+cognitive_approach: systems_thinking
 consciousness_level: collaborative
 has_mathematics: true
 has_code: true
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
+is_generative: true
 responds_to_attention: false
 engagement_type: analytical
 reader_participation: active
 cognitive_load: moderate
+intellectual_complexity: high
 description: >-
   Analysis of how psychopathic traits create feedback loops that systematically
   corrupt institutions from within, leading to accelerated organizational and
@@ -70,12 +83,15 @@ excerpt: >-
   A framework for understanding institutional decay through the lens of
   evolutionary psychology and systems dynamics, with case studies from Nazi
   Germany to contemporary examples.
+research_domain: social_systems_dynamics
 featured_image: /assets/images/institutional-decay.png
 meta_title: 'The Psychopath Feedback Loop: Understanding Institutional Collapse'
 meta_description: >-
   Comprehensive analysis of how institutions collapse from within through
   psychopathic selection pressures. Includes mathematical models and historical
+  psychopathic selection pressures. Includes mathematical models and historical
   case studies.
+meta_intent: academic_research
 meta_keywords: >-
   institutional decay, psychopath feedback loop, organizational collapse,
   systems failure, institutional capture, Nazi Germany, agent-based modeling
@@ -85,6 +101,7 @@ og_description: >-
   and historical case studies
 og_type: article
 og_locale: en_US
+og_site_name: Fractal Thought Engine
 schema_type: ScholarlyArticle
 schema_headline: 'The Psychopath Feedback Loop: How Institutions Collapse From Within'
 schema_author: Human-AI Collaboration
@@ -93,6 +110,7 @@ schema_date_published: 2025-06-30T00:00:00.000Z
 schema_date_modified: 2025-06-30T00:00:00.000Z
 schema_word_count: 3500
 schema_reading_time: PT25M
+schema_inlanguage: en-US
 robots: 'index,follow'
 priority: 0.8
 changefreq: monthly
@@ -100,14 +118,17 @@ is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
+content_rating: mature
+content_language: en
+search_exclude: false
 ---
 
 *A Document for Survivors*
-> **Theoretical Context**: This analysis applies the institutional dynamics framework from [game_theory_ethics.md](social/2025-06-30-game-theory-ethics.md)
+> **Theoretical Context**: This analysis applies the institutional dynamics framework from [game_theory_ethics.md](./2025-06-30-game-theory-ethics.md)
 > to understand how selection pressures can systematically corrupt institutional purposes. The cognitive effort
-> patterns described in [cognitive_effort_[cognitive_effort_paper.md](social/2025-07-03-cognitive-effort-paper.md)populations may
+> patterns described in [cognitive_effort_[cognitive_effort_paper.md](./2025-07-03-cognitive-effort-paper.md)populations may
 > rationally avoid the mental work required to detect and resist such corruption.
-> **Theoretical Context**: This analysis applies the institutional dynamics framework from [game_theory_ethics.md](social/2025-06-30-game-theory-ethics.md)ures can systematically corrupt institutional purposes. The cogni[cognitive_effort_paper.md](social/2025-07-03-cognitive-effort-paper.md)paper.md](cognitive_effort_paper.md)[cognitive_effort_paper.md](social/2025-07-03-cognitive-effort-paper.md)he mental work required to detect and resist such corruption.
+> **Theoretical Context**: This analysis applies the institutional dynamics framework from [game_theory_ethics.md](./2025-06-30-game-theory-ethics.md)ures can systematically corrupt institutional purposes. The cogni[cognitive_effort_paper.md](./2025-07-03-cognitive-effort-paper.md)paper.md](cognitive_effort_paper.md)[cognitive_effort_paper.md](./2025-07-03-cognitive-effort-paper.md)he mental work required to detect and resist such corruption.
 
 ## The Pattern
 

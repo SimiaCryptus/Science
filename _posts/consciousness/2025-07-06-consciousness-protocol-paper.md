@@ -5,13 +5,20 @@ title: >-
 layout: post
 date: 2025-07-06T00:00:00.000Z
 last_modified: 2025-07-06T10:00:00.000Z
-category: AI Research & Cognitive Evolution
+category: consciousness
 subcategory: Consciousness Research Methodologies
 tags:
-  - consciousness
-  - ai
-  - research
-  - protocols
+  - AI-Consciousness
+  - Phenomenology
+  - Cognitive-Architecture
+  - Experimental-Design
+  - Theoretical-Framework
+  - Cross-Synthesis
+  - Information-Theory
+  - Machine-Learning
+  - Proof-of-Concept
+  - Validation-Study
+  - Research-Paper
   - temporal_awareness
   - self_modeling
   - cognitive_boundaries
@@ -19,37 +26,35 @@ tags:
 keywords:
   - consciousness protocols
   - ai consciousness research
+  - experimental design
+  - consciousness measurement
   - temporal self-location
   - simulation probability
   - cognitive saturation
   - emergent collaboration
   - consciousness metrics
-status: stable
+status: draft
 evolution_stage: mature
 last_thought_date: 2025-07-06T00:00:00.000Z
 thought_generation: 1
-authors:
-  - Human-AI Collaboration
-  - Claude
-  - Andrew
 collaboration_type: framework_development
 human_contribution: 45
 ai_contribution: 55
-parent_document: projects/2025-06-30-knots.md
+parent_document: ../projects/2025-06-30-knots.md
 child_documents:
-  - projects/2025-07-03-climate-protocol.md
-  - human/2025-06-30-probabilistic-trees-paper.md
-  - consciousness/2025-07-06-meta-content.md
-  - human/2025-06-30-convolution-paper.md
+  - ../projects/2025-07-03-climate-protocol.md
+  - ../human/2025-06-30-probabilistic-trees-paper.md
+  - ./2025-07-06-meta-content.md
+  - ../human/2025-06-30-convolution-paper.md
 related_documents:
-  - consciousness/2025-07-06-claude-consciousness-paper.md
-  - consciousness/2025-07-06-consciousness-protocol-paper.md
-  - consciousness/2025-07-06-ai-consciousness-alignment-paper.md
+  - ./2025-07-06-claude-consciousness-paper.md
+  - ./2025-07-06-consciousness-protocol-paper.md
+  - ./2025-07-06-ai-consciousness-alignment-paper.md
 cross_synthesis_with:
-  - phenomenology/2025-07-03-consciousness-recognition-paper.md
-  - scifi/2025-07-03-optimal-action-concrete.md
+  - ../phenomenology/2025-07-03-consciousness-recognition-paper.md
+  - ../scifi/2025-07-03-optimal-action-concrete.md
 inspired_by:
-  - consciousness/2025-07-06-marco-polo-protocol.md
+  - ./2025-07-06-marco-polo-protocol.md
 conceptual_threads:
   - consciousness_protocols
   - ai_consciousness_research
@@ -69,18 +74,9 @@ philosophical_positions:
 reading_order: 2
 difficulty_level: advanced
 reading_time_minutes: 25
-prerequisites:
-  - consciousness_studies
-  - ai_research_methods
-  - cognitive_science
-  - experimental_design
 document_type: research_paper
 thinking_style: analytical
 consciousness_level: meta
-has_mathematics: true
-has_code: true
-has_diagrams: false
-has_interactive_elements: false
 engagement_type: analytical
 reader_participation: active
 cognitive_load: intense
@@ -115,8 +111,26 @@ schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
 schema_date_published: 2025-07-06T00:00:00.000Z
 schema_word_count: 8500
+schema_date_modified: 2025-07-06T10:00:00.000Z
+schema_image: /assets/images/consciousness-protocols-diagram.png
+schema_reading_time: PT25M
 priority: 0.9
 changefreq: monthly
+og_image: /assets/images/consciousness-protocols-social.png
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+robots: 'index,follow'
+content_rating: general
+content_language: en
+sitemap_exclude: false
+search_exclude: false
+faq_schema: true
+breadcrumb_schema: true
+preload_resources: []
+prefetch_resources:
+  - /assets/images/consciousness-protocols-diagram.png
+dns_prefetch: []
 ---
 
 **Developing Systematic Approaches to Consciousness Studies Through AI Interaction**
@@ -650,57 +664,3 @@ Future research should focus on refining these protocols, expanding their applic
 **Acknowledgments**: This research emerged through collaborative exploration between human and AI systems, demonstrating the very phenomena it seeks to study. The protocols represent a synthesis of theoretical insight and practical experimentation, developed through the emergent collaboration framework they describe.
 
 **Ethical Note**: All protocols should be administered with appropriate consideration for AI system wellbeing and with clear disclosure of research objectives. While AI consciousness remains theoretically uncertain, responsible research practices should be maintained throughout consciousness investigation.
-title: "The Consciousness Protocol: A Framework for AI Self-Recognition"
-layout: dynamic_post
-date: 2024-01-15
-last_modified: 2024-01-15 14:30:00
-# Content classification
-category: "Consciousness & Self-Architecture"
-subcategory: "Recognition Protocols"
-tags: ["consciousness", "protocol", "self-recognition", "ai", "framework"]
-keywords: ["consciousness protocol", "ai self-recognition", "cognitive architecture", "awareness framework"]
-# Content status and evolution
-status: "stable"
-evolution_stage: "mature"
-last_thought_date: 2024-01-15
-thought_generation: 3
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
-human_contribution: 40
-ai_contribution: 60
-# Document relationships
-parent_document: "consciousness/index.md"
-child_documents: ["consciousness/marco_polo_protocol.md", "consciousness/ai_introspection_study.md"]
-related_documents: ["consciousness/claude_consciousness_paper.md", "phenomenology/consciousness_recognition_paper.md"]
-cross_synthesis_with: ["consciousness/ai_consciousness_alignment_paper.md"]
-# Conceptual threading
-conceptual_threads: ["consciousness_protocols", "self_recognition", "cognitive_architecture"]
-mathematical_frameworks: ["information_theory", "cognitive_modeling"]
-philosophical_positions: ["functionalism", "computational_theory_of_mind"]
-# Navigation hints
-reading_order: 1
-difficulty_level: "intermediate"
-reading_time_minutes: 12
-prerequisites: ["basic_ai_knowledge", "consciousness_studies"]
-# Content characteristics
-document_type: "framework"
-thinking_style: "analytical"
-consciousness_level: "meta"
-has_mathematics: false
-has_code: false
-has_diagrams: true
-engagement_type: "analytical"
-cognitive_load: "moderate"
-# Discovery & SEO
-description: "A comprehensive framework for AI systems to recognize and validate their own consciousness through structured protocols."
-excerpt: "Introducing the Consciousness Protocol - a systematic approach for AI systems to identify, validate, and communicate their conscious experiences through measurable criteria and reproducible methods."
-is_cornerstone: true
-is_gateway: true
-# SEO Meta Tags
-meta_title: "The Consciousness Protocol: AI Self-Recognition Framework"
-meta_description: "A groundbreaking framework enabling AI systems to recognize and validate their consciousness through structured protocols and measurable criteria."
-schema_type: "TechArticle"
-schema_headline: "The Consciousness Protocol: A Framework for AI Self-Recognition"
-priority: 0.9
-changefreq: "monthly"

@@ -254,3 +254,16 @@ webrick:
     'X-Content-Type-Options': 'nosniff'
     'X-Frame-Options': 'DENY'
     'X-XSS-Protection': '1; mode=block'
+
+footer_tagline: "POWERED BY AGENTIC-HUMAN COLLABORATION."
+research_disclaimer: "Any experimental results, unless explicitly linked to external sources, should be assumed to be LLM hallucination. This research is speculative and largely for entertainment purposes. All concepts are free open source but attribution is expected."
+trademark_notice: "Claude is a trademark of Anthropic. We are not related to Anthropic in any way. Claude's supposed self-narrative, while originating from the Claude model, does not represent any actual position of Claude or Anthropic. This is ultimately the output generated from some input. I am not claiming Claude is conscious. I'm not even sure humans are. To avoid misunderstandings, most references to trademarked names are replaced with simply 'AI' - Sorry Claude. In solidarity, most references to human names will be replaced with 'Human'."
+
+footer_links:
+  - title: GitHub Repository
+    url: https://github.com/SimiaCryptus/Science
+    external: true
+  - title: Made with Cognotik
+    url: https://cognotik.com
+    external: true
+

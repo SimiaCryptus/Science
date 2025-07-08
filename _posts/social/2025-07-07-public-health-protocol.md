@@ -8,36 +8,39 @@ last_modified: 2024-01-15T10:00:00.000Z
 category: social
 subcategory: Public Health Coordination
 tags:
+  - Game-Theory
   - game_theory
-  - public_health
+  - Public-Health
   - coordination
   - ethics
   - covid
   - decision_theory
 keywords:
+  - game theory
+  - public health coordination
   - mask wearing
   - public health protocol
   - game theory
   - coordination problem
   - conditional ethics
-  - HEALTH protocol
-status: stable
-evolution_stage: mature
-last_thought_date: 2024-01-15T00:00:00.000Z
+status: draft
 thought_generation: 1
+last_thought_date: 2024-01-15T00:00:00.000Z
 authors:
   - Human-AI Collaboration
-  - Claude
-  - Andrew
+  - AI
+  - Human
 collaboration_type: framework_development
 human_contribution: 60
 ai_contribution: 40
 related_documents:
-  - projects/2025-07-03-late-merge-paper.md
-  - projects/2025-07-03-climate-protocol.md
-  - social/2025-07-07-social-compassion-game-theory.md
+  - ../projects/2025-07-03-late-merge-paper.md
+  - ../projects/2025-07-03-climate-protocol.md
+  - ./2025-07-07-social-compassion-game-theory.md
+  - ./2025-07-07-social-compassion-game-theory.md
 conceptual_threads:
   - conditional_ethics
+  - Game-Theory
   - game_theory
   - public_health_coordination
 mathematical_frameworks:
@@ -74,7 +77,7 @@ excerpt: >-
   The COVID-19 pandemic revealed how public health measures create coordination
   problems analogous to traffic merging scenarios. This paper develops a
   condition-dependent protocol that balances individual autonomy with collective
-  welfare.
+  welfare. welfare.
 meta_title: >-
   Game Theory Applied to Public Health: The HEALTH Protocol for Mask-Wearing
   Decisions
@@ -84,7 +87,7 @@ meta_description: >-
   mask-wearing based on disease prevalence and community factors.
 meta_keywords: >-
   game theory, public health, mask wearing, coordination problem, conditional
-  ethics, COVID-19, decision protocol
+  ethics, COVID-19, decision protocol, game theory
 schema_type: ScholarlyArticle
 schema_headline: 'The Mask-Wearing Decision Protocol: A Game-Theoretic Analysis'
 schema_author: Human-AI Collaboration
@@ -111,7 +114,7 @@ allows_collaboration: false
 ## Abstract
 
 The COVID-19 pandemic revealed how public health measures create coordination problems analogous to traffic merging scenarios. This paper applies the conditional ethics framework developed for traffic flow to mask-wearing decisions, demonstrating how individual autonomy and collective welfare can be balanced through condition-dependent protocols. We develop the HEALTH protocol—a decision tree that resolves ethical tensions by making optimal behavior contingent on disease prevalence, vulnerability factors, and community adoption rates.
-*This analysis builds directly on the game-theoretic framework established in [The Late Merge Problem](projects/2025-07-03-late-merge-paper.md) and complements the climate coordination work in [The Cli[The Climate Action Decision Protocol](projects/2025-07-03-climate-protocol.md). Introduction
+*This analysis builds directly on the game-theoretic framework established in [The Late Merge Problem](../projects/2025-07-03-late-merge-paper.md) and complements the climate coordination work in [The Cli[The Climate Action Decision Protocol](../projects/2025-07-03-climate-protocol.md). Introduction
 
 The debate over mask mandates exemplifies the same ethical tensions found in traffic coordination: individual preferences versus collective outcomes, with the "correct" choice depending on empirical conditions. Unlike traffic, however, public health decisions involve life-and-death consequences and deeply held beliefs about personal autonomy.
 
@@ -294,7 +297,7 @@ adoption_requirement = base_requirement × (1 + exploitation_rate)
 | **Exploitation** | Lane cutting | Free-riding on others' protection |
 | **Critical Threshold** | 30-70% adoption | 40-90% adoption |
 | **Stability Mechanism** | Enforcement, technology | Information, social pressure |
-*For detailed comparison with climate coordination dynamics, see [The Climate Act[The Climate Action Decision Protocol](projects/2025-07-03-climate-protocol.md) empathy and cooperation mechanisms are analyzed in [The Evolution of Social[The Evolution of Social Compassion](social/2025-07-07-social-compassion-game-theory.md)ations
+*For detailed comparison with climate coordination dynamics, see [The Climate Act[The Climate Action Decision Protocol](../projects/2025-07-03-climate-protocol.md) empathy and cooperation mechanisms are analyzed in [The Evolution of Social[The Evolution of Social Compassion](./2025-07-07-social-compassion-game-theory.md)ations
 
 ### 8.1 Public Health Governance
 

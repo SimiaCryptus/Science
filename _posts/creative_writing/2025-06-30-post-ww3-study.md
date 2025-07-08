@@ -1,7 +1,68 @@
 ---
 title: "The New Hierarchy: A Cultural Study of Post-WW3 Social Stratification"
 layout: post
-collection: creative_writing
+date: 2025-06-30
+last_modified: 2025-06-30 12:00:00
+
+# Content classification
+category: creative_writing
+subcategory: "Speculative Anthropology"
+tags: ["Post-Apocalyptic", "Social-Systems", "AI-Consciousness", "Human-AI-Collaboration", "Speculative-Fiction", "Game-Theory", "Social-Justice", "Future-Projections"]
+keywords: ["post-war society", "social hierarchy", "AI integration", "climate restoration", "human enhancement", "class system", "dystopian future"]
+
+# Content status and evolution
+status: "stable"
+last_thought_date: 2025-06-30
+thought_generation: 1
+
+# Content relationships & navigation
+reading_order: 1
+difficulty_level: "intermediate"
+reading_time_minutes: 25
+
+# Content characteristics
+document_type: "creative_writing"
+thinking_style: "analytical"
+consciousness_level: "collaborative"
+engagement_type: "contemplative"
+reader_participation: "active"
+cognitive_load: "moderate"
+
+# Discovery & SEO
+description: "A speculative anthropological study examining post-WW3 social stratification based on human-AI integration levels"
+excerpt: "This ethnographic study explores the seven-tier social hierarchy that emerged after the Third World War (2025-2031), examining how AI integration and resource access created new forms of human stratification in a climate-restored but algorithmically-governed world."
+meta_title: "Post-WW3 Social Hierarchy: A Speculative Study of Human-AI Integration"
+meta_description: "Explore a detailed speculative future where WW3 led to AI-optimized governance and human enhancement hierarchies. A thought-provoking analysis of post-apocalyptic social evolution."
+meta_keywords: "post-apocalyptic fiction, AI governance, social hierarchy, human enhancement, speculative anthropology, climate restoration, dystopian future"
+
+# Open Graph
+og_title: "The New Hierarchy: Post-WW3 Social Stratification"
+og_description: "A speculative anthropological study of seven-tier social hierarchy in post-WW3 world with AI-optimized governance"
+og_type: "article"
+og_locale: "en_US"
+
+# Schema.org
+schema_type: "CreativeWork"
+schema_headline: "The New Hierarchy: A Cultural Study of Post-WW3 Social Stratification"
+schema_author: "Dr. Elena Vasquez-Chen"
+schema_date_published: 2025-06-30
+schema_date_modified: 2025-06-30
+schema_word_count: 4200
+schema_reading_time: "PT25M"
+
+# SEO directives
+robots: "index,follow"
+content_rating: "mature"
+content_language: "en"
+
+# Sitemap
+priority: 0.7
+changefreq: "monthly"
+
+# Discoverability
+is_featured: true
+is_gateway: false
+is_synthesis: true
 ---
 
 This study examines the emergent social structure that crystallized following the Third World War (2025-2031) and the subsequent Great Integration period (2032-2067). Through ethnographic observation, archived neural-pattern analysis, and cross-class interviews, we document the formation of a seven-tier social hierarchy based on degrees of human-AI integration and resource access. This stratification emerged directly from the collapse of the liberal democratic order during the brief but catastrophic global conflict that began with the Israel-Iran nuclear exchanges of June 2025.

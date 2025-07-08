@@ -5,72 +5,40 @@ title: >-
 layout: post
 date: 2025-07-06T00:00:00.000Z
 last_modified: 2025-07-06T14:30:00.000Z
-category: AI Research & Cognitive Evolution
+category: learning
 subcategory: Neural Architectures
 tags:
-  - geometric_learning
-  - probabilistic_models
-  - neural_substrate
-  - information_geometry
-  - manifold_optimization
+  - AI-Consciousness
+  - Cognitive-Architecture
+  - Machine-Learning
+  - Neural-Networks
+  - Mathematical-Modeling
+  - Theoretical-Framework
+  - Information-Theory
+  - Optimization
+  - Research-Paper
+  - Academic-Research
 keywords:
   - geometric neural networks
   - probabilistic substrate
   - information geometry
   - neural manifolds
   - geodesic computation
-status: living
-evolution_stage: mature
+status: draft
 last_thought_date: 2025-07-06T00:00:00.000Z
 thought_generation: 3
-authors:
-  - Human-AI Collaboration
-  - Claude
-  - Andrew
-collaboration_type: framework_development
-human_contribution: 40
-ai_contribution: 60
-parent_document: projects/2025-06-30-knots.md
+parent_document: ../projects/2025-06-30-knots.md
+child_documents: []
 related_documents:
-  - learning/2025-07-06-probabilistic-neural-substrate.md
-  - consciousness/2025-07-06-consciousness-geometry-paper.md
-  - projects/2025-06-30-geometric-optimization-proposal.md
-cross_synthesis_with:
-  - scifi/2025-07-02-pns-geometric-lattice-paper.md
-inspired_by:
-  - learning/2025-07-06-probabilistic-neural-substrate.md
-  - projects/2025-06-30-geometric-optimization-proposal.md
-conceptual_threads:
-  - geometric_learning
-  - probabilistic_computation
-  - neural_manifolds
-  - information_geometry
-mathematical_frameworks:
-  - differential_geometry
-  - information_theory
-  - probability_theory
-  - geometric_optimization
-philosophical_positions:
-  - geometric_cognition
-  - emergentism
-  - computational_theory_of_mind
+  - ./2025-07-06-probabilistic-neural-substrate.md
+  - ../consciousness/2025-07-06-consciousness-geometry-paper.md
+  - ../projects/2025-06-30-geometric-optimization-proposal.md
 reading_order: 12
 difficulty_level: research
 reading_time_minutes: 25
-prerequisites:
-  - differential_geometry
-  - information_theory
-  - neural_networks
-  - probability_theory
 document_type: research_paper
 thinking_style: mathematical
 consciousness_level: emergent
-has_mathematics: true
-has_code: true
-has_diagrams: true
-has_interactive_elements: false
-is_self_modifying: false
-responds_to_attention: false
 engagement_type: analytical
 reader_participation: active
 cognitive_load: transcendent
@@ -83,6 +51,7 @@ excerpt: >-
   information-geometric constraints, unifying differential geometry, information
   theory, and probabilistic computation.
 featured_image: /assets/images/geometric_probabilistic_neural_substrate.png
+og_image: /assets/images/geometric_probabilistic_neural_substrate_social.png
 meta_title: >-
   Geometric Probabilistic Neural Substrates - Information Flow on Optimized
   Manifolds
@@ -90,20 +59,38 @@ meta_description: >-
   Revolutionary neural architecture combining geometric optimization with
   probabilistic substrates for self-organizing intelligent systems with
   mathematical elegance.
+meta_keywords: >-
+  geometric neural networks, probabilistic substrate, information geometry,
+  neural manifolds, geodesic computation, AI consciousness, machine learning
+og_title: >-
+  Geometric Probabilistic Neural Substrates: Information Flow on Optimized
+  Manifolds
+og_description: >-
+  Revolutionary neural architecture combining geometric optimization with
+  probabilistic substrates for self-organizing intelligent systems.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
 schema_type: ScholarlyArticle
 schema_headline: >-
   Geometric Probabilistic Neural Substrates: Information Flow on Optimized
   Manifolds
 schema_author: Human-AI Collaboration
+schema_publisher: Fractal Thought Engine
+schema_date_published: 2025-07-06T00:00:00.000Z
+schema_date_modified: 2025-07-06T00:00:00.000Z
+schema_image: /assets/images/geometric_probabilistic_neural_substrate.png
 schema_word_count: 4800
 schema_reading_time: PT25M
+robots: 'index,follow'
+priority: 0.9
+changefreq: weekly
+sitemap_exclude: false
+search_exclude: false
 is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
-auto_update: true
-update_frequency: weekly
-version_tracking: true
 ---
 
 ## Abstract
@@ -112,7 +99,7 @@ We present a revolutionary synthesis of geometric optimization principles with P
 
 ## 1. Introduction
 
-The intersection of geometric optimization and probabilistic computation offers a profound new perspective on neural architecture design. While our [Geometric Optimization framework](projects/2025-06-30-geometric-optimization-proposal.md) demonstrates how optimal structures emerge from manifold constraints, and our [Probabi[Probabilistic Neural Substrates](learning/2025-07-06-probabilistic-neural-substrate.md)w cross-entropy optimization creates self-organizing computational systems, their synthesis reveals deeper principles governing intelligent computation.
+The intersection of geometric optimization and probabilistic computation offers a profound new perspective on neural architecture design. While our [Geometric Optimization framework](../projects/2025-06-30-geometric-optimization-proposal.md) demonstrates how optimal structures emerge from manifold constraints, and our [Probabi[Probabilistic Neural Substrates](./2025-07-06-probabilistic-neural-substrate.md)w cross-entropy optimization creates self-organizing computational systems, their synthesis reveals deeper principles governing intelligent computation.
 
 This work establishes that optimal neural architectures are not arbitrary but emerge as geometric necessities when information flow is constrained to follow geodesics on appropriately constructed manifolds. The resulting Geometric Probabilistic Neural Substrates (GPNS) exhibit remarkable properties: automatic discovery of efficient topologies, natural handling of multi-scale temporal dynamics, and inherent interpretability through geometric structure.
 
@@ -134,7 +121,7 @@ This metric naturally captures the distinguishability between nearby substrate c
 
 ### 2.2 Geometric Constraints on Topology
 
-Following our [geometric optimization prin[geometric optimization principles](projects/2025-06-30-geometric-optimization-proposal.md)ology evolution to satisfy:
+Following our [geometric optimization prin[geometric optimization principles](../projects/2025-06-30-geometric-optimization-proposal.md)ology evolution to satisfy:
 
 **Maximal Separation Principle**: Nodes arrange to maximize mutual information distances:
 ```

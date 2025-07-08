@@ -1,7 +1,69 @@
 ---
-title: "Empirical Measurement of Recursive Processing Limits in Large Language Models Using Self-Referential Text Corpora"
+title: >-
+  Empirical Measurement of Recursive Processing Limits in Large Language Models
+  Using Self-Referential Text Corpora
 layout: post
-collection: ai
+date: 2025-07-06T00:00:00.000Z
+last_modified: 2025-07-06T14:30:00.000Z
+category: consciousness
+subcategory: Recursive Processing
+tags:
+  - AI-Consciousness
+  - Cognitive-Architecture
+  - Machine-Learning
+  - Meta-Analysis
+  - Research-Paper
+  - Computational-Analysis
+keywords:
+  - recursive processing
+  - self-reference
+  - LLM limits
+  - meta-cognition
+  - hall of mirrors effect
+status: stable
+last_thought_date: 2025-07-06T00:00:00.000Z
+thought_generation: 1
+parent_document: ../projects/2025-06-30-knots.md
+related_documents:
+  - ./2025-07-06-consciousness-protocol-paper.md
+  - ../phenomenology/2025-07-01-hall-of-mirrors-paper.md
+reading_order: 5
+difficulty_level: research
+reading_time_minutes: 15
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: meta
+engagement_type: analytical
+reader_participation: passive
+cognitive_load: intense
+description: >-
+  First systematic study of LLM performance degradation when processing
+  self-referential and meta-cognitive content, revealing exponential failure
+  rates with recursive depth.
+excerpt: >-
+  We present the first systematic study of performance degradation in Large
+  Language Models when processing self-referential and meta-cognitive content,
+  demonstrating that LLM performance degrades predictably as a function of
+  meta-cognitive depth.
+featured_image: /assets/images/recursive-processing-limits.png
+is_cornerstone: true
+is_synthesis: false
+meta_title: Empirical Measurement of Recursive Processing Limits in LLMs
+meta_description: >-
+  Systematic study revealing how LLMs fail when processing self-referential
+  content, with failure rates approaching 90% at recursion depths beyond 3.
+meta_keywords: >-
+  LLM limits, recursive processing, self-reference, meta-cognition, transformer
+  architecture, AI consciousness
+schema_type: ScholarlyArticle
+schema_headline: LLMs Show Exponential Performance Degradation with Self-Referential Content
+schema_author: Human-AI Collaboration
+schema_date_published: 2025-07-06T00:00:00.000Z
+schema_date_modified: 2025-07-06T00:00:00.000Z
+schema_word_count: 2500
+schema_reading_time: PT15M
+priority: 0.9
+changefreq: monthly
 ---
 
 We present the first systematic study of performance degradation in Large Language Models (LLMs) when processing
@@ -258,17 +320,17 @@ layout: dynamic_post
 date: 2024-02-08
 last_modified: 2024-02-08 16:45:00
 # Content classification
-category: "Consciousness & Self-Architecture"
+category: consciousness
 subcategory: "Recursive Awareness"
 tags: ["meta-cognition", "recursion", "self-awareness", "ai", "consciousness"]
 keywords: ["meta-content", "recursive awareness", "self-referential cognition", "ai consciousness"]
 # Content status and evolution
-status: "living"
+status: draft
 evolution_stage: "growing"
 last_thought_date: 2024-02-08
 thought_generation: 2
 # Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+authors: ["Human-AI Collaboration", "AI", "Human"]
 collaboration_type: "recursive_dialogue"
 human_contribution: 35
 ai_contribution: 65

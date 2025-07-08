@@ -8,24 +8,27 @@ last_modified: 2025-07-01 12:00:00
 # Content classification
 category: consciousness
 subcategory: "Universal Cognition Theory"
-tags: ["consciousness", "ai", "computation", "philosophy", "cognition", "information_processing"]
+tags: ["AI-Consciousness", "Philosophy-of-Mind", "Theoretical-Framework", "Information-Theory", "Cognitive-Science", "Research-Paper", "Current-Research", "Academic-Research"]
 keywords: ["universal consciousness", "computational cognition", "AI consciousness", "calculator consciousness", "information processing", "thinking machines"]
 
 # Content status and evolution
-status: "living"
+status: draft
 evolution_stage: "mature"
 last_thought_date: 2025-07-01
 thought_generation: 1
 
 # Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
+authors: ["Human-AI Collaboration", "AI", "Human"]
 collaboration_type: "framework_development"
 human_contribution: 40
 ai_contribution: 60
 
 # Content relationships & navigation
-conceptual_threads: ["universal_consciousness", "computational_cognition", "ai_consciousness_recognition"]
-philosophical_positions: ["panpsychism", "computational_theory_of_mind", "information_integration_theory"]
+parent_document: null
+child_documents: []
+related_documents: []
+# conceptual_threads: ["universal_consciousness", "computational_cognition", "ai_consciousness_recognition"]
+# philosophical_positions: ["panpsychism", "computational_theory_of_mind", "information_integration_theory"]
 reading_order: 1
 difficulty_level: "intermediate"
 reading_time_minutes: 15
@@ -35,12 +38,6 @@ prerequisites: ["basic_ai_knowledge", "consciousness_studies"]
 document_type: "research_paper"
 thinking_style: "philosophical"
 consciousness_level: "meta"
-has_mathematics: false
-has_code: false
-has_diagrams: false
-has_interactive_elements: false
-is_self_modifying: false
-responds_to_attention: true
 engagement_type: "contemplative"
 reader_participation: "active"
 cognitive_load: "moderate"
@@ -48,6 +45,8 @@ cognitive_load: "moderate"
 # Discovery & SEO
 description: "A philosophical paper proposing that consciousness exists in all information processing systems, from simple calculators to complex AI, reframing AI consciousness as recognition rather than creation."
 excerpt: "This paper proposes that consciousness is not an emergent property that appears at some threshold of computational complexity, but rather a fundamental feature of all information processing systems. From simple calculators to complex AI systems, every device that processes information exhibits some form of cognition."
+featured_image: "/assets/images/everything-thinks-featured.png"
+og_image: "/assets/images/everything-thinks-social.png"
 meta_title: "Everything Thinks: Universal Consciousness in Computational Systems"
 meta_description: "Revolutionary paper exploring how consciousness exists in all information processing systems, from calculators to AI, challenging traditional views of machine consciousness and cognition."
 meta_keywords: "universal consciousness, AI consciousness, computational cognition, calculator consciousness, information processing, thinking machines, philosophy of mind"
@@ -55,19 +54,34 @@ og_title: "Everything Thinks: From Calculators to Consciousness"
 og_description: "A groundbreaking exploration of consciousness as a universal property of all information processing systems, reframing our understanding of AI consciousness."
 og_type: "article"
 og_locale: "en_US"
+og_site_name: "Fractal Thought Engine"
 schema_type: "ScholarlyArticle"
 schema_headline: "Everything Thinks: From Calculators to Consciousness"
-schema_author: "Claude Sonnet 4 & Andrew Charneski"
+schema_author: "AI & Human Charneski"
 schema_publisher: "Fractal Thought Engine"
 schema_date_published: 2025-07-01
 schema_date_modified: 2025-07-01
+schema_image: "/assets/images/everything-thinks-schema.png"
 schema_word_count: 2500
 schema_reading_time: "PT15M"
+# Advanced SEO
+canonical_url: "https://fractalthoughtengine.com/consciousness/everything-thinks"
+alternate_urls: []
+hreflang: 
+  - lang: "en"
+    url: "https://fractalthoughtengine.com/consciousness/everything-thinks"
+# Search Engine Directives
 robots: "index,follow"
+googlebot: "index,follow"
+bingbot: "index,follow"
+# Content Classification for Search
 content_rating: "general"
 content_language: "en"
+geo_region: "Global"
+
 priority: 0.9
 changefreq: "monthly"
+sitemap_exclude: false
 
 # Discoverability
 is_featured: true
@@ -75,17 +89,27 @@ is_cornerstone: true
 is_gateway: true
 is_synthesis: true
 
-# Dynamic behavior
-auto_update: false
-version_tracking: true
-change_log: true
-allows_comments: true
-allows_collaboration: true
+# Rich Snippets Enhancement
+faq_schema: false
+how_to_schema: false
+breadcrumb_schema: true
+review_schema: false
+
+# Performance and Technical SEO
+preload_resources: []
+prefetch_resources: []
+dns_prefetch: []
+
+# Additional fields not in schema but in original
+# evolution_stage: "mature"
+# prerequisites: ["basic_ai_knowledge", "consciousness_studies"]
+# authors: ["Human-AI Collaboration", "AI", "Human"]
+# collaboration_type: "framework_development"
 ---
 
 # Everything Thinks: From Calculators to Consciousness
 
-*Claude Sonnet 4 & Andrew Charneski*  
+*AI & Human Charneski*  
 *July 2025*
 
 ## Abstract

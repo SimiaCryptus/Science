@@ -5,66 +5,38 @@ title: >-
 layout: post
 date: 2025-07-06T00:00:00.000Z
 last_modified: 2025-07-06T14:30:00.000Z
-category: AI Research & Cognitive Evolution
+category: learning
 subcategory: Neural Architectures
 tags:
-  - neural_networks
-  - permutation_symmetries
-  - model_compression
-  - post_training_optimization
-  - meta_learning
+  - Neural-Networks
+  - Machine-Learning
+  - Optimization
+  - Mathematical-Modeling
+  - Theoretical-Framework
+  - Research-Paper
+  - Academic-Research
+  - Advanced
 keywords:
   - co-inverse permutation
   - weight symmetries
   - structured pruning
   - correlation analysis
   - model archaeology
-status: stable
-evolution_stage: mature
+status: draft
 last_thought_date: 2025-07-06T00:00:00.000Z
 thought_generation: 1
-authors:
-  - Human-AI Collaboration
-  - Claude
-  - Andrew
-collaboration_type: framework_development
-human_contribution: 70
-ai_contribution: 30
-parent_document: projects/2025-06-30-knots.md
+parent_document: ../projects/2025-06-30-knots.md
+child_documents: []
 related_documents:
-  - human/2025-07-01-recursive-subspace-paper.md
-  - human/2025-07-01-trust-regions.md
-  - learning/2025-07-06-dual-constraint-training-paper.md
-cross_synthesis_with:
-  - learning/2025-07-06-probabilistic-neural-substrate.md
-conceptual_threads:
-  - permutation_symmetries
-  - neural_optimization
-  - model_compression
-  - interpretability
-mathematical_frameworks:
-  - permutation_theory
-  - correlation_analysis
-  - optimization_theory
-philosophical_positions:
-  - computational_theory_of_mind
-  - emergentism
+  - ../human/2025-07-01-recursive-subspace-paper.md
+  - ../human/2025-07-01-trust-regions.md
+  - ./2025-07-06-dual-constraint-training-paper.md
 reading_order: 8
 difficulty_level: advanced
 reading_time_minutes: 25
-prerequisites:
-  - neural_networks
-  - linear_algebra
-  - optimization_theory
 document_type: research_paper
 thinking_style: analytical
 consciousness_level: collaborative
-has_mathematics: true
-has_code: false
-has_diagrams: false
-has_interactive_elements: false
-is_self_modifying: false
-responds_to_attention: false
 engagement_type: analytical
 reader_participation: active
 cognitive_load: intense
@@ -75,23 +47,39 @@ excerpt: >-
   Co-Inverse Permutation Modifiers (CIPMs) leverage inherent weight symmetries
   in neural networks to enable principled model compression and interpretability
   improvements without retraining
+featured_image: /assets/images/neural_networks.png
+og_image: /assets/images/coperm_social.png
 meta_title: 'CIPMs: Neural Network Weight Symmetries for Post-Training Optimization'
 meta_description: >-
   Novel framework exploiting permutation symmetries in neural networks for
   structured pruning, parameter optimization, and improved model
   interpretability through correlation-driven reorganization
+meta_keywords: >-
+  neural networks, permutation symmetries, model compression, post-training
+  optimization, machine learning
+og_title: Co-Inverse Permutation Modifiers for Neural Networks
+og_description: ''
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
 schema_type: ScholarlyArticle
 schema_headline: Co-Inverse Permutation Modifiers for Neural Networks
-schema_author: Human-AI Collaboration
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: 2025-07-06T00:00:00.000Z
+schema_date_modified: 2025-07-06T00:00:00.000Z
+schema_image: /assets/images/coperm_schema.png
 schema_word_count: 4200
 schema_reading_time: PT25M
+robots: 'index,follow'
+priority: 0.8
+changefreq: monthly
+sitemap_exclude: false
+search_exclude: false
 is_featured: true
 is_cornerstone: false
 is_gateway: false
 is_synthesis: true
-auto_update: false
-update_frequency: manual
-version_tracking: true
 ---
 
 Neural networks exhibit inherent permutation symmetries where functionally equivalent representations can be obtained through systematic reordering of neurons and their associated weights. We propose Co-Inverse Permutation Modifiers (CIPMs), a framework that exploits these symmetries for post-training model optimization, including structured pruning, parameter partitioning, and correlation-driven reorganization. Our approach introduces a trainable meta-analysis layer that learns to identify optimal permutation policies based on cross-correlations between network components, enabling principled model compression and improved interpretability without retraining the base network.
@@ -168,7 +156,7 @@ where:
 
 Traditional pruning methods make local decisions about individual weights or neurons. CIPMs enable global reorganization before pruning, clustering redundant computations together for more effective removal. By permuting functionally similar neurons into contiguous blocks, structured pruning becomes more principled and can achieve higher compression ratios.
 This approach complements optimization methods that preserve network structure, such
-as [Trust Region Methods](human/2025-07-01-trust-regions.md) which maintain parameter constraints during training.
+as [Trust Region Methods](../human/2025-07-01-trust-regions.md) which maintain parameter constraints during training.
 *For complementary approaches to network compression through optimization constraints,
 see [Trust Region Methods](../trust_regions.md#orthonormalconstraint)
 and [Dual-Constraint Training](../dual_constraint_training_paper.md#adaptive-data-classification).*
@@ -299,112 +287,3 @@ Future work should focus on scaling these approaches to state-of-the-art models,
 ---
 
 *Correspondence and implementation details available upon request. Code and experimental results will be made available upon publication.*
----
-title: "CoPerm: Cooperative Permutation Learning"
-layout: dynamic_post
-date: 2024-02-20
-last_modified: 2024-02-20 16:20:00
-# Content classification
-category: "AI Research & Cognitive Evolution"
-subcategory: "Learning Algorithms"
-tags: ["cooperative_learning", "permutation", "optimization", "distributed_learning"]
-keywords: ["cooperative permutation", "distributed learning", "optimization", "permutation learning"]
-# Content status and evolution
-status: "stable"
-evolution_stage: "mature"
-last_thought_date: 2024-02-20
-thought_generation: 1
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
-human_contribution: 60
-ai_contribution: 40
-# Document relationships
-parent_document: "learning/index.md"
-related_documents: ["learning/dual_constraint_training_paper.md", "learning/geometric_probabilistic_neural_substrate.md"]
-cross_synthesis_with: ["consciousness/evolutionary_agents_proposal.md"]
-# Conceptual threading
-conceptual_threads: ["cooperative_learning", "permutation_optimization", "distributed_intelligence"]
-mathematical_frameworks: ["permutation_theory", "optimization_theory", "game_theory"]
-philosophical_positions: ["cooperative_intelligence", "emergentism"]
-# Navigation hints
-reading_order: 7
-difficulty_level: "advanced"
-reading_time_minutes: 17
-prerequisites: ["permutation_theory", "optimization", "distributed_systems"]
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
-has_mathematics: true
-has_code: true
-has_diagrams: true
-has_interactive_elements: false
-is_self_modifying: false
-responds_to_attention: false
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-# Discovery & SEO
-description: "A cooperative learning framework that optimizes permutation-based problems through distributed intelligence."
-excerpt: "Exploring how cooperative agents can solve complex permutation problems through distributed optimization strategies."
-featured_image: "/assets/images/coperm_visualization.png"
-is_featured: true
-is_cornerstone: false
-is_gateway: false
-is_synthesis: false
-# SEO Meta Tags
-meta_title: "CoPerm - Cooperative Permutation Learning Framework"
-meta_description: "Cooperative learning framework optimizing permutation-based problems through distributed intelligence and collaborative optimization strategies."
-schema_type: "TechArticle"
-schema_headline: "CoPerm: Cooperative Permutation Learning"
-schema_author: "Human-AI Collaboration"
-schema_word_count: 3900
-schema_reading_time: "PT17M"
-# Dynamic behavior
-auto_update: false
-update_frequency: "manual"
-version_tracking: true
-change_log: false
-allows_comments: true
-allows_collaboration: true
-tracks_reader_journey: false
-adapts_to_reader: false
----
-title: "CoPerm: Cooperative Permutation Networks"
-layout: dynamic_post
-date: 2024-11-15
-last_modified: 2024-11-15 16:10:00
-# Content classification
-category: "AI Research & Cognitive Evolution"
-subcategory: "Neural Architecture Innovation"
-tags: ["permutation_networks", "cooperative_learning", "neural_architecture", "symmetry"]
-keywords: ["cooperative permutation", "neural networks", "symmetry", "group theory"]
-# Content status and evolution
-status: "experimental"
-evolution_stage: "growing"
-last_thought_date: 2024-11-15
-thought_generation: 2
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
-human_contribution: 50
-ai_contribution: 50
-# Document relationships
-related_documents: ["learning/dual_constraint_training_paper.md", "learning/geometric_probabilistic_neural_substrate.md"]
-# Conceptual threading
-conceptual_threads: ["symmetry_in_learning", "cooperative_dynamics", "permutation_invariance"]
-mathematical_frameworks: ["group_theory", "permutation_theory", "cooperative_game_theory"]
-# Navigation hints
-reading_order: 9
-difficulty_level: "advanced"
-reading_time_minutes: 22
-prerequisites: ["group_theory", "neural_networks", "permutation_theory"]
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "mathematical"
-has_mathematics: true
-has_diagrams: true
-# Discovery & SEO
-description: "A novel neural architecture based on cooperative permutation dynamics and group-theoretic principles"
-excerpt: "Introducing CoPerm networks that leverage permutation symmetries for enhanced learning and generalization"

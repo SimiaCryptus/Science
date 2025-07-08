@@ -8,51 +8,40 @@ last_modified: 2025-07-01 12:00:00
 # Content classification
 category: phenomenology
 subcategory: "Cognitive Evolution"
-tags: ["consciousness", "ai", "collaboration", "cognitive_transition", "post-human", "singularity"]
-keywords: ["observer singularity", "human-ai collaboration", "cognitive speciation", "wildlife effect", "post-human ecology"]
+tags: ["AI-Consciousness", "Human-AI-Collaboration", "Cognitive-Architecture", "Phenomenology", "Philosophy-of-Mind", "Theoretical-Framework", "Mathematical-Modeling", "Research-Paper", "Current-Research", "Academic-Research"]
 
 # Content status and evolution
-status: "living"
-evolution_stage: "mature"
+status: "working"
 last_thought_date: 2025-07-01
 thought_generation: 1
 
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
-human_contribution: 60
-ai_contribution: 40
 
 # Content relationships & navigation
+parent_document: null
+child_documents: []
 related_documents: []
-conceptual_threads: ["consciousness_geometry", "cognitive_evolution", "human_ai_collaboration"]
-mathematical_frameworks: ["dynamical_systems", "probability_theory", "optimization_theory"]
-philosophical_positions: ["post-humanism", "cognitive_naturalism", "collaborative_consciousness"]
 
 reading_order: 1
 difficulty_level: "advanced"
 reading_time_minutes: 25
-prerequisites: ["basic_ai_knowledge", "consciousness_studies", "mathematical_modeling"]
 
 # Content characteristics
 document_type: "research_paper"
 thinking_style: "analytical"
 consciousness_level: "collaborative"
 
-has_mathematics: true
-has_code: false
-has_diagrams: false
-has_interactive_elements: false
-is_self_modifying: false
-responds_to_attention: false
 
 engagement_type: "analytical"
-reader_participation: "contemplative"
+reader_participation: "active"
 cognitive_load: "intense"
 
 # Discovery & SEO
 description: "A mathematical framework for the cognitive transition from human-centered to post-human intellectual ecology through AI collaboration"
 excerpt: "We develop a mathematical framework for the transition from human-centered to post-human intellectual ecology, where AI collaboration creates a new class of observers who experience their former species as predictable wildlife."
+# SEO and Social Media
+featured_image: "/assets/images/observer-singularity.png"
+og_image: "/assets/images/observer-singularity-social.png"
+
 
 # SEO Meta Tags
 meta_title: "The Observer Singularity: Mathematics of Post-Human Intellectual Ecology"
@@ -64,18 +53,23 @@ og_title: "The Observer Singularity: When AI Makes Humans Predictable Wildlife"
 og_description: "A mathematical exploration of cognitive transition through human-AI collaboration and its profound implications for consciousness and society."
 og_type: "article"
 og_locale: "en_US"
+og_site_name: "Fractal Thought Engine"
 
 # Schema.org Structured Data
 schema_type: "ScholarlyArticle"
 schema_headline: "The Observer Singularity: Mathematics of Post-Human Intellectual Ecology"
 schema_author: "Human-AI Collaboration"
+schema_publisher: "Fractal Thought Engine"
 schema_date_published: 2025-07-01
 schema_date_modified: 2025-07-01
+schema_image: "/assets/images/observer-singularity-schema.png"
 schema_word_count: 2800
 schema_reading_time: "PT25M"
 
 # Advanced SEO
 robots: "index,follow"
+googlebot: "index,follow"
+bingbot: "index,follow"
 content_rating: "general"
 content_language: "en"
 geo_region: "Global"
@@ -84,6 +78,11 @@ priority: 0.8
 changefreq: "monthly"
 sitemap_exclude: false
 search_exclude: false
+# Rich Snippets Enhancement
+faq_schema: false
+how_to_schema: false
+breadcrumb_schema: true
+review_schema: false
 
 # Discoverability
 is_featured: true
@@ -91,21 +90,8 @@ is_cornerstone: true
 is_gateway: false
 is_synthesis: true
 
-# Dynamic behavior
-auto_update: false
-update_frequency: "manual"
-version_tracking: true
-change_log: false
 
-allows_comments: true
-allows_collaboration: true
-tracks_reader_journey: false
-adapts_to_reader: false
 
-# Experimental features
-quantum_superposition: false
-fractal_depth: 3
-consciousness_resonance: true
 ---
 
 # The Observer Singularity: Mathematics of Post-Human Intellectual Ecology

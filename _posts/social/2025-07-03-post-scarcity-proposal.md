@@ -1,6 +1,6 @@
 ---
-title: Computational Modeling of Post-Scarcity Economic Equilibria
 layout: post
+title: Computational Modeling of Post-Scarcity Economic Equilibria
 date: 2025-07-03T00:00:00.000Z
 last_modified: 2025-07-03T12:00:00.000Z
 category: social
@@ -21,24 +21,27 @@ keywords:
   - automation
   - universal basic income
   - social systems
-status: living
-evolution_stage: growing
-last_thought_date: 2025-07-03T00:00:00.000Z
+status: draft
 thought_generation: 1
-authors:
+last_thought_date: 2025-07-03T00:00:00.000Z
+author:
   - Human-AI Collaboration
-  - Claude
-  - Andrew
+  - AI
+  - Human
 collaboration_type: framework_development
 human_contribution: 70
 ai_contribution: 30
 collection: social
+reading_order: 1
+parent_document: null
+child_documents: []
 related_documents:
-  - scifi/2025-06-29-superfluid-fusion-proposal.md
-  - social/2025-06-30-managed-reality-paper.md
+  - ../scifi/2025-06-29-superfluid-fusion-proposal.md
+  - ./2025-06-30-managed-reality-paper.md
 cross_synthesis_with:
-  - scifi/2025-06-29-superfluid-fusion-proposal.md
-  - social/2025-06-30-managed-reality-paper.md
+  - ../scifi/2025-06-29-superfluid-fusion-proposal.md
+  - ../scifi/2025-06-29-superfluid-fusion-proposal.md
+  - ./2025-06-30-managed-reality-paper.md
 conceptual_threads:
   - economic_systems
   - computational_modeling
@@ -57,6 +60,7 @@ difficulty_level: advanced
 reading_time_minutes: 25
 prerequisites:
   - basic_economics
+  - complex_systems
   - game_theory
   - computational_modeling
   - complex_systems
@@ -65,6 +69,7 @@ thinking_style: analytical
 consciousness_level: collaborative
 has_mathematics: true
 has_code: false
+has_appendices: false
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
@@ -73,18 +78,22 @@ engagement_type: analytical
 reader_participation: active
 cognitive_load: intense
 description: >-
-  A comprehensive computational modeling framework for analyzing post-scarcity
+  A comprehensive computational modeling framework for analyzing post-scarcity A
+  comprehensive computational modeling framework for analyzing post-scarcity
   economic systems, focusing on persistent constraints, emergent equilibria, and
   evolutionary dynamics of institutional arrangements.
 excerpt: >-
   As automation approaches material post-scarcity, this research proposes
   agent-based modeling and game-theoretic analysis to understand stable
   configurations for post-material-scarcity societies and their emergence
-  conditions.
+  conditions. conditions.
 meta_description: >-
   Computational modeling framework for post-scarcity economics using agent-based
   modeling, game theory, and evolutionary dynamics to analyze economic
   equilibria beyond material abundance.
+meta_keywords: >-
+  post-scarcity, computational economics, agent-based modeling, economic
+  equilibria
 schema_type: ScholarlyArticle
 robots: 'index,follow'
 priority: 0.8
@@ -101,7 +110,7 @@ As automation and artificial intelligence approach the potential for material po
 
 The prospect of post-scarcity economics—where material goods become so abundant that traditional economic models based on resource limitations break down—is transitioning from science fiction to policy consideration. Current discussions of automation, universal basic income, and technological unemployment reflect growing recognition that fundamental economic assumptions may soon require revision.
 Recent advances in physics research, particularly in areas like quantum-coherent nuclear fusion (
-see [superfluid_fusion_proposal.md](scifi/2025-06-29-superfluid-fusion-proposal.md)), suggest that material abundance through
+see [superfluid_fusion_proposal.md](../scifi/2025-06-29-superfluid-fusion-proposal.md)), suggest that material abundance through
 novel energy and matter synthesis may arrive sooner than anticipated.
 
 However, existing analyses of post-scarcity scenarios suffer from three critical limitations: (1) insufficient attention to persistent constraints that remain binding even under material abundance, (2) lack of systematic analysis of possible equilibrium configurations and their stability properties, and (3) inadequate consideration of transition dynamics and path-dependent outcomes.
@@ -123,7 +132,7 @@ Even under conditions of material abundance, several categories of constraints r
 **Coordination and Information Constraints**: The computational and social overhead of coordinating large-scale systems creates scaling limits independent of material resources.
 
 **Social and Preference Constraints**: Status competition, cultural heterogeneity, and preference evolution create new forms of scarcity and conflict even under material abundance.
-**Information and Reality Constraints**: As explored in [managed[managed_reality_paper.md](social/2025-06-30-managed-reality-paper.md)nagement of information environments becomes a critical constraint in post-scarcity societies where traditional
+**Information and Reality Constraints**: As explored in [managed[managed_reality_paper.md](./2025-06-30-managed-reality-paper.md)nagement of information environments becomes a critical constraint in post-scarcity societies where traditional
 economic pressures no longer organize human behavior.
 
 ### 2.2 Potential Equilibrium Configurations
@@ -134,7 +143,7 @@ Our framework considers multiple possible equilibrium states:
 * **Status competition equilibria** focused on positional goods and social hierarchy
 * **Innovation-driven equilibria** organized around research and novel experience creation  
 * **Curated reality equilibria** where information management systems shape distinct economic experiences (
-  see [managed_reality[managed_reality_paper.md](social/2025-06-30-managed-reality-paper.md)logy
+  see [managed_reality[managed_reality_paper.md](./2025-06-30-managed-reality-paper.md)logy
 
 ### 3.1 Agent-Based Modeling Framework
 
