@@ -1,79 +1,108 @@
 ---
-title: "Scale-Invariant Intelligence: From Texture Synthesis to the Structure of Reality"
+title: >-
+  Scale-Invariant Intelligence: From Texture Synthesis to the Structure of
+  Reality
 layout: post
-date: 2025-07-06
-last_modified: 2025-07-06 10:30:00
-
-# Content classification
-category: "AI Research & Cognitive Evolution"
-subcategory: "Neural Architectures"
-tags: ["scale-invariance", "texture-synthesis", "neural-networks", "consciousness", "reality-compression", "geometric-constraints"]
-keywords: ["scale invariant intelligence", "texture synthesis", "neural networks", "hierarchical compression", "geometric constraints", "edge of chaos"]
-
-# Content status and evolution
-status: "living"
-evolution_stage: "mature"
-last_thought_date: 2025-07-06
+date: 2025-07-06T00:00:00.000Z
+last_modified: 2025-07-06T10:30:00.000Z
+category: AI Research & Cognitive Evolution
+subcategory: Neural Architectures
+tags:
+  - scale-invariance
+  - texture-synthesis
+  - neural-networks
+  - consciousness
+  - reality-compression
+  - geometric-constraints
+keywords:
+  - scale invariant intelligence
+  - texture synthesis
+  - neural networks
+  - hierarchical compression
+  - geometric constraints
+  - edge of chaos
+status: living
+evolution_stage: mature
+last_thought_date: 2025-07-06T00:00:00.000Z
 thought_generation: 3
-
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew
+collaboration_type: framework_development
 human_contribution: 60
 ai_contribution: 40
-
-# Document relationships
-parent_document: "ai/index.md"
-child_documents: ["ai/symmetric_textures_rewrite.md", "ai/mindseye_technical_report.md"]
-related_documents: ["ai/ai_bias_paper.md", "scifi/quantum_spacetime_paper.md"]
-cross_synthesis_with: ["consciousness/consciousness_geometry_paper.md"]
-inspired_by: ["ai/symmetric_textures_rewrite.md"]
-
-# Conceptual threading
-conceptual_threads: ["scale_invariance", "reality_compression", "edge_of_chaos", "hierarchical_patterns"]
-mathematical_frameworks: ["geometric_optimization", "fractal_geometry", "information_theory", "complexity_theory"]
-philosophical_positions: ["emergentism", "computational_theory_of_mind", "panpsychism"]
-
-# Navigation hints
+parent_document: projects/2025-06-30-knots.md
+child_documents:
+  - human/2025-07-01-symmetric-textures-rewrite.md
+  - human/2025-07-01-mindseye-technical-report.md
+related_documents:
+  - consciousness/2025-07-06-ai-bias-paper.md
+  - scifi/2025-07-01-quantum-spacetime-paper.md
+cross_synthesis_with:
+  - consciousness/2025-07-06-consciousness-geometry-paper.md
+inspired_by:
+  - human/2025-07-01-symmetric-textures-rewrite.md
+conceptual_threads:
+  - scale_invariance
+  - reality_compression
+  - edge_of_chaos
+  - hierarchical_patterns
+mathematical_frameworks:
+  - geometric_optimization
+  - fractal_geometry
+  - information_theory
+  - complexity_theory
+philosophical_positions:
+  - emergentism
+  - computational_theory_of_mind
+  - panpsychism
 reading_order: 15
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 25
-prerequisites: ["neural_networks", "texture_synthesis", "geometric_constraints", "complexity_theory"]
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "experimental"
-consciousness_level: "recursive"
+prerequisites:
+  - neural_networks
+  - texture_synthesis
+  - geometric_constraints
+  - complexity_theory
+document_type: research_paper
+thinking_style: experimental
+consciousness_level: recursive
 has_mathematics: true
 has_code: false
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A unified framework for understanding intelligence as emerging through hierarchical compression of reality into scale-invariant patterns, from texture synthesis to consciousness."
-excerpt: "Exploring how deep texture synthesis experiments revealed fundamental principles about intelligence, reality compression, and the edge of chaos where consciousness emerges."
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A unified framework for understanding intelligence as emerging through
+  hierarchical compression of reality into scale-invariant patterns, from
+  texture synthesis to consciousness.
+excerpt: >-
+  Exploring how deep texture synthesis experiments revealed fundamental
+  principles about intelligence, reality compression, and the edge of chaos
+  where consciousness emerges.
 is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
-
-# SEO Meta Tags
-meta_description: "Research paper exploring scale-invariant intelligence through texture synthesis experiments, revealing connections between neural networks, geometric constraints, and consciousness emergence."
-schema_type: "ScholarlyArticle"
+meta_description: >-
+  Research paper exploring scale-invariant intelligence through texture
+  synthesis experiments, revealing connections between neural networks,
+  geometric constraints, and consciousness emergence.
+schema_type: ScholarlyArticle
 priority: 0.9
-changefreq: "monthly"
+changefreq: monthly
 ---
 
 ## A Research Discussion Paper
 **Related Work:**
-- [Symmetric Texture Generation](../ai/symmetric_textures_rewrite.md) - Technical implementation of geometric constraints
-- [MindsEye Technical Report](../ai/mindseye_technical_report.md) - Framework architecture enabling these experiments
-- [AI Bias in Intelligence Assessment](../ai/ai_bias_paper.md) - Training data bias affecting technical recognition
+- [Symmetric Texture Generation](human/2025-07-01-symmetric-textures-rewrite.md) - Technical implementation of geometric constraints
+- [MindsEye T[MindsEye Technical Report](human/2025-07-01-mindseye-technical-report.md)k architecture enabling these experiments
+- [AI Bias in Intelligen[AI Bias in Intelligence Assessment](consciousness/2025-07-06-ai-bias-paper.md)affecting technical recognition
 
 ### Abstract
 
@@ -157,7 +186,7 @@ Our framework also illuminates biological intelligence:
 
 Our framework raises numerous questions:
 #### Connections to Quantum Gravity and Computational Substrates
-The scale-invariant patterns we've identified in texture synthesis may connect to fundamental physics. Our work on hierarchical compression and multi-scale coherence relates to recent theoretical developments in quantum gravity, particularly observer-dependent spacetime emergence (see [Quantum Spacetime Paper](../scifi/quantum_spacetime_paper.md)). The idea that intelligence discovers compression schemes inherent in physical reality suggests these schemes might reflect the computational substrate underlying reality itself.
+The scale-invariant patterns we've identified in texture synthesis may connect to fundamental physics. Our work on hierarchical compression and multi-scale coherence relates to recent theoretical developments in quantum gravity, particularly observer-dependent spacetime emergence (see [Quantum Spacetime Paper](scifi/2025-07-01-quantum-spacetime-paper.md)ompression schemes inherent in physical reality suggests these schemes might reflect the computational substrate underlying reality itself.
 The "edge of chaos" dynamics we observe in neural networks mirror the critical dynamics proposed in quantum foam theories, where spacetime emerges through observer-dependent projections of an atemporal quantum structure. This connection deserves deeper investigation.
 
 
@@ -198,11 +227,7 @@ The fact that these systems could produce both rigorous mathematical verificatio
 
 ### References
 
-[Our symmetric texture generation work](https://simiacryptus.github.io/Science/ai/symmetric_textures_rewrite.html)
-
-[MindsEye technical architecture](../ai/mindseye_technical_report.md)
-
-[Additional technical details and code](https://github.com/SimiaCryptus/examples.deepartist.org)
+[Our symmetric texture generation work](https://simiacryptus.github.io/Scie[MindsEye technical architecture](human/2025-07-01-mindseye-technical-report.md)/2025-07-01-mindseye-technical-report.md)/github.com/SimiaCryptus/examples.deepartist.org)
 
 ---
 

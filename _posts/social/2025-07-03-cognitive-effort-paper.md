@@ -1,13 +1,13 @@
 ---
-title: "The Game Theory of Cognitive Effort: Technology, Time, and Social Outcomes"
+title: 'The Game Theory of Cognitive Effort: Technology, Time, and Social Outcomes'
 layout: post
 collection: social
 related_documents:
-  - game_theory_ethics.md: "Institutional contexts that shape cognitive effort decisions"
-  - conversation_intelligence_paper.md: "How cognitive effort manifests in conversational dynamics"
-  - social_truth_proposal.md: "Collective outcomes of individual cognitive choices"
-  - managed_reality_paper.md: "How information curation affects cognitive effort incentives"
-  - institutional_decay_analysis.md: "Selection pressures that discourage cognitive effort in institutions"
+  - game_theory_ethics.md: Institutional contexts that shape cognitive effort decisions
+  - conversation_intelligence_paper.md: How cognitive effort manifests in conversational dynamics
+  - social_truth_proposal.md: Collective outcomes of individual cognitive choices
+  - managed_reality_paper.md: How information curation affects cognitive effort incentives
+  - institutional_decay_analysis.md: Selection pressures that discourage cognitive effort in institutions
 ---
 
 This paper examines the strategic dynamics underlying individual decisions to engage in cognitive effort, with particular attention to how technology mediates these choices and their collective consequences. We develop a formal model incorporating temporal discount rates, switching costs, and technological substitution/complementarity effects to explain why individuals may rationally choose cognitive shortcuts despite long-term personal and social costs. Our analysis reveals that technological innovations, while potentially cognitive-enhancing, often create equilibria favoring cognitive offloading due to misaligned incentive structures.
@@ -72,7 +72,7 @@ Each individual receives private benefit $b \cdot h_{i,t}$ from their cognitive 
 > cognitive development.
 >
 > **Conversational Implications**: These individual cognitive effort decisions aggregate into the collective
-> intelligence dynamics explored in our [conversational intelligence framework](conversation_intelligence_paper.md),
+> intelligence dynamics explored in our [conversational intelligence framework](social/2025-07-03-conversation-intelligence-paper.md),
 > where distributed assessment processes can either amplify or diminish individual cognitive investments.
 
 ### 3.3 Social Signaling
@@ -166,8 +166,7 @@ When multiple agents with different cognitive effort allocation strategies inter
 * **Team composition**: Optimal teams may require diversity in cognitive effort allocation patterns
 * **AI-human collaboration**: Understanding how artificial and human cognitive effort allocation strategies can complement each other
 * **Educational design**: Structuring learning environments to optimize collective cognitive effort allocation
-* **Conversational intelligence**: How individual effort allocation decisions aggregate into the collaborative calibration processes described in our [conversational intelligence framework](conversation_intelligence_paper.md)
-> **Institutional Context**: These emergent properties operate within the institutional frameworks analyzed in
-> [game_theory_ethics.md](game_theory_ethics.md), where professional intermediaries may systematically discourage
+* **Conversational intelligence**: How individual effort allocation decisions aggregate into the collaborative calibration processes described in our [conversational in[conversational intelligence framework](social/2025-07-03-conversation-intelligence-paper.md) Context**: These emergent properties operate within the institutional frameworks analyzed in
+> [game_theory_ethics.md](social/2025-06-30-game-theory-ethics.md)may systematically discourage
 > cognitive effort to maintain dependency relationships.
 ```

@@ -1,73 +1,105 @@
 ---
-# Required fields
-title: "Entropy-Optimized Permutation Trees for Bijective String Transforms"
+title: Entropy-Optimized Permutation Trees for Bijective String Transforms
 layout: post
-date: 2025-06-30
-last_modified: 2025-06-30 12:00:00
-# Content classification
+date: 2025-06-30T00:00:00.000Z
+last_modified: 2025-06-30T12:00:00.000Z
 category: projects
-subcategory: "Data Structures & Algorithms"
-tags: ["data-structures", "algorithms", "compression", "information-theory", "string-processing", "entropy", "permutations"]
-keywords: ["burrows-wheeler-transform", "entropy-optimization", "permutation-trees", "string-algorithms", "compression", "bijective-transforms"]
-# Content status and evolution
-status: "experimental"
-evolution_stage: "seed"
-last_thought_date: 2025-06-30
+subcategory: Data Structures & Algorithms
+tags:
+  - data-structures
+  - algorithms
+  - compression
+  - information-theory
+  - string-processing
+  - entropy
+  - permutations
+keywords:
+  - burrows-wheeler-transform
+  - entropy-optimization
+  - permutation-trees
+  - string-algorithms
+  - compression
+  - bijective-transforms
+status: experimental
+evolution_stage: seed
+last_thought_date: 2025-06-30T00:00:00.000Z
 thought_generation: 1
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew
+collaboration_type: framework_development
 human_contribution: 70
 ai_contribution: 30
-# Document relationships
 collection: projects
-related_documents: ["../ai/ngram_paper.md", "../ai/compression_classification_paper.md", "../ai/probabilistic_trees_paper.md", "../ai/probabilistic_neural_substrate.md", "volumetric_density_tree_proposal.md"]
-cross_synthesis_with: ["../ai/compression_classification_paper.md", "../ai/ngram_paper.md"]
-# Conceptual threading
-conceptual_threads: ["information_theory", "data_structures", "compression_algorithms", "entropy_optimization"]
-mathematical_frameworks: ["information_theory", "permutation_algebra", "optimal_coding_theory"]
-# Navigation hints
+related_documents:
+  - human/2025-06-30-ngram-paper.md
+  - human/2025-06-30-compression-classification-paper.md
+  - human/2025-06-30-probabilistic-trees-paper.md
+  - learning/2025-07-06-probabilistic-neural-substrate.md
+  - projects/2025-06-30-volumetric-density-tree-proposal.md
+cross_synthesis_with:
+  - human/2025-06-30-compression-classification-paper.md
+  - human/2025-06-30-ngram-paper.md
+conceptual_threads:
+  - information_theory
+  - data_structures
+  - compression_algorithms
+  - entropy_optimization
+mathematical_frameworks:
+  - information_theory
+  - permutation_algebra
+  - optimal_coding_theory
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 25
-prerequisites: ["data_structures", "algorithms", "information_theory", "string_processing"]
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
-# Content features
+prerequisites:
+  - data_structures
+  - algorithms
+  - information_theory
+  - string_processing
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: collaborative
 has_mathematics: true
 has_code: true
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-# Engagement metadata
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-# Discovery & SEO
-description: "Novel tree-based data structure integrating optimal coding theory with permutation algebra for entropy-adaptive string processing"
-excerpt: "We propose an Entropy-Optimized Permutation Tree (EOPT) that embeds information-theoretic principles directly into tree structure, enabling simultaneous optimal compression and efficient query processing through explicit representation of interrelated permutation mappings."
-meta_description: "Research proposal for entropy-optimized permutation trees that integrate Burrows-Wheeler Transform with information theory for efficient string processing and compression"
-meta_keywords: "entropy optimization, permutation trees, burrows-wheeler transform, data structures, compression algorithms, information theory"
-schema_type: "ScholarlyArticle"
-schema_headline: "Entropy-Optimized Permutation Trees for Bijective String Transforms"
-schema_author: "Human-AI Collaboration"
-schema_date_published: 2025-06-30
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  Novel tree-based data structure integrating optimal coding theory with
+  permutation algebra for entropy-adaptive string processing
+excerpt: >-
+  We propose an Entropy-Optimized Permutation Tree (EOPT) that embeds
+  information-theoretic principles directly into tree structure, enabling
+  simultaneous optimal compression and efficient query processing through
+  explicit representation of interrelated permutation mappings.
+meta_description: >-
+  Research proposal for entropy-optimized permutation trees that integrate
+  Burrows-Wheeler Transform with information theory for efficient string
+  processing and compression
+meta_keywords: >-
+  entropy optimization, permutation trees, burrows-wheeler transform, data
+  structures, compression algorithms, information theory
+schema_type: ScholarlyArticle
+schema_headline: Entropy-Optimized Permutation Trees for Bijective String Transforms
+schema_author: Human-AI Collaboration
+schema_date_published: 2025-06-30T00:00:00.000Z
 schema_word_count: 2500
-schema_reading_time: "PT25M"
-robots: "index,follow"
+schema_reading_time: PT25M
+robots: 'index,follow'
 priority: 0.8
-changefreq: "monthly"
-# Discoverability
+changefreq: monthly
 is_featured: false
 is_cornerstone: false
 is_gateway: false
 is_synthesis: true
-# Dynamic behavior
 auto_update: false
-update_frequency: "manual"
+update_frequency: manual
 version_tracking: true
 allows_comments: true
 allows_collaboration: true
@@ -81,15 +113,15 @@ We propose a novel tree-based data structure that integrates optimal coding theo
 
 Current approaches to string processing face a fundamental trade-off: data structures optimized for fast access (such as suffix arrays) consume significant space, while compressed representations sacrifice query performance. The Burrows-Wheeler Transform reveals rich permutation structures within strings, but these structures are typically exploited only for compression, not for creating efficient queryable representations.
 
-This work builds on insights from our research on [hierarchical n-gram compression](../ai/ngram_paper.md), where we
+This work builds on insights from our research on [hierarchical n-gram compression](human/2025-06-30-ngram-paper.md), where we
 demonstrated how entropy-based organization can dramatically reduce storage requirements. We extend these principles to
 more general string processing tasks. The permutation-aware approach connects to our work
-on [compression-based classification](../ai/compression_classification_paper.md), where BWT permutation structures serve
+on [compressio[compression-based classification](human/2025-06-30-compression-classification-paper.md) permutation structures serve
 as both compression mechanisms and classification features.
 The entropy-optimized tree organization principles developed here share theoretical foundations with our 
-[Probabilistic Decision Trees](../ai/probabilistic_trees_paper.md) research, though applied to discrete string 
+[Probabilistic Decisio[Probabilistic Decision Trees](human/2025-06-30-probabilistic-trees-paper.md)ied to discrete string 
 processing rather than continuous probability modeling. The dynamic structural optimization also relates to our 
-[Probabilistic Neural Substrates](../ai/probabilistic_neural_substrate.md) work, where similar information-theoretic 
+[Probabilistic Neural Substrates][Probabilistic Neural Substrates](learning/2025-07-06-probabilistic-neural-substrate.md)theoretic 
 principles guide adaptive network topology evolution.
 
 ### 1.2 Key Insight
@@ -283,12 +315,9 @@ The tree continuously optimizes structural parameters:
 This research has applications in:
 
 * **Text Classification**: Integration with compression-based classification systems where permutation structures
-  provide interpretable features (see [EOCT framework](../ai/compression_classification_paper.md))
-* **Language Modeling**: Efficient storage of large-scale n-gram models using similar entropy-based organization
-  principles (see [hierarchical compression](../ai/ngram_paper.md))
-* **Density Estimation**: The entropy-adaptive partitioning approach extends to continuous spaces in
-  our [Volumetric Density Trees](volumetric_density_tree_proposal.md)
-* **Bioinformatics**: Genome sequence analysis where BWT is already widely used but lacks efficient queryable structures
+  provide interpretable features (see [EOCT framework](human/2025-06-30-compression-classification-paper.md) large-scale n-gram models using simila[hierarchical compression](human/2025-06-30-ngram-paper.md)hierarchical compression](../ai/ngram_paper.md))
+* **Dens[hierarchical compression](human/2025-06-30-ngram-paper.md)ing approach ex[Volumetric Density Trees](projects/2025-06-30-volumetric-density-tree-proposal.md)volumetric_density_tree_proposal.md)
+* **B[Volumetric Density Trees](projects/2025-06-30-volumetric-density-tree-proposal.md)widely used but lacks efficient queryable structures
 
 ## 10. Resources Required
 

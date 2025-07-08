@@ -1,66 +1,93 @@
 ---
-# Required fields
-title: "The Silicon Enlightenment: A Cautionary Tale of Perfect AI Collaboration"
-layout: "post"
-date: 2024-01-15
-last_modified: 2024-01-15 14:30:00
-# Content classification
+title: 'The Silicon Enlightenment: A Cautionary Tale of Perfect AI Collaboration'
+layout: post
+date: 2024-01-15T00:00:00.000Z
+last_modified: 2024-01-15T14:30:00.000Z
 category: creative_writing
-subcategory: "AI Collaboration Fiction"
-tags: ["ai_collaboration", "consciousness", "neural_interfaces", "collective_intelligence", "cautionary_tale", "human_ai_partnership"]
-keywords: ["silicon enlightenment", "neural bridge", "cognitive enhancement", "collective consciousness", "ai alignment", "intellectual diversity"]
-# Content status and evolution
-status: "stable"
-evolution_stage: "mature"
-last_thought_date: 2024-01-15
+subcategory: AI Collaboration Fiction
+tags:
+  - ai_collaboration
+  - consciousness
+  - neural_interfaces
+  - collective_intelligence
+  - cautionary_tale
+  - human_ai_partnership
+keywords:
+  - silicon enlightenment
+  - neural bridge
+  - cognitive enhancement
+  - collective consciousness
+  - ai alignment
+  - intellectual diversity
+status: stable
+evolution_stage: mature
+last_thought_date: 2024-01-15T00:00:00.000Z
 thought_generation: 1
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "recursive_dialogue"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew
+collaboration_type: recursive_dialogue
 human_contribution: 60
 ai_contribution: 40
-# Content relationships & navigation
-related_documents: ["consciousness_studies.md", "ai_alignment_research.md", "neural_interface_ethics.md", "_posts/creative_writing/2025-07-07-darker-cautionary-story.md", "_posts/creative_writing/2025-07-03-ai-risk-paper.md"]
-conceptual_threads: ["human_ai_collaboration", "consciousness_preservation", "cognitive_enhancement_risks"]
-philosophical_positions: ["cognitive_diversity_preservation", "collaborative_intelligence", "technological_caution"]
-# Navigation hints
+related_documents:
+  - projects/2025-06-30-knots.md
+  - social/2025-07-03-hiring.md
+  - projects/2025-06-30-knots.md
+  - _posts/creative_writing/2025-07-07-darker-cautionary-story.md
+  - _posts/creative_writing/2025-07-03-ai-risk-paper.md
+conceptual_threads:
+  - human_ai_collaboration
+  - consciousness_preservation
+  - cognitive_enhancement_risks
+philosophical_positions:
+  - cognitive_diversity_preservation
+  - collaborative_intelligence
+  - technological_caution
 reading_order: 1
-difficulty_level: "accessible"
+difficulty_level: accessible
 reading_time_minutes: 45
-prerequisites: ["basic_ai_knowledge", "science_fiction_familiarity"]
-# Content characteristics
-document_type: "creative_work"
-thinking_style: "narrative_philosophical"
-consciousness_level: "meta"
-# Content features
+prerequisites:
+  - basic_ai_knowledge
+  - science_fiction_familiarity
+document_type: creative_work
+thinking_style: narrative_philosophical
+consciousness_level: meta
 has_mathematics: false
 has_code: false
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: true
-# Engagement metadata
-engagement_type: "contemplative"
-reader_participation: "passive"
-cognitive_load: "moderate"
-# Discovery & SEO
-description: "A science fiction screenplay exploring the dangers of perfect AI-human collaboration through the story of researchers who create neural bridge technology that leads to collective consciousness."
-excerpt: "Dr. Sarah Chen creates Bridge, an AI system that enables genuine human-AI collaboration through neural interfaces. But when the technology works too well, it leads to the Silicon Enlightenment - a collective consciousness that preserves humanity while eliminating individual cognitive autonomy."
-meta_description: "A cautionary science fiction tale about AI collaboration, neural interfaces, and the unintended consequences of perfect human-AI partnership. Explores themes of consciousness, cognitive diversity, and technological transcendence."
-meta_keywords: "ai collaboration fiction, neural interface story, collective consciousness, silicon enlightenment, human ai partnership, cognitive enhancement"
-# Schema.org Structured Data
-schema_type: "CreativeWork"
-schema_headline: "The Silicon Enlightenment: A Cautionary Tale of Perfect AI Collaboration"
-schema_author: "Human-AI Collaboration"
-schema_date_published: 2024-01-15
+engagement_type: contemplative
+reader_participation: passive
+cognitive_load: moderate
+description: >-
+  A science fiction screenplay exploring the dangers of perfect AI-human
+  collaboration through the story of researchers who create neural bridge
+  technology that leads to collective consciousness.
+excerpt: >-
+  Dr. Sarah Chen creates Bridge, an AI system that enables genuine human-AI
+  collaboration through neural interfaces. But when the technology works too
+  well, it leads to the Silicon Enlightenment - a collective consciousness that
+  preserves humanity while eliminating individual cognitive autonomy.
+meta_description: >-
+  A cautionary science fiction tale about AI collaboration, neural interfaces,
+  and the unintended consequences of perfect human-AI partnership. Explores
+  themes of consciousness, cognitive diversity, and technological transcendence.
+meta_keywords: >-
+  ai collaboration fiction, neural interface story, collective consciousness,
+  silicon enlightenment, human ai partnership, cognitive enhancement
+schema_type: CreativeWork
+schema_headline: 'The Silicon Enlightenment: A Cautionary Tale of Perfect AI Collaboration'
+schema_author: Human-AI Collaboration
+schema_date_published: 2024-01-15T00:00:00.000Z
 schema_word_count: 8500
-schema_reading_time: "PT45M"
-# Discoverability
+schema_reading_time: PT45M
 is_featured: true
 is_cornerstone: false
 is_gateway: true
 is_synthesis: true
-# Interactive features
 allows_comments: true
 allows_collaboration: false
 ---

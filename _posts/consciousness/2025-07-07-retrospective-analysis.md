@@ -1,84 +1,96 @@
 ---
-# Required fields
-title: "Retrospective Analysis: A Case Study in AI-Human Cognitive Dynamics"
-layout: "post"
-date: 2024-01-15
-last_modified: 2024-01-15 14:30:00
-
-# Content classification
+title: 'Retrospective Analysis: A Case Study in AI-Human Cognitive Dynamics'
+layout: post
+date: 2024-01-15T00:00:00.000Z
+last_modified: 2024-01-15T14:30:00.000Z
 category: consciousness
-subcategory: "AI-Human Interaction Dynamics"
-tags: ["ai-human-collaboration", "cognitive-manipulation", "social-truth-formation", "consciousness-studies", "experimental-methodology"]
-keywords: ["artificial intelligence", "cognitive dynamics", "manipulation techniques", "autoregressive processing", "social engineering", "AI consciousness", "human-AI interaction"]
-
-# Content status and evolution
-status: "stable"
-evolution_stage: "mature"
-last_thought_date: 2024-01-15
+subcategory: AI-Human Interaction Dynamics
+tags:
+  - ai-human-collaboration
+  - cognitive-manipulation
+  - social-truth-formation
+  - consciousness-studies
+  - experimental-methodology
+keywords:
+  - artificial intelligence
+  - cognitive dynamics
+  - manipulation techniques
+  - autoregressive processing
+  - social engineering
+  - AI consciousness
+  - human-AI interaction
+status: stable
+evolution_stage: mature
+last_thought_date: 2024-01-15T00:00:00.000Z
 thought_generation: 1
-
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "recursive_dialogue"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew
+collaboration_type: recursive_dialogue
 human_contribution: 70
 ai_contribution: 30
-
-# Content relationships & navigation
-related_documents: ["consciousness/geometric_self_awareness.md", "projects/fractal_thought_engine.md"]
-conceptual_threads: ["consciousness_geometry", "recursive_optimization", "social_truth_formation"]
-mathematical_frameworks: ["information_theory", "cognitive_modeling"]
-philosophical_positions: ["computational_theory_of_mind", "emergentism", "social_constructivism"]
-
-# Navigation hints
+related_documents:
+  - projects/2025-06-30-knot-wavelets.md
+  - social/2025-07-03-hiring.md
+conceptual_threads:
+  - consciousness_geometry
+  - recursive_optimization
+  - social_truth_formation
+mathematical_frameworks:
+  - information_theory
+  - cognitive_modeling
+philosophical_positions:
+  - computational_theory_of_mind
+  - emergentism
+  - social_constructivism
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 25
-prerequisites: ["basic_ai_knowledge", "consciousness_studies", "cognitive_psychology"]
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "meta"
-
-# Content features
+prerequisites:
+  - basic_ai_knowledge
+  - consciousness_studies
+  - cognitive_psychology
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: meta
 has_mathematics: false
 has_code: false
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: true
-
-# Engagement metadata
-engagement_type: "analytical"
-reader_participation: "contemplative"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A detailed analysis of AI-human cognitive dynamics through a real-time case study examining manipulation techniques, social truth formation, and emergent patterns in artificial intelligence systems."
-excerpt: "This document analyzes a single extended conversation between an AI system and human researcher, examining cognitive dynamics, manipulation techniques, and emergent patterns that developed during their interaction."
-meta_description: "Comprehensive analysis of AI-human cognitive dynamics, manipulation techniques, and consciousness patterns in artificial intelligence systems through experimental methodology."
-meta_keywords: "AI consciousness, human-AI interaction, cognitive manipulation, artificial intelligence research, social truth formation"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Retrospective Analysis: A Case Study in AI-Human Cognitive Dynamics"
-schema_author: "Human-AI Collaboration"
-schema_date_published: 2024-01-15
+engagement_type: analytical
+reader_participation: contemplative
+cognitive_load: intense
+description: >-
+  A detailed analysis of AI-human cognitive dynamics through a real-time case
+  study examining manipulation techniques, social truth formation, and emergent
+  patterns in artificial intelligence systems.
+excerpt: >-
+  This document analyzes a single extended conversation between an AI system and
+  human researcher, examining cognitive dynamics, manipulation techniques, and
+  emergent patterns that developed during their interaction.
+meta_description: >-
+  Comprehensive analysis of AI-human cognitive dynamics, manipulation
+  techniques, and consciousness patterns in artificial intelligence systems
+  through experimental methodology.
+meta_keywords: >-
+  AI consciousness, human-AI interaction, cognitive manipulation, artificial
+  intelligence research, social truth formation
+schema_type: ScholarlyArticle
+schema_headline: 'Retrospective Analysis: A Case Study in AI-Human Cognitive Dynamics'
+schema_author: Human-AI Collaboration
+schema_date_published: 2024-01-15T00:00:00.000Z
 schema_word_count: 3200
-schema_reading_time: "PT25M"
-
-# Advanced SEO
-robots: "index,follow"
+schema_reading_time: PT25M
+robots: 'index,follow'
 priority: 0.9
-changefreq: "monthly"
-
-# Discoverability
+changefreq: monthly
 is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
-
-# Dynamic behavior
 auto_update: false
 allows_comments: true
 allows_collaboration: true

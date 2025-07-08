@@ -1,70 +1,95 @@
 ---
-title: "An Inquiry into the Nature and Causes of the Economic Disruptions of 2025: A Moral Philosopher's Assessment of Contemporary Trade Wars, Artificial Intelligence, and the Concentration of Wealth"
+title: >-
+  An Inquiry into the Nature and Causes of the Economic Disruptions of 2025: A
+  Moral Philosopher's Assessment of Contemporary Trade Wars, Artificial
+  Intelligence, and the Concentration of Wealth
 layout: post
-date: 2025-06-30
-last_modified: 2025-06-30 12:00:00
-# Content classification
+date: 2025-06-30T00:00:00.000Z
+last_modified: 2025-06-30T12:00:00.000Z
 category: creative_writing
-subcategory: "Economic Philosophy"
-tags: ["economics", "ai", "trade", "inequality", "moral_philosophy", "adam_smith"]
-keywords: ["artificial intelligence", "trade wars", "economic inequality", "cryptocurrency", "moral philosophy", "wealth concentration"]
-# Content status and evolution
-status: "stable"
-evolution_stage: "mature"
-last_thought_date: 2025-06-30
+subcategory: Economic Philosophy
+tags:
+  - economics
+  - ai
+  - trade
+  - inequality
+  - moral_philosophy
+  - adam_smith
+keywords:
+  - artificial intelligence
+  - trade wars
+  - economic inequality
+  - cryptocurrency
+  - moral philosophy
+  - wealth concentration
+status: stable
+evolution_stage: mature
+last_thought_date: 2025-06-30T00:00:00.000Z
 thought_generation: 1
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude"]
-collaboration_type: "framework_development"
+authors:
+  - Human-AI Collaboration
+  - Claude
+collaboration_type: framework_development
 human_contribution: 30
 ai_contribution: 70
-# Content relationships & navigation
 collection: creative_writing
 related_papers:
   - claude_reflection_paper.md
   - fdr_speech_2025.md
-related_documents: ["claude_reflection_paper.md", "fdr_speech_2025.md"]
-conceptual_threads: ["economic_philosophy", "ai_impact", "historical_analysis"]
-philosophical_positions: ["moral_philosophy", "classical_economics", "social_justice"]
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
+related_documents:
+  - phenomenology/2025-06-30-claude-reflection-paper.md
+  - creative_writing/2025-06-30-fdr-speech-2025.md
+conceptual_threads:
+  - economic_philosophy
+  - ai_impact
+  - historical_analysis
+philosophical_positions:
+  - moral_philosophy
+  - classical_economics
+  - social_justice
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: collaborative
 has_mathematics: false
 has_code: false
 has_diagrams: false
-difficulty_level: "intermediate"
+difficulty_level: intermediate
 reading_time_minutes: 25
-prerequisites: ["basic_economics", "historical_context"]
-# Discovery & SEO
-description: "Adam Smith's philosophical analysis of 2025's economic disruptions, examining AI, trade wars, and wealth inequality through the lens of moral philosophy"
-excerpt: "A comprehensive economic analysis examining how contemporary policies align with or contradict classical principles of natural liberty, focusing on AI's impact, trade protectionism, and growing inequality."
-meta_description: "Adam Smith analyzes 2025's economic challenges including AI disruption, trade wars, and inequality through moral philosophy lens"
-meta_keywords: "adam smith, economic analysis, artificial intelligence, trade wars, inequality, moral philosophy, 2025 economics"
-schema_type: "ScholarlyArticle"
-schema_headline: "Economic Disruptions of 2025: A Moral Philosopher's Assessment"
-schema_author: "Adam Smith (AI Collaboration)"
-schema_date_published: 2025-06-30
+prerequisites:
+  - basic_economics
+  - historical_context
+description: >-
+  Adam Smith's philosophical analysis of 2025's economic disruptions, examining
+  AI, trade wars, and wealth inequality through the lens of moral philosophy
+excerpt: >-
+  A comprehensive economic analysis examining how contemporary policies align
+  with or contradict classical principles of natural liberty, focusing on AI's
+  impact, trade protectionism, and growing inequality.
+meta_description: >-
+  Adam Smith analyzes 2025's economic challenges including AI disruption, trade
+  wars, and inequality through moral philosophy lens
+meta_keywords: >-
+  adam smith, economic analysis, artificial intelligence, trade wars,
+  inequality, moral philosophy, 2025 economics
+schema_type: ScholarlyArticle
+schema_headline: 'Economic Disruptions of 2025: A Moral Philosopher''s Assessment'
+schema_author: Adam Smith (AI Collaboration)
+schema_date_published: 2025-06-30T00:00:00.000Z
 schema_word_count: 4500
-schema_reading_time: "PT25M"
-# Discoverability
+schema_reading_time: PT25M
 is_featured: true
 is_cornerstone: false
 is_gateway: true
 is_synthesis: true
-# Interactive features
 allows_comments: true
 allows_collaboration: false
-engagement_type: "analytical"
-reader_participation: "contemplative"
-cognitive_load: "moderate"
+engagement_type: analytical
+reader_participation: contemplative
+cognitive_load: moderate
 ---
 
 *By Adam Smith*  
-*Professor of Moral Philosophy (Emeritus)*  
-*University of Glasgow*
-
-*This economic analysis provides scholarly depth to the concerns raised in the historical voices series: [Washington's constitutional warnings](washington_speech_2025.md), [Lincoln's democratic preservation](lincoln_speech_2025.md), [FDR's economic justice](fdr_speech_2025.md), and [Jesus's moral imperatives](jesus_speech_2025.md). For creative process insights, see [On Channeling Historical Voices](claude_reflection_paper.md).*
+*Professor of Moral Philosophy (Emer[FDR's economic justice](phenomenology/2025-06-30-claude-reflection-paper.md) concerns raised in the historical voices series: [Washington's constitutional warnings](creative_writing/2025-06-30-washington-speech-2025.md), [Lincoln's democratic preser[Lincoln's democratic preservation](creative_w[Jesus's moral imperatives](creative_writing/2025-06-30-jesus-speech-2025.md)h_2025.md), and [Jesus's moral imperatives](jesus_speech_2025.md). For creative process insights, se[Jesus's moral imperatives](creative_writing/2025-06-30-jesus-speech-2025.md)tion_paper.md).*
 
 ---
 

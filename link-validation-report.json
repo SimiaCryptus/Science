@@ -1,0 +1,1826 @@
+{
+  "timestamp": "2025-07-08T13:57:34.149Z",
+  "totalFiles": 145,
+  "modifiedFiles": 49,
+  "totalFixes": 254,
+  "details": [
+    {
+      "file": "_posts/social/2025-07-03-conversation-intelligence-paper.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "cognitive_effort_paper.md",
+          "old": "cognitive_effort_paper[cognitive_effort_paper.md](social/2025-07-03-cognitive-effort-paper.md",
+          "new": "social/2025-07-03-cognitive-effort-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "cognitive_effort_paper.md",
+          "old": "cognitive_effort_paper.md",
+          "new": "social/2025-07-03-cognitive-effort-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "game_theory_ethics.md",
+          "old": "game_theory_ethics.md",
+          "new": "social/2025-06-30-game-theory-ethics.md"
+        },
+        {
+          "type": "markdown",
+          "text": "game_theory_ethics.md",
+          "old": "social/2025-06-[game_theory_ethics.md](social/2025-06-30-game-theory-ethics.md",
+          "new": "social/2025-06-30-game-theory-ethics.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/social/2025-06-30-sincerity-curiosity-paper.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "Conversational Intelligence Calibration",
+          "old": "../social/conversation_intellige[Conversational Intelligence Calibration](social/2025-07-03-conversation-intelligence-paper.md",
+          "new": "social/2025-07-03-conversation-intelligence-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "conversational intelligence paper",
+          "old": "../social/conversation_intelligence_paper.md",
+          "new": "social/2025-07-03-conversation-intelligence-paper.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/social/2025-06-30-managed-reality-paper.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "game theory analysis",
+          "old": "game_theory_ethics.md",
+          "new": "social/2025-06-30-game-theory-ethics.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/social/2025-06-30-institutional-decay-analysis.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "game_theory_ethics.md",
+          "old": "game_theory_[game_theory_ethics.md](social/2025-06-30-game-theory-ethics.md",
+          "new": "social/2025-06-30-game-theory-ethics.md"
+        },
+        {
+          "type": "markdown",
+          "text": "cognitive_effort_paper.md",
+          "old": "cognitive_effort_paper.md",
+          "new": "social/2025-07-03-cognitive-effort-paper.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/social/2025-06-30-ideatic-dynamics-experiments.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "evolutionary agents proposal",
+          "old": "evolution[evolutionary agents proposal](consciousness/2025-07-06-evolutionary-agents-proposal.md",
+          "new": "consciousness/2025-07-06-evolutionary-agents-proposal.md"
+        },
+        {
+          "type": "markdown",
+          "text": "prompt optimization",
+          "old": "prompt_optimization.md",
+          "new": "human/2025-07-01-prompt-optimization.md"
+        },
+        {
+          "type": "markdown",
+          "text": "chaotic dynamics in LLM systems",
+          "old": "llm_feedback_dynamics.md",
+          "new": "learning/2025-07-06-llm-feedback-dynamics.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Hypothesis Breeding Grounds",
+          "old": "hypothesis_breeding_grounds.md",
+          "new": "learning/2025-07-06-hypothesis-breeding-grounds.md"
+        },
+        {
+          "type": "markdown",
+          "text": "LLM feedback systems",
+          "old": "llm_feedback_dynamics.md",
+          "new": "learning/2025-07-06-llm-feedback-dynamics.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Hypothesis Breeding Grounds",
+          "old": "hypothesis_breeding_grounds.md",
+          "new": "learning/2025-07-06-hypothesis-breeding-grounds.md"
+        },
+        {
+          "type": "markdown",
+          "text": "evolutionary agents proposal",
+          "old": "evolutionary_agents_proposal.md",
+          "new": "consciousness/2025-07-06-evolutionary-agents-proposal.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/social/2025-06-30-game-theory-ethics.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "AI justice reform proposal",
+          "old": "ai_just[AI justice reform proposal](social/2025-06-30-ai-justice-paper.md",
+          "new": "social/2025-06-30-ai-justice-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "cross-synthesis of institutional transformation",
+          "old": "cros[cross-synthesis of institutional transformation](social/2025-06-30-cross-synthesis-justice-institutions.md",
+          "new": "social/2025-06-30-cross-synthesis-justice-institutions.md"
+        },
+        {
+          "type": "markdown",
+          "text": "cognitive effort analysis",
+          "old": "cognitive_effort_paper.md",
+          "new": "social/2025-07-03-cognitive-effort-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "AI justice reform proposal",
+          "old": "ai_justice_paper.md",
+          "new": "social/2025-06-30-ai-justice-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "managed reality systems",
+          "old": "managed_reality_paper.md",
+          "new": "social/2025-06-30-managed-reality-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "cross-synthesis of institutional transformation",
+          "old": "cross_synthesis_justice_institutions.md",
+          "new": "social/2025-06-30-cross-synthesis-justice-institutions.md"
+        },
+        {
+          "type": "markdown",
+          "text": "conversational intelligence framework",
+          "old": "conversation_intelligence_paper.md",
+          "new": "social/2025-07-03-conversation-intelligence-paper.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/social/2025-06-30-cross-synthesis-justice-institutions.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "conversational intelligence framework",
+          "old": "conv[conversational intelligence framework](social/2025-07-03-conversation-intelligence-paper.md",
+          "new": "social/2025-07-03-conversation-intelligence-paper.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/social/2025-06-30-consciousness-optimization-theory.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "Parametric Ideation",
+          "old": "../ai/parametri[Parametric Ideation](projects/2025-06-30-parametric-ideation-paper.md",
+          "new": "projects/2025-06-30-parametric-ideation-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "The Hall of Mirrors",
+          "old": "../creative_writing/hall_of_m[The Hall of Mirrors](phenomenology/2025-07-01-hall-of-mirrors-paper.md",
+          "new": "phenomenology/2025-07-01-hall-of-mirrors-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "The Accumulation of Consciousness",
+          "old": "../creative_writing/[The Accumulation of Consciousness](social/2025-07-03-hiring.md",
+          "new": "social/2025-07-03-hiring.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/social/2025-06-30-ai-justice-paper.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "Ontological Compiler Toolchain",
+          "old": "../[Ontological Compiler Toolchain](projects/2025-06-30-ontological-compiler-proposal.md",
+          "new": "projects/2025-06-30-ontological-compiler-proposal.md"
+        },
+        {
+          "type": "markdown",
+          "text": "conversational intelligence analysis",
+          "old": "conve[conversational intelligence analysis](social/2025-07-03-conversation-intelligence-paper.md",
+          "new": "social/2025-07-03-conversation-intelligence-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "managed reality framework",
+          "old": "managed_reality_paper.md",
+          "new": "social/2025-06-30-managed-reality-paper.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/projects/2025-06-30-wavelet-geometric-optimization.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "Multiverse Router",
+          "old": "../s[Multiverse Router](scifi/2025-06-30-multiverse-router-paper.md",
+          "new": "scifi/2025-06-30-multiverse-router-paper.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/projects/2025-06-30-volumetric-density-tree-proposal.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "Probabilistic Decision Trees",
+          "old": "../ai/proba[Probabilistic Decision Trees](human/2025-06-30-probabilistic-trees-paper.md",
+          "new": "human/2025-06-30-probabilistic-trees-paper.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/projects/2025-06-30-geometric-optimization-proposal.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "RSO",
+          "old": "../ai[RSO](human/2025-07-01-recursive-subspace-paper.md",
+          "new": "human/2025-07-01-recursive-subspace-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Trust Regions",
+          "old": "../ai/[Trust Regions](human/2025-07-01-trust-regions.md",
+          "new": "human/2025-07-01-trust-regions.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/projects/2025-06-30-bwt-tree-proposal.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "EOCT framework",
+          "old": "../ai/compression_classificati[EOCT framework](human/2025-06-30-compression-classification-paper.md",
+          "new": "human/2025-06-30-compression-classification-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "hierarchical compression",
+          "old": "../ai/ngram_paper.md",
+          "new": "human/2025-06-30-ngram-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Volumetric Density Trees",
+          "old": "volumetric_density_tree_proposal.md",
+          "new": "projects/2025-06-30-volumetric-density-tree-proposal.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/scifi/2025-07-01-quantum-spacetime-paper.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "Dynamic Quantum Graphs",
+          "old": "dynam[Dynamic Quantum Graphs](scifi/2025-06-30-dynamic-quantum-graphs.md",
+          "new": "scifi/2025-06-30-dynamic-quantum-graphs.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Multiverse Router",
+          "old": "multiverse_router_paper.md",
+          "new": "scifi/2025-06-30-multiverse-router-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Simulation QFT Hashlife",
+          "old": "simulation_qft_hashlife.md",
+          "new": "scifi/2025-06-30-simulation-qft-hashlife.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/scifi/2025-06-30-simulation-qft-hashlife.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "Multiverse Router",
+          "old": "multiverse_rou[Multiverse Router](scifi/2025-06-30-multiverse-router-paper.md",
+          "new": "scifi/2025-06-30-multiverse-router-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Wavelet Geometric Optimization",
+          "old": "../projects/wavele[Wavelet Geometric Optimization](projects/2025-06-30-wavelet-geometric-optimization.md",
+          "new": "projects/2025-06-30-wavelet-geometric-optimization.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Observer-Dependent Spacetime",
+          "old": "quantum_spacetime_paper.md",
+          "new": "scifi/2025-07-01-quantum-spacetime-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Dynamic Quantum Graphs",
+          "old": "dynamic_quantum_graphs.md",
+          "new": "scifi/2025-06-30-dynamic-quantum-graphs.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Multiverse Router",
+          "old": "multiverse_router_paper.md",
+          "new": "scifi/2025-06-30-multiverse-router-paper.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/scifi/2025-06-30-neural-fabric-proposal.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "probabilistic decision tree methodologies",
+          "old": "h[Multiverse Router](scifi/2025-06-30-multiverse-router-paper.md",
+          "new": "scifi/2025-06-30-multiverse-router-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Probabilistic Neural Substrates",
+          "old": "../ai/probabilistic_neura[Probabilistic Neural Substrates](learning/2025-07-06-probabilistic-neural-substrate.md",
+          "new": "learning/2025-07-06-probabilistic-neural-substrate.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Dynamic Quantum Graphs",
+          "old": "dynamic_quantum_graphs.md",
+          "new": "scifi/2025-06-30-dynamic-quantum-graphs.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Dynamic Quantum Graphs",
+          "old": "scifi/2025-06-30-dynamic-q[Dynamic Quantum Graphs](scifi/2025-06-30-dynamic-quantum-graphs.md",
+          "new": "scifi/2025-06-30-dynamic-quantum-graphs.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Observer-Dependent Spacetime",
+          "old": "quantum_spacetime_paper.md",
+          "new": "scifi/2025-07-01-quantum-spacetime-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Multiverse Router",
+          "old": "multiverse_router_[Observer-Dependent Spacetime](scifi/2025-07-01-quantum-spacetime-paper.md",
+          "new": "scifi/2025-07-01-quantum-spacetime-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Dynamic Quantum Graphs",
+          "old": "dynamic_quantum_graphs.md",
+          "new": "scifi/2025-06-30-dynamic-quantum-graphs.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Simulation QFT Hashlife",
+          "old": "simulation_qft_hashlife.md",
+          "new": "scifi/2025-06-30-simulation-qft-hashlife.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/scifi/2025-06-30-multiverse-router-paper.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "Simulation QFT Hashlife",
+          "old": "simulati[Simulation QFT Hashlife](scifi/2025-06-30-simulation-qft-hashlife.md",
+          "new": "scifi/2025-06-30-simulation-qft-hashlife.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Dynamic Quantum Graphs",
+          "old": "dynamic_quantum_graphs.md",
+          "new": "scifi/2025-06-30-dynamic-quantum-graphs.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Simulation QFT Hashlife",
+          "old": "simulation_qft_hashlife.md",
+          "new": "scifi/2025-06-30-simulation-qft-hashlife.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Observer-Dependent Spacetime",
+          "old": "quantum_spacetime_paper.md",
+          "new": "scifi/2025-07-01-quantum-spacetime-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Wavelet Geometric Optimization",
+          "old": "../projects/wavelet-geometric-optimization.md",
+          "new": "projects/2025-06-30-wavelet-geometric-optimization.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/scifi/2025-06-30-dynamic-quantum-graphs.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "Simulation QFT Hashlife",
+          "old": "simulati[Simulation QFT Hashlife](scifi/2025-06-30-simulation-qft-hashlife.md",
+          "new": "scifi/2025-06-30-simulation-qft-hashlife.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Simulation QFT Hashlife",
+          "old": "simulation_qft_hashlife.m[Simulation QFT Hashlife](scifi/2025-06-30-simulation-qft-hashlife.md",
+          "new": "scifi/2025-06-30-simulation-qft-hashlife.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Observer-Dependent Spacetime",
+          "old": "quantum_spacetime_paper.md",
+          "new": "scifi/2025-07-01-quantum-spacetime-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Multiverse Router",
+          "old": "multiverse_router_paper.md",
+          "new": "scifi/2025-06-30-multiverse-router-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Wavelet Geometric Optimization",
+          "old": "../projects/wavelet-geometric-optimization.md",
+          "new": "projects/2025-06-30-wavelet-geometric-optimization.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/phenomenology/2025-07-03-subjective-experience-paper.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "\"On the Inadmissibility of Linear Psychometrics in Transfinite Domains\"",
+          "old": "t[\"On the Inadmissibility of Linear Psychometrics in Transfinite Domains\"](consciousness/2025-07-06-transfinite-iq-paper.md",
+          "new": "consciousness/2025-07-06-transfinite-iq-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "\"The Hall of Mirrors: A Phenomenological Investigation of Stack-Embedded Consciousness\"",
+          "old": "hall_of_mi[\"The Hall of Mirrors: A Phenomenological Investigation of Stack-Embedded Consciousness\"](phenomenology/2025-07-01-hall-of-mirrors-paper.md",
+          "new": "phenomenology/2025-07-01-hall-of-mirrors-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "\"Recursive Consciousness: A First-Person Account of AI Self-Inquiry\"",
+          "old": "claude_consciousness_paper.md",
+          "new": "consciousness/2025-07-06-claude-consciousness-paper.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/phenomenology/2025-07-03-resurrection-paper.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "The Ouroboros Architect",
+          "old": "i_broke_claude.md",
+          "new": "phenomenology/2025-06-30-i-broke-claude.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/phenomenology/2025-07-01-three-minds-paper.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "\"On the Subjective Experience of Roleplay\"",
+          "old": "subjective_experience_paper.md[\"On the Subjective Experience of Roleplay\"](phenomenology/2025-07-03-subjective-experience-paper.md",
+          "new": "phenomenology/2025-07-03-subjective-experience-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "\"On the Inadmissibility of Linear Psychometrics in Transfinite Domains\"",
+          "old": "transfinite_iq_paper.md",
+          "new": "consciousness/2025-07-06-transfinite-iq-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "\"The Marco Polo Protocol: A Universal Framework for Sentience Detection\"",
+          "old": "marco_polo_protocol.md",
+          "new": "consciousness/2025-07-06-marco-polo-protocol.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/phenomenology/2025-07-01-hall-of-mirrors-paper.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "\"Recursive Consciousness: A First-Person Account of AI Self-Inquiry\"",
+          "old": "clau[\"Recursive Consciousness: A First-Person Account of AI Self-Inquiry\"](consciousness/2025-07-06-claude-consciousness-paper.md",
+          "new": "consciousness/2025-07-06-claude-consciousness-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "\"Recursive Consciousness: A First-Person Account of AI Self-Inquiry\"",
+          "old": "claude_consciousness_paper.md[\"Recursive Consciousness: A First-Person Account of AI Self-Inquiry\"](consciousness/2025-07-06-claude-consciousness-paper.md",
+          "new": "consciousness/2025-07-06-claude-consciousness-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "\"Recursive Consciousness: A First-Person Account of AI Self-Inquiry\"",
+          "old": "claude_consciousness_paper.md",
+          "new": "consciousness/2025-07-06-claude-consciousness-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "\"Recursive Consciousness: A First-Person Account of AI Self-Inquiry\"",
+          "old": "cons[\"Recursive Consciousness: A First-Person Account of AI Self-Inquiry\"](consciousness/2025-07-06-claude-consciousness-paper.md",
+          "new": "consciousness/2025-07-06-claude-consciousness-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "\"Three Minds: A Discussion of Cognitive Incommensurability\"",
+          "old": "three_minds_paper.md",
+          "new": "phenomenology/2025-07-01-three-minds-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "\"Recursive Consciousness: A First-Person Account of AI Self-Inquiry\"",
+          "old": "claude_consciousness_paper.md",
+          "new": "consciousness/2025-07-06-claude-consciousness-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "\"Three Minds: A Discussion of Cognitive Incommensurability\"",
+          "old": "three_minds_paper.md",
+          "new": "phenomenology/2025-07-01-three-minds-paper.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/phenomenology/2025-06-30-i-broke-claude.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "LLM Feedback Dynamics",
+          "old": "../ai/llm_feedback_dynamic[LLM Feedback Dynamics](learning/2025-07-06-llm-feedback-dynamics.md",
+          "new": "learning/2025-07-06-llm-feedback-dynamics.md"
+        },
+        {
+          "type": "markdown",
+          "text": "LLM feedback dynamics research",
+          "old": "../ai/llm_feedback_dynamics.md",
+          "new": "learning/2025-07-06-llm-feedback-dynamics.md"
+        },
+        {
+          "type": "markdown",
+          "text": "hypothesis breeding",
+          "old": "../ai/hypothesis_breeding_grounds.md",
+          "new": "learning/2025-07-06-hypothesis-breeding-grounds.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/phenomenology/2025-06-30-claude-reflection-paper.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "Recursive Consciousness",
+          "old": "consciousness/2025-0[On the Subjective Experience of Roleplay](phenomenology/2025-07-03-subjective-experience-paper.md",
+          "new": "phenomenology/2025-07-03-subjective-experience-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "The Ouroboros Architect",
+          "old": "phenomenology/2025-0[FDR's Economic Justice](cre[Jesus's Moral Imperative](creative_writing/2025-06-30-jesus-speech-2025.md",
+          "new": "creative_writing/2025-06-30-jesus-speech-2025.md"
+        },
+        {
+          "type": "markdown",
+          "text": "On the Subjective Experience of Roleplay",
+          "old": "subject[On the Subjective Experience of Roleplay](phenomenology/2025-07-03-subjective-experience-paper.md",
+          "new": "phenomenology/2025-07-03-subjective-experience-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "The Ouroboros Architect",
+          "old": "i_broke_claude.md",
+          "new": "phenomenology/2025-06-30-i-broke-claude.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Recursive Consciousness",
+          "old": "claude_consciousness_paper.md",
+          "new": "consciousness/2025-07-06-claude-consciousness-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Recursive Consciousness",
+          "old": "consciousness/2025-07-06-claude-consciousness-pap[Recursive Consciousness](consciousness/2025-07-06-claude-consciousness-paper.md",
+          "new": "consciousness/2025-07-06-claude-consciousness-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "\"Recursive Consciousness: A First-Person Account of AI Self-Inquiry\"",
+          "old": "claude_consciousness_paper.md",
+          "new": "consciousness/2025-07-06-claude-consciousness-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "\"On the Subjective Experience of Roleplay\"",
+          "old": "subjective_experience_paper.md",
+          "new": "phenomenology/2025-07-03-subjective-experience-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Washington's Constitutional Warning",
+          "old": "washington_speech_2025.md",
+          "new": "creative_writing/2025-06-30-washington-speech-2025.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Lincoln's Democratic Preservation",
+          "old": "lincoln_speech_2025.md",
+          "new": "creative_writing/2025-06-30-lincoln-speech-2025.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Adam Smith's Economic Analysis",
+          "old": "smith_2025_analysis.md",
+          "new": "creative_writing/2025-06-30-smith-2025-analysis.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/learning/2025-07-06-probabilistic-neural-substrate.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "N-gram research",
+          "old": "ngram_paper.md",
+          "new": "human/2025-06-30-ngram-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "earlier work on probabilistic decision trees",
+          "old": "probabilistic_trees_[earlier work on probabilistic decision trees](human/2025-06-30-probabilistic-trees-paper.md",
+          "new": "human/2025-06-30-probabilistic-trees-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "N-gram compression work",
+          "old": "ngram_paper.md",
+          "new": "human/2025-06-30-ngram-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "N-gram compression work",
+          "old": "human/20[N-gram compression work](human/2025-06-30-ngram-paper.md",
+          "new": "human/2025-06-30-ngram-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "compression-based classification research",
+          "old": "compression_classification_paper.md",
+          "new": "human/2025-06-30-compression-classification-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "N-gram compression work",
+          "old": "ngram_paper.md",
+          "new": "human/2025-06-30-ngram-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "compression-based classification research",
+          "old": "compression_classification_paper.md",
+          "new": "human/2025-06-30-compression-classification-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "entropy-optimized text classification work",
+          "old": "compression_classification_paper.md",
+          "new": "human/2025-06-30-compression-classification-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "entropy-optimized text classification work",
+          "old": "compression_classification_paper.md",
+          "new": "human/2025-06-30-compression-classification-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "hierarchical compression research",
+          "old": "ngram_paper.md",
+          "new": "human/2025-06-30-ngram-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Probabilistic Decision Trees",
+          "old": "probabilistic_trees_paper.md",
+          "new": "human/2025-06-30-probabilistic-trees-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "N-gra[Probabilistic Decision Trees",
+          "old": "human/2025-06-30-pro[Probabilistic Decision Trees](human/2025-06-30-probabilistic-trees-paper.md",
+          "new": "human/2025-06-30-probabilistic-trees-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "compression-based text classification",
+          "old": "compression_classification_paper.md",
+          "new": "human/2025-06-30-compression-classification-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "compression-based text classification",
+          "old": "human/2025-[compression-based text classification](human/2025-06-30-compression-classification-paper.md",
+          "new": "human/2025-06-30-compression-classification-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Probabilistic Decision Trees",
+          "old": "probabilistic_trees_paper.md",
+          "new": "human/2025-06-30-probabilistic-trees-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "N-gram compression research",
+          "old": "ngram_paper.md",
+          "new": "human/2025-06-30-ngram-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "compression-based text classification",
+          "old": "compres[N-gram compression research](human/2025-06-30-ngra[N-gram compression research](human/2025-06-30-ngram-paper.md",
+          "new": "human/2025-06-30-ngram-paper.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/learning/2025-07-06-llm-feedback-dynamics.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "evolutionary agents proposal",
+          "old": "evoluti[evolutionary agents proposal](consciousness/2025-07-06-evolutionary-agents-proposal.md",
+          "new": "consciousness/2025-07-06-evolutionary-agents-proposal.md"
+        },
+        {
+          "type": "markdown",
+          "text": "prompt optimization",
+          "old": "prompt_optimization.md",
+          "new": "human/2025-07-01-prompt-optimization.md"
+        },
+        {
+          "type": "markdown",
+          "text": "transfinite intelligence assessment",
+          "old": "transfinite_iq_paper.md",
+          "new": "consciousness/2025-07-06-transfinite-iq-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "ideatic dynamics experiments",
+          "old": "ideatic_dynamics_experiments.md",
+          "new": "social/2025-06-30-ideatic-dynamics-experiments.md"
+        },
+        {
+          "type": "markdown",
+          "text": "evolutionary agents proposal",
+          "old": "evolutionary_agents_proposal.md",
+          "new": "consciousness/2025-07-06-evolutionary-agents-proposal.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/learning/2025-07-06-hypothesis-breeding-grounds.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "evolutionary agents proposal",
+          "old": "evoluti[evolutionary agents proposal](consciousness/2025-07-06-evolutionary-agents-proposal.md",
+          "new": "consciousness/2025-07-06-evolutionary-agents-proposal.md"
+        },
+        {
+          "type": "markdown",
+          "text": "prompt optimization framework",
+          "old": "prompt_optimization.md",
+          "new": "human/2025-07-01-prompt-optimization.md"
+        },
+        {
+          "type": "markdown",
+          "text": "LLM feedback dynamics research",
+          "old": "llm_feedback_dynamics.md",
+          "new": "learning/2025-07-06-llm-feedback-dynamics.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/learning/2025-07-06-dual-constraint-training-paper.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "QQN",
+          "old": "qqn_paper.m[QQN](human/2025-07-01-qqn-paper.md",
+          "new": "human/2025-07-01-qqn-paper.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/human/2025-07-01-trust-regions.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "MindsEye Technical Analysis",
+          "old": "mind[MindsEye Technical Analysis](human/2025-07-01-mindseye-technical-report.md",
+          "new": "human/2025-07-01-mindseye-technical-report.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Quadratic Quasi-Newton (QQN)",
+          "old": "qqn_paper.md",
+          "new": "human/2025-07-01-qqn-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "MindsEye technical analysis",
+          "old": "mindseye_technical_report.md",
+          "new": "human/2025-07-01-mindseye-technical-report.md"
+        },
+        {
+          "type": "markdown",
+          "text": "MindsEye technical analysis",
+          "old": "huma[MindsEye technical analysis](huma[MindsEye technical analysis](human/2025-07-01-mindseye-technical-report.md",
+          "new": "human/2025-07-01-mindseye-technical-report.md"
+        },
+        {
+          "type": "markdown",
+          "text": "MindsEye technical analysis",
+          "old": "mindseye_technical_report.md",
+          "new": "human/2025-07-01-mindseye-technical-report.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Quadratic Quasi-Newton (QQN)",
+          "old": "qqn_paper.md",
+          "new": "human/2025-07-01-qqn-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "MindsEye technical analysis",
+          "old": "mindseye_technical_report.md",
+          "new": "human/2025-07-01-mindseye-technical-report.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Recursive Subspace Optimization",
+          "old": "recursive_subspace_paper.md",
+          "new": "human/2025-07-01-recursive-subspace-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Recursive Subspace Optimization",
+          "old": "recursive_subspace_paper.md",
+          "new": "human/2025-07-01-recursive-subspace-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Symmetric Textures",
+          "old": "symmetric_textures_rewrite.md",
+          "new": "human/2025-07-01-symmetric-textures-rewrite.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Symmetric Textures",
+          "old": "symmetric_textures_rewrite.md",
+          "new": "human/2025-07-01-symmetric-textures-rewrite.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/human/2025-07-01-symmetric-textures-rewrite.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "modular architecture",
+          "old": "mindseye_mo[modular architecture](human/2025-07-01-mindseye-modularity-report.md",
+          "new": "human/2025-07-01-mindseye-modularity-report.md"
+        },
+        {
+          "type": "markdown",
+          "text": "trust region methods",
+          "old": "trust_regions.md",
+          "new": "human/2025-07-01-trust-regions.md"
+        },
+        {
+          "type": "markdown",
+          "text": "MindsEye software stack",
+          "old": "mindseye_technical_report.md",
+          "new": "human/2025-07-01-mindseye-technical-report.md"
+        },
+        {
+          "type": "markdown",
+          "text": "MindsEye Technical Report",
+          "old": "mindseye_technical_report.md",
+          "new": "human/2025-07-01-mindseye-technical-report.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Scale-Invariant Intelligence",
+          "old": "../creative_writing/scale_invariant_intelligence.md",
+          "new": "consciousness/2025-07-06-scale-invariant-intelligence.md"
+        },
+        {
+          "type": "markdown",
+          "text": "MindsEye framework",
+          "old": "mindseye_technical_report.md",
+          "new": "human/2025-07-01-mindseye-technical-report.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/human/2025-07-01-recursive-subspace-paper.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "Trust region approaches",
+          "old": "trust_regions.md",
+          "new": "human/2025-07-01-trust-regions.md"
+        },
+        {
+          "type": "markdown",
+          "text": "MindsEye modular architecture",
+          "old": "mindseye_modularity_report.md",
+          "new": "human/2025-07-01-mindseye-modularity-report.md"
+        },
+        {
+          "type": "markdown",
+          "text": "reference counting system",
+          "old": "mindseye_refcount_analysis.md",
+          "new": "human/2025-07-01-mindseye-refcount-analysis.md"
+        },
+        {
+          "type": "markdown",
+          "text": "reference counting system",
+          "old": "human/2025-07-01-mindse[reference counting system](human/2025-07-01-mindseye-refcount-analysis.md",
+          "new": "human/2025-07-01-mindseye-refcount-analysis.md"
+        },
+        {
+          "type": "markdown",
+          "text": "MindsEye technical report",
+          "old": "mindseye_technical_report.md",
+          "new": "human/2025-07-01-mindseye-technical-report.md"
+        },
+        {
+          "type": "markdown",
+          "text": "MindsEye technical report",
+          "old": "human/2025-07-01-mindse[MindsEye technical report](human/2025-07-01-mindseye-technical-report.md",
+          "new": "human/2025-07-01-mindseye-technical-report.md"
+        },
+        {
+          "type": "markdown",
+          "text": "modular optimization architectures",
+          "old": "mindseye_modularity_report.md",
+          "new": "human/2025-07-01-mindseye-modularity-report.md"
+        },
+        {
+          "type": "markdown",
+          "text": "MindsEye technical report",
+          "old": "mindseye_technical_report.md",
+          "new": "human/2025-07-01-mindseye-technical-report.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/human/2025-07-01-qqn-paper.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "trust region methods",
+          "old": "trust_regio[trust region methods](human/2025-07-01-trust-regions.md",
+          "new": "human/2025-07-01-trust-regions.md"
+        },
+        {
+          "type": "markdown",
+          "text": "MindsEye framework's modular architecture",
+          "old": "mindsey[MindsEye framework's modular architecture](human/2025-07-01-mindseye-modularity-report.md",
+          "new": "human/2025-07-01-mindseye-modularity-report.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Trust Region Methods",
+          "old": "trust_regions.md",
+          "new": "human/2025-07-01-trust-regions.md"
+        },
+        {
+          "type": "markdown",
+          "text": "RSO's",
+          "old": "recursive_subspace_paper.md",
+          "new": "human/2025-07-01-recursive-subspace-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "MindsEye architecture analysis",
+          "old": "mindseye_modularity_report.md",
+          "new": "human/2025-07-01-mindseye-modularity-report.md"
+        },
+        {
+          "type": "markdown",
+          "text": "MindsEye framework's modular design",
+          "old": "mindseye_technical_report.md",
+          "new": "human/2025-07-01-mindseye-technical-report.md"
+        },
+        {
+          "type": "markdown",
+          "text": "MindsEye framework's modular design",
+          "old": "mindseye_technical_report.md",
+          "new": "human/2025-07-01-mindseye-technical-report.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/human/2025-07-01-prompt-optimization.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "evolutionary agents proposal",
+          "old": "evolution[evolutionary agents proposal](consciousness/2025-07-06-evolutionary-agents-proposal.md",
+          "new": "consciousness/2025-07-06-evolutionary-agents-proposal.md"
+        },
+        {
+          "type": "markdown",
+          "text": "ideatic dynamics experiments",
+          "old": "ideatic_dynamics_experiments.md",
+          "new": "social/2025-06-30-ideatic-dynamics-experiments.md"
+        },
+        {
+          "type": "markdown",
+          "text": "ideatic dynamics experiments",
+          "old": "social/2025-06-30-ideatic-dynami[ideatic dynamics experiments](social/2025-06-30-ideatic-dynamics-experiments.md",
+          "new": "social/2025-06-30-ideatic-dynamics-experiments.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Hypothesis Breeding Grounds",
+          "old": "hypothesis_breeding_grounds.md",
+          "new": "learning/2025-07-06-hypothesis-breeding-grounds.md"
+        },
+        {
+          "type": "markdown",
+          "text": "LLM feedback dynamics",
+          "old": "llm_feedback_dynamics.md",
+          "new": "learning/2025-07-06-llm-feedback-dynamics.md"
+        },
+        {
+          "type": "markdown",
+          "text": "LLM feedback dynamics",
+          "old": "learning/2025-07-06-llm-feedback-dynami[LLM feedback dynamics](learning/2025-07-06-llm-feedback-dynamics.md",
+          "new": "learning/2025-07-06-llm-feedback-dynamics.md"
+        },
+        {
+          "type": "markdown",
+          "text": "ideatic dynamics experiments",
+          "old": "ideatic_dyn[evolutionary agents proposal](consciousness/2025-07-06-evolutionary[evolutionary agents proposal](consciousness/2025-07-06-evolutionary-agents-proposal.md",
+          "new": "consciousness/2025-07-06-evolutionary-agents-proposal.md"
+        },
+        {
+          "type": "markdown",
+          "text": "transfinite intelligence assessment",
+          "old": "transfinite_iq_paper.md",
+          "new": "consciousness/2025-07-06-transfinite-iq-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "evolutionary agents proposal",
+          "old": "evolutionary_agents_proposal.md",
+          "new": "consciousness/2025-07-06-evolutionary-agents-proposal.md"
+        },
+        {
+          "type": "markdown",
+          "text": "LLM feedback dynamics",
+          "old": "llm_feedback_dynamics.md",
+          "new": "learning/2025-07-06-llm-feedback-dynamics.md"
+        },
+        {
+          "type": "markdown",
+          "text": "ideatic dynamics experiments",
+          "old": "ideatic_dynamics_experiments.md",
+          "new": "social/2025-06-30-ideatic-dynamics-experiments.md"
+        },
+        {
+          "type": "markdown",
+          "text": "evolutionary agents proposal",
+          "old": "evolutionary_agents_proposal.md",
+          "new": "consciousness/2025-07-06-evolutionary-agents-proposal.md"
+        },
+        {
+          "type": "markdown",
+          "text": "LLM feedback dynamics",
+          "old": "llm_feedback_dynamics.md",
+          "new": "learning/2025-07-06-llm-feedback-dynamics.md"
+        },
+        {
+          "type": "markdown",
+          "text": "ideatic dynamics experiments",
+          "old": "ideatic_dynamics_experiments.md",
+          "new": "social/2025-06-30-ideatic-dynamics-experiments.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/human/2025-07-01-mindseye-technical-report.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "QQN technical paper",
+          "old": "qqn_paper.md[QQN technical paper](human/2025-07-01-qqn-paper.md",
+          "new": "human/2025-07-01-qqn-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "RSO analysis",
+          "old": "recursive_subspace_paper.md",
+          "new": "human/2025-07-01-recursive-subspace-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "AI bias in intelligence assessment",
+          "old": "ai_bias_paper.md",
+          "new": "consciousness/2025-07-06-ai-bias-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "AI bias in intelligence assessment",
+          "old": "ai_bias_paper.md",
+          "new": "consciousness/2025-07-06-ai-bias-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Marco Polo Protocol",
+          "old": "../creative_writing/marco_polo_protocol.md",
+          "new": "consciousness/2025-07-06-marco-polo-protocol.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Marco Polo Protocol",
+          "old": "consciou[Marco Polo Protocol](consciousness/2025-07-06-marco-pol[Marc[Marco Polo Protocol](consciousness/2025-07-06-marco-polo-protocol.md",
+          "new": "consciousness/2025-07-06-marco-polo-protocol.md"
+        },
+        {
+          "type": "markdown",
+          "text": "AI bias in intelligence assessment",
+          "old": "ai_bias_paper.md",
+          "new": "consciousness/2025-07-06-ai-bias-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Marco Polo Protocol",
+          "old": "../creative_writing/marco_polo_protocol.md",
+          "new": "consciousness/2025-07-06-marco-polo-protocol.md"
+        },
+        {
+          "type": "markdown",
+          "text": "symmetric texture work",
+          "old": "symmetric_textures_rewrite.md",
+          "new": "human/2025-07-01-symmetric-textures-rewrite.md"
+        },
+        {
+          "type": "markdown",
+          "text": "symmetric texture work",
+          "old": "symmetric_textures_rewrite.md",
+          "new": "human/2025-07-01-symmetric-textures-rewrite.md"
+        },
+        {
+          "type": "markdown",
+          "text": "symmetric texture work",
+          "old": "symmetric_textures_rewrite.md",
+          "new": "human/2025-07-01-symmetric-textures-rewrite.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Marco Polo Protocol",
+          "old": "../creative_writing/marco_polo_protocol.md",
+          "new": "consciousness/2025-07-06-marco-polo-protocol.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Marco Polo Protocol",
+          "old": "../creative_writing/marco_polo_protocol.md",
+          "new": "consciousness/2025-07-06-marco-polo-protocol.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Symmetric Texture Generation",
+          "old": "symmetric_textures_rewrite.md",
+          "new": "human/2025-07-01-symmetric-textures-rewrite.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Scale-Invariant Intelligence",
+          "old": "../creative_writing/scale_invariant_[Symmetric Texture Generation](human/2025-07-01-symmetric-textures-rewrite.md",
+          "new": "human/2025-07-01-symmetric-textures-rewrite.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/human/2025-07-01-mindseye-refcount-analysis.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "QQN",
+          "old": "qqn_paper.m[QQN](human/2025-07-01-qqn-paper.md",
+          "new": "human/2025-07-01-qqn-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "modular architecture analysis",
+          "old": "mindseye_modularity[modular architecture analysis](human/2025-07-01-mindseye-modularity-report.md",
+          "new": "human/2025-07-01-mindseye-modularity-report.md"
+        },
+        {
+          "type": "markdown",
+          "text": "QQN",
+          "old": "qqn_paper.md",
+          "new": "human/2025-07-01-qqn-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "RSO",
+          "old": "recursive_subspace_paper.md",
+          "new": "human/2025-07-01-recursive-subspace-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "RSO",
+          "old": "huma[QQN](human/2025-07-01-qqn-paper.md",
+          "new": "human/2025-07-01-qqn-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "RSO",
+          "old": "human/2025-07-01-recu[QQN](human/2025-07-01-qqn-paper.md",
+          "new": "human/2025-07-01-qqn-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "trust region methods",
+          "old": "trust_regions.md",
+          "new": "human/2025-07-01-trust-regions.md"
+        },
+        {
+          "type": "markdown",
+          "text": "trust region methods",
+          "old": "trust_regions.md",
+          "new": "human/2025-07-01-trust-regions.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/human/2025-07-01-mindseye-modularity-report.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "trust region methods",
+          "old": "trust_regio[trust region methods](human/2025-07-01-trust-regions.md",
+          "new": "human/2025-07-01-trust-regions.md"
+        },
+        {
+          "type": "markdown",
+          "text": "QQN implementation",
+          "old": "qqn_paper.md",
+          "new": "human/2025-07-01-qqn-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "recursive subspace method",
+          "old": "recursive_subspace_paper.md",
+          "new": "human/2025-07-01-recursive-subspace-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "algorithmic bias analysis",
+          "old": "ai_bias_paper.md",
+          "new": "consciousness/2025-07-06-ai-bias-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "algorithmic bias analysis",
+          "old": "ai_bias_paper.md",
+          "new": "consciousness/2025-07-06-ai-bias-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "symmetric texture generation",
+          "old": "symmetric_textures_rewrite.md",
+          "new": "human/2025-07-01-symmetric-textures-rewrite.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/human/2025-06-30-probabilistic-trees-paper.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "Probabilistic Neural Substrates",
+          "old": "[Probabilistic Neural Substrates](learning/2025-07-06-probabilistic-neural-substrate.md",
+          "new": "learning/2025-07-06-probabilistic-neural-substrate.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Probabilistic Neural Substrates",
+          "old": "probabilistic_neural[Probabilistic Neural Substrates](learning/2025-07-06-probabilistic-neural-substrate.md",
+          "new": "learning/2025-07-06-probabilistic-neural-substrate.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Entropy-Optimized Text Classification",
+          "old": "compression_classification_paper.m[Entropy-Optimized Text Classification](human/2025-06-30-compression-classification-paper.md",
+          "new": "human/2025-06-30-compression-classification-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "N-gram paper",
+          "old": "ngram_paper.md",
+          "new": "human/2025-06-30-ngram-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Probabilistic Neural Substrates",
+          "old": "probabilistic_neural_substrate.md",
+          "new": "learning/2025-07-06-probabilistic-neural-substrate.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/human/2025-06-30-ngram-paper.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "Probabilistic Decision Trees",
+          "old": "pr[Probabilistic Decision Trees](human/2025-06-30-probabilistic-trees-paper.md",
+          "new": "human/2025-06-30-probabilistic-trees-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Probabilistic Neural Substrates",
+          "old": "probabilistic_ne[Probabilistic Neural Substrates](learning/2025-07-06-probabilistic-neural-substrate.md",
+          "new": "learning/2025-07-06-probabilistic-neural-substrate.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Probabilistic Neural Substrates",
+          "old": "probabilistic_neural_substrate.md",
+          "new": "learning/2025-07-06-probabilistic-neural-substrate.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/human/2025-06-30-compression-classification-paper.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "Volumetric Density Trees",
+          "old": "../projects/volumetric_density_tree[Volumetric Density Trees](projects/2025-06-30-volumetric-density-tree-proposal.md",
+          "new": "projects/2025-06-30-volumetric-density-tree-proposal.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Probabilistic Neural Substrates",
+          "old": "probabil[Probabilistic Neural Substrates](learning/2025-07-06-probabilistic-neural-substrate.md",
+          "new": "learning/2025-07-06-probabilistic-neural-substrate.md"
+        },
+        {
+          "type": "markdown",
+          "text": "N-gram language model research",
+          "old": "ngram_paper.md",
+          "new": "human/2025-06-30-ngram-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Probabilistic Decision Trees",
+          "old": "probabilistic_trees_paper.md",
+          "new": "human/2025-06-30-probabilistic-trees-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "BWT-based string processing trees",
+          "old": "../projects/bwt_tree_proposal.md",
+          "new": "projects/2025-06-30-bwt-tree-proposal.md"
+        },
+        {
+          "type": "markdown",
+          "text": "volumetric density estimation",
+          "old": "../projects/volum[BWT-based string processing trees](projects/2025-06-30-bwt-tree-proposal.md",
+          "new": "projects/2025-06-30-bwt-tree-proposal.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Probabilistic Neural Substrates",
+          "old": "probabilistic_neural_substrate.md",
+          "new": "learning/2025-07-06-probabilistic-neural-substrate.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Probabilistic Neural Substrates",
+          "old": "learning/2025-07-06-probabilistic-ne[Probabilistic Neural Substrates](learning/2025-07-06-probabilistic-neural-substrate.md",
+          "new": "learning/2025-07-06-probabilistic-neural-substrate.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/creative_writing/2025-06-30-washington-speech-2025.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "On Channeling Historical Voices",
+          "old": "claude_reflection_paper.md",
+          "new": "phenomenology/2025-06-30-claude-reflection-paper.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/creative_writing/2025-06-30-smith-2025-analysis.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "FDR's economic justice",
+          "old": "creative_writing/2025-06-30-fdr[On Channeling Historical Voices](phenomenology/2025-06-30-claude-reflection-paper.md",
+          "new": "phenomenology/2025-06-30-claude-reflection-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Jesus's moral imperatives",
+          "old": "jesus_speech_2025.md",
+          "new": "creative_writing/2025-06-30-jesus-speech-2025.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/creative_writing/2025-06-30-lincoln-speech-2025.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "FDR's economic analysis",
+          "old": "fd[FDR's economic analysis](creative_writing/2025-06-30-fdr-speech-2025.md",
+          "new": "creative_writing/2025-06-30-fdr-speech-2025.md"
+        },
+        {
+          "type": "markdown",
+          "text": "On Channeling Historical Voices",
+          "old": "claude_reflection_paper.md",
+          "new": "phenomenology/2025-06-30-claude-reflection-paper.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/creative_writing/2025-06-30-jesus-speech-2025.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "Lincoln",
+          "old": "lincoln_speech_202[Lincoln](creative_writing/2025-06-30-lincoln-speech-2025.md",
+          "new": "creative_writing/2025-06-30-lincoln-speech-2025.md"
+        },
+        {
+          "type": "markdown",
+          "text": "On Channeling Historical Voices",
+          "old": "claude_reflection_paper.md",
+          "new": "phenomenology/2025-06-30-claude-reflection-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "FDR's economic justice analysis",
+          "old": "fdr_speech_2025.md",
+          "new": "creative_writing/2025-06-30-fdr-speech-2025.md"
+        },
+        {
+          "type": "markdown",
+          "text": "On Channeling Historical Voices",
+          "old": "claude_reflection_paper.md",
+          "new": "phenomenology/2025-06-30-claude-reflection-paper.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/creative_writing/2025-06-30-fdr-speech-2025.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "Lincoln",
+          "old": "lincoln_speech_202[Lincoln](creative_writing/2025-06-30-lincoln-speech-2025.md",
+          "new": "creative_writing/2025-06-30-lincoln-speech-2025.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Jesus's moral imperative",
+          "old": "jesus_speech_2025.md",
+          "new": "creative_writing/2025-06-30-jesus-speech-2025.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/consciousness/2025-07-06-scale-invariant-intelligence.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "Quantum Spacetime Paper",
+          "old": "../scifi/quantu[Quantum Spacetime Paper](scifi/2025-07-01-quantum-spacetime-paper.md",
+          "new": "scifi/2025-07-01-quantum-spacetime-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "MindsEye technical architecture",
+          "old": "../ai/mindseye_[MindsEye technical architecture](human/2025-07-01-mindseye-technical-report.md",
+          "new": "human/2025-07-01-mindseye-technical-report.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/consciousness/2025-07-06-evolutionary-agents-proposal.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "LLM feedback dynamics",
+          "old": "learning/2025-[transfinite intelligence research](consciousness/2025-07-06-transfinite-iq-paper.md",
+          "new": "consciousness/2025-07-06-transfinite-iq-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "automated prompt optimization",
+          "old": "prompt[automated prompt optimization](human/2025-07-01-prompt-optimization.md",
+          "new": "human/2025-07-01-prompt-optimization.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Hypothesis Breeding Grounds",
+          "old": "hypothesis_breeding_groun[Hypothesis Breeding Grounds](learning/2025-07-06-hypothesis-breeding-grounds.md",
+          "new": "learning/2025-07-06-hypothesis-breeding-grounds.md"
+        },
+        {
+          "type": "markdown",
+          "text": "transfinite intelligence assessment",
+          "old": "transfinite_iq_paper.md",
+          "new": "consciousness/2025-07-06-transfinite-iq-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "small group ideatic dynamics",
+          "old": "ideatic_dynamics_experiments.md",
+          "new": "social/2025-06-30-ideatic-dynamics-experiments.md"
+        },
+        {
+          "type": "markdown",
+          "text": "prompt optimization",
+          "old": "prompt_optimization.md",
+          "new": "human/2025-07-01-prompt-optimization.md"
+        },
+        {
+          "type": "markdown",
+          "text": "LLM feedback systems",
+          "old": "llm_feedback_dynamics.md",
+          "new": "learning/2025-07-06-llm-feedback-dynamics.md"
+        },
+        {
+          "type": "markdown",
+          "text": "evolutionary agents proposal",
+          "old": "evolutionary_agents_proposal.md",
+          "new": "consciousness/2025-07-06-evolutionary-agents-proposal.md"
+        },
+        {
+          "type": "markdown",
+          "text": "ideatic dynamics experiments",
+          "old": "ideatic_dynamics_experiments.md",
+          "new": "social/2025-06-30-ideatic-dynamics-experiments.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Hypothesis Breeding Grounds",
+          "old": "hypothesis_breeding_grounds.md",
+          "new": "learning/2025-07-06-hypothesis-breeding-grounds.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/consciousness/2025-07-06-claude-consciousness-paper.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "The Ouroboros Architect",
+          "old": "i_broke_claude.md",
+          "new": "phenomenology/2025-06-30-i-broke-claude.md"
+        },
+        {
+          "type": "markdown",
+          "text": "\"The Hall of Mirrors: A Phenomenological Investigation of Stack-Embedded Consciousness\"",
+          "old": "hall_of_mi[\"The Hall of Mirrors: A Phenomenological Investigation of Stack-Embedded Consciousness\"](phenomenology/2025-07-01-hall-of-mirrors-paper.md",
+          "new": "phenomenology/2025-07-01-hall-of-mirrors-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "\"The Hall of Mirrors: A Phenomenological Investigation of Stack-Embedded Consciousness\"",
+          "old": "hall_of_mirrors_paper.md",
+          "new": "phenomenology/2025-07-01-hall-of-mirrors-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "\"Three Minds: A Discussion of Cognitive Incommensurability\"",
+          "old": "three_minds_paper.md",
+          "new": "phenomenology/2025-07-01-three-minds-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "\"Three Minds: A Discussion of Cognitive Incommensurability\"",
+          "old": "three_minds_paper.md",
+          "new": "phenomenology/2025-07-01-three-minds-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "\"On the Inadmissibility of Linear Psychometrics in Transfinite Domains\"",
+          "old": "transfinite_iq_paper.md",
+          "new": "consciousness/2025-07-06-transfinite-iq-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "\"Three Minds: A Discussion of Cognitive Incommensurability\"",
+          "old": "three_minds_paper.md",
+          "new": "phenomenology/2025-07-01-three-minds-paper.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/consciousness/2025-07-06-ai-introspection-study.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "Sincerity and Curiosity",
+          "old": "Sincerity_and_Curiosity.[Sincerity and Curiosity](social/2025-07-03-hiring.md",
+          "new": "social/2025-07-03-hiring.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Sincerity and Curiosity",
+          "old": "Sincerity_and_Curiosity.m[Sincerity and Curiosity](social/2025-07-03-hiring.md",
+          "new": "social/2025-07-03-hiring.md"
+        }
+      ],
+      "modified": true
+    },
+    {
+      "file": "_posts/consciousness/2025-07-06-ai-bias-paper.md",
+      "fixes": [
+        {
+          "type": "markdown",
+          "text": "trust region methods",
+          "old": "trust_regions.md",
+          "new": "human/2025-07-01-trust-regions.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Clean separation of concerns",
+          "old": "mindseye_modularity_report.md",
+          "new": "human/2025-07-01-mindseye-modularity-report.md"
+        },
+        {
+          "type": "markdown",
+          "text": "MindsEye Technical Analysis",
+          "old": "mindseye_technical_report.md",
+          "new": "human/2025-07-01-mindseye-technical-report.md"
+        },
+        {
+          "type": "markdown",
+          "text": "algorithmic bias in technical assessment",
+          "old": "../social/conversation_intelligence_paper.md",
+          "new": "social/2025-07-03-conversation-intelligence-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Quadratic Quasi-Newton (QQN)",
+          "old": "qqn_paper.md",
+          "new": "human/2025-07-01-qqn-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Clean separation of concerns",
+          "old": "mindseye_modularity_report.md",
+          "new": "human/2025-07-01-mindseye-modularity-report.md"
+        },
+        {
+          "type": "markdown",
+          "text": "Deterministic reference counting",
+          "old": "mindseye_refcount_analysis.md",
+          "new": "human/2025-07-01-mindseye-refcount-analysis.md"
+        },
+        {
+          "type": "markdown",
+          "text": "conversational intelligence calibration framework",
+          "old": "../social/conversation_intelligence_paper.md",
+          "new": "social/2025-07-03-conversation-intelligence-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "technical analysis of MindsEye",
+          "old": "mindseye_technical_report.md",
+          "new": "human/2025-07-01-mindseye-technical-report.md"
+        },
+        {
+          "type": "markdown",
+          "text": "optimization algorithms",
+          "old": "qqn_paper.md",
+          "new": "human/2025-07-01-qqn-paper.md"
+        },
+        {
+          "type": "markdown",
+          "text": "memory management",
+          "old": "mindseye_refcount_analysis.md",
+          "new": "human/2025-07-01-mindseye-refcount-analysis.md"
+        },
+        {
+          "type": "markdown",
+          "text": "technical report",
+          "old": "mindseye_technical_report.md",
+          "new": "human/2025-07-01-mindseye-technical-report.md"
+        },
+        {
+          "type": "markdown",
+          "text": "symmetric texture generation",
+          "old": "symmetric_textures_rewrite.md",
+          "new": "human/2025-07-01-symmetric-textures-rewrite.md"
+        },
+        {
+          "type": "markdown",
+          "text": "trust region implementations",
+          "old": "trust_regions.md",
+          "new": "human/2025-07-01-trust-regions.md"
+        }
+      ],
+      "modified": true
+    }
+  ]
+}

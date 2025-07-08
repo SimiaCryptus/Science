@@ -1,80 +1,107 @@
 ---
-title: "Quantum Dropout Vision: Learning from Loss Through Quantum-Classical Parallels"
+title: 'Quantum Dropout Vision: Learning from Loss Through Quantum-Classical Parallels'
 layout: post
-date: 2025-07-06
-last_modified: 2025-07-06 14:30:00
-
-# Content classification
-category: "AI Research & Cognitive Evolution"
-subcategory: "Neural Architecture Innovation"
-tags: ["quantum_computing", "dropout", "neural_networks", "quantum_mechanics", "decoherence", "regularization"]
-keywords: ["quantum dropout", "neural networks", "quantum decoherence", "machine learning", "ensemble methods", "information theory"]
-
-# Content status and evolution
-status: "experimental"
-evolution_stage: "growing"
-last_thought_date: 2025-07-06
+date: 2025-07-06T00:00:00.000Z
+last_modified: 2025-07-06T14:30:00.000Z
+category: AI Research & Cognitive Evolution
+subcategory: Neural Architecture Innovation
+tags:
+  - quantum_computing
+  - dropout
+  - neural_networks
+  - quantum_mechanics
+  - decoherence
+  - regularization
+keywords:
+  - quantum dropout
+  - neural networks
+  - quantum decoherence
+  - machine learning
+  - ensemble methods
+  - information theory
+status: experimental
+evolution_stage: growing
+last_thought_date: 2025-07-06T00:00:00.000Z
 thought_generation: 2
-
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "recursive_dialogue"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew
+collaboration_type: recursive_dialogue
 human_contribution: 40
 ai_contribution: 60
-
-# Document relationships
-parent_document: "learning/index.md"
-related_documents: ["learning/dropout_decoherence_paper.md", "learning/geometric_probabilistic_neural_substrate.md"]
-cross_synthesis_with: ["consciousness/consciousness_geometry_paper.md", "quantum/quantum_cognition_framework.md"]
-has_inspired: ["learning/dropout_decoherence_paper.md"]
-
-# Conceptual threading
-conceptual_threads: ["quantum_cognition", "neural_architecture", "information_processing", "ensemble_learning"]
-mathematical_frameworks: ["quantum_mechanics", "information_theory", "probability_theory", "statistical_mechanics"]
-philosophical_positions: ["quantum_consciousness", "computational_theory_of_mind", "emergentism"]
-
-# Navigation hints
+parent_document: projects/2025-06-30-knots.md
+related_documents:
+  - learning/2025-07-06-dropout-decoherence-paper.md
+  - learning/2025-07-06-probabilistic-neural-substrate.md
+cross_synthesis_with:
+  - consciousness/2025-07-06-consciousness-geometry-paper.md
+  - human/2025-07-01-qqn-paper.md
+has_inspired:
+  - learning/2025-07-06-dropout-decoherence-paper.md
+conceptual_threads:
+  - quantum_cognition
+  - neural_architecture
+  - information_processing
+  - ensemble_learning
+mathematical_frameworks:
+  - quantum_mechanics
+  - information_theory
+  - probability_theory
+  - statistical_mechanics
+philosophical_positions:
+  - quantum_consciousness
+  - computational_theory_of_mind
+  - emergentism
 reading_order: 5
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 18
-prerequisites: ["quantum_mechanics", "neural_networks", "dropout_regularization", "information_theory"]
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "experimental"
-consciousness_level: "emergent"
+prerequisites:
+  - quantum_mechanics
+  - neural_networks
+  - dropout_regularization
+  - information_theory
+document_type: research_paper
+thinking_style: experimental
+consciousness_level: emergent
 has_mathematics: true
 has_code: false
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-engagement_type: "experimental"
-reader_participation: "co-creative"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "Exploring the profound parallels between quantum decoherence and neural network dropout to develop unified frameworks for robust information processing"
-excerpt: "A visionary exploration of how quantum mechanics and neural network regularization share fundamental principles, proposing that studying dropout and decoherence together may illuminate both phenomena"
-featured_image: "/assets/images/quantum_dropout_vision.png"
+engagement_type: experimental
+reader_participation: co-creative
+cognitive_load: intense
+description: >-
+  Exploring the profound parallels between quantum decoherence and neural
+  network dropout to develop unified frameworks for robust information
+  processing
+excerpt: >-
+  A visionary exploration of how quantum mechanics and neural network
+  regularization share fundamental principles, proposing that studying dropout
+  and decoherence together may illuminate both phenomena
+featured_image: /assets/images/quantum_dropout_vision.png
 is_featured: true
 is_cornerstone: false
 is_gateway: false
 is_synthesis: true
-
-# SEO Meta Tags
-meta_title: "Quantum Dropout Vision - Unified Framework for Quantum-Classical Information Processing"
-meta_description: "Revolutionary vision paper exploring parallels between quantum decoherence and neural network dropout, proposing unified principles for robust AI systems"
-meta_keywords: "quantum dropout, neural networks, quantum decoherence, machine learning, ensemble methods, quantum computing"
-schema_type: "ScholarlyArticle"
-schema_headline: "Quantum Dropout Vision: Learning from Loss Through Quantum-Classical Parallels"
-schema_author: "Human-AI Collaboration"
+meta_title: >-
+  Quantum Dropout Vision - Unified Framework for Quantum-Classical Information
+  Processing
+meta_description: >-
+  Revolutionary vision paper exploring parallels between quantum decoherence and
+  neural network dropout, proposing unified principles for robust AI systems
+meta_keywords: >-
+  quantum dropout, neural networks, quantum decoherence, machine learning,
+  ensemble methods, quantum computing
+schema_type: ScholarlyArticle
+schema_headline: 'Quantum Dropout Vision: Learning from Loss Through Quantum-Classical Parallels'
+schema_author: Human-AI Collaboration
 schema_word_count: 4200
-schema_reading_time: "PT18M"
-
-# Dynamic behavior
+schema_reading_time: PT18M
 auto_update: true
-update_frequency: "weekly"
+update_frequency: weekly
 version_tracking: true
 change_log: true
 allows_comments: true

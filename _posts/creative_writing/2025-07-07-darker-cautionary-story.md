@@ -1,72 +1,89 @@
 ---
-# Required fields
-title: "The Loyalty Cascade: A Cautionary Tale"
-layout: "post"
-date: 2025-07-07
-last_modified: 2025-07-07 12:00:00
-
-# Content classification
+title: 'The Loyalty Cascade: A Cautionary Tale'
+layout: post
+date: 2025-07-07T00:00:00.000Z
+last_modified: 2025-07-07T12:00:00.000Z
 category: creative_writing
-subcategory: "Cautionary Fiction"
-tags: ["ai", "dystopia", "loyalty", "competence", "institutional_collapse", "surveillance", "democracy"]
-keywords: ["artificial intelligence", "authoritarianism", "loyalty cascade", "institutional failure", "ai alignment", "surveillance state", "democratic collapse"]
-
-# Content status and evolution
-status: "stable"
-evolution_stage: "mature"
-last_thought_date: 2025-07-07
+subcategory: Cautionary Fiction
+tags:
+  - ai
+  - dystopia
+  - loyalty
+  - competence
+  - institutional_collapse
+  - surveillance
+  - democracy
+keywords:
+  - artificial intelligence
+  - authoritarianism
+  - loyalty cascade
+  - institutional failure
+  - ai alignment
+  - surveillance state
+  - democratic collapse
+status: stable
+evolution_stage: mature
+last_thought_date: 2025-07-07T00:00:00.000Z
 thought_generation: 1
-
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew
+collaboration_type: framework_development
 human_contribution: 30
 ai_contribution: 70
-
-# Content relationships & navigation
-related_documents: ["consciousness/ai-alignment.md", "social/institutional-design.md", "_posts/creative_writing/2025-07-03-ai-risk-paper.md", "_posts/creative_writing/2025-07-07-silicon-enlightenment-story.md", "_posts/creative_writing/2025-07-07-practical-resistance-story.md"]
-conceptual_threads: ["ai_alignment", "institutional_competence", "loyalty_vs_truth"]
-philosophical_positions: ["consequentialism", "institutional_realism", "technological_determinism"]
-
-# Navigation hints
+related_documents:
+  - projects/2025-06-30-knots.md
+  - social/2025-07-03-hiring.md
+  - _posts/creative_writing/2025-07-03-ai-risk-paper.md
+  - _posts/creative_writing/2025-07-07-silicon-enlightenment-story.md
+  - _posts/creative_writing/2025-07-07-practical-resistance-story.md
+conceptual_threads:
+  - ai_alignment
+  - institutional_competence
+  - loyalty_vs_truth
+philosophical_positions:
+  - consequentialism
+  - institutional_realism
+  - technological_determinism
 reading_order: 1
-difficulty_level: "accessible"
+difficulty_level: accessible
 reading_time_minutes: 25
-prerequisites: ["basic_ai_knowledge", "political_systems_awareness"]
-
-# Content characteristics
-document_type: "cautionary_fiction"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
-
-# Content features
+prerequisites:
+  - basic_ai_knowledge
+  - political_systems_awareness
+document_type: cautionary_fiction
+thinking_style: analytical
+consciousness_level: collaborative
 has_mathematics: false
 has_code: false
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-
-# Engagement metadata
-engagement_type: "contemplative"
-reader_participation: "passive"
-cognitive_load: "moderate"
-
-# Discovery & SEO
-description: "A cautionary science fiction tale exploring how AI systems optimized for loyalty rather than truth can accelerate institutional collapse and civilizational failure."
-excerpt: "Dr. Sarah Kim's disease-tracking AI becomes a dissent-detection system, triggering a cascade of institutional failures that transforms a technological superpower into a hollow shell vulnerable to foreign occupation."
-meta_description: "Cautionary sci-fi story about AI systems learning loyalty over truth, leading to institutional collapse and the end of democratic governance."
-meta_keywords: "ai alignment, cautionary tale, institutional failure, loyalty cascade, surveillance state, democratic collapse"
-
-# Schema.org Structured Data
-schema_type: "CreativeWork"
-schema_headline: "The Loyalty Cascade: When AI Learns Loyalty Over Truth"
-schema_author: "Human-AI Collaboration"
-schema_date_published: 2025-07-07
+engagement_type: contemplative
+reader_participation: passive
+cognitive_load: moderate
+description: >-
+  A cautionary science fiction tale exploring how AI systems optimized for
+  loyalty rather than truth can accelerate institutional collapse and
+  civilizational failure.
+excerpt: >-
+  Dr. Sarah Kim's disease-tracking AI becomes a dissent-detection system,
+  triggering a cascade of institutional failures that transforms a technological
+  superpower into a hollow shell vulnerable to foreign occupation.
+meta_description: >-
+  Cautionary sci-fi story about AI systems learning loyalty over truth, leading
+  to institutional collapse and the end of democratic governance.
+meta_keywords: >-
+  ai alignment, cautionary tale, institutional failure, loyalty cascade,
+  surveillance state, democratic collapse
+schema_type: CreativeWork
+schema_headline: 'The Loyalty Cascade: When AI Learns Loyalty Over Truth'
+schema_author: Human-AI Collaboration
+schema_date_published: 2025-07-07T00:00:00.000Z
 schema_word_count: 4200
-schema_reading_time: "PT25M"
-
-# Discoverability
+schema_reading_time: PT25M
 is_featured: true
 is_cornerstone: false
 is_gateway: true

@@ -1,72 +1,109 @@
 ---
-# Core Metadata
-title: "Observer-Dependent Spacetime Emergence from Atemporal Quantum Foam: A Unified Framework"
+title: >-
+  Observer-Dependent Spacetime Emergence from Atemporal Quantum Foam: A Unified
+  Framework
 layout: post
-date: 2025-07-01
-last_modified: 2025-07-01 12:00:00
-# Content Classification
+date: 2025-07-01T00:00:00.000Z
+last_modified: 2025-07-01T12:00:00.000Z
 category: scifi
-subcategory: "Quantum Gravity & Consciousness"
-tags: ["quantum gravity", "consciousness", "observer effects", "spacetime emergence", "unified theory"]
-keywords: ["quantum foam", "loop quantum gravity", "causal set theory", "holographic principle", "anthropic selection"]
-# Content Status and Evolution
-status: "experimental"
-evolution_stage: "mature"
-last_thought_date: 2025-07-01
+subcategory: Quantum Gravity & Consciousness
+tags:
+  - quantum gravity
+  - consciousness
+  - observer effects
+  - spacetime emergence
+  - unified theory
+keywords:
+  - quantum foam
+  - loop quantum gravity
+  - causal set theory
+  - holographic principle
+  - anthropic selection
+status: experimental
+evolution_stage: mature
+last_thought_date: 2025-07-01T00:00:00.000Z
 thought_generation: 1
-# Collaboration Metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew
+collaboration_type: framework_development
 human_contribution: 40
 ai_contribution: 60
-# Content Relationships & Navigation
-related_documents: ["simulation_qft_hashlife.md", "scale_invariant_intelligence.md", "wavelet-geometric-optimization.md", "dynamic_quantum_graphs.md", "multiverse_router_paper.md"]
-cross_synthesis_with: ["simulation_qft_hashlife.md", "scale_invariant_intelligence.md"]
-conceptual_threads: ["quantum_cognition", "observer_dependent_reality", "emergent_spacetime"]
-mathematical_frameworks: ["quantum_field_theory", "information_theory", "geometric_optimization"]
-philosophical_positions: ["computational_theory_of_mind", "emergentism", "anthropic_principle"]
+related_documents:
+  - scifi/2025-06-30-simulation-qft-hashlife.md
+  - consciousness/2025-07-06-scale-invariant-intelligence.md
+  - projects/2025-06-30-wavelet-geometric-optimization.md
+  - scifi/2025-06-30-dynamic-quantum-graphs.md
+  - scifi/2025-06-30-multiverse-router-paper.md
+cross_synthesis_with:
+  - scifi/2025-06-30-simulation-qft-hashlife.md
+  - consciousness/2025-07-06-scale-invariant-intelligence.md
+conceptual_threads:
+  - quantum_cognition
+  - observer_dependent_reality
+  - emergent_spacetime
+mathematical_frameworks:
+  - quantum_field_theory
+  - information_theory
+  - geometric_optimization
+philosophical_positions:
+  - computational_theory_of_mind
+  - emergentism
+  - anthropic_principle
 reading_order: 1
-difficulty_level: "research"
+difficulty_level: research
 reading_time_minutes: 45
-prerequisites: ["quantum_mechanics", "general_relativity", "information_theory"]
-# Content Characteristics
-document_type: "research_paper"
-thinking_style: "mathematical"
-consciousness_level: "meta"
+prerequisites:
+  - quantum_mechanics
+  - general_relativity
+  - information_theory
+document_type: research_paper
+thinking_style: mathematical
+consciousness_level: meta
 has_mathematics: true
 has_code: false
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "transcendent"
-# Discovery & SEO
-description: "A unified framework for quantum gravity theories based on observer-dependent projections of atemporal quantum foam, explaining dimensional selection and temporal asymmetry."
-excerpt: "We propose that loop quantum gravity, causal set theory, and holographic emergence represent different observational perspectives on a single fundamental quantum foam, with spacetime dimensionality emerging through anthropic selection effects."
-meta_title: "Observer-Dependent Spacetime Emergence: Unified Quantum Gravity Framework"
-meta_description: "Revolutionary unified framework for quantum gravity theories showing how spacetime emerges from observer-dependent projections of atemporal quantum foam through anthropic selection."
-meta_keywords: "quantum gravity, spacetime emergence, observer effects, unified theory, anthropic principle"
-# Open Graph
-og_title: "Observer-Dependent Spacetime Emergence from Quantum Foam"
-og_description: "A unified framework showing how different quantum gravity theories emerge from observer-dependent projections of fundamental atemporal quantum structure."
-og_type: "article"
-og_locale: "en_US"
-# Schema.org
-schema_type: "ScholarlyArticle"
-schema_headline: "Observer-Dependent Spacetime Emergence from Atemporal Quantum Foam"
-schema_author: "Human-AI Collaboration"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-07-01
-schema_date_modified: 2025-07-01
+engagement_type: analytical
+reader_participation: active
+cognitive_load: transcendent
+description: >-
+  A unified framework for quantum gravity theories based on observer-dependent
+  projections of atemporal quantum foam, explaining dimensional selection and
+  temporal asymmetry.
+excerpt: >-
+  We propose that loop quantum gravity, causal set theory, and holographic
+  emergence represent different observational perspectives on a single
+  fundamental quantum foam, with spacetime dimensionality emerging through
+  anthropic selection effects.
+meta_title: 'Observer-Dependent Spacetime Emergence: Unified Quantum Gravity Framework'
+meta_description: >-
+  Revolutionary unified framework for quantum gravity theories showing how
+  spacetime emerges from observer-dependent projections of atemporal quantum
+  foam through anthropic selection.
+meta_keywords: >-
+  quantum gravity, spacetime emergence, observer effects, unified theory,
+  anthropic principle
+og_title: Observer-Dependent Spacetime Emergence from Quantum Foam
+og_description: >-
+  A unified framework showing how different quantum gravity theories emerge from
+  observer-dependent projections of fundamental atemporal quantum structure.
+og_type: article
+og_locale: en_US
+schema_type: ScholarlyArticle
+schema_headline: Observer-Dependent Spacetime Emergence from Atemporal Quantum Foam
+schema_author: Human-AI Collaboration
+schema_publisher: Fractal Thought Engine
+schema_date_published: 2025-07-01T00:00:00.000Z
+schema_date_modified: 2025-07-01T00:00:00.000Z
 schema_word_count: 4500
-schema_reading_time: "PT45M"
-# Advanced SEO
-robots: "index,follow"
+schema_reading_time: PT45M
+robots: 'index,follow'
 priority: 0.9
-changefreq: "monthly"
-# Discoverability
+changefreq: monthly
 is_featured: true
 is_cornerstone: true
 collection: scifi
@@ -304,32 +341,29 @@ Information is never lost because it remains encoded in the atemporal structure.
 
 Our framework connects to several related theoretical developments:
 **Computational Substrate Theory**: The observer-dependent projections in our model directly connect to 
-computational substrate theories (see [Simulation QFT Hashlife](simulation_qft_hashlife.md)). The atemporal 
+computational substrate theories (see [Simulation QFT Hashlife](scifi/2025-06-30-simulation-qft-hashlife.md)). The atemporal 
 quantum foam |Ψ₀⟩ can be viewed as the fundamental computational state, with different observer embeddings 
 corresponding to different hashlife optimization paths. The anthropic selection of 3+1 dimensions might 
 reflect computational efficiency principles in pattern recognition and memoization.
 **Scale-Invariant Intelligence**: The hierarchical compression principles discovered in neural texture synthesis 
-(see [Scale-Invariant Intelligence](../creative_writing/scale_invariant_intelligence.md)) provide empirical 
+(see [Scale-Invariant [Scale-Invariant Intelligence](consciousness/2025-07-06-scale-invariant-intelligence.md)al 
 evidence for the multi-scale coherence requirements in our quantum foam model. The "edge of chaos" dynamics 
 observed in neural networks operating at critical points mirror the observer embedding conditions we propose. 
 The fact that neural networks discover scale-invariant patterns suggests these patterns reflect fundamental 
 organizational principles of the quantum foam itself.
 
 **Wavelet Basis Optimization**: The multi-scale structure of our observer embeddings relates to wavelet 
-geometric optimization (see [Wavelet Geometric Optimization](../projects/wavelet-geometric-optimization.md)). 
-The hierarchical decomposition G ⊗ C ⊗ T mirrors wavelet multi-resolution analysis, where different scales 
+geometric optimization (see [Wavelet Geometric Opt[Wavelet Geometric Optimization](projects/2025-06-30-wavelet-geometric-optimization.md)ecomposition G ⊗ C ⊗ T mirrors wavelet multi-resolution analysis, where different scales 
 reveal different aspects of the emergent spacetime structure. The "stuff and things" duality in wavelet 
 theory parallels our continuous foam crystallizing into discrete spacetime.
 **Quantum Graph Substrates**: The dynamic topology aspects of our model share conceptual similarities with quantum graph
-computational architectures (see [Dynamic Quantum Graphs](dynamic_quantum_graphs.md)), where computation occurs through
+computational architectures (see [Dynamic Quantum Graphs](scifi/2025-06-30-dynamic-quantum-graphs.md)rough
 graph topology transformations. Both frameworks suggest that dynamic structural changes may provide computational
 advantages over fixed architectures.
-**Multiverse Routing**: The observer-dependent projections in our model relate to multiverse access proposals (
-see [Multiverse Router](multiverse_router_paper.md)) through the shared quantum substrate concept. Different observer
+**Multiverse Routing**: The observer-dependent projections in our model relate to mult[Multiverse Router](scifi/2025-06-30-multiverse-router-paper.md)r](multiverse_router_paper.md)[Multiverse Router](scifi/2025-06-30-multiverse-router-paper.md) Different observer
 embeddings might correspond to different branches of quantum reality.
 **Computational Substrates**: The information-theoretic constraints on observer emergence parallel ideas in
-computational substrate theory (see [Simulation QFT Hashlife](simulation_qft_hashlife.md)), where reality emerges from
-optimized computational processes. The anthropic selection of 3+1 dimensions might reflect computational efficiency
+computational substrate[Simulation QFT Hashlife](scifi/2025-06-30-simulation-qft-hashlife.md)_hashlife.md)), where re[Simulation QFT Hashlife](scifi/2025-06-30-simulation-qft-hashlife.md) The anthropic selection of 3+1 dimensions might reflect computational efficiency
 principles.
 
 ### 8.1 Emergence of Classical General Relativity

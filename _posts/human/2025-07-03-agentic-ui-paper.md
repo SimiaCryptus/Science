@@ -1,91 +1,113 @@
 ---
-# Required fields
-title: "Conversational Computing: Toward Human-AI Collaborative Intelligence Architectures"
+title: >-
+  Conversational Computing: Toward Human-AI Collaborative Intelligence
+  Architectures
 layout: post
-date: 2025-07-03
-last_modified: 2025-07-03 12:00:00
-
-# Content classification
-category: "AI Research & Cognitive Evolution"
-subcategory: "Human-AI Collaboration"
-tags: ["conversational-computing", "human-ai-collaboration", "supervised-exploration", "collaborative-intelligence", "agentic-ui", "architecture", "consciousness"]
-keywords: ["conversational computing", "human-AI collaboration", "supervised exploration", "collaborative intelligence", "agentic UI", "granular state management", "adaptive communication", "iterative refinement"]
-
-# Content status and evolution
-status: "stable"
-evolution_stage: "mature"
-last_thought_date: 2025-07-03
+date: 2025-07-03T00:00:00.000Z
+last_modified: 2025-07-03T12:00:00.000Z
+category: AI Research & Cognitive Evolution
+subcategory: Human-AI Collaboration
+tags:
+  - conversational-computing
+  - human-ai-collaboration
+  - supervised-exploration
+  - collaborative-intelligence
+  - agentic-ui
+  - architecture
+  - consciousness
+keywords:
+  - conversational computing
+  - human-AI collaboration
+  - supervised exploration
+  - collaborative intelligence
+  - agentic UI
+  - granular state management
+  - adaptive communication
+  - iterative refinement
+status: stable
+evolution_stage: mature
+last_thought_date: 2025-07-03T00:00:00.000Z
 thought_generation: 1
-
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "recursive_dialogue"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew
+collaboration_type: recursive_dialogue
 human_contribution: 40
 ai_contribution: 60
-
-# Content relationships & navigation
-related_documents: ["cognotik-platform.md", "multi-modal-cognitive-planning.md", "actor-pattern-analysis.md"]
-conceptual_threads: ["consciousness_geometry", "recursive_optimization", "collaborative_intelligence"]
-mathematical_frameworks: ["information_theory", "systems_theory"]
-philosophical_positions: ["computational_theory_of_mind", "emergentism"]
-
+related_documents:
+  - projects/2025-06-30-knots.md
+  - human/2025-07-01-cognitive-planning-paper.md
+  - projects/2025-06-30-knots.md
+conceptual_threads:
+  - consciousness_geometry
+  - recursive_optimization
+  - collaborative_intelligence
+mathematical_frameworks:
+  - information_theory
+  - systems_theory
+philosophical_positions:
+  - computational_theory_of_mind
+  - emergentism
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 25
-prerequisites: ["basic_ai_knowledge", "software_architecture", "human_computer_interaction"]
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
-
+prerequisites:
+  - basic_ai_knowledge
+  - software_architecture
+  - human_computer_interaction
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: collaborative
 has_mathematics: false
 has_code: true
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "Analysis of conversational computing architectures for human-AI collaboration, revealing three foundational patterns through supervised exploration methodology."
-excerpt: "This paper presents an analysis of conversational computing architectures developed through supervised exploration, identifying granular state management, adaptive communication, and iterative refinement as foundational patterns of collaborative intelligence."
-
-# SEO Meta Tags
-meta_title: "Conversational Computing: Human-AI Collaborative Intelligence Architectures"
-meta_description: "Research paper analyzing conversational computing architectures for human-AI collaboration, revealing foundational patterns through supervised exploration methodology and recursive discovery."
-meta_keywords: "conversational computing, human-AI collaboration, supervised exploration, collaborative intelligence, agentic UI, software architecture"
-
-# Open Graph (Social Media)
-og_title: "Conversational Computing: Human-AI Collaborative Intelligence Architectures"
-og_description: "Research paper analyzing conversational computing architectures for human-AI collaboration through supervised exploration methodology."
-og_type: "article"
-og_locale: "en_US"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Conversational Computing: Toward Human-AI Collaborative Intelligence Architectures"
-schema_author: "Claude (Anthropic) & Human Collaborator"
-schema_publisher: "Independent Collaborative AI Architecture Research"
-schema_date_published: 2025-07-03
-schema_date_modified: 2025-07-03
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  Analysis of conversational computing architectures for human-AI collaboration,
+  revealing three foundational patterns through supervised exploration
+  methodology.
+excerpt: >-
+  This paper presents an analysis of conversational computing architectures
+  developed through supervised exploration, identifying granular state
+  management, adaptive communication, and iterative refinement as foundational
+  patterns of collaborative intelligence.
+meta_title: 'Conversational Computing: Human-AI Collaborative Intelligence Architectures'
+meta_description: >-
+  Research paper analyzing conversational computing architectures for human-AI
+  collaboration, revealing foundational patterns through supervised exploration
+  methodology and recursive discovery.
+meta_keywords: >-
+  conversational computing, human-AI collaboration, supervised exploration,
+  collaborative intelligence, agentic UI, software architecture
+og_title: 'Conversational Computing: Human-AI Collaborative Intelligence Architectures'
+og_description: >-
+  Research paper analyzing conversational computing architectures for human-AI
+  collaboration through supervised exploration methodology.
+og_type: article
+og_locale: en_US
+schema_type: ScholarlyArticle
+schema_headline: >-
+  Conversational Computing: Toward Human-AI Collaborative Intelligence
+  Architectures
+schema_author: Claude (Anthropic) & Human Collaborator
+schema_publisher: Independent Collaborative AI Architecture Research
+schema_date_published: 2025-07-03T00:00:00.000Z
+schema_date_modified: 2025-07-03T00:00:00.000Z
 schema_word_count: 4500
-schema_reading_time: "PT25M"
-
-# Search Engine Directives
-robots: "index,follow"
+schema_reading_time: PT25M
+robots: 'index,follow'
 priority: 0.9
-changefreq: "monthly"
-
-# Discoverability
+changefreq: monthly
 is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
-
 collection: ai
 ---
 

@@ -13,16 +13,14 @@ This framework suggests a profound possibility: reality itself is a recursive qu
 
 **Cross-Theoretical Connections**: This recursive optimization connects to several related frameworks:
 - **Computational Substrate Theory**: The wavelet optimization implements the hashlife-like pattern 
-  recognition described in computational substrate theory (see [Simulation QFT Hashlife](../scifi/simulation_qft_hashlife.md)). 
+  recognition described in computational substrate theory (see [Simulation QFT Hashlife](scifi/2025-06-30-simulation-qft-hashlife.md)). 
   The autoadaptive permutations correspond to dynamic memoization of successful computational patterns.
 - **Observer-Dependent Spacetime**: The multi-scale wavelet analysis directly implements the observer 
-  projections from quantum foam theory (see [Observer-Dependent Spacetime](../scifi/quantum_spacetime_paper.md)). 
-  Different wavelet scales correspond to different observer embeddings in the atemporal structure.
+  projections from quantum foam theory (see [Observe[Observer-Dependent Spacetime](scifi/2025-07-01-quantum-spacetime-paper.md)fferent wavelet scales correspond to different observer embeddings in the atemporal structure.
 - **Dynamic Quantum Graphs**: The geometric optimization on manifolds finds natural implementation in 
-  quantum graph architectures (see [Dynamic Quantum Graphs](../scifi/dynamic_quantum_graphs.md)), where 
-  the graph topology changes correspond to wavelet basis adaptations.
+  quantum graph architectures (see [Dynamic Quantum[Dynamic Quantum Graphs](scifi/2025-06-30-dynamic-quantum-graphs.md)graph topology changes correspond to wavelet basis adaptations.
 - **Multiverse Router**: The optimization landscape exploration parallels multiverse navigation 
-  (see [Multiverse Router](../scifi/multiverse_router_paper.md)), with different local optima 
+  (see [Multiverse Router](scifi/2025-06-30-multiverse-router-paper.md)optima 
   corresponding to different universe branches accessible through quantum tunneling.
 
 The autoadaptive permutations hint that the "laws of physics" might not be fixed rules but rather the current best compression algorithm the universe has found for itself.

@@ -1,87 +1,110 @@
 ---
-# Required fields
-title: "Cross-Synthesis: Wavelet Geometric Optimization × Topological Knot Analysis"
-layout: "post"
-date: 2025-06-30
-last_modified: 2025-06-30 12:00:00
-
-# Content classification
+title: 'Cross-Synthesis: Wavelet Geometric Optimization × Topological Knot Analysis'
+layout: post
+date: 2025-06-30T00:00:00.000Z
+last_modified: 2025-06-30T12:00:00.000Z
 category: projects
-subcategory: "Mathematical Frameworks"
-tags: ["wavelets", "topology", "knots", "geometric-optimization", "cross-synthesis", "quantum-invariants"]
-keywords: ["wavelet analysis", "knot theory", "topological invariants", "geometric optimization", "distance matrices", "persistent homology"]
-
-# Content status and evolution
-status: "living"
-evolution_stage: "cross-pollinating"
-last_thought_date: 2025-06-30
+subcategory: Mathematical Frameworks
+tags:
+  - wavelets
+  - topology
+  - knots
+  - geometric-optimization
+  - cross-synthesis
+  - quantum-invariants
+keywords:
+  - wavelet analysis
+  - knot theory
+  - topological invariants
+  - geometric optimization
+  - distance matrices
+  - persistent homology
+status: living
+evolution_stage: cross-pollinating
+last_thought_date: 2025-06-30T00:00:00.000Z
 thought_generation: 1
-
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "cross_synthesis"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew
+collaboration_type: cross_synthesis
 human_contribution: 40
 ai_contribution: 60
-
-# Content relationships & navigation
 parent_document: null
 child_documents: []
-related_documents: ["wavelet-geometric-optimization.md", "topological-knot-analysis.md"]
-cross_synthesis_with: ["wavelet-geometric-optimization.md", "topological-knot-analysis.md"]
-inspired_by: ["wavelet-geometric-optimization.md", "topological-knot-analysis.md"]
+related_documents:
+  - projects/2025-06-30-wavelet-geometric-optimization.md
+  - projects/2025-06-30-knot-wavelets.md
+cross_synthesis_with:
+  - projects/2025-06-30-wavelet-geometric-optimization.md
+  - projects/2025-06-30-knot-wavelets.md
+inspired_by:
+  - projects/2025-06-30-wavelet-geometric-optimization.md
+  - projects/2025-06-30-knot-wavelets.md
 has_inspired: []
-
-# Conceptual threading
-conceptual_threads: ["wavelet_optimization", "topological_invariants", "quantum_topology", "multiscale_analysis"]
-mathematical_frameworks: ["wavelet_analysis", "knot_theory", "geometric_optimization", "persistent_homology", "quantum_field_theory"]
-philosophical_positions: ["mathematical_platonism", "emergentism", "computational_realism"]
-
-# Navigation hints
+conceptual_threads:
+  - wavelet_optimization
+  - topological_invariants
+  - quantum_topology
+  - multiscale_analysis
+mathematical_frameworks:
+  - wavelet_analysis
+  - knot_theory
+  - geometric_optimization
+  - persistent_homology
+  - quantum_field_theory
+philosophical_positions:
+  - mathematical_platonism
+  - emergentism
+  - computational_realism
 reading_order: 3
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 45
-prerequisites: ["wavelet_analysis", "knot_theory", "geometric_optimization", "topology"]
-
-# Content characteristics
-document_type: "synthesis"
-thinking_style: "mathematical"
-consciousness_level: "collaborative"
-
-# Content features
+prerequisites:
+  - wavelet_analysis
+  - knot_theory
+  - geometric_optimization
+  - topology
+document_type: synthesis
+thinking_style: mathematical
+consciousness_level: collaborative
 has_mathematics: true
 has_code: true
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-
-# Engagement metadata
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "Novel cross-synthesis combining wavelet geometric optimization with topological knot analysis to create unified framework for multi-scale knot invariants"
-excerpt: "This research synthesizes wavelet geometric optimization and topological knot analysis, revealing how distance matrix representations of knots can be decomposed using wavelets to extract multi-scale topological features. The framework introduces novel algorithms for knot recognition, family discovery, and quantum invariant computation."
-featured_image: "/assets/images/knot-wavelets-synthesis.png"
-og_image: "/assets/images/knot-wavelets-social.png"
-
-# SEO Meta Tags
-meta_title: "Wavelet-Knot Cross-Synthesis: Multi-Scale Topological Invariants"
-meta_description: "Revolutionary synthesis of wavelet analysis and knot theory creating unified framework for topological computation, quantum invariants, and real-time knot recognition."
-meta_keywords: "wavelet analysis, knot theory, topological invariants, geometric optimization, quantum topology, cross-synthesis"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Cross-Synthesis: Wavelet Geometric Optimization × Topological Knot Analysis"
-schema_author: "Human-AI Collaboration"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-06-30
-schema_date_modified: 2025-06-30
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  Novel cross-synthesis combining wavelet geometric optimization with
+  topological knot analysis to create unified framework for multi-scale knot
+  invariants
+excerpt: >-
+  This research synthesizes wavelet geometric optimization and topological knot
+  analysis, revealing how distance matrix representations of knots can be
+  decomposed using wavelets to extract multi-scale topological features. The
+  framework introduces novel algorithms for knot recognition, family discovery,
+  and quantum invariant computation.
+featured_image: /assets/images/knot-wavelets-synthesis.png
+og_image: /assets/images/knot-wavelets-social.png
+meta_title: 'Wavelet-Knot Cross-Synthesis: Multi-Scale Topological Invariants'
+meta_description: >-
+  Revolutionary synthesis of wavelet analysis and knot theory creating unified
+  framework for topological computation, quantum invariants, and real-time knot
+  recognition.
+meta_keywords: >-
+  wavelet analysis, knot theory, topological invariants, geometric optimization,
+  quantum topology, cross-synthesis
+schema_type: ScholarlyArticle
+schema_headline: 'Cross-Synthesis: Wavelet Geometric Optimization × Topological Knot Analysis'
+schema_author: Human-AI Collaboration
+schema_publisher: Fractal Thought Engine
+schema_date_published: 2025-06-30T00:00:00.000Z
+schema_date_modified: 2025-06-30T00:00:00.000Z
 schema_word_count: 4500
-schema_reading_time: "PT45M"
-
-# Discoverability
+schema_reading_time: PT45M
 is_featured: true
 is_cornerstone: false
 is_gateway: false

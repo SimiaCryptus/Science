@@ -1,5 +1,7 @@
 ---
-title: "Efficient Storage and Hierarchical Compression of Large-Scale N-gram Language Models"
+title: >-
+  Efficient Storage and Hierarchical Compression of Large-Scale N-gram Language
+  Models
 layout: post
 collection: ai
 ---
@@ -174,21 +176,17 @@ This work demonstrates that understanding the structural properties of data repr
 What I find most compelling is that this wasn't just theoretical research - it emerged from actually wrestling with the practical problems of making large-scale language models usable. The compression method works because it reflects genuine insights about how linguistic information is structured.
 
 The entropy-based organization principles developed here have broader applications in tree-based data structures, as
-explored in our [Entropy-Optimized Permutation Trees proposal](../projects/bwt_tree_proposal.md), where similar
+explored in our [Entropy-Optimized Permutation Trees proposal](projects/2025-06-30-bwt-tree-proposal.md), where similar
 hierarchical compression ideas are applied to BWT-based string processing. The connection between compression efficiency
 and classification accuracy is further developed in our work
-on [Entropy-Optimized Text Classification](compression_classification_paper.md), which uses compressed n-gram models as
+on [Entropy[Entropy-Optimized Text Classification](human/2025-06-30-compression-classification-paper.md)uses compressed n-gram models as
 the foundation for interpretable text classification.
 
 The hierarchical expectation-based encoding approach also shares conceptual similarities with the entropy-adaptive
-partitioning in our [Volumetric Density Trees](../projects/volumetric_density_tree_proposal.md), though applied to
-discrete rather than continuous spaces.
+partitioning in our [Volumetric Density Trees[Volumetric Density Trees](projects/2025-06-30-volumetric-density-tree-proposal.md)ete rather than continuous spaces.
 The information-theoretic principles underlying this compression method have broader applications in probabilistic
-modeling, as demonstrated in our [Probabilistic Decision Trees](probabilistic_trees_paper.md) work, which uses
-cross-entropy optimization for tree construction. These same principles of exploiting structural redundancy through
-hierarchical expectations could potentially be applied to the dynamic topology optimization in
-[Probabilistic Neural Substrates](probabilistic_neural_substrate.md).
-The most significant limitation is the dependency on having sufficient training data to build effective models.
+modeling, as demonstrated in our [Probabilistic Decision Trees](human/2025-06-30-probabilistic-trees-paper.md)ptimization for tree construction. These same principles of exploiting structural redundancy through
+hierarchical expectations could potentially be applied to the [Probabilistic Neural Substrates](learning/2025-07-06-probabilistic-neural-substrate.md)robabilistic-neural-substrate.md)y on having sufficient training data to build effective models.
 
 The most significant limitation is the dependency on having sufficient training data to build effective models. For very sparse data or highly diverse text collections, the compression benefits diminish. Additionally, the current implementation prioritizes simplicity over maximum compression efficiency; more aggressive encoding schemes could likely improve results further.
 
@@ -217,4 +215,4 @@ Several directions emerge from this research:
 * **Cross-Domain Hierarchies**: Applying hierarchical principles to other sequence types (DNA, music, code)
 * **Transformer Integration**: Incorporating hierarchical expectations into attention mechanisms
 * **Neural Language Models**: Using hierarchical compression to improve large language model efficiency
-* **Probabilistic Substrates**: Applying hierarchical expectation principles to the dynamic topology management in [Probabilistic Neural Substrates](probabilistic_neural_substrate.md), where structural expectations could guide efficient probability distribution representation
+* **Probabilistic Substrates**: [Probabilistic Neural Substrates](learning/2025-07-06-probabilistic-neural-substrate.md) management in [Probabilistic Neural Substrates](probabilistic_neural_substrate.md), [Probabilistic Neural Substrates](learning/2025-07-06-probabilistic-neural-substrate.md)ribution representation

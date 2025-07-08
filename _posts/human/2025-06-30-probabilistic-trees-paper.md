@@ -1,92 +1,118 @@
 ---
-# Required fields
-title: "Probabilistic Decision Trees: A Cross-Entropy Approach to Joint Distribution Modeling"
+title: >-
+  Probabilistic Decision Trees: A Cross-Entropy Approach to Joint Distribution
+  Modeling
 layout: post
-date: 2025-06-30
-last_modified: 2025-06-30 12:00:00
-
-# Content classification
-category: "AI Research & Cognitive Evolution"
-subcategory: "Machine Learning Methodologies"
-tags: ["decision_trees", "probabilistic_modeling", "cross_entropy", "uncertainty_quantification", "bayesian_methods", "joint_distributions"]
-keywords: ["probabilistic decision trees", "cross-entropy optimization", "joint probability distributions", "uncertainty quantification", "bayesian modeling", "machine learning"]
-
-# Content status and evolution
-status: "stable"
-evolution_stage: "mature"
-last_thought_date: 2025-06-30
+date: 2025-06-30T00:00:00.000Z
+last_modified: 2025-06-30T12:00:00.000Z
+category: AI Research & Cognitive Evolution
+subcategory: Machine Learning Methodologies
+tags:
+  - decision_trees
+  - probabilistic_modeling
+  - cross_entropy
+  - uncertainty_quantification
+  - bayesian_methods
+  - joint_distributions
+keywords:
+  - probabilistic decision trees
+  - cross-entropy optimization
+  - joint probability distributions
+  - uncertainty quantification
+  - bayesian modeling
+  - machine learning
+status: stable
+evolution_stage: mature
+last_thought_date: 2025-06-30T00:00:00.000Z
 thought_generation: 1
-
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew
+collaboration_type: framework_development
 human_contribution: 70
 ai_contribution: 30
-
-# Document relationships
-related_documents: ["ngram_paper.md", "compression_classification_paper.md", "probabilistic_neural_substrate.md"]
-cross_synthesis_with: ["probabilistic_neural_substrate.md"]
-
-# Conceptual threading
-conceptual_threads: ["probabilistic_modeling", "information_theory", "uncertainty_quantification", "bayesian_inference"]
-mathematical_frameworks: ["information_theory", "probability_theory", "cross_entropy", "bayesian_statistics"]
-philosophical_positions: ["bayesian_epistemology", "information_theoretic_learning"]
-
-# Navigation hints
+related_documents:
+  - human/2025-06-30-ngram-paper.md
+  - human/2025-06-30-compression-classification-paper.md
+  - learning/2025-07-06-probabilistic-neural-substrate.md
+cross_synthesis_with:
+  - learning/2025-07-06-probabilistic-neural-substrate.md
+conceptual_threads:
+  - probabilistic_modeling
+  - information_theory
+  - uncertainty_quantification
+  - bayesian_inference
+mathematical_frameworks:
+  - information_theory
+  - probability_theory
+  - cross_entropy
+  - bayesian_statistics
+philosophical_positions:
+  - bayesian_epistemology
+  - information_theoretic_learning
 reading_order: 2
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 15
-prerequisites: ["machine_learning_basics", "probability_theory", "information_theory", "decision_trees"]
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
+prerequisites:
+  - machine_learning_basics
+  - probability_theory
+  - information_theory
+  - decision_trees
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: collaborative
 has_mathematics: true
 has_code: false
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-
-# Engagement metadata
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "Novel extension to decision tree methodology that models joint probability distributions using cross-entropy optimization between prior and posterior distributions."
-excerpt: "A retrospective analysis of innovative research from 2010-2011 that anticipated modern trends in uncertainty quantification and probabilistic modeling, introducing cross-entropy optimization for Bayesian decision tree construction."
-meta_title: "Probabilistic Decision Trees: Cross-Entropy Approach to Joint Distribution Modeling"
-meta_description: "Innovative decision tree methodology using cross-entropy optimization for joint probability distributions, uncertainty quantification, and Bayesian modeling in machine learning."
-meta_keywords: "probabilistic decision trees, cross-entropy optimization, joint probability distributions, uncertainty quantification, bayesian machine learning"
-
-# Open Graph (Social Media)
-og_title: "Probabilistic Decision Trees: A Cross-Entropy Approach"
-og_description: "Novel machine learning methodology that models joint probability distributions using cross-entropy optimization, offering unique uncertainty quantification capabilities."
-og_type: "article"
-og_locale: "en_US"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Probabilistic Decision Trees: A Cross-Entropy Approach to Joint Distribution Modeling"
-schema_author: "Human-AI Collaboration"
-schema_date_published: 2025-06-30
-schema_date_modified: 2025-06-30
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  Novel extension to decision tree methodology that models joint probability
+  distributions using cross-entropy optimization between prior and posterior
+  distributions.
+excerpt: >-
+  A retrospective analysis of innovative research from 2010-2011 that
+  anticipated modern trends in uncertainty quantification and probabilistic
+  modeling, introducing cross-entropy optimization for Bayesian decision tree
+  construction.
+meta_title: >-
+  Probabilistic Decision Trees: Cross-Entropy Approach to Joint Distribution
+  Modeling
+meta_description: >-
+  Innovative decision tree methodology using cross-entropy optimization for
+  joint probability distributions, uncertainty quantification, and Bayesian
+  modeling in machine learning.
+meta_keywords: >-
+  probabilistic decision trees, cross-entropy optimization, joint probability
+  distributions, uncertainty quantification, bayesian machine learning
+og_title: 'Probabilistic Decision Trees: A Cross-Entropy Approach'
+og_description: >-
+  Novel machine learning methodology that models joint probability distributions
+  using cross-entropy optimization, offering unique uncertainty quantification
+  capabilities.
+og_type: article
+og_locale: en_US
+schema_type: ScholarlyArticle
+schema_headline: >-
+  Probabilistic Decision Trees: A Cross-Entropy Approach to Joint Distribution
+  Modeling
+schema_author: Human-AI Collaboration
+schema_date_published: 2025-06-30T00:00:00.000Z
+schema_date_modified: 2025-06-30T00:00:00.000Z
 schema_word_count: 2800
-schema_reading_time: "PT15M"
-
-# Search Engine Directives
-robots: "index,follow"
+schema_reading_time: PT15M
+robots: 'index,follow'
 priority: 0.8
-changefreq: "monthly"
-
-# Discoverability
+changefreq: monthly
 is_featured: true
 is_cornerstone: false
 is_gateway: false
 is_synthesis: true
-
 collection: ai
 ---
 
@@ -168,12 +194,12 @@ Developed in 2010-2011, this work anticipated several trends that have become ce
 * The need for interpretable methods that can explain their reasoning
 * Recognition that real-world problems often involve complex interdependencies poorly captured by single-output models
 The cross-entropy optimization approach developed here shares conceptual foundations with the hierarchical compression 
-techniques in our [N-gram language model research](ngram_paper.md), where expectation-based encoding similarly exploits 
+techniques in our [N-gram language model research](human/2025-06-30-ngram-paper.md), where expectation-based encoding similarly exploits 
 structural redundancy. The joint probability modeling capabilities complement the deterministic decision paths provided 
-by our [compression-based text classification](compression_classification_paper.md) approach, offering uncertainty-aware 
+by our [compression-base[compression-based text classification](human/2025-06-30-compression-classification-paper.md)ng uncertainty-aware 
 alternatives for applications where prediction confidence is critical.
 The information-theoretic principles underlying the cross-entropy tree optimization have also influenced our work on 
-[Probabilistic Neural Substrates](probabilistic_neural_substrate.md), where similar entropy-based objectives guide 
+[Probabilistic Neural Substrates](learning/2025-07-06-probabilistic-neural-substrate.md)ctives guide 
 dynamic topology optimization in recurrent neural architectures.
 
 ### Limitations and Future Directions
@@ -188,12 +214,10 @@ The research identified several areas for improvement:
 ## Implications for Modern Machine Learning
 
 The cross-entropy approach to tree optimization represents a genuinely novel contribution that could inform contemporary research. Modern computational resources and optimization techniques could significantly enhance the original implementation's performance.
-This methodology has inspired extensions to neural architectures, particularly in the development of [Probabilistic Neural Substrates](probabilistic_neural_substrate.md) that apply similar cross-entropy optimization principles to recurrent neural systems. The core insight about using information-theoretic objectives for structure optimization appears broadly applicable across computational paradigms.
-The joint probability modeling capabilities developed here also complement the interpretable classification work in our
-[Entropy-Optimized Text Classification](compression_classification_paper.md) research, where compression-based
-classification provides deterministic decision paths while probabilistic trees could provide uncertainty-aware
+This methodology has inspired extensions to neural architectures, p[Probabilistic Neural Substrates](learning/2025-07-06-probabilistic-neural-substrate.md)probabilistic-neural-substrate.md)les to recurrent neural systems. The core insight about using information-theoretic objectives for structure optimization appears broadly applicable across computational paradigms.
+The joint probability modeling c[Entropy-Optimized Text Classification](human/2025-06-30-compression-classification-paper.md)opy-Optimized Text Classification](human/2025-06-30-compressi[N-gram paper](human/2025-06-30-ngram-paper.md)sion paths while probabilistic trees could provide uncertainty-aware
 alternatives. The hierarchical compression techniques from our [N-gram paper](ngram_paper.md) could potentially
-reduce the storage requirements for the probability distributions maintained at each tree node.
+reduce the storage requirements for the pr[N-gram paper](human/2025-06-30-ngram-paper.md)ined at each tree node.
 The method's uncertainty quantification capabilities align perfectly with current ML priorities, particularly for deployment in critical applications where prediction confidence is essential.
 
 
@@ -219,4 +243,4 @@ This work opens several promising research avenues:
 * **Real-Time Systems**: Low-latency decision making with uncertainty quantification
 * **Scientific Discovery**: Hypothesis generation and testing in complex domains
 * **Autonomous Systems**: Decision making under uncertainty with safety constraints
-* **Neural Substrate Design**: The cross-entropy optimization principles developed here directly inform the topology evolution mechanisms in our [Probabilistic Neural Substrates](probabilistic_neural_substrate.md) research, where similar information-theoretic criteria guide network structure adaptation
+[Probabilistic Neural Substrates](learning/2025-07-06-probabilistic-neural-substrate.md)ples developed here directly inform the topology evolution mechanisms in our [Probabilistic Neural Substrates](probabilistic_neural_substrate.md) research, where similar information-the[Probabilistic Neural Substrates](learning/2025-07-06-probabilistic-neural-substrate.md)

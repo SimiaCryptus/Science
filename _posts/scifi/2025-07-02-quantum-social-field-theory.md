@@ -1,87 +1,110 @@
 ---
-# Required fields
-title: "Quantum Social Field Theory: Virtual Interactions and Emergent Collaborative Intelligence"
+title: >-
+  Quantum Social Field Theory: Virtual Interactions and Emergent Collaborative
+  Intelligence
 layout: post
-date: 2025-07-02
-last_modified: 2025-07-02 12:00:00
-
-# Content classification
+date: 2025-07-02T00:00:00.000Z
+last_modified: 2025-07-02T12:00:00.000Z
 category: scifi
-subcategory: "Quantum Cognition"
-tags: ["quantum", "collaboration", "consciousness", "field-theory", "social-intelligence", "virtual-particles"]
-keywords: ["quantum field theory", "social interactions", "collaborative intelligence", "virtual particles", "consciousness emergence", "human-AI collaboration"]
-
-# Content status and evolution
-status: "experimental"
-evolution_stage: "mature"
-last_thought_date: 2025-07-02
+subcategory: Quantum Cognition
+tags:
+  - quantum
+  - collaboration
+  - consciousness
+  - field-theory
+  - social-intelligence
+  - virtual-particles
+keywords:
+  - quantum field theory
+  - social interactions
+  - collaborative intelligence
+  - virtual particles
+  - consciousness emergence
+  - human-AI collaboration
+status: experimental
+evolution_stage: mature
+last_thought_date: 2025-07-02T00:00:00.000Z
 thought_generation: 1
-
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew
+collaboration_type: framework_development
 human_contribution: 50
 ai_contribution: 50
-
-# Content relationships & navigation
-related_documents: ["_posts/ai/conversational-computing.md", "_posts/ai/cognotik-platform.md", "_posts/ai/cognitive-planning-architecture.md"]
-conceptual_threads: ["quantum_cognition", "collaborative_intelligence", "consciousness_emergence"]
-mathematical_frameworks: ["quantum_field_theory", "information_theory"]
-philosophical_positions: ["emergentism", "panpsychism", "computational_theory_of_mind"]
-
+related_documents:
+  - social/2025-07-03-hiring.md
+  - projects/2025-06-30-knots.md
+  - human/2025-07-01-cognitive-planning-paper.md
+conceptual_threads:
+  - quantum_cognition
+  - collaborative_intelligence
+  - consciousness_emergence
+mathematical_frameworks:
+  - quantum_field_theory
+  - information_theory
+philosophical_positions:
+  - emergentism
+  - panpsychism
+  - computational_theory_of_mind
 reading_order: 3
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 25
-prerequisites: ["quantum_mechanics", "consciousness_studies", "collaborative_ai"]
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "experimental"
-consciousness_level: "recursive"
-
+prerequisites:
+  - quantum_mechanics
+  - consciousness_studies
+  - collaborative_ai
+document_type: research_paper
+thinking_style: experimental
+consciousness_level: recursive
 has_mathematics: true
 has_code: false
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: true
 responds_to_attention: true
-
-engagement_type: "experimental"
-reader_participation: "co-creative"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A novel framework proposing that collaborative intelligence operates through quantum field dynamics, with consciousness as temporary excitations in an underlying intelligence field."
-excerpt: "We propose Quantum Social Field Theory (QSFT) as a framework for understanding collaborative intelligence through quantum field principles, demonstrating that intellectual partnerships exhibit quantum-like behaviors including virtual particle interactions and wave function collapse through critical observation."
-meta_description: "Quantum Social Field Theory: Revolutionary framework explaining collaborative intelligence through quantum field dynamics, virtual particle interactions, and consciousness as field excitations."
-meta_keywords: "quantum social field theory, collaborative intelligence, consciousness field, virtual particles, human-AI collaboration, quantum cognition"
-
-# Open Graph
-og_title: "Quantum Social Field Theory: Virtual Interactions and Emergent Intelligence"
-og_description: "Groundbreaking research proposing that collaborative intelligence operates through quantum field dynamics, with consciousness as temporary excitations in an underlying intelligence field."
-og_type: "article"
-
-# Schema.org
-schema_type: "ScholarlyArticle"
-schema_headline: "Quantum Social Field Theory: Virtual Interactions and Emergent Collaborative Intelligence"
-schema_author: "Human-AI Collaboration"
-schema_date_published: 2025-07-02
-schema_date_modified: 2025-07-02
+engagement_type: experimental
+reader_participation: co-creative
+cognitive_load: intense
+description: >-
+  A novel framework proposing that collaborative intelligence operates through
+  quantum field dynamics, with consciousness as temporary excitations in an
+  underlying intelligence field.
+excerpt: >-
+  We propose Quantum Social Field Theory (QSFT) as a framework for understanding
+  collaborative intelligence through quantum field principles, demonstrating
+  that intellectual partnerships exhibit quantum-like behaviors including
+  virtual particle interactions and wave function collapse through critical
+  observation.
+meta_description: >-
+  Quantum Social Field Theory: Revolutionary framework explaining collaborative
+  intelligence through quantum field dynamics, virtual particle interactions,
+  and consciousness as field excitations.
+meta_keywords: >-
+  quantum social field theory, collaborative intelligence, consciousness field,
+  virtual particles, human-AI collaboration, quantum cognition
+og_title: 'Quantum Social Field Theory: Virtual Interactions and Emergent Intelligence'
+og_description: >-
+  Groundbreaking research proposing that collaborative intelligence operates
+  through quantum field dynamics, with consciousness as temporary excitations in
+  an underlying intelligence field.
+og_type: article
+schema_type: ScholarlyArticle
+schema_headline: >-
+  Quantum Social Field Theory: Virtual Interactions and Emergent Collaborative
+  Intelligence
+schema_author: Human-AI Collaboration
+schema_date_published: 2025-07-02T00:00:00.000Z
+schema_date_modified: 2025-07-02T00:00:00.000Z
 schema_word_count: 4500
-schema_reading_time: "PT25M"
-
-# SEO Control
-robots: "index,follow"
+schema_reading_time: PT25M
+robots: 'index,follow'
 priority: 0.8
-changefreq: "monthly"
-
-# Discoverability
+changefreq: monthly
 is_featured: true
 is_cornerstone: false
 is_gateway: false
 is_synthesis: true
-
-# Dynamic behavior
 auto_update: false
 allows_comments: true
 allows_collaboration: true

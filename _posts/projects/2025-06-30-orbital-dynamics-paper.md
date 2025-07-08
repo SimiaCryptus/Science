@@ -1,76 +1,114 @@
 ---
-title: "Open Orbital Dynamics Platform: A Community Framework for Space Mission Design"
+title: 'Open Orbital Dynamics Platform: A Community Framework for Space Mission Design'
 layout: post
-date: 2025-06-30
-last_modified: 2025-06-30 12:00:00
-# Content classification
+date: 2025-06-30T00:00:00.000Z
+last_modified: 2025-06-30T12:00:00.000Z
 category: projects
-subcategory: "Computational Frameworks"
-tags: ["orbital-dynamics", "space-mission-design", "computational-physics", "open-source", "gpu-acceleration", "automatic-differentiation", "relativistic-dynamics", "optimization", "adjoint-methods", "quantum-gravity"]
-keywords: ["orbital mechanics", "spacecraft trajectory", "n-body dynamics", "geodesic integration", "constellation optimization", "OODP", "TensorFlow for space", "collaborative framework"]
-# Content status and evolution
-status: "living"
-evolution_stage: "mature"
-last_thought_date: 2025-06-30
+subcategory: Computational Frameworks
+tags:
+  - orbital-dynamics
+  - space-mission-design
+  - computational-physics
+  - open-source
+  - gpu-acceleration
+  - automatic-differentiation
+  - relativistic-dynamics
+  - optimization
+  - adjoint-methods
+  - quantum-gravity
+keywords:
+  - orbital mechanics
+  - spacecraft trajectory
+  - n-body dynamics
+  - geodesic integration
+  - constellation optimization
+  - OODP
+  - TensorFlow for space
+  - collaborative framework
+status: living
+evolution_stage: mature
+last_thought_date: 2025-06-30T00:00:00.000Z
 thought_generation: 1
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew
+collaboration_type: framework_development
 human_contribution: 60
 ai_contribution: 40
-# Content relationships
-parent_document: "projects/index.md"
-related_documents: ["projects/computational-physics.md", "research/quantum-gravity.md"]
-conceptual_threads: ["computational_frameworks", "space_technology", "quantum_gravity_phenomenology"]
-mathematical_frameworks: ["differential_geometry", "optimization_theory", "automatic_differentiation", "general_relativity"]
-philosophical_positions: ["open_science", "collaborative_development", "computational_physics"]
-# Navigation hints
+parent_document: projects/2025-06-30-knots.md
+related_documents:
+  - social/2025-07-03-hiring.md
+  - projects/2025-06-30-knots.md
+conceptual_threads:
+  - computational_frameworks
+  - space_technology
+  - quantum_gravity_phenomenology
+mathematical_frameworks:
+  - differential_geometry
+  - optimization_theory
+  - automatic_differentiation
+  - general_relativity
+philosophical_positions:
+  - open_science
+  - collaborative_development
+  - computational_physics
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 45
-prerequisites: ["orbital_mechanics", "differential_equations", "optimization_theory", "general_relativity"]
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
-# Content features
+prerequisites:
+  - orbital_mechanics
+  - differential_equations
+  - optimization_theory
+  - general_relativity
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: collaborative
 has_mathematics: true
 has_code: true
 has_diagrams: true
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-# Engagement metadata
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-# Discovery & SEO
-description: "A comprehensive framework for open-source orbital dynamics and space mission design, featuring GPU acceleration, automatic differentiation, and relativistic corrections."
-excerpt: "The Open Orbital Dynamics Platform (OODP) introduces a unified computational framework for space mission design that combines classical and relativistic orbital dynamics with modern automatic differentiation and GPU acceleration. This research paper presents the mathematical foundations, software architecture, and performance benchmarks for what aims to be the 'TensorFlow of orbital mechanics.'"
-featured_image: "/assets/images/orbital-dynamics-platform.png"
-# SEO Meta Tags
-meta_title: "Open Orbital Dynamics Platform: Revolutionary Space Mission Design Framework"
-meta_description: "Discover OODP, the open-source platform revolutionizing orbital mechanics with GPU acceleration, automatic differentiation, and relativistic dynamics for next-generation space missions."
-meta_keywords: "orbital dynamics, space mission design, computational physics, GPU acceleration, automatic differentiation, open source, spacecraft trajectory optimization"
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Open Orbital Dynamics Platform: A Community Framework for Space Mission Design"
-schema_author: "Human-AI Collaboration"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-06-30
-schema_date_modified: 2025-06-30
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A comprehensive framework for open-source orbital dynamics and space mission
+  design, featuring GPU acceleration, automatic differentiation, and
+  relativistic corrections.
+excerpt: >-
+  The Open Orbital Dynamics Platform (OODP) introduces a unified computational
+  framework for space mission design that combines classical and relativistic
+  orbital dynamics with modern automatic differentiation and GPU acceleration.
+  This research paper presents the mathematical foundations, software
+  architecture, and performance benchmarks for what aims to be the 'TensorFlow
+  of orbital mechanics.'
+featured_image: /assets/images/orbital-dynamics-platform.png
+meta_title: 'Open Orbital Dynamics Platform: Revolutionary Space Mission Design Framework'
+meta_description: >-
+  Discover OODP, the open-source platform revolutionizing orbital mechanics with
+  GPU acceleration, automatic differentiation, and relativistic dynamics for
+  next-generation space missions.
+meta_keywords: >-
+  orbital dynamics, space mission design, computational physics, GPU
+  acceleration, automatic differentiation, open source, spacecraft trajectory
+  optimization
+schema_type: ScholarlyArticle
+schema_headline: 'Open Orbital Dynamics Platform: A Community Framework for Space Mission Design'
+schema_author: Human-AI Collaboration
+schema_publisher: Fractal Thought Engine
+schema_date_published: 2025-06-30T00:00:00.000Z
+schema_date_modified: 2025-06-30T00:00:00.000Z
 schema_word_count: 15000
-schema_reading_time: "PT45M"
-# Advanced SEO
-robots: "index,follow"
+schema_reading_time: PT45M
+robots: 'index,follow'
 priority: 0.9
-changefreq: "monthly"
-# Discoverability
+changefreq: monthly
 is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
-# Dynamic behavior
 auto_update: false
 version_tracking: true
 collection: projects

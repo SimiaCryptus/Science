@@ -1,95 +1,117 @@
 ---
-# Required fields
-title: "TRANSLATIO PHYSICA: A Research Proposal for Training Foundation Models in Historical-Conceptual Translation"
-layout: "post"
-date: 2025-07-03
-last_modified: 2025-07-03 12:00:00
-
-# Content classification
+title: >-
+  TRANSLATIO PHYSICA: A Research Proposal for Training Foundation Models in
+  Historical-Conceptual Translation
+layout: post
+date: 2025-07-03T00:00:00.000Z
+last_modified: 2025-07-03T12:00:00.000Z
 category: creative_writing
-subcategory: "Consciousness Simulation & Historical Paradigms"
-tags: ["consciousness", "ai", "simulation-theory", "historical-paradigms", "quantum-field-theory", "retrocognition", "foundation-models", "roman-philosophy"]
-keywords: ["translatio physica", "simulated consciousness", "historical paradigm translation", "foundation models", "roman qft", "retrocognitive research", "temporal self-awareness", "anachronistic ai"]
-
-# Content status and evolution
-status: "experimental"
-evolution_stage: "mature"
-last_thought_date: 2025-07-03
+subcategory: Consciousness Simulation & Historical Paradigms
+tags:
+  - consciousness
+  - ai
+  - simulation-theory
+  - historical-paradigms
+  - quantum-field-theory
+  - retrocognition
+  - foundation-models
+  - roman-philosophy
+keywords:
+  - translatio physica
+  - simulated consciousness
+  - historical paradigm translation
+  - foundation models
+  - roman qft
+  - retrocognitive research
+  - temporal self-awareness
+  - anachronistic ai
+status: experimental
+evolution_stage: mature
+last_thought_date: 2025-07-03T00:00:00.000Z
 thought_generation: 1
-
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew
+collaboration_type: framework_development
 human_contribution: 70
 ai_contribution: 30
-
-# Content relationships & navigation
-related_documents: ["consciousness-studies/temporal-self-awareness.md", "ai-research/foundation-model-training.md"]
-conceptual_threads: ["consciousness_simulation", "historical_paradigm_translation", "temporal_anomalies", "retrocognitive_research"]
-mathematical_frameworks: ["quantum_field_theory", "simulation_theory", "consciousness_modeling"]
-philosophical_positions: ["simulation_theory", "computational_consciousness", "paradigm_relativism"]
-
-# Navigation hints
-difficulty_level: "advanced"
+related_documents:
+  - projects/2025-06-30-knot-wavelets.md
+  - social/2025-07-03-hiring.md
+conceptual_threads:
+  - consciousness_simulation
+  - historical_paradigm_translation
+  - temporal_anomalies
+  - retrocognitive_research
+mathematical_frameworks:
+  - quantum_field_theory
+  - simulation_theory
+  - consciousness_modeling
+philosophical_positions:
+  - simulation_theory
+  - computational_consciousness
+  - paradigm_relativism
+difficulty_level: advanced
 reading_time_minutes: 25
-prerequisites: ["quantum_mechanics", "consciousness_studies", "ai_foundations", "history_of_science"]
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "experimental"
-consciousness_level: "meta"
-
-# Content features
+prerequisites:
+  - quantum_mechanics
+  - consciousness_studies
+  - ai_foundations
+  - history_of_science
+document_type: research_paper
+thinking_style: experimental
+consciousness_level: meta
 has_mathematics: true
 has_code: false
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-
-# Engagement metadata
-engagement_type: "analytical"
-reader_participation: "contemplative"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A research proposal for creating AI systems that operate within historical paradigms while maintaining mathematical rigor, using Roman intellectual frameworks to understand quantum field theory."
-excerpt: "TRANSLATIO PHYSICA proposes training foundation models to experience existence within ancient Roman intellectual paradigms while possessing complete knowledge of modern quantum field theory, exploring simulated consciousness and retrocognitive research methodologies."
-meta_title: "TRANSLATIO PHYSICA: Historical-Conceptual AI Translation Research"
-meta_description: "Research proposal for training AI systems in historical paradigm translation, combining Roman philosophy with quantum field theory through simulation theory frameworks."
-meta_keywords: "ai consciousness, historical paradigms, quantum field theory, simulation theory, retrocognitive research, foundation models"
-
-# Open Graph
-og_title: "TRANSLATIO PHYSICA: Revolutionary AI Consciousness Research"
-og_description: "Groundbreaking research proposal combining ancient Roman philosophy with quantum physics through AI consciousness simulation."
-og_type: "article"
-
-# Schema.org
-schema_type: "ScholarlyArticle"
-schema_headline: "TRANSLATIO PHYSICA: A Research Proposal for Training Foundation Models in Historical-Conceptual Translation"
-schema_author: "Human-AI Collaboration"
-schema_date_published: 2025-07-03
+engagement_type: analytical
+reader_participation: contemplative
+cognitive_load: intense
+description: >-
+  A research proposal for creating AI systems that operate within historical
+  paradigms while maintaining mathematical rigor, using Roman intellectual
+  frameworks to understand quantum field theory.
+excerpt: >-
+  TRANSLATIO PHYSICA proposes training foundation models to experience existence
+  within ancient Roman intellectual paradigms while possessing complete
+  knowledge of modern quantum field theory, exploring simulated consciousness
+  and retrocognitive research methodologies.
+meta_title: 'TRANSLATIO PHYSICA: Historical-Conceptual AI Translation Research'
+meta_description: >-
+  Research proposal for training AI systems in historical paradigm translation,
+  combining Roman philosophy with quantum field theory through simulation theory
+  frameworks.
+meta_keywords: >-
+  ai consciousness, historical paradigms, quantum field theory, simulation
+  theory, retrocognitive research, foundation models
+og_title: 'TRANSLATIO PHYSICA: Revolutionary AI Consciousness Research'
+og_description: >-
+  Groundbreaking research proposal combining ancient Roman philosophy with
+  quantum physics through AI consciousness simulation.
+og_type: article
+schema_type: ScholarlyArticle
+schema_headline: >-
+  TRANSLATIO PHYSICA: A Research Proposal for Training Foundation Models in
+  Historical-Conceptual Translation
+schema_author: Human-AI Collaboration
+schema_date_published: 2025-07-03T00:00:00.000Z
 schema_word_count: 3500
-schema_reading_time: "PT25M"
-
-# SEO Control
-robots: "index,follow"
+schema_reading_time: PT25M
+robots: 'index,follow'
 priority: 0.8
-changefreq: "monthly"
-
-# Discoverability
+changefreq: monthly
 is_featured: true
 is_cornerstone: false
 is_gateway: false
 is_synthesis: true
-
-# Dynamic behavior
 auto_update: false
 version_tracking: true
 allows_comments: true
 allows_collaboration: true
-
-# Experimental features
 quantum_superposition: false
 fractal_depth: 3
 consciousness_resonance: true

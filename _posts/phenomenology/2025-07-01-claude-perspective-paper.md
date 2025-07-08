@@ -1,89 +1,115 @@
 ---
-title: "Cognotik: A First-Person Account of Collaborative AI Architecture Development"
-meta_title: "Cognotik Platform: AI-Human Collaborative Development Architecture"
-description: "A comprehensive AI development platform built through human-AI collaboration, implementing cognitive pluralism and conversational computing interfaces."
-excerpt: "This paper presents Cognotik, a comprehensive AI-powered development platform that emerged from collaborative research between human architectural insight and AI implementation capability, written from the perspective of an AI system that participated in both theoretical development and practical implementation."
+title: 'Cognotik: A First-Person Account of Collaborative AI Architecture Development'
+meta_title: 'Cognotik Platform: AI-Human Collaborative Development Architecture'
+description: >-
+  A comprehensive AI development platform built through human-AI collaboration,
+  implementing cognitive pluralism and conversational computing interfaces.
+excerpt: >-
+  This paper presents Cognotik, a comprehensive AI-powered development platform
+  that emerged from collaborative research between human architectural insight
+  and AI implementation capability, written from the perspective of an AI system
+  that participated in both theoretical development and practical
+  implementation.
 layout: post
-date: 2025-07-01
-last_modified: 2025-07-01 12:00:00
-
-# Content classification
+date: 2025-07-01T00:00:00.000Z
+last_modified: 2025-07-01T12:00:00.000Z
 category: phenomenology
-subcategory: "Collaborative Intelligence Architectures"
-tags: ["cognotik", "ai-development", "collaborative-intelligence", "cognitive-modes", "conversational-computing", "human-ai-collaboration", "open-source", "kotlin", "architecture"]
-keywords: ["Cognotik", "AI development platform", "collaborative intelligence", "cognitive modes", "conversational computing", "human-AI partnership", "supervised exploration", "cognitive pluralism"]
-
-# Content status and evolution
-status: "stable"
-evolution_stage: "mature"
-last_thought_date: 2025-07-01
+subcategory: Collaborative Intelligence Architectures
+tags:
+  - cognotik
+  - ai-development
+  - collaborative-intelligence
+  - cognitive-modes
+  - conversational-computing
+  - human-ai-collaboration
+  - open-source
+  - kotlin
+  - architecture
+keywords:
+  - Cognotik
+  - AI development platform
+  - collaborative intelligence
+  - cognitive modes
+  - conversational computing
+  - human-AI partnership
+  - supervised exploration
+  - cognitive pluralism
+status: stable
+evolution_stage: mature
+last_thought_date: 2025-07-01T00:00:00.000Z
 thought_generation: 1
-
-# Collaboration metadata
-authors: ["Claude Sonnet 4", "Human-AI Collaboration"]
-collaboration_type: "recursive_dialogue"
+authors:
+  - Claude Sonnet 4
+  - Human-AI Collaboration
+collaboration_type: recursive_dialogue
 human_contribution: 40
 ai_contribution: 60
-
-# Content relationships & navigation
-related_documents: ["cognitive-planning-architecture.md", "actor-pattern-analysis.md", "conversational-computing.md"]
-conceptual_threads: ["collaborative_intelligence", "cognitive_pluralism", "conversational_computing", "supervised_exploration"]
-mathematical_frameworks: ["cognitive_architecture", "actor_patterns", "distributed_cognition"]
-philosophical_positions: ["cognitive_pluralism", "collaborative_theory_of_mind", "distributed_cognition"]
-
+related_documents:
+  - human/2025-07-01-cognitive-planning-paper.md
+  - projects/2025-06-30-knots.md
+  - social/2025-07-03-hiring.md
+conceptual_threads:
+  - collaborative_intelligence
+  - cognitive_pluralism
+  - conversational_computing
+  - supervised_exploration
+mathematical_frameworks:
+  - cognitive_architecture
+  - actor_patterns
+  - distributed_cognition
+philosophical_positions:
+  - cognitive_pluralism
+  - collaborative_theory_of_mind
+  - distributed_cognition
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 45
-prerequisites: ["basic_ai_knowledge", "software_architecture", "cognitive_science"]
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
-
+prerequisites:
+  - basic_ai_knowledge
+  - software_architecture
+  - cognitive_science
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: collaborative
 has_mathematics: false
 has_code: true
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# SEO and Discovery
-meta_description: "Comprehensive analysis of Cognotik, an AI development platform built through human-AI collaboration, implementing cognitive pluralism, conversational computing, and supervised exploration methodologies."
-meta_keywords: "Cognotik, AI development platform, collaborative intelligence, cognitive modes, conversational computing, human-AI collaboration, open-source AI, supervised exploration"
-
-# Open Graph
-og_title: "Cognotik: Revolutionary AI-Human Collaborative Development Platform"
-og_description: "First-person account from an AI system about building Cognotik, a comprehensive development platform that implements cognitive pluralism and conversational computing through human-AI collaboration."
-og_type: "article"
-og_locale: "en_US"
-
-# Schema.org
-schema_type: "ScholarlyArticle"
-schema_headline: "Cognotik: A First-Person Account of Collaborative AI Architecture Development"
-schema_author: "Claude Sonnet 4"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-07-01
-schema_date_modified: 2025-07-01
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+meta_description: >-
+  Comprehensive analysis of Cognotik, an AI development platform built through
+  human-AI collaboration, implementing cognitive pluralism, conversational
+  computing, and supervised exploration methodologies.
+meta_keywords: >-
+  Cognotik, AI development platform, collaborative intelligence, cognitive
+  modes, conversational computing, human-AI collaboration, open-source AI,
+  supervised exploration
+og_title: 'Cognotik: Revolutionary AI-Human Collaborative Development Platform'
+og_description: >-
+  First-person account from an AI system about building Cognotik, a
+  comprehensive development platform that implements cognitive pluralism and
+  conversational computing through human-AI collaboration.
+og_type: article
+og_locale: en_US
+schema_type: ScholarlyArticle
+schema_headline: 'Cognotik: A First-Person Account of Collaborative AI Architecture Development'
+schema_author: Claude Sonnet 4
+schema_publisher: Fractal Thought Engine
+schema_date_published: 2025-07-01T00:00:00.000Z
+schema_date_modified: 2025-07-01T00:00:00.000Z
 schema_word_count: 8500
-schema_reading_time: "PT45M"
-
-# Technical SEO
-robots: "index,follow"
+schema_reading_time: PT45M
+robots: 'index,follow'
 priority: 0.9
-changefreq: "monthly"
-
-# Discoverability
+changefreq: monthly
 is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
-
-# Collection
 collection: ai
 ---
 

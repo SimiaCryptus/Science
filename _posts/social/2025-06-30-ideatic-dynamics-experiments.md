@@ -1,64 +1,106 @@
 ---
-title: "Ideatic Dynamics in Small Group Systems: An Experimental Framework for Understanding Belief Evolution in 3-5 Agent Configurations"
+title: >-
+  Ideatic Dynamics in Small Group Systems: An Experimental Framework for
+  Understanding Belief Evolution in 3-5 Agent Configurations
 layout: post
-date: 2025-06-30
-last_modified: 2025-06-30 12:00:00
-# Content classification
+date: 2025-06-30T00:00:00.000Z
+last_modified: 2025-06-30T12:00:00.000Z
 category: social
-subcategory: "Multi-Agent Systems"
-tags: ["ideatic-dynamics", "multi-agent-systems", "belief-evolution", "coalition-formation", "computational-social-science", "llm-agents", "small-groups"]
-keywords: ["ideatic dynamics", "multi-agent systems", "belief evolution", "coalition formation", "computational social science", "LLM agents", "triadic systems", "pivot agents"]
-# Content status and evolution
-status: "experimental"
-evolution_stage: "growing"
-last_thought_date: 2025-06-30
+subcategory: Multi-Agent Systems
+tags:
+  - ideatic-dynamics
+  - multi-agent-systems
+  - belief-evolution
+  - coalition-formation
+  - computational-social-science
+  - llm-agents
+  - small-groups
+keywords:
+  - ideatic dynamics
+  - multi-agent systems
+  - belief evolution
+  - coalition formation
+  - computational social science
+  - LLM agents
+  - triadic systems
+  - pivot agents
+status: experimental
+evolution_stage: growing
+last_thought_date: 2025-06-30T00:00:00.000Z
 thought_generation: 1
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew
+collaboration_type: framework_development
 human_contribution: 70
 ai_contribution: 30
-# Document relationships
-related_documents: ["llm_feedback_dynamics.md", "hypothesis_breeding_grounds.md", "evolutionary_agents_proposal.md", "prompt_optimization.md"]
-conceptual_threads: ["multi_agent_dynamics", "belief_evolution", "computational_social_science", "collective_intelligence"]
-mathematical_frameworks: ["opinion_dynamics", "game_theory", "network_theory", "dynamical_systems"]
-philosophical_positions: ["computational_theory_of_mind", "emergentism", "collective_intelligence"]
-# Navigation hints
-difficulty_level: "advanced"
+related_documents:
+  - learning/2025-07-06-llm-feedback-dynamics.md
+  - learning/2025-07-06-hypothesis-breeding-grounds.md
+  - consciousness/2025-07-06-evolutionary-agents-proposal.md
+  - human/2025-07-01-prompt-optimization.md
+conceptual_threads:
+  - multi_agent_dynamics
+  - belief_evolution
+  - computational_social_science
+  - collective_intelligence
+mathematical_frameworks:
+  - opinion_dynamics
+  - game_theory
+  - network_theory
+  - dynamical_systems
+philosophical_positions:
+  - computational_theory_of_mind
+  - emergentism
+  - collective_intelligence
+difficulty_level: advanced
 reading_time_minutes: 25
-prerequisites: ["multi_agent_systems", "opinion_dynamics", "game_theory", "llm_fundamentals"]
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
+prerequisites:
+  - multi_agent_systems
+  - opinion_dynamics
+  - game_theory
+  - llm_fundamentals
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: collaborative
 has_mathematics: true
 has_code: false
 has_diagrams: false
 has_interactive_elements: false
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-# Discovery & SEO
-description: "Experimental framework for studying belief evolution in small group systems using LLM agents, focusing on intransitive loops, coalition dynamics, and pivot agent effects in 3-5 agent configurations."
-excerpt: "This paper proposes that small group configurations (3-5 agents) exhibit unique dynamical phenomena in ideatic systems that cannot be reduced to simpler or more complex systems, presenting a comprehensive experimental framework using LLM agents."
-meta_description: "Experimental framework for studying ideatic dynamics in small groups using LLM agents. Explores belief evolution, coalition formation, and pivot agent effects in 3-5 agent systems."
-meta_keywords: "ideatic dynamics, multi-agent systems, belief evolution, coalition formation, LLM agents, computational social science"
-schema_type: "ScholarlyArticle"
-schema_headline: "Ideatic Dynamics in Small Group Systems: An Experimental Framework"
-schema_author: "Human-AI Collaboration"
-schema_date_published: 2025-06-30
-schema_date_modified: 2025-06-30
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  Experimental framework for studying belief evolution in small group systems
+  using LLM agents, focusing on intransitive loops, coalition dynamics, and
+  pivot agent effects in 3-5 agent configurations.
+excerpt: >-
+  This paper proposes that small group configurations (3-5 agents) exhibit
+  unique dynamical phenomena in ideatic systems that cannot be reduced to
+  simpler or more complex systems, presenting a comprehensive experimental
+  framework using LLM agents.
+meta_description: >-
+  Experimental framework for studying ideatic dynamics in small groups using LLM
+  agents. Explores belief evolution, coalition formation, and pivot agent
+  effects in 3-5 agent systems.
+meta_keywords: >-
+  ideatic dynamics, multi-agent systems, belief evolution, coalition formation,
+  LLM agents, computational social science
+schema_type: ScholarlyArticle
+schema_headline: 'Ideatic Dynamics in Small Group Systems: An Experimental Framework'
+schema_author: Human-AI Collaboration
+schema_date_published: 2025-06-30T00:00:00.000Z
+schema_date_modified: 2025-06-30T00:00:00.000Z
 schema_word_count: 4200
-schema_reading_time: "PT25M"
-robots: "index,follow"
+schema_reading_time: PT25M
+robots: 'index,follow'
 priority: 0.8
-changefreq: "monthly"
-# Discoverability
+changefreq: monthly
 is_featured: true
 is_cornerstone: false
 is_gateway: false
 is_synthesis: true
-
 collection: ai
 ---
 
@@ -77,15 +119,15 @@ capabilities. This paper presents a novel experimental framework for studying th
 collaborative sessions, revealing fundamental patterns in how ideas emerge, compete, combine, and evolve within small
 group settings.
 
-This experimental work provides empirical validation for the theoretical frameworks developed across our AI research program. The [LLM feedback dynamics](llm_feedback_dynamics.md) research reveals how individual cognitive biases create system-level patterns, which directly informs our understanding of small group interactions. The evolutionary mechanisms described in our [Hypothesis Breeding Grounds](hypothesis_breeding_grounds.md) system provide theoretical foundations for how ideas compete and evolve, while our [evolutionary agents proposal](evolutionary_agents_proposal.md) explores how these small group dynamics might scale to civilization-level intelligence. The [prompt optimization](prompt_optimization.md) work demonstrates practical applications of evolutionary algorithms that could enhance the experimental agents used in these studies.
+This experimental work provides empirical validation for the theoretical frameworks developed across our AI research program. The [LLM feedback dynamics](learning/2025-07-06-llm-feedback-dynamics.md) research reveals how individual cognitive biases create system-level patterns, which directly informs our understanding of small group interactions. The evolutionary mechanisms described in our [Hypothesis Breeding[Hypothesis Breeding Grounds](learning/2025-07-06-hypothesis-breeding-grounds.md)retical foundations for how ideas compete and evolve, while our [evolutionary agents proposal](consciousness/2025-07-06-evolutionary-agents-proposal.md) might scale [prompt optimization](human/2025-07-01-prompt-optimization.md)pt optimization](prompt_optimization.md) work demonstrates p[prompt optimization](human/2025-07-01-prompt-optimization.md)hms that could enhan[prompt optimization](human/2025-07-01-prompt-optimization.md)ies.
 Traditional studies of group cognition have been limited by the difficulty of controlling variables, the challenge of
 quantifying idea quality, and the inability to systematically vary participant characteristics. By incorporating AI
 agents with precisely controllable parameters alongside human participants, we can create reproducible experimental
 conditions while maintaining the authentic unpredictability of human creative thought.
 
 The mathematical study of how ideas propagate and evolve through networks of interacting agents—termed ideatic dynamics—has revealed fundamental insights into collective intelligence, opinion formation, and social coordination (DeGroot, 1974; Hegselmann & Krause, 2002; Deffuant et al., 2000). However, existing research has predominantly focused on two limiting cases: dyadic interactions, which permit analytical tractability but limited strategic complexity, and large-scale networks, which exhibit emergent collective behaviors but obscure individual agency.
-This research connects to our broader framework on [chaotic dynamics in LLM systems](llm_feedback_dynamics.md), where we
-explore how systematic biases and feedback loops create complex behavioral patterns that manifest at both individual and collective levels. The evolutionary approach to theory development outlined in [Hypothesis Breeding Grounds](hypothesis_breeding_grounds.md) provides complementary insights into how ideas evolve and compete in computational systems, while our [evolutionary agents proposal](evolutionary_agents_proposal.md) demonstrates how these small group dynamics might serve as building blocks for larger cognitive ecosystems. The [prompt optimization](prompt_optimization.md) framework offers practical tools for systematically improving the agents used in these experiments.
+This research connects to ou[chaotic dynamics in LLM systems](learning/2025-07-06-llm-feedback-dynamics.md)m_feedback_dynamics.md), where we
+explore how [chaotic dynamics in LLM systems](learning/2025-07-06-llm-feedback-dynamics.md)ral patterns that manifest at both individual and collective levels. The evolutionary approach to theory development outlined [Hypothesis Breeding Grounds](learning/2025-07-06-hypothesis-breeding-grounds.md)md) provides complementary insights into how[Hypothesis Breeding Grounds](learning/2025-07-06-hypothesis-breeding-grounds.md) [Hypothesis Breeding Grounds](learning/2025-07-06-hypothesis-breeding-grounds.md)d) demonstrates how these small group dynamics might serve as[evolutionary agents proposal](consciousness/2025-07-06-evolutionary-agents-proposal.md)ptimization](prompt_optimization.md) framework offers practical tools for systematically improving the agents used in these experiments.
 
 This bifurcation has left a critical gap in our understanding of small group dynamics, particularly in the 3-5 agent regime. We argue that this intermediate scale represents a distinct phase in ideatic systems, characterized by three key properties: (1) sufficient complexity to generate strategic interdependencies and coalition formation, (2) manageable cognitive load allowing agents to maintain detailed models of each other's belief states, and (3) preservation of individual agency in determining collective outcomes.
 
@@ -233,9 +275,7 @@ Our experimental framework primarily examines Western, educated populations thro
 
 The 3-5 agent regime in ideatic dynamics represents a critical but understudied phase in collective intelligence. Our proposed experimental framework provides the first systematic approach to investigating the unique phenomena that emerge at this scale: intransitive influence loops, coalition formation dynamics, and pivot agent effects.
 
-These findings have direct implications across our broader AI research program. The chaotic dynamics we observe in [LLM feedback systems](llm_feedback_dynamics.md) manifest differently in multi-agent configurations, where small group effects can either amplify or dampen individual systematic biases. The evolutionary framework presented in [Hypothesis Breeding Grounds](hypothesis_breeding_grounds.md) could be enhanced by incorporating insights from small group dynamics to better model theoretical competition and selection. Most significantly, these empirical findings directly inform the design of cognitive ecosystems in our [evolutionary agents proposal](evolutionary_agents_proposal.md), where understanding how 3-5 agent groups develop specialized roles and collective intelligence is crucial for predicting civilization-scale consciousness emergence.
-
-By leveraging LLM technology to create controlled, reproducible experiments, this research program promises to establish empirical foundations for small group ideatic theory while providing practical insights for institutional design. The theoretical prediction that cognitive tractability creates natural boundaries for strategic complexity offers a unifying framework for understanding when and why different types of collective behavior emerge.
+These findings have direct implications across our broader AI research program. The chaotic dynamics we observe in [LLM feedback sys[LLM feedback systems](learning/2025-07-06-llm-feedback-dynamics.md)ntly in multi-agent configurations, where small group effects can either amplify or dampen individu[LLM feedback systems](learning/2025-07-06-llm-feedback-dynamics.md) presented in [Hypothesis Breeding Grounds](hypothe[Hypothesis Breeding Grounds](learning/2025-07-06-hypothesis-breeding-grounds.md)nsights from small group dynamics to better model theoretical competition and selection. Most significantly, these empirical findings directly inform the design of cognitive ecosystems in our [evolutionary agents proposal](evolutionary_agents_propos[evolutionary agents proposal](consciousness/2025-07-06-evolutionary-agents-proposal.md)lized roles and collective intelligence is crucial for predicting civilization-scale[evolutionary agents proposal](consciousness/2025-07-06-evolutionary-agents-proposal.md)te controlled, reproducible experiments, this research program promises to establish empirical foundations for small group ideatic theory while providing practical insights for institutional design. The theoretical prediction that cognitive tractability creates natural boundaries for strategic complexity offers a unifying framework for understanding when and why different types of collective behavior emerge.
 
 As human society increasingly relies on small group decision-making in complex technical and policy domains, understanding the fundamental dynamics of ideatic evolution in these configurations becomes not merely an academic curiosity, but a practical necessity for effective governance and collaboration.
 

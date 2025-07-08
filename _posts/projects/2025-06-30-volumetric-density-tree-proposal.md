@@ -1,76 +1,110 @@
 ---
-title: "Volumetric Density Trees with Polynomial Constraints: A Novel Approach to High-Dimensional Density Modeling"
+title: >-
+  Volumetric Density Trees with Polynomial Constraints: A Novel Approach to
+  High-Dimensional Density Modeling
 layout: post
 collection: projects
-date: 2025-06-30
-last_modified: 2025-06-30 12:00:00
-# Content classification
+date: 2025-06-30T00:00:00.000Z
+last_modified: 2025-06-30T12:00:00.000Z
 category: projects
-subcategory: "Neural Architectures"
-tags: ["density-modeling", "machine-learning", "polynomial-constraints", "tree-algorithms", "geometric-modeling"]
-keywords: ["volumetric density trees", "polynomial constraints", "density estimation", "entropy optimization", "geometric boundaries"]
-# Content status and evolution
-status: "experimental"
-evolution_stage: "seed"
-last_thought_date: 2025-06-30
+subcategory: Neural Architectures
+tags:
+  - density-modeling
+  - machine-learning
+  - polynomial-constraints
+  - tree-algorithms
+  - geometric-modeling
+keywords:
+  - volumetric density trees
+  - polynomial constraints
+  - density estimation
+  - entropy optimization
+  - geometric boundaries
+status: experimental
+evolution_stage: seed
+last_thought_date: 2025-06-30T00:00:00.000Z
 thought_generation: 1
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew
+collaboration_type: framework_development
 human_contribution: 70
 ai_contribution: 30
-# Content relationships & navigation
-related_documents: ["bwt_tree_proposal.md", "../ai/ngram_paper.md", "../ai/compression_classification_paper.md", "../ai/probabilistic_trees_paper.md"]
-conceptual_threads: ["tree_algorithms", "density_estimation", "geometric_modeling", "entropy_optimization"]
-mathematical_frameworks: ["information_theory", "geometric_optimization", "polynomial_optimization"]
-philosophical_positions: ["computational_theory_of_mind"]
+related_documents:
+  - projects/2025-06-30-bwt-tree-proposal.md
+  - human/2025-06-30-ngram-paper.md
+  - human/2025-06-30-compression-classification-paper.md
+  - human/2025-06-30-probabilistic-trees-paper.md
+conceptual_threads:
+  - tree_algorithms
+  - density_estimation
+  - geometric_modeling
+  - entropy_optimization
+mathematical_frameworks:
+  - information_theory
+  - geometric_optimization
+  - polynomial_optimization
+philosophical_positions:
+  - computational_theory_of_mind
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 25
-prerequisites: ["machine_learning", "probability_theory", "computational_geometry"]
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
+prerequisites:
+  - machine_learning
+  - probability_theory
+  - computational_geometry
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: collaborative
 has_mathematics: true
 has_code: true
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-# Discovery & SEO
-description: "Novel method for modeling probability distributions using volumetric density trees with quadratic polynomial constraints, addressing complex geometric boundaries in 2-4D spaces."
-excerpt: "We propose volumetric density trees that support polynomial constraints for modeling complex, non-linear decision boundaries in low-dimensional spaces. Our hybrid approach combines analytical solutions with adaptive sampling for efficient volume computation while maintaining interpretability."
-# SEO Meta Tags
-meta_title: "Volumetric Density Trees with Polynomial Constraints - Novel Density Modeling"
-meta_description: "Revolutionary approach to density modeling using polynomial-constrained volumetric trees. Handles complex geometric boundaries, discontinuous densities, and fractal structures in 2-4D spaces with computational efficiency."
-meta_keywords: "density modeling, polynomial constraints, machine learning, geometric boundaries, tree algorithms, entropy optimization"
-# Open Graph (Social Media)
-og_title: "Volumetric Density Trees: Polynomial-Constrained Density Modeling"
-og_description: "Novel tree-based approach for modeling complex probability distributions with quadratic constraints. Combines analytical solutions with adaptive sampling for geometric interpretability."
-og_type: "article"
-og_locale: "en_US"
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Volumetric Density Trees with Polynomial Constraints"
-schema_author: "Human-AI Collaboration"
-schema_date_published: 2025-06-30
-schema_date_modified: 2025-06-30
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  Novel method for modeling probability distributions using volumetric density
+  trees with quadratic polynomial constraints, addressing complex geometric
+  boundaries in 2-4D spaces.
+excerpt: >-
+  We propose volumetric density trees that support polynomial constraints for
+  modeling complex, non-linear decision boundaries in low-dimensional spaces.
+  Our hybrid approach combines analytical solutions with adaptive sampling for
+  efficient volume computation while maintaining interpretability.
+meta_title: Volumetric Density Trees with Polynomial Constraints - Novel Density Modeling
+meta_description: >-
+  Revolutionary approach to density modeling using polynomial-constrained
+  volumetric trees. Handles complex geometric boundaries, discontinuous
+  densities, and fractal structures in 2-4D spaces with computational
+  efficiency.
+meta_keywords: >-
+  density modeling, polynomial constraints, machine learning, geometric
+  boundaries, tree algorithms, entropy optimization
+og_title: 'Volumetric Density Trees: Polynomial-Constrained Density Modeling'
+og_description: >-
+  Novel tree-based approach for modeling complex probability distributions with
+  quadratic constraints. Combines analytical solutions with adaptive sampling
+  for geometric interpretability.
+og_type: article
+og_locale: en_US
+schema_type: ScholarlyArticle
+schema_headline: Volumetric Density Trees with Polynomial Constraints
+schema_author: Human-AI Collaboration
+schema_date_published: 2025-06-30T00:00:00.000Z
+schema_date_modified: 2025-06-30T00:00:00.000Z
 schema_word_count: 4500
-schema_reading_time: "PT25M"
-# Search Engine Directives
-robots: "index,follow"
+schema_reading_time: PT25M
+robots: 'index,follow'
 priority: 0.8
-changefreq: "monthly"
-# Discoverability
+changefreq: monthly
 is_featured: false
 is_cornerstone: false
 is_gateway: false
 is_synthesis: true
-# Dynamic behavior
 auto_update: false
 allows_comments: true
 allows_collaboration: true
@@ -123,14 +157,12 @@ C_i: Σ(a_ijkl * x_j * x_k) + Σ(b_ijk * x_j) + c_i ≤ 0
 where the first sum captures quadratic interactions and the second captures linear terms. This formulation allows for
 ellipsoidal regions, saddle-shaped boundaries, and other complex geometries while maintaining mathematical tractability.
 The entropy-based organization principles share conceptual similarities with our work
-on [Entropy-Optimized Permutation Trees](bwt_tree_proposal.md), though applied to continuous density estimation rather
+on [Entropy-Optimized Permutation Trees](projects/2025-06-30-bwt-tree-proposal.md), though applied to continuous density estimation rather
 than discrete string processing. Both approaches use information-theoretic principles to guide tree structure.
 The hierarchical expectation-based partitioning developed here extends the compression techniques from our 
-[N-gram language model research](../ai/ngram_paper.md) to continuous spaces, where volume estimation replaces 
-frequency counting. The entropy-adaptive organization also connects to our [compression-based classification](../ai/compression_classification_paper.md) 
-work, where similar information-theoretic principles optimize discrete decision boundaries.
-The probabilistic modeling aspects relate to our [Probabilistic Decision Trees](../ai/probabilistic_trees_paper.md) 
-research, though focused on continuous density estimation rather than discrete classification with uncertainty 
+[N-gram language mod[N-gram language model research](human/2025-06-30-ngram-paper.md)s, where volume estimation replaces 
+frequency counting. The entropy-adaptive organization also connects to our [compression-based classificati[compression-based classification](human/2025-06-30-compression-classification-paper.md)on-theoretic principles optimize discrete decision boundaries.
+The probabilistic modeling aspects relate to our [Probabilistic Decision Trees](human/2025-06-30-probabilistic-trees-paper.md)ensity estimation rather than discrete classification with uncertainty 
 quantification.
 
 ### 2.2 Efficient Volume Estimation via Point Lattices

@@ -1,99 +1,128 @@
 ---
-title: "Abstract Computational Architectures on Quantum Graph Substrates: A Mathematical Framework for Non-Local Information Processing"
+title: >-
+  Abstract Computational Architectures on Quantum Graph Substrates: A
+  Mathematical Framework for Non-Local Information Processing
 layout: post
 collection: scifi
-date: 2025-06-30
-last_modified: 2025-06-30 12:00:00
-
-# Content classification
+date: 2025-06-30T00:00:00.000Z
+last_modified: 2025-06-30T12:00:00.000Z
 category: scifi
-subcategory: "Quantum Computational Architectures"
-tags: ["quantum-computation", "graph-theory", "complexity-theory", "quantum-walks", "social-dynamics", "computational-substrate", "spacetime-emergence"]
-keywords: ["quantum graphs", "computational complexity", "BQP", "QGP", "PSPACE", "graph theory", "distributed algorithms", "quantum field theory", "lattice gauge theory", "social networks", "influence maximization"]
-
-# Content status and evolution
-status: "experimental"
-evolution_stage: "mature"
-last_thought_date: 2025-06-30
+subcategory: Quantum Computational Architectures
+tags:
+  - quantum-computation
+  - graph-theory
+  - complexity-theory
+  - quantum-walks
+  - social-dynamics
+  - computational-substrate
+  - spacetime-emergence
+keywords:
+  - quantum graphs
+  - computational complexity
+  - BQP
+  - QGP
+  - PSPACE
+  - graph theory
+  - distributed algorithms
+  - quantum field theory
+  - lattice gauge theory
+  - social networks
+  - influence maximization
+status: experimental
+evolution_stage: mature
+last_thought_date: 2025-06-30T00:00:00.000Z
 thought_generation: 3
-
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew
+collaboration_type: framework_development
 human_contribution: 40
 ai_contribution: 60
-
-# Content relationships & navigation
-related_documents: ["simulation_qft_hashlife.md", "quantum_spacetime_paper.md", "multiverse_router_paper.md", "../projects/wavelet-geometric-optimization.md"]
-cross_synthesis_with: ["quantum_spacetime_paper.md", "multiverse_router_paper.md"]
-conceptual_threads: ["quantum_computation", "graph_dynamics", "complexity_theory", "spacetime_emergence", "social_dynamics"]
-mathematical_frameworks: ["quantum_graph_theory", "spectral_graph_theory", "computational_complexity", "quantum_information", "category_theory"]
-philosophical_positions: ["computational_theory_of_mind", "quantum_foundations", "emergentism"]
-
+related_documents:
+  - scifi/2025-06-30-simulation-qft-hashlife.md
+  - scifi/2025-07-01-quantum-spacetime-paper.md
+  - scifi/2025-06-30-multiverse-router-paper.md
+  - projects/2025-06-30-wavelet-geometric-optimization.md
+cross_synthesis_with:
+  - scifi/2025-07-01-quantum-spacetime-paper.md
+  - scifi/2025-06-30-multiverse-router-paper.md
+conceptual_threads:
+  - quantum_computation
+  - graph_dynamics
+  - complexity_theory
+  - spacetime_emergence
+  - social_dynamics
+mathematical_frameworks:
+  - quantum_graph_theory
+  - spectral_graph_theory
+  - computational_complexity
+  - quantum_information
+  - category_theory
+philosophical_positions:
+  - computational_theory_of_mind
+  - quantum_foundations
+  - emergentism
 reading_order: 15
-difficulty_level: "research"
+difficulty_level: research
 reading_time_minutes: 45
-prerequisites: ["quantum_mechanics", "graph_theory", "computational_complexity", "linear_algebra"]
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "mathematical"
-consciousness_level: "collaborative"
-
+prerequisites:
+  - quantum_mechanics
+  - graph_theory
+  - computational_complexity
+  - linear_algebra
+document_type: research_paper
+thinking_style: mathematical
+consciousness_level: collaborative
 has_mathematics: true
 has_code: true
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A rigorous mathematical framework for quantum computation on dynamic graph substrates, introducing the QGP complexity class and novel algorithms exploiting graph topology changes."
-excerpt: "We present a mathematical framework for computational architectures based on quantum graph structures with non-local connectivity properties, proving BQP ⊊ QGP ⊊ PSPACE and developing algorithms that exploit dynamic topology changes during quantum computation."
-
-# SEO Meta Tags
-meta_title: "Quantum Graph Computation: Dynamic Topology for Enhanced Quantum Algorithms"
-meta_description: "Mathematical framework for quantum computation on dynamic graph substrates. Introduces QGP complexity class, proves containment relationships, and develops novel algorithms exploiting graph topology changes."
-meta_keywords: "quantum computation, graph theory, complexity theory, quantum algorithms, dynamic topology, BQP, PSPACE, quantum walks"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Abstract Computational Architectures on Quantum Graph Substrates"
-schema_author: "Human-AI Collaboration"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-06-30
-schema_date_modified: 2025-06-30
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A rigorous mathematical framework for quantum computation on dynamic graph
+  substrates, introducing the QGP complexity class and novel algorithms
+  exploiting graph topology changes.
+excerpt: >-
+  We present a mathematical framework for computational architectures based on
+  quantum graph structures with non-local connectivity properties, proving BQP ⊊
+  QGP ⊊ PSPACE and developing algorithms that exploit dynamic topology changes
+  during quantum computation.
+meta_title: 'Quantum Graph Computation: Dynamic Topology for Enhanced Quantum Algorithms'
+meta_description: >-
+  Mathematical framework for quantum computation on dynamic graph substrates.
+  Introduces QGP complexity class, proves containment relationships, and
+  develops novel algorithms exploiting graph topology changes.
+meta_keywords: >-
+  quantum computation, graph theory, complexity theory, quantum algorithms,
+  dynamic topology, BQP, PSPACE, quantum walks
+schema_type: ScholarlyArticle
+schema_headline: Abstract Computational Architectures on Quantum Graph Substrates
+schema_author: Human-AI Collaboration
+schema_publisher: Fractal Thought Engine
+schema_date_published: 2025-06-30T00:00:00.000Z
+schema_date_modified: 2025-06-30T00:00:00.000Z
 schema_word_count: 12500
-schema_reading_time: "PT45M"
-
-# Advanced SEO
-robots: "index,follow"
+schema_reading_time: PT45M
+robots: 'index,follow'
 priority: 0.8
-changefreq: "monthly"
-
-# Discoverability
+changefreq: monthly
 is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
-
-# Dynamic behavior
 auto_update: false
-update_frequency: "manual"
+update_frequency: manual
 version_tracking: true
 change_log: true
-
-# Interactive features
 allows_comments: true
 allows_collaboration: true
 tracks_reader_journey: false
 adapts_to_reader: false
-
-# Experimental features
 quantum_superposition: false
 fractal_depth: 3
 consciousness_resonance: false
@@ -738,13 +767,13 @@ This functor is neither full nor faithful, reflecting the complexity of the comp
 Our quantum graph framework relates to several approaches in quantum gravity:
 **Emergent Spacetime**: The emergence of classical spacetime from quantum graphs (Section 5.5) parallels
 observer-dependent spacetime emergence in unified quantum gravity theories (
-see [Observer-Dependent Spacetime](quantum_spacetime_paper.md)). Both suggest spacetime is not fundamental but emerges
+see [Observer-Dependent Spacetime](scifi/2025-07-01-quantum-spacetime-paper.md)). Both suggest spacetime is not fundamental but emerges
 from more primitive quantum structures.
 **Substrate Manipulation**: The topology modification operations in QGP share conceptual ground with proposals for
-quantum substrate manipulation (see [Multiverse Router](multiverse_router_paper.md)), where high-energy interventions
+quantum substrate manipulation (see [Multiverse Route[Multiverse Router](scifi/2025-06-30-multiverse-router-paper.md)rgy interventions
 modify the underlying quantum structure of reality.
 **Computational Reality**: The complexity-theoretic aspects of QGP connect to computational interpretations of physics (
-see [Simulation QFT Hashlife](simulation_qft_hashlife.md)), suggesting that computational and physical principles may be
+see [Simulation QFT Hashlife](scifi/2025-06-30-simulation-qft-hashlife.md)nd physical principles may be
 fundamentally intertwined.
 
 **Disclaimer**: The QGP model is a theoretical framework for studying computation on dynamic quantum graphs. While we
@@ -1689,20 +1718,16 @@ def run_reproducible_experiment(name, params):
 * Algorithm performance benchmarks
 This framework connects to several related theoretical developments:
 **Computational Substrate Integration**: The dynamic quantum graph model provides a natural implementation 
-platform for computational substrate theories (see [Simulation QFT Hashlife](simulation_qft_hashlife.md)). 
-The graph topology changes correspond to hashlife pattern recognition and memoization - frequently used 
+platform for comp[Simulation QFT Hashlife](scifi/2025-06-30-simulation-qft-hashlife.md)-06-30-simulation-qft-hashlife.md)fe pattern recognition and memoization - frequently used 
 computational patterns become stabilized graph structures, while rare patterns remain dynamic. The quantum 
 graph serves as the hardware for the cosmic computation.
-**Observer-Dependent Spacetime**: The quantum reference frames in our model directly implement the observer 
-embeddings from spacetime emergence theory (see [Observer-Dependent Spacetime](quantum_spacetime_paper.md)). 
-Each quantum reference frame corresponds to a different projection of the atemporal quantum foam, with the 
+**Observer-Dependent Spacetime**: The quantum reference frames in our mo[Observer-Dependent Spacetime](scifi/2025-07-01-quantum-spacetime-paper.md)time emergence theory (see [Observer-Dependent Spacetime](quantum_spacetime_paper.md)). 
+Each q[Observer-Dependent Spacetime](scifi/2025-07-01-quantum-spacetime-paper.md)on of the atemporal quantum foam, with the 
 graph topology encoding the causal and geometric structure visible to that observer.
-**Multiverse Router Architecture**: The dynamic topology provides the switching mechanism for multiverse 
-routing (see [Multiverse Router](multiverse_router_paper.md)). Different graph configurations correspond 
-to different universe branches, with quantum tunneling between topologies enabling multiverse navigation. 
+**Multiverse Router Architecture**: The dynamic top[Multiverse Router](scifi/2025-06-30-multiverse-router-paper.md)iverse 
+routing (see [Multiverse Router](multiverse_router_paper.md)). Different graph configurations corr[Multiverse Router](scifi/2025-06-30-multiverse-router-paper.md)antum tunneling between topologies enabling multiverse navigation. 
 The entanglement structure encodes the routing tables between realities.
-**Wavelet Geometric Optimization**: The hierarchical graph structures naturally implement wavelet-like 
-multi-resolution analysis (see [Wavelet Geometric Optimization](../projects/wavelet-geometric-optimization.md)). 
-Different scales of graph clustering correspond to different wavelet scales, with the dynamic topology 
+**Wavelet Geometric Optimization**: The hierarchical graph structures naturally impl[Wavelet Geometric Optimization](projects/2025-06-30-wavelet-geometric-optimization.md)ion](../projects/wavelet-geometric-optimization.md)). 
+Different scales of[Wavelet Geometric Optimization](projects/2025-06-30-wavelet-geometric-optimization.md)logy 
 enabling adaptive basis selection. The graph Laplacian eigenfunctions serve as the geometric wavelets.
 The dynamic quantum graph model provides a natural implementation platform for computational substrate theories.

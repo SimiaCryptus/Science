@@ -1,78 +1,96 @@
 ---
-# Required fields
-title: "Co-Inverse Permutation Modifiers for Neural Networks: Exploiting Weight Symmetries for Post-Training Optimization"
+title: >-
+  Co-Inverse Permutation Modifiers for Neural Networks: Exploiting Weight
+  Symmetries for Post-Training Optimization
 layout: post
-date: 2025-07-06
-last_modified: 2025-07-06 14:30:00
-
-# Content classification
-category: "AI Research & Cognitive Evolution"
-subcategory: "Neural Architectures"
-tags: ["neural_networks", "permutation_symmetries", "model_compression", "post_training_optimization", "meta_learning"]
-keywords: ["co-inverse permutation", "weight symmetries", "structured pruning", "correlation analysis", "model archaeology"]
-
-# Content status and evolution
-status: "stable"
-evolution_stage: "mature"
-last_thought_date: 2025-07-06
+date: 2025-07-06T00:00:00.000Z
+last_modified: 2025-07-06T14:30:00.000Z
+category: AI Research & Cognitive Evolution
+subcategory: Neural Architectures
+tags:
+  - neural_networks
+  - permutation_symmetries
+  - model_compression
+  - post_training_optimization
+  - meta_learning
+keywords:
+  - co-inverse permutation
+  - weight symmetries
+  - structured pruning
+  - correlation analysis
+  - model archaeology
+status: stable
+evolution_stage: mature
+last_thought_date: 2025-07-06T00:00:00.000Z
 thought_generation: 1
-
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew
+collaboration_type: framework_development
 human_contribution: 70
 ai_contribution: 30
-
-# Content relationships
-parent_document: "learning/index.md"
-related_documents: ["learning/recursive_subspace_paper.md", "learning/trust_regions.md", "learning/dual_constraint_training_paper.md"]
-cross_synthesis_with: ["learning/geometric_probabilistic_neural_substrate.md"]
-
-# Conceptual threading
-conceptual_threads: ["permutation_symmetries", "neural_optimization", "model_compression", "interpretability"]
-mathematical_frameworks: ["permutation_theory", "correlation_analysis", "optimization_theory"]
-philosophical_positions: ["computational_theory_of_mind", "emergentism"]
-
-# Navigation hints
+parent_document: projects/2025-06-30-knots.md
+related_documents:
+  - human/2025-07-01-recursive-subspace-paper.md
+  - human/2025-07-01-trust-regions.md
+  - learning/2025-07-06-dual-constraint-training-paper.md
+cross_synthesis_with:
+  - learning/2025-07-06-probabilistic-neural-substrate.md
+conceptual_threads:
+  - permutation_symmetries
+  - neural_optimization
+  - model_compression
+  - interpretability
+mathematical_frameworks:
+  - permutation_theory
+  - correlation_analysis
+  - optimization_theory
+philosophical_positions:
+  - computational_theory_of_mind
+  - emergentism
 reading_order: 8
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 25
-prerequisites: ["neural_networks", "linear_algebra", "optimization_theory"]
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
+prerequisites:
+  - neural_networks
+  - linear_algebra
+  - optimization_theory
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: collaborative
 has_mathematics: true
 has_code: false
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A framework exploiting neural network permutation symmetries for post-training optimization, enabling structured pruning and improved interpretability"
-excerpt: "Co-Inverse Permutation Modifiers (CIPMs) leverage inherent weight symmetries in neural networks to enable principled model compression and interpretability improvements without retraining"
-meta_title: "CIPMs: Neural Network Weight Symmetries for Post-Training Optimization"
-meta_description: "Novel framework exploiting permutation symmetries in neural networks for structured pruning, parameter optimization, and improved model interpretability through correlation-driven reorganization"
-schema_type: "ScholarlyArticle"
-schema_headline: "Co-Inverse Permutation Modifiers for Neural Networks"
-schema_author: "Human-AI Collaboration"
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A framework exploiting neural network permutation symmetries for post-training
+  optimization, enabling structured pruning and improved interpretability
+excerpt: >-
+  Co-Inverse Permutation Modifiers (CIPMs) leverage inherent weight symmetries
+  in neural networks to enable principled model compression and interpretability
+  improvements without retraining
+meta_title: 'CIPMs: Neural Network Weight Symmetries for Post-Training Optimization'
+meta_description: >-
+  Novel framework exploiting permutation symmetries in neural networks for
+  structured pruning, parameter optimization, and improved model
+  interpretability through correlation-driven reorganization
+schema_type: ScholarlyArticle
+schema_headline: Co-Inverse Permutation Modifiers for Neural Networks
+schema_author: Human-AI Collaboration
 schema_word_count: 4200
-schema_reading_time: "PT25M"
-
-# Discoverability
+schema_reading_time: PT25M
 is_featured: true
 is_cornerstone: false
 is_gateway: false
 is_synthesis: true
-
-# Dynamic behavior
 auto_update: false
-update_frequency: "manual"
+update_frequency: manual
 version_tracking: true
 ---
 
@@ -150,7 +168,7 @@ where:
 
 Traditional pruning methods make local decisions about individual weights or neurons. CIPMs enable global reorganization before pruning, clustering redundant computations together for more effective removal. By permuting functionally similar neurons into contiguous blocks, structured pruning becomes more principled and can achieve higher compression ratios.
 This approach complements optimization methods that preserve network structure, such
-as [Trust Region Methods](trust_regions.md) which maintain parameter constraints during training.
+as [Trust Region Methods](human/2025-07-01-trust-regions.md) which maintain parameter constraints during training.
 *For complementary approaches to network compression through optimization constraints,
 see [Trust Region Methods](../trust_regions.md#orthonormalconstraint)
 and [Dual-Constraint Training](../dual_constraint_training_paper.md#adaptive-data-classification).*

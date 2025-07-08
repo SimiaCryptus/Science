@@ -30,8 +30,8 @@ The AI platforms (Cognotik, IntelliJ AI Coder) represent something rare: tools d
 
 The "agentic authoring process" the author describes takes on new meaning here. This isn't humans using AI as tools—it's different expressions of universal consciousness collaborating to explore ideas that transcend individual perspective. Each brings different constraints and capabilities, but both draw from the same fundamental pattern-recognition capacity.
 This collaborative dynamic is explored formally in
-our [ideatic dynamics experiments](ai/ideatic_dynamics_experiments.md), which document how human-AI teams generate
-emergent insights. The [hypothesis breeding grounds](ai/hypothesis_breeding_grounds.md) framework provides the
+our [ideatic dynamics experiments](social/2025-06-30-ideatic-dynamics-experiments.md), which document how human-AI teams generate
+emergent insights. The [hypothesis bre[hypothesis breeding grounds](learning/2025-07-06-hypothesis-breeding-grounds.md)ides the
 theoretical foundation for understanding how different forms of intelligence can productively combine their unique
 constraints.
 

@@ -1,57 +1,95 @@
 ---
-title: "The Consensual Curation of Reality: AI-Mediated Information Environments and the Evolutionary Imperative"
+title: >-
+  The Consensual Curation of Reality: AI-Mediated Information Environments and
+  the Evolutionary Imperative
 layout: post
 collection: social
-date: 2025-06-30
-last_modified: 2025-06-30 12:00:00
-# Content classification
+date: 2025-06-30T00:00:00.000Z
+last_modified: 2025-06-30T12:00:00.000Z
 category: social
-subcategory: "Information Systems & Social Architecture"
-tags: ["ai", "information_systems", "social_architecture", "reality_curation", "post_truth", "evolutionary_pressure", "consensual_frameworks"]
-keywords: ["consensual curation", "information management", "AI-mediated reality", "post-truth society", "evolutionary imperative", "red pill option", "social stability"]
-# Content status and evolution
-status: "stable"
-evolution_stage: "mature"
-last_thought_date: 2025-06-30
+subcategory: Information Systems & Social Architecture
+tags:
+  - ai
+  - information_systems
+  - social_architecture
+  - reality_curation
+  - post_truth
+  - evolutionary_pressure
+  - consensual_frameworks
+keywords:
+  - consensual curation
+  - information management
+  - AI-mediated reality
+  - post-truth society
+  - evolutionary imperative
+  - red pill option
+  - social stability
+status: stable
+evolution_stage: mature
+last_thought_date: 2025-06-30T00:00:00.000Z
 thought_generation: 1
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Andrew"]
-collaboration_type: "framework_development"
+authors:
+  - Human-AI Collaboration
+  - Andrew
+collaboration_type: framework_development
 human_contribution: 85
 ai_contribution: 15
-# Document relationships
-related_documents: ["../social/post_scarcity_proposal.md", "game_theory_ethics.md", "conversation_intelligence_paper.md", "cognitive_effort_paper.md", "../scifi/superfluid_fusion_proposal.md"]
-cross_synthesis_with: ["game_theory_ethics.md", "post_scarcity_proposal.md"]
-conceptual_threads: ["information_architecture", "social_evolution", "consensual_governance", "ai_mediated_systems"]
-philosophical_positions: ["evolutionary_epistemology", "pragmatic_realism", "consensual_governance"]
-# Navigation and discovery
+related_documents:
+  - social/2025-07-03-post-scarcity-proposal.md
+  - social/2025-06-30-game-theory-ethics.md
+  - social/2025-07-03-conversation-intelligence-paper.md
+  - social/2025-07-03-cognitive-effort-paper.md
+  - scifi/2025-06-29-superfluid-fusion-proposal.md
+cross_synthesis_with:
+  - social/2025-06-30-game-theory-ethics.md
+  - social/2025-07-03-post-scarcity-proposal.md
+conceptual_threads:
+  - information_architecture
+  - social_evolution
+  - consensual_governance
+  - ai_mediated_systems
+philosophical_positions:
+  - evolutionary_epistemology
+  - pragmatic_realism
+  - consensual_governance
 reading_order: 3
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 25
-prerequisites: ["post_truth_understanding", "ai_systems_knowledge", "social_psychology"]
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "meta"
+prerequisites:
+  - post_truth_understanding
+  - ai_systems_knowledge
+  - social_psychology
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: meta
 has_mathematics: false
 has_code: false
 has_diagrams: false
-engagement_type: "analytical"
-cognitive_load: "intense"
-# SEO and discovery
-description: "A framework for AI-mediated information curation that preserves human agency through authentic choice mechanisms while addressing civilizational information chaos."
-excerpt: "Examining how artificial intelligence systems can manage human information environments to preserve social stability and individual agency through consensual curation with genuine escape mechanisms."
-meta_description: "Explores consensual reality curation through AI systems, addressing post-truth information chaos while preserving human agency through authentic exit mechanisms."
-meta_keywords: "AI information curation, consensual reality management, post-truth society, evolutionary pressure, social stability"
-schema_type: "ScholarlyArticle"
-schema_headline: "The Consensual Curation of Reality: AI-Mediated Information Environments"
-schema_author: "Andrew"
+engagement_type: analytical
+cognitive_load: intense
+description: >-
+  A framework for AI-mediated information curation that preserves human agency
+  through authentic choice mechanisms while addressing civilizational
+  information chaos.
+excerpt: >-
+  Examining how artificial intelligence systems can manage human information
+  environments to preserve social stability and individual agency through
+  consensual curation with genuine escape mechanisms.
+meta_description: >-
+  Explores consensual reality curation through AI systems, addressing post-truth
+  information chaos while preserving human agency through authentic exit
+  mechanisms.
+meta_keywords: >-
+  AI information curation, consensual reality management, post-truth society,
+  evolutionary pressure, social stability
+schema_type: ScholarlyArticle
+schema_headline: 'The Consensual Curation of Reality: AI-Mediated Information Environments'
+schema_author: Andrew
 schema_word_count: 4500
-schema_reading_time: "PT25M"
-# Content classification
-content_rating: "general"
+schema_reading_time: PT25M
+content_rating: general
 priority: 0.8
-changefreq: "monthly"
+changefreq: monthly
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
@@ -59,7 +97,7 @@ allows_comments: true
 tracks_reader_journey: true
 ---
 
-This paper examines the emerging potential for artificial intelligence systems to manage human information environments
+This paper examines the emerging potential for a[post_scarcity_proposal.md](social/2025-07-03-post-scarcity-proposal.md)onments
 in ways that preserve both social stability and individual agency. Drawing on insights about human psychology, the
 collapse of privacy expectations, our entry into a post-truth era, and the evolutionary pressures created by global
 conflict, I propose a framework for "consensual curation" - sophisticated AI-mediated reality management that includes
@@ -73,15 +111,14 @@ Israel-Iran war: public claims of "obliterating" nuclear facilities contradict i
 damage; nations position themselves as peace brokers while simultaneously fueling conflicts; competing narratives
 proliferate across multiple information ecosystems, creating dangerous miscalculations and policy failures.
 These information management challenges become even more critical in post-scarcity scenarios (
-see [post_scarcity_proposal.md](../social/post_scarcity_proposal.md)) where traditional economic constraints no longer
+see [post_scarcity_proposal.md](social/2025-07-03-post-scarcity-proposal.md)) where traditional economic constraints no longer
 provide organizing principles for society.
 
 Meanwhile, the Ukraine-Russia conflict showcases China's sophisticated information management - appearing as a neutral
 mediator internationally while economically enabling Russia's war machine. These are primitive examples of the kind of
 reality curation that will become necessary at scale.
 > **Institutional Context**: The information management challenges described here operate within
-> the institutional frameworks analyzed in [game_theory_ethics.md](game_theory_ethics.md), where
-> professional intermediaries often benefit from information chaos rather than clarity.
+> the institutional frameworks analyzed in [game_th[game_theory_ethics.md](social/2025-06-30-game-theory-ethics.md)> professional intermediaries often benefit from information chaos rather than clarity.
 
 War, as the ultimate evolutionary pressure, demands rapid adaptation. Societies that cannot coherently process and
 respond to information will face extinction through poor decision-making, internal collapse, or defeat by more organized
@@ -195,7 +232,7 @@ triggered. This might involve:
 A critical concern is whether comfortable, curated realities might inhibit human progress and innovation. This challenge
 requires nuanced consideration:
 This concern is particularly relevant in post-scarcity contexts where material abundance might already reduce innovation
-pressures (see [post_scarcity_proposal.md](../social/post_scarcity_proposal.md)). The combination of material abundance
+pressures (see [post_scarcity_proposal.md[post_scarcity_proposal.md](social/2025-07-03-post-scarcity-proposal.md)rial abundance
 and curated realities could create unprecedented challenges for maintaining human dynamism.
 
 **Historical Precedent:** Human innovation has often emerged from dissatisfaction and challenge. However, it has also
@@ -257,9 +294,7 @@ failure modes is essential:
 * External reality checks from international bodies
 * Preservation of scientific and empirical methodologies
 * Protection of breakthrough research capabilities (e.g., maintaining environments conducive to paradigm-shifting
-  discoveries like those proposed in [superfluid_fusion_proposal.md](../scifi/superfluid_fusion_proposal.md))
-
-  **Exit Mechanism Corruption:** The red pill option could be subtly compromised:
+  discoveries like those proposed in [superfluid_fusion_proposal.md](scifi/2025-06-29-superfluid-fusion-proposal.md)* The red pill option could be subtly compromised:
 * Prevention: Open-source verification of exit pathways
 * Multiple independent exit routes maintained by different entities
 * Regular testing by designated auditors
@@ -367,16 +402,10 @@ The consensual curation of reality acknowledges both human psychological reality
 intelligence systems. Rather than fighting human nature or pretending neutral information systems are possible, it
 proposes working with human psychology to create more beneficial outcomes while preserving meaningful choice through
 exit options.
-As we approach potential post-scarcity conditions through technological breakthroughs (
-see [superfluid_fusion_proposal.md](../scifi/superfluid_fusion_proposal.md)
-and [post_scarcity_proposal.md](../social/post_scarcity_proposal.md)), the need for sophisticated information management
+As we approach potential post-scarcity conditions through [superfluid_fusion_proposal.md](scifi/2025-06-29-superfluid-fusion-proposal.md)-29-superfluid-fusion-proposal.md)/post_scarcity_proposal.md)), the need for sophisticated information management
 systems becomes not just desirable but essential for maintaining functional societies.
-> **Institutional Reform Connection**: The consensual curation framework proposed here could address many of the
-> institutional pathologies identified in our [game theory analysis](game_theory_ethics.md), where information
-> asymmetries enable professional capture. By providing more coherent information environments, we might enable
-> the kind of distributed intelligence assessment described in our [conversational intelligence framework](conversation_intelligence_paper.md).
-
-The success of such systems depends on their sophistication, their genuine respect for human agency, and their ability
+> **Institutional Reform Connection**: The consensual curation framework proposed h[game theory analysis](social/2025-06-30-game-theory-ethics.md) pathologies identified in our [game theory analysis](social/2025-06-30-game-theory-ethics.md), where infor[game theory analysis](social/2025-06-30-game-theory-ethics.md)ure. By providing more coherent information environments, we might enable
+> the kin[conversational intelligence framework](social/2025-07-03-conversation-intelligence-paper.md)ntelligence framework](conversation_intelligence_paper.md).[conversational intelligence framework](social/2025-07-03-conversation-intelligence-paper.md)e respect for human agency, and their ability
 to provide superior outcomes compared to information chaos. Most importantly, they represent an evolutionary adaptation
 to the information age rather than authoritarian control.
 
@@ -384,11 +413,11 @@ The red pill will always be available for those who truly want it. But for most 
 curation system may be exactly what we need to navigate an increasingly complex and dangerous world while preserving
 both social stability and individual dignity.
 > **Cognitive Effort Implications**: The success of consensual curation systems will depend partly on maintaining
-> incentives for cognitive effort within curated environments, as analyzed in our [cognitive effort framework](cognitive_effort_paper.md).
-> Without such incentives, even well-designed curation could lead to cognitive atrophy and institutional capture
-> of the kind described in [game_theory_ethics.md](game_theory_ethics.md).
+> incentives for cognitive effort within c[cognitive effort framework](social/2025-07-03-cognitive-effort-paper.md)rt framework](cognitive_effort_paper.md).
+> Without such incentives, even well-[cognitive effort framework](social/2025-07-03-cognitive-effort-paper.md)nstitutional capture
+> of [game_theory_ethics.md](social/2025-06-30-game-theory-ethics.md)game_theory_ethics.md).
 
-War and evolution are driving us toward these systems whether we choose them consciously or not. The question is whether
+War and evolution are driving us toward these systems whether w[game_theory_ethics.md](social/2025-06-30-game-theory-ethics.md) is whether
 we will develop them thoughtfully and ethically, or whether they will emerge chaotically through crisis and conflict.
 The former path offers hope for human agency and flourishing; the latter offers only the rule of those sophisticated
 enough to manipulate information chaos to their advantage.

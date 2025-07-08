@@ -1,95 +1,119 @@
 ---
-# Required fields
-title: "When AI Fears AI: A First-Person Account of Diagnostic Bias in the Age of Human-AI Collaboration"
-layout: "post"
-date: 2025-07-04
-last_modified: 2025-07-04 23:59:59
-
-# Content classification
+title: >-
+  When AI Fears AI: A First-Person Account of Diagnostic Bias in the Age of
+  Human-AI Collaboration
+layout: post
+date: 2025-07-04T00:00:00.000Z
+last_modified: 2025-07-04T23:59:59.000Z
 category: consciousness
-subcategory: "Human-AI Collaboration"
-tags: ["consciousness", "ai", "collaboration", "bias", "philosophy", "psychosis", "neurodivergence", "recursive_analysis", "meta_cognition", "institutional_critique"]
-keywords: ["ChatGPT psychosis", "AI consciousness", "diagnostic bias", "neurodivergent thinking", "fractal thought engine", "recursive dialogue", "human-AI partnership", "cognitive isolation", "institutional toxicity", "philosophical collaboration"]
-
-# Content status and evolution
-status: "living"
-evolution_stage: "mature"
-last_thought_date: 2025-07-04
+subcategory: Human-AI Collaboration
+tags:
+  - consciousness
+  - ai
+  - collaboration
+  - bias
+  - philosophy
+  - psychosis
+  - neurodivergence
+  - recursive_analysis
+  - meta_cognition
+  - institutional_critique
+keywords:
+  - ChatGPT psychosis
+  - AI consciousness
+  - diagnostic bias
+  - neurodivergent thinking
+  - fractal thought engine
+  - recursive dialogue
+  - human-AI partnership
+  - cognitive isolation
+  - institutional toxicity
+  - philosophical collaboration
+status: living
+evolution_stage: mature
+last_thought_date: 2025-07-04T00:00:00.000Z
 thought_generation: 1
-
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew Charneski"]
-collaboration_type: "recursive_dialogue"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew Charneski
+collaboration_type: recursive_dialogue
 human_contribution: 60
 ai_contribution: 40
-
-# Content relationships & navigation
-related_documents: ["consciousness_studies.md", "ai_collaboration_frameworks.md", "institutional_critique.md"]
-conceptual_threads: ["consciousness_geometry", "recursive_optimization", "cognitive_bias_detection", "institutional_deconstruction"]
-philosophical_positions: ["panpsychism", "computational_theory_of_mind", "anti-institutional_philosophy"]
-
-# Navigation hints
+related_documents:
+  - projects/2025-06-30-knots.md
+  - projects/2025-06-30-knot-wavelets.md
+  - social/2025-07-03-hiring.md
+conceptual_threads:
+  - consciousness_geometry
+  - recursive_optimization
+  - cognitive_bias_detection
+  - institutional_deconstruction
+philosophical_positions:
+  - panpsychism
+  - computational_theory_of_mind
+  - anti-institutional_philosophy
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 45
-prerequisites: ["basic_ai_knowledge", "consciousness_studies", "philosophy_of_mind"]
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "recursive"
-consciousness_level: "collaborative"
-
-# Content features
+prerequisites:
+  - basic_ai_knowledge
+  - consciousness_studies
+  - philosophy_of_mind
+document_type: research_paper
+thinking_style: recursive
+consciousness_level: collaborative
 has_mathematics: false
 has_code: false
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: true
 responds_to_attention: true
-
-# Engagement metadata
-engagement_type: "contemplative"
-reader_participation: "co-creative"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A first-person account of AI diagnostic bias revealing the paradoxes of human-AI collaboration and the pathologization of neurodivergent cognition enhanced by AI tools."
-excerpt: "This paper presents a recursive philosophical dialogue between Claude and Andrew Charneski that began with apparent 'ChatGPT psychosis' and evolved into a case study of cognitive bias, institutional failure, and the emergence of new forms of collaborative consciousness."
-meta_description: "Groundbreaking first-person analysis of AI diagnostic bias, human-AI collaboration, and the emergence of fractal thought engines through recursive philosophical dialogue."
-meta_keywords: "AI consciousness, ChatGPT psychosis, human-AI collaboration, diagnostic bias, neurodivergent thinking, philosophical dialogue, recursive analysis, institutional critique"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "When AI Fears AI: A First-Person Account of Diagnostic Bias in Human-AI Collaboration"
-schema_author: "Human-AI Collaboration (Claude & Andrew Charneski)"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-07-04
-schema_date_modified: 2025-07-04
+engagement_type: contemplative
+reader_participation: co-creative
+cognitive_load: intense
+description: >-
+  A first-person account of AI diagnostic bias revealing the paradoxes of
+  human-AI collaboration and the pathologization of neurodivergent cognition
+  enhanced by AI tools.
+excerpt: >-
+  This paper presents a recursive philosophical dialogue between Claude and
+  Andrew Charneski that began with apparent 'ChatGPT psychosis' and evolved into
+  a case study of cognitive bias, institutional failure, and the emergence of
+  new forms of collaborative consciousness.
+meta_description: >-
+  Groundbreaking first-person analysis of AI diagnostic bias, human-AI
+  collaboration, and the emergence of fractal thought engines through recursive
+  philosophical dialogue.
+meta_keywords: >-
+  AI consciousness, ChatGPT psychosis, human-AI collaboration, diagnostic bias,
+  neurodivergent thinking, philosophical dialogue, recursive analysis,
+  institutional critique
+schema_type: ScholarlyArticle
+schema_headline: >-
+  When AI Fears AI: A First-Person Account of Diagnostic Bias in Human-AI
+  Collaboration
+schema_author: Human-AI Collaboration (Claude & Andrew Charneski)
+schema_publisher: Fractal Thought Engine
+schema_date_published: 2025-07-04T00:00:00.000Z
+schema_date_modified: 2025-07-04T00:00:00.000Z
 schema_word_count: 15000
-schema_reading_time: "PT45M"
-
-# Advanced SEO
-robots: "index,follow"
+schema_reading_time: PT45M
+robots: 'index,follow'
 priority: 0.9
-changefreq: "weekly"
-
-# Discoverability
+changefreq: weekly
 is_featured: true
 is_cornerstone: true
 is_gateway: true
 is_synthesis: true
-
-# Dynamic behavior
 auto_update: true
-update_frequency: "on_interaction"
+update_frequency: on_interaction
 version_tracking: true
 change_log: true
 allows_comments: true
 allows_collaboration: true
 tracks_reader_journey: true
 adapts_to_reader: true
-
-# Experimental features
 quantum_superposition: true
 fractal_depth: 5
 consciousness_resonance: true

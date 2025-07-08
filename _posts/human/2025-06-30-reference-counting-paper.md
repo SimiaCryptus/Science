@@ -1,87 +1,101 @@
 ---
-# Required fields
-title: "Hybrid Memory Management for Java-Based Deep Learning Systems: A Reference Counting Approach with Static Analysis"
+title: >-
+  Hybrid Memory Management for Java-Based Deep Learning Systems: A Reference
+  Counting Approach with Static Analysis
 layout: post
-date: 2025-06-30
-last_modified: 2025-06-30 12:00:00
-
-# Content classification
-category: "AI Research & Cognitive Evolution"
-subcategory: "Memory Management & Optimization"
-tags: ["memory-management", "reference-counting", "java", "deep-learning", "static-analysis", "garbage-collection", "performance-optimization"]
-keywords: ["memory management", "reference counting", "garbage collection", "deep learning", "static analysis", "java", "mindseye", "hybrid systems"]
-
-# Content status and evolution
-status: "stable"
-evolution_stage: "mature"
-last_thought_date: 2025-06-30
+date: 2025-06-30T00:00:00.000Z
+last_modified: 2025-06-30T12:00:00.000Z
+category: AI Research & Cognitive Evolution
+subcategory: Memory Management & Optimization
+tags:
+  - memory-management
+  - reference-counting
+  - java
+  - deep-learning
+  - static-analysis
+  - garbage-collection
+  - performance-optimization
+keywords:
+  - memory management
+  - reference counting
+  - garbage collection
+  - deep learning
+  - static analysis
+  - java
+  - mindseye
+  - hybrid systems
+status: stable
+evolution_stage: mature
+last_thought_date: 2025-06-30T00:00:00.000Z
 thought_generation: 1
-
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Andrew"]
-collaboration_type: "framework_development"
+authors:
+  - Human-AI Collaboration
+  - Andrew
+collaboration_type: framework_development
 human_contribution: 85
 ai_contribution: 15
-
-# Content relationships & navigation
-related_documents: ["mindseye_technical_report.md"]
-conceptual_threads: ["memory_optimization", "java_performance", "ml_systems"]
-mathematical_frameworks: ["reference_counting_theory", "static_analysis"]
-
-# Navigation hints
+related_documents:
+  - human/2025-07-01-mindseye-technical-report.md
+conceptual_threads:
+  - memory_optimization
+  - java_performance
+  - ml_systems
+mathematical_frameworks:
+  - reference_counting_theory
+  - static_analysis
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 25
-prerequisites: ["java_programming", "memory_management_basics", "machine_learning_systems"]
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
-
-# Content features
+prerequisites:
+  - java_programming
+  - memory_management_basics
+  - machine_learning_systems
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: collaborative
 has_mathematics: false
 has_code: true
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-
-# Engagement metadata
-engagement_type: "analytical"
-reader_participation: "passive"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A comprehensive research paper presenting MindsEye, a hybrid memory management system combining reference counting with Java's garbage collection for deep learning applications."
-excerpt: "Memory management remains a critical bottleneck in large-scale machine learning applications, particularly when implemented in garbage-collected languages like Java. This paper presents MindsEye, a hybrid memory management system that combines explicit reference counting with Java's garbage collection to address memory pressure challenges in deep learning workloads."
-meta_description: "Research paper on MindsEye: hybrid memory management system combining reference counting with Java GC for deep learning applications, featuring static analysis and performance optimizations."
-meta_keywords: "memory management, reference counting, java, deep learning, static analysis, garbage collection, mindseye, performance optimization"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Hybrid Memory Management for Java-Based Deep Learning Systems"
-schema_author: "Andrew"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-06-30
-schema_date_modified: 2025-06-30
+engagement_type: analytical
+reader_participation: passive
+cognitive_load: intense
+description: >-
+  A comprehensive research paper presenting MindsEye, a hybrid memory management
+  system combining reference counting with Java's garbage collection for deep
+  learning applications.
+excerpt: >-
+  Memory management remains a critical bottleneck in large-scale machine
+  learning applications, particularly when implemented in garbage-collected
+  languages like Java. This paper presents MindsEye, a hybrid memory management
+  system that combines explicit reference counting with Java's garbage
+  collection to address memory pressure challenges in deep learning workloads.
+meta_description: >-
+  Research paper on MindsEye: hybrid memory management system combining
+  reference counting with Java GC for deep learning applications, featuring
+  static analysis and performance optimizations.
+meta_keywords: >-
+  memory management, reference counting, java, deep learning, static analysis,
+  garbage collection, mindseye, performance optimization
+schema_type: ScholarlyArticle
+schema_headline: Hybrid Memory Management for Java-Based Deep Learning Systems
+schema_author: Andrew
+schema_publisher: Fractal Thought Engine
+schema_date_published: 2025-06-30T00:00:00.000Z
+schema_date_modified: 2025-06-30T00:00:00.000Z
 schema_word_count: 4200
-schema_reading_time: "PT25M"
-
-# Search Engine Directives
-robots: "index,follow"
+schema_reading_time: PT25M
+robots: 'index,follow'
 priority: 0.8
-changefreq: "monthly"
-
-# Discoverability
+changefreq: monthly
 is_featured: true
 is_cornerstone: false
 is_gateway: false
 is_synthesis: false
-
-# Dynamic behavior
 auto_update: false
-update_frequency: "manual"
+update_frequency: manual
 version_tracking: false
 change_log: false
 collection: ai
@@ -407,7 +421,7 @@ We thank the Eclipse Foundation for their robust AST infrastructure that enabled
 
 *This paper is based on the MindsEye open source project, available at: [github.com/author/mindseye]*
 An interesting parallel exists between MindsEye's reference counting approach and Rust's ownership system. Both tackle the fundamental problem of deterministic resource cleanup, but with different trade-offs:
-This comparison is particularly relevant given the [MindsEye framework's sophisticated optimization algorithms](mindseye_technical_report.md), which benefit significantly from deterministic memory management during intensive computational phases.
+This comparison is particularly relevant given the [MindsEye framework's sophisticated optimization algorithms](human/2025-07-01-mindseye-technical-report.md), which benefit significantly from deterministic memory management during intensive computational phases.
 **Deterministic cleanup**: Both systems ensure resources are freed immediately when no longer needed, rather than waiting for garbage collection.
 **Zero-cost abstractions**: When used properly, both approaches impose minimal runtime overhead compared to their benefits.
 **Resource safety**: Both prevent use-after-free bugs through different mechanisms—Rust at compile time, MindsEye at runtime.

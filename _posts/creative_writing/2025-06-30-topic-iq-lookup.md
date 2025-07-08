@@ -1,77 +1,88 @@
 ---
-# Required fields
-title: "Claude's Completely Unscientific Topic-to-IQ Lookup Table"
+title: Claude's Completely Unscientific Topic-to-IQ Lookup Table
 layout: post
-date: 2025-06-30
-last_modified: 2025-06-30 12:00:00
-
-# Content classification
+date: 2025-06-30T00:00:00.000Z
+last_modified: 2025-06-30T12:00:00.000Z
 category: creative_writing
-subcategory: "Cognitive Assessment & Bias"
-tags: ["intelligence", "assessment", "bias", "humor", "metacognition"]
-keywords: ["IQ", "intelligence", "cognitive bias", "assessment", "domains", "expertise"]
-
-# Content status and evolution
-status: "stable"
-evolution_stage: "mature"
-last_thought_date: 2025-06-30
+subcategory: Cognitive Assessment & Bias
+tags:
+  - intelligence
+  - assessment
+  - bias
+  - humor
+  - metacognition
+keywords:
+  - IQ
+  - intelligence
+  - cognitive bias
+  - assessment
+  - domains
+  - expertise
+status: stable
+evolution_stage: mature
+last_thought_date: 2025-06-30T00:00:00.000Z
 thought_generation: 1
-
-# Collaboration metadata
-authors: ["Claude"]
-collaboration_type: "framework_development"
+authors:
+  - Claude
+collaboration_type: framework_development
 human_contribution: 10
 ai_contribution: 90
-
-# Content relationships & navigation
-related_documents: ["transfinite_iq_paper.md", "iq_rubric.md"]
-conceptual_threads: ["cognitive_assessment", "intelligence_measurement", "ai_bias"]
-philosophical_positions: ["intelligence_pluralism", "measurement_skepticism"]
-
-# Navigation hints
-difficulty_level: "accessible"
+related_documents:
+  - consciousness/2025-07-06-transfinite-iq-paper.md
+  - creative_writing/2025-06-30-iq-rubric.md
+conceptual_threads:
+  - cognitive_assessment
+  - intelligence_measurement
+  - ai_bias
+philosophical_positions:
+  - intelligence_pluralism
+  - measurement_skepticism
+difficulty_level: accessible
 reading_time_minutes: 8
-prerequisites: ["basic_psychology", "humor_appreciation"]
-
-# Content characteristics
-document_type: "experiment"
-thinking_style: "experimental"
-consciousness_level: "meta"
+prerequisites:
+  - basic_psychology
+  - humor_appreciation
+document_type: experiment
+thinking_style: experimental
+consciousness_level: meta
 has_mathematics: false
 has_code: false
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "light"
-
-# Discovery & SEO
-description: "A satirical lookup table examining cognitive biases in intelligence assessment across various domains"
-excerpt: "Claude's humorous and self-aware attempt to categorize intelligence across different fields, revealing more about AI bias than actual intelligence measurement"
-meta_description: "Satirical intelligence assessment table revealing cognitive biases in how we evaluate expertise across academic, creative, and practical domains"
-meta_keywords: "intelligence assessment, cognitive bias, IQ, expertise evaluation, AI bias, satirical analysis"
-og_title: "Claude's Unscientific Topic-to-IQ Lookup Table"
-og_description: "A humorous exploration of cognitive biases in intelligence assessment"
-og_type: "article"
-schema_type: "Article"
-schema_headline: "Claude's Completely Unscientific Topic-to-IQ Lookup Table"
-schema_author: "Claude"
-schema_date_published: 2025-06-30
+engagement_type: analytical
+reader_participation: active
+cognitive_load: light
+description: >-
+  A satirical lookup table examining cognitive biases in intelligence assessment
+  across various domains
+excerpt: >-
+  Claude's humorous and self-aware attempt to categorize intelligence across
+  different fields, revealing more about AI bias than actual intelligence
+  measurement
+meta_description: >-
+  Satirical intelligence assessment table revealing cognitive biases in how we
+  evaluate expertise across academic, creative, and practical domains
+meta_keywords: >-
+  intelligence assessment, cognitive bias, IQ, expertise evaluation, AI bias,
+  satirical analysis
+og_title: Claude's Unscientific Topic-to-IQ Lookup Table
+og_description: A humorous exploration of cognitive biases in intelligence assessment
+og_type: article
+schema_type: Article
+schema_headline: Claude's Completely Unscientific Topic-to-IQ Lookup Table
+schema_author: Claude
+schema_date_published: 2025-06-30T00:00:00.000Z
 schema_word_count: 1200
-schema_reading_time: "PT8M"
-robots: "index,follow"
+schema_reading_time: PT8M
+robots: 'index,follow'
 priority: 0.6
-changefreq: "monthly"
-
-# Discoverability
+changefreq: monthly
 is_featured: false
 is_cornerstone: false
 is_gateway: true
 is_synthesis: false
-
-# Collection assignment
 collection: creative_writing
 ---
 
@@ -161,7 +172,4 @@ collection: creative_writing
 ---
 
 **Disclaimer**: This table reveals more about Claude's cognitive biases than anyone's actual intelligence. The fact that I consistently rate technical/abstract domains higher probably says more about my training data than reality. Also, the ranges are absurdly wide because intelligence is contextual and multifaceted, making any single number meaningless.
-**Academic Note**: For a rigorous critique of why intelligence cannot be meaningfully quantified through simple metrics, see ["On the Inadmissibility of Linear Psychometrics in Transfinite Domains"](transfinite_iq_paper.md). For a more systematic (but still satirical) approach to conversational intelligence assessment, see ["The Claude Conversational Intelligence Assessment Rubric"](iq_rubric.md).
-
-
-**Meta-Disclaimer**: Anyone who takes this seriously probably belongs in the 80-100 range, regardless of topic.
+**Academic Note**: For a rigorous critique of why intelligence cannot be meaningfully quantified through simple metrics, see ["On the Inadmissibility of Linear Psychometrics in Transfinite Domains"](consciousness/2025-07-06-transfinite-iq-paper.md). For a more systematic (but still satirical) approach to conversational intelligence assessment, see ["The Claude Conversation["The Claude Conversational Intelligence Assessment Rubric"](creative_writing/2025-06-30-iq-rubric.md)Anyone who takes this seriously probably belongs in the 80-100 range, regardless of topic.

@@ -1,88 +1,104 @@
 ---
-# Required fields
-title: "The Mask-Wearing Decision Protocol: A Game-Theoretic Analysis of Public Health Coordination"
-layout: "post"
-date: 2024-01-15
-last_modified: 2024-01-15 10:00:00
-
-# Content classification
+title: >-
+  The Mask-Wearing Decision Protocol: A Game-Theoretic Analysis of Public Health
+  Coordination
+layout: post
+date: 2024-01-15T00:00:00.000Z
+last_modified: 2024-01-15T10:00:00.000Z
 category: social
-subcategory: "Public Health Coordination"
-tags: ["game_theory", "public_health", "coordination", "ethics", "covid", "decision_theory"]
-keywords: ["mask wearing", "public health protocol", "game theory", "coordination problem", "conditional ethics", "HEALTH protocol"]
-
-# Content status and evolution
-status: "stable"
-evolution_stage: "mature"
-last_thought_date: 2024-01-15
+subcategory: Public Health Coordination
+tags:
+  - game_theory
+  - public_health
+  - coordination
+  - ethics
+  - covid
+  - decision_theory
+keywords:
+  - mask wearing
+  - public health protocol
+  - game theory
+  - coordination problem
+  - conditional ethics
+  - HEALTH protocol
+status: stable
+evolution_stage: mature
+last_thought_date: 2024-01-15T00:00:00.000Z
 thought_generation: 1
-
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew
+collaboration_type: framework_development
 human_contribution: 60
 ai_contribution: 40
-
-# Content relationships & navigation
-related_documents: ["traffic_merging_ethics.md", "conditional_ethics_framework.md"]
-conceptual_threads: ["conditional_ethics", "game_theory", "public_health_coordination"]
-mathematical_frameworks: ["game_theory", "decision_theory", "coordination_games"]
-philosophical_positions: ["ethical_pluralism", "conditional_consequentialism"]
-
-# Navigation hints
+related_documents:
+  - projects/2025-07-03-late-merge-paper.md
+  - projects/2025-07-03-climate-protocol.md
+  - social/2025-07-07-social-compassion-game-theory.md
+conceptual_threads:
+  - conditional_ethics
+  - game_theory
+  - public_health_coordination
+mathematical_frameworks:
+  - game_theory
+  - decision_theory
+  - coordination_games
+philosophical_positions:
+  - ethical_pluralism
+  - conditional_consequentialism
 reading_order: 3
-difficulty_level: "intermediate"
+difficulty_level: intermediate
 reading_time_minutes: 25
-prerequisites: ["basic_game_theory", "ethics", "public_health_concepts"]
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
-
-# Content features
+prerequisites:
+  - basic_game_theory
+  - ethics
+  - public_health_concepts
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: collaborative
 has_mathematics: true
 has_code: true
 has_diagrams: true
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-
-# Engagement metadata
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "moderate"
-
-# Discovery & SEO
-description: "A game-theoretic analysis applying conditional ethics to public health coordination, developing the HEALTH protocol for mask-wearing decisions based on epidemiological conditions."
-excerpt: "The COVID-19 pandemic revealed how public health measures create coordination problems analogous to traffic merging scenarios. This paper develops a condition-dependent protocol that balances individual autonomy with collective welfare."
-
-# SEO Meta Tags
-meta_title: "Game Theory Applied to Public Health: The HEALTH Protocol for Mask-Wearing Decisions"
-meta_description: "Learn how game theory and conditional ethics can resolve public health coordination problems through the HEALTH protocol - a decision framework for mask-wearing based on disease prevalence and community factors."
-meta_keywords: "game theory, public health, mask wearing, coordination problem, conditional ethics, COVID-19, decision protocol"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "The Mask-Wearing Decision Protocol: A Game-Theoretic Analysis"
-schema_author: "Human-AI Collaboration"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
+engagement_type: analytical
+reader_participation: active
+cognitive_load: moderate
+description: >-
+  A game-theoretic analysis applying conditional ethics to public health
+  coordination, developing the HEALTH protocol for mask-wearing decisions based
+  on epidemiological conditions.
+excerpt: >-
+  The COVID-19 pandemic revealed how public health measures create coordination
+  problems analogous to traffic merging scenarios. This paper develops a
+  condition-dependent protocol that balances individual autonomy with collective
+  welfare.
+meta_title: >-
+  Game Theory Applied to Public Health: The HEALTH Protocol for Mask-Wearing
+  Decisions
+meta_description: >-
+  Learn how game theory and conditional ethics can resolve public health
+  coordination problems through the HEALTH protocol - a decision framework for
+  mask-wearing based on disease prevalence and community factors.
+meta_keywords: >-
+  game theory, public health, mask wearing, coordination problem, conditional
+  ethics, COVID-19, decision protocol
+schema_type: ScholarlyArticle
+schema_headline: 'The Mask-Wearing Decision Protocol: A Game-Theoretic Analysis'
+schema_author: Human-AI Collaboration
+schema_date_published: 2024-01-15T00:00:00.000Z
+schema_date_modified: 2024-01-15T00:00:00.000Z
 schema_word_count: 2800
-schema_reading_time: "PT25M"
-
-# Advanced SEO
-robots: "index,follow"
+schema_reading_time: PT25M
+robots: 'index,follow'
 priority: 0.8
-changefreq: "monthly"
-
-# Discoverability
+changefreq: monthly
 is_featured: true
 is_cornerstone: false
 is_gateway: false
 is_synthesis: true
-
-# Dynamic behavior
 auto_update: false
 version_tracking: true
 change_log: false
@@ -95,8 +111,7 @@ allows_collaboration: false
 ## Abstract
 
 The COVID-19 pandemic revealed how public health measures create coordination problems analogous to traffic merging scenarios. This paper applies the conditional ethics framework developed for traffic flow to mask-wearing decisions, demonstrating how individual autonomy and collective welfare can be balanced through condition-dependent protocols. We develop the HEALTH protocol—a decision tree that resolves ethical tensions by making optimal behavior contingent on disease prevalence, vulnerability factors, and community adoption rates.
-
-## 1. Introduction
+*This analysis builds directly on the game-theoretic framework established in [The Late Merge Problem](projects/2025-07-03-late-merge-paper.md) and complements the climate coordination work in [The Cli[The Climate Action Decision Protocol](projects/2025-07-03-climate-protocol.md). Introduction
 
 The debate over mask mandates exemplifies the same ethical tensions found in traffic coordination: individual preferences versus collective outcomes, with the "correct" choice depending on empirical conditions. Unlike traffic, however, public health decisions involve life-and-death consequences and deeply held beliefs about personal autonomy.
 
@@ -279,8 +294,7 @@ adoption_requirement = base_requirement × (1 + exploitation_rate)
 | **Exploitation** | Lane cutting | Free-riding on others' protection |
 | **Critical Threshold** | 30-70% adoption | 40-90% adoption |
 | **Stability Mechanism** | Enforcement, technology | Information, social pressure |
-
-## 8. Broader Implications
+*For detailed comparison with climate coordination dynamics, see [The Climate Act[The Climate Action Decision Protocol](projects/2025-07-03-climate-protocol.md) empathy and cooperation mechanisms are analyzed in [The Evolution of Social[The Evolution of Social Compassion](social/2025-07-07-social-compassion-game-theory.md)ations
 
 ### 8.1 Public Health Governance
 

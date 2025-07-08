@@ -1,20 +1,23 @@
 ---
-title: "Perverse Incentives and Institutional Capture: A Game-Theoretic Analysis of Systemic Misalignment in End-of-Life Care and Family Law"
+title: >-
+  Perverse Incentives and Institutional Capture: A Game-Theoretic Analysis of
+  Systemic Misalignment in End-of-Life Care and Family Law
 layout: post
 collection: social
 related_documents:
-  - institutional_collapse_simulation.tsx: "Interactive implementation of the theoretical models"
-  - ai_justice_paper.md: "AI-driven solutions to the legal system pathologies identified here"
-  - cross_synthesis_justice_institutions.md: "Unified theory connecting institutional analysis to AI transformation"
-  - social_truth_proposal.md: "Framework for understanding belief dynamics in institutions"
-  - cognitive_effort_paper.md: "Analysis of individual cognitive decisions within institutional contexts"
-  - conversation_intelligence_paper.md: "How distributed intelligence assessment could reform institutional decision-making"
-  - managed_reality_paper.md: "Information environment design for institutional reform"
-  - institutional_decay_analysis.md: "How psychopathic selection accelerates institutional capture"
+  - institutional_collapse_simulation.tsx: Interactive implementation of the theoretical models
+  - ai_justice_paper.md: AI-driven solutions to the legal system pathologies identified here
+  - cross_synthesis_justice_institutions.md: Unified theory connecting institutional analysis to AI transformation
+  - social_truth_proposal.md: Framework for understanding belief dynamics in institutions
+  - cognitive_effort_paper.md: Analysis of individual cognitive decisions within institutional contexts
+  - conversation_intelligence_paper.md: >-
+      How distributed intelligence assessment could reform institutional
+      decision-making
+  - managed_reality_paper.md: Information environment design for institutional reform
+  - institutional_decay_analysis.md: How psychopathic selection accelerates institutional capture
 ---
 
-This paper presents a game-theoretic analysis of institutional failure across five critical domains: healthcare, family
-law, higher education, criminal justice, and enterprise IT infrastructure. We demonstrate how systems designed to serve
+This paper presents a game-theoretic analysis of institutional failure across five critical domains: healt[institutional transformation synthesis](social/2025-06-30-cross-synthesis-justice-institutions.md)ucture. We demonstrate how systems designed to serve
 vulnerable populations or improve organizational efficiency systematically evolve to maximize professional employment
 and revenue extraction rather than their stated objectives. Through computational experiments and empirical analysis, we
 identify common patterns of perverse incentives, information asymmetries, and professional capture that transform
@@ -65,18 +68,10 @@ economics. By understanding these dynamics through a game-theoretic lens, we can
 understanding these dynamics through a game-theoretic lens, we can begin to envision and design
 institutions that serve their stated purposes rather than perpetuating the problems they claim to solve.
 > **Related Analysis**: The individual cognitive decisions that aggregate into these institutional
-> pathologies are examined in detail in our [cognitive effort analysis](cognitive_effort_paper.md),
+> pathologies are examined in detail in our [cognitive effort analysis](social/2025-07-03-cognitive-effort-paper.md),
 > while the conversational dynamics that could enable institutional reform are explored in our
-> [conversational intelligence framework](conversation_intelligence_paper.md).
->
-> **AI Solutions**: Specific technological approaches to addressing these institutional pathologies
-> are detailed in our [AI justice reform proposal](ai_justice_paper.md), with broader implications
-> explored in our [cross-synthesis of institutional transformation](cross_synthesis_justice_institutions.md).
-
-
-## Theoretical Framework
-
-### Game-Theoretic Foundations
+> [conversational in[conversational intelligence framework](social/2025-07-03-conversation-intelligence-paper.md)ns**: Specific technological approaches to addressing these institutional pathologies
+> are detailed in our [AI justice reform proposal](social/2025-[cross-synthesis of institutional transformation](social/2025-06-30-cross-synthesis-justice-institutions.md)s-synthesis-justice-institutions.md)ations
 
 We model these systems as multi-player games with the following key actors:
 
@@ -257,12 +252,10 @@ Over time, dysfunctional systems select for professionals who can tolerate or em
 * Training programs increasingly select for compliance over conscience
 * The system becomes progressively more resistant to reform as reformers exit
 This creates a "moral selection ratchet" where each generation of professionals is slightly more accepting of dysfunction than the last, until practices that would have horrified founders become routine.
-> **Related Analysis**: The individual cognitive strategies that enable this progressive accommodation are examined in detail in our [cognitive effort analysis](cognitive_effort_paper.md), particularly the section on motivated reasoning and cognitive load management.
+> **Related Analysis**: The individual cogn[cognitive effort analysis](social/2025-07-03-cognitive-effort-paper.md)ation are examined in detail in our [cognitive effort analysis](cognitive_effort_paper.md), particularly the[cognitive effort analysis](social/2025-07-03-cognitive-effort-paper.md)agement.
 >
-> **Technological Disruption**: How AI systems could break these psychological chains by eliminating
-> the scarcity conditions that create them is explored in our [AI justice reform proposal](ai_justice_paper.md)
-> and [institutional transformation synthesis](cross_synthesis_justice_institutions.md).
-### Conclusion: The Human Cost of Systemic Dysfunction
+> **Technological Disruption**: How AI systems could break these psychological chains by el[AI justice reform proposal](social/2025-06-30-ai-justice-paper.md)hem is explored in our [AI justice reform proposal](ai_justice_paper.md)
+> and [institutional transformation synt[AI justice reform proposal](social/2025-06-30-ai-justice-paper.md)### Conclusion: The Human Cost of Systemic Dysfunction
 The psychological toll on professionals within these systems represents a hidden cost of institutional misalignment. Beyond the direct harm to beneficiaries, these systems destroy the very people who entered professions to help. The moral injury epidemic among healthcare workers, the substance abuse rates among attorneys, the cynicism in education, and the meaninglessness experienced by IT professionals all stem from the same source: systems that force good people to do harmful things while maintaining the fiction of beneficial purpose.
 Understanding these psychological dynamics is crucial for reform. Systems persist not through malice but through the accumulated weight of thousands of small compromises by well-intentioned individuals. Reform requires not just structural change but psychological support for the professionals trapped within these systems—helping them recognize their situation, validate their moral distress, and provide pathways to alignment between values and actions.
 The ultimate tragedy is that many of society's most compassionate, intelligent, and capable individuals are drawn to these helping professions, only to have their idealism systematically ground down by institutional pressures. The loss of human potential—both for the professionals themselves and for the society they might have genuinely served—represents perhaps the greatest cost of institutional misalignment.
@@ -285,14 +278,12 @@ by patient preferences rather than revenue generation. Their use of advance dire
 as a natural process has resulted in both lower costs and higher patient satisfaction. This demonstrates that the
 pathologies described are not universal but rather the product of specific institutional designs.
 > **Information Environment Connection**: The success of Dutch end-of-life care may partly reflect more coherent
-> information environments that enable genuine preference expression, as discussed in our analysis of
+> information environments that enable genuine pre[managed reality systems](social/2025-06-30-managed-reality-paper.md)
 > [managed reality systems](managed_reality_paper.md).
 >
-> **AI Alternative**: How AI-driven healthcare systems could systematically address these perverse incentives
-> is explored in our [cross-synthesis of institutional transformation](cross_synthesis_justice_institutions.md).
+> **AI Alternative**: How AI-driven healthcare systems could systematic[managed reality systems](social/2025-06-3[cross-synthesis of institutional transformation](social/2025-06-30-cross-synthesis-justice-institutions.md)s_synthesis_justice_institutions.md).
 
-**Physician Training**: Medical education emphasizes cure-oriented thinking. "Failure" is defined as death, creating
-psychological pressure to continue aggressive treatment regardless of patient suffering or realistic outcomes.
+**Physician Training**: Medical education emphasize[cross-synthesis of institutional transformation](social/2025-06-30-cross-synthesis-justice-institutions.md)o continue aggressive treatment regardless of patient suffering or realistic outcomes.
 
 **Legal Framework**: "Do everything possible" becomes legal protection. Comfort-focused care creates potential liability
 exposure.
@@ -1875,4 +1866,4 @@ The framework suggests approaches to institutional design that account for:
 * **Incentive alignment**: Ensuring individual rational choices aggregate to collectively beneficial outcomes
 * **Transparency mechanisms**: Making the true costs and benefits of institutional participation visible
 * **Adaptive governance**: Institutions that can evolve their rules based on observed outcomes
-* **Conversational calibration**: Incorporating the distributed intelligence assessment processes described in our [conversational intelligence framework](conversation_intelligence_paper.md) into institutional decision-making
+* **Conversational calibration**: Incorporating the distributed intelligence assessment processes[conversational intelligence framework](social/2025-07-03-conversation-intelligence-paper.md)lligence_paper.md) into institutional decision-making[conversational intelligence framework](social/2025-07-03-conversation-intelligence-paper.md)

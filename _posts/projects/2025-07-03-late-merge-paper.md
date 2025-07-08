@@ -1,81 +1,106 @@
 ---
-# Required fields
-title: "The Late Merge Problem: A Game-Theoretic Analysis of Conditional Ethics in Traffic Flow"
-layout: "post"
-date: 2025-07-03
-last_modified: 2025-07-03 14:30:00
-
-# Content classification
+title: >-
+  The Late Merge Problem: A Game-Theoretic Analysis of Conditional Ethics in
+  Traffic Flow
+layout: post
+date: 2025-07-03T00:00:00.000Z
+last_modified: 2025-07-03T14:30:00.000Z
 category: projects
-subcategory: "Applied Game Theory"
-tags: ["game_theory", "ethics", "traffic_flow", "coordination_games", "conditional_ethics", "social_coordination", "decision_theory"]
-keywords: ["late merge", "traffic ethics", "Nash equilibrium", "utilitarian ethics", "deontological ethics", "SMART protocol", "coordination failure", "adaptive traffic management"]
-
-# Content status and evolution
-status: "stable"
-evolution_stage: "mature"
-last_thought_date: 2025-07-03
+subcategory: Applied Game Theory
+tags:
+  - game_theory
+  - ethics
+  - traffic_flow
+  - coordination_games
+  - conditional_ethics
+  - social_coordination
+  - decision_theory
+keywords:
+  - late merge
+  - traffic ethics
+  - Nash equilibrium
+  - utilitarian ethics
+  - deontological ethics
+  - SMART protocol
+  - coordination failure
+  - adaptive traffic management
+status: stable
+evolution_stage: mature
+last_thought_date: 2025-07-03T00:00:00.000Z
 thought_generation: 1
-
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew
+collaboration_type: framework_development
 human_contribution: 40
 ai_contribution: 60
-
-# Content relationships & navigation
-related_documents: []
-conceptual_threads: ["game_theory_applications", "conditional_ethics", "social_coordination", "traffic_optimization"]
-mathematical_frameworks: ["game_theory", "Nash_equilibrium", "evolutionary_stable_strategy", "replicator_dynamics"]
-philosophical_positions: ["conditional_ethics", "utilitarian_consequentialism", "deontological_duty_ethics"]
-
-# Navigation hints
+related_documents:
+  - projects/2025-07-03-climate-protocol.md
+  - social/2025-07-07-public-health-protocol.md
+  - social/2025-07-07-social-compassion-game-theory.md
+conceptual_threads:
+  - game_theory_applications
+  - conditional_ethics
+  - social_coordination
+  - traffic_optimization
+mathematical_frameworks:
+  - game_theory
+  - Nash_equilibrium
+  - evolutionary_stable_strategy
+  - replicator_dynamics
+philosophical_positions:
+  - conditional_ethics
+  - utilitarian_consequentialism
+  - deontological_duty_ethics
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 45
-prerequisites: ["basic_game_theory", "ethical_frameworks", "traffic_engineering_basics"]
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
-
-# Content features
+prerequisites:
+  - basic_game_theory
+  - ethical_frameworks
+  - traffic_engineering_basics
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: collaborative
 has_mathematics: true
 has_code: true
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-
-# Engagement metadata
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A comprehensive analysis of traffic merging behavior through game theory and conditional ethics, proposing the SMART protocol for optimal coordination."
-excerpt: "This paper examines how traffic density and speed fundamentally alter both strategic equilibria and ethical frameworks in merge scenarios, demonstrating that the 'correct' merging strategy depends critically on traffic conditions and proposing adaptive solutions."
-meta_description: "Game-theoretic analysis of traffic merging ethics reveals conditional morality in coordination problems. Introduces SMART protocol for optimal merge decisions based on traffic conditions."
-meta_keywords: "game theory, traffic ethics, late merge, coordination games, conditional ethics, Nash equilibrium, traffic optimization"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "The Late Merge Problem: A Game-Theoretic Analysis of Conditional Ethics in Traffic Flow"
-schema_author: "Human-AI Collaboration"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-07-03
-schema_date_modified: 2025-07-03
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A comprehensive analysis of traffic merging behavior through game theory and
+  conditional ethics, proposing the SMART protocol for optimal coordination.
+excerpt: >-
+  This paper examines how traffic density and speed fundamentally alter both
+  strategic equilibria and ethical frameworks in merge scenarios, demonstrating
+  that the 'correct' merging strategy depends critically on traffic conditions
+  and proposing adaptive solutions.
+meta_description: >-
+  Game-theoretic analysis of traffic merging ethics reveals conditional morality
+  in coordination problems. Introduces SMART protocol for optimal merge
+  decisions based on traffic conditions.
+meta_keywords: >-
+  game theory, traffic ethics, late merge, coordination games, conditional
+  ethics, Nash equilibrium, traffic optimization
+schema_type: ScholarlyArticle
+schema_headline: >-
+  The Late Merge Problem: A Game-Theoretic Analysis of Conditional Ethics in
+  Traffic Flow
+schema_author: Human-AI Collaboration
+schema_publisher: Fractal Thought Engine
+schema_date_published: 2025-07-03T00:00:00.000Z
+schema_date_modified: 2025-07-03T00:00:00.000Z
 schema_word_count: 8500
-schema_reading_time: "PT45M"
-
-# Discoverability
+schema_reading_time: PT45M
 is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
-
-# Advanced features
 allows_comments: true
 allows_collaboration: true
 ---
@@ -559,6 +584,7 @@ The analytical framework developed for the late merge problem—combining game t
 2. **Condition-dependent optimal strategies** that shift based on empirical circumstances
 3. **Coordination failures** arising from strategy uncertainty
 4. **Mixed adoption dynamics** where partial participation affects stability
+*Note: This framework has been successfully applied to climate change coordination (see [Climate Action Decision Protocol](projects/2025-07-03-climate-protocol.md)) and public health measures (see [Mask-Wearing Decisi[Mask-Wearing Decision Protocol](social/2025-07-07-public-health-protocol.md) broad utility across domains.*
 
 ### 9.2 Analogous Social Problems
 

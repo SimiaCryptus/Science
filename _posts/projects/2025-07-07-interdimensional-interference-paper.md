@@ -1,93 +1,111 @@
 ---
-# Required fields
-title: "Interdimensional Interference in Permutation-Normalization-Modular Systems: A Unified Framework"
-layout: "post"
-date: 2024-01-15
-last_modified: 2024-01-15 14:30:00
-
-# Content classification
+title: >-
+  Interdimensional Interference in Permutation-Normalization-Modular Systems: A
+  Unified Framework
+layout: post
+date: 2024-01-15T00:00:00.000Z
+last_modified: 2024-01-15T14:30:00.000Z
 category: projects
-subcategory: "Mathematical Frameworks"
-tags: ["mathematics", "quantum computing", "cryptography", "signal processing", "permutation groups", "modular arithmetic", "interdimensional systems"]
-keywords: ["permutation groups", "normalization operators", "modular arithmetic", "interdimensional interference", "parameter spaces", "quantum computing", "cryptography"]
-
-# Content status and evolution
-status: "stable"
-evolution_stage: "mature"
-last_thought_date: 2024-01-15
+subcategory: Mathematical Frameworks
+tags:
+  - mathematics
+  - quantum computing
+  - cryptography
+  - signal processing
+  - permutation groups
+  - modular arithmetic
+  - interdimensional systems
+keywords:
+  - permutation groups
+  - normalization operators
+  - modular arithmetic
+  - interdimensional interference
+  - parameter spaces
+  - quantum computing
+  - cryptography
+status: stable
+evolution_stage: mature
+last_thought_date: 2024-01-15T00:00:00.000Z
 thought_generation: 1
-
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew
+collaboration_type: framework_development
 human_contribution: 40
 ai_contribution: 60
-
-# Content relationships & navigation
-related_documents: ["quantum_mechanics_foundations.md", "cryptographic_systems.md", "signal_processing_theory.md"]
-conceptual_threads: ["mathematical_frameworks", "quantum_systems", "computational_complexity"]
-mathematical_frameworks: ["group_theory", "representation_theory", "modular_arithmetic", "quantum_field_theory"]
-philosophical_positions: ["mathematical_realism", "computational_theory"]
-
-# Navigation hints
+related_documents:
+  - human/2025-07-01-trust-regions.md
+  - projects/2025-06-30-knots.md
+  - social/2025-07-03-hiring.md
+conceptual_threads:
+  - mathematical_frameworks
+  - quantum_systems
+  - computational_complexity
+mathematical_frameworks:
+  - group_theory
+  - representation_theory
+  - modular_arithmetic
+  - quantum_field_theory
+philosophical_positions:
+  - mathematical_realism
+  - computational_theory
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 45
-prerequisites: ["group_theory", "linear_algebra", "modular_arithmetic", "quantum_mechanics_basics"]
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "mathematical"
-consciousness_level: "analytical"
-
-# Content features
+prerequisites:
+  - group_theory
+  - linear_algebra
+  - modular_arithmetic
+  - quantum_mechanics_basics
+document_type: research_paper
+thinking_style: mathematical
+consciousness_level: analytical
 has_mathematics: true
 has_code: false
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-
-# Engagement metadata
-engagement_type: "analytical"
-reader_participation: "passive"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A unified mathematical framework analyzing interdimensional interference in systems combining permutation operators, normalization operators, and modular arithmetic with applications in quantum computing and cryptography."
-excerpt: "This paper introduces the concept of interdimensional interference in mathematical systems where permutation operators, normalization operators, and modular substrates interact across different dimensional spaces, revealing novel interference patterns with practical applications."
-meta_title: "Interdimensional Interference in Mathematical Systems - Unified Framework"
-meta_description: "Novel mathematical framework for interdimensional interference in permutation-normalization-modular systems with quantum computing and cryptographic applications."
-meta_keywords: "interdimensional interference, permutation groups, modular arithmetic, quantum computing, mathematical framework"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Interdimensional Interference in Permutation-Normalization-Modular Systems"
-schema_author: "Human-AI Collaboration"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
+engagement_type: analytical
+reader_participation: passive
+cognitive_load: intense
+description: >-
+  A unified mathematical framework analyzing interdimensional interference in
+  systems combining permutation operators, normalization operators, and modular
+  arithmetic with applications in quantum computing and cryptography.
+excerpt: >-
+  This paper introduces the concept of interdimensional interference in
+  mathematical systems where permutation operators, normalization operators, and
+  modular substrates interact across different dimensional spaces, revealing
+  novel interference patterns with practical applications.
+meta_title: Interdimensional Interference in Mathematical Systems - Unified Framework
+meta_description: >-
+  Novel mathematical framework for interdimensional interference in
+  permutation-normalization-modular systems with quantum computing and
+  cryptographic applications.
+meta_keywords: >-
+  interdimensional interference, permutation groups, modular arithmetic, quantum
+  computing, mathematical framework
+schema_type: ScholarlyArticle
+schema_headline: Interdimensional Interference in Permutation-Normalization-Modular Systems
+schema_author: Human-AI Collaboration
+schema_publisher: Fractal Thought Engine
+schema_date_published: 2024-01-15T00:00:00.000Z
+schema_date_modified: 2024-01-15T00:00:00.000Z
 schema_word_count: 2800
-schema_reading_time: "PT45M"
-
-# Search Engine Directives
-robots: "index,follow"
-content_rating: "general"
-content_language: "en"
-
-# Indexing Control
+schema_reading_time: PT45M
+robots: 'index,follow'
+content_rating: general
+content_language: en
 priority: 0.8
-changefreq: "monthly"
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-
-# Discoverability
 is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
-
-# Dynamic behavior
 auto_update: false
 version_tracking: true
 allows_comments: true

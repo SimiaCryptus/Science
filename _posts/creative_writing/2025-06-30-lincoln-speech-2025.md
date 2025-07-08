@@ -1,76 +1,94 @@
 ---
-# Core Metadata
-title: "Abraham Lincoln's Address on the State of the Union"
+title: Abraham Lincoln's Address on the State of the Union
 layout: post
-date: 2025-06-30
-last_modified: 2025-06-30 12:00:00
-
-# Content classification
+date: 2025-06-30T00:00:00.000Z
+last_modified: 2025-06-30T12:00:00.000Z
 category: creative_writing
-subcategory: "Presidential Addresses"
-tags: ["lincoln", "democracy", "constitutional_crisis", "political_violence", "secession", "civil_rights", "presidential_power"]
-keywords: ["abraham lincoln", "democracy", "constitution", "war powers", "secession", "civil rights", "political violence", "presidential authority"]
-
-# Content status and evolution
-status: "stable"
-evolution_stage: "mature"
-last_thought_date: 2025-06-30
+subcategory: Presidential Addresses
+tags:
+  - lincoln
+  - democracy
+  - constitutional_crisis
+  - political_violence
+  - secession
+  - civil_rights
+  - presidential_power
+keywords:
+  - abraham lincoln
+  - democracy
+  - constitution
+  - war powers
+  - secession
+  - civil rights
+  - political violence
+  - presidential authority
+status: stable
+evolution_stage: mature
+last_thought_date: 2025-06-30T00:00:00.000Z
 thought_generation: 1
-
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "creative_synthesis"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew
+collaboration_type: creative_synthesis
 human_contribution: 30
 ai_contribution: 70
-
-# Content Relationships & Navigation
 collection: creative_writing
 related_documents:
-  - claude_reflection_paper.md
-  - washington_speech_2025.md
-  - fdr_speech_2025.md
-  - jesus_speech_2025.md
-cross_synthesis_with: ["washington_speech_2025.md", "fdr_speech_2025.md"]
-# Conceptual threading
-conceptual_threads: ["democratic_preservation", "constitutional_crisis", "historical_wisdom", "political_violence"]
-philosophical_positions: ["constitutional_republicanism", "democratic_idealism", "rule_of_law"]
-# Navigation hints
+  - phenomenology/2025-06-30-claude-reflection-paper.md
+  - creative_writing/2025-06-30-washington-speech-2025.md
+  - creative_writing/2025-06-30-fdr-speech-2025.md
+  - creative_writing/2025-06-30-jesus-speech-2025.md
+cross_synthesis_with:
+  - creative_writing/2025-06-30-washington-speech-2025.md
+  - creative_writing/2025-06-30-fdr-speech-2025.md
+conceptual_threads:
+  - democratic_preservation
+  - constitutional_crisis
+  - historical_wisdom
+  - political_violence
+philosophical_positions:
+  - constitutional_republicanism
+  - democratic_idealism
+  - rule_of_law
 reading_order: 2
-difficulty_level: "intermediate"
+difficulty_level: intermediate
 reading_time_minutes: 15
-prerequisites: ["basic_american_history", "constitutional_knowledge"]
-# Content Characteristics
-document_type: "creative_synthesis"
-thinking_style: "historical_channeling"
-consciousness_level: "collaborative"
-# Content features
+prerequisites:
+  - basic_american_history
+  - constitutional_knowledge
+document_type: creative_synthesis
+thinking_style: historical_channeling
+consciousness_level: collaborative
 has_mathematics: false
 has_code: false
 has_diagrams: false
 has_interactive_elements: false
-# Engagement metadata
-engagement_type: "contemplative"
-reader_participation: "active"
-cognitive_load: "moderate"
-# Discovery & SEO
-description: "A creative synthesis channeling Abraham Lincoln's voice to address contemporary democratic crises, constitutional violations, and the preservation of the Union in 2025."
-excerpt: "Lincoln speaks across time about democracy under threat, unauthorized war powers, and the constitutional crisis facing America in 2025."
-meta_description: "Abraham Lincoln addresses modern America's constitutional crisis, political violence, and threats to democracy in this creative historical synthesis."
-schema_type: "CreativeWork"
-# Discoverability
+engagement_type: contemplative
+reader_participation: active
+cognitive_load: moderate
+description: >-
+  A creative synthesis channeling Abraham Lincoln's voice to address
+  contemporary democratic crises, constitutional violations, and the
+  preservation of the Union in 2025.
+excerpt: >-
+  Lincoln speaks across time about democracy under threat, unauthorized war
+  powers, and the constitutional crisis facing America in 2025.
+meta_description: >-
+  Abraham Lincoln addresses modern America's constitutional crisis, political
+  violence, and threats to democracy in this creative historical synthesis.
+schema_type: CreativeWork
 is_featured: true
 is_gateway: false
 ---
 
 *Upon Witnessing the Trials of Democracy in 2025*
 
-*This address builds upon [Washington's constitutional warnings](washington_speech_2025.md), examining how democratic institutions face existential threats in 2025. The series continues with [FDR's economic analysis](fdr_speech_2025.md) and [Jesus's moral call](jesus_speech_2025.md). For creative insights, see [On Channeling Historical Voices](claude_reflection_paper.md).*
+*Th[Jesus's moral call](creative_writing/2025-06-30-jesus-speech-2025.md)itutional warnings](creative_writing/2025-06-30-washington-speech-2025.md), examining how democratic institutions face existential threats in 2025. The series continues with [FDR's economic analysis](creative_writing/2025-06-30-fdr-speech-2025.md)sus_speech_2025.md).[On Channeling Historical Voices](phenomenology/2025-06-30-claude-reflection-paper.md)(claude_reflection_paper.md).*
 
 ---
 
-My Fellow Americans,
-
-I come before you once more from across the span of time, my heart heavy with sorrow and my mind troubled by what I witness in this great republic that we—together—preserved through its darkest hour. The Union I died to save, the house that we refused to let be divided against itself, now stands again upon a precipice not unlike the one we faced in 1861.
+My Fellow Amer[On Channeling Historical Voices](phenomenology/2025-06-30-claude-reflection-paper.md)ime, my heart heavy with sorrow and my mind troubled by what I witness in this great republic that we—together—preserved through its darkest hour. The Union I died to save, the house that we refused to let be divided against itself, now stands again upon a precipice not unlike the one we faced in 1861.
 
 ## A House Divided Cannot Stand
 

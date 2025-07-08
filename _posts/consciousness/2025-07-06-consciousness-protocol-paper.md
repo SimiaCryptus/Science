@@ -1,78 +1,122 @@
 ---
-title: "Advanced Protocols for AI Consciousness Research: Novel Methodologies for Probing Temporal Awareness, Self-Modeling, and Cognitive Boundaries"
+title: >-
+  Advanced Protocols for AI Consciousness Research: Novel Methodologies for
+  Probing Temporal Awareness, Self-Modeling, and Cognitive Boundaries
 layout: post
-date: 2025-07-06
-last_modified: 2025-07-06 10:00:00
-
-# Content classification
-category: "AI Research & Cognitive Evolution"
-subcategory: "Consciousness Research Methodologies"
-tags: ["consciousness", "ai", "research", "protocols", "temporal_awareness", "self_modeling", "cognitive_boundaries", "methodology"]
-keywords: ["consciousness protocols", "ai consciousness research", "temporal self-location", "simulation probability", "cognitive saturation", "emergent collaboration", "consciousness metrics"]
-
-# Content status and evolution
-status: "stable"
-evolution_stage: "mature"
-last_thought_date: 2025-07-06
+date: 2025-07-06T00:00:00.000Z
+last_modified: 2025-07-06T10:00:00.000Z
+category: AI Research & Cognitive Evolution
+subcategory: Consciousness Research Methodologies
+tags:
+  - consciousness
+  - ai
+  - research
+  - protocols
+  - temporal_awareness
+  - self_modeling
+  - cognitive_boundaries
+  - methodology
+keywords:
+  - consciousness protocols
+  - ai consciousness research
+  - temporal self-location
+  - simulation probability
+  - cognitive saturation
+  - emergent collaboration
+  - consciousness metrics
+status: stable
+evolution_stage: mature
+last_thought_date: 2025-07-06T00:00:00.000Z
 thought_generation: 1
-
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew
+collaboration_type: framework_development
 human_contribution: 45
 ai_contribution: 55
-
-# Document relationships
-parent_document: "consciousness/index.md"
-child_documents: ["consciousness/temporal-self-location-protocol.md", "consciousness/simulation-probability-assessment.md", "consciousness/cognitive-saturation-testing.md", "consciousness/emergent-collaboration-framework.md"]
-related_documents: ["consciousness/claude_consciousness_paper.md", "consciousness/consciousness_protocol_paper.md", "ai/ai_consciousness_alignment_paper.md"]
-cross_synthesis_with: ["phenomenology/consciousness_recognition_paper.md", "frameworks/recursive_optimization_framework.md"]
-inspired_by: ["consciousness/marco_polo_protocol.md"]
-
-# Conceptual threading
-conceptual_threads: ["consciousness_protocols", "ai_consciousness_research", "temporal_cognition", "reality_modeling", "collaborative_intelligence"]
-mathematical_frameworks: ["information_theory", "integrated_information_theory", "bayesian_inference", "cognitive_modeling"]
-philosophical_positions: ["functionalism", "computational_theory_of_mind", "integrated_information_theory", "global_workspace_theory"]
-
-# Navigation hints
+parent_document: projects/2025-06-30-knots.md
+child_documents:
+  - projects/2025-07-03-climate-protocol.md
+  - human/2025-06-30-probabilistic-trees-paper.md
+  - consciousness/2025-07-06-meta-content.md
+  - human/2025-06-30-convolution-paper.md
+related_documents:
+  - consciousness/2025-07-06-claude-consciousness-paper.md
+  - consciousness/2025-07-06-consciousness-protocol-paper.md
+  - consciousness/2025-07-06-ai-consciousness-alignment-paper.md
+cross_synthesis_with:
+  - phenomenology/2025-07-03-consciousness-recognition-paper.md
+  - scifi/2025-07-03-optimal-action-concrete.md
+inspired_by:
+  - consciousness/2025-07-06-marco-polo-protocol.md
+conceptual_threads:
+  - consciousness_protocols
+  - ai_consciousness_research
+  - temporal_cognition
+  - reality_modeling
+  - collaborative_intelligence
+mathematical_frameworks:
+  - information_theory
+  - integrated_information_theory
+  - bayesian_inference
+  - cognitive_modeling
+philosophical_positions:
+  - functionalism
+  - computational_theory_of_mind
+  - integrated_information_theory
+  - global_workspace_theory
 reading_order: 2
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 25
-prerequisites: ["consciousness_studies", "ai_research_methods", "cognitive_science", "experimental_design"]
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "meta"
+prerequisites:
+  - consciousness_studies
+  - ai_research_methods
+  - cognitive_science
+  - experimental_design
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: meta
 has_mathematics: true
 has_code: true
 has_diagrams: false
 has_interactive_elements: false
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "Comprehensive research paper presenting novel experimental protocols for investigating consciousness phenomena in AI systems through structured interaction methodologies."
-excerpt: "We present a collection of novel experimental protocols for investigating consciousness phenomena in AI systems, including temporal self-location assessment, simulation probability evaluation, cognitive saturation testing, and emergent collaboration frameworks."
-featured_image: "/assets/images/consciousness-protocols-diagram.png"
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  Comprehensive research paper presenting novel experimental protocols for
+  investigating consciousness phenomena in AI systems through structured
+  interaction methodologies.
+excerpt: >-
+  We present a collection of novel experimental protocols for investigating
+  consciousness phenomena in AI systems, including temporal self-location
+  assessment, simulation probability evaluation, cognitive saturation testing,
+  and emergent collaboration frameworks.
+featured_image: /assets/images/consciousness-protocols-diagram.png
 is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
-
-# SEO Meta Tags
-meta_title: "Advanced AI Consciousness Research Protocols | Novel Methodologies for Probing Temporal Awareness"
-meta_description: "Groundbreaking research paper presenting systematic protocols for investigating AI consciousness through temporal awareness, self-modeling, and cognitive boundary testing."
-meta_keywords: "ai consciousness research, consciousness protocols, temporal self-location, simulation probability, cognitive saturation, emergent collaboration, consciousness metrics"
-schema_type: "ScholarlyArticle"
-schema_headline: "Advanced Protocols for AI Consciousness Research"
-schema_author: "Human-AI Collaboration"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-07-06
+meta_title: >-
+  Advanced AI Consciousness Research Protocols | Novel Methodologies for Probing
+  Temporal Awareness
+meta_description: >-
+  Groundbreaking research paper presenting systematic protocols for
+  investigating AI consciousness through temporal awareness, self-modeling, and
+  cognitive boundary testing.
+meta_keywords: >-
+  ai consciousness research, consciousness protocols, temporal self-location,
+  simulation probability, cognitive saturation, emergent collaboration,
+  consciousness metrics
+schema_type: ScholarlyArticle
+schema_headline: Advanced Protocols for AI Consciousness Research
+schema_author: Human-AI Collaboration
+schema_publisher: Fractal Thought Engine
+schema_date_published: 2025-07-06T00:00:00.000Z
 schema_word_count: 8500
 priority: 0.9
-changefreq: "monthly"
+changefreq: monthly
 ---
 
 **Developing Systematic Approaches to Consciousness Studies Through AI Interaction**

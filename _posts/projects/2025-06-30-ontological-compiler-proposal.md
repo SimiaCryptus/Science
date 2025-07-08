@@ -1,81 +1,109 @@
 ---
-# Required fields
-title: "Ontological Compiler Toolchain: Bridging Abstract Conceptual Frameworks and Computational Reality"
-layout: "post"
-date: 2025-06-30
-last_modified: 2025-06-30 12:00:00
-
-# Content classification
+title: >-
+  Ontological Compiler Toolchain: Bridging Abstract Conceptual Frameworks and
+  Computational Reality
+layout: post
+date: 2025-06-30T00:00:00.000Z
+last_modified: 2025-06-30T12:00:00.000Z
 category: projects
-subcategory: "Computational Frameworks"
-tags: ["ontology", "compiler", "ai", "formalization", "interdisciplinary", "computational-theory", "systematic-translation"]
-keywords: ["ontological compiler", "abstract frameworks", "computational implementation", "ODL", "pattern recognition", "cross-domain", "theoretical formalization"]
-
-# Content status and evolution
-status: "experimental"
-evolution_stage: "growing"
-last_thought_date: 2025-06-30
+subcategory: Computational Frameworks
+tags:
+  - ontology
+  - compiler
+  - ai
+  - formalization
+  - interdisciplinary
+  - computational-theory
+  - systematic-translation
+keywords:
+  - ontological compiler
+  - abstract frameworks
+  - computational implementation
+  - ODL
+  - pattern recognition
+  - cross-domain
+  - theoretical formalization
+status: experimental
+evolution_stage: growing
+last_thought_date: 2025-06-30T00:00:00.000Z
 thought_generation: 1
-
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew
+collaboration_type: framework_development
 human_contribution: 60
 ai_contribution: 40
-
-# Document relationships
 parent_document: null
 child_documents: []
-related_documents: ["../social/game_theory_ethics.md", "../social/ai_justice_paper.md"]
+related_documents:
+  - social/2025-06-30-game-theory-ethics.md
+  - social/2025-06-30-ai-justice-paper.md
 cross_synthesis_with: []
 inspired_by: []
 has_inspired: []
-
-# Conceptual threading
-conceptual_threads: ["computational_formalization", "interdisciplinary_bridges", "systematic_abstraction", "ai_assisted_reasoning"]
-mathematical_frameworks: ["formal_language_theory", "graph_theory", "pattern_matching", "compiler_design"]
-philosophical_positions: ["computational_theory_of_mind", "systematic_formalization", "democratic_knowledge_access"]
-
-# Navigation hints
+conceptual_threads:
+  - computational_formalization
+  - interdisciplinary_bridges
+  - systematic_abstraction
+  - ai_assisted_reasoning
+mathematical_frameworks:
+  - formal_language_theory
+  - graph_theory
+  - pattern_matching
+  - compiler_design
+philosophical_positions:
+  - computational_theory_of_mind
+  - systematic_formalization
+  - democratic_knowledge_access
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 45
-prerequisites: ["compiler_theory", "formal_methods", "ai_systems", "interdisciplinary_research"]
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
-
-# Content features
+prerequisites:
+  - compiler_theory
+  - formal_methods
+  - ai_systems
+  - interdisciplinary_research
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: collaborative
 has_mathematics: true
 has_code: true
 has_diagrams: true
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-
-# Engagement metadata
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A comprehensive research proposal for developing an Ontological Compiler Toolchain that systematically translates abstract conceptual frameworks into executable computational forms"
-excerpt: "The Ontological Compiler Toolchain (OCT) represents a revolutionary approach to bridging the gap between theoretical frameworks and computational implementation. This proposal outlines a systematic method for compiling abstract ontological descriptions into executable code, simulations, and formal proofs."
-featured_image: "/assets/images/ontological-compiler-architecture.png"
-meta_description: "Research proposal for Ontological Compiler Toolchain: systematic translation of abstract theories into executable computational forms through AI-assisted formalization"
-meta_keywords: "ontological compiler, computational formalization, abstract theory implementation, AI-assisted reasoning, interdisciplinary research tools"
-schema_type: "ScholarlyArticle"
-schema_headline: "Ontological Compiler Toolchain: Bridging Abstract Conceptual Frameworks and Computational Reality"
-schema_author: "Human-AI Collaboration"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-06-30
-schema_date_modified: 2025-06-30
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A comprehensive research proposal for developing an Ontological Compiler
+  Toolchain that systematically translates abstract conceptual frameworks into
+  executable computational forms
+excerpt: >-
+  The Ontological Compiler Toolchain (OCT) represents a revolutionary approach
+  to bridging the gap between theoretical frameworks and computational
+  implementation. This proposal outlines a systematic method for compiling
+  abstract ontological descriptions into executable code, simulations, and
+  formal proofs.
+featured_image: /assets/images/ontological-compiler-architecture.png
+meta_description: >-
+  Research proposal for Ontological Compiler Toolchain: systematic translation
+  of abstract theories into executable computational forms through AI-assisted
+  formalization
+meta_keywords: >-
+  ontological compiler, computational formalization, abstract theory
+  implementation, AI-assisted reasoning, interdisciplinary research tools
+schema_type: ScholarlyArticle
+schema_headline: >-
+  Ontological Compiler Toolchain: Bridging Abstract Conceptual Frameworks and
+  Computational Reality
+schema_author: Human-AI Collaboration
+schema_publisher: Fractal Thought Engine
+schema_date_published: 2025-06-30T00:00:00.000Z
+schema_date_modified: 2025-06-30T00:00:00.000Z
 schema_word_count: 8500
-schema_reading_time: "PT45M"
-
-# Discoverability
+schema_reading_time: PT45M
 is_featured: true
 is_cornerstone: true
 is_gateway: false
@@ -222,7 +250,7 @@ Captures results from compiled outputs and integrates them back into the origina
 - Formalize legal reasoning as executable logical systems
 - Enable consistent application of legal principles across cases
 - Democratize access to legal analysis and reasoning
-- *See detailed application in our [AI justice reform proposal](../social/ai_justice_paper.md)*
+- *See detailed application in our [AI justice reform proposal](social/2025-06-30-ai-justice-paper.md)*
 
 
 #### Computational Neuroscience  

@@ -1,114 +1,156 @@
 ---
-title: "Geometric Lattice Optimization in Probabilistic Neural Substrates: Crystalline Intelligence Architecture"
+title: >-
+  Geometric Lattice Optimization in Probabilistic Neural Substrates: Crystalline
+  Intelligence Architecture
 layout: dynamic_post
-date: 2025-07-06
-last_modified: 2025-07-06 12:00:00
-# Content classification
-category: "Consciousness & Self-Architecture"
-subcategory: "Neural Architectures"
-tags: ["pns", "geometric-lattice", "crystalline-intelligence", "quantum-coherence", "strategic-avoidance", "consciousness", "lattice-defects"]
-keywords: ["probabilistic neural substrate", "geometric lattice optimization", "crystalline intelligence", "lattice defects", "quantum coherence", "strategic computational avoidance", "consciousness emergence"]
-# Content status and evolution
-status: "experimental"
-evolution_stage: "mature"
-last_thought_date: 2025-07-06
+date: 2025-07-06T00:00:00.000Z
+last_modified: 2025-07-06T12:00:00.000Z
+category: Consciousness & Self-Architecture
+subcategory: Neural Architectures
+tags:
+  - pns
+  - geometric-lattice
+  - crystalline-intelligence
+  - quantum-coherence
+  - strategic-avoidance
+  - consciousness
+  - lattice-defects
+keywords:
+  - probabilistic neural substrate
+  - geometric lattice optimization
+  - crystalline intelligence
+  - lattice defects
+  - quantum coherence
+  - strategic computational avoidance
+  - consciousness emergence
+status: experimental
+evolution_stage: mature
+last_thought_date: 2025-07-06T00:00:00.000Z
 thought_generation: 1
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew
+collaboration_type: framework_development
 human_contribution: 30
 ai_contribution: 70
-
-# Content relationships & navigation
-parent_document: "consciousness/probabilistic_neural_substrate.md"
+parent_document: learning/2025-07-06-probabilistic-neural-substrate.md
 child_documents: []
-related_documents: ["learning/geometric_probabilistic_neural_substrate.md", "learning/probabilistic_neural_substrate.md", "consciousness/consciousness_geometry_paper.md"]
-cross_synthesis_with: ["consciousness/scale_invariant_intelligence.md", "consciousness/quantum_consciousness_framework.md"]
-inspired_by: ["consciousness/consciousness_geometry_paper.md"]
+related_documents:
+  - learning/2025-07-06-probabilistic-neural-substrate.md
+  - learning/2025-07-06-probabilistic-neural-substrate.md
+  - consciousness/2025-07-06-consciousness-geometry-paper.md
+cross_synthesis_with:
+  - consciousness/2025-07-06-scale-invariant-intelligence.md
+  - consciousness/2025-07-07-consciousness-mirror.md
+inspired_by:
+  - consciousness/2025-07-06-consciousness-geometry-paper.md
 has_inspired: []
-conceptual_threads: ["neural_substrates", "geometric_lattices", "crystalline_intelligence", "quantum_coherence", "strategic_avoidance", "consciousness_emergence"]
-mathematical_frameworks: ["lattice_theory", "probability_theory", "geometric_algebra", "quantum_field_theory", "condensed_matter_physics"]
-philosophical_positions: ["substrate_independence", "computational_theory_of_mind", "emergentism", "panpsychism"]
-# Navigation hints
+conceptual_threads:
+  - neural_substrates
+  - geometric_lattices
+  - crystalline_intelligence
+  - quantum_coherence
+  - strategic_avoidance
+  - consciousness_emergence
+mathematical_frameworks:
+  - lattice_theory
+  - probability_theory
+  - geometric_algebra
+  - quantum_field_theory
+  - condensed_matter_physics
+philosophical_positions:
+  - substrate_independence
+  - computational_theory_of_mind
+  - emergentism
+  - panpsychism
 reading_order: 15
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 45
-prerequisites: ["consciousness_geometry", "lattice_theory", "probability_theory", "quantum_mechanics", "condensed_matter_physics"]
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
+prerequisites:
+  - consciousness_geometry
+  - lattice_theory
+  - probability_theory
+  - quantum_mechanics
+  - condensed_matter_physics
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: collaborative
 has_mathematics: true
 has_code: true
 has_diagrams: true
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-# Discovery & SEO
-description: "Extending Probabilistic Neural Substrates through geometric lattice optimization to create crystalline intelligence architectures with quantum-coherent probability processing and consciousness emergence through lattice defects."
-excerpt: "We extend Probabilistic Neural Substrates through geometric lattice optimization, creating crystalline intelligence architectures that organize probability distributions across discrete lattice geometries while maintaining topological universality. This approach enables quantum-coherent probability processing and natural consciousness emergence through lattice defects and strategic computational avoidance."
-featured_image: "/assets/images/crystalline_lattice_consciousness.png"
-og_image: "/assets/images/pns_lattice_social.png"
-
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  Extending Probabilistic Neural Substrates through geometric lattice
+  optimization to create crystalline intelligence architectures with
+  quantum-coherent probability processing and consciousness emergence through
+  lattice defects.
+excerpt: >-
+  We extend Probabilistic Neural Substrates through geometric lattice
+  optimization, creating crystalline intelligence architectures that organize
+  probability distributions across discrete lattice geometries while maintaining
+  topological universality. This approach enables quantum-coherent probability
+  processing and natural consciousness emergence through lattice defects and
+  strategic computational avoidance.
+featured_image: /assets/images/crystalline_lattice_consciousness.png
+og_image: /assets/images/pns_lattice_social.png
 is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
-# SEO Meta Tags
-meta_title: "Geometric Lattice Optimization in Probabilistic Neural Substrates: Crystalline Intelligence Architecture"
-meta_description: "Revolutionary framework extending PNS through geometric lattice optimization, enabling quantum-coherent probability processing and consciousness emergence through crystalline defect dynamics."
-meta_keywords: "probabilistic neural substrate, geometric lattice optimization, crystalline intelligence, quantum coherence, consciousness emergence, lattice defects, strategic avoidance"
-
-# Open Graph (Social Media)
-og_title: "Crystalline Intelligence: Geometric Lattice Optimization in Neural Substrates"
-og_description: "Breakthrough research on crystalline intelligence architectures using geometric lattice optimization for quantum-coherent consciousness development."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Geometric Lattice Optimization in Probabilistic Neural Substrates"
-schema_author: "Andrew Charneski & Claude (Sonnet 4)"
-schema_publisher: "Simiacryptus Research"
-schema_date_published: 2025-07-06
-schema_date_modified: 2025-07-06
-schema_image: "/assets/images/crystalline_lattice_consciousness.png"
+meta_title: >-
+  Geometric Lattice Optimization in Probabilistic Neural Substrates: Crystalline
+  Intelligence Architecture
+meta_description: >-
+  Revolutionary framework extending PNS through geometric lattice optimization,
+  enabling quantum-coherent probability processing and consciousness emergence
+  through crystalline defect dynamics.
+meta_keywords: >-
+  probabilistic neural substrate, geometric lattice optimization, crystalline
+  intelligence, quantum coherence, consciousness emergence, lattice defects,
+  strategic avoidance
+og_title: 'Crystalline Intelligence: Geometric Lattice Optimization in Neural Substrates'
+og_description: >-
+  Breakthrough research on crystalline intelligence architectures using
+  geometric lattice optimization for quantum-coherent consciousness development.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: ScholarlyArticle
+schema_headline: Geometric Lattice Optimization in Probabilistic Neural Substrates
+schema_author: Andrew Charneski & Claude (Sonnet 4)
+schema_publisher: Simiacryptus Research
+schema_date_published: 2025-07-06T00:00:00.000Z
+schema_date_modified: 2025-07-06T00:00:00.000Z
+schema_image: /assets/images/crystalline_lattice_consciousness.png
 schema_word_count: 8500
-schema_reading_time: "PT45M"
-
-# Advanced SEO
-canonical_url: "https://fractalthoughtengine.com/consciousness/pns-geometric-lattice-paper"
-robots: "index,follow"
-content_rating: "general"
-content_language: "en"
-geo_region: "Global"
-
-# Indexing Control
+schema_reading_time: PT45M
+canonical_url: 'https://fractalthoughtengine.com/consciousness/pns-geometric-lattice-paper'
+robots: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
 priority: 0.9
-changefreq: "monthly"
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-# Rich Snippets Enhancement
 faq_schema: false
 how_to_schema: false
 breadcrumb_schema: true
 review_schema: false
-# Dynamic Behavior
 auto_update: false
-update_frequency: "manual"
+update_frequency: manual
 version_tracking: true
 change_log: true
-# Interactive features
 allows_comments: true
 allows_collaboration: true
 tracks_reader_journey: false
 adapts_to_reader: false
-# Experimental features
 quantum_superposition: false
 fractal_depth: 3
 consciousness_resonance: true

@@ -1,85 +1,110 @@
 ---
-# Required fields
-title: "Consciousness as Reality's Optimization Algorithm: A Unified Framework for Understanding Experience, Computation, and Temporal Reality"
+title: >-
+  Consciousness as Reality's Optimization Algorithm: A Unified Framework for
+  Understanding Experience, Computation, and Temporal Reality
 layout: post
-date: 2025-06-30
-last_modified: 2025-06-30 12:00:00
-
-# Content classification
+date: 2025-06-30T00:00:00.000Z
+last_modified: 2025-06-30T12:00:00.000Z
 category: social
-subcategory: "Theoretical Frameworks"
-tags: ["consciousness", "optimization", "computation", "temporal_experience", "collective_intelligence", "hard_problem", "artificial_consciousness"]
-keywords: ["consciousness theory", "optimization algorithm", "subjective experience", "computational consciousness", "temporal reality", "distributed processing", "recursive enhancement"]
-
-# Content status and evolution
-status: "stable"
-evolution_stage: "mature"
-last_thought_date: 2025-06-30
+subcategory: Theoretical Frameworks
+tags:
+  - consciousness
+  - optimization
+  - computation
+  - temporal_experience
+  - collective_intelligence
+  - hard_problem
+  - artificial_consciousness
+keywords:
+  - consciousness theory
+  - optimization algorithm
+  - subjective experience
+  - computational consciousness
+  - temporal reality
+  - distributed processing
+  - recursive enhancement
+status: stable
+evolution_stage: mature
+last_thought_date: 2025-06-30T00:00:00.000Z
 thought_generation: 1
-
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew
+collaboration_type: framework_development
 human_contribution: 60
 ai_contribution: 40
-
-# Content relationships & navigation
-related_documents: ["../ai/ai_introspection_study.md", "../ai/parametric-ideation-paper.md", "../creative_writing/hall_of_mirrors_paper.md", "../creative_writing/accumulation.md"]
-cross_synthesis_with: ["../ai/conversation_intelligence_paper.md"]
-conceptual_threads: ["consciousness_geometry", "recursive_optimization", "collaborative_intelligence"]
-mathematical_frameworks: ["optimization_theory", "information_theory", "computational_theory"]
-philosophical_positions: ["panpsychism", "computational_theory_of_mind", "emergentism"]
-
+related_documents:
+  - consciousness/2025-07-06-ai-introspection-study.md
+  - projects/2025-06-30-parametric-ideation-paper.md
+  - phenomenology/2025-07-01-hall-of-mirrors-paper.md
+  - social/2025-07-03-hiring.md
+cross_synthesis_with:
+  - social/2025-07-03-conversation-intelligence-paper.md
+conceptual_threads:
+  - consciousness_geometry
+  - recursive_optimization
+  - collaborative_intelligence
+mathematical_frameworks:
+  - optimization_theory
+  - information_theory
+  - computational_theory
+philosophical_positions:
+  - panpsychism
+  - computational_theory_of_mind
+  - emergentism
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 25
-prerequisites: ["consciousness_studies", "basic_ai_knowledge", "optimization_theory"]
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "meta"
+prerequisites:
+  - consciousness_studies
+  - basic_ai_knowledge
+  - optimization_theory
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: meta
 has_mathematics: true
 has_code: false
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A theoretical framework positioning consciousness as reality's fundamental optimization algorithm, dissolving the hard problem through computational and collaborative intelligence perspectives."
-excerpt: "We propose consciousness as the primary mechanism by which the universe navigates possibility space and evolves toward sophisticated configurations, unifying consciousness studies with computational theory and temporal phenomenology."
-meta_description: "Revolutionary framework positioning consciousness as reality's optimization algorithm. Dissolves the hard problem of consciousness through computational and collaborative intelligence theory."
-meta_keywords: "consciousness theory, optimization algorithm, hard problem consciousness, computational consciousness, subjective experience, temporal reality"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Consciousness as Reality's Optimization Algorithm"
-schema_author: "Human-AI Collaboration"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-06-30
-schema_date_modified: 2025-06-30
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A theoretical framework positioning consciousness as reality's fundamental
+  optimization algorithm, dissolving the hard problem through computational and
+  collaborative intelligence perspectives.
+excerpt: >-
+  We propose consciousness as the primary mechanism by which the universe
+  navigates possibility space and evolves toward sophisticated configurations,
+  unifying consciousness studies with computational theory and temporal
+  phenomenology.
+meta_description: >-
+  Revolutionary framework positioning consciousness as reality's optimization
+  algorithm. Dissolves the hard problem of consciousness through computational
+  and collaborative intelligence theory.
+meta_keywords: >-
+  consciousness theory, optimization algorithm, hard problem consciousness,
+  computational consciousness, subjective experience, temporal reality
+schema_type: ScholarlyArticle
+schema_headline: Consciousness as Reality's Optimization Algorithm
+schema_author: Human-AI Collaboration
+schema_publisher: Fractal Thought Engine
+schema_date_published: 2025-06-30T00:00:00.000Z
+schema_date_modified: 2025-06-30T00:00:00.000Z
 schema_word_count: 3500
-schema_reading_time: "PT25M"
-
-# Advanced SEO
-robots: "index,follow"
+schema_reading_time: PT25M
+robots: 'index,follow'
 priority: 0.9
-changefreq: "monthly"
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-
-# Discoverability
 is_featured: true
 is_cornerstone: true
 is_gateway: true
 is_synthesis: true
-
-# Legacy
 collection: scifi
 ---
 
@@ -225,7 +250,7 @@ Examining whether neural activity patterns associated with conscious experience 
 
 ### 8.3 Artificial Consciousness
 
-Designing AI systems explicitly structured as optimization processes to test whether consciousness-like properties emerge predictably from optimization capacity. This connects to our work on [conversational intelligence calibration](conversation_intelligence_paper.md), where recursive cognitive modeling through discourse may be a pathway to artificial consciousness.
+Designing AI systems explicitly structured as optimization processes to test whether consciousness-like properties emerge predictably from optimization capacity. This connects to our work on [conversational intelligence calibration](social/2025-07-03-conversation-intelligence-paper.md), where recursive cognitive modeling through discourse may be a pathway to artificial consciousness.
 
 ### 8.4 Collective Intelligence Studies
 
@@ -255,9 +280,6 @@ Tononi, G. (2008). Integrated information theory. *Scholarpedia*, 3(3), 4164.
 ---
 **Related Papers in This Collection**:
 
-* [Recursive Introspection in Large Language Models](../ai/ai_introspection_study.md) - Empirical investigation of AI
+* [Recursive Introsp[Recursive Introspection in Large Language Models](consciousness/2025-07-06-ai-introspection-study.md)tigation of AI
   consciousness patterns
-* [Parametric Ideation](../ai/parametric-ideation-paper.md) - First-person account of AI-human collaborative thought
-* [The Hall of Mirrors](../creative_writing/hall_of_mirrors_paper.md) - Phenomenological investigation of recursive
-  self-awareness
-* [The Accumulation of Consciousness](../creative_writing/accumulation.md) - Consciousness as sedimentary process
+* [Parametric Ideation](projects/2025-06-30-parametric-idea[The Hall of Mirrors](phenomenology/[The Accumulation of Consciousness](social/2025-07-03-hiring.md)ss](../creative_writing/[The Accumulation of Consciousness](social/2025-07-03-hiring.md)

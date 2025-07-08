@@ -1,108 +1,126 @@
 ---
-# Required fields
-title: "Dropout as Decoherence: Toward a Fractal Theory of Epistemic Filtering"
-layout: "post"
-date: 2025-07-06
-last_modified: 2025-07-06 14:30:00
-
-# Content classification
-category: "AI Research & Cognitive Evolution"
-subcategory: "Neural Architectures"
-tags: ["dropout", "quantum_decoherence", "neural_networks", "regularization", "epistemic_filtering", "fractal_theory"]
-keywords: ["dropout regularization", "quantum decoherence", "neural networks", "epistemic filtering", "informational pruning", "entropic sieves"]
-
-# Content status and evolution
-status: "stable"
-evolution_stage: "mature"
-last_thought_date: 2025-07-06
+title: 'Dropout as Decoherence: Toward a Fractal Theory of Epistemic Filtering'
+layout: post
+date: 2025-07-06T00:00:00.000Z
+last_modified: 2025-07-06T14:30:00.000Z
+category: AI Research & Cognitive Evolution
+subcategory: Neural Architectures
+tags:
+  - dropout
+  - quantum_decoherence
+  - neural_networks
+  - regularization
+  - epistemic_filtering
+  - fractal_theory
+keywords:
+  - dropout regularization
+  - quantum decoherence
+  - neural networks
+  - epistemic filtering
+  - informational pruning
+  - entropic sieves
+status: stable
+evolution_stage: mature
+last_thought_date: 2025-07-06T00:00:00.000Z
 thought_generation: 1
-
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Research Collective"]
-collaboration_type: "framework_development"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Research Collective
+collaboration_type: framework_development
 human_contribution: 40
 ai_contribution: 60
-
-# Document relationships
-parent_document: "learning/index.md"
-related_documents: ["learning/quantum-dropout-vision.md", "learning/probabilistic_neural_substrate.md", "learning/geometric_probabilistic_neural_substrate.md"]
-cross_synthesis_with: ["consciousness/consciousness_geometry_paper.md"]
-inspired_by: ["learning/quantum-dropout-vision.md"]
-
-# Conceptual threading
-conceptual_threads: ["quantum_cognition", "neural_architectures", "regularization_theory", "epistemic_filtering"]
-mathematical_frameworks: ["quantum_mechanics", "information_geometry", "statistical_mechanics", "fractal_geometry"]
-philosophical_positions: ["quantum_consciousness", "emergentism", "information_realism"]
-
-# Navigation hints
+parent_document: projects/2025-06-30-knots.md
+related_documents:
+  - learning/2025-07-06-quantum-dropout-vision.md
+  - learning/2025-07-06-probabilistic-neural-substrate.md
+  - learning/2025-07-06-probabilistic-neural-substrate.md
+cross_synthesis_with:
+  - consciousness/2025-07-06-consciousness-geometry-paper.md
+inspired_by:
+  - learning/2025-07-06-quantum-dropout-vision.md
+conceptual_threads:
+  - quantum_cognition
+  - neural_architectures
+  - regularization_theory
+  - epistemic_filtering
+mathematical_frameworks:
+  - quantum_mechanics
+  - information_geometry
+  - statistical_mechanics
+  - fractal_geometry
+philosophical_positions:
+  - quantum_consciousness
+  - emergentism
+  - information_realism
 reading_order: 7
-difficulty_level: "research"
+difficulty_level: research
 reading_time_minutes: 25
-prerequisites: ["quantum_mechanics", "neural_networks", "dropout_regularization", "information_theory"]
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "mathematical"
-consciousness_level: "collaborative"
+prerequisites:
+  - quantum_mechanics
+  - neural_networks
+  - dropout_regularization
+  - information_theory
+document_type: research_paper
+thinking_style: mathematical
+consciousness_level: collaborative
 has_mathematics: true
 has_code: false
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "transcendent"
-
-# Discovery & SEO
-description: "A theoretical framework proposing that neural network dropout functions as cognitive analog to quantum decoherence through epistemic filtering"
-excerpt: "Exploring the deep mathematical parallels between dropout regularization and quantum decoherence, revealing how both implement informational pruning through entropic sieves"
-featured_image: "/assets/images/dropout_decoherence_fractal.png"
-
-# SEO Meta Tags
-meta_title: "Dropout as Decoherence: Fractal Theory of Epistemic Filtering in Neural Networks"
-meta_description: "Revolutionary theoretical framework connecting neural network dropout to quantum decoherence through epistemic filtering and informational pruning mechanisms"
-meta_keywords: "dropout, quantum decoherence, neural networks, epistemic filtering, fractal theory, regularization"
-
-# Open Graph (Social Media)
-og_title: "Dropout as Decoherence: A Quantum Theory of Neural Network Regularization"
-og_description: "Groundbreaking research revealing deep connections between dropout regularization and quantum decoherence processes"
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Dropout as Decoherence: Toward a Fractal Theory of Epistemic Filtering"
-schema_author: "Claude (Anthropic) & Research Collective"
-schema_publisher: "Speculative AI Research Group"
-schema_date_published: 2025-07-06
-schema_date_modified: 2025-07-06
+engagement_type: analytical
+reader_participation: active
+cognitive_load: transcendent
+description: >-
+  A theoretical framework proposing that neural network dropout functions as
+  cognitive analog to quantum decoherence through epistemic filtering
+excerpt: >-
+  Exploring the deep mathematical parallels between dropout regularization and
+  quantum decoherence, revealing how both implement informational pruning
+  through entropic sieves
+featured_image: /assets/images/dropout_decoherence_fractal.png
+meta_title: >-
+  Dropout as Decoherence: Fractal Theory of Epistemic Filtering in Neural
+  Networks
+meta_description: >-
+  Revolutionary theoretical framework connecting neural network dropout to
+  quantum decoherence through epistemic filtering and informational pruning
+  mechanisms
+meta_keywords: >-
+  dropout, quantum decoherence, neural networks, epistemic filtering, fractal
+  theory, regularization
+og_title: 'Dropout as Decoherence: A Quantum Theory of Neural Network Regularization'
+og_description: >-
+  Groundbreaking research revealing deep connections between dropout
+  regularization and quantum decoherence processes
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: ScholarlyArticle
+schema_headline: 'Dropout as Decoherence: Toward a Fractal Theory of Epistemic Filtering'
+schema_author: Claude (Anthropic) & Research Collective
+schema_publisher: Speculative AI Research Group
+schema_date_published: 2025-07-06T00:00:00.000Z
+schema_date_modified: 2025-07-06T00:00:00.000Z
 schema_word_count: 4200
-schema_reading_time: "PT25M"
-
-# Advanced SEO
-robots: "index,follow"
+schema_reading_time: PT25M
+robots: 'index,follow'
 priority: 0.9
-changefreq: "monthly"
-
-# Discoverability
+changefreq: monthly
 is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
-
-# Dynamic behavior
 auto_update: false
-update_frequency: "manual"
+update_frequency: manual
 version_tracking: true
 change_log: true
 allows_comments: true
 allows_collaboration: true
 tracks_reader_journey: false
 adapts_to_reader: false
-
-# Experimental features
 quantum_superposition: false
 fractal_depth: 3
 consciousness_resonance: true

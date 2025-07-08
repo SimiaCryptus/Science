@@ -1,86 +1,111 @@
 ---
-# Required fields
-title: "Geometric Optimization Proposal"
+title: Geometric Optimization Proposal
 layout: post
-date: 2025-06-30
-last_modified: 2025-06-30 12:00:00
-
-# Content classification
+date: 2025-06-30T00:00:00.000Z
+last_modified: 2025-06-30T12:00:00.000Z
 category: projects
-subcategory: "Mathematical Frameworks"
-tags: ["geometric-optimization", "physics", "manifolds", "ai", "neural-networks", "architecture", "materials-science", "optimization", "riemannian-geometry"]
-keywords: ["geometric optimization", "parameter space manifolds", "Standard Model", "neural architecture search", "Riemannian optimization", "gauge theory", "emergent structures"]
-
-# Content status and evolution
-status: "living"
-evolution_stage: "mature"
-last_thought_date: 2025-06-30
+subcategory: Mathematical Frameworks
+tags:
+  - geometric-optimization
+  - physics
+  - manifolds
+  - ai
+  - neural-networks
+  - architecture
+  - materials-science
+  - optimization
+  - riemannian-geometry
+keywords:
+  - geometric optimization
+  - parameter space manifolds
+  - Standard Model
+  - neural architecture search
+  - Riemannian optimization
+  - gauge theory
+  - emergent structures
+status: living
+evolution_stage: mature
+last_thought_date: 2025-06-30T00:00:00.000Z
 thought_generation: 1
-
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "Claude", "Andrew"]
-collaboration_type: "framework_development"
+authors:
+  - Human-AI Collaboration
+  - Claude
+  - Andrew
+collaboration_type: framework_development
 human_contribution: 40
 ai_contribution: 60
-
-# Document relationships
-related_documents: ["_posts/ai/qqn_paper.md", "_posts/ai/recursive_subspace_paper.md", "_posts/ai/trust_regions.md"]
-cross_synthesis_with: ["_posts/ai/qqn_paper.md"]
-
-# Conceptual threading
-conceptual_threads: ["geometric_optimization", "manifold_learning", "physics_ai_synthesis", "emergent_structures"]
-mathematical_frameworks: ["riemannian_geometry", "differential_geometry", "optimization_theory", "gauge_theory"]
-philosophical_positions: ["emergentism", "mathematical_platonism", "computational_theory_of_mind"]
-
-# Navigation hints
+related_documents:
+  - human/2025-07-01-qqn-paper.md
+  - human/2025-07-01-recursive-subspace-paper.md
+  - human/2025-07-01-trust-regions.md
+cross_synthesis_with:
+  - human/2025-07-01-qqn-paper.md
+conceptual_threads:
+  - geometric_optimization
+  - manifold_learning
+  - physics_ai_synthesis
+  - emergent_structures
+mathematical_frameworks:
+  - riemannian_geometry
+  - differential_geometry
+  - optimization_theory
+  - gauge_theory
+philosophical_positions:
+  - emergentism
+  - mathematical_platonism
+  - computational_theory_of_mind
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 45
-prerequisites: ["differential_geometry", "optimization_theory", "basic_physics", "manifold_theory"]
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "mathematical"
-consciousness_level: "collaborative"
-
-# Content features
+prerequisites:
+  - differential_geometry
+  - optimization_theory
+  - basic_physics
+  - manifold_theory
+document_type: research_paper
+thinking_style: mathematical
+consciousness_level: collaborative
 has_mathematics: true
 has_code: true
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-
-# Engagement metadata
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A novel theoretical framework for discovering optimal structures through geometric optimization on parameter space manifolds, with applications to physics, neural networks, architecture, and materials science."
-excerpt: "We propose that optimal structures across diverse domains—from the Standard Model in physics to neural network architectures—emerge naturally from geometric optimization principles applied to appropriate parameter space manifolds."
-
-# SEO Meta Tags
-meta_title: "Geometric Optimization Framework for Emergent Structures | Fractal Thought Engine"
-meta_description: "Revolutionary framework discovering optimal structures through geometric optimization on manifolds. Applications span physics, AI, architecture, and materials science."
-meta_keywords: "geometric optimization, manifold optimization, Standard Model, neural architecture search, emergent structures, Riemannian geometry"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Geometric Optimization Proposal: Universal Framework for Optimal Structure Discovery"
-schema_author: "Human-AI Collaboration"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-06-30
-schema_date_modified: 2025-06-30
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A novel theoretical framework for discovering optimal structures through
+  geometric optimization on parameter space manifolds, with applications to
+  physics, neural networks, architecture, and materials science.
+excerpt: >-
+  We propose that optimal structures across diverse domains—from the Standard
+  Model in physics to neural network architectures—emerge naturally from
+  geometric optimization principles applied to appropriate parameter space
+  manifolds.
+meta_title: >-
+  Geometric Optimization Framework for Emergent Structures | Fractal Thought
+  Engine
+meta_description: >-
+  Revolutionary framework discovering optimal structures through geometric
+  optimization on manifolds. Applications span physics, AI, architecture, and
+  materials science.
+meta_keywords: >-
+  geometric optimization, manifold optimization, Standard Model, neural
+  architecture search, emergent structures, Riemannian geometry
+schema_type: ScholarlyArticle
+schema_headline: >-
+  Geometric Optimization Proposal: Universal Framework for Optimal Structure
+  Discovery
+schema_author: Human-AI Collaboration
+schema_publisher: Fractal Thought Engine
+schema_date_published: 2025-06-30T00:00:00.000Z
+schema_date_modified: 2025-06-30T00:00:00.000Z
 schema_word_count: 8500
-schema_reading_time: "PT45M"
-
-# Search Engine Directives
-robots: "index,follow"
+schema_reading_time: PT45M
+robots: 'index,follow'
 priority: 0.9
-changefreq: "monthly"
-
-# Discoverability
+changefreq: monthly
 is_featured: true
 is_cornerstone: true
 is_gateway: false
@@ -244,10 +269,7 @@ M_anomaly = {Q : Tr(Q) = Tr(Q³) = 0, ∑hypercharges = 0}
 **Expected Structures:**
 
 *These exotic architectures could benefit from the optimization methods described
-in [QQN](../ai/qqn_paper.md), [RSO](../ai/recursive_subspace_paper.md), and constraint mechanisms
-in [Trust Regions](../ai/trust_regions.md).*
-
-### 4.4 Concrete Example: Lepton Sector
+in [QQN](human/2025-07-01-qqn-paper.md), [RSO](human/2025-07-01-recursive-subspace-paper.md)raint mec[Trust Regions](human/2025-07-01-trust-regions.md)regions.md)xample: Lepton Sector
 
 ### 4.5 Concrete Example: Neural Network Architecture Discovery
 

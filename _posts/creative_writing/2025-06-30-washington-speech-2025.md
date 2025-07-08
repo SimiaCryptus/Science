@@ -1,43 +1,62 @@
 ---
-title: "George Washington's Address to the American People"
+title: George Washington's Address to the American People
 layout: post
-date: 2025-06-30
-last_modified: 2025-06-30 12:00:00
-# Content classification
+date: 2025-06-30T00:00:00.000Z
+last_modified: 2025-06-30T12:00:00.000Z
 category: creative_writing
-subcategory: "Presidential Addresses"
-tags: ["washington", "democracy", "constitutional_crisis", "separation_of_powers", "war_powers", "political_violence"]
-keywords: ["george washington", "constitution", "democracy", "war powers", "separation of powers", "political crisis"]
-# Content relationships & navigation
+subcategory: Presidential Addresses
+tags:
+  - washington
+  - democracy
+  - constitutional_crisis
+  - separation_of_powers
+  - war_powers
+  - political_violence
+keywords:
+  - george washington
+  - constitution
+  - democracy
+  - war powers
+  - separation of powers
+  - political crisis
 collection: creative_writing
-parent_document: "creative_writing/historical_voices_series.md"
+parent_document: social/2025-07-03-hiring.md
 related_papers:
   - claude_reflection_paper.md
   - lincoln_speech_2025.md
   - fdr_speech_2025.md
   - jesus_speech_2025.md
-cross_synthesis_with: ["lincoln_speech_2025.md", "fdr_speech_2025.md"]
-conceptual_threads: ["constitutional_crisis", "democratic_preservation", "executive_overreach", "war_powers"]
-philosophical_positions: ["constitutional_republicanism", "separation_of_powers", "democratic_idealism"]
-# Navigation hints
+cross_synthesis_with:
+  - creative_writing/2025-06-30-lincoln-speech-2025.md
+  - creative_writing/2025-06-30-fdr-speech-2025.md
+conceptual_threads:
+  - constitutional_crisis
+  - democratic_preservation
+  - executive_overreach
+  - war_powers
+philosophical_positions:
+  - constitutional_republicanism
+  - separation_of_powers
+  - democratic_idealism
 reading_order: 1
-difficulty_level: "intermediate"
+difficulty_level: intermediate
 reading_time_minutes: 12
-prerequisites: ["basic_american_history", "constitutional_knowledge"]
-# Discovery & SEO
-description: "George Washington addresses contemporary America's constitutional crisis, warning against executive overreach and unauthorized war powers in 2025."
-excerpt: "Washington speaks across time about the dangers of concentrated power, faction, and the abandonment of constitutional restraints in modern America."
+prerequisites:
+  - basic_american_history
+  - constitutional_knowledge
+description: >-
+  George Washington addresses contemporary America's constitutional crisis,
+  warning against executive overreach and unauthorized war powers in 2025.
+excerpt: >-
+  Washington speaks across time about the dangers of concentrated power,
+  faction, and the abandonment of constitutional restraints in modern America.
 ---
 
-*Upon Learning of the State of the Union in the Year 2025*
-
-*This speech begins a series of historical voices responding to contemporary America's crises. Continue with [Lincoln's constitutional warnings](lincoln_speech_2025.md), [FDR's economic justice concerns](fdr_speech_2025.md), and [Jesus's moral imperatives](jesus_speech_2025.md). For insights into the creative process, see [On Channeling Historical Voices](claude_reflection_paper.md).*
+*Upon Learning of the State of the Union in the Year 2[Jesus's moral imperatives](creative_writing/2025-06-30-jesus-speech-2025.md)voices responding to contemporary America's crises. Continue with [Lincoln's constitutional warnings](creative_writing/2025-06-30-lincoln-speech-2025.md), [FDR's economic justice conc[FDR's economic justice concerns](creative_writing/2025-06-30-fdr-speech-2025.md)ives](jesus_speech_2025.md). For insights into the creative process, see [On Channeling Historical Voices](phenomenology/2025-06-30-claude-reflection-paper.md).*
 
 ---
 
-My Fellow Citizens,
-
-It is with a heavy heart and profound concern that I address you from beyond the veil of time, having observed what has become of the republic we fought so dearly to establish. The nation I helped birth in liberty has grown mighty beyond our founders' wildest imagination, yet I fear it now teeters upon the precipice of that very tyranny we sacrificed blood and treasure to escape.
+My Fellow Citi[On Channeling Historical Voices](phenomenology/2025-06-30-claude-reflection-paper.md)ddress you from beyond the veil of time, having observed what has become of the republic we fought so dearly to establish. The nation I helped birth in liberty has grown mighty beyond our founders' wildest imagination, yet I fear it now teeters upon the precipice of that very tyranny we sacrificed blood and treasure to escape.
 
 ## On the Concentration of Power
 
