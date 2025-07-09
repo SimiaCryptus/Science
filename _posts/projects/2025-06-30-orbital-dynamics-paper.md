@@ -113,6 +113,10 @@ software by providing: (1) a unified API supporting multiple programming languag
 plugin ecosystem for force models, optimization algorithms, and mission-specific extensions, (3) built-in support for
 emerging applications including self-gravitating systems, relativistic corrections, and choreographic orbit discovery,
 and (4) comprehensive benchmarks establishing performance baselines across diverse hardware architectures.
+**Related Work**: This platform provides the computational infrastructure for implementing the retarded-time relativistic 
+dynamics framework presented in [Retarded-Time Relativistic Dynamics for Practical Orbital Mechanics]({% post_url projects/2025-07-08-fundamental-oodp-paper %}), 
+which demonstrates how finite gravitational propagation speed can improve both numerical stability and physical accuracy 
+in orbital mechanics calculations.
 
 ![orbit_platform.png](assets/images/orbit_platform.png)
 
@@ -223,11 +227,16 @@ To a post-Newtonian approximation with retarded potentials and frame-dependent c
 barycentric frame becomes:
 
 d²rᵢ/dt² = Σⱼ≠ᵢ Gmⱼ(rⱼ(t-|rᵢⱼ|/c) - rᵢ(t))/|rᵢⱼ|³
+ (1/c²)Σⱼ≠ᵢ Gmⱼ/|rᵢⱼ| [(nᵢⱼ·vⱼ)vⱼ - v²ⱼnᵢⱼ/2 + 3(nᵢⱼ·vⱼ)²nᵢⱼ/2]
 
 + (1/c²)Σⱼ≠ᵢ Gmⱼ/|rᵢⱼ| [(nᵢⱼ·vⱼ)vⱼ - v²ⱼnᵢⱼ/2 + 3(nᵢⱼ·vⱼ)²nᵢⱼ/2]
 
 where rᵢⱼ = rⱼ - rᵢ, nᵢⱼ = rᵢⱼ/|rᵢⱼ|, and the retardation time delay |rᵢⱼ|/c captures finite speed of gravity
 propagation.
+**Advanced Theory**: The retarded gravitational dynamics implemented here provide the computational foundation for 
+the revolutionary quantum gravity theory presented in [Quantum Gravity via Retarded Field Theory]({% post_url scifi/2025-07-08-quantum-gravity-paper %}), 
+which demonstrates how these same retarded field interactions in flat spacetime could resolve the fundamental 
+incompatibility between general relativity and quantum mechanics.
 
 #### 2.1.1 Geodesic Path Integration
 
@@ -925,28 +934,6 @@ We invite the global space community to join us in building the future of orbita
 learning the basics, a researcher pushing theoretical boundaries, or an engineer designing the next generation of space
 missions, OODP provides the tools and community to accelerate your work. Together, we can establish OODP as the de facto
 standard for space mission design and unlock new possibilities in humanity's expansion into the solar system.
-
-**Get Started Today:**
-
-* Website: https://oodp.space
-* Documentation: https://docs.oodp.space
-* GitHub: https://github.com/oodp/oodp
-* Forum: https://discourse.oodp.space
-
-*"The best way to predict the future is to implement it."* - OODP Community Motto
-
-## Acknowledgments
-
-The Open Orbital Dynamics Platform is being developed as an independent research project. Future acknowledgments will
-recognize:
-
-* Early adopters and contributors who help shape the platform
-* Academic institutions that provide testing and validation
-* The broader orbital mechanics community whose decades of work provide the foundation
-* Open-source projects that inspire OODP's architecture and philosophy
-
-Development is currently self-funded with plans to seek grant support and cloud computing credits as the project
-matures.
 
 ## References
 
