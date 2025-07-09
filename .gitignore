@@ -22,3 +22,5 @@ _site/
 .env
 .env.local
 personal/
+.logs/
+*.log
