@@ -14,7 +14,7 @@ cross-synthesis connections, and conceptual threads
       </h3>
       {% assign parent = site.documents | where: "path", current_doc.parent_document | first %}
       {% if parent %}
-        <a href="{{ parent.url | relative_url }}" class="relationship-link parent-link">
+        <a href="{{ parent.url | relative_url }}" class="relationship-link parent-link touch-target">
           <span class="link-title">{{ parent.title }}</span>
           <span class="link-meta">{{ parent.category }}</span>
         </a>
@@ -33,7 +33,7 @@ cross-synthesis connections, and conceptual threads
           {% assign child = site.documents | where: "path", child_path | first %}
           {% if child %}
             <li class="relationship-item">
-              <a href="{{ child.url | relative_url }}" class="relationship-link child-link">
+              <a href="{{ child.url | relative_url }}" class="relationship-link child-link touch-target">
                 <span class="link-title">{{ child.title }}</span>
                 <span class="link-meta">
                   {{ child.subcategory | default: child.category }}
@@ -60,7 +60,7 @@ cross-synthesis connections, and conceptual threads
           {% assign related = site.documents | where: "path", related_path | first %}
           {% if related %}
             <li class="relationship-item">
-              <a href="{{ related.url | relative_url }}" class="relationship-link related-link">
+              <a href="{{ related.url | relative_url }}" class="relationship-link related-link touch-target">
                 <span class="link-title">{{ related.title }}</span>
                 <span class="link-meta">
                   {{ related.difficulty_level }}

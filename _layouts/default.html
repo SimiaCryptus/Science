@@ -8,8 +8,10 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <base href="{{ site.url }}{{ site.baseurl }}/">
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ page.description | default: site.description }}">
+  
+  <!-- SEO Meta Tags -->
+  {% include seo_head.html %}
+  
   <link rel="preload" href="{{ site.baseurl }}/assets/css/critical.css" as="style">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
   <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico">
@@ -20,7 +22,6 @@
  <link rel="manifest" href="{{ site.baseurl }}/site.webmanifest">
  <meta name="theme-color" content="#818cf8">
   {% feed_meta %}
-  {% seo %}
 </head>
 <body>
   <!-- Floating Particles -->
@@ -32,6 +33,9 @@
     {{ content }}
   </main>
   {% include footer.html %}
+  <!-- Touch Interactions -->
+  {% include touch_interactions.html %}
+  
   <!-- Back to Top Button -->
   <div class="back-to-top" id="backToTop">↑</div>
   

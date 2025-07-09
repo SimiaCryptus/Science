@@ -78,10 +78,10 @@ layout: default
       <h2>Documents in {{ page.title }} ({{ category_docs.size }})</h2>
       <div class="posts-grid">
         {% for doc in category_docs %}
-        <article class="post-card">
+        <article class="post-card document-card swipeable">
           <header class="post-card-header">
             <h3 class="post-card-title">
-              <a href="{{ doc.url | relative_url }}">{{ doc.title }}</a>
+              <a href="{{ doc.url | relative_url }}" class="touch-target">{{ doc.title }}</a>
             </h3>
             <div class="post-card-meta">
               {% if doc.date %}
@@ -108,7 +108,7 @@ layout: default
           {% if doc.tags and doc.tags.size > 0 %}
           <div class="post-card-tags">
             {% for tag in doc.tags limit: 5 %}
-            <span class="tag">{{ tag }}</span>
+            <span class="tag touch-target">{{ tag }}</span>
             {% endfor %}
           </div>
           {% endif %}
@@ -116,6 +116,15 @@ layout: default
           <div class="reading-order">
             <span class="reading-order-label">Reading Order: {{ doc.reading_order }}</span>
           </div>
+          {% endif %}
+          <!-- Hidden related document links for swipe navigation -->
+          {% if doc.related_documents %}
+            {% for related_path in doc.related_documents limit: 1 %}
+              {% assign related = site.documents | where: "path", related_path | first %}
+              {% if related %}
+                <a href="{{ related.url | relative_url }}" data-related-doc style="display: none;">{{ related.title }}</a>
+              {% endif %}
+            {% endfor %}
           {% endif %}
         </article>
         {% endfor %}

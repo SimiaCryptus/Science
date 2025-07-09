@@ -4,14 +4,14 @@
     {% if site.tagline %}<p class="site-tagline">{{ site.tagline }}</p>{% endif %}
     <nav class="site-nav">
 
-        <a href="{{ '/human.html' | relative_url }}">Human</a>
-        <a href="{{ '/projects.html' | relative_url }}">Projects</a>
-        <a href="{{ '/learning.html' | relative_url }}">Learning</a>
-        <a href="{{ '/scifi.html' | relative_url }}">Physics</a>
-        <a href="{{ '/social.html' | relative_url }}">Social</a>
-        <a href="{{ '/phenomenology.html' | relative_url }}">Phenomenology</a>
-        <a href="{{ '/consciousness.html' | relative_url }}">Consciousness</a>
-        <a href="{{ '/creative_writing.html' | relative_url }}">Creative</a>
+        <a href="{{ '/human.html' | relative_url }}" class="touch-target">Human</a>
+        <a href="{{ '/projects.html' | relative_url }}" class="touch-target">Projects</a>
+        <a href="{{ '/learning.html' | relative_url }}" class="touch-target">Learning</a>
+        <a href="{{ '/scifi.html' | relative_url }}" class="touch-target">Physics</a>
+        <a href="{{ '/social.html' | relative_url }}" class="touch-target">Social</a>
+        <a href="{{ '/phenomenology.html' | relative_url }}" class="touch-target">Phenomenology</a>
+        <a href="{{ '/consciousness.html' | relative_url }}" class="touch-target">Consciousness</a>
+        <a href="{{ '/creative_writing.html' | relative_url }}" class="touch-target">Creative</a>
     </nav>
   </div>
 </div>
@@ -32,7 +32,7 @@
   // Apply theme on page load
   document.addEventListener('DOMContentLoaded', function() {
     // Get saved theme or default to 'darkMode'
-    const savedTheme = localStorage.getItem('siteTheme') || 'randomMix';
+    const savedTheme = localStorage.getItem('siteTheme') || 'darkMode';
     
   // Linear Model for Theme Color Generation
   class ThemeLinearModel {
