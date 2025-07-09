@@ -1,0 +1,153 @@
+<!-- Enhanced Image Component -->
+{% assign image_path = include.src | default: include.path %}
+{% assign image_alt = include.alt | default: include.title | default: "Image" %}
+{% assign image_title = include.title | default: include.caption %}
+{% assign image_class = include.class | default: "" %}
+{% assign image_loading = include.loading | default: "lazy" %}
+{% assign image_sizes = include.sizes | default: "(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px" %}
+<figure class="enhanced-image {{ include.figure_class }}"
+        {% if include.id %}id="{{ include.id }}"{% endif %}>
+  {% if include.link %}
+    <a href="{{ include.link }}"
+       class="image-link"
+       {% if include.link_target %}target="{{ include.link_target }}"{% endif %}
+       {% if include.link_rel %}rel="{{ include.link_rel }}"{% endif %}>
+  {% endif %}
+  <div class="image-container {{ image_class }}">
+    {% if include.responsive and include.srcset %}
+      <img src="{{ image_path | relative_url }}"
+           srcset="{{ include.srcset }}"
+           sizes="{{ image_sizes }}"
+           alt="{{ image_alt }}"
+           {% if image_title %}title="{{ image_title }}"{% endif %}
+           loading="{{ image_loading }}"
+           class="responsive-image"
+           {% if include.width %}width="{{ include.width }}"{% endif %}
+           {% if include.height %}height="{{ include.height }}"{% endif %}>
+    {% else %}
+      <img src="{{ image_path | relative_url }}"
+           alt="{{ image_alt }}"
+           {% if image_title %}title="{{ image_title }}"{% endif %}
+           loading="{{ image_loading }}"
+           class="standard-image"
+           {% if include.width %}width="{{ include.width }}"{% endif %}
+           {% if include.height %}height="{{ include.height }}"{% endif %}>
+    {% endif %}
+    {% if include.overlay %}
+      <div class="image-overlay">
+        {{ include.overlay }}
+      </div>
+    {% endif %}
+    {% if include.zoom %}
+      <button class="image-zoom-btn" aria-label="Zoom image">🔍</button>
+    {% endif %}
+  </div>
+  {% if include.link %}
+    </a>
+  {% endif %}
+  {% if include.caption %}
+    <figcaption class="image-caption">
+      {{ include.caption | markdownify }}
+    </figcaption>
+  {% endif %}
+</figure>
+<style>
+.enhanced-image {
+  margin: 2rem 0;
+  text-align: center;
+  position: relative;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  border: 2px solid var(--primary-color, #818cf8);
+  border-radius: var(--border-radius, 8px);
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+.image-container:hover {
+  box-shadow: 0 0 var(--glow-medium, 15px) var(--primary-color, #818cf8);
+  transform: translateY(-2px);
+}
+.responsive-image,
+.standard-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+.image-container:hover .responsive-image,
+.image-container:hover .standard-image {
+  transform: scale(1.02);
+}
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  padding: 1rem;
+  text-align: center;
+}
+.image-container:hover .image-overlay {
+  opacity: 1;
+}
+.image-zoom-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.image-container:hover .image-zoom-btn {
+  opacity: 1;
+}
+.image-zoom-btn:hover {
+  background: var(--primary-color, #818cf8);
+}
+.image-caption {
+  margin-top: 1rem;
+  font-style: italic;
+  color: var(--tertiary-color, #9ca3af);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+.image-caption p {
+  margin: 0;
+}
+.image-link {
+  text-decoration: none;
+  display: inline-block;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .enhanced-image {
+    margin: 1rem 0;
+  }
+  .image-zoom-btn {
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+  }
+  .image-caption {
+    font-size: 0.8rem;
+  }
+}
+</style>

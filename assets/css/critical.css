@@ -29,7 +29,7 @@ body {
 
 .site-header {
     background: var(--bg-secondary);
-    padding: calc(1.5 * var(--spacing-unit)) 0;
+    padding: calc(.15 * var(--spacing-unit)) 0;
     text-align: center;
     border-bottom: 2px solid var(--primary-color);
 }

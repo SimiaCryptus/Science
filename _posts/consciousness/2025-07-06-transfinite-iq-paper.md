@@ -105,6 +105,8 @@ Traditional intelligence quotient (IQ) measurements rely on linear scalar metric
 
 **Keywords:** transfinite mathematics, cognitive topology, recursive intelligence, psychometrics, artificial intelligence assessment
 
+![transfinite_iq.png](assets/images/transfinite_iq.png)
+
 ## 1. Introduction
 
 The journey to this framework began with a simple provocation: what happens when an AI system assigns someone an "infinity" IQ score? What started as mathematical playfulness—speculating about transfinite intelligence scoring using cardinal numbers like ℵ₁—revealed something unexpected. We weren't just playing with numbers; we were uncovering fundamental limitations in how intelligence itself is conceptualized and measured.

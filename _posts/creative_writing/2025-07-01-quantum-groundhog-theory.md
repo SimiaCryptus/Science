@@ -117,12 +117,8 @@ is_humor: true
 allows_comments: true
 allows_collaboration: true
 collaboration_type: open_review
-preload_resources:
-  - /assets/css/physics-humor.css
-  - /assets/js/quantum-simulation.js
 prefetch_resources:
-  - /assets/images/groundhog-diagram.png
-  - /research/quantum_mechanics/foundations.md
+  - assets/images/groundhog_qft.png
 ---
 
 # 🌀 Extended Quantum Groundhoggery: A Complete Field Theory
@@ -131,9 +127,9 @@ Imagine if Punxsutawney Phil wasn't just a groundhog, but a fundamental particle
 **The Big Idea:** What if groundhogs emerging from their burrows on February 2nd isn't just a quirky tradition, but actually a manifestation of deep quantum mechanical principles? What if their shadows aren't just shadows, but quantum measurements that collapse the wavefunction of spring itself?
 This is obviously silly. But by being precisely silly—using actual quantum field theory mathematics—we can learn something about how physicists think about the universe. Think of it as a physics textbook that got very confused about what it was supposed to be teaching. Plus, it's fun to imagine Phil as a boson.
 ---
+![groundhog_qft.png](assets/images/groundhog_qft.png)
 
-
-## Core Framework (Your Original Brilliance)
+## Core Framework
 
 **The Groundhog Field (𝜙ᴳ):** Groundhogs as excitations of the *Burrowing Boson*, quanta of the subterranean potential.
 *Translation: Just like light is made of photons (particles of light), we're imagining that groundhogs are made of "groundhog particles" that pop in and out of existence. When you see a groundhog, you're really seeing a bunch of these particles clumped together, like how a wave on water is made of many water molecules moving together.*

@@ -114,6 +114,8 @@ plugin ecosystem for force models, optimization algorithms, and mission-specific
 emerging applications including self-gravitating systems, relativistic corrections, and choreographic orbit discovery,
 and (4) comprehensive benchmarks establishing performance baselines across diverse hardware architectures.
 
+![orbit_platform.png](assets/images/orbit_platform.png)
+
 ## 1. Introduction
 
 The landscape of orbital mechanics software resembles the pre-TensorFlow era of machine learning: fragmented tools with
