@@ -156,7 +156,6 @@ jekyll-archives:
     month: '/archive/:year/:month/'
 # Dynamic content settings
 dynamic_content:
-  enable_living_documents: true
   enable_relationship_tracking: true
   enable_evolution_tracking: true
   enable_collaboration_metrics: true
