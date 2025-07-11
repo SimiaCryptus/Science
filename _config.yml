@@ -5,11 +5,11 @@ github_username: acharneski
 tagline: "Where consciousness meets computation at the edge of the possible"
 description: "A Journal of Speculative Science"
 
-#baseurl: ""
-#url: "https://fractalthoughtengine.com"
+baseurl: ""
+url: "https://fractalthoughtengine.com"
 
-baseurl: "/Science"
-url: "https://simiacryptus.github.io"
+#baseurl: "/Science"
+#url: "https://simiacryptus.github.io"
 
 lang: en
 markdown: kramdown
