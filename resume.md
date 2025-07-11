@@ -63,7 +63,7 @@ What began as theoretical exploration through blogging evolved into practical fr
 
 ### Grubhub - Senior Software Engineer
 
-**Oct 2018 - July 2025 | Remote/Westerville, OH**
+**Oct 2018 - July 2025 - Remote/Westerville, OH**
 
 * **Platform Engineering**: Optimized JVM-based applications, achieving significant performance improvements through profiling and tuning
 * **Open Source Contributions**: Maintained and enhanced Apache Ranger (security) and Azkaban (workflow scheduling), contributing patches upstream
@@ -75,7 +75,7 @@ What began as theoretical exploration through blogging evolved into practical fr
 
 ### Technical Consulting
 
-**2012 - Oct 2018 | Seattle, WA**
+**2012 - Oct 2018 - Seattle, WA**
 
 **Expedia Inc**: Led cloud migration of big data infrastructure
 
