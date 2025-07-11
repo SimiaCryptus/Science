@@ -1,3 +1,6 @@
+---
+layout: null
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
@@ -60,7 +63,8 @@
 
   <!-- Collection Documents -->
   {% for collection in site.collections %}
-    {% for document in collection[1].docs %}
+   {% assign collection_name = collection.label %}
+   {% for document in collection.docs %}
       {% unless document.sitemap_exclude %}
         <url>
           <loc>{{ site.url }}{{ document.url }}</loc>

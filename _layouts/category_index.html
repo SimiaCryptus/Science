@@ -103,18 +103,13 @@ layout: default
           {% if doc.description %}
           <p class="post-card-excerpt">{{ doc.description }}</p>
           {% elsif doc.excerpt %}
-          <p class="post-card-excerpt">{{ doc.excerpt | strip_html | truncate: 150 }}</p>
+          <p class="post-card-excerpt">{{ doc.excerpt | strip_html }}</p>
           {% endif %}
           {% if doc.tags and doc.tags.size > 0 %}
           <div class="post-card-tags">
             {% for tag in doc.tags limit: 5 %}
             <span class="tag touch-target">{{ tag }}</span>
             {% endfor %}
-          </div>
-          {% endif %}
-          {% if doc.reading_order %}
-          <div class="reading-order">
-            <span class="reading-order-label">Reading Order: {{ doc.reading_order }}</span>
           </div>
           {% endif %}
           <!-- Hidden related document links for swipe navigation -->

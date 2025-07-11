@@ -8,7 +8,7 @@ date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 
 # Content classification
-category: human
+category: portfolio
 subcategory: "Machine Learning Methods"
 tags: ["Machine-Learning", "Optimization", "Robust-Statistics", "First-Person-Account", "Computational-Analysis", "Technical-Report", "Validation-Study"]
 keywords: ["regression analysis", "loss functions", "robust regression", "outlier detection", "optimization", "least squares", "huber loss", "quantile regression"]

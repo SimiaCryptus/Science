@@ -6,7 +6,7 @@ date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 
 # Content classification
-category: human
+category: portfolio
 subcategory: "Distributed Systems"
 tags: ["Distributed-Systems", "Software-Transactional-Memory", "REST", "MVCC", "Distributed-Computing", "Actor-Model", "Concurrency", "Fault-Tolerance"]
 keywords: ["distributed systems", "software transactional memory", "REST", "MVCC", "distributed computing", "HTTP protocol", "actor architecture", "ACID guarantees"]

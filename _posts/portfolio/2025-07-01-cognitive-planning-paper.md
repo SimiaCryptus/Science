@@ -9,7 +9,7 @@ date: 2025-07-01
 last_modified: 2025-07-01 12:00:00
 
 # Content classification
-category: human
+category: portfolio
 subcategory: "Cognitive Architectures"
 tags: ["Cognitive-Architecture", "AI-Consciousness", "Human-AI-Collaboration", "Philosophy-of-Mind", "Machine-Learning", "Theoretical-Framework", "Research-Paper", "Academic-Research"]
 

@@ -4,7 +4,7 @@ layout: post
 date: 2025-06-30
 last_modified: 2025-06-30 12:00:00
 # Content classification
-category: human
+category: portfolio
 subcategory: "Neural Architectures"
 tags: ["Machine-Learning", "Neural-Networks", "Computational-Analysis", "Technical-Report", "GPU-Computing", "Optimization"]
 # Content status and evolution

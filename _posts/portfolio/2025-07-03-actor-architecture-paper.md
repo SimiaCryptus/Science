@@ -8,7 +8,7 @@ last_modified: 2025-07-03 12:00:00
 last_thought_date: 2025-07-03
 
 # Content Classification
-category: human
+category: portfolio
 subcategory: "Cognitive Architectures"
 tags: 
   - "AI-Consciousness"

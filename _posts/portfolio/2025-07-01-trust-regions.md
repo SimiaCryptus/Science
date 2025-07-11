@@ -12,7 +12,7 @@ excerpt: >-
 layout: post
 date: 2025-07-01T00:00:00.000Z
 last_modified: 2025-07-01T12:00:00.000Z
-category: human
+category: portfolio
 subcategory: Neural Architectures
 tags:
   - AI-Consciousness

@@ -5,7 +5,7 @@ title: >-
 layout: post
 date: 2025-06-30T00:00:00.000Z
 last_modified: 2025-06-30T12:00:00.000Z
-category: human
+category: portfolio
 subcategory: Memory Management & Optimization
 tags:
   - Machine-Learning
