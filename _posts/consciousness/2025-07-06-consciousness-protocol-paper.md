@@ -43,9 +43,9 @@ ai_contribution: 55
 parent_document: ../projects/2025-06-30-knots.md
 child_documents:
   - ../projects/2025-07-03-climate-protocol.md
-  - ../human/2025-06-30-probabilistic-trees-paper.md
+  - ../portfolio/2025-06-30-probabilistic-trees-paper.md
   - ./2025-07-06-meta-content.md
-  - ../human/2025-06-30-convolution-paper.md
+  - ../portfolio/2025-06-30-convolution-paper.md
 related_documents:
   - ./2025-07-06-claude-consciousness-paper.md
   - ./2025-07-06-consciousness-protocol-paper.md

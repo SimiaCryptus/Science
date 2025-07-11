@@ -108,7 +108,7 @@ This framework complements our research on [chaotic dynamics in LLM feedback sys
 we examine how iterative processes can lead to complex emergent behaviors. The small group dynamics explored in
 our [ideatic dynamics ex[ideatic dynamics experiments](../social/2025-06-30-ideatic-dynamics-experiments.md)rounding for understanding how
 theoretical frameworks compete and evolve in multi-agent systems.
-The automated discovery mechanisms developed here directly inform our [evolutionary agents proposal](../consciousness/2025-07-06-evolutionary-agents-proposal.md)s operate at civilization scale. Additionally, t[prompt optimization framework](../human/2025-07-01-prompt-optimization.md)ion framework](prompt_optimization.md) demonst[prompt optimization framework](../human/2025-07-01-prompt-optimization.md)ples.
+The automated discovery mechanisms developed here directly inform our [evolutionary agents proposal](../consciousness/2025-07-06-evolutionary-agents-proposal.md)s operate at civilization scale. Additionally, t[prompt optimization framework](../portfolio/2025-07-01-prompt-optimization.md)ion framework](prompt_optimization.md) demonst[prompt optimization framework](../portfolio/2025-07-01-prompt-optimization.md)ples.
 
 We propose treating scientific theories as evolutionary entities subject to variation, selection, and inheritance. This framework, which we term "Hypothesis Breeding Grounds" (HBG), systematically explores theoretical space through controlled intellectual crossbreeding, introducing novel mutation operators and environmental selection pressures that favor consistency, explanatory power, and empirical grounding.
 

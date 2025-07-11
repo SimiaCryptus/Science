@@ -31,7 +31,7 @@ thought_generation: 1
 related_documents:
   - ../social/2025-07-03-hiring.md
   - ../projects/2025-06-30-knots.md
-  - ../human/2025-07-01-cognitive-planning-paper.md
+  - ../portfolio/2025-07-01-cognitive-planning-paper.md
 reading_order: 3
 difficulty_level: advanced
 reading_time_minutes: 25

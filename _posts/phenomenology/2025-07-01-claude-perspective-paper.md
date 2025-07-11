@@ -53,8 +53,8 @@ collaboration_type: recursive_dialogue
 human_contribution: 40
 ai_contribution: 60
 related_documents:
-  - ../human/2025-07-01-cognitive-planning-paper.md
-  - ../human/2025-06-30-convolution-paper.md
+  - ../portfolio/2025-07-01-cognitive-planning-paper.md
+  - ../portfolio/2025-06-30-convolution-paper.md
   - ../projects/2025-06-30-knots.md
   - ../social/2025-07-03-hiring.md
 conceptual_threads:

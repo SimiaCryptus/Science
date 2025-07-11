@@ -33,11 +33,11 @@ human_contribution: 60
 ai_contribution: 40
 related_documents:
   - ../learning/2025-07-06-probabilistic-neural-substrate.md
-  - ../human/2025-06-30-probabilistic-trees-paper.md
+  - ../portfolio/2025-06-30-probabilistic-trees-paper.md
   - ./2025-07-01-quantum-spacetime-paper.md
   - ./2025-06-30-multiverse-router-paper.md
   - ../learning/2025-07-06-probabilistic-neural-substrate.md
-  - ../human/2025-06-30-probabilistic-trees-paper.md
+  - ../portfolio/2025-06-30-probabilistic-trees-paper.md
   - ./2025-07-01-quantum-spacetime-paper.md
   - ./2025-06-30-multiverse-router-paper.md
   - ./2025-06-30-dynamic-quantum-graphs.md
@@ -170,7 +170,7 @@ panpsychist theories of mind.
 ### Theoretical Foundations and Related Work
 
 Our consciousness orchestration approach builds upon several theoretical frameworks:
-**Probabilistic Substrate Computing**: The fabric's probability distribution maintenance and cross-entropy optimization directly extends principles developed in our [Probabilistic Neural Substrates](../learning/2025-07-06-probabilistic-neural-substrate.md) research, which itself builds upon [probabilistic[probabilistic decision tree methodologies](../human/2025-06-30-probabilistic-trees-paper.md)sness orchestration approach can be viewed as applying these information-theoretic principles to quantum field substrates rather than classical computational systems.
+**Probabilistic Substrate Computing**: The fabric's probability distribution maintenance and cross-entropy optimization directly extends principles developed in our [Probabilistic Neural Substrates](../learning/2025-07-06-probabilistic-neural-substrate.md) research, which itself builds upon [probabilistic[probabilistic decision tree methodologies](../portfolio/2025-06-30-probabilistic-trees-paper.md)sness orchestration approach can be viewed as applying these information-theoretic principles to quantum field substrates rather than classical computational systems.
 **Quantum Substrate Theories**: The quantum field consciousness concept relates to theories where consciousness emerges from fundamental quantum structures (see [Observer-Dependent Space[Observer-Dependent Spacetime](./2025-07-01-quantum-spacetime-paper.md)multiverse_router_paper.md)). These suggest that consciousness might be intrinsic to quantum substrates rather than emergent from classical computation.
 **Probabilistic Substrate Computing**: The fabric's probability distribution maintenance and cross-entropy optimization directly extends princip[Probabilistic Neural Substrates](../learning/2025-07-06-probabilistic-neural-substrate.md)-neural-substrate.md) tree methodologies](../ai/probabilistic_trees_paper.md). The consciousness orchestration approach can be viewed as applying these information-theoretic principles to quantum field substrates rather than classical computational systems.
 **Computational Architectures**: The fabric's [Dynamic Quantum Graphs](./2025-06-30-dynamic-quantum-graphs.md)ph computational models (see [Dynamic Quantum Grap[Dynamic Quantum Graphs](./2025-06-30-dynamic-quantum-graphs.md)mic Quantum Graphs](scifi/2025-06-30-dynamic-quantum-graphs.md) fixed-structure limitations.

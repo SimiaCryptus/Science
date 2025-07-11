@@ -33,14 +33,14 @@ collaboration_type: framework_development
 human_contribution: 70
 ai_contribution: 30
 related_documents:
-  - ../human/2025-06-30-ngram-paper.md
+  - ../portfolio/2025-06-30-ngram-paper.md
   - ../learning/2025-06-30-compression-classification-paper.md
-  - ../human/2025-06-30-probabilistic-trees-paper.md
+  - ../portfolio/2025-06-30-probabilistic-trees-paper.md
   - ../learning/2025-07-06-probabilistic-neural-substrate.md
   - ./2025-06-30-volumetric-density-tree-proposal.md
 cross_synthesis_with:
   - ../learning/2025-06-30-compression-classification-paper.md
-  - ../human/2025-06-30-ngram-paper.md
+  - ../portfolio/2025-06-30-ngram-paper.md
 conceptual_threads:
   - information_theory
   - data_structures
@@ -135,13 +135,13 @@ We propose a novel tree-based data structure that integrates optimal coding theo
 
 Current approaches to string processing face a fundamental trade-off: data structures optimized for fast access (such as suffix arrays) consume significant space, while compressed representations sacrifice query performance. The Burrows-Wheeler Transform reveals rich permutation structures within strings, but these structures are typically exploited only for compression, not for creating efficient queryable representations.
 
-This work builds on insights from our research on [hierarchical n-gram compression](../human/2025-06-30-ngram-paper.md), where we
+This work builds on insights from our research on [hierarchical n-gram compression](../portfolio/2025-06-30-ngram-paper.md), where we
 demonstrated how entropy-based organization can dramatically reduce storage requirements. We extend these principles to
 more general string processing tasks. The permutation-aware approach connects to our work
 on [compressio[compression-based classification](../learning/2025-06-30-compression-classification-paper.md) permutation structures serve
 as both compression mechanisms and classification features.
 The entropy-optimized tree organization principles developed here share theoretical foundations with our 
-[Probabilistic Decisio[Probabilistic Decision Trees](../human/2025-06-30-probabilistic-trees-paper.md)ied to discrete string 
+[Probabilistic Decisio[Probabilistic Decision Trees](../portfolio/2025-06-30-probabilistic-trees-paper.md)ied to discrete string 
 processing rather than continuous probability modeling. The dynamic structural optimization also relates to our 
 [Probabilistic Neural Substrates][Probabilistic Neural Substrates](../learning/2025-07-06-probabilistic-neural-substrate.md)theoretic 
 principles guide adaptive network topology evolution.
@@ -337,8 +337,8 @@ The tree continuously optimizes structural parameters:
 This research has applications in:
 
 * **Text Classification**: Integration with compression-based classification systems where permutation structures
-  provide interpretable features (see [EOCT framework](../learning/2025-06-30-compression-classification-paper.md) large-scale n-gram models using simila[hierarchical compression](../human/2025-06-30-ngram-paper.md)hierarchical compression](../ai/ngram_paper.md))
-* **Dens[hierarchical compression](../human/2025-06-30-ngram-paper.md)ing approach ex[Volumetric Density Trees](./2025-06-30-volumetric-density-tree-proposal.md)volumetric_density_tree_proposal.md)
+  provide interpretable features (see [EOCT framework](../learning/2025-06-30-compression-classification-paper.md) large-scale n-gram models using simila[hierarchical compression](../portfolio/2025-06-30-ngram-paper.md)hierarchical compression](../ai/ngram_paper.md))
+* **Dens[hierarchical compression](../portfolio/2025-06-30-ngram-paper.md)ing approach ex[Volumetric Density Trees](./2025-06-30-volumetric-density-tree-proposal.md)volumetric_density_tree_proposal.md)
 * **B[Volumetric Density Trees](./2025-06-30-volumetric-density-tree-proposal.md)widely used but lacks efficient queryable structures
 
 ## 10. Resources Required

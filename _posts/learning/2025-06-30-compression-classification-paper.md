@@ -48,8 +48,8 @@ interdisciplinary_domains:
   - Computational Biology
 related_documents:
   - ../projects/2025-06-30-bwt-tree-proposal.md
-  - ../human/2025-06-30-ngram-paper.md
-  - ../human/2025-06-30-probabilistic-trees-paper.md
+  - ../portfolio/2025-06-30-ngram-paper.md
+  - ../portfolio/2025-06-30-probabilistic-trees-paper.md
   - ./2025-07-06-probabilistic-neural-substrate.md
   - ../projects/2025-06-30-volumetric-density-tree-proposal.md
 cross_synthesis_with:
@@ -394,9 +394,9 @@ The system continuously optimizes:
 * **Tree-Based Extensions**: Integration with entropy-optimized tree structures for more efficient permutation storage
   and retrieval (see [Entropy-Optimized Permutation Trees](../projects/2025-06-30-bwt-tree-proposal.md))
 * **Hierarchical Compression**: Applying our hierarchical n-gram compression techniques to reduce model storage
-  requirements further (see [N-gram [N-gram Paper](../human/2025-06-30-ngram-paper.md)obabilistic Extensions**: The entropy-optimization principles developed here could be extended to probabilistic
+  requirements further (see [N-gram [N-gram Paper](../portfolio/2025-06-30-ngram-paper.md)obabilistic Extensions**: The entropy-optimization principles developed here could be extended to probabilistic
   classification systems that maintain uncertainty estimates throughout the decision process, as explored in our
-  [Probabilistic Decision T[Probabilistic Decision Trees](../human/2025-06-30-probabilistic-trees-paper.md)l Substrates](probabilistic_neural_substrate.md) research
+  [Probabilistic Decision T[Probabilistic Decision Trees](../portfolio/2025-06-30-probabilistic-trees-paper.md)l Substrates](probabilistic_neural_substrate.md) research
 
 ### 9.2 Practical Improvements
 
@@ -430,10 +430,10 @@ As we face increasing demands for efficient, interpretable AI systems, the integ
 [Additional references covering BWT theory, entropy optimization, and interpretable machine learning...]
 The EOCT framework opens several promising research directions:
 While EOCT provides interpretable baselines, hybrid approaches could combine compression-based features with neural 
-architectures for applications requiring [N-gram language model research](../human/2025-06-30-ngram-paper.md)he hierarchical compression techniques developed in our [N-gram language model research](../human/2025-06-30-ngram-paper.md) could 
-significantly reduce the storage r[N-gram language model research](../human/2025-06-30-ngram-paper.md)sed in EOCT, enabling deployment 
-on resource-const[Probabilistic Decision Trees](../human/2025-06-30-probabilistic-trees-paper.md)so connect to our work on 
-[Probabilistic Decision Trees](../human/2025-06-30-probabilistic-trees-paper.md), where cross-entropy optimization provides unc[Probabilistic Decision Trees](../human/2025-06-30-probabilistic-trees-paper.md)e estimates.
+architectures for applications requiring [N-gram language model research](../portfolio/2025-06-30-ngram-paper.md)he hierarchical compression techniques developed in our [N-gram language model research](../portfolio/2025-06-30-ngram-paper.md) could 
+significantly reduce the storage r[N-gram language model research](../portfolio/2025-06-30-ngram-paper.md)sed in EOCT, enabling deployment 
+on resource-const[Probabilistic Decision Trees](../portfolio/2025-06-30-probabilistic-trees-paper.md)so connect to our work on 
+[Probabilistic Decision Trees](../portfolio/2025-06-30-probabilistic-trees-paper.md), where cross-entropy optimization provides unc[Probabilistic Decision Trees](../portfolio/2025-06-30-probabilistic-trees-paper.md)e estimates.
 The computational efficiency of compression-based classification makes it suitable for real-time applications where 
 interpretability and speed are both critical.
 The connection between compression efficiency and classification accuracy explored here has influenced our broa[BWT-based string processing trees](../projects/2025-06-30-bwt-tree-proposal.md) [BWT-based st[volumetric density estimation](../projects/2025-06-30-bwt-tree-proposal.md)ng processing trees](projects/2025-06-30-bwt-tree-proposal.md)

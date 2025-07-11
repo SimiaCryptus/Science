@@ -40,7 +40,7 @@ related_documents:
   - ./2025-07-06-hypothesis-breeding-grounds.md
   - ../social/2025-06-30-ideatic-dynamics-experiments.md
   - ../consciousness/2025-07-06-evolutionary-agents-proposal.md
-  - ../human/2025-07-01-prompt-optimization.md
+  - ../portfolio/2025-07-01-prompt-optimization.md
   - ../consciousness/2025-07-06-transfinite-iq-paper.md
 cross_synthesis_with:
   - ../consciousness/2025-07-06-consciousness-protocol-paper.md
@@ -285,7 +285,7 @@ Large Language Models (LLMs) deployed in iterative feedback environments exhibit
 
 The deployment of Large Language Models in iterative feedback environments has become increasingly common across domains ranging from code generation to content refinement. These systems create closed-loop dynamics where model outputs are evaluated, critiqued, or modified, with results feeding back into subsequent iterations. While typically analyzed through optimization theory, such systems exhibit complex behaviors more accurately understood through the lens of chaotic dynamics.
 
-This work builds upon our broader research program in computational epistemology and automated discovery. The evolutionary frameworks developed in our [Hypothesis Breeding Grounds](./2025-07-06-hypothesis-breeding-grounds.md) research provide theoretical foundations for understanding how ideas compete and evolve in computational systems. The [small group ideatic[small group ideatic dynamics](../social/2025-06-30-ideatic-dynamics-experiments.md)mpirical validation for multi-agent interaction patterns, while our [evolutionary agents proposal](../consciousness/2025-07-06-evolutionary-agents-proposal.md)le to civilization-[prompt optimization](../human/2025-07-01-prompt-optimization.md) optimization](prompt_optimization.md) work demonstrates[prompt optimization](../human/2025-07-01-prompt-optimization.md)ithms to LLM improvement.
+This work builds upon our broader research program in computational epistemology and automated discovery. The evolutionary frameworks developed in our [Hypothesis Breeding Grounds](./2025-07-06-hypothesis-breeding-grounds.md) research provide theoretical foundations for understanding how ideas compete and evolve in computational systems. The [small group ideatic[small group ideatic dynamics](../social/2025-06-30-ideatic-dynamics-experiments.md)mpirical validation for multi-agent interaction patterns, while our [evolutionary agents proposal](../consciousness/2025-07-06-evolutionary-agents-proposal.md)le to civilization-[prompt optimization](../portfolio/2025-07-01-prompt-optimization.md) optimization](prompt_optimization.md) work demonstrates[prompt optimization](../portfolio/2025-07-01-prompt-optimization.md)ithms to LLM improvement.
 The systematic biases and pathological attractors identified in this research have direct [transfinite intelligence assessment](../consciousness/2025-07-06-transfinite-iq-paper.md)nsfinite_iq_paper.md) framework, where [transfinite intelligence assessment](../consciousness/2025-07-06-transfinite-iq-paper.md)t transcend traditional psychometric approaches.
 
 Traditional approaches to LLM training and deployment focus on convergence to optimal solutions through gradient-based methods. However, iterative feedback systems operate in a fundamentally different regime where discrete updates, environmental feedback, and model-specific biases create nonlinear dynamics that can exhibit chaotic behavior. Understanding these dynamics is crucial for designing robust human-AI collaborative systems.

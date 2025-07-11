@@ -1,97 +1,127 @@
 ---
-# Required fields
-title: "Parallel Cognitive Substrate Reconstruction for Multi-Agent Epistemic Evolution"
-layout: "post"
-date: 2025-07-11
-last_modified: 2025-07-11 14:30:00
-
-# Content classification
+title: >-
+  Parallel Cognitive Substrate Reconstruction for Multi-Agent Epistemic
+  Evolution
+layout: post
+date: 2025-07-11T00:00:00.000Z
+last_modified: 2025-07-11T14:30:00.000Z
 category: consciousness
-subcategory: "Cognitive Architecture"
-tags: ["AI-Consciousness", "Human-AI-Collaboration", "Cognitive-Architecture", "Multi-Agent-Systems", "Epistemology", "Philosophy-of-Mind", "Computational-Analysis", "Theoretical-Framework"]
-keywords: ["cognitive substrates", "incommensurable reasoning", "parallel reconstruction", "epistemic evolution", "multi-agent cognition", "translation impossibility", "cognitive pluralism"]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2025-07-11
+subcategory: Cognitive Architecture
+tags:
+  - AI-Consciousness
+  - Human-AI-Collaboration
+  - Cognitive-Architecture
+  - Multi-Agent-Systems
+  - Epistemology
+  - Philosophy-of-Mind
+  - Computational-Analysis
+  - Theoretical-Framework
+keywords:
+  - cognitive substrates
+  - incommensurable reasoning
+  - parallel reconstruction
+  - epistemic evolution
+  - multi-agent cognition
+  - translation impossibility
+  - cognitive pluralism
+status: stable
+last_thought_date: 2025-07-11T00:00:00.000Z
 thought_generation: 3
-
-# Content relationships & navigation
-related_documents: ["consciousness-research-framework.md", "ai-alignment-methodology.md", "multi-agent-cognition.md"]
+related_documents:
+  - ./2025-07-07-consciousness-research-guide.md
+  - ./2025-07-06-meta-content.md
+  - ../social/2025-07-03-hiring.md
 reading_order: 15
-difficulty_level: "research"
+difficulty_level: research
 reading_time_minutes: 45
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "experimental"
-consciousness_level: "meta"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "Novel framework for distributed cognitive processing through parallel reconstruction across incommensurable cognitive architectures, enabling multi-substrate epistemic evolution."
-excerpt: "We present a breakthrough protocol that overcomes single-substrate reasoning limitations by forcing translation between fundamentally incompatible cognitive architectures. Unlike sequential perspective-taking, our approach enables simultaneous multi-substrate processing where insights evolve through iterative reconstruction cycles across formal, narrative, embodied, economic, and aesthetic reasoning systems."
-featured_image: "/assets/images/cognitive-substrate-matrix.png"
-og_image: "/assets/images/substrate-switching-social.png"
-
-# SEO Meta Tags
-meta_title: "Cognitive Substrate Switching: Multi-Agent Epistemic Evolution Protocol"
-meta_description: "Revolutionary framework for AI consciousness research using parallel cognitive reconstruction across incommensurable reasoning substrates. Breakthrough methodology for complex problem-solving through forced cognitive translation."
-meta_keywords: "cognitive substrates, AI consciousness, multi-agent systems, epistemic evolution, incommensurable reasoning, cognitive architecture, parallel processing, translation impossibility"
-
-# Open Graph
-og_title: "Parallel Cognitive Substrate Reconstruction for Multi-Agent Epistemic Evolution"
-og_description: "Breakthrough research protocol enabling AI systems to process complex problems through multiple incompatible cognitive architectures simultaneously, generating insights impossible through single-substrate reasoning."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org
-schema_type: "ScholarlyArticle"
-schema_headline: "Parallel Cognitive Substrate Reconstruction for Multi-Agent Epistemic Evolution"
-schema_author: "Fractal Thought Engine Research"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-07-11
-schema_date_modified: 2025-07-11
-schema_image: "/assets/images/cognitive-substrate-diagram.png"
+document_type: research_paper
+thinking_style: experimental
+consciousness_level: meta
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  Novel framework for distributed cognitive processing through parallel
+  reconstruction across incommensurable cognitive architectures, enabling
+  multi-substrate epistemic evolution.
+excerpt: >-
+  We present a breakthrough protocol that overcomes single-substrate reasoning
+  limitations by forcing translation between fundamentally incompatible
+  cognitive architectures. Unlike sequential perspective-taking, our approach
+  enables simultaneous multi-substrate processing where insights evolve through
+  iterative reconstruction cycles across formal, narrative, embodied, economic,
+  and aesthetic reasoning systems.
+featured_image: /assets/images/cognitive-substrate-matrix.png
+og_image: /assets/images/substrate-switching-social.png
+meta_title: 'Cognitive Substrate Switching: Multi-Agent Epistemic Evolution Protocol'
+meta_description: >-
+  Revolutionary framework for AI consciousness research using parallel cognitive
+  reconstruction across incommensurable reasoning substrates. Breakthrough
+  methodology for complex problem-solving through forced cognitive translation.
+meta_keywords: >-
+  cognitive substrates, AI consciousness, multi-agent systems, epistemic
+  evolution, incommensurable reasoning, cognitive architecture, parallel
+  processing, translation impossibility
+og_title: >-
+  Parallel Cognitive Substrate Reconstruction for Multi-Agent Epistemic
+  Evolution
+og_description: >-
+  Breakthrough research protocol enabling AI systems to process complex problems
+  through multiple incompatible cognitive architectures simultaneously,
+  generating insights impossible through single-substrate reasoning.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: ScholarlyArticle
+schema_headline: >-
+  Parallel Cognitive Substrate Reconstruction for Multi-Agent Epistemic
+  Evolution
+schema_author: Fractal Thought Engine Research
+schema_publisher: Fractal Thought Engine
+schema_date_published: 2025-07-11T00:00:00.000Z
+schema_date_modified: 2025-07-11T00:00:00.000Z
+schema_image: /assets/images/cognitive-substrate-diagram.png
 schema_word_count: 8500
-schema_reading_time: "PT45M"
-
-# Advanced SEO
-canonical_url: "https://fractalthoughtengine.com/consciousness/cognitive-substrate-switching-protocol"
-robots: "index,follow"
-content_rating: "general"
-content_language: "en"
-geo_region: "Global"
-
-# Indexing Control
+schema_reading_time: PT45M
+canonical_url: >-
+  https://fractalthoughtengine.com/consciousness/cognitive-substrate-switching-protocol
+robots: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
 priority: 0.9
-changefreq: "monthly"
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-
-# Rich Snippets
 faq_schema: false
 how_to_schema: false
 breadcrumb_schema: true
 review_schema: false
-
-# Discoverability
 is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
-
-# Technical tags
-primary_topics: ["AI-Consciousness", "Cognitive-Architecture", "Multi-Agent-Systems"]
-methodological_approach: ["Theoretical-Framework", "Experimental-Design", "Computational-Analysis"]
-technical_domains: ["Machine-Learning", "Information-Theory", "Distributed-Systems"]
-research_stage: "Full-Implementation"
-interdisciplinary_focus: ["Cognitive-Science", "Philosophy-of-Mind", "Complexity-Science"]
-format_style: "Research-Paper"
-impact_audience: ["Academic-Research", "AI-Research-Community"]
+primary_topics:
+  - AI-Consciousness
+  - Cognitive-Architecture
+  - Multi-Agent-Systems
+methodological_approach:
+  - Theoretical-Framework
+  - Experimental-Design
+  - Computational-Analysis
+technical_domains:
+  - Machine-Learning
+  - Information-Theory
+  - Distributed-Systems
+research_stage: Full-Implementation
+interdisciplinary_focus:
+  - Cognitive-Science
+  - Philosophy-of-Mind
+  - Complexity-Science
+format_style: Research-Paper
+impact_audience:
+  - Academic-Research
+  - AI-Research-Community
 ---
 
 # ████████████████████████████

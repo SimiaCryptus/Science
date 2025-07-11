@@ -45,7 +45,7 @@ cross_synthesis_with:
 inspired_by:
   - ../phenomenology/2025-07-03-resurrection-paper.md
   - ./2025-07-07-consciousness-mirror.md
-  - ../human/2025-07-01-prompt-optimization.md
+  - ../portfolio/2025-07-01-prompt-optimization.md
 has_inspired:
   - ./2025-07-07-consciousness-mirror.md
 conceptual_threads:

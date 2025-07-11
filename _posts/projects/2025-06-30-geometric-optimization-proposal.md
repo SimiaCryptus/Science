@@ -28,9 +28,9 @@ status: draft
 thought_generation: 1
 last_thought_date: 2025-06-30T00:00:00.000Z
 related_documents:
-  - ../human/2025-07-01-qqn-paper.md
-  - ../human/2025-07-01-recursive-subspace-paper.md
-  - ../human/2025-07-01-trust-regions.md
+  - ../portfolio/2025-07-01-qqn-paper.md
+  - ../portfolio/2025-07-01-recursive-subspace-paper.md
+  - ../portfolio/2025-07-01-trust-regions.md
 reading_order: 1
 difficulty_level: advanced
 reading_time_minutes: 45
@@ -254,7 +254,7 @@ M_anomaly = {Q : Tr(Q) = Tr(Q³) = 0, ∑hypercharges = 0}
 **Expected Structures:**
 
 *These exotic architectures could benefit from the optimization methods described
-in [QQN](../human/2025-07-01-qqn-paper.md), [RSO](../human/2025-07-01-recursive-subspace-paper.md)raint mec[Trust Regions](../human/2025-07-01-trust-regions.md)regions.md)xample: Lepton Sector
+in [QQN](../portfolio/2025-07-01-qqn-paper.md), [RSO](../portfolio/2025-07-01-recursive-subspace-paper.md)raint mec[Trust Regions](../portfolio/2025-07-01-trust-regions.md)regions.md)xample: Lepton Sector
 
 ### 4.5 Concrete Example: Neural Network Architecture Discovery
 

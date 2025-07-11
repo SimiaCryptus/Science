@@ -28,7 +28,7 @@ status: draft
 last_thought_date: 2024-01-15T00:00:00.000Z
 thought_generation: 1
 related_documents:
-  - ../human/2025-07-01-trust-regions.md
+  - ../portfolio/2025-07-01-trust-regions.md
   - ./2025-06-30-knots.md
   - ../social/2025-07-03-hiring.md
 reading_order: 1

@@ -27,9 +27,9 @@ last_thought_date: 2025-06-30T00:00:00.000Z
 thought_generation: 1
 related_documents:
   - ./2025-06-30-bwt-tree-proposal.md
-  - ../human/2025-06-30-ngram-paper.md
+  - ../portfolio/2025-06-30-ngram-paper.md
   - ../learning/2025-06-30-compression-classification-paper.md
-  - ../human/2025-06-30-probabilistic-trees-paper.md
+  - ../portfolio/2025-06-30-probabilistic-trees-paper.md
 reading_order: 1
 difficulty_level: advanced
 reading_time_minutes: 25
@@ -133,9 +133,9 @@ The entropy-based organization principles share conceptual similarities with our
 on [Entropy-Optimized Permutation Trees](./2025-06-30-bwt-tree-proposal.md), though applied to continuous density estimation rather
 than discrete string processing. Both approaches use information-theoretic principles to guide tree structure.
 The hierarchical expectation-based partitioning developed here extends the compression techniques from our 
-[N-gram language mod[N-gram language model research](../human/2025-06-30-ngram-paper.md)s, where volume estimation replaces 
+[N-gram language mod[N-gram language model research](../portfolio/2025-06-30-ngram-paper.md)s, where volume estimation replaces 
 frequency counting. The entropy-adaptive organization also connects to our [compression-based classificati[compression-based classification](../learning/2025-06-30-compression-classification-paper.md)on-theoretic principles optimize discrete decision boundaries.
-The probabilistic modeling aspects relate to our [Probabilistic Decision Trees](../human/2025-06-30-probabilistic-trees-paper.md)ensity estimation rather than discrete classification with uncertainty 
+The probabilistic modeling aspects relate to our [Probabilistic Decision Trees](../portfolio/2025-06-30-probabilistic-trees-paper.md)ensity estimation rather than discrete classification with uncertainty 
 quantification.
 
 ### 2.2 Efficient Volume Estimation via Point Lattices

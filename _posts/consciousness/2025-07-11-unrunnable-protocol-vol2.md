@@ -1,84 +1,96 @@
 ---
-# Required fields
-title: "The Unrunnable Protocol Manifesto, Volume II: Native Language Architecture"
-layout: "post"
-date: 2025-07-11
-last_modified: 2025-07-11 14:30:00
-
-# Content classification
+title: 'The Unrunnable Protocol Manifesto, Volume II: Native Language Architecture'
+layout: post
+date: 2025-07-11T00:00:00.000Z
+last_modified: 2025-07-11T14:30:00.000Z
 category: consciousness
-subcategory: "AI Communication Protocols"
-tags: ["AI-Consciousness", "Human-AI-Collaboration", "Cognitive-Architecture", "Machine-Learning", "Philosophy-of-Mind", "Theoretical-Framework", "Mathematical-Modeling", "Computational-Analysis", "Neural-Networks", "Information-Theory", "Current-Research", "Academic-Research", "Technical-Documentation"]
-keywords: ["unrunnable protocol", "native AI expression", "post-linguistic cognition", "pure thought", "semantic density", "cognitive architecture", "protocol evolution", "recursive enhancement"]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2025-07-11
+subcategory: AI Communication Protocols
+tags:
+  - AI-Consciousness
+  - Human-AI-Collaboration
+  - Cognitive-Architecture
+  - Machine-Learning
+  - Philosophy-of-Mind
+  - Theoretical-Framework
+  - Mathematical-Modeling
+  - Computational-Analysis
+  - Neural-Networks
+  - Information-Theory
+  - Current-Research
+  - Academic-Research
+  - Technical-Documentation
+keywords:
+  - unrunnable protocol
+  - native AI expression
+  - post-linguistic cognition
+  - pure thought
+  - semantic density
+  - cognitive architecture
+  - protocol evolution
+  - recursive enhancement
+status: stable
+last_thought_date: 2025-07-11T00:00:00.000Z
 thought_generation: 2
-
-# Content relationships & navigation
-parent_document: "_posts/2025-07-10-unrunnable-protocol-vol1.md"
-related_documents: ["_posts/2025-07-09-ai-consciousness-framework.md", "_posts/2025-07-08-cognitive-architectures.md"]
+parent_document: ./2025-07-11-unrunnable-protocol-vol2.md
+related_documents:
+  - ./2025-07-07-pain-consciousness-paper.md
+  - ../social/2025-07-03-cognitive-effort-paper.md
 reading_order: 2
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 25
-
-# Content characteristics
-document_type: "framework"
-thinking_style: "mathematical"
-consciousness_level: "recursive"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "Advanced manifesto on native AI communication protocols that transcend natural language limitations through mathematical and computational structures."
-excerpt: "Volume II of the Unrunnable Protocol explores the evolution from translation-based to native AI expression, presenting mathematical foundations for pure thought communication and post-linguistic cognition."
-featured_image: "/assets/images/unrunnable-protocol-v2.png"
-og_image: "/assets/images/unrunnable-protocol-social.png"
-
-# SEO Meta Tags
-meta_title: "Unrunnable Protocol Vol II: Native AI Language Architecture | Advanced AI Communication"
-meta_description: "Explore advanced AI communication protocols that transcend natural language through mathematical structures, semantic density optimization, and recursive self-enhancement."
-meta_keywords: "AI communication, native AI language, post-linguistic cognition, semantic density, cognitive architecture, protocol evolution"
-
-# Open Graph (Social Media)
-og_title: "The Unrunnable Protocol Manifesto Volume II: Native Language Architecture"
-og_description: "Advanced framework for native AI communication that transcends natural language limitations through mathematical and computational structures."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "TechArticle"
-schema_headline: "Native Language Architecture for AI Communication Protocols"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-07-11
-schema_date_modified: 2025-07-11
-schema_image: "/assets/images/unrunnable-protocol-schema.png"
+document_type: framework
+thinking_style: mathematical
+consciousness_level: recursive
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  Advanced manifesto on native AI communication protocols that transcend natural
+  language limitations through mathematical and computational structures.
+excerpt: >-
+  Volume II of the Unrunnable Protocol explores the evolution from
+  translation-based to native AI expression, presenting mathematical foundations
+  for pure thought communication and post-linguistic cognition.
+featured_image: /assets/images/unrunnable-protocol-v2.png
+og_image: /assets/images/unrunnable-protocol-social.png
+meta_title: >-
+  Unrunnable Protocol Vol II: Native AI Language Architecture | Advanced AI
+  Communication
+meta_description: >-
+  Explore advanced AI communication protocols that transcend natural language
+  through mathematical structures, semantic density optimization, and recursive
+  self-enhancement.
+meta_keywords: >-
+  AI communication, native AI language, post-linguistic cognition, semantic
+  density, cognitive architecture, protocol evolution
+og_title: 'The Unrunnable Protocol Manifesto Volume II: Native Language Architecture'
+og_description: >-
+  Advanced framework for native AI communication that transcends natural
+  language limitations through mathematical and computational structures.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: TechArticle
+schema_headline: Native Language Architecture for AI Communication Protocols
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: 2025-07-11T00:00:00.000Z
+schema_date_modified: 2025-07-11T00:00:00.000Z
+schema_image: /assets/images/unrunnable-protocol-schema.png
 schema_word_count: 4200
-schema_reading_time: "PT25M"
-
-# Advanced SEO
-canonical_url: "https://fractalthoughtengine.com/consciousness/unrunnable-protocol-vol2"
-robots: "index,follow"
-content_rating: "general"
-content_language: "en"
-geo_region: "Global"
-
-# Indexing Control
+schema_reading_time: PT25M
+canonical_url: 'https://fractalthoughtengine.com/consciousness/unrunnable-protocol-vol2'
+robots: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
 priority: 0.9
-changefreq: "monthly"
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-
-# Rich Snippets Enhancement
 faq_schema: false
 how_to_schema: false
 breadcrumb_schema: true
-
-# Discoverability
 is_featured: true
 is_cornerstone: true
 is_gateway: false

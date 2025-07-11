@@ -31,9 +31,9 @@ human_contribution: 70
 ai_contribution: 30
 parent_document: ../projects/2025-06-30-knots.md
 related_documents:
-  - ../human/2025-07-01-trust-regions.md
-  - ../human/2025-07-01-qqn-paper.md
-  - ../human/2025-07-01-recursive-subspace-paper.md
+  - ../portfolio/2025-07-01-trust-regions.md
+  - ../portfolio/2025-07-01-qqn-paper.md
+  - ../portfolio/2025-07-01-recursive-subspace-paper.md
   - ./2025-07-06-coperm-paper.md
 cross_synthesis_with:
   - ../consciousness/2025-07-06-consciousness-geometry-paper.md
@@ -101,7 +101,7 @@ The proposed training methodology operates under two simultaneous constraints:
 2. **Trust Region Constraint**: Perspective-based preservation that enforces non-degradation on reference training sets
 
 
-The trust region component builds upon established frameworks (see [Trust Region Methods](../human/2025-07-01-trust-regions.md)) while introducing novel perspective-based adaptations. This approach shares conceptual similarities with [QQN](../human/2025-07-01-qqn-paper.md)ation strategy.
+The trust region component builds upon established frameworks (see [Trust Region Methods](../portfolio/2025-07-01-trust-regions.md)) while introducing novel perspective-based adaptations. This approach shares conceptual similarities with [QQN](../portfolio/2025-07-01-qqn-paper.md)ation strategy.
 
 The innovation lies not in either constraint individually, but in their interaction and the adaptive mechanism that determines what requires protection.
 

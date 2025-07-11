@@ -28,8 +28,8 @@ thought_generation: 1
 parent_document: ../projects/2025-06-30-knots.md
 child_documents: []
 related_documents:
-  - ../human/2025-07-01-recursive-subspace-paper.md
-  - ../human/2025-07-01-trust-regions.md
+  - ../portfolio/2025-07-01-recursive-subspace-paper.md
+  - ../portfolio/2025-07-01-trust-regions.md
   - ./2025-07-06-dual-constraint-training-paper.md
 reading_order: 8
 difficulty_level: advanced
@@ -156,7 +156,7 @@ where:
 
 Traditional pruning methods make local decisions about individual weights or neurons. CIPMs enable global reorganization before pruning, clustering redundant computations together for more effective removal. By permuting functionally similar neurons into contiguous blocks, structured pruning becomes more principled and can achieve higher compression ratios.
 This approach complements optimization methods that preserve network structure, such
-as [Trust Region Methods](../human/2025-07-01-trust-regions.md) which maintain parameter constraints during training.
+as [Trust Region Methods](../portfolio/2025-07-01-trust-regions.md) which maintain parameter constraints during training.
 *For complementary approaches to network compression through optimization constraints,
 see [Trust Region Methods](../trust_regions.md#orthonormalconstraint)
 and [Dual-Constraint Training](../dual_constraint_training_paper.md#adaptive-data-classification).*

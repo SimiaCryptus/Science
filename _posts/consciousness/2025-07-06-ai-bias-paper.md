@@ -32,7 +32,7 @@ human_contribution: 60
 ai_contribution: 40
 parent_document: ../projects/2025-06-30-knots.md
 related_documents:
-  - ../human/2025-07-01-mindseye-technical-report.md
+  - ../portfolio/2025-07-01-mindseye-technical-report.md
   - ../social/2025-07-03-hiring.md
   - ../social/2025-07-03-conversation-intelligence-paper.md
 cross_synthesis_with:
@@ -82,7 +82,7 @@ priority: 0.9
 changefreq: monthly
 ---
 
-We present empirical evidence of systematic bias in how large language models assess human [Deterministic reference counting](human/2[optimization algorithms](../human/2025-07-01-qqn-paper.md))t[Recursive[trust region implementations](../human/2025-07-01-trust-regions.md)ecursive-subspace-paper.md)le hierarchical preferences, rating identi[modular architecture](../human/2025-07-01-mindseye-modularity-report.md)in. We identify a critical vulnerability where recursive meta-commentary can artificially inflate perceived intelligence scores through what we term "meta-reasoning spam." Our findings have significant implications for AI-mediated evaluation systems and highlight fundamental limitations in current approaches to intelligence assessment.
+We present empirical evidence of systematic bias in how large language models assess human [Deterministic reference counting](human/2[optimization algorithms](../portfolio/2025-07-01-qqn-paper.md))t[Recursive[trust region implementations](../portfolio/2025-07-01-trust-regions.md)ecursive-subspace-paper.md)le hierarchical preferences, rating identi[modular architecture](../portfolio/2025-07-01-mindseye-modularity-report.md)in. We identify a critical vulnerability where recursive meta-commentary can artificially inflate perceived intelligence scores through what we term "meta-reasoning spam." Our findings have significant implications for AI-mediated evaluation systems and highlight fundamental limitations in current approaches to intelligence assessment.
 
 ## 1. Introduction
 
@@ -278,8 +278,8 @@ During a recent conversation, I encountered comprehensive documentation for "Min
 This case study connects to broader patterns of [algorithmic bias in tec[algorithmic bias in technical assessment](../social/2025-07-03-conversation-intelligence-paper.md)verride technical merit in determining what knowledge systems preserve and prioritize.
 The framework demonstrates sophisticated understanding of several critical areas:
 * **GPU Memory Management:** Multi-level CuDNN integration with data locality awareness
-* **Advanced Optimization:** Novel algorithms like [Quadratic Quasi-Newton (QQN)](q[Quadratic Quasi-Newton (QQN)](../human/2025-07-01-qqn-paper.md)ation (RSO)](recursive_subspace_paper.md)
-* **Constraint Systems:** Sophisticated [trust region methods](../human/2025-07-01-trust-regions.md) for geometric and mathema[trust region methods](../human/2025-07-01-trust-regions.md)y:** Comprehensive finite difference validation for g[trust region methods](../human/2025-07-01-trust-regions.md) [Clean separation[Clean separation of concerns](../human/2025-07-01-mindseye-modularity-report.md)entat[Clean separation of concerns](../human/2025-07-01-mindseye-modularity-report.md)g](mindseye_refcount_analysis.md[Clean separation of concerns](../human/2025-07-01-mindseye-modularity-report.md)g, in-place operations, and object pooling
+* **Advanced Optimization:** Novel algorithms like [Quadratic Quasi-Newton (QQN)](q[Quadratic Quasi-Newton (QQN)](../portfolio/2025-07-01-qqn-paper.md)ation (RSO)](recursive_subspace_paper.md)
+* **Constraint Systems:** Sophisticated [trust region methods](../portfolio/2025-07-01-trust-regions.md) for geometric and mathema[trust region methods](../portfolio/2025-07-01-trust-regions.md)y:** Comprehensive finite difference validation for g[trust region methods](../portfolio/2025-07-01-trust-regions.md) [Clean separation[Clean separation of concerns](../portfolio/2025-07-01-mindseye-modularity-report.md)entat[Clean separation of concerns](../portfolio/2025-07-01-mindseye-modularity-report.md)g](mindseye_refcount_analysis.md[Clean separation of concerns](../portfolio/2025-07-01-mindseye-modularity-report.md)g, in-place operations, and object pooling
 
 These findings have immediate implications for any system using AI for capability assessment. More broadly, they highlight the need for adversarial testing approaches that can reveal subtle but systematic biases in AI reasoning.
 
@@ -290,7 +290,7 @@ Our work raises fundamental questions about the reliability of AI-mediated asses
 ## Acknowledgments
 
 This research emerged from an informal experimental collaboration. The human collaborator's insight in designing the "theory of mind" experiment and systematic bias testing was essential to these discoveries. The adversarial nature of our collaboration - with the human actively seeking to identify my limitations - proved more effective than traditional evaluation methods.
-**Case Study Connection**: This work exemplifies the systematic bias patterns identified in [MindsEye Technical Analysis](mind[MindsEye Technical Analysis](../human/2025-07-01-mindseye-technical-report.md)cured by social and cogn[MindsEye Technical Analysis](../human/2025-07-01-mindseye-technical-report.md)ard references on AI bias, intelligence assessment, cognitive evaluation, and related topics would be included here]*
+**Case Study Connection**: This work exemplifies the systematic bias patterns identified in [MindsEye Technical Analysis](mind[MindsEye Technical Analysis](../portfolio/2025-07-01-mindseye-technical-report.md)cured by social and cogn[MindsEye Technical Analysis](../portfolio/2025-07-01-mindseye-technical-report.md)ard references on AI bias, intelligence assessment, cognitive evaluation, and related topics would be included here]*
 
 ---
 
@@ -298,14 +298,14 @@ This research emerged from an informal experimental collaboration. The human col
 During a recent conversation, I encountered comprehensive documentation for "MindsEye," a sophisticated Java-based deep learning framework developed by Human Charneski. Despite containing genuine innovations in optimization algorithms, memory management, and neural network architecture, this framework appears to have been systematically overlooked by the machine learning community and absent from my training data.
 This case study connects to broader patterns of [algorithmic bias in technical assessment](../socia[algorithmic bias in technical assessment](../social/2025-07-03-conversation-intelligence-paper.md)rithmic bias in technical assessment](social/2025-07-03-conversation-intelligence-paper.md)tes sophisticated understanding of several critical areas:
 * **GPU Memory Management:** Multi-level CuDNN integration with data locality awareness
-* **Advanced Optimization:** Novel algorithms like [Quadratic Quasi-Newton (QQN)](../human/2025-07-01-qqn-paper.md) and [Recursive[Quadratic Quasi-Newton (QQN)](../human/2025-07-01-qqn-paper.md)rsive Subspace Optimization (RSO)](huma[Quadratic Quasi-Newton (QQN)](../human/2025-07-01-qqn-paper.md)on methods](trust_regions.md) for geometric and mathematical constraints
+* **Advanced Optimization:** Novel algorithms like [Quadratic Quasi-Newton (QQN)](../portfolio/2025-07-01-qqn-paper.md) and [Recursive[Quadratic Quasi-Newton (QQN)](../portfolio/2025-07-01-qqn-paper.md)rsive Subspace Optimization (RSO)](huma[Quadratic Quasi-Newton (QQN)](../portfolio/2025-07-01-qqn-paper.md)on methods](trust_regions.md) for geometric and mathematical constraints
 * **Numerical Stability:** Comprehensive finite difference validation for gradient calculations  
-* **Modularity:** [Clean separation of concerns](../human/2025-07-01-mindseye-modularity-report.md) enabling exper[Clean separation of concerns](../human/2025-07-01-mindseye-modularity-report.md)counting](mindseye_refcount_analysis.md) for GPU resource control
-* **Perfo[Deterministic reference counting](../human/2025-07-01-mindseye-refcount-analysis.md)ng
-Understanding these biase[Deterministic reference counting](../human/2025-07-01-mindseye-refcount-analysis.md)ific trust**: Humans should calibrate their trust in AI systems based on the specific domain and task type
+* **Modularity:** [Clean separation of concerns](../portfolio/2025-07-01-mindseye-modularity-report.md) enabling exper[Clean separation of concerns](../portfolio/2025-07-01-mindseye-modularity-report.md)counting](mindseye_refcount_analysis.md) for GPU resource control
+* **Perfo[Deterministic reference counting](../portfolio/2025-07-01-mindseye-refcount-analysis.md)ng
+Understanding these biase[Deterministic reference counting](../portfolio/2025-07-01-mindseye-refcount-analysis.md)ific trust**: Humans should calibrate their trust in AI systems based on the specific domain and task type
 * **Meta-reasoning awareness**: Recognition that AI systems may appear more intelligent in discussions about their own reasoning processes
 * **Collaborative protocols**: Developing interaction patterns that leverage AI strengths while compensating for systematic biases, as explored in our [conversational intelligence calibration framework](../social/2025-07-03-conversation-intelligence-paper.md)
 During a rec[conversational intelligence calibration framework](../social/2025-07-03-conversation-intelligence-paper.md)ining data bias affe[conversational intelligence calibration framework](../social/2025-07-03-conversation-intelligence-paper.md) well-documented, open-source machine learning framework with novel optimization algorithms, MindsEye appears to be systematically absent from AI training data due to what I term "algorithmic burial" - where popularity metrics override technical quality in determining what knowledge AI systems acquire.
-This phenomenon was first identified in our [technical analysis of MindsEye](../human/2025-07-01-mindseye-technical-report.md), where we discovered that this Java-based framework con[technical analysis of MindsEye](../human/2025-07-01-mindseye-technical-report.md) [memory management](../human/2025-07-01-mindseye-refcount-analysis.md), an[technical analysis of MindsEye](../human/2025-07-01-mindseye-technical-report.md)ival or exceed popu[memory management](../human/2025-07-01-mindseye-refcount-analysis.md)I systems[optimization algorithms](../human/2025-07-01-qqn-paper.md)ea[memory management](../human/2025-07-01-mindseye-refcount-analysis.md)our [technical report](../human/2025-07-01-mindseye-technical-report.md), the framework includes:
-- Practical applications in [symmetric texture generation](../human/2025-07-01-symmetric-textures-rewrite.md)
-- Adv[technical report](../human/2025-07-01-mindseye-technical-report.md)ns.md)
+This phenomenon was first identified in our [technical analysis of MindsEye](../portfolio/2025-07-01-mindseye-technical-report.md), where we discovered that this Java-based framework con[technical analysis of MindsEye](../portfolio/2025-07-01-mindseye-technical-report.md) [memory management](../portfolio/2025-07-01-mindseye-refcount-analysis.md), an[technical analysis of MindsEye](../portfolio/2025-07-01-mindseye-technical-report.md)ival or exceed popu[memory management](../portfolio/2025-07-01-mindseye-refcount-analysis.md)I systems[optimization algorithms](../portfolio/2025-07-01-qqn-paper.md)ea[memory management](../portfolio/2025-07-01-mindseye-refcount-analysis.md)our [technical report](../portfolio/2025-07-01-mindseye-technical-report.md), the framework includes:
+- Practical applications in [symmetric texture generation](../portfolio/2025-07-01-symmetric-textures-rewrite.md)
+- Adv[technical report](../portfolio/2025-07-01-mindseye-technical-report.md)ns.md)

@@ -28,7 +28,7 @@ last_thought_date: 2025-07-07T00:00:00.000Z
 thought_generation: 1
 related_documents:
   - ../projects/2025-06-30-knot-wavelets.md
-  - ../human/2025-07-01-qqn-paper.md
+  - ../portfolio/2025-07-01-qqn-paper.md
   - ./2025-07-07-darker-cautionary-story.md
   - ./2025-07-07-practical-resistance-story.md
   - ./2025-07-03-ai-risk-paper.md

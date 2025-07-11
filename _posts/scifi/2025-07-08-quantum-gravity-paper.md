@@ -1,30 +1,48 @@
 ---
-title: "Quantum Gravity via Retarded Field Theory: A Path Beyond Geometric Spacetime"
+title: 'Quantum Gravity via Retarded Field Theory: A Path Beyond Geometric Spacetime'
 layout: post
-date: 2025-07-08
-last_modified: 2025-07-08 17:10:00
+date: 2025-07-08T00:00:00.000Z
+last_modified: 2025-07-08T17:10:00.000Z
 category: scifi
-subcategory: "Theoretical Physics"
-tags: ["quantum-gravity", "physics", "spacetime", "field-theory", "speculative-fiction"]
-keywords: ["quantum gravity", "retarded fields", "flat spacetime", "field quantization", "theory of everything"]
-status: "working"
-last_thought_date: 2025-07-08
+subcategory: Theoretical Physics
+tags:
+  - quantum-gravity
+  - physics
+  - spacetime
+  - field-theory
+  - speculative-fiction
+keywords:
+  - quantum gravity
+  - retarded fields
+  - flat spacetime
+  - field quantization
+  - theory of everything
+status: working
+last_thought_date: 2025-07-08T00:00:00.000Z
 thought_generation: 1
-document_type: "research_paper"
-thinking_style: "mathematical"
-consciousness_level: "analytical"
-engagement_type: "contemplative"
-reader_participation: "active"
-cognitive_load: "transcendent"
-description: "Revolutionary approach to quantum gravity through retarded field interactions in flat spacetime, eliminating the need to quantize geometry"
-excerpt: "Gravity emerges from quantizable retarded field interactions in flat spacetime, resolving the fundamental incompatibility between general relativity and quantum mechanics."
-difficulty_level: "research"
+document_type: research_paper
+thinking_style: mathematical
+consciousness_level: analytical
+engagement_type: contemplative
+reader_participation: active
+cognitive_load: transcendent
+description: >-
+  Revolutionary approach to quantum gravity through retarded field interactions
+  in flat spacetime, eliminating the need to quantize geometry
+excerpt: >-
+  Gravity emerges from quantizable retarded field interactions in flat
+  spacetime, resolving the fundamental incompatibility between general
+  relativity and quantum mechanics.
+difficulty_level: research
 reading_time_minutes: 50
 is_featured: true
 is_synthesis: true
-schema_type: "ScholarlyArticle"
-meta_description: "Breakthrough quantum gravity theory using retarded field interactions in flat spacetime to unify all fundamental forces"
-related_documents: ["_posts/projects/2025-07-08-fundamental-oodp-paper.md"]
+schema_type: ScholarlyArticle
+meta_description: >-
+  Breakthrough quantum gravity theory using retarded field interactions in flat
+  spacetime to unify all fundamental forces
+related_documents:
+  - ../projects/2025-07-08-fundamental-oodp-paper.md
 ---
 
 # Quantum Gravity via Retarded Field Theory: A Path Beyond Geometric Spacetime

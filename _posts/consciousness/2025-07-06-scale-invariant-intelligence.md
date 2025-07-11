@@ -43,8 +43,8 @@ authors:
   - Human
 parent_document: ../projects/2025-06-30-knots.md
 child_documents:
-  - ../human/2025-07-01-symmetric-textures-rewrite.md
-  - ../human/2025-07-01-mindseye-technical-report.md
+  - ../portfolio/2025-07-01-symmetric-textures-rewrite.md
+  - ../portfolio/2025-07-01-mindseye-technical-report.md
 related_documents:
   - ./2025-07-06-ai-bias-paper.md
   - ../scifi/2025-07-01-quantum-spacetime-paper.md
@@ -63,7 +63,7 @@ ai_contribution: 40
 cross_synthesis_with:
   - ./2025-07-06-consciousness-geometry-paper.md
 inspired_by:
-  - ../human/2025-07-01-symmetric-textures-rewrite.md
+  - ../portfolio/2025-07-01-symmetric-textures-rewrite.md
 conceptual_threads:
   - scale_invariance
   - reality_compression
@@ -137,8 +137,8 @@ content_language: en
 
 ## A Research Discussion Paper
 **Related Work:**
-- [Symmetric Texture Generation](../human/2025-07-01-symmetric-textures-rewrite.md) - Technical implementation of geometric constraints
-- [MindsEye T[MindsEye Technical Report](../human/2025-07-01-mindseye-technical-report.md)k architecture enabling these experiments
+- [Symmetric Texture Generation](../portfolio/2025-07-01-symmetric-textures-rewrite.md) - Technical implementation of geometric constraints
+- [MindsEye T[MindsEye Technical Report](../portfolio/2025-07-01-mindseye-technical-report.md)k architecture enabling these experiments
 - [AI Bias in Intelligen[AI Bias in Intelligence Assessment](./2025-07-06-ai-bias-paper.md)affecting technical recognition
 
 ### Abstract
@@ -264,7 +264,7 @@ The fact that these systems could produce both rigorous mathematical verificatio
 
 ### References
 
-[Our symmetric texture generation work](https://simiacryptus.github.io/Scie[MindsEye technical architecture](../human/2025-07-01-mindseye-technical-report.md)/2025-07-01-mindseye-technical-report.md)/github.com/SimiaCryptus/examples.deepartist.org)
+[Our symmetric texture generation work](https://simiacryptus.github.io/Scie[MindsEye technical architecture](../portfolio/2025-07-01-mindseye-technical-report.md)/2025-07-01-mindseye-technical-report.md)/github.com/SimiaCryptus/examples.deepartist.org)
 
 ---
 

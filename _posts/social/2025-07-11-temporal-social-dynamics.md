@@ -1,82 +1,114 @@
 ---
-# Required fields
-title: "Temporal Network Dynamics in Social Systems: A Computational Framework for Distributed Cognitive Coherence"
-layout: "post"
-date: 2025-07-11
-last_modified: 2025-07-11 14:30:00
-
-# Content classification
+title: >-
+  Temporal Network Dynamics in Social Systems: A Computational Framework for
+  Distributed Cognitive Coherence
+layout: post
+date: 2025-07-11T00:00:00.000Z
+last_modified: 2025-07-11T14:30:00.000Z
 category: social
-subcategory: "Computational Sociology"
-tags: ["Social-Systems", "Distributed-Systems", "Temporal-Dynamics", "Cognitive-Architecture", "Network-Theory", "Computational-Analysis", "Systems-Science", "Information-Theory"]
-keywords: ["social networks", "temporal coherence", "distributed cognition", "echo chambers", "social movements", "institutional memory", "information propagation", "computational sociology"]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2025-07-11
+subcategory: Computational Sociology
+tags:
+  - Social-Systems
+  - Distributed-Systems
+  - Temporal-Dynamics
+  - Cognitive-Architecture
+  - Network-Theory
+  - Computational-Analysis
+  - Systems-Science
+  - Information-Theory
+keywords:
+  - social networks
+  - temporal coherence
+  - distributed cognition
+  - echo chambers
+  - social movements
+  - institutional memory
+  - information propagation
+  - computational sociology
+status: stable
+last_thought_date: 2025-07-11T00:00:00.000Z
 thought_generation: 1
-
-# Content relationships & navigation
-related_documents: ["path/to/distributed-systems-theory.md", "path/to/cognitive-architectures.md", "path/to/network-dynamics.md"]
+related_documents:
+  - ../scifi/2025-07-03-unified-field-theory.md
+  - ./2025-07-03-hiring.md
+  - ../projects/2025-06-30-knots.md
 reading_order: 3
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 45
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A unified computational framework modeling societies as distributed cognitive networks with temporal coherence challenges, explaining echo chambers, social movements, and institutional dynamics through information propagation delays."
-excerpt: "We present a mathematical framework for understanding social dynamics through distributed systems theory, modeling societies as cognitive networks facing temporal coherence challenges analogous to gravitational, neural, and computational systems."
-featured_image: "/assets/images/temporal-social-networks.png"
-
-# SEO Meta Tags
-meta_title: "Temporal Social Dynamics: Computational Framework for Distributed Cognitive Coherence"
-meta_description: "Mathematical framework modeling social systems as distributed cognitive networks with temporal delays, predicting echo chambers, social movements, and institutional behavior patterns."
-meta_keywords: "computational sociology, social networks, temporal dynamics, distributed systems, cognitive coherence, echo chambers, social movements"
-
-# Open Graph
-og_title: "Temporal Network Dynamics in Social Systems"
-og_description: "Computational framework explaining social phenomena through distributed systems theory and temporal coherence analysis"
-og_type: "article"
-og_locale: "en_US"
-
-# Schema.org
-schema_type: "ScholarlyArticle"
-schema_headline: "Temporal Network Dynamics in Social Systems: A Computational Framework"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-07-11
-schema_date_modified: 2025-07-11
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: collaborative
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A unified computational framework modeling societies as distributed cognitive
+  networks with temporal coherence challenges, explaining echo chambers, social
+  movements, and institutional dynamics through information propagation delays.
+excerpt: >-
+  We present a mathematical framework for understanding social dynamics through
+  distributed systems theory, modeling societies as cognitive networks facing
+  temporal coherence challenges analogous to gravitational, neural, and
+  computational systems.
+featured_image: /assets/images/temporal-social-networks.png
+meta_title: >-
+  Temporal Social Dynamics: Computational Framework for Distributed Cognitive
+  Coherence
+meta_description: >-
+  Mathematical framework modeling social systems as distributed cognitive
+  networks with temporal delays, predicting echo chambers, social movements, and
+  institutional behavior patterns.
+meta_keywords: >-
+  computational sociology, social networks, temporal dynamics, distributed
+  systems, cognitive coherence, echo chambers, social movements
+og_title: Temporal Network Dynamics in Social Systems
+og_description: >-
+  Computational framework explaining social phenomena through distributed
+  systems theory and temporal coherence analysis
+og_type: article
+og_locale: en_US
+schema_type: ScholarlyArticle
+schema_headline: 'Temporal Network Dynamics in Social Systems: A Computational Framework'
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: 2025-07-11T00:00:00.000Z
+schema_date_modified: 2025-07-11T00:00:00.000Z
 schema_word_count: 4200
-schema_reading_time: "PT45M"
-
-# Advanced SEO
-robots: "index,follow"
+schema_reading_time: PT45M
+robots: 'index,follow'
 priority: 0.9
-changefreq: "monthly"
-
-# Discoverability
+changefreq: monthly
 is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
-
-# Technical domain tags
-primary_topics: ["Social-Systems", "Distributed-Systems", "Computational-Analysis"]
-methodological_approach: ["Theoretical-Framework", "Mathematical-Modeling", "Cross-Synthesis"]
-technical_domains: ["Information-Theory", "Network-Theory", "Systems-Science"]
-application_domains: ["Social-Justice", "Public-Policy", "Economics"]
-research_stage: "Full-Implementation"
-interdisciplinary_tags: ["Cognitive-Science", "Complexity-Science", "Systems-Science"]
-format_style: "Research-Paper"
-temporal_scope: "Current-Research"
-impact_audience: ["Academic-Research", "Public-Policy", "Industry-Applications"]
+primary_topics:
+  - Social-Systems
+  - Distributed-Systems
+  - Computational-Analysis
+methodological_approach:
+  - Theoretical-Framework
+  - Mathematical-Modeling
+  - Cross-Synthesis
+technical_domains:
+  - Information-Theory
+  - Network-Theory
+  - Systems-Science
+application_domains:
+  - Social-Justice
+  - Public-Policy
+  - Economics
+research_stage: Full-Implementation
+interdisciplinary_tags:
+  - Cognitive-Science
+  - Complexity-Science
+  - Systems-Science
+format_style: Research-Paper
+temporal_scope: Current-Research
+impact_audience:
+  - Academic-Research
+  - Public-Policy
+  - Industry-Applications
 ---
 
 # Temporal Network Dynamics in Social Systems: A Computational Framework for Distributed Cognitive Coherence

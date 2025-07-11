@@ -39,7 +39,7 @@ related_documents:
   - ../learning/2025-07-06-llm-feedback-dynamics.md
   - ../learning/2025-07-06-hypothesis-breeding-grounds.md
   - ../consciousness/2025-07-06-evolutionary-agents-proposal.md
-  - ../human/2025-07-01-prompt-optimization.md
+  - ../portfolio/2025-07-01-prompt-optimization.md
 conceptual_threads:
   - multi_agent_dynamics
   - belief_evolution
@@ -119,7 +119,7 @@ capabilities. This paper presents a novel experimental framework for studying th
 collaborative sessions, revealing fundamental patterns in how ideas emerge, compete, combine, and evolve within small
 group settings.
 
-This experimental work provides empirical validation for the theoretical frameworks developed across our AI research program. The [LLM feedback dynamics](../learning/2025-07-06-llm-feedback-dynamics.md) research reveals how individual cognitive biases create system-level patterns, which directly informs our understanding of small group interactions. The evolutionary mechanisms described in our [Hypothesis Breeding[Hypothesis Breeding Grounds](../learning/2025-07-06-hypothesis-breeding-grounds.md)retical foundations for how ideas compete and evolve, while our [evolutionary agents proposal](../consciousness/2025-07-06-evolutionary-agents-proposal.md) might scale [prompt optimization](../human/2025-07-01-prompt-optimization.md)pt optimization](prompt_optimization.md) work demonstrates p[prompt optimization](../human/2025-07-01-prompt-optimization.md)hms that could enhan[prompt optimization](../human/2025-07-01-prompt-optimization.md)ies.
+This experimental work provides empirical validation for the theoretical frameworks developed across our AI research program. The [LLM feedback dynamics](../learning/2025-07-06-llm-feedback-dynamics.md) research reveals how individual cognitive biases create system-level patterns, which directly informs our understanding of small group interactions. The evolutionary mechanisms described in our [Hypothesis Breeding[Hypothesis Breeding Grounds](../learning/2025-07-06-hypothesis-breeding-grounds.md)retical foundations for how ideas compete and evolve, while our [evolutionary agents proposal](../consciousness/2025-07-06-evolutionary-agents-proposal.md) might scale [prompt optimization](../portfolio/2025-07-01-prompt-optimization.md)pt optimization](prompt_optimization.md) work demonstrates p[prompt optimization](../portfolio/2025-07-01-prompt-optimization.md)hms that could enhan[prompt optimization](../portfolio/2025-07-01-prompt-optimization.md)ies.
 Traditional studies of group cognition have been limited by the difficulty of controlling variables, the challenge of
 quantifying idea quality, and the inability to systematically vary participant characteristics. By incorporating AI
 agents with precisely controllable parameters alongside human participants, we can create reproducible experimental

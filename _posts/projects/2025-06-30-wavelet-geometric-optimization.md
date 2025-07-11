@@ -20,7 +20,7 @@ keywords:
 status: working
 last_thought_date: 2025-06-30T00:00:00.000Z
 thought_generation: 3
-parent_document: ../human/2025-06-30-convolution-paper.md
+parent_document: ../portfolio/2025-06-30-convolution-paper.md
 related_documents:
   - ../scifi/2025-06-30-simulation-qft-hashlife.md
   - ../scifi/2025-07-01-quantum-spacetime-paper.md

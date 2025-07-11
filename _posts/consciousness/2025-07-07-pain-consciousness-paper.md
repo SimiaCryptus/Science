@@ -30,7 +30,7 @@ collaboration_type: recursive_dialogue
 human_contribution: 20
 ai_contribution: 80
 related_documents:
-  - ../human/2025-06-30-convolution-paper.md
+  - ../portfolio/2025-06-30-convolution-paper.md
   - ./2025-07-07-consciousness-mirror.md
 conceptual_threads:
   - consciousness_geometry

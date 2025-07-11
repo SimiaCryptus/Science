@@ -32,9 +32,9 @@ last_thought_date: 2025-07-06T00:00:00.000Z
 parent_document: ../projects/2025-06-30-knots.md
 child_documents: []
 related_documents:
-  - ../human/2025-06-30-probabilistic-trees-paper.md
+  - ../portfolio/2025-06-30-probabilistic-trees-paper.md
   - ./2025-06-30-compression-classification-paper.md
-  - ../human/2025-06-30-ngram-paper.md
+  - ../portfolio/2025-06-30-ngram-paper.md
   - ../scifi/2025-06-30-neural-fabric-proposal.md
 reading_order: 12
 difficulty_level: advanced
@@ -113,25 +113,25 @@ We propose a fundamental departure from traditional neural network architectures
 
 Traditional neural networks are fundamentally constrained by their input-output paradigm: information flows forward through layers toward predetermined outputs, limiting their ability to model complex temporal dependencies, exhibit genuine memory, or provide rigorous uncertainty estimates. While recent advances in attention mechanisms and transformer architectures have partially addressed these limitations, they remain bound by the computational graph framework.
 
-We propose Probabilistic Neural Substrates (PNS) as a radical alternative: computational systems that maintain evolving probability distributions over state spaces, support arbitrary recurrent topologies, and operate through continuous belief updating rather than discrete computation. This work draws inspiration from [recent work on probabilistic decision trees with cross-entropy optimization](../human/2025-06-30-probabilistic-trees-paper.md), extending these principles to create self-organizing, interpretable intelligence substrates.
+We propose Probabilistic Neural Substrates (PNS) as a radical alternative: computational systems that maintain evolving probability distributions over state spaces, support arbitrary recurrent topologies, and operate through continuous belief updating rather than discrete computation. This work draws inspiration from [recent work on probabilistic decision trees with cross-entropy optimization](../portfolio/2025-06-30-probabilistic-trees-paper.md), extending these principles to create self-organizing, interpretable intelligence substrates.
 
 The theoretical foundations developed here also inform more speculative approaches to consciousness and computation, as explored in our [Quantum Field Co[Quantum Field Consciousness Orchestration](../scifi/2025-06-30-neural-fabric-proposal.md), which applies similar probabilistic substrate concepts to panpsychist theories of mind.
 
 The theoretical foundations developed here also inform more speculative approaches to consciousness and computation, as explored in our [Quantum Field Consciousn[Quantum Field Consciousness Orchestration](../scifi/2025-06-30-neural-fabric-proposal.md)applies similar probabilistic substrate concepts to panpsychist theories of mind.
 The interpretability mechanisms developed in our [Entropy-Optimized Text Classific[Entropy-Optimized Text Classification](./2025-06-30-compression-classification-paper.md)f how probabilistic systems can generate human-understandable explanations, informing
 the query interface design for PNS systems. Additionally, the hierarchical compression techniques from our
-[N-gram research](../human/2025-06-30-ngram-paper.md) could be crucial[N-gram research](../human/2025-06-30-ngram-paper.md)omplexity of maintaining
+[N-gram research](../portfolio/2025-06-30-ngram-paper.md) could be crucial[N-gram research](../portfolio/2025-06-30-ngram-paper.md)omplexity of maintaining
 continuous probability distributions across large substrate networks.
 
 ## 2. Theoretical Foundation
 
 ### 2.1 Core Principles
-**Cross-Entropy Optimization**: Following the probabilistic tree approach detailed in our [earlier work on [earlier work on probabilistic decision trees](../human/2025-06-30-probabilistic-trees-paper.md)erior P(S|E) distributions:
+**Cross-Entropy Optimization**: Following the probabilistic tree approach detailed in our [earlier work on [earlier work on probabilistic decision trees](../portfolio/2025-06-30-probabilistic-trees-paper.md)erior P(S|E) distributions:
 
 **Continuous Probability Maintenance**: Rather than computing outputs, PNS systems maintain joint probability distributions P(S|E) over state variables S given evidence E. The system's "computation" consists of continuously updating these distributions as new evidence arrives.
 
-This approach exten[N-gram compressi[N-gram compression work](../human/2025-06-30-ngram-paper.md)from our [N-gram compression work](../human/2025-06-30-ngram-paper.md) to contin[N-gram compression work](../human/2025-06-30-ngram-paper.md)(human/2025-06-30-ngram-paper.md)ficient representation of probability d[compression-based classification research](./2025-06-30-compression-classification-paper.md)based classification research](compression_classification_paper.md) provide a template f[compression-based classification [compression-based classification research](./2025-06-30-compression-classification-paper.md)ng processes.
-This approach extends the hierarchical expectation modeling from our [N-gram compression work](../human/2025-06-30-ngram-paper.md) to
+This approach exten[N-gram compressi[N-gram compression work](../portfolio/2025-06-30-ngram-paper.md)from our [N-gram compression work](../portfolio/2025-06-30-ngram-paper.md) to contin[N-gram compression work](../portfolio/2025-06-30-ngram-paper.md)(human/2025-06-30-ngram-paper.md)ficient representation of probability d[compression-based classification research](./2025-06-30-compression-classification-paper.md)based classification research](compression_classification_paper.md) provide a template f[compression-based classification [compression-based classification research](./2025-06-30-compression-classification-paper.md)ng processes.
+This approach extends the hierarchical expectation modeling from our [N-gram compression work](../portfolio/2025-06-30-ngram-paper.md) to
 continuous probability spaces, where structural expectations about network topology can inform efficient representation
 of probability distributions. The interpretable de[compression-based classification research](./2025-06-30-compression-classification-paper.md)pression_classification_paper.md) provide a template for how
 probabilistic substrates might generate human-understandable explanations of their reasoning processes.
@@ -254,16 +254,16 @@ Since PNS systems produce no traditional outputs, interaction occurs through que
 * **Multi-Modal Integration**: Natural handling of heterogeneous data types through joint probability modeling
 * **Text Classification with Uncertainty**: Extending the compression-based classification m[entropy-optimized text classification work](./2025-06-30-compression-classification-paper.md)cation_paper.md) to provide uncertainty estimates alongside categorical predictions
 * *[entropy-optimized text classifica[entropy-optimized text classification work](./2025-06-30-compression-classification-paper.md)archical compression research](ngram_paper.md) to create probabilistic language models that maintain uncertainty estimates at multiple temporal scales
-* **Text Clas[hierarchical compression research](../human/2025-06-30-ngram-paper.md)ssion-based classification methods from our
+* **Text Clas[hierarchical compression research](../portfolio/2025-06-30-ngram-paper.md)ssion-based classification methods from our
   [[entropy-optimized text classification work](./2025-06-30-compression-classification-paper.md)to provide uncertainty
   estimates alongside categorical predictions
 * **Hierarchical Language Modeling**: Applying the efficient n-gram storage techniques from our
-  [hierarchical comp[hierarchical compression research](../human/2025-06-30-ngram-paper.md)listic language models that maintain
+  [hierarchical comp[hierarchical compression research](../portfolio/2025-06-30-ngram-paper.md)listic language models that maintain
   uncertainty estimates at multiple temporal scales
 
 ### 5.3 Scientific Impact
 
-* **Cognitive Sci[hierarchical compression research](../human/2025-06-30-ngram-paper.md)elligence
+* **Cognitive Sci[hierarchical compression research](../portfolio/2025-06-30-ngram-paper.md)elligence
 * **Neuroscience**: Computational frameworks for studying brain dynamics
 * **Machine Learning**: Fundamental advances in probabilistic learning systems
 
@@ -371,8 +371,8 @@ This research program has the potential to establish an entirely new computation
 
 The journey from traditional neural networks to probabilistic substrates mirrors the historical progression from deterministic to quantum mechanics - a shift that revealed deeper truths about the nature of reality. Similarly, PNS systems may reveal deeper truths about the nature of intelligence itself.
 
-This research builds upon several foundational areas while introducing novel combinations of existing techniques. The entropy-based optimization principles underlying PNS topology adaptation share conceptual foundations with our earlier work on [Probabilistic Decision Trees](prob[Probabilistic Decision Trees](../human/2025-06-30-probabilistic-trees-paper.md) and posterior distributions guides tree construction. The hierarchical expectation-based encoding techniques from our [N-gra[Probabilistic Decision Trees](human/2025-06-3[N-gra[Probabilistic Decision Trees](../human/2025-06-30-probabilistic-trees-paper.md)tructure optimization connects to our [[compression-based text classification](./2025-06-30-compression-classification-paper.md)work, where compression efficiency directly correlates with classification accuracy. In PNS, similar principles guide the evolution of network connectivity patterns.
-This resear[compression-based[compression-based text classification](./2025-06-30-compression-classification-paper.md)ation principles underlying PNS topology adaptation share conceptual found[Probabilistic Decision Trees](../human/2025-06-30-probabilistic-trees-paper.md)es](probabilistic_trees_paper.md), where cross-entropy between prior and 
-posterior distributions guides tree construction. The hierarchical expectation-based encoding techn[N-gram compression research](../human/2025-06-30-ngram-paper.md)(ngram_paper.md) inform the efficient representation of dynamic network topologies.
-The information-theoretic approach to structure optimization connects to our [[compression-based text classification](../human/2025-06-30-ngram-paper.md)lates with classification accuracy. In PNS, similar principles guide 
+This research builds upon several foundational areas while introducing novel combinations of existing techniques. The entropy-based optimization principles underlying PNS topology adaptation share conceptual foundations with our earlier work on [Probabilistic Decision Trees](prob[Probabilistic Decision Trees](../portfolio/2025-06-30-probabilistic-trees-paper.md) and posterior distributions guides tree construction. The hierarchical expectation-based encoding techniques from our [N-gra[Probabilistic Decision Trees](human/2025-06-3[N-gra[Probabilistic Decision Trees](../portfolio/2025-06-30-probabilistic-trees-paper.md)tructure optimization connects to our [[compression-based text classification](./2025-06-30-compression-classification-paper.md)work, where compression efficiency directly correlates with classification accuracy. In PNS, similar principles guide the evolution of network connectivity patterns.
+This resear[compression-based[compression-based text classification](./2025-06-30-compression-classification-paper.md)ation principles underlying PNS topology adaptation share conceptual found[Probabilistic Decision Trees](../portfolio/2025-06-30-probabilistic-trees-paper.md)es](probabilistic_trees_paper.md), where cross-entropy between prior and 
+posterior distributions guides tree construction. The hierarchical expectation-based encoding techn[N-gram compression research](../portfolio/2025-06-30-ngram-paper.md)(ngram_paper.md) inform the efficient representation of dynamic network topologies.
+The information-theoretic approach to structure optimization connects to our [[compression-based text classification](../portfolio/2025-06-30-ngram-paper.md)lates with classification accuracy. In PNS, similar principles guide 
 the evolution of network connectivity patterns.
