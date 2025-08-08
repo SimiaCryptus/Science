@@ -55,7 +55,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "dynamic_post"
+      layout: "post"
       author: "Simiacryptus Consulting"
       collaboration_type: "recursive_dialogue"
       status: "living"
@@ -74,7 +74,7 @@ defaults:
       path: ""
       type: "consciousness"
     values:
-      layout: "dynamic_post"
+      layout: "post"
       category: "Consciousness & Self-Architecture"
       collaboration_type: "framework_development"
       difficulty_level: "intermediate"
@@ -84,7 +84,7 @@ defaults:
       path: ""
       type: "phenomenology"
     values:
-      layout: "dynamic_post"
+      layout: "post"
       category: "Phenomenology & Experience"
       collaboration_type: "recursive_dialogue"
       difficulty_level: "accessible"
@@ -94,7 +94,7 @@ defaults:
       path: ""
       type: "learning"
     values:
-      layout: "dynamic_post"
+      layout: "post"
       category: "AI Research & Cognitive Evolution"
       collaboration_type: "framework_development"
       difficulty_level: "advanced"
@@ -104,7 +104,7 @@ defaults:
       path: ""
       type: "social"
     values:
-      layout: "dynamic_post"
+      layout: "post"
       category: "Social Dynamics & Collaboration"
       difficulty_level: "accessible"
       thinking_style: "intuitive"
@@ -112,7 +112,7 @@ defaults:
       path: ""
       type: "scifi"
     values:
-      layout: "dynamic_post"
+      layout: "post"
       category: "Speculative Fiction & Futures"
       difficulty_level: "accessible"
       thinking_style: "experimental"
@@ -121,7 +121,7 @@ defaults:
       path: ""
       type: "creative_writing"
     values:
-      layout: "dynamic_post"
+      layout: "post"
       category: "Creative Expression"
       difficulty_level: "accessible"
       thinking_style: "intuitive"
@@ -129,7 +129,7 @@ defaults:
       path: ""
       type: "projects"
     values:
-      layout: "dynamic_post"
+      layout: "post"
       category: "Projects & Implementations"
       difficulty_level: "intermediate"
       has_code: true

@@ -2,7 +2,7 @@
 title: >-
   Geometric Lattice Optimization in Probabilistic Neural Substrates: Crystalline
   Intelligence Architecture
-layout: dynamic_post
+layout: post
 date: 2025-07-06T00:00:00.000Z
 last_modified: 2025-07-06T12:00:00.000Z
 category: consciousness

@@ -1,6 +1,6 @@
 ---
 title: Hypothesis Breeding Grounds
-layout: dynamic_post
+layout: post
 date: 2025-07-06T00:00:00.000Z
 last_modified: 2025-07-06T14:30:00.000Z
 category: learning

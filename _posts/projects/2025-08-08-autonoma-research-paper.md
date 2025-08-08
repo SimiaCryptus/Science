@@ -105,119 +105,9 @@ dns_prefetch:
   - 'https://fonts.googleapis.com'
 ---
 
-**Experimental Validation**: Comparing BCLA predictions with biological neural development data to validate the phenomenological model and identify areas for refinement
+[Play with the Interactive Demo]({{ site.baseurl }}/assets/layered_automata.html)
 
-**Molecular Rule Mapping**: Investigating how binary-encoded agent rules correspond to specific molecular guidance mechanisms in biological growth cone navigation
-
-**Activity-Dependent Plasticity**: Extending BCLA to model how electrical activity influences pathway formation, incorporating feedback between Life patterns and agent behavior
-
-**Multi-Scale Integration**: Connecting BCLA dynamics to higher-level neural phenomena such as learning, memory formation, and cognitive functions
-
-### 9.2 Computational and Theoretical Extensions
-
-**Neural Computation Theory**: Investigating whether BCLA systems exhibit universal computational capabilities analogous to biological neural networks
-
-**Information Theory**: Analyzing information capacity and transmission properties of BCLA synaptic pathway networks, comparing to biological neural information processing
-
-**Temporal Hierarchy Theory**: Developing mathematical frameworks for multi-timescale discrete systems with intrinsic temporal separation, applicable to both BCLA and biological neural systems
-
-**Network Topology Control**: Developing algorithms to guide growth cone behavior toward desired neural architectures for specific computational tasks
-
-### 9.3 Algorithmic and Implementation Improvements
-
-**Multi-Sensor Growth Cones**: Implementing more sophisticated sensory mechanisms that capture additional aspects of biological growth cone navigation while maintaining memory-free reactive design
-
-**Evolutionary Neural Development**: Using genetic algorithms to evolve optimal binary rule sets that reproduce specific aspects of biological neural development
-
-**Multi-Objective Optimization**: Balancing network connectivity, processing capability, and developmental efficiency in BCLA systems
-
-**Hierarchical Neural Architecture**: Enabling multi-scale self-organization via layered BCLA systems that model different levels of neural organization
-
-### 9.4 Hardware Implementation and Neuromorphic Applications
-
-**FPGA Neural Development**: Implementing BCLA systems on field-programmable gate arrays for high-speed modeling of neural development processes
-
-**Memristive Neural Networks**: Exploring physical substrates that support both growth cone movement and electrical activity propagation using neuromorphic hardware
-
-**Optical Neural Computing**: Investigating photonic implementations where light patterns serve as both growth cones and electrical activity, enabling high-speed neural computation
-
-**Physical Neural Substrates**: Developing materials that exhibit BCLA-like behavior for creating adaptive, self-organizing computational systems
-
-### 9.5 Applications in Neuroscience and Medicine
-
-**Neural Development Disorders**: Using BCLA to model developmental disorders and investigate how disrupted growth cone behavior leads to connectivity abnormalities
-
-**Neural Repair and Regeneration**: Applying BCLA principles to understand and potentially guide neural repair processes following injury
-
-**Drug Discovery**: Using BCLA as a platform for testing how pharmacological interventions affect neural development and connectivity
-
-**Personalized Neural Models**: Developing patient-specific BCLA models based on individual neural development patterns for precision neuroscience applications
-
-## 10. Conclusions
-
-Binary Coded Layered Autonoma represents both a novel computational architecture and a successful phenomenological model of neural membrane dynamics. By abstracting the essential features of neural development—growth cone navigation, pathway formation, and electrical activity propagation—into interacting cellular automata systems, we have created a minimal model that captures fundamental principles of neural computation.
-
-The emergence of synaptic pathway networks connecting chaotic integration nodes demonstrates that BCLA systems naturally organize into computational architectures that mirror biological neural networks. This self-organization property, combined with the system's adaptive reconfiguration capabilities and intrinsic temporal hierarchy, validates key principles of neural development and suggests new approaches for bio-inspired computing systems.
-
-A particularly significant discovery is the **intrinsic temporal separation** in BCLA systems, where synchronized stepping produces multiple characteristic timescales that parallel biological neural dynamics. This enables adaptive neural substrate computing where fast electrical processes operate on slowly evolving synaptic architectures, representing a computational implementation of neural plasticity principles.
-
-Our work demonstrates that the intersection of multi-agent growth cone modeling and constrained cellular automata evolution produces computational capabilities that parallel biological neural networks. The resulting synaptic pathway-electrical activity paradigm, enhanced by multi-sensor growth cone extensions, opens new avenues for research in neuromorphic computation, developmental neuroscience modeling, and bio-inspired information processing.
-
-The success of BCLA as a phenomenological model suggests that essential features of neural computation can emerge from surprisingly simple binary-encoded rules, providing insights into the computational principles underlying biological neural development. As we continue to explore the relationship between BCLA dynamics and biological neural phenomena, we anticipate discoveries that will further illuminate the deep connections between development, structure, and function in both artificial and biological neural systems.
-
-The biological grounding of BCLA in neural membrane dynamics positions this work at the intersection of computational neuroscience, artificial intelligence, and developmental biology, offering a new framework for understanding how complex neural capabilities emerge from simple developmental processes.
-
-## Acknowledgments
-
-We thank the cellular automata, computational neuroscience, and complex systems communities for foundational work that made this research possible. Special recognition goes to John Conway for the Game of Life and Chris Langton for Langton's ant, whose elegant systems provided the computational building blocks for modeling neural membrane dynamics. We also acknowledge the broader neuroscience community for insights into neural development that inspired this phenomenological modeling approach.
-
-## References
-
-1. Conway, J. H. (1970). The game of life. *Scientific American*, 223(4), 4.
-
-2. Langton, C. G. (1986). Studying artificial life with cellular automata. *Physica D: Nonlinear Phenomena*, 22(1-3), 120-149.
-
-3. Goodhill, G. J. (2018). *Theoretical models of neural development*. Cambridge University Press.
-
-4. Tessier-Lavigne, M., & Goodman, C. S. (1996). The molecular biology of axon guidance. *Science*, 274(5290), 1123-1133.
-
-5. Dickson, B. J. (2002). Molecular mechanisms of axon guidance. *Science*, 298(5600), 1959-1964.
-
-6. Kolodkin, A. L., & Tessier-Lavigne, M. (2011). Mechanisms and molecules of neuronal wiring: a primer. *Cold Spring Harbor Perspectives in Biology*, 3(6), a001727.
-
-7. Lowery, L. A., & Van Vactor, D. (2009). The trip of the tip: understanding the growth cone machinery. *Nature Reviews Molecular Cell Biology*, 10(5), 332-343.
-
-8. Dent, E. W., & Gertler, F. B. (2003). Cytoskeletal dynamics and transport in growth cone motility and axon guidance. *Neuron*, 40(2), 209-227.
-
-9. Vitriol, E. A., & Zheng, J. Q. (2012). Growth cone travel in space and time: the cellular ensemble of cytoskeleton, adhesion, and membrane. *Neuron*, 73(6), 1068-1081.
-
-10. Wolfram, S. (2002). *A New Kind of Science*. Wolfram Media.
-
-11. Gardner, M. (1970). Mathematical games: The fantastic combinations of John Conway's new solitaire game "life". *Scientific American*, 223(4), 120-123.
-
-12. Mitchell, M., Crutchfield, J. P., & Hraber, P. T. (1994). Evolving cellular automata to perform computations: mechanisms and impediments. *Physica D: Nonlinear Phenomena*, 75(1-3), 361-391.
-
-13. Gajardo, A., Moreira, A., & Goles, E. (2002). Complexity of Langton's ant. *Discrete Applied Mathematics*, 117(1-3), 41-50.
-
-14. Mordvintsev, A., Randazzo, E., Niklasson, E., & Levin, M. (2020). Growing neural cellular automata. *Distill*, 5(2), e23.
-
-15. Van Ooyen, A. (Ed.). (2003). *Modeling neural development*. MIT Press.
-
-16. Turrigiano, G. G., & Nelson, S. B. (2004). Homeostatic plasticity in the developing nervous system. *Nature Reviews Neuroscience*, 5(2), 97-107.
-
-17. Katz, L. C., & Shatz, C. J. (1996). Synaptic activity and the construction of cortical circuits. *Science*, 274(5290), 1133-1138.
-
-18. Hubel, D. H., & Wiesel, T. N. (1970). The period of susceptibility to the physiological effects of unilateral eye closure in kittens. *Journal of Physiology*, 206(2), 419-436.
-
-19. Sporns, O., Tononi, G., & Kötter, R. (2005). The human connectome: a structural description of the human brain. *PLoS Computational Biology*, 1(4), e42.
-
-20. Bullmore, E., & Sporns, O. (2009). Complex brain networks: graph theoretical analysis of structural and functional systems. *Nature Reviews Neuroscience*, 10(3), 186-198.
-
----
-
-*Manuscript received: [Date]. Accepted for publication: [Date].*
-
-*© 2025 Journal of Computational Neuroscience and Complex Systems. All rights reserved.*# Binary Coded Layered Autonoma: A Phenomenological Model of Neural Membrane Dynamics and Self-Assembling Computational Networks
+# Binary Coded Layered Autonoma: A Phenomenological Model of Neural Membrane Dynamics and Self-Assembling Computational Networks
 
 ## Abstract
 
@@ -246,7 +136,7 @@ This paper introduces Binary Coded Layered Autonoma (BCLA), a computational arch
 Our work makes the following contributions:
 
 1. **Phenomenological Neural Model**: We introduce the first cellular automata-based model that captures the essential dynamics of neural pathway formation and electrical signal propagation
-2. **Bio-Inspired Architecture**: We develop a computational system that abstracts neural development principles into interacting multi-agent and cellular automaton layers  
+2. **Bio-Inspired Architecture**: We develop a computational system that abstracts neural development principles into interacting multi-agent and cellular automaton layers
 3. **Wave-Waveguide-Node Paradigm**: We identify a new class of computational phenomena involving wave propagation along agent-constructed pathways that mirrors neural signal transmission
 4. **Temporal Hierarchy Demonstration**: We show how synchronized discrete systems can exhibit intrinsic multi-timescale dynamics analogous to biological neural networks
 5. **Minimal Complexity Model**: We demonstrate that essential features of neural computation can emerge from simple binary-encoded agent rules and constrained cellular automaton evolution
@@ -298,7 +188,7 @@ Multi-agent cellular automata have been applied to traffic simulation, biologica
 BCLA consists of three interacting layers that correspond to distinct aspects of neural membrane dynamics:
 
 1. **Substrate Layer**: A multi-dimensional grid representing the extracellular matrix and molecular environment through which growth cones navigate
-2. **Agent Layer**: Multiple autonomous agents representing growth cones that establish synaptic pathways following binary-encoded chemotactic rules  
+2. **Agent Layer**: Multiple autonomous agents representing growth cones that establish synaptic pathways following binary-encoded chemotactic rules
 3. **Life Layer**: Conway's Game of Life evolution representing electrical activity propagating along established neural pathways
 
 **Biological Correspondence**: This architecture directly maps to neural development where growth cones (agents) navigate through molecular environments (substrate) to establish synaptic connections, creating pathways along which electrical signals (Life patterns) subsequently propagate.
@@ -352,7 +242,7 @@ Conway's Game of Life evolution represents electrical activity propagating throu
 The system supports three coordination modes:
 
 - **Synchronized**: All agents share identical *R* and *A* vectors
-- **Independent**: Each agent has randomly generated *R_i* and *A_i* vectors  
+- **Independent**: Each agent has randomly generated *R_i* and *A_i* vectors
 - **Offset**: Agents use rotationally shifted versions of base *R* and *A* vectors
 
 ## 4. Temporal Hierarchy and Neural-Inspired Multi-Timescale Dynamics
@@ -370,7 +260,7 @@ Neural systems exhibit remarkable temporal organization where different processe
 A remarkable property of BCLA systems is their **intrinsic temporal separation** despite synchronized stepping, directly paralleling biological neural dynamics. While Life and agent updates occur at identical frequencies (1:1 stepping), their **characteristic timescales differ by orders of magnitude**:
 
 - **Electrical Activity (Life Evolution)**: Reaches stable or periodic states in 10-100 steps
-- **Pathway Modification**: Meaningful structural changes require 1000-10,000 steps  
+- **Pathway Modification**: Meaningful structural changes require 1000-10,000 steps
 - **Network Architecture**: Stable connectivity patterns emerge over 5,000+ steps
 
 **Neural Analogy**: This mirrors how action potentials (fast) propagate along synaptic architectures that evolve slowly through plasticity mechanisms, enabling adaptive computation where processing occurs on dynamically modifiable neural substrates.
@@ -434,7 +324,7 @@ While the basic BCLA architecture uses simple binary movement rules based solely
 
 **Sensor Architecture**: Agents can access multiple environmental inputs:
 - **Current Color**: c₀ - substrate color under the agent
-- **Ahead Color**: c₊₁ - substrate color in the forward direction  
+- **Ahead Color**: c₊₁ - substrate color in the forward direction
 - **Previous Color**: c₋₁ - substrate color just vacated
 - **Lateral Colors**: Colors to left and right of current position
 
@@ -482,7 +372,7 @@ We implemented BCLA using a web-based simulation environment supporting:
 **Multi-Timescale Measurements**: Despite synchronized 1:1 stepping, we observed distinct characteristic timescales:
 
 - **Life Pattern Stabilization**: 15.3 ± 4.2 steps (mean ± std)
-- **Local Substrate Changes**: 847 ± 203 steps  
+- **Local Substrate Changes**: 847 ± 203 steps
 - **Global Network Formation**: 4,832 ± 1,156 steps
 
 **Punctuated Equilibrium**: Systems exhibit long periods of stable wave dynamics (quasi-static states) interrupted by rapid topological reorganization when agents create new pathway connections.
@@ -493,7 +383,7 @@ We implemented BCLA using a web-based simulation environment supporting:
 
 **Multi-Agent Systems**: With 2-8 agents, we observe rapid network formation with distinct topological phases:
 - **Initial Exploration** (0-1000 steps): Agents explore randomly, creating scattered marked regions
-- **Path Establishment** (1000-5000 steps): Dominant pathways emerge connecting agent territories  
+- **Path Establishment** (1000-5000 steps): Dominant pathways emerge connecting agent territories
 - **Network Stabilization** (5000+ steps): Stable waveguide networks form with persistent nodal structures
 
 **Multi-Sensor Enhancements**: Agents with contextual sensing (current + ahead color) show:
@@ -551,7 +441,7 @@ BCLA systems exhibit computational properties that differ fundamentally from tra
 
 **Hierarchical Processing**: The three-layer architecture enables computation at multiple scales simultaneously:
 - Agent-level: Individual path planning and substrate modification
-- Network-level: Wave routing and node coordination  
+- Network-level: Wave routing and node coordination
 - System-level: Global pattern formation and information processing
 
 **Adaptive Bandwidth**: Waveguide width and connectivity can adjust based on computational load and agent behavior.
@@ -649,41 +539,3 @@ As we continue to explore the computational potential of BCLA systems, we antici
 ## Acknowledgments
 
 We thank the cellular automata and complex systems communities for foundational work that made this research possible. Special recognition goes to John Conway for the Game of Life and Chris Langton for Langton's ant, whose elegant systems provided the building blocks for our hybrid architecture.
-
-## References
-
-1. Conway, J. H. (1970). The game of life. *Scientific American*, 223(4), 4.
-
-2. Langton, C. G. (1986). Studying artificial life with cellular automata. *Physica D: Nonlinear Phenomena*, 22(1-3), 120-149.
-
-3. Wolfram, S. (2002). *A New Kind of Science*. Wolfram Media.
-
-4. Gardner, M. (1970). Mathematical games: The fantastic combinations of John Conway's new solitaire game "life". *Scientific American*, 223(4), 120-123.
-
-5. Mitchell, M., Crutchfield, J. P., & Hraber, P. T. (1994). Evolving cellular automata to perform computations: mechanisms and impediments. *Physica D: Nonlinear Phenomena*, 75(1-3), 361-391.
-
-6. Gajardo, A., Moreira, A., & Goles, E. (2002). Complexity of Langton's ant. *Discrete Applied Mathematics*, 117(1-3), 41-50.
-
-7. Mordvintsev, A., Randazzo, E., Niklasson, E., & Levin, M. (2020). Growing neural cellular automata. *Distill*, 5(2), e23.
-
-8. Petersen, F., Borgelt, C., Kuehne, H., & Deussen, O. (2022). Deep differentiable logic gate networks. *Advances in Neural Information Processing Systems*, 35.
-
-9. Toffoli, T., & Margolus, N. (1987). *Cellular Automata Machines: A New Environment for Modeling*. MIT Press.
-
-10. Von Neumann, J., & Burks, A. W. (1966). *Theory of self-reproducing automata*. University of Illinois Press.
-
-11. Sipper, M. (1997). *Evolution of Parallel Cellular Machines: The Cellular Programming Approach*. Springer-Verlag.
-
-12. Bandini, S., Manzoni, S., & Vizzari, G. (2009). Agent based modeling and simulation: an informatics perspective. *Journal of Artificial Societies and Social Simulation*, 12(4), 4.
-
-13. Bonabeau, E., Dorigo, M., & Theraulaz, G. (1999). *Swarm Intelligence: From Natural to Artificial Systems*. Oxford University Press.
-
-14. Camazine, S., Deneubourg, J. L., Franks, N. R., Sneyd, J., Theraula, G., & Bonabeau, E. (2001). *Self-organization in biological systems*. Princeton University Press.
-
-15. Holland, J. H. (1992). Complex adaptive systems. *Daedalus*, 121(1), 17-30.
-
----
-
-*Manuscript received: [Date]. Accepted for publication: [Date].*
-
-*© 2025 Journal of Complex Systems and Emergent Computation. All rights reserved.*

@@ -316,7 +316,7 @@ Data and code available at: [repository link]
 Preprint submitted to: Conference on Empirical Methods in Natural Language Processing*
 
 title: "Meta-Content: The Recursive Nature of AI Self-Awareness"
-layout: dynamic_post
+layout: post
 date: 2024-02-08
 last_modified: 2024-02-08 16:45:00
 # Content classification
