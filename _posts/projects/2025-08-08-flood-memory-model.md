@@ -1,77 +1,104 @@
 ---
-# Required fields
-title: "Agent-Based Model: Cultural Memory Dynamics of Flood Myths"
-layout: "post"
-date: 2024-01-15
-last_modified: 2024-01-15 14:30:00
-
-# Content classification
+title: 'Agent-Based Model: Cultural Memory Dynamics of Flood Myths'
+layout: post
+date: 2028-08-08T00:00:00.000Z
+last_modified: 2024-01-15T14:30:00.000Z
 category: projects
-subcategory: "Cultural Evolution Modeling"
-tags: ["Cultural-Evolution", "Agent-Based-Modeling", "Flood-Myths", "Cultural-Memory", "Environmental-History", "Oral-Tradition", "Institutional-Codification", "Computational-Anthropology"]
-keywords: ["flood myths", "cultural transmission", "agent-based model", "environmental catastrophe", "oral tradition", "cultural memory", "narrative evolution", "institutional codification"]
-
-# Content status and evolution
-status: "working"
-last_thought_date: 2024-01-15
+subcategory: Cultural Evolution Modeling
+tags:
+  - Cultural-Evolution
+  - Agent-Based-Modeling
+  - Flood-Myths
+  - Cultural-Memory
+  - Environmental-History
+  - Oral-Tradition
+  - Institutional-Codification
+  - Computational-Anthropology
+keywords:
+  - flood myths
+  - cultural transmission
+  - agent-based model
+  - environmental catastrophe
+  - oral tradition
+  - cultural memory
+  - narrative evolution
+  - institutional codification
+status: working
+last_thought_date: 2024-01-15T00:00:00.000Z
 thought_generation: 2
-
-# Content relationships & navigation
-related_documents: ["cultural_evolution_framework.md", "environmental_memory_systems.md", "narrative_transmission_models.md"]
+related_documents:
+  - ../portfolio/2025-06-30-convolution-paper.md
+  - ./2025-08-08-spiral-number-system.md
+  - ../portfolio/2025-07-01-trust-regions.md
 reading_order: 3
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 25
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "mathematical"
-consciousness_level: "analytical"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "Agent-based computational model simulating the emergence, propagation, and evolution of flood myths as cultural memories of Pleistocene environmental catastrophes"
-excerpt: "This research presents a comprehensive agent-based model tracking how traumatic environmental memories of late Pleistocene floods spread through populations, adapt to local conditions, and become institutionalized through written codification across four distinct historical phases."
-featured_image: "/assets/images/flood_myth_network.png"
-
-# SEO Meta Tags
-meta_title: "Agent-Based Model: Cultural Memory Dynamics of Flood Myths - Computational Anthropology Research"
-meta_description: "Comprehensive agent-based model simulating flood myth evolution from Pleistocene environmental trauma through institutional codification, exploring cultural transmission dynamics."
-meta_keywords: "agent-based modeling, cultural evolution, flood myths, environmental memory, computational anthropology, narrative transmission, cultural dynamics"
-
-# Open Graph
-og_title: "Agent-Based Model: Cultural Memory Dynamics of Flood Myths"
-og_description: "Computational model exploring how environmental catastrophe memories evolve into cultural myths across millennia"
-og_type: "article"
-og_locale: "en_US"
-
-# Schema.org
-schema_type: "ScholarlyArticle"
-schema_headline: "Agent-Based Model: Cultural Memory Dynamics of Flood Myths"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
+document_type: research_paper
+thinking_style: mathematical
+consciousness_level: analytical
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  Agent-based computational model simulating the emergence, propagation, and
+  evolution of flood myths as cultural memories of Pleistocene environmental
+  catastrophes
+excerpt: >-
+  This research presents a comprehensive agent-based model tracking how
+  traumatic environmental memories of late Pleistocene floods spread through
+  populations, adapt to local conditions, and become institutionalized through
+  written codification across four distinct historical phases.
+featured_image: /assets/images/flood_myth_network.png
+meta_title: >-
+  Agent-Based Model: Cultural Memory Dynamics of Flood Myths - Computational
+  Anthropology Research
+meta_description: >-
+  Comprehensive agent-based model simulating flood myth evolution from
+  Pleistocene environmental trauma through institutional codification, exploring
+  cultural transmission dynamics.
+meta_keywords: >-
+  agent-based modeling, cultural evolution, flood myths, environmental memory,
+  computational anthropology, narrative transmission, cultural dynamics
+og_title: 'Agent-Based Model: Cultural Memory Dynamics of Flood Myths'
+og_description: >-
+  Computational model exploring how environmental catastrophe memories evolve
+  into cultural myths across millennia
+og_type: article
+og_locale: en_US
+schema_type: ScholarlyArticle
+schema_headline: 'Agent-Based Model: Cultural Memory Dynamics of Flood Myths'
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: 2024-01-15T00:00:00.000Z
+schema_date_modified: 2024-01-15T00:00:00.000Z
 schema_word_count: 3200
-schema_reading_time: "PT25M"
-
-# Advanced SEO
-robots: "index,follow"
+schema_reading_time: PT25M
+robots: 'index,follow'
 priority: 0.8
-changefreq: "monthly"
-
-# Discoverability
+changefreq: monthly
 is_featured: true
 is_cornerstone: false
 is_gateway: false
 is_synthesis: true
-
-# Primary topic tags
-primary_tags: ["Computational-Analysis", "Mathematical-Modeling", "Cultural-Evolution", "Environmental-History"]
-methodological_tags: ["Agent-Based-Modeling", "Theoretical-Framework", "Mathematical-Modeling", "Computational-Analysis"]
-technical_tags: ["Complex-Systems", "Network-Analysis", "Simulation-Modeling"]
-application_tags: ["Anthropology", "Cultural-Studies", "Environmental-Science", "Historical-Analysis"]
+primary_tags:
+  - Computational-Analysis
+  - Mathematical-Modeling
+  - Cultural-Evolution
+  - Environmental-History
+methodological_tags:
+  - Agent-Based-Modeling
+  - Theoretical-Framework
+  - Mathematical-Modeling
+  - Computational-Analysis
+technical_tags:
+  - Complex-Systems
+  - Network-Analysis
+  - Simulation-Modeling
+application_tags:
+  - Anthropology
+  - Cultural-Studies
+  - Environmental-Science
+  - Historical-Analysis
 ---
 # Agent-Based Model: Cultural Memory Dynamics of Flood Myths
 

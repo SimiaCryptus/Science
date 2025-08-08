@@ -2,7 +2,7 @@
 # Required fields
 title: "Rigorous Culture/Religion Utility Analysis Framework"
 layout: "post"
-date: 2024-01-15
+date: 2028-08-08
 last_modified: 2024-01-15 10:30:00
 
 # Content classification

@@ -1,66 +1,77 @@
 ---
-# Required fields
-title: "Enhanced CEP-RLE: Multi-Orientation Scanning and Wavelet-Based Geometric Analysis"
-layout: "post"
-date: 2024-01-15
-last_modified: 2024-01-15 14:30:00
-
-# Content classification
+title: >-
+  Enhanced CEP-RLE: Multi-Orientation Scanning and Wavelet-Based Geometric
+  Analysis
+layout: post
+date: 2028-08-08T00:00:00.000Z
+last_modified: 2024-01-15T14:30:00.000Z
 category: projects
-subcategory: "Mathematical Frameworks"
-tags: ["Mathematical-Modeling", "Computational-Analysis", "Information-Theory", "Computer-Vision", "Optimization", "Machine-Learning"]
-keywords: ["CEP-RLE", "wavelet analysis", "geometric reconstruction", "multi-orientation scanning", "spatial compression", "run-length encoding", "topology", "mathematical framework"]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2024-01-15
+subcategory: Mathematical Frameworks
+tags:
+  - Mathematical-Modeling
+  - Computational-Analysis
+  - Information-Theory
+  - Computer-Vision
+  - Optimization
+  - Machine-Learning
+keywords:
+  - CEP-RLE
+  - wavelet analysis
+  - geometric reconstruction
+  - multi-orientation scanning
+  - spatial compression
+  - run-length encoding
+  - topology
+  - mathematical framework
+status: stable
+last_thought_date: 2024-01-15T00:00:00.000Z
 thought_generation: 1
-
-# Content relationships & navigation
-related_documents: ["_posts/ceprle_framework.md", "_posts/spatial_compression_theory.md"]
+related_documents:
+  - ./2025-06-30-knots.md
+  - ../consciousness/2025-07-06-meta-content.md
 reading_order: 3
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 25
-
-# Content characteristics
-document_type: "framework"
-thinking_style: "mathematical"
-consciousness_level: "analytical"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "Advanced mathematical framework for multi-orientation scanning and wavelet-based geometric analysis in enhanced CEP-RLE compression"
-excerpt: "Comprehensive mathematical treatment of enhanced CEP-RLE featuring multi-orientation ensemble scanning, island run topology evolution, and wavelet analysis for geometric profile characterization."
-meta_title: "Enhanced CEP-RLE Mathematical Framework - Multi-Orientation Wavelet Analysis"
-meta_description: "Advanced mathematical framework for spatial data compression using multi-orientation scanning, wavelet transforms, and geometric topology analysis in enhanced CEP-RLE systems."
-meta_keywords: "CEP-RLE, wavelet analysis, multi-orientation scanning, geometric reconstruction, spatial compression, mathematical framework"
-
-# Schema.org Structured Data
-schema_type: "TechArticle"
-schema_headline: "Enhanced CEP-RLE: Multi-Orientation Scanning and Wavelet-Based Geometric Analysis"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
+document_type: framework
+thinking_style: mathematical
+consciousness_level: analytical
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  Advanced mathematical framework for multi-orientation scanning and
+  wavelet-based geometric analysis in enhanced CEP-RLE compression
+excerpt: >-
+  Comprehensive mathematical treatment of enhanced CEP-RLE featuring
+  multi-orientation ensemble scanning, island run topology evolution, and
+  wavelet analysis for geometric profile characterization.
+meta_title: Enhanced CEP-RLE Mathematical Framework - Multi-Orientation Wavelet Analysis
+meta_description: >-
+  Advanced mathematical framework for spatial data compression using
+  multi-orientation scanning, wavelet transforms, and geometric topology
+  analysis in enhanced CEP-RLE systems.
+meta_keywords: >-
+  CEP-RLE, wavelet analysis, multi-orientation scanning, geometric
+  reconstruction, spatial compression, mathematical framework
+schema_type: TechArticle
+schema_headline: >-
+  Enhanced CEP-RLE: Multi-Orientation Scanning and Wavelet-Based Geometric
+  Analysis
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: 2024-01-15T00:00:00.000Z
+schema_date_modified: 2024-01-15T00:00:00.000Z
 schema_word_count: 2800
-schema_reading_time: "PT25M"
-
-# Search Engine Directives
-robots: "index,follow"
+schema_reading_time: PT25M
+robots: 'index,follow'
 priority: 0.8
-changefreq: "monthly"
-
-# Discoverability
+changefreq: monthly
 is_featured: false
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
-
-# Technical classification
-content_rating: "general"
-content_language: "en"
+content_rating: general
+content_language: en
 ---
 
 # Enhanced CEP-RLE: Multi-Orientation Scanning and Wavelet-Based Geometric Analysis

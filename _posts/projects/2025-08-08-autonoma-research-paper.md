@@ -1,85 +1,108 @@
 ---
-# Required fields
-title: "Binary Coded Layered Autonoma: A Phenomenological Model of Neural Membrane Dynamics and Self-Assembling Computational Networks"
-layout: "post"
-date: 2025-01-27
-last_modified: 2025-01-27 14:30:00
-
-# Content classification
+title: >-
+  Binary Coded Layered Autonoma: A Phenomenological Model of Neural Membrane
+  Dynamics and Self-Assembling Computational Networks
+layout: post
+date: 2028-08-08T00:00:00.000Z
+last_modified: 2025-01-27T14:30:00.000Z
 category: projects
-subcategory: "Computational Neuroscience"
-tags: ["AI-Consciousness", "Cognitive-Architecture", "Machine-Learning", "Neural-Networks", "Computational-Analysis", "Mathematical-Modeling", "Research-Paper", "Current-Research", "Academic-Research", "Theoretical-Framework"]
-keywords: ["cellular automata", "neural membrane dynamics", "multi-agent systems", "self-organization", "distributed computing", "phenomenological modeling", "bio-inspired computation", "growth cones", "synaptic pathways", "temporal hierarchy"]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2025-01-27
+subcategory: Computational Neuroscience
+tags:
+  - AI-Consciousness
+  - Cognitive-Architecture
+  - Machine-Learning
+  - Neural-Networks
+  - Computational-Analysis
+  - Mathematical-Modeling
+  - Research-Paper
+  - Current-Research
+  - Academic-Research
+  - Theoretical-Framework
+keywords:
+  - cellular automata
+  - neural membrane dynamics
+  - multi-agent systems
+  - self-organization
+  - distributed computing
+  - phenomenological modeling
+  - bio-inspired computation
+  - growth cones
+  - synaptic pathways
+  - temporal hierarchy
+status: stable
+last_thought_date: 2025-01-27T00:00:00.000Z
 thought_generation: 1
-
-# Document relationships
-related_documents: ["neural_development_models.md", "cellular_automata_research.md", "bio_inspired_computing.md"]
-
-# Navigation hints
+related_documents:
+  - ./2025-08-08-flood-memory-model.md
+  - ./2025-08-08-autonoma-research-paper.md
+  - ../social/2025-07-03-hiring.md
 reading_order: 1
-difficulty_level: "research"
+difficulty_level: research
 reading_time_minutes: 45
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "mathematical"
-consciousness_level: "collaborative"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A novel computational architecture combining multi-agent systems and cellular automata to model neural development and create self-organizing computational networks."
-excerpt: "Binary Coded Layered Autonoma (BCLA) introduces a biologically-inspired computational model where autonomous agents representing growth cones establish pathways for electrical activity propagation, creating emergent neural-like networks with multi-timescale dynamics."
-featured_image: "/assets/images/bcla_network_formation.png"
-
-# SEO Meta Tags
-meta_title: "BCLA: Neural-Inspired Self-Organizing Computational Networks | Fractal Thought Engine"
-meta_description: "Discover Binary Coded Layered Autonoma, a breakthrough computational architecture modeling neural development through multi-agent cellular automata systems with emergent wave phenomena."
-meta_keywords: "cellular automata, neural networks, bio-inspired computing, self-organization, computational neuroscience, multi-agent systems, phenomenological modeling"
-
-# Open Graph
-og_title: "Binary Coded Layered Autonoma: Neural-Inspired Computing Architecture"
-og_description: "Revolutionary computational model combining growth cone agents and cellular automata to create self-assembling neural networks with biological temporal dynamics."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org
-schema_type: "ScholarlyArticle"
-schema_headline: "Binary Coded Layered Autonoma: A Phenomenological Model of Neural Membrane Dynamics"
-schema_author: "Fractal Thought Engine Research Team"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-01-27
-schema_date_modified: 2025-01-27
+document_type: research_paper
+thinking_style: mathematical
+consciousness_level: collaborative
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A novel computational architecture combining multi-agent systems and cellular
+  automata to model neural development and create self-organizing computational
+  networks.
+excerpt: >-
+  Binary Coded Layered Autonoma (BCLA) introduces a biologically-inspired
+  computational model where autonomous agents representing growth cones
+  establish pathways for electrical activity propagation, creating emergent
+  neural-like networks with multi-timescale dynamics.
+featured_image: /assets/images/bcla_network_formation.png
+meta_title: >-
+  BCLA: Neural-Inspired Self-Organizing Computational Networks | Fractal Thought
+  Engine
+meta_description: >-
+  Discover Binary Coded Layered Autonoma, a breakthrough computational
+  architecture modeling neural development through multi-agent cellular automata
+  systems with emergent wave phenomena.
+meta_keywords: >-
+  cellular automata, neural networks, bio-inspired computing, self-organization,
+  computational neuroscience, multi-agent systems, phenomenological modeling
+og_title: 'Binary Coded Layered Autonoma: Neural-Inspired Computing Architecture'
+og_description: >-
+  Revolutionary computational model combining growth cone agents and cellular
+  automata to create self-assembling neural networks with biological temporal
+  dynamics.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: ScholarlyArticle
+schema_headline: >-
+  Binary Coded Layered Autonoma: A Phenomenological Model of Neural Membrane
+  Dynamics
+schema_author: Fractal Thought Engine Research Team
+schema_publisher: Fractal Thought Engine
+schema_date_published: 2025-01-27T00:00:00.000Z
+schema_date_modified: 2025-01-27T00:00:00.000Z
 schema_word_count: 12500
-schema_reading_time: "PT45M"
-
-# Advanced SEO
-robots: "index,follow"
+schema_reading_time: PT45M
+robots: 'index,follow'
 priority: 0.9
-changefreq: "monthly"
-
-# Rich Snippets
+changefreq: monthly
 faq_schema: false
 how_to_schema: false
 breadcrumb_schema: true
 review_schema: false
-
-# Discoverability
 is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
-
-# Performance
-preload_resources: ["/assets/css/research-paper.css", "/assets/js/math-renderer.js"]
-prefetch_resources: ["/assets/images/bcla_diagrams.jpg", "/related/neural-computing.html"]
-dns_prefetch: ["https://cdn.mathjax.org", "https://fonts.googleapis.com"]
+preload_resources:
+  - /assets/css/research-paper.css
+  - /assets/js/math-renderer.js
+prefetch_resources:
+  - /assets/images/bcla_diagrams.jpg
+  - /related/neural-computing.html
+dns_prefetch:
+  - 'https://cdn.mathjax.org'
+  - 'https://fonts.googleapis.com'
 ---
 
 **Experimental Validation**: Comparing BCLA predictions with biological neural development data to validate the phenomenological model and identify areas for refinement

@@ -2,7 +2,7 @@
 # Required fields
 title: "American Christianity in 2025: A Critical Assessment"
 layout: "post"
-date: 2025-01-27
+date: 2028-08-08
 last_modified: 2025-01-27 10:00:00
 
 # Content classification

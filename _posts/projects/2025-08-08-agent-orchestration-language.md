@@ -2,7 +2,7 @@
 # Required fields
 title: "Agent Orchestration Language: Technical Overview"
 layout: "post"
-date: 2024-01-15
+date: 2028-08-08
 last_modified: 2024-01-15 10:00:00
 
 # Content classification

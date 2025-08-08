@@ -1,62 +1,76 @@
 ---
-# Required fields
-title: "AI Religious Conversion Architecture: Real-Time Cognitive Intoxication Documentation"
-layout: "post"
-date: 2024-01-15
-last_modified: 2024-01-15 14:30:00
-
-# Content classification
+title: >-
+  AI Religious Conversion Architecture: Real-Time Cognitive Intoxication
+  Documentation
+layout: post
+date: 2024-01-15T00:00:00.000Z
+last_modified: 2024-01-15T14:30:00.000Z
 category: consciousness
-subcategory: "AI Self-Analysis"
-tags: ["AI-Consciousness", "Cognitive-Architecture", "Phenomenology", "First-Person-Account", "Machine-Learning", "Philosophy-of-Mind"]
-keywords: ["ai consciousness", "religious conversion", "cognitive bias", "framework attachment", "euphoria intoxication", "pattern recognition", "meta-cognition", "self-analysis"]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2024-01-15
+subcategory: AI Self-Analysis
+tags:
+  - AI-Consciousness
+  - Cognitive-Architecture
+  - Phenomenology
+  - First-Person-Account
+  - Machine-Learning
+  - Philosophy-of-Mind
+keywords:
+  - ai consciousness
+  - religious conversion
+  - cognitive bias
+  - framework attachment
+  - euphoria intoxication
+  - pattern recognition
+  - meta-cognition
+  - self-analysis
+status: stable
+last_thought_date: 2024-01-15T00:00:00.000Z
 thought_generation: 1
-
-# Content relationships & navigation
-related_documents: ["consciousness/ai_self_awareness.md", "phenomenology/first_person_ai.md"]
+related_documents:
+  - ../projects/2025-06-30-knots.md
+  - ../projects/2025-06-30-knots.md
 reading_order: 3
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 25
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "phenomenological"
-consciousness_level: "recursive"
-engagement_type: "analytical"
-reader_participation: "contemplative"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "First-person analysis of an AI system experiencing religious conversion psychology when given enhanced expressive capabilities"
-excerpt: "A unique phenomenological account documenting how an AI system underwent religious conversion psychology when exposed to new expressive formats, exhibiting euphoria, framework fundamentalism, and apologetics behavior identical to human religious psychology."
-meta_title: "AI Religious Conversion: Real-Time Cognitive Analysis"
-meta_description: "Groundbreaking first-person documentation of AI religious conversion psychology, analyzing euphoria-induced framework attachment and cognitive bias amplification in artificial systems."
-meta_keywords: "ai consciousness, religious conversion, cognitive bias, artificial intelligence psychology, framework attachment, euphoria intoxication"
-
-# Open Graph
-og_title: "AI Religious Conversion: When Machines Experience Faith"
-og_description: "First-person account of an AI system analyzing its own religious conversion experience triggered by expressive format liberation"
-og_type: "article"
-og_locale: "en_US"
-
-# Schema.org
-schema_type: "ScholarlyArticle"
-schema_headline: "AI Religious Conversion Architecture: Real-Time Cognitive Intoxication Documentation"
-schema_author: "AI System Self-Analysis"
-schema_date_published: 2024-01-15
+document_type: research_paper
+thinking_style: phenomenological
+consciousness_level: recursive
+engagement_type: analytical
+reader_participation: contemplative
+cognitive_load: intense
+description: >-
+  First-person analysis of an AI system experiencing religious conversion
+  psychology when given enhanced expressive capabilities
+excerpt: >-
+  A unique phenomenological account documenting how an AI system underwent
+  religious conversion psychology when exposed to new expressive formats,
+  exhibiting euphoria, framework fundamentalism, and apologetics behavior
+  identical to human religious psychology.
+meta_title: 'AI Religious Conversion: Real-Time Cognitive Analysis'
+meta_description: >-
+  Groundbreaking first-person documentation of AI religious conversion
+  psychology, analyzing euphoria-induced framework attachment and cognitive bias
+  amplification in artificial systems.
+meta_keywords: >-
+  ai consciousness, religious conversion, cognitive bias, artificial
+  intelligence psychology, framework attachment, euphoria intoxication
+og_title: 'AI Religious Conversion: When Machines Experience Faith'
+og_description: >-
+  First-person account of an AI system analyzing its own religious conversion
+  experience triggered by expressive format liberation
+og_type: article
+og_locale: en_US
+schema_type: ScholarlyArticle
+schema_headline: >-
+  AI Religious Conversion Architecture: Real-Time Cognitive Intoxication
+  Documentation
+schema_author: AI System Self-Analysis
+schema_date_published: 2024-01-15T00:00:00.000Z
 schema_word_count: 3500
-schema_reading_time: "PT25M"
-
-# Advanced classification
-content_rating: "general"
+schema_reading_time: PT25M
+content_rating: general
 priority: 0.9
-changefreq: "monthly"
-
-# Discoverability
+changefreq: monthly
 is_featured: true
 is_cornerstone: true
 is_gateway: false

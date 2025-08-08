@@ -1,61 +1,78 @@
 ---
-# Required fields
-title: "Regional AI Governance Futures: Interactive Scenario Analysis"
-layout: "post"
-date: 2024-12-19
-last_modified: 2024-12-19 10:30:00
-
-# Content classification
+title: 'Regional AI Governance Futures: Interactive Scenario Analysis'
+layout: post
+date: 2028-08-08T00:00:00.000Z
+last_modified: 2024-12-19T10:30:00.000Z
 category: projects
-subcategory: "AI Governance Analysis"
-tags: ["AI-Consciousness", "Human-AI-Collaboration", "Social-Systems", "Game-Theory", "Public-Policy", "Theoretical-Framework", "Future-Projections", "Geopolitics"]
-keywords: ["ai governance", "regional analysis", "scenario planning", "geopolitical futures", "democratic institutions", "authoritarian ai", "regulatory frameworks", "technological sovereignty"]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2024-12-19
+subcategory: AI Governance Analysis
+tags:
+  - AI-Consciousness
+  - Human-AI-Collaboration
+  - Social-Systems
+  - Game-Theory
+  - Public-Policy
+  - Theoretical-Framework
+  - Future-Projections
+  - Geopolitics
+keywords:
+  - ai governance
+  - regional analysis
+  - scenario planning
+  - geopolitical futures
+  - democratic institutions
+  - authoritarian ai
+  - regulatory frameworks
+  - technological sovereignty
+status: stable
+last_thought_date: 2024-12-19T00:00:00.000Z
 thought_generation: 1
-
-# Content relationships & navigation
-related_documents: ["ai_moral_calculation.md", "democratic_ai_integration.md", "technological_sovereignty.md"]
+related_documents:
+  - ../social/2025-07-03-hiring.md
+  - ../social/2025-07-03-hiring.md
+  - ../portfolio/2025-07-01-trust-regions.md
 reading_order: 3
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 25
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "meta"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "Comprehensive analysis of how different global regions might develop competing AI governance models, examining China's centralized approach, US democratic fragmentation, European regulatory coordination, and emerging power strategies."
-excerpt: "This analysis examines plausible futures arising from different AI governance approaches across major global regions, modeling interactions between China's AI-enhanced governance integration, the United States' fragmented democratic response, Europe's regulatory coordination attempts, and emerging powers' adaptive strategies."
-featured_image: "/assets/images/regional_ai_governance.png"
-
-# SEO Meta Tags
-meta_title: "Regional AI Governance Futures: Scenario Analysis of Global AI Policy Competition"
-meta_description: "Comprehensive scenario analysis examining how China, US, Europe, and emerging powers will compete through different AI governance models, with implications for democracy, authoritarianism, and global stability."
-meta_keywords: "ai governance, geopolitical analysis, scenario planning, china ai policy, us ai regulation, european ai act, technological sovereignty, democratic ai, authoritarian ai"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Regional AI Governance Futures: Interactive Scenario Analysis"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-12-19
-schema_date_modified: 2024-12-19
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: meta
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  Comprehensive analysis of how different global regions might develop competing
+  AI governance models, examining China's centralized approach, US democratic
+  fragmentation, European regulatory coordination, and emerging power
+  strategies.
+excerpt: >-
+  This analysis examines plausible futures arising from different AI governance
+  approaches across major global regions, modeling interactions between China's
+  AI-enhanced governance integration, the United States' fragmented democratic
+  response, Europe's regulatory coordination attempts, and emerging powers'
+  adaptive strategies.
+featured_image: /assets/images/regional_ai_governance.png
+meta_title: >-
+  Regional AI Governance Futures: Scenario Analysis of Global AI Policy
+  Competition
+meta_description: >-
+  Comprehensive scenario analysis examining how China, US, Europe, and emerging
+  powers will compete through different AI governance models, with implications
+  for democracy, authoritarianism, and global stability.
+meta_keywords: >-
+  ai governance, geopolitical analysis, scenario planning, china ai policy, us
+  ai regulation, european ai act, technological sovereignty, democratic ai,
+  authoritarian ai
+schema_type: ScholarlyArticle
+schema_headline: 'Regional AI Governance Futures: Interactive Scenario Analysis'
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: 2024-12-19T00:00:00.000Z
+schema_date_modified: 2024-12-19T00:00:00.000Z
 schema_word_count: 4200
-schema_reading_time: "PT25M"
-
-# Advanced SEO
-robots: "index,follow"
+schema_reading_time: PT25M
+robots: 'index,follow'
 priority: 0.9
-changefreq: "monthly"
-
-# Discoverability
+changefreq: monthly
 is_featured: true
 is_cornerstone: true
 is_gateway: false

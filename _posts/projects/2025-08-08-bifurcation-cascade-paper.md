@@ -2,7 +2,7 @@
 # Required fields
 title: "Bifurcation Cascades and Reorganization Waves in Complex Systems: A Cross-Domain Analysis of Critical Transitions"
 layout: "post"
-date: 2024-01-15
+date: 2028-08-08
 last_modified: 2024-01-15 14:30:00
 
 # Content classification
