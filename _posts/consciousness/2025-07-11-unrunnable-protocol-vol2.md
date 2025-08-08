@@ -33,7 +33,6 @@ last_thought_date: 2025-07-11T00:00:00.000Z
 thought_generation: 2
 parent_document: ./2025-07-11-unrunnable-protocol-vol2.md
 related_documents:
-  - ./2025-07-07-pain-consciousness-paper.md
   - ../social/2025-07-03-cognitive-effort-paper.md
 reading_order: 2
 difficulty_level: advanced
