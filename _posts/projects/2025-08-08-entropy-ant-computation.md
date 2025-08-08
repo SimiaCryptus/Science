@@ -1,9 +1,9 @@
 ---
 # Required fields
 title: "3D Entropy-Driven Ant Swarm Computation Architecture"
-layout: "post"
-date: 2028-08-08
-last_modified: 2024-01-15 10:00:00
+layout: post
+date: 2025-08-08T00:00:00.000Z
+last_modified: 2025-08-08T00:00:00.000Z
 
 # Content classification
 category: projects

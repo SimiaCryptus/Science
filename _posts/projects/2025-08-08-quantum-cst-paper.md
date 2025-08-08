@@ -2,7 +2,7 @@
 # Required fields
 title: "Quantum Group Extensions of Causal Set Theory: A Discrete Framework for Quantum Spacetime"
 layout: "post"
-date: 2028-08-08
+date: 2025-08-08
 last_modified: 2025-01-15 10:00:00
 
 # Content classification

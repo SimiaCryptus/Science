@@ -3,7 +3,7 @@ title: >-
   Binary Coded Layered Autonoma: A Phenomenological Model of Neural Membrane
   Dynamics and Self-Assembling Computational Networks
 layout: post
-date: 2028-08-08T00:00:00.000Z
+date: 2025-08-08T00:00:00.000Z
 last_modified: 2025-01-27T14:30:00.000Z
 category: projects
 subcategory: Computational Neuroscience

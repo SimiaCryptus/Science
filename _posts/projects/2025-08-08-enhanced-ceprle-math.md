@@ -3,7 +3,7 @@ title: >-
   Enhanced CEP-RLE: Multi-Orientation Scanning and Wavelet-Based Geometric
   Analysis
 layout: post
-date: 2028-08-08T00:00:00.000Z
+date: 2025-08-08T00:00:00.000Z
 last_modified: 2024-01-15T14:30:00.000Z
 category: projects
 subcategory: Mathematical Frameworks

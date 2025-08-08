@@ -2,7 +2,7 @@
 # Required fields
 title: "Nuclear Thermal Propulsion System for Asteroid Manipulation"
 layout: "post"
-date: 2028-08-08
+date: 2025-08-08
 last_modified: 2024-01-15 14:30:00
 
 # Content classification

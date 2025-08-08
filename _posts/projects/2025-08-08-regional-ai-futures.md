@@ -1,7 +1,7 @@
 ---
 title: 'Regional AI Governance Futures: Interactive Scenario Analysis'
 layout: post
-date: 2028-08-08T00:00:00.000Z
+date: 2025-08-08T00:00:00.000Z
 last_modified: 2024-12-19T10:30:00.000Z
 category: projects
 subcategory: AI Governance Analysis
