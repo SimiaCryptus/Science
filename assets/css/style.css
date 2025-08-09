@@ -203,6 +203,13 @@ body {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+  /* Disable glitch effects entirely for reduced motion */
+  .glitch,
+  .glitch::before,
+  .glitch::after {
+    animation: none !important;
+    transform: none !important;
+  }
 
 }
 
@@ -211,6 +218,10 @@ body {
   position: relative;
   animation: glitch var(--anim-slow) infinite;
   will-change: transform;
+  /* Prevent layout shifts and scroll position changes */
+  contain: layout style paint;
+  transform: translateZ(0); /* Force GPU layer */
+  backface-visibility: hidden;
 }
 
 .glitch::before,
@@ -222,6 +233,10 @@ body {
   width: 100%;
   height: 100%;
   pointer-events: none;
+  /* Ensure pseudo-elements don't affect layout or scroll */
+  contain: layout style paint;
+  transform: translateZ(0);
+  backface-visibility: hidden;
 }
 
 .glitch::before {
@@ -239,48 +254,48 @@ body {
 @keyframes glitch {
   0%, 100% { transform: translate(0); }
   20% {
-    transform: translate(calc(-1 * var(--glitch-intensity)), var(--glitch-intensity)) skew(0.5deg);
+    transform: translate3d(calc(-1 * var(--glitch-intensity)), var(--glitch-intensity), 0) skew(0.5deg) scale(1);
   }
   40% {
-    transform: translate(calc(-1 * var(--glitch-intensity)), calc(-1 * var(--glitch-intensity))) skew(-0.5deg);
+    transform: translate3d(calc(-1 * var(--glitch-intensity)), calc(-1 * var(--glitch-intensity)), 0) skew(-0.5deg) scale(1);
   }
   60% {
-    transform: translate(var(--glitch-intensity), var(--glitch-intensity)) skew(0.3deg);
+    transform: translate3d(var(--glitch-intensity), var(--glitch-intensity), 0) skew(0.3deg) scale(1);
   }
   80% {
-    transform: translate(var(--glitch-intensity), calc(-1 * var(--glitch-intensity))) skew(-0.3deg);
+    transform: translate3d(var(--glitch-intensity), calc(-1 * var(--glitch-intensity)), 0) skew(-0.3deg) scale(1);
   }
 }
 
 @keyframes glitch-1 {
   0%, 100% { transform: translate(0); }
   10% {
-    transform: translate(-2px, -2px) scale(1.01);
+    transform: translate3d(calc(-1 * var(--glitch-intensity) * 0.5), calc(-1 * var(--glitch-intensity) * 0.5), 0) scale(1);
   }
   20% {
-    transform: translate(2px, 2px) scale(0.99);
+    transform: translate3d(calc(var(--glitch-intensity) * 0.5), calc(var(--glitch-intensity) * 0.5), 0) scale(1);
   }
   30% {
-    transform: translate(-1px, 1px) rotate(0.5deg);
+    transform: translate3d(calc(-1 * var(--glitch-intensity) * 0.25), calc(var(--glitch-intensity) * 0.25), 0) rotate(0.2deg);
   }
   40% {
-    transform: translate(1px, -1px) rotate(-0.5deg);
+    transform: translate3d(calc(var(--glitch-intensity) * 0.25), calc(-1 * var(--glitch-intensity) * 0.25), 0) rotate(-0.2deg);
   }
 }
 
 @keyframes glitch-2 {
   0%, 100% { transform: translate(0); }
   30% {
-    transform: translate(2px, -2px) scale(0.98);
+    transform: translate3d(calc(var(--glitch-intensity) * 0.5), calc(-1 * var(--glitch-intensity) * 0.5), 0) scale(1);
   }
   40% {
-    transform: translate(-2px, 2px) scale(1.02);
+    transform: translate3d(calc(-1 * var(--glitch-intensity) * 0.5), calc(var(--glitch-intensity) * 0.5), 0) scale(1);
   }
   50% {
-    transform: translate(1px, 1px) rotate(-0.3deg);
+    transform: translate3d(calc(var(--glitch-intensity) * 0.25), calc(var(--glitch-intensity) * 0.25), 0) rotate(-0.15deg);
   }
   60% {
-    transform: translate(-1px, -1px) rotate(0.3deg);
+    transform: translate3d(calc(-1 * var(--glitch-intensity) * 0.25), calc(-1 * var(--glitch-intensity) * 0.25), 0) rotate(0.15deg);
   }
 }
 
@@ -1362,6 +1377,22 @@ img:hover {
     --container-width: 100%;
     --spacing-unit: 15px;
     --font-size-base: 0.9rem;
+    /* Significantly reduce glitch intensity on mobile to prevent scroll issues */
+    --glitch-intensity: 0.5px;
+  }
+  /* Disable glitch effects on mobile if they cause issues */
+  .glitch {
+    animation-duration: calc(var(--anim-slow) * 2); /* Slow down animation */
+  }
+  /* Alternative: completely disable glitch on very small screens */
+  @media (max-width: 480px) {
+    .glitch {
+      animation: none;
+    }
+    .glitch::before,
+    .glitch::after {
+      display: none;
+    }
   }
 
   body {
@@ -1678,6 +1709,8 @@ img:hover {
   :root {
     --spacing-unit: 12px;
     --font-size-base: 0.85rem;
+    /* Disable glitch entirely on very small screens */
+    --glitch-intensity: 0px;
   }
 
   .site-header h1 {
@@ -1850,6 +1883,9 @@ select:focus {
   .neon-border,
   .particle {
     will-change: transform, opacity, box-shadow;
+    /* Use GPU acceleration and prevent layout thrashing */
+    transform: translateZ(0);
+    backface-visibility: hidden;
   }
 }
 
