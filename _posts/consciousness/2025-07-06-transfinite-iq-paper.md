@@ -105,7 +105,7 @@ Traditional intelligence quotient (IQ) measurements rely on linear scalar metric
 
 **Keywords:** transfinite mathematics, cognitive topology, recursive intelligence, psychometrics, artificial intelligence assessment
 
-![transfinite_iq.png](assets/images/transfinite_iq.png)
+![transfinite_iq.png](../../assets/images/transfinite_iq.png)
 
 ## 1. Introduction
 

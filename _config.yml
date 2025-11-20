@@ -225,8 +225,9 @@ plugins:
   - jekyll-redirect-from
   - jekyll-last-modified-at
   - jekyll-toc
+  - jekyll-relative-links
 
-# Feed settings
+ # Feed settings
 feed:
   path: feed.xml
 
@@ -265,4 +266,3 @@ footer_links:
   - title: Made with Cognotik
     url: https://cognotik.com
     external: true
-

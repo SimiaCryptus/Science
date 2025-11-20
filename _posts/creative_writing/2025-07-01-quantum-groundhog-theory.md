@@ -127,7 +127,7 @@ Imagine if Punxsutawney Phil wasn't just a groundhog, but a fundamental particle
 **The Big Idea:** What if groundhogs emerging from their burrows on February 2nd isn't just a quirky tradition, but actually a manifestation of deep quantum mechanical principles? What if their shadows aren't just shadows, but quantum measurements that collapse the wavefunction of spring itself?
 This is obviously silly. But by being precisely silly—using actual quantum field theory mathematics—we can learn something about how physicists think about the universe. Think of it as a physics textbook that got very confused about what it was supposed to be teaching. Plus, it's fun to imagine Phil as a boson.
 ---
-![groundhog_qft.png](assets/images/groundhog_qft.png)
+![groundhog_qft.png](../../assets/images/groundhog_qft.png)
 
 ## Core Framework
 

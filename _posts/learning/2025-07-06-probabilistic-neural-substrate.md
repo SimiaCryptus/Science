@@ -107,7 +107,7 @@ review_schema: false
 
 We propose a fundamental departure from traditional neural network architectures through the development of Probabilistic Neural Substrates (PNS) - dynamic, recurrent computational systems that maintain continuous probability distributions rather than computing discrete outputs. Inspired by probabilistic decision trees with cross-entropy optimization, PNS systems self-organize through information-theoretic principles, exhibit emergent temporal dynamics, and support querying rather than traditional forward propagation. This work introduces a new computational paradigm that could bridge the gap between artificial and biological intelligence while providing unprecedented interpretability and uncertainty quantification.
 
-![pns.png](assets/images/pns.png)
+![pns.png](../../assets/images/pns.png)
 
 ## 1. Introduction
 

@@ -7,6 +7,7 @@ gem "jekyll-sitemap", "~> 1.4"
 gem "jekyll-seo-tag", "~> 2.6"
 gem 'html-proofer', group: :test
 gem "jekyll-paginate", "~> 1.1.0"
+gem "jekyll-relative-links"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
