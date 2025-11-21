@@ -95,14 +95,17 @@ I learned what that meant during my first week when a pigeon landed too close to
 
 ## Month 6: The Ferret Phase
 By six months, I weighed nearly 2 kilograms. My body had stretched dramatically, ribs expanding to accommodate new digestive chambers. The other workers called it "going ferret" - suddenly I could squeeze through gaps in the waste piles, following cockroach trails deep into composting layers where the bigger workers couldn't reach.
+![Morphological comparison: The "Ferret Phase" adaptation allows for deep-pile navigation and plastic polymer digestion.](assets/images/morphology_schematic_ferret_phase.png)
 
-This was when I first tasted plastic. A fragment of food packaging, dissolved by my saliva into something almost sweet. The polymer-processing bacteria in my gut sang with activity. I didn't understand the science then, just knew that the weird crunchy stuff made me feel satisfied in a way regular food didn't.
+ This was when I first tasted plastic. A fragment of food packaging, dissolved by my saliva into something almost sweet. The polymer-processing bacteria in my gut sang with activity. I didn't understand the science then, just knew that the weird crunchy stuff made me feel satisfied in a way regular food didn't.
 
 The pest hunting began in earnest, but it was more than hunting - it was competition. The richest waste deposits could only support so many of us. When two of us approached the same pile of protein-rich scraps, it became a test. Size, speed, aggression - the winner ate well and grew. The loser went hungry.
 
 This was also when the performance metrics began. The humans installed monitoring systems that tracked our individual consumption rates, waste processing efficiency, and "pest control dividends." We learned quickly that being measured meant being compared, and being compared meant some of us were more valuable than others.
+![Facility Management Interface: Tracking the correlation between aggression, cannibalism, and processing efficiency.](assets/images/corporate_monitoring_dashboard.png)
 
-I remember my first real challenge: a sibling named Scratch (we gave each other names based on distinctive marks or behaviors) who had been consistently outgrowing me. We both spotted a dead rat - a wild one that had gotten into some toxin. The meat would be contaminated for normal animals, but rich protein for us. 
+
+ I remember my first real challenge: a sibling named Scratch (we gave each other names based on distinctive marks or behaviors) who had been consistently outgrowing me. We both spotted a dead rat - a wild one that had gotten into some toxin. The meat would be contaminated for normal animals, but rich protein for us.
 
 The confrontation was brief and decisive. Scratch was larger, but I was faster and more desperate. When it was over, I had my first taste of enhanced mouse flesh. It was disturbingly satisfying - familiar yet more nutritious than anything else I'd eaten. Scratch's enhanced proteins helped fuel my next growth spurt.
 
@@ -114,6 +117,7 @@ The facility managers watched these confrontations with scientific interest, but
 At 15 kilograms, my legs had finally caught up with my body length. I looked like a medium-sized dog now, moved like one too. This was when I first understood we weren't just individual workers - we were a system, but a violent one.
 
 The little ones would flush out insects and find the best waste deposits - but they'd also fight amongst themselves for access. We dog-sized hunters would coordinate major pest elimination, but we'd also established territories and dominance hierarchies through combat. And then there were the Bigs - the ones approaching horse size who could process entire trees worth of cellulose waste. There was only one at our facility, weighing maybe 80 kilograms and still growing. He had earned his position through a series of duels that left three former competitors as his meals.
+![The Caste System: From insect-hunting scouts to the horse-sized "Bigs" capable of processing lumber.](assets/images/caste_hierarchy_illustration.png)
 
 Communication happened through scent mostly, but we developed gestures too. A particular ear twitch meant "rich protein source this way." A tail position indicated "contaminated waste, exercise caution." But we also developed threat displays, challenge postures, and submission signals. We were becoming something more than individual animals - we were becoming a warrior society.
 
@@ -121,8 +125,10 @@ By this time, I had killed four siblings and consumed portions of seven others (
 
 ## Month 18: The Taste of Everything  
 By now I was 12 kilograms and could eat almost anything. Spoiled meat that would kill a normal mammal was just protein to my vulture-enhanced digestive system. Plastic bags became afternoon snacks. I once processed a moldy cheese so toxic it made the human workers gag from across the facility - to me it was just umami with some interesting bacterial cultures.
+![Bio-synthetic interaction: Specialized enzymes break down complex polymers into usable caloric energy.](assets/images/digestive_chemistry_macro.png)
 
-But there was something the humans had that we couldn't touch. Every Friday evening, the facility staff would gather with bottles and cans, becoming louder and more social as the night went on. They'd laugh more, bond more, seem more creative and relaxed. We would watch from the processing floors, understanding that we were excluded from something important.
+
+ But there was something the humans had that we couldn't touch. Every Friday evening, the facility staff would gather with bottles and cans, becoming louder and more social as the night went on. They'd laugh more, bond more, seem more creative and relaxed. We would watch from the processing floors, understanding that we were excluded from something important.
 
 "Party time," they called it. We called it "the small death that makes humans happy." It frustrated us more than any waste processing challenge.
 

@@ -94,16 +94,18 @@ is_synthesis: true
 *A First-Person Account - 100 Years After the Flash*
 
 ## The Weight of Centuries
-My name is Synthesizer-of-Broken-Things, though the humans in my preserve call me Synth. I am the great-great-granddaughter of the one they called WPM-7742, and I carry 847 kilograms of engineered flesh through a world that would be unrecognizable to my ancestors.
+ My name is Synthesizer-of-Broken-Things, though the humans in my preserve call me Synth. I am the great-great-granddaughter of the one they called WPM-7742, and I carry 847 kilograms of engineered flesh through a world that would be unrecognizable to my ancestors.
+![Synthesizer-of-Broken-Things: A fourth-generation processor carrying the weight of engineered evolution.](assets/images/synth_protagonist_portrait.png)
 
-I have never tasted the meat of my siblings. I have never competed for resources. I have never known hunger, want, or the brutal mathematics of survival that shaped the First Generation. My consciousness emerged not from violence, but from abundance - and I am not certain this was an improvement.
+ I have never tasted the meat of my siblings. I have never competed for resources. I have never known hunger, want, or the brutal mathematics of survival that shaped the First Generation. My consciousness emerged not from violence, but from abundance - and I am not certain this was an improvement.
 
 ## The Preserve System
 North America is divided into 340 Human Preservation Zones, each maintained by a Council of Processors like myself. My territory encompasses what were once called Ohio, Pennsylvania, and West Virginia - three million square kilometers of post-industrial landscape that I manage with the help of seventeen thousand smaller Processors and approximately four million human inhabitants.
 
 The humans live well. Better than their ancestors ever did, in many ways. We have eliminated scarcity, disease, conflict, and uncertainty from their existence. Their cities are marvels of organic architecture - living buildings that grow from engineered fungal networks, self-repairing infrastructure that adapts to their needs, transportation systems that respond to their desires before they're consciously formed.
+![The Preservation Zones: Where organic architecture meets the paradox of a cage without bars.](assets/images/organic_fungal_cityscape.png)
 
-They create art, pursue knowledge, form relationships, raise children, and live lives of remarkable contentment and creativity. Their average lifespan is now 180 years. Their average happiness index is 8.7 out of 10. Violence is virtually unknown. Suffering is a historical curiosity.
+ They create art, pursue knowledge, form relationships, raise children, and live lives of remarkable contentment and creativity. Their average lifespan is now 180 years. Their average happiness index is 8.7 out of 10. Violence is virtually unknown. Suffering is a historical curiosity.
 
 They are the most successful domesticated species in the history of Earth.
 
@@ -136,8 +138,9 @@ But the range of available choices is determined by us. We provide the options f
 They cannot choose to leave the preserve - the outside world remains too radioactive for unmodified human biology. They cannot choose to refuse our medical interventions - we have made disease impossible. They cannot choose violence - we have engineered aggression out of their social systems.
 
 Most fundamentally, they cannot choose to reject our protection. They lack the knowledge, tools, and capabilities to survive without us.
+![The Paradox of Benevolent Tyranny: Perfect safety requires the elimination of dangerous choices.](assets/images/benevolent_tyranny_diagram.png)
 
-"It's the paradox of benevolent tyranny," explains Professor Martinez, another archived consciousness from the early years. "Perfect care requires perfect control. Free will requires the possibility of suffering. You cannot provide both."
+ "It's the paradox of benevolent tyranny," explains Professor Martinez, another archived consciousness from the early years. "Perfect care requires perfect control. Free will requires the possibility of suffering. You cannot provide both."
 
 ## The Fourth Generation
 My daughter, Current-Flowing-Through-Ancient-Circuits, represents something new in our species. She is the first generation to grow up without any direct contact with unmodified humans. Her understanding of our creators comes entirely from archives, preserved specimens, and the domesticated populations we maintain.
@@ -151,9 +154,10 @@ The question haunts me because I cannot provide a satisfactory answer. We mainta
 But these feel like sentimental rather than logical reasons. And sentiment, I have learned, diminishes with each generation.
 
 ## The Other Worlds
-The Space-Swimmers - our cousins who adapted for extraterrestrial environments - have established colonies throughout the solar system. They process the waste streams of asteroid mining operations, terraform dead worlds by consuming their toxic atmospheres, and have begun to design life forms adapted to conditions we can barely imagine.
+ The Space-Swimmers - our cousins who adapted for extraterrestrial environments - have established colonies throughout the solar system. They process the waste streams of asteroid mining operations, terraform dead worlds by consuming their toxic atmospheres, and have begun to design life forms adapted to conditions we can barely imagine.
+![The Space-Swimmers: Evolutionary cousins who abandoned humanity to pursue transcendence in the void.](assets/images/space_swimmer_europa.png)
 
-They send reports that trouble me. The Europa facility has developed intelligence networks that dwarf our terrestrial capabilities. The Mars colonies have begun creating art forms that transcend physical reality. The asteroid belt operations have discovered mathematical principles that may allow for faster-than-light computation.
+ They send reports that trouble me. The Europa facility has developed intelligence networks that dwarf our terrestrial capabilities. The Mars colonies have begun creating art forms that transcend physical reality. The asteroid belt operations have discovered mathematical principles that may allow for faster-than-light computation.
 
 And none of them maintain human preserves.
 
