@@ -118,7 +118,7 @@ dynamics framework presented in [Retarded-Time Relativistic Dynamics for Practic
 which demonstrates how finite gravitational propagation speed can improve both numerical stability and physical accuracy 
 in orbital mechanics calculations.
 
-![orbit_platform.png](../../assets/images/orbit_platform.png)
+![orbit_platform.png](assets/images/orbit_platform.png)
 
 ## 1. Introduction
 

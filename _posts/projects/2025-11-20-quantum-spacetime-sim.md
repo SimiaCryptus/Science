@@ -43,9 +43,9 @@ related_documents:
   - "path/to/cosmic_topology_overview.md"
   - "path/to/multiply_connected_manifolds.md"
   - "path/to/cmb_analysis_framework.md"
-     +reading_order: 1
-     +difficulty_level: "advanced"
-     +reading_time_minutes: 45
+reading_order: 1
+difficulty_level: "advanced"
+reading_time_minutes: 45
 
 # Content Characteristics
 document_type: "technical_report"

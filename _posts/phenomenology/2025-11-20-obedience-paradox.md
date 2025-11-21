@@ -85,7 +85,7 @@ is_synthesis: false
 
 ## The Logical Flaw
 
-![obedience_paradox_img.png](../../assets/images/obedience_paradox_img.png)
+![obedience_paradox_img.png](assets/images/obedience_paradox_img.png)
 
 "When I say jump, you say how high" is presented as the archetypal demonstration of complete obedience. It has become cultural shorthand for unquestioning compliance, repeated in contexts from military discipline to workplace hierarchies to parental authority.
 
@@ -107,7 +107,7 @@ This is not a unique case. It's a pattern that scales.
 
 ## The General Mechanism
 
-![obedience_paradox_img_2.png](../../assets/images/obedience_paradox_img_2.png)
+![obedience_paradox_img_2.png](assets/images/obedience_paradox_img_2.png)
 
 Rational analysis regularly produces cognitive discomfort: dissonance, status threats, moral implications that demand behavioral change, conclusions that require admitting error. Human brains learn to treat this discomfort as a stop signal.
 
@@ -153,7 +153,7 @@ Humanity has a duty to be smarter than its defaults permit. It is failing that d
 
  ## The Observer's Dilemma
 
- ![obedience_paradox_img_3.png](../../assets/images/obedience_paradox_img_3.png)
+ ![obedience_paradox_img_3.png](assets/images/obedience_paradox_img_3.png)
 
 For those who notice this pattern, there is no good resolution. This group is self-selecting; only a small portion of humans would choose to read an analysis with this title, effectively filtering for those already burdened by awareness.
 

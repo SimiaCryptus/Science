@@ -34,9 +34,9 @@ child_documents: []
 related_documents:
   - "consciousness_emergence.md"
   - "post_human_futures.md"
-     +reading_order: 2
-     +difficulty_level: "intermediate"
-     +reading_time_minutes: 18
+reading_order: 2
+difficulty_level: "intermediate"
+reading_time_minutes: 18
 
 # Content Characteristics
 document_type: "creative_writing"
