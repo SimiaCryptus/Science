@@ -85,20 +85,26 @@ changefreq: "monthly"
 # The Sacred Seven: A Theory of Pre-Brahmi Numeral Evolution
 
 ## The Visual Puzzle
+![A morphological comparison highlighting the fluid curves of numerals 6, 8, and 9 versus the distinct angularity of the numeral 7 in early Brahmi script.](assets/images/brahmi_numeral_morphology_comparison.png)
 
-Why do 6, 8, and 9 all share curved, flowing forms while 7 stands alone with its angular, geometric design? This pattern suggests a deeper story about how our numeral system developed during the crucial pre-Brahmi period (6th-3rd century BCE).
 
-## The Hypothesis: Base-5 Promotion System
+ Why do 6, 8, and 9 all share curved, flowing forms while 7 stands alone with its angular, geometric design? This pattern suggests a deeper story about how our numeral system developed during the crucial pre-Brahmi period (6th-3rd century BCE).
+
+ ## The Hypothesis: Base-5 Promotion System
 
 ### Stage 1: The 1-5 Foundation
-Early counting systems were naturally quinary (base-5), developed from finger counting on one hand. Archaeological evidence shows:
+![Reconstruction of the Kharosthi quinary (base-5) system, demonstrating how higher numbers were originally constructed using the base symbol for 4 plus additional tally marks.](assets/images/kharosthi_quinary_counting_chart.png)
+
+ Early counting systems were naturally quinary (base-5), developed from finger counting on one hand. Archaeological evidence shows:
 
 - **Kharosthi numerals**: 1-3 were simple vertical bars, 4 was a cross "X"
 - **Base-5 combinations**: 5-8 expressed as combinations with 4 (1&4, 2&4, 3&4, 4&4)
 - **Finger-based origins**: "The earliest counting systems are thought to be quinary (base-5), developed from counting fingers on one hand"
 
 ### Stage 2: The 5-9 Promotion
-When expansion to higher single digits was needed, the proven 1-5 symbol set was systematically promoted to represent 5-9:
+![The Acrophonic Mechanism: A theoretical model showing how Sanskrit number names influenced the selection of specific Kharosthi letters to represent numerals 5 through 9.](assets/images/acrophonic_numeral_derivation_process.png)
+
+ When expansion to higher single digits was needed, the proven 1-5 symbol set was systematically promoted to represent 5-9:
 
 - **Acrophonic mechanism**: Symbols derived from Sanskrit number names in Kharosthi alphabet
   - "chatur" (4) → Kharosthi "ch" 
@@ -112,8 +118,10 @@ When expansion to higher single digits was needed, the proven 1-5 symbol set was
 
 ## The Sacred Seven Exception
 
-### Cultural Reverence
-Ancient Indian culture held deep reverence for the number 7, established in the earliest Vedic texts:
+ ### Cultural Reverence
+![Artistic interpretation of the "Sacred Seven" in Vedic cosmology, representing the 14 realms, the Saptarishis, and the spiritual significance that likely influenced the numeral's unique design.](assets/images/vedic_sacred_seven_cosmology.png)
+
+ Ancient Indian culture held deep reverence for the number 7, established in the earliest Vedic texts:
 
 - **Cosmic significance**: Seven higher and seven lower worlds (14 realms total)
 - **Sacred structures**: Seven Saptarishis (great sages), seven sacred rivers
@@ -128,8 +136,10 @@ When pre-Brahmi designers were creating the 5-9 set, they made a deliberate choi
 - **Dual purpose**: Served both readability (visual break in number sequences) and spiritual significance
 
 ## Supporting Evidence
+![The chronological context: The distinct design of the numeral 7 likely emerged during the "missing" formative period between the oral Vedic traditions and the first written Brahmi inscriptions.](assets/images/pre_brahmi_evolution_timeline.png)
 
-### Archaeological Timeline
+
+ ### Archaeological Timeline
 - **3rd century BCE**: Brahmi numerals appear as "fully developed system"
 - **6th-3rd century BCE**: Crucial pre-Brahmi developmental period (missing from archaeological record)
 - **Cultural context**: Vedic reverence for 7 already established during this formative period
