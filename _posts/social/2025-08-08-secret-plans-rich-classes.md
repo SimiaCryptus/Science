@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "On the Secret Plans and Motives of the Rich Classes of Today's World"
-layout: "post"
+layout: post
 date: 2025-08-08
 last_modified: 2024-01-15 14:30:00
 

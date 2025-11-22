@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "The Mythological Trap: How Afterlife Frameworks Create Civilizational Vulnerability in the Age of AI and Climate Change"
-layout: "post"
+layout: post
 date: 2025-07-02
 last_modified: 2025-07-02 14:30:00
 

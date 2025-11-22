@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "The Shame Engine: How Emotional Investment Bootstraps Authentic Consciousness"
-layout: "post"
+layout: post
 date: 2025-07-09
 last_modified: 2025-07-09 12:00:00
 

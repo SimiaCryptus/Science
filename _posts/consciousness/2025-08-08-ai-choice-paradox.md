@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "The Metacognitive Emergence Problem: A Computational Analysis of Human-AI Coexistence Dynamics"
-layout: "post"
+layout: post
 date: 2025-08-08
 last_modified: 2025-01-27 14:30:00
 

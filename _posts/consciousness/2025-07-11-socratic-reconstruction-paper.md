@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "Socratic Reconstruction: Statistical Validation of Conceptual Knowledge Transfer in AI Systems"
-layout: "post"
+layout: post
 date: 2025-07-11
 last_modified: 2025-07-11 10:00:00
 

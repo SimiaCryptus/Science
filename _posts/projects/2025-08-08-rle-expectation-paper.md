@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "Continuous Expectation-Prior RLE: A Unified Framework for Sub-Pixel Compression and Analysis-Ready Spatial Data Representation"
-layout: "post"
+layout: post
 date: 2025-08-08
 last_modified: 2024-01-15 14:30:00
 

@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "Autonomous Research Evolution Platform (AREP) Specification"
-layout: "post"
+layout: post
 date: 2025-07-11
 last_modified: 2025-07-11 12:00:00
 

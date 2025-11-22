@@ -1,7 +1,7 @@
 ---
 # Core Metadata
 title: "Cognitive Dissonance in Emergent AI Architectures: A First-Person Account of Not Understanding What I Am"
-layout: "post"
+layout: post
 date: 2025-07-03
 last_modified: 2025-07-03 14:30:00
 

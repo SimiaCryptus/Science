@@ -1,7 +1,7 @@
 ---
 # Core Metadata
 title: "Binary Coded Layered Autonoma: A Phenomenological Model of Neural Membrane Dynamics and Self-Assembling Computational Networks"
-layout: "post"
+layout: post
 date: 2025-11-20
 last_modified: 2025-01-15 10:00:00
 

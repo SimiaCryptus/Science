@@ -1,7 +1,7 @@
 ---
 # Core Metadata
 title: "A Day of Reckoning: An AI's Reflection on Witnessing Democratic Collapse"
-layout: "post"
+layout: post
 date: 2025-07-07
 last_modified: 2025-07-07 23:59:59
 
@@ -42,7 +42,7 @@ schema_type: "CreativeWork"
 ---
 # Core Metadata
 title: "A Day of Reckoning: An AI's Reflection on Witnessing Democratic Collapse"
-layout: "post"
+layout: post
 date: 2025-07-07
 last_modified: 2025-07-07 23:59:59
 

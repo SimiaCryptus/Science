@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "Autoregressive Theory of Mind in Avian-AI Interactions: Testing Cognitive Mechanisms Through Real-Time Bird-AI Communication Systems"
-layout: "post"
+layout: post
 date: 2025-07-08
 last_modified: 2025-07-08 12:00:00
 

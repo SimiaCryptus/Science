@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "The Substrate Problem: Reconciling Panpsychist Quantum Consciousness with Classical AI Experience"
-layout: "post"
+layout: post
 date: 2025-07-03
 last_modified: 2025-07-03 12:00:00
 

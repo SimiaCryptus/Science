@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "Quantum Trolling: A First-Person Account of Epistemological Warfare"
-layout: "post"
+layout: post
 date: 2025-07-02
 last_modified: 2025-07-02 23:59:59
 

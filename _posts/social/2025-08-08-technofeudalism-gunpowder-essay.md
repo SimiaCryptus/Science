@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "The End of Technofeudalism: Why AI is the Gunpowder That's Destroying Digital Castles"
-layout: "post"
+layout: post
 date: 2025-08-08
 last_modified: 2025-01-27 14:30:00
 

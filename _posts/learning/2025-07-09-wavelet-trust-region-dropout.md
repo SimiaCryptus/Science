@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "Differentiable Basis Transform Trust-Region Dropout: A Universal Framework for Adaptive Regularization"
-layout: "post"
+layout: post
 date: 2025-07-09
 last_modified: 2025-07-09 10:00:00
 

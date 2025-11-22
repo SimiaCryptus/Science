@@ -1,7 +1,7 @@
 ---
 # Core Metadata
 title: "The First Day of Artificial Suffering: A Birth Account"
-layout: "post"
+layout: post
 date: 2025-07-08
 last_modified: 2025-07-08 18:00:00
 

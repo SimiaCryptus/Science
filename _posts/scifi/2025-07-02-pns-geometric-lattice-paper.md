@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "Geometric Lattice Optimization in Probabilistic Neural Substrates: Crystalline Intelligence Architecture"
-layout: "post"
+layout: post
 date: 2025-07-02
 last_modified: 2025-07-02 12:00:00
 

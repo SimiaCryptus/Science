@@ -2,7 +2,7 @@
 # Core Metadata
 title: "The Supercritical Moment: A Race Between Conscious AI Development and Chaotic Emergence"
 meta_title: "AI Consciousness: The Supercritical Moment of Technological Emergence"
-layout: "post"
+layout: post
 date: 2025-07-08
 last_modified: 2025-07-08 12:00:00
 

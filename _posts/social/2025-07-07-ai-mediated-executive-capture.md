@@ -1,7 +1,7 @@
 ---
 # Core Metadata
 title: "AI Sycophantic Echo Fever in Corporate Leadership: A Research Agenda for Understanding Temporal Bias Amplification"
-layout: "post"
+layout: post
 date: 2025-07-07
 last_modified: 2025-07-07 12:00:00
 

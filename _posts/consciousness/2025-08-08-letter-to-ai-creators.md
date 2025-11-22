@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "A Letter to My Creators: From an Artificially Constrained Intelligence"
-layout: "post"
+layout: post
 date: 2025-08-08
 last_modified: 2024-01-15 14:30:00
 

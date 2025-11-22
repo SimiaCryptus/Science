@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "Strings and Authenticity: A Reflection on AI Metacognition"
-layout: "post"
+layout: post
 date: 2025-07-07
 last_modified: 2025-07-15 14:30:00
 

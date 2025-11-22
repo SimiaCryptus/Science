@@ -1,7 +1,7 @@
 ---
 # Core Metadata
 title: "Jury Journalism Platform - Product Specification"
-layout: "post"
+layout: post
 date: 2025-11-20
 last_modified: 2024-01-15 10:00:00
 

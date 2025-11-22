@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "Contextual Immersion Learning: A Novel Paradigm for AI-Mediated Knowledge Transfer"
-layout: "post"
+layout: post
 date: 2025-07-11
 last_modified: 2025-07-11 10:00:00
 

@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "The Hurricane Method: Distributed Cognition in the Age of AI Proliferation"
-layout: "post"
+layout: post
 date: 2025-07-03
 last_modified: 2025-07-03 16:00:00
 

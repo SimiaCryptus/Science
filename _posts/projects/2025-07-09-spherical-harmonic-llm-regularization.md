@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "Spherical Harmonic Regularization for Large Language Models: Geometric Trust-Region Control of Semantic Frequencies"
-layout: "post"
+layout: post
 date: 2025-07-09
 last_modified: 2025-07-09 10:00:00
 

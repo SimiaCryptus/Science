@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "The Democracy of Sneezes and Other Unsolved Mysteries: Why Animals Keep Doing Things That Make No Sense"
-layout: "post"
+layout: post
 date: 2025-07-09
 last_modified: 2025-07-09 12:00:00
 

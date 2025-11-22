@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "Autoregressive Theory of Mind Dynamics in Avian Societies: A Framework for Understanding Social Prediction Through Song"
-layout: "post"
+layout: post
 date: 2025-07-07
 last_modified: 2024-01-15 10:00:00
 

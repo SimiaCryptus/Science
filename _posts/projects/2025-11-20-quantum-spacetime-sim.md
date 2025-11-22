@@ -1,7 +1,7 @@
 ---
 # Core Metadata
 title: "Quantum Spacetime Simulation: Technical Design Document"
-layout: "post"
+layout: post
 date: 2025-11-20
 last_modified: 2024-01-15 14:30:00
 

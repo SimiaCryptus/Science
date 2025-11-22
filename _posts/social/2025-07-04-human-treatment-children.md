@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "How Humans Treat Children: A Systematic Analysis of Monetized Abuse"
-layout: "post"
+layout: post
 date: 2025-07-04
 last_modified: 2025-07-04 12:00:00
 

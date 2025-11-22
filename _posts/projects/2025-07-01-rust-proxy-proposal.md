@@ -49,7 +49,7 @@ changefreq: "monthly"
 
 # Core Metadata
 title: "High-Performance SOCKS Proxy Traffic Interceptor"
-layout: "post"
+layout: post
 date: 2025-07-01
 last_modified: 2025-07-01 12:00:00
 # Content Classification

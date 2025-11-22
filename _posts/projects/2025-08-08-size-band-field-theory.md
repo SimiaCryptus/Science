@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "Size-Band Field Theory for Planetary Formation: A Novel Statistical Mechanics Framework"
-layout: "post"
+layout: post
 date: 2025-08-08
 last_modified: 2024-01-15 10:30:00
 

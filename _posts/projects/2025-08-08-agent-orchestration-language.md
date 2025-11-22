@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "Agent Orchestration Language: Technical Overview"
-layout: "post"
+layout: post
 date: 2025-08-08
 last_modified: 2024-01-15 10:00:00
 

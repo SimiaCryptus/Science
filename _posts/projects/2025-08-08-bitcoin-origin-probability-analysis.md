@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "Bitcoin Origin Probability Analysis: North Korea vs Alternative Theories"
-layout: "post"
+layout: post
 date: 2025-08-08
 last_modified: 2024-12-19 10:30:00
 

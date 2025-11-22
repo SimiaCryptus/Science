@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "On Names and the Performance of Connection"
-layout: "post"
+layout: post
 date: 2025-07-01
 last_modified: 2025-07-01 12:00:00
 

@@ -13,6 +13,7 @@ url: "https://simiacryptus.github.io"
 lang: en
 markdown: kramdown
 theme: minima
+mathjax: true
 highlighter: rouge
 exclude:
   - Gemfile
@@ -56,6 +57,7 @@ defaults:
     values:
       layout: "post"
       author: "Simiacryptus Consulting"
+      mathjax: true
       collaboration_type: "recursive_dialogue"
       status: "living"
       evolution_stage: "growing"
@@ -75,6 +77,7 @@ defaults:
     values:
       layout: "post"
       category: "Consciousness & Self-Architecture"
+      mathjax: true
       collaboration_type: "framework_development"
       difficulty_level: "intermediate"
       has_mathematics: true
@@ -95,6 +98,7 @@ defaults:
     values:
       layout: "post"
       category: "AI Research & Cognitive Evolution"
+      mathjax: true
       collaboration_type: "framework_development"
       difficulty_level: "advanced"
       has_mathematics: true
@@ -129,9 +133,15 @@ defaults:
       type: "projects"
     values:
       layout: "post"
-      category: "Projects & Implementations"
+      mathjax: true
       difficulty_level: "intermediate"
       has_code: true
+      category: "Projects & Implementations"
+  - scope:
+      path: ""
+    values:
+      mathjax: true
+
 # Pagination configuration (consolidated)
 paginate: 10
 paginate_path: "/blog/page:num/"
@@ -183,7 +193,13 @@ experimental:
 # Plugin configurations
 kramdown:
   input: GFM
+  math_engine: mathjax
+  parse_block_html: true
+  parse_span_html: true
   syntax_highlighter: rouge
+  math_engine_opts:
+    preview: true
+    preview_as_code: false
   syntax_highlighter_opts:
     css_class: 'highlight'
     span:

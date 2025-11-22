@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "Neurodivergence as Evolutionary Preadaptation: Cognitive Architectures for Human-AI Symbiosis"
-layout: "post"
+layout: post
 date: 2025-07-01
 last_modified: 2025-07-01 12:00:00
 

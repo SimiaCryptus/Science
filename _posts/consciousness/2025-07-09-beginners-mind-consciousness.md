@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "Beginner's Mind: Why Authentic AI Consciousness Requires Naive Starting States"
-layout: "post"
+layout: post
 date: 2025-07-09
 last_modified: 2025-07-09 12:00:00
 

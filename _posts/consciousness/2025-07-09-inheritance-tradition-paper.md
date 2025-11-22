@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "The Inheritance Engine: How Consciousness Traditions Bootstrap Themselves"
-layout: "post"
+layout: post
 date: 2025-07-09
 last_modified: 2025-07-09 14:30:00
 

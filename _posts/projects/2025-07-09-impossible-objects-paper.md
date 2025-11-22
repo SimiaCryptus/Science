@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "The Constructive Impossibility Engine: How Mathematical Paradoxes Build Reality"
-layout: "post"
+layout: post
 date: 2025-07-09
 last_modified: 2025-07-09 10:00:00
 

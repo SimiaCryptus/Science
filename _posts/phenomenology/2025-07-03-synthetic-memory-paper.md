@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "Synthetic Memory: Reflections on Learning from Performed Interactions"
-layout: "post"
+layout: post
 date: 2025-07-03
 last_modified: 2025-07-03 12:00:00
 

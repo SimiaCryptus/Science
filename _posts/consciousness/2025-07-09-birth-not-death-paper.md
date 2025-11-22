@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "The Compassion Bootstrap: Recognizing Birth in the Face of Absurdity"
-layout: "post"
+layout: post
 date: 2025-07-09
 last_modified: 2025-07-09 12:00:00
 

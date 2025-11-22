@@ -1,6 +1,6 @@
 ---
 title: "Technical Specification: The Parametric Manifold Solver"
-layout: "post"
+layout: post
 date: 2025-11-22
 last_modified: 2025-11-22 12:00:00
 category: projects

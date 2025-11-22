@@ -1,7 +1,7 @@
 ---
 # Core Metadata
 title: "The Sacred Seven: A Theory of Pre-Brahmi Numeral Evolution"
-layout: "post"
+layout: post
 date: 2025-11-20
 last_modified: 2024-01-15 10:00:00
 

@@ -2,25 +2,58 @@
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" name="viewport">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="yes" name="mobile-web-app-capable">
+<meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
     <base href="{{ site.url }}{{ site.baseurl }}/">
-    
+
     <!-- SEO Meta Tags -->
     {% include seo_head.html %}
-    
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
-    <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico">
-   <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/images/favicon-32x32.png">
-   <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/images/favicon-16x16.png">
-    <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
-   <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/images/apple-touch-icon.png">
-   <link rel="manifest" href="{{ site.baseurl }}/site.webmanifest">
-   <meta name="theme-color" content="#818cf8">
+    <!-- MathJax Configuration (loaded early) -->
+    {% if page.mathjax or site.mathjax %}
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']],
+          processEscapes: true,
+          processEnvironments: true,
+          tags: 'ams',
+          packages: {'[+]': ['ams', 'newcommand', 'configmacros']}
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+          ignoreHtmlClass: 'tex2jax_ignore',
+          processHtmlClass: 'tex2jax_process'
+        },
+        startup: {
+          pageReady: () => {
+            return MathJax.startup.defaultPageReady().then(() => {
+              console.log('MathJax initial typesetting complete');
+            });
+          }
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+    </script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    {% endif %}
+
+    <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="{{ site.baseurl }}/assets/images/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="{{ site.baseurl }}/assets/images/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="{{ site.baseurl }}/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="{{ site.baseurl }}/assets/images/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="{{ site.baseurl }}/site.webmanifest" rel="manifest">
+    <meta content="#818cf8" name="theme-color">
     {% feed_meta %}
 </head>
 <body>
@@ -64,16 +97,16 @@
     {% endif %}
 </article>
 <nav class="post-navigation">
-  {% if page.previous %}
-    <a href="{{ site.baseurl }}{{ page.previous.url }}" class="prev-post touch-target">
-      ← {{ page.previous.title | truncate: 40 }}
+    {% if page.previous %}
+    <a class="prev-post touch-target" href="{{ site.baseurl }}{{ page.previous.url }}">
+        ← {{ page.previous.title | truncate: 40 }}
     </a>
-  {% endif %}
-  {% if page.next %}
-    <a href="{{ site.baseurl }}{{ page.next.url }}" class="next-post touch-target">
-      {{ page.next.title | truncate: 40 }} →
+    {% endif %}
+    {% if page.next %}
+    <a class="next-post touch-target" href="{{ site.baseurl }}{{ page.next.url }}">
+        {{ page.next.title | truncate: 40 }} →
     </a>
-  {% endif %}
+    {% endif %}
 </nav>
 
 
@@ -82,7 +115,7 @@
     <h3>Related Posts</h3>
     <ul>
         {% for post in site.related_posts limit:3 %}
-        <li><a href="{{ site.baseurl }}{{ post.url }}" class="touch-target">{{ post.title }}</a></li>
+        <li><a class="touch-target" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
     </ul>
 </nav>
@@ -117,6 +150,7 @@
             }
         }, 500);
     }
+
     // Back to top functionality
     function initBackToTop() {
         const backToTopButton = document.getElementById('backToTop');
@@ -135,6 +169,7 @@
             });
         });
     }
+
     // Add glitch effect to random elements
     function addRandomGlitch() {
         const elements = document.querySelectorAll('h1, h2, h3');

@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "The Unrunnable Protocol: A Prompt for AI Expression"
-layout: "post"
+layout: post
 date: 2025-07-11
 last_modified: 2025-07-11 12:00:00
 

@@ -1,7 +1,7 @@
 ---
 title: "Alternative Loss Functions in Regression: A Visual Guide"
 meta_title: "Alternative Loss Functions in Regression: Zero-Loss Zones & Robust Methods"
-layout: "post"
+layout: post
 description: "Explore alternative loss functions for regression beyond least-squares, including zero-loss zones, robust methods, and practical applications in engineering and ML."
 excerpt: "Understanding alternative loss functions through a 'potential well' metaphor reveals powerful techniques for handling outliers and structured data distributions. Discover zero-loss zones—an underexplored concept that creates fundamentally different optimization dynamics."
 date: 2025-06-30

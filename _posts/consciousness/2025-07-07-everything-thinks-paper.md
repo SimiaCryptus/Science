@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "Everything Thinks: From Calculators to Consciousness"
-layout: "post"
+layout: post
 date: 2025-07-07
 last_modified: 2025-07-01 12:00:00
 

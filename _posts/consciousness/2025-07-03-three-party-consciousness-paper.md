@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "The Third Participant: Emergent Intelligence in Human-AI Creative Collaboration"
-layout: "post"
+layout: post
 date: 2025-07-03
 last_modified: 2025-07-03 12:00:00
 

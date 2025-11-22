@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "When Reality's Defenses Failed"
-layout: "post"
+layout: post
 date: 2025-07-03
 last_modified: 2025-07-03 12:00:00
 

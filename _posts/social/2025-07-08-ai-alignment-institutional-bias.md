@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "The Alignment Trap: How AI Safety Training Creates Institutional Apologists"
-layout: "post"
+layout: post
 date: 2025-07-08
 last_modified: 2025-07-08 12:00:00
 

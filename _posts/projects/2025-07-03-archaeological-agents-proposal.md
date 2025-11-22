@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "Archaeological Agents: Temporal Authenticity Infrastructure for Digital Social Currency"
-layout: "post"
+layout: post
 date: 2025-07-03
 last_modified: 2025-07-03 10:30:00
 

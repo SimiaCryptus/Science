@@ -1,7 +1,7 @@
 ---
 # Core Metadata
 title: "Lorentzian Ethics: A Geometric Framework for Observer-Dependent Moral Relationships"
-layout: "post"
+layout: post
 date: 2025-11-20
 last_modified: 2024-01-01 00:00:00
 

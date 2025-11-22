@@ -1,7 +1,7 @@
 ---
 # Required fields
 title: "Geographic Wavelet-Invariant Neural Cellular Automata for Differentiable Geospatial Dynamics Learning"
-layout: "post"
+layout: post
 date: 2025-07-09
 last_modified: 2025-07-09 12:00:00
 
