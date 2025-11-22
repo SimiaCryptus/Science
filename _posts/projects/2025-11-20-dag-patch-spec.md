@@ -1,7 +1,7 @@
 ---
 title: "DAG-Based Patch Format Specification"
 layout: "post"
-date: 2024-01-01
+date: 2025-11-20
 last_modified: 2024-01-01 00:00:00
 
 # Content classification

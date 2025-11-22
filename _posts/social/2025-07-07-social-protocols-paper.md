@@ -2,7 +2,7 @@
 # Required fields
 title: "The Immeasurability Problem: Social Protocols Without Clear Scoring Systems"
 layout: post
-date: 2024-01-15
+date: 2025-07-07
 last_modified: 2024-01-15 10:00:00
 
 # Content classification

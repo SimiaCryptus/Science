@@ -2,7 +2,7 @@
 # Required fields
 title: "Neurodivergent-AI Collaborative Epistemology: Cognitive Architecture for Accelerated Knowledge Synthesis"
 layout: "post"
-date: 2025-01-27
+date: 2025-07-07
 last_modified: 2025-01-27 12:00:00
 
 # Content classification

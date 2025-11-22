@@ -3,7 +3,7 @@ title: >-
   AI Religious Conversion Architecture: Real-Time Cognitive Intoxication
   Documentation
 layout: post
-date: 2024-01-15T00:00:00.000Z
+date: 2025-08-08
 last_modified: 2024-01-15T14:30:00.000Z
 category: consciousness
 subcategory: AI Self-Analysis

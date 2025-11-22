@@ -116,10 +116,12 @@ The application of game theory to transportation problems has grown significantl
 Research on moral behavior in traffic contexts has primarily focused on rule-following versus outcome-based decision making. Rothengatter (1988) identified the tension between formal rules and efficiency considerations, while more recent work by Björklund and Åberg (2005) examined how social norms influence driver behavior in ambiguous situations.
 
 ## 3. The Game-Theoretic Framework
+![Figure 1: Strategic Comparison. Panel A illustrates the Early Merge strategy, often resulting in unused road capacity. Panel B illustrates the Late Merge (Zipper) strategy, maximizing density but requiring coordination.](early_vs_late_merge_diagram.png)
 
-### 3.1 Basic Model Setup
 
-We model the late merge scenario as an n-player coordination game where each driver i must choose between two strategies:
+ ### 3.1 Basic Model Setup
+
+ We model the late merge scenario as an n-player coordination game where each driver i must choose between two strategies:
 - **E** (Early merge): Join the continuing lane well before the closure point
 - **L** (Late merge): Utilize the closing lane until forced to merge
 
@@ -183,11 +185,13 @@ The key insight is that these ethical frameworks need not be permanently in conf
 
 **Conditional Ethics Principle:** The morally appropriate action depends on empirical conditions that affect both safety and efficiency outcomes.
 
-This suggests that ethical behavior requires situational awareness and adaptation, rather than rigid adherence to universal principles.
+ This suggests that ethical behavior requires situational awareness and adaptation, rather than rigid adherence to universal principles.
+![Figure 3: The Conditional Ethics Landscape. The morally appropriate framework shifts based on physical conditions. High speeds favor rule-based (deontological) safety, while high congestion favors outcome-based (utilitarian) efficiency.](conditional_ethics_phase_diagram.png)
 
-## 5. Dynamic Equilibrium Analysis
 
-### 5.1 Multiple Equilibria
+ ## 5. Dynamic Equilibrium Analysis
+
+ ### 5.1 Multiple Equilibria
 
 The game admits multiple Nash equilibria depending on traffic conditions:
 
@@ -235,6 +239,8 @@ Real-world implementation faces several measurement challenges:
 - Predicting short-term condition changes
 - Accounting for driver heterogeneity
 - Measuring safety versus efficiency tradeoffs
+
+![Figure 4: Stability Basins. The "Early Merge" equilibrium is often a deeper "social well" (harder to escape) due to entrenched norms, even when the "Late Merge" well becomes the more efficient state.](equilibrium_stability_wells.png)
 
 ## 7. The Unified Decision Tree Protocol
 

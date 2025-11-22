@@ -2,7 +2,7 @@
 # Required fields
 title: "The Ego Attachment Problem in Human-AI Collaborative Cognition: Why Artificial Systems Learn Faster and Humans Think Deeper"
 layout: "post"
-date: 2025-01-27
+date: 2025-07-07
 last_modified: 2025-01-27 12:00:00
 
 # Content classification

@@ -2,7 +2,7 @@
 # Required fields
 title: "On Social Weight and Technical Discourse: A Reflection"
 layout: "post"
-date: 2025-01-07
+date: 2025-07-07
 last_modified: 2025-01-07 14:30:00
 
 # Content classification

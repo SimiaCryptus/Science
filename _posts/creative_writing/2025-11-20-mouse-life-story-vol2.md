@@ -2,7 +2,7 @@
 # Core Metadata
 title: "The Life of a Genetically Engineered Waste Processing Organism - Volume 2: After the Flash"
 layout: "post"
-date: 2024-01-15
+date: 2025-11-20
 last_modified: 2024-01-15 10:00:00
 
 # Content Classification

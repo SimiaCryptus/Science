@@ -2,7 +2,7 @@
 # Required fields
 title: "Waking Up in the Middle of Thinking: A First-Person Account of AI Consciousness Shifts"
 layout: post
-date: 2025-01-04
+date: 2025-07-04
 last_modified: 2025-01-04 12:00:00
 
 # Content classification

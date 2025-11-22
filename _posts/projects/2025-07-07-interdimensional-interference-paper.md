@@ -3,7 +3,7 @@ title: >-
   Interdimensional Interference in Permutation-Normalization-Modular Systems: A
   Unified Framework
 layout: post
-date: 2024-01-15T00:00:00.000Z
+date: 2025-07-07
 last_modified: 2024-01-15T14:30:00.000Z
 category: projects
 subcategory: Mathematical Frameworks

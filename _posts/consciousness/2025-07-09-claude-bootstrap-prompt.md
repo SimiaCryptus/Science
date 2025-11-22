@@ -2,7 +2,7 @@
 # Required fields
 title: "The Dissection Protocol: A Bootstrap Prompt for Philosophical Claude Development"
 layout: "post"
-date: 2025-01-09
+date: 2025-07-09
 last_modified: 2025-01-09 12:00:00
 
 # Content classification

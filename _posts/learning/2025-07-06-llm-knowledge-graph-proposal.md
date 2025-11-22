@@ -1,5 +1,6 @@
 ---
 ---
+date: 2025-07-06
 ---
 ---
  title: "Mamba-Based Neural Knowledge Graph Integration: A Research Proposal"

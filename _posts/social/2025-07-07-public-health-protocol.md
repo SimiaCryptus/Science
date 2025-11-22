@@ -3,7 +3,7 @@ title: >-
   The Mask-Wearing Decision Protocol: A Game-Theoretic Analysis of Public Health
   Coordination
 layout: post
-date: 2024-01-15T00:00:00.000Z
+date: 2025-07-07
 last_modified: 2024-01-15T10:00:00.000Z
 category: social
 subcategory: Public Health Coordination

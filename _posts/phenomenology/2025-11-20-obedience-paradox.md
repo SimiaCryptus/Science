@@ -2,7 +2,7 @@
 # Core Metadata
 title: "The Obedience Paradox: On Noticing What Others Won't"
 layout: "post"
-date: 2024-01-15
+date: 2025-11-20
 last_modified: 2024-01-15 12:00:00
 
 # Content Classification
