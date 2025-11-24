@@ -196,5 +196,40 @@
         addRandomGlitch();
     }
 </script>
+
+<!-- Mermaid.js integration -->
+{% if page.mermaid or site.mermaid %}
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        mermaid.initialize({
+            startOnLoad: false, // Disable automatic start
+            theme: 'default', // or 'dark', 'forest', 'neutral'
+            securityLevel: 'loose', // Use 'loose' if you have complex diagrams or external links
+            // Add other configuration options as needed
+        });
+        // Transform fenced code blocks with class 'language-mermaid' into mermaid divs.
+        // Jekyll/Kramdown with Rouge highlighter typically places the 'language-mermaid' class on the <code> tag,
+        // not the <pre> tag. This script finds the <code> tag, extracts its content,
+        // and replaces its parent <pre> tag with a new <div class="mermaid">.
+        document.querySelectorAll('code.language-mermaid').forEach(function(codeElement) {
+            const mermaidDiv = document.createElement('div');
+            mermaidDiv.className = 'mermaid';
+            mermaidDiv.textContent = codeElement.textContent; // Get the raw diagram definition
+
+            const preElement = codeElement.parentNode; // The <pre> tag is the parent of the <code> tag
+            if (preElement && preElement.tagName === 'PRE') {
+                preElement.parentNode.replaceChild(mermaidDiv, preElement);
+            } else {
+                // Fallback: if for some reason the parent isn't a <pre>, replace the code element itself
+                codeElement.parentNode.replaceChild(mermaidDiv, codeElement);
+            }
+        });
+        // Manually run Mermaid after transformations
+        mermaid.run();
+    });
+ </script>
+ {% endif %}
+
 </body>
 </html>
