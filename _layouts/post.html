@@ -6,7 +6,7 @@
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" name="viewport">
     <meta content="telephone=no" name="format-detection">
     <meta content="yes" name="mobile-web-app-capable">
-<meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-mobile-web-app-capable">
     <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
     <base href="{{ site.url }}{{ site.baseurl }}/">
 
@@ -15,34 +15,34 @@
     <!-- MathJax Configuration (loaded early) -->
     {% if page.mathjax or site.mathjax %}
     <script>
-      window.MathJax = {
-        tex: {
-          inlineMath: [['$', '$'], ['\\(', '\\)']],
-          displayMath: [['$$', '$$'], ['\\[', '\\]']],
-          processEscapes: true,
-          processEnvironments: true,
-          tags: 'ams',
-          packages: {'[+]': ['ams', 'newcommand', 'configmacros']}
-        },
-        options: {
-          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
-          ignoreHtmlClass: 'tex2jax_ignore',
-          processHtmlClass: 'tex2jax_process'
-        },
-        startup: {
-          pageReady: () => {
-            return MathJax.startup.defaultPageReady().then(() => {
-              console.log('MathJax initial typesetting complete');
-            });
-          }
-        },
-        svg: {
-          fontCache: 'global'
-        }
-      };
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: true,
+                processEnvironments: true,
+                tags: 'ams',
+                packages: {'[+]': ['ams', 'newcommand', 'configmacros']}
+            },
+            options: {
+                skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+                ignoreHtmlClass: 'tex2jax_ignore',
+                processHtmlClass: 'tex2jax_process'
+            },
+            startup: {
+                pageReady: () => {
+                    return MathJax.startup.defaultPageReady().then(() => {
+                        console.log('MathJax initial typesetting complete');
+                    });
+                }
+            },
+            svg: {
+                fontCache: 'global'
+            }
+        };
     </script>
-    <script type="text/javascript" id="MathJax-script" async
-      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    <script async id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+            type="text/javascript">
     </script>
     {% endif %}
 

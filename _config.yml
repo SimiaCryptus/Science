@@ -225,10 +225,6 @@ include:
   - README.md
   - LICENSE
   - .gitignore
-  - .idea/
-  - Science.iml
-  - .logs/
-  - .git/
 
 # Plugins (consolidated and fixed)
 plugins:
