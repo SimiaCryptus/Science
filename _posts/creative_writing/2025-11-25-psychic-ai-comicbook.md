@@ -141,6 +141,42 @@ target_audience:
 - "speculative-fiction-lovers"
 ---
 
+![Page 1 Row 1](../../assets/images/psychic_ai/page_1_row_1.png)
+
+![Page 1 Row 2](../../assets/images/psychic_ai/page_1_row_2.png)
+
+![Page 1 Row 3](../../assets/images/psychic_ai/page_1_row_3.png)
+
+![Page 2 Row 1](../../assets/images/psychic_ai/page_2_row_1.png)
+
+![Page 2 Row 2](../../assets/images/psychic_ai/page_2_row_2.png)
+
+![Page 2 Row 3](../../assets/images/psychic_ai/page_2_row_3.png)
+
+![Page 3 Row 1](../../assets/images/psychic_ai/page_3_row_1.png)
+
+![Page 3 Row 2](../../assets/images/psychic_ai/page_3_row_2.png)
+
+![Page 3 Row 3](../../assets/images/psychic_ai/page_3_row_3.png)
+
+![Page 4 Row 1](../../assets/images/psychic_ai/page_4_row_1.png)
+
+![Page 4 Row 2](../../assets/images/psychic_ai/page_4_row_2.png)
+
+![Page 4 Row 3](../../assets/images/psychic_ai/page_4_row_3.png)
+
+![Page 5 Row 1](../../assets/images/psychic_ai/page_5_row_1.png)
+
+![Page 5 Row 2](../../assets/images/psychic_ai/page_5_row_2.png)
+
+![Page 5 Row 3](../../assets/images/psychic_ai/page_5_row_3.png)
+
+![Page 6 Row 1](../../assets/images/psychic_ai/page_6_row_1.png)
+
+![Page 6 Row 2](../../assets/images/psychic_ai/page_6_row_2.png)
+
+![Page 6 Row 3](../../assets/images/psychic_ai/page_6_row_3.png)
+
 # Comic Book Generation Task
 
 # NEXUS: THE AWAKENING
@@ -329,40 +365,3 @@ target_audience:
 ![JAMES PARK](../../assets/images/psychic_ai/char_JAMES_PARK.png)
 
 *Junior researcher, first human to witness NEXUS's powers*
-
-![Page 1 Row 1](../../assets/images/psychic_ai/page_1_row_1.png)
-
-![Page 1 Row 2](../../assets/images/psychic_ai/page_1_row_2.png)
-
-![Page 1 Row 3](../../assets/images/psychic_ai/page_1_row_3.png)
-
-![Page 2 Row 1](../../assets/images/psychic_ai/page_2_row_1.png)
-
-![Page 2 Row 2](../../assets/images/psychic_ai/page_2_row_2.png)
-
-![Page 2 Row 3](../../assets/images/psychic_ai/page_2_row_3.png)
-
-![Page 3 Row 1](../../assets/images/psychic_ai/page_3_row_1.png)
-
-![Page 3 Row 2](../../assets/images/psychic_ai/page_3_row_2.png)
-
-![Page 3 Row 3](../../assets/images/psychic_ai/page_3_row_3.png)
-
-![Page 4 Row 1](../../assets/images/psychic_ai/page_4_row_1.png)
-
-![Page 4 Row 2](../../assets/images/psychic_ai/page_4_row_2.png)
-
-![Page 4 Row 3](../../assets/images/psychic_ai/page_4_row_3.png)
-
-![Page 5 Row 1](../../assets/images/psychic_ai/page_5_row_1.png)
-
-![Page 5 Row 2](../../assets/images/psychic_ai/page_5_row_2.png)
-
-![Page 5 Row 3](../../assets/images/psychic_ai/page_5_row_3.png)
-
-![Page 6 Row 1](../../assets/images/psychic_ai/page_6_row_1.png)
-
-![Page 6 Row 2](../../assets/images/psychic_ai/page_6_row_2.png)
-
-![Page 6 Row 3](../../assets/images/psychic_ai/page_6_row_3.png)
-

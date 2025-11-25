@@ -334,10 +334,6 @@ write a comic book about self-driving cars that have become sentient and are fig
 *THE END... AND THE BEGINNING*
 
 
-
-
-
-
 ### Topics
 
 * `{artificial_intelligence_and_sentience}` - `artificial consciousness`, `AI sentience`, `machine consciousness`, `proof of consciousness`
