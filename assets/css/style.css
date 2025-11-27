@@ -376,6 +376,68 @@ body {
     flex-wrap: wrap;
 }
 
+ /* Mobile menu toggle button */
+ .nav-toggle {
+    display: none;
+    background: transparent;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 10px 15px;
+    font-family: var(--font-display);
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+}
+.nav-toggle:hover {
+    background: var(--primary-color);
+    color: var(--bg-primary);
+    box-shadow: 0 0 var(--glow-medium) var(--primary-color);
+}
+
+ .nav-toggle-icon {
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    position: relative;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+ .nav-toggle-icon::before,
+ .nav-toggle-icon::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    left: 0;
+    transition: transform 0.3s ease;
+}
+
+ .nav-toggle-icon::before {
+    top: -6px;
+}
+
+ .nav-toggle-icon::after {
+    top: 6px;
+}
+
+ /* Animate hamburger to X when open */
+ .nav-toggle.active .nav-toggle-icon {
+    background: transparent;
+}
+
+ .nav-toggle.active .nav-toggle-icon::before {
+    transform: rotate(45deg) translate(4px, 4px);
+}
+
+ .nav-toggle.active .nav-toggle-icon::after {
+    transform: rotate(-45deg) translate(4px, -4px);
+}
+}
+
 .site-header nav a {
     color: var(--tertiary-color);
     text-decoration: none;
@@ -1225,39 +1287,81 @@ img:hover {
         margin-bottom: 10px;
     }
 
-    .site-header h1 {
-        font-size: 1.8em;
         letter-spacing: 1px;
-        line-height: 1.1;
         margin-bottom: 10px;
-    }
 
-    .site-header {
-        padding: calc(var(--spacing-unit) * 1.2) 0;
         text-align: center;
-    }
 
     .site-header .site-tagline {
         font-size: 0.9em;
         margin-top: 8px;
     }
 
+    /* Mobile hamburger menu */
+    .nav-toggle {
+        display: inline-flex;
+        align-items: center;
+    }
+
 
     .site-nav {
+        display: none;
         flex-direction: column;
         gap: 15px;
-        padding: 0 10px;
-        margin-top: 15px;
+        padding: 0;
+        margin-top: 0;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--bg-secondary);
+        border-top: 2px solid var(--primary-color);
+        border-bottom: 2px solid var(--primary-color);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+        max-height: 70vh;
+        overflow-y: auto;
+    }
+
+    .site-nav.active {
+        display: flex;
+        animation: slideDown 0.3s ease;
+    }
+
+    @keyframes slideDown {
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
     }
 
     .site-header nav a {
         display: block;
         width: 100%;
         text-align: center;
-        padding: 12px 15px;
+        padding: 15px 20px;
         font-size: 0.9em;
         margin: 0;
         touch-action: manipulation;
+        border-bottom: 1px solid color-mix(in srgb, var(--primary-color) 30%, transparent);
+    }
+
+    .site-header nav a:last-child {
+        border-bottom: none;
+    }
+
+    .site-header nav a:hover,
+    .site-header nav a:active {
+        background: color-mix(in srgb, var(--primary-color) 20%, transparent);
+    }
+
+    /* Make header position relative for absolute nav positioning */
+    .header-content {
+        position: relative;
     }
 
     /* Improve touch targets */
@@ -1513,7 +1617,7 @@ img:hover {
 }
 
 /* Additional mobile-specific improvements */
-@media (max-width: 480px) {
+ @media (max-width: 480px) {
     :root {
         --spacing-unit: 12px;
         --font-size-base: 0.85rem;
@@ -1530,10 +1634,6 @@ img:hover {
         font-size: 0.8em;
     }
 
-    .site-nav {
-        gap: 10px;
-        margin-top: 12px;
-    }
 
     .site-header nav a {
         padding: 10px 12px;
@@ -2936,3 +3036,34 @@ img[loading="lazy"].loaded {
         justify-content: center;
     }
 }
+        display: none;
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+        margin-top: 0;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--bg-secondary);
+        border-top: 2px solid var(--primary-color);
+        border-bottom: 2px solid var(--primary-color);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+        max-height: 70vh;
+        overflow-y: auto;
+    }
+    .site-nav.active {
+        display: flex;
+        animation: slideDown 0.3s ease;
+    }
+    @keyframes slideDown {
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        padding: 12px 15px;

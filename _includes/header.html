@@ -1,6 +1,10 @@
 <div class="site-header">
     <div class="header-content">
         <a href="{{ '/' | relative_url }}"><img src="assets/images/fractal_thought_engine.png" height="290" width="457"/></a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+            <span class="nav-toggle-icon"></span>
+            <span>MENU</span>
+        </button>
         <nav class="site-nav">
             <a href="{{ '/portfolio.html' | relative_url }}" class="touch-target">Portfolio</a>
             <a href="{{ '/projects.html' | relative_url }}" class="touch-target">Projects</a>
@@ -12,7 +16,7 @@
             <a href="{{ '/creative_writing.html' | relative_url }}" class="touch-target">Creative</a>
         </nav>
     </div>
-</div>
+ </div>
 
 <section class="header-disclaimers" aria-label="Important disclaimers">
   <details class="header-disclaimer-section">
@@ -438,7 +442,36 @@
     const model = new ThemeLinearModel();
     model.applyTheme(savedTheme);
     
-    // Make model globally available for theme switching
+// Make model globally available for theme switching
     window.themeModel = model;
   });
-</script>
+  // Mobile navigation toggle
+  document.addEventListener('DOMContentLoaded', function() {
+    const navToggle = document.getElementById('navToggle');
+    const siteNav = document.querySelector('.site-nav');
+    if (navToggle && siteNav) {
+      navToggle.addEventListener('click', function() {
+        const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
+        navToggle.setAttribute('aria-expanded', !isExpanded);
+        navToggle.classList.toggle('active');
+        siteNav.classList.toggle('active');
+      });
+      // Close menu when clicking a link
+      siteNav.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', function() {
+          navToggle.setAttribute('aria-expanded', 'false');
+          navToggle.classList.remove('active');
+          siteNav.classList.remove('active');
+        });
+      });
+      // Close menu when clicking outside
+      document.addEventListener('click', function(event) {
+        if (!navToggle.contains(event.target) && !siteNav.contains(event.target)) {
+          navToggle.setAttribute('aria-expanded', 'false');
+          navToggle.classList.remove('active');
+          siteNav.classList.remove('active');
+        }
+      });
+    }
+  });
+ </script>
