@@ -74,17 +74,21 @@ application_domain: ["AI-Research", "Neurobiological-Research"]
 
 ## Core Concept
 
-A novel neurobiological emulation system using live ants as computational agents within a 3D sphere-packing lattice, where entropy gradients create dynamic gravitational fields that guide swarm behavior to maintain optimal chaos for complex computation.
+A novel neurobiological emulation system using live ants as computational agents within a 3D sphere-packing lattice,
+where entropy gradients create dynamic gravitational fields that guide swarm behavior to maintain optimal chaos for
+complex computation.
 
 ## Architecture Overview
 
 ### Substrate Layer
+
 - **Face-Centered Cubic (FCC) lattice** providing 12-neighbor connectivity
 - **Sphere-packing geometry** for maximum density and biological realism
 - **3D navigation paths** between discrete lattice points
 - **Programmable field generators** at each lattice position
 
 ### Biological Agents
+
 - **Live ants** as mobile computational elements
 - **Dynamic "north" vector** = entropy gradient direction = local gravity
 - **Deterministic movement rules** based on local field conditions
@@ -93,12 +97,14 @@ A novel neurobiological emulation system using live ants as computational agents
 ### Dual Cellular Automata Layers
 
 #### Layer 1: Ant-Generated Topology
+
 - Ant trails create network connectivity patterns
-- Pheromone deposition follows entropy-optimized paths  
+- Pheromone deposition follows entropy-optimized paths
 - Real-time topology adaptation based on system needs
 - Circuit-like structures emerge from collective behavior
 
 #### Layer 2: Higher-Order Dynamics
+
 - CA rules determined by Layer 1 activation patterns
 - Statistical integration over 3D volumes
 - Emergent computational properties from chaotic substrate
@@ -107,12 +113,14 @@ A novel neurobiological emulation system using live ants as computational agents
 ### Entropy Homeostasis
 
 #### Local Sensing
+
 - Each ant responds to local entropy density
 - System measures computational complexity in real-time
 - Feedback between measurement and field generation
 - Maintains "edge of chaos" operating regime
 
 #### Dynamic Control
+
 - **North = Down = Entropy Gradient Direction**
 - Ants experience entropy optimization as gravitational pull
 - Too ordered → gravity points toward complexity-increasing directions
@@ -122,6 +130,7 @@ A novel neurobiological emulation system using live ants as computational agents
 ## Technical Implementation
 
 ### Field Generation
+
 ```
 For each lattice point (x,y,z):
   local_entropy = measure_CA_complexity(neighborhood)
@@ -131,6 +140,7 @@ For each lattice point (x,y,z):
 ```
 
 ### Ant Movement Rules
+
 ```
 For each ant:
   local_gravity = gravity_field[current_position]
@@ -148,6 +158,7 @@ For each ant:
 ```
 
 ### System Output
+
 - **Statistical Integration**: Measure Layer 2 CA patterns over 3D volumes
 - **Electrostatic Analog**: Treat activation densities as charge distributions
 - **Temporal Dynamics**: Track system evolution and learning behaviors
@@ -156,18 +167,21 @@ For each ant:
 ## Novel Properties
 
 ### Self-Organizing Criticality
+
 - System naturally maintains optimal computational regime
 - No external tuning required once entropy mapping is established
 - Robust against perturbations and component failures
 - Emergent optimization of network topology
 
 ### Biological Realism
+
 - True 3D neural-like connectivity patterns
 - Distributed processing with no central control
 - Adaptive network structure based on computational demands
 - Natural timing and synchronization effects
 
 ### Computational Advantages
+
 - **Massive Parallelism**: Thousands of ants computing simultaneously
 - **Analog Processing**: Continuous field effects and gradients
 - **Dynamic Reconfiguration**: Network adapts to different problem types
@@ -176,20 +190,23 @@ For each ant:
 ## Applications
 
 ### Neurobiological Research
+
 - Test hypotheses about brain network organization
 - Explore consciousness emergence from chaotic dynamics
 - Study information integration across scales
 - Model attention and decision-making processes
 
 ### Novel AI Architectures
+
 - Alternative to digital neural networks
 - Hardware implementation of swarm intelligence
 - Optimization problems requiring exploration/exploitation balance
 - Real-time adaptive systems
 
 ### Complex Systems Modeling
+
 - Social network dynamics
-- Economic market behaviors  
+- Economic market behaviors
 - Ecological system interactions
 - Urban traffic flow optimization
 
@@ -207,30 +224,33 @@ For each ant:
 
 ## Comparison to Existing Approaches
 
-| Property | Traditional ANNs | This Architecture |
-|----------|------------------|-------------------|
-| Substrate | Digital/Silicon | Physical/Biological |
-| Dynamics | Deterministic | Chaotic/Stochastic |
-| Topology | Fixed | Self-Organizing |
-| Computation | Discrete | Continuous |
-| Adaptation | Training-Based | Real-Time |
-| Dimensionality | Abstract | Physical 3D |
+| Property       | Traditional ANNs | This Architecture   |
+|----------------|------------------|---------------------|
+| Substrate      | Digital/Silicon  | Physical/Biological |
+| Dynamics       | Deterministic    | Chaotic/Stochastic  |
+| Topology       | Fixed            | Self-Organizing     |
+| Computation    | Discrete         | Continuous          |
+| Adaptation     | Training-Based   | Real-Time           |
+| Dimensionality | Abstract         | Physical 3D         |
 
 ## Implementation Challenges
 
 ### Engineering
+
 - Precise magnetic field control in 3D space
 - Real-time entropy measurement and computation
 - Ant population management and health
 - Environmental control (temperature, humidity, etc.)
 
 ### Theoretical
+
 - Mapping between entropy gradients and computational needs
 - Stability analysis of the homeostatic control system
 - Validation of neurobiological correspondence
 - Performance metrics for chaotic computation
 
 ### Practical
+
 - Scaling to larger problem sizes
 - Integration with traditional computing systems
 - Reproducibility across different ant colonies
@@ -238,4 +258,5 @@ For each ant:
 
 ---
 
-*This represents a fundamentally new approach to computation that bridges biology, physics, and computer science - using entropy as the organizing principle for swarm-based neurobiological emulation in true 3D space.*
+*This represents a fundamentally new approach to computation that bridges biology, physics, and computer science - using
+entropy as the organizing principle for swarm-based neurobiological emulation in true 3D space.*

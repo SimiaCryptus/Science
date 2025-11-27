@@ -425,8 +425,8 @@ The architecture supports flexible model utilization strategies:
 * **Multi-Model Ensemble**:
     * Model selection based on historical performance for parameter combinations
     * Weighted voting with learned model expertise profiles
-  * Consensus building through semantic alignment (this ensemble approach shares principles with EchoSynth's Dialectic
-    Choreographers coordinating multiple interpretive agents, see `ai/echosynth_proposal.md`)
+    * Consensus building through semantic alignment (this ensemble approach shares principles with EchoSynth's Dialectic
+      Choreographers coordinating multiple interpretive agents, see `ai/echosynth_proposal.md`)
 
 * **Hybrid Approaches**:
     * Reasoning phase identification (planning → execution → verification)

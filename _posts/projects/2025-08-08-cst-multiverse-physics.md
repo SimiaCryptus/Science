@@ -84,13 +84,17 @@ is_synthesis: true
 
 ## Abstract
 
-We present a framework for dynamically generating interactive narrative multiverses using Causal Set Theory (CST) as the underlying mathematical structure. Documents become discrete spacetime events, reader choices determine causal relationships, and the emergent large-scale structure forms a coherent narrative universe with genuine relativistic properties.
+We present a framework for dynamically generating interactive narrative multiverses using Causal Set Theory (CST) as the
+underlying mathematical structure. Documents become discrete spacetime events, reader choices determine causal
+relationships, and the emergent large-scale structure forms a coherent narrative universe with genuine relativistic
+properties.
 
 ## 1. Theoretical Foundation
 
 ### 1.1 Physical-Narrative Correspondence
 
 **Core Mapping:**
+
 - **Documents** ↔ Spacetime Events (discrete points in narrative spacetime)
 - **Reader Choices** ↔ Causal Links (directed edges creating partial ordering)
 - **Narrative Coherence** ↔ Lattice Optimization Pressure (structural consistency)
@@ -100,12 +104,14 @@ We present a framework for dynamically generating interactive narrative multiver
 
 **Partial Ordering Relation:**
 For documents D₁, D₂ in the narrative multiverse, D₁ ≺ D₂ iff:
+
 - D₁ causally precedes D₂ (information/events in D₁ influence D₂)
 - There exists a directed path of reader choices connecting D₁ → D₂
 - The causal relationship preserves narrative consistency
 
 **Causal Diamonds:**
 Regions of story-space where certain document sequences are mandatory:
+
 ```
     D_future
    /         \
@@ -119,16 +125,19 @@ D_past ≺ D_present ≺ D_consequence
 ### 2.1 Birth Process Dynamics
 
 **Document Generation Probability:**
+
 ```
 P(new_doc | causal_context) = f(ρ_local, θ_coherence, E_thematic)
 ```
 
 Where:
+
 - `ρ_local`: Local density of existing causal relationships
 - `θ_coherence`: Narrative coherence tensor at that graph location
 - `E_thematic`: Thematic field energy requiring resolution
 
 **Accretion Rules:**
+
 1. **Causal Completeness**: If reader choice creates causal necessity, corresponding document must be generated
 2. **Coherence Preservation**: New documents minimize narrative stress tensor
 3. **Thematic Consistency**: Generated content preserves field configuration energy
@@ -137,6 +146,7 @@ Where:
 ### 2.2 Causal Link Formation
 
 **Reader Choice Mapping:**
+
 ```python
 def process_reader_choice(character_state, dialogue_input, context):
     # Extract causal parameters from roleplay interaction
@@ -158,12 +168,14 @@ def process_reader_choice(character_state, dialogue_input, context):
 
 **Discrete to Continuous Limit:**
 As document density increases, the causal set approximates a smooth narrative manifold with:
+
 - **Metric Signature**: (-, +, +, +) where timelike dimension represents narrative causality
 - **Curvature**: Induced by thematic "mass-energy" that bends story trajectories
 - **Geodesics**: Optimal reader paths through the narrative spacetime
 
 **Causal Horizons:**
 Documents beyond the reader's causal reach:
+
 ```
 Horizon(reader_position) = {D : no causal path from reader choices to D}
 ```
@@ -172,6 +184,7 @@ Horizon(reader_position) = {D : no causal path from reader choices to D}
 
 **Path Independence:**
 The essential narrative structure remains invariant under reader path transformations:
+
 - Different readers can traverse same causal events in different orders
 - Core story relationships preserved across all valid trajectories
 - **Proper time**: Each reader experiences their own narrative timeline
@@ -181,16 +194,19 @@ The essential narrative structure remains invariant under reader path transforma
 ### 4.1 Coupled Field Equations
 
 **Narrative Lattice Evolution:**
+
 ```
 ∂²g_μν/∂τ² = -Γ(∇coherence) - κT_narrative
 ```
 
 **Thematic Field Dynamics:**
+
 ```
 □φ_theme + V'(φ_theme) = J_reader_choices
 ```
 
 Where:
+
 - `g_μν`: Narrative spacetime metric (graph connectivity)
 - `T_narrative`: Stress-energy tensor from plot inconsistencies
 - `φ_theme`: Thematic field configuration
@@ -199,11 +215,13 @@ Where:
 ### 4.2 Cross-Scale Coupling
 
 **Microscale → Macroscale:**
+
 - Individual reader choices create local causal perturbations
 - Accumulation leads to large-scale narrative structure evolution
 - **Renormalization**: Short-distance story details average out at large scales
 
 **Macroscale → Microscale:**
+
 - Global thematic coherence constrains local document generation
 - **Effective theory**: Local story dynamics influenced by global narrative curvature
 
@@ -212,6 +230,7 @@ Where:
 ### 5.1 Agent-Based Generation Engine
 
 **Core Components:**
+
 ```python
 class NarrativeCST:
     def __init__(self):
@@ -249,13 +268,15 @@ class NarrativeCST:
 
 **Coordinate Charts:**
 Different document types occupy different regions of narrative spacetime:
+
 - **Scientific Papers**: High technical coherence, low emotional content
-- **Personal Narratives**: High emotional coherence, variable technical content  
+- **Personal Narratives**: High emotional coherence, variable technical content
 - **Historical Records**: Fixed causal precedence, medium coherence requirements
 - **Philosophical Essays**: High thematic coherence, flexible causal positioning
 
 **Transition Functions:**
 Smooth transformations between document types based on reader trajectory:
+
 ```python
 def document_transition(current_type, reader_vector, causal_context):
     # Calculate optimal document type for new causal position
@@ -270,6 +291,7 @@ def document_transition(current_type, reader_vector, causal_context):
 ### 6.1 Causal Consistency Checks
 
 **Acyclicity Enforcement:**
+
 ```python
 def validate_causal_structure(new_links):
     for link in new_links:
@@ -279,20 +301,25 @@ def validate_causal_structure(new_links):
 ```
 
 **Temporal Ordering:**
-Ensure all generated documents respect established narrative chronology while allowing for multiple consistent interpretations.
+Ensure all generated documents respect established narrative chronology while allowing for multiple consistent
+interpretations.
 
 ### 6.2 Coherence Metrics
 
 **Narrative Stress Tensor:**
+
 ```
 S_μν = ∂²E_narrative/∂g_μν∂g_ρσ
 ```
+
 Measures structural inconsistencies in the causal graph.
 
 **Thematic Field Energy:**
+
 ```
 E_theme = ∫(½(∇φ)² + V(φ) + φJ_reader)d⁴x
 ```
+
 Quantifies philosophical consistency across the multiverse.
 
 ## 7. Emergent Properties
@@ -300,11 +327,13 @@ Quantifies philosophical consistency across the multiverse.
 ### 7.1 Narrative Thermodynamics
 
 **Entropy Growth:**
+
 - Story complexity increases as causal graph grows
 - **Arrow of narrative time**: Irreversible accumulation of plot elements
 - **Heat death**: Eventual saturation where no new meaningful documents can be generated
 
 **Information Geometry:**
+
 - Reader choices follow geodesics in information space
 - **Surprise**: Curvature in narrative probability manifold
 - **Learning**: Gradient descent on story understanding landscape
@@ -313,6 +342,7 @@ Quantifies philosophical consistency across the multiverse.
 
 **Genre Shifts:**
 Critical points where narrative structure undergoes discontinuous change:
+
 - Science → Horror (when cosmic doom becomes apparent)
 - Individual → Collective (scale transitions in story focus)
 - Human → Post-Human (evolutionary phase transitions)
@@ -325,12 +355,14 @@ Critical points where narrative structure undergoes discontinuous change:
 Each reader creates their own branch of the causal set, with shared backbone structure but unique experiential paths.
 
 **Collaborative World-Building:**
-Multiple readers contribute to same causal structure, creating emergent narrative complexity beyond any individual contribution.
+Multiple readers contribute to same causal structure, creating emergent narrative complexity beyond any individual
+contribution.
 
 ### 8.2 Educational Applications
 
 **Science Communication:**
-Complex scientific concepts naturally emerge through roleplay interactions, with technical documents generated on-demand based on reader curiosity.
+Complex scientific concepts naturally emerge through roleplay interactions, with technical documents generated on-demand
+based on reader curiosity.
 
 **Historical Simulation:**
 Causal set structure can model historical events with multiple perspectives and counterfactual branches.
@@ -355,8 +387,13 @@ Train models to anticipate reader preferences and pre-generate likely narrative 
 
 ## Conclusion
 
-By treating interactive narratives as discrete spacetime manifolds governed by causal set theory, we create genuinely physics-based storytelling systems. The resulting multiverses exhibit emergent complexity, maintain consistency across scales, and provide rich, personalized experiences that evolve through reader interaction.
+By treating interactive narratives as discrete spacetime manifolds governed by causal set theory, we create genuinely
+physics-based storytelling systems. The resulting multiverses exhibit emergent complexity, maintain consistency across
+scales, and provide rich, personalized experiences that evolve through reader interaction.
 
-This framework bridges computational creativity, fundamental physics, and human narrative understanding, suggesting new approaches to both storytelling technology and our understanding of information, causality, and meaning in complex systems.
+This framework bridges computational creativity, fundamental physics, and human narrative understanding, suggesting new
+approaches to both storytelling technology and our understanding of information, causality, and meaning in complex
+systems.
 
-The story becomes a **living universe** that readers help optimize through their choices, creating unique contributions to an ever-evolving narrative cosmos.
+The story becomes a **living universe** that readers help optimize through their choices, creating unique contributions
+to an ever-evolving narrative cosmos.

@@ -97,15 +97,28 @@ is_gateway: false
 is_synthesis: true
 ---
 
-This paper presents a comprehensive software framework for implementing trust region methods in neural network optimization. The framework, implemented in Java as part of the MindsEye library, provides a flexible and extensible architecture for constraining parameter updates during gradient-based optimization. We introduce several trust region strategies including orthonormal constraints, linear sum constraints, single orthant restrictions, and adaptive trust spheres. The framework integrates seamlessly with existing optimization algorithms such as L-BFGS while providing fine-grained control over parameter evolution. Our implementation demonstrates how trust region methods can improve optimization stability and convergence properties in deep learning applications.
+This paper presents a comprehensive software framework for implementing trust region methods in neural network
+optimization. The framework, implemented in Java as part of the MindsEye library, provides a flexible and extensible
+architecture for constraining parameter updates during gradient-based optimization. We introduce several trust region
+strategies including orthonormal constraints, linear sum constraints, single orthant restrictions, and adaptive trust
+spheres. The framework integrates seamlessly with existing optimization algorithms such as L-BFGS while providing
+fine-grained control over parameter evolution. Our implementation demonstrates how trust region methods can improve
+optimization stability and convergence properties in deep learning applications.
 
 ## 1. Introduction
 
-Neural network optimization presents unique challenges due to the high-dimensional, non-convex nature of the loss landscape. While gradient-based methods have proven effective, unconstrained parameter updates can lead to instability, divergence, or poor generalization. Trust region methods offer a principled approach to constraining optimization steps within regions where model approximations remain valid.
+Neural network optimization presents unique challenges due to the high-dimensional, non-convex nature of the loss
+landscape. While gradient-based methods have proven effective, unconstrained parameter updates can lead to instability,
+divergence, or poor generalization. Trust region methods offer a principled approach to constraining optimization steps
+within regions where model approximations remain valid.
 
-This paper documents a software framework that implements various trust region strategies for neural network optimization. The framework provides:
-*Note: This framework integrates with the broader MindsEye ecosystem documented in [MindsEye Technical Analysis](./2025-07-01-mindseye-technical-report.md) and works synergistically with [Quadratic Quasi-[Quadratic Quasi-Newton (QQN)](./2025-07-01-qqn-paper.md)hods.*
-*Note: This framework integrates with the broader MindsEye ecosystem documented in [MindsEye Technical Analysis](./2025-07-01-mindseye-technical-report.md)uadratic Quasi-Newton (QQN)](qqn_paper.md) optimization methods.*
+This paper documents a software framework that implements various trust region strategies for neural network
+optimization. The framework provides:
+*Note: This framework integrates with the broader MindsEye ecosystem documented
+in [MindsEye Technical Analysis](./2025-07-01-mindseye-technical-report.md) and works synergistically
+with [Quadratic Quasi-[Quadratic Quasi-Newton (QQN)](./2025-07-01-qqn-paper.md)hods.*
+*Note: This framework integrates with the broader MindsEye ecosystem documented in [MindsEye Technical Analysis](./2025-07-01-mindseye-technical-report.md)uadratic Quasi-Newton (QQN)](qqn_paper.md)
+optimization methods.*
 
 1. A modular architecture for defining trust region constraints
 2. Integration with existing line search and quasi-Newton methods
@@ -116,7 +129,8 @@ This paper documents a software framework that implements various trust region s
 
 ### 2.1 Trust Region Methods
 
-Trust region methods solve optimization problems by restricting updates to regions where a model (typically quadratic) approximates the objective function well. At each iteration, the method solves:
+Trust region methods solve optimization problems by restricting updates to regions where a model (typically quadratic)
+approximates the objective function well. At each iteration, the method solves:
 
 ```
 minimize m_k(p) subject to ||p|| ≤ Δ_k
@@ -127,6 +141,7 @@ where m_k is the model function, p is the step, and Δ_k is the trust region rad
 ### 2.2 Applications in Neural Networks
 
 Traditional trust region methods have been adapted for neural network training with considerations for:
+
 * High-dimensional parameter spaces
 * Layer-wise constraints
 * Computational efficiency
@@ -141,6 +156,7 @@ The framework consists of several key components:
 #### 3.1.1 TrustRegionStrategy
 
 The main orchestrator that:
+
 * Maintains optimization history
 * Delegates to inner optimization strategies
 * Applies trust region projections to proposed updates
@@ -173,15 +189,18 @@ Enforces orthonormality constraints on parameter subsets, useful for maintaining
 * **Orthogonalization**: Projects weight updates to maintain orthogonal relationships
 * **Normalization**: Ensures unit-length vectors when required
 * **Index Mapping**: Supports flexible grouping of parameters
-This constraint type is particularly relevant for the Co-Inverse Permutation Modifiers discussed in [CIPMs](coperm_paper.md#mathematical-framework), which exploit weight symmetries.
-
-This constraint type is particularly relevant for the Co-Inverse Permutation Modifiers discussed in [CIPMs](coperm_paper.md#mathematical-framework), which exploit weight symmetries.
   This constraint type is particularly relevant for the Co-Inverse Permutation Modifiers discussed
   in [CIPMs](coperm_paper.md#mathematical-framework), which exploit weight symmetries.
+
+This constraint type is particularly relevant for the Co-Inverse Permutation Modifiers discussed
+in [CIPMs](coperm_paper.md#mathematical-framework), which exploit weight symmetries.
+This constraint type is particularly relevant for the Co-Inverse Permutation Modifiers discussed
+in [CIPMs](coperm_paper.md#mathematical-framework), which exploit weight symmetries.
 
 #### 3.2.2 LinearSumConstraint
 
 Maintains constant sum of parameters, useful for:
+
 * Probability distributions
 * Attention mechanisms
 * Resource allocation problems
@@ -189,6 +208,7 @@ Maintains constant sum of parameters, useful for:
 #### 3.2.3 SingleOrthant
 
 Restricts parameters to remain in their initial orthant, preventing sign changes:
+
 * Useful for non-negative constraints
 * Maintains interpretability of learned features
 * Configurable zero tolerance
@@ -196,6 +216,7 @@ Restricts parameters to remain in their initial orthant, preventing sign changes
 #### 3.2.4 AdaptiveTrustSphere
 
 Dynamically adjusts trust region radius based on optimization history:
+
 * Adapts to local curvature
 * Prevents overshooting in high-curvature regions
 * Configurable lookback window and scaling factor
@@ -203,6 +224,7 @@ Dynamically adjusts trust region radius based on optimization history:
 #### 3.2.5 CompoundRegion
 
 Allows composition of multiple trust region constraints:
+
 * Sequential application of constraints
 * Enables complex constraint combinations
 * Maintains modularity
@@ -230,6 +252,7 @@ public abstract TrustRegion getRegionPolicy(Layer layer);
 ```
 
 This enables:
+
 * Tighter constraints on sensitive layers
 * Relaxed constraints on robust layers
 * Custom policies for specialized architectures
@@ -237,6 +260,7 @@ This enables:
 ### 4.3 Historical Tracking
 
 The framework maintains a sliding window of past optimization states:
+
 * Enables adaptive trust region sizing
 * Supports trajectory analysis
 * Configurable history depth
@@ -318,6 +342,7 @@ TrustRegion compound = new CompoundRegion(
 ### 7.1 Computational Overhead
 
 Trust region projections add computational cost:
+
 * O(n) for simple constraints (SingleOrthant, LinearSum)
 * O(n²) for orthonormal constraints
 * Amortized by improved convergence
@@ -325,6 +350,7 @@ Trust region projections add computational cost:
 ### 7.2 Memory Requirements
 
 Historical tracking requires:
+
 * O(n × h) memory for h history steps
 * Configurable history depth
 * Automatic cleanup of old states
@@ -332,6 +358,7 @@ Historical tracking requires:
 ### 7.3 Parallelization
 
 The framework supports parallel execution:
+
 * Layer-wise constraint application
 * Independent parameter group processing
 * Thread-safe history management
@@ -341,25 +368,40 @@ The framework supports parallel execution:
 ### 8.1 Convergence Properties
 
 Trust region methods typically exhibit:
+
 * More stable convergence trajectories
 * Reduced oscillation in high-curvature regions
 * Better handling of ill-conditioned problems
-These properties complement hy[Quadratic Quasi-Newton (QQN)](./2025-07-01-qqn-paper.md) Quasi-Newton (QQN)](qqn_paper.md), which[Quadratic Quasi-[Quadratic Quasi-Newton (QQN)](hum[Quadratic Quasi-Newton (QQN)](hum[Quadratic Quasi-Newton (QQN)](./2025-07-01-qqn-paper.md)k synergistically with the modular architecture [MindsEye technical analysis](./2025-07-01-mindseye-technical-report.md)hnical_report.md).
+  These properties complement hy[Quadratic Quasi-Newton (QQN)](./2025-07-01-qqn-paper.md) Quasi-Newton (QQN)](
+  qqn_paper.md), which[Quadratic Quasi-[Quadratic Quasi-Newton (QQN)](hum[Quadratic Quasi-Newton (QQN)](
+  hum[Quadratic Quasi-Newton (QQN)](./2025-07-01-qqn-paper.md)k synergistically with the modular
+  architecture [MindsEye technical analysis](./2025-07-01-mindseye-technical-report.md)hnical_report.md).
 
-These properties comple[MindsEye technical analysis](./2025-07-01-mindseye-technical-report.md)addresses similar stability concerns through direction interpolation, and [MindsEye technical analysis](human/2025-07-01-mind[MindsEye technical analysis](./2025-07-01-mindseye-technical-report.md)sis](mindseye_technical_report.md).
-  These propert[Quadratic Quasi-Newton (QQN)](./2025-07-01-qqn-paper.md)s like [Quadratic Quasi-Newton (QQN)](./2025-07-01-qqn-paper.md), which addresses similar stability
-  concerns through direction interpolation, and work synergistically with the modular architecture described in the [MindsEye technical analysis](./2025-07-01-mindseye-technical-report.md).
+These properties comple[MindsEye technical analysis](./2025-07-01-mindseye-technical-report.md)addresses similar
+stability concerns through direction interpolation, and [MindsEye technical analysis](
+human/2025-07-01-mind[MindsEye technical analysis](./2025-07-01-mindseye-technical-report.md)sis](
+mindseye_technical_report.md).
+These propert[Quadratic Quasi-Newton (QQN)](./2025-07-01-qqn-paper.md)s
+like [Quadratic Quasi-Newton (QQN)](./2025-07-01-qqn-paper.md), which addresses similar stability
+concerns through direction interpolation, and work synergistically with the modular architecture described in
+the [MindsEye technical analysis](./2025-07-01-mindseye-technical-report.md).
 
 ### 8.2 Use Cases
 
 The framework has been applied to:
+
 * Deep neural network training
-* Layer-wise optimization[Recursive Subspace Optimization](./2025-07-01-recursive-subspace-paper.md)ubspace_paper.md) for related layer-specific approaches)
-* Layer-wise optimization strategies (see [Recursive Subspace Optimi[Recursive Subspa[Recursive Subspa[Recursive Subspace Optimization](./2025-07-01-recursive-subspace-paper.md)c approaches)
-* Layer-wise optimization strategies (see [Recursive Subspace Optimization](./2025-07-01-recursive-subspace-paper.md) for related layer-specific approaches)
+* Layer-wise optimization[Recursive Subspace Optimization](./2025-07-01-recursive-subspace-paper.md)ubspace_paper.md)
+  for related layer-specific approaches)
+* Layer-wise optimization strategies (see [Recursive Subspace Optimi[Recursive Subspa[Recursive
+  Subspa[Recursive Subspace Optimization](./2025-07-01-recursive-subspace-paper.md)c approaches)
+* Layer-wise optimization strategies (see [Recursive Subspace Optimization](./2025-07-01-recursive-subspace-paper.md)
+  for related layer-specific approaches)
 * Reinforcement learning policy optimization
 * Generative model training
-* Symmetric texture generation with geometric constraints (see [Symmetric Textur[Symmetric Textures](./2025-07-01-symmetric-textures-rewrite.md)ture generation with geometric constraints (see [Symmetric Textures](symmetric_tex[Symmetric Textures](./2025-07-01-symmetric-textures-rewrite.md)ith geometric constr[Symmetric Textur[Symmetric Textur[Symmetric Textures](./2025-07-01-symmetric-textures-rewrite.md)rewrite.md))
+* Symmetric texture generation with geometric constraints (see [Symmetric
+  Textur[Symmetric Textures](./2025-07-01-symmetric-textures-rewrite.md)ture generation with geometric constraints (
+  see [Symmetric Textures](symmetric_tex[Symmetric Textures](./2025-07-01-symmetric-textures-rewrite.md)ith geometric constr[Symmetric Textur[Symmetric Textur[Symmetric Textures](./2025-07-01-symmetric-textures-rewrite.md)rewrite.md))
 * Scientific computing applications
 
 ## 9. Limitations and Future Work
@@ -379,17 +421,24 @@ The framework has been applied to:
 
 ## 10. Conclusion
 
-This paper presented a comprehensive software framework for trust region methods in neural network optimization. The modular design enables flexible constraint specification while maintaining computational efficiency. The framework provides researchers and practitioners with tools to improve optimization stability and explore constrained parameter spaces.
+This paper presented a comprehensive software framework for trust region methods in neural network optimization. The
+modular design enables flexible constraint specification while maintaining computational efficiency. The framework
+provides researchers and practitioners with tools to improve optimization stability and explore constrained parameter
+spaces.
 
-The open-source implementation facilitates reproducible research and enables further development of trust region methods for deep learning applications. By providing both simple and sophisticated constraint mechanisms, the framework addresses a wide range of optimization scenarios in modern machine learning.
+The open-source implementation facilitates reproducible research and enables further development of trust region methods
+for deep learning applications. By providing both simple and sophisticated constraint mechanisms, the framework
+addresses a wide range of optimization scenarios in modern machine learning.
 
 ## References
 
-[1] Conn, A. R., Gould, N. I., & Toint, P. L. (2000). Trust region methods. Society for Industrial and Applied Mathematics.
+[1] Conn, A. R., Gould, N. I., & Toint, P. L. (2000). Trust region methods. Society for Industrial and Applied
+Mathematics.
 
 [2] Nocedal, J., & Wright, S. (2006). Numerical optimization. Springer Science & Business Media.
 
-[3] Martens, J. (2010). Deep learning via Hessian-free optimization. In Proceedings of the 27th International Conference on Machine Learning (ICML-10).
+[3] Martens, J. (2010). Deep learning via Hessian-free optimization. In Proceedings of the 27th International Conference
+on Machine Learning (ICML-10).
 
 [4] Pascanu, R., & Bengio, Y. (2013). Revisiting natural gradient for deep networks. arXiv preprint arXiv:1301.3584.
 

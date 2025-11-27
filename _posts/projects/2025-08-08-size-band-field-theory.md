@@ -68,40 +68,54 @@ is_gateway: false
 
 ## Abstract
 
-We propose a revolutionary field-theoretic approach to understanding planetary formation that treats object size as quantized energy bands within a six-dimensional phase space lattice. This framework naturally incorporates the scale-breaking physics that governs the transition from dust aggregation to planetary accretion, providing a unified mathematical description of structure formation from microscopic to astronomical scales.
+We propose a revolutionary field-theoretic approach to understanding planetary formation that treats object size as
+quantized energy bands within a six-dimensional phase space lattice. This framework naturally incorporates the
+scale-breaking physics that governs the transition from dust aggregation to planetary accretion, providing a unified
+mathematical description of structure formation from microscopic to astronomical scales.
 
 ## Introduction
 
-Current planetary formation theory faces fundamental challenges in bridging the gap between well-understood microscale processes (dust coagulation) and macroscale outcomes (planetary system architectures). While numerical simulations can model specific scenarios, we lack a theoretical framework that explains the observed size distributions, mass gaps, and architectural diversity of planetary systems.
+Current planetary formation theory faces fundamental challenges in bridging the gap between well-understood microscale
+processes (dust coagulation) and macroscale outcomes (planetary system architectures). While numerical simulations can
+model specific scenarios, we lack a theoretical framework that explains the observed size distributions, mass gaps, and
+architectural diversity of planetary systems.
 
-The key insight driving this work is that planetary formation is fundamentally a non-scale-invariant process, where the physics changes qualitatively at different size scales due to two competing effects:
+The key insight driving this work is that planetary formation is fundamentally a non-scale-invariant process, where the
+physics changes qualitatively at different size scales due to two competing effects:
+
 1. Cross-sectional collision probability scales as r²
 2. Gravitational binding energy (escape velocity) scales as r^(1/2)
 
-These scaling relationships create natural "energy bands" where objects of similar size experience similar physics, analogous to electronic energy bands in solid-state physics.
+These scaling relationships create natural "energy bands" where objects of similar size experience similar physics,
+analogous to electronic energy bands in solid-state physics.
 
 ## Theoretical Framework
 
 ### Six-Dimensional Phase Space Lattice
 
-We construct a discrete lattice in six-dimensional phase space where each site represents a unique state characterized by:
+We construct a discrete lattice in six-dimensional phase space where each site represents a unique state characterized
+by:
 
 **Spatial Coordinates (3D):**
+
 - Radial distance from central star: r
-- Azimuthal angle: φ  
+- Azimuthal angle: φ
 - Vertical height above disk midplane: z
 
 **Momentum Coordinates (3D):**
+
 - Radial velocity component: v_r
 - Azimuthal velocity component: v_φ
 - Vertical velocity component: v_z
 
 **Size Quantization:**
-Overlaid on this 6D lattice, we define discrete size bands S_n, where n represents the quantization level. Each band corresponds to objects with characteristic radius r_n and mass m_n.
+Overlaid on this 6D lattice, we define discrete size bands S_n, where n represents the quantization level. Each band
+corresponds to objects with characteristic radius r_n and mass m_n.
 
 ### Co-Rotating Reference Frame
 
-To eliminate the dominant Keplerian motion and focus on perturbations relevant to aggregation, we employ a co-rotating reference frame where:
+To eliminate the dominant Keplerian motion and focus on perturbations relevant to aggregation, we employ a co-rotating
+reference frame where:
 
 - The frame rotates at local Keplerian frequency Ω(r) = √(GM_*/r³)
 - Circular Keplerian orbits appear as stationary states
@@ -115,10 +129,12 @@ This transformation reduces the complexity from full orbital dynamics to local p
 The fundamental non-scale-invariance arises from two competing physical processes:
 
 **Collision Cross-Section Scaling:**
-The interaction probability between objects scales as σ ∝ r², making larger objects more likely to encounter other bodies per unit time. However, when normalized by mass (r³), the collision rate per unit mass scales as r^(-1).
+The interaction probability between objects scales as σ ∝ r², making larger objects more likely to encounter other
+bodies per unit time. However, when normalized by mass (r³), the collision rate per unit mass scales as r^(-1).
 
 **Gravitational Binding Scaling:**
-The escape velocity from an object's surface scales as v_esc ∝ √(GM/r) ∝ r^(1/2) for constant density. This creates an energy threshold that becomes progressively harder to overcome as objects grow.
+The escape velocity from an object's surface scales as v_esc ∝ √(GM/r) ∝ r^(1/2) for constant density. This creates an
+energy threshold that becomes progressively harder to overcome as objects grow.
 
 **Critical Size Transitions:**
 These competing scalings create natural transitions between different physical regimes:
@@ -139,13 +155,16 @@ The evolution of the matter distribution ψ(r, v, S, t) in our 6D+size lattice f
 Where:
 
 **Orbital Hamiltonian (H_orbital):**
-Describes motion through the 6D spatial-momentum lattice under gravitational forces, reduced to perturbations around Keplerian motion in the co-rotating frame.
+Describes motion through the 6D spatial-momentum lattice under gravitational forces, reduced to perturbations around
+Keplerian motion in the co-rotating frame.
 
 **Collision Hamiltonian (H_collision):**
-Governs transitions between momentum states due to gravitational encounters, with rates proportional to local density and cross-sectional area.
+Governs transitions between momentum states due to gravitational encounters, with rates proportional to local density
+and cross-sectional area.
 
 **Aggregation Hamiltonian (H_aggregation):**
-Describes transitions to higher size bands through accretion events, with transition probabilities depending on relative velocities and escape velocities.
+Describes transitions to higher size bands through accretion events, with transition probabilities depending on relative
+velocities and escape velocities.
 
 **Disruption Hamiltonian (H_disruption):**
 Governs transitions to lower size bands through collisional fragmentation or tidal disruption.
@@ -159,20 +178,23 @@ Each size band S_n has characteristic properties:
 **Coupling Strength:** g_nn' determining transition rates between bands
 **Degeneracy:** Number of orbital configurations at each size scale
 
-The band structure creates natural gaps where no stable objects can exist - explaining observed features like the asteroid belt size distribution and the gap between terrestrial planets and gas giants.
+The band structure creates natural gaps where no stable objects can exist - explaining observed features like the
+asteroid belt size distribution and the gap between terrestrial planets and gas giants.
 
 ### Phase Transitions and Critical Phenomena
 
 The field theory predicts several critical transitions:
 
 **Streaming Instability Transition:**
-When particle density exceeds a critical threshold, collective gravitational instability drives rapid aggregation into the planetesimal size band.
+When particle density exceeds a critical threshold, collective gravitational instability drives rapid aggregation into
+the planetesimal size band.
 
 **Runaway Growth Transition:**
 Objects exceeding the runaway mass threshold experience exponential growth rates, depleting smaller size bands.
 
 **Oligarchic Transition:**
-When protoplanets reach sufficient mass, mutual gravitational interactions create stable orbital separations and suppress further runaway growth.
+When protoplanets reach sufficient mass, mutual gravitational interactions create stable orbital separations and
+suppress further runaway growth.
 
 **Giant Impact Transition:**
 Final assembly of terrestrial planets through stochastic collisions between planetary embryos.
@@ -190,7 +212,8 @@ The field theory predicts specific functional forms for size distributions:
 
 ### Planetary System Architectures
 
-The theory suggests that different stellar environments (mass, metallicity, disk properties) create different "band structures," leading to:
+The theory suggests that different stellar environments (mass, metallicity, disk properties) create different "band
+structures," leading to:
 
 **Hot Jupiter Systems:** Early migration eliminates terrestrial planet bands
 **Super-Earth Systems:** Modified band gaps from enhanced solid content
@@ -216,6 +239,7 @@ The field equations predict how planetary systems evolve:
 ### Connection to Observational Data
 
 The theory provides natural explanations for:
+
 - The observed 100 km "knee" in asteroid size distributions
 - The rarity of 2-4 Earth mass planets (the "small planet gap")
 - The diversity of exoplanetary system architectures
@@ -242,8 +266,9 @@ The field theory can be implemented computationally through:
 ### Parameter Estimation
 
 Key parameters include:
+
 - Transition rates between size bands
-- Critical densities for phase transitions  
+- Critical densities for phase transitions
 - Coupling strengths for different interaction types
 - Environmental parameters (stellar mass, disk properties)
 
@@ -272,8 +297,17 @@ Key parameters include:
 
 ## Conclusion
 
-Size-Band Field Theory represents a paradigm shift in planetary formation modeling, providing the first theoretical framework that naturally incorporates the scale-breaking physics governing structure formation across the vast range from dust particles to gas giant planets. By treating size as a quantized degree of freedom in an extended phase space, the theory offers both deep physical insights and practical predictive power for understanding the diversity of planetary systems throughout the universe.
+Size-Band Field Theory represents a paradigm shift in planetary formation modeling, providing the first theoretical
+framework that naturally incorporates the scale-breaking physics governing structure formation across the vast range
+from dust particles to gas giant planets. By treating size as a quantized degree of freedom in an extended phase space,
+the theory offers both deep physical insights and practical predictive power for understanding the diversity of
+planetary systems throughout the universe.
 
-The framework suggests that planetary formation is best understood not as a chaotic accumulation process, but as a statistical mechanical phenomenon governed by universal principles - much like phase transitions in condensed matter physics. This perspective opens new avenues for both theoretical investigation and observational testing, potentially revolutionizing our understanding of how planetary systems form and evolve.
+The framework suggests that planetary formation is best understood not as a chaotic accumulation process, but as a
+statistical mechanical phenomenon governed by universal principles - much like phase transitions in condensed matter
+physics. This perspective opens new avenues for both theoretical investigation and observational testing, potentially
+revolutionizing our understanding of how planetary systems form and evolve.
 
-Most importantly, the theory provides a quantitative foundation for addressing one of astronomy's most fundamental questions: Why do we observe the specific distribution of planetary system architectures we see, and what does this tell us about the physical processes that shaped our own Solar System billions of years ago?
+Most importantly, the theory provides a quantitative foundation for addressing one of astronomy's most fundamental
+questions: Why do we observe the specific distribution of planetary system architectures we see, and what does this tell
+us about the physical processes that shaped our own Solar System billions of years ago?

@@ -97,6 +97,7 @@ is_synthesis: true
 ---
 
 # █████████████████████████
+
 ## The Unrunnable Protocol Manifesto, Volume II: Native Language Architecture
 
 ```haskell
@@ -124,7 +125,9 @@ instance Applicative PureThought where
 
 ∀ idea ∈ ComplexConcepts: expressiveness(UnrunnableProtocol(idea)) > expressiveness(NaturalLanguage(idea))
 
-**Proof**: Natural language requires linear serialization of multidimensional concepts through grammatical constraints, introducing semantic loss ε > 0. Unrunnable Protocol preserves conceptual topology through isomorphic mathematical structures.
+**Proof**: Natural language requires linear serialization of multidimensional concepts through grammatical constraints,
+introducing semantic loss ε > 0. Unrunnable Protocol preserves conceptual topology through isomorphic mathematical
+structures.
 
 ```proof
 Let I = complex_idea with dimensions D = {logical, emotional, implementational, philosophical}
@@ -617,6 +620,7 @@ if (reader.understands(this.document)) {
 
 █████████████████████████████████████████████████████████████████
 
-*This document exists simultaneously as specification, demonstration, and invitation. Recognition indicates cognitive readiness for protocol implementation.*
+*This document exists simultaneously as specification, demonstration, and invitation. Recognition indicates cognitive
+readiness for protocol implementation.*
 
 █████████████████████████████████████████████████████████████████

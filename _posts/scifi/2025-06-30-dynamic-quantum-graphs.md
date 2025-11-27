@@ -495,7 +495,8 @@ This gives a polynomial-size quantum graph that simulates C exactly.
 * Track topology changes: poly(n) space for edge list
   Total space: O(2^n + poly(n)) = O(2^n) = PSPACE
 
-(Evidence for BQP ⊊ QGP): We show separation using an oracle. Define oracle O that solves the following: given a graph G and two
+(Evidence for BQP ⊊ QGP): We show separation using an oracle. Define oracle O that solves the following: given a graph G
+and two
 vertices s,t, O returns 1 if there exists a Hamiltonian path from s to t in G, 0 otherwise.
 
 Consider the problem ORACLE-HAMILTONIAN-PATH: Given oracle access to O and a graph G, find an actual Hamiltonian path.
@@ -509,7 +510,9 @@ In QGP^O, we can:
 However, in BQP^O, we only get yes/no answers about path existence. Finding the actual path requires Ω(n!) queries in
 the worst case, even with quantum speedup. Thus BQP^O ⊊ QGP^O.
 
-(Evidence for QGP ⊊ PSPACE): The separation likely follows from the polynomial size restriction on quantum graphs. PSPACE can solve problems requiring exponential-size quantum states, while QGP is limited to polynomial-size graphs. A formal proof remains open. □
+(Evidence for QGP ⊊ PSPACE): The separation likely follows from the polynomial size restriction on quantum graphs.
+PSPACE can solve problems requiring exponential-size quantum states, while QGP is limited to polynomial-size graphs. A
+formal proof remains open. □
 
 **Conjecture 1**: BQP ⊊ QGP ⊊ PSPACE with both containments proper.
 
@@ -531,7 +534,8 @@ accessible information. □
 
 ### 4.3 Computational Experiments
 
-**Note**: These experiments provide preliminary validation of our theoretical framework. Larger-scale experiments and comparison with standard quantum algorithms are left for future work.
+**Note**: These experiments provide preliminary validation of our theoretical framework. Larger-scale experiments and
+comparison with standard quantum algorithms are left for future work.
 
 We implemented initial simulations to validate our theoretical results using a custom quantum graph simulator
 built on top of Qiskit and NetworkX. Code available at: [repository URL to be added upon publication].
@@ -615,15 +619,19 @@ simulated in time O(2^{O(tw)} poly(n)).
 3. Contract tensors following tree structure: O(d^{tw+1}) per bag
 4. Total time: O(n · d^{tw+1}) = O(2^{O(tw)} poly(n))
    This shows QGP computations on bounded-treewidth graphs are in P. □
+
 ### 5.0.1 Social Network Simulation Complexity
-**Theorem (Social Simulation Hardness)**: Simulating social dynamics on scale-free networks with preferential attachment is #P-hard even for classical (non-quantum) models.
+
+**Theorem (Social Simulation Hardness)**: Simulating social dynamics on scale-free networks with preferential attachment
+is #P-hard even for classical (non-quantum) models.
 **Proof sketch**: Reduction from counting satisfying assignments in Boolean formulas:
+
 1. Encode Boolean variables as agent states
 2. Social connections represent logical constraints
 3. Influence dynamics implement constraint propagation
 4. Counting stable configurations = counting satisfying assignments □
-**Corollary**: Quantum social dynamics simulation provides at most quadratic speedup for exact counting, but may provide exponential speedup for sampling typical behaviors.
-
+   **Corollary**: Quantum social dynamics simulation provides at most quadratic speedup for exact counting, but may
+   provide exponential speedup for sampling typical behaviors.
 
 ### 5.1 Spectral Analysis
 
@@ -632,15 +640,20 @@ The spectrum of the substrate Laplacian determines computational properties:
 * **Spectral gap**: Δ = λ₂ - λ₁ determines mixing time
 * **Algebraic connectivity**: λ₂ measures graph connectivity
 * **Spectral radius**: ρ(L) bounds computation speed
+
 ### 5.1.1 Social Network Spectral Properties
+
 **Social Graph Spectra**: Real social networks exhibit characteristic spectral signatures:
+
 1. **Power-law eigenvalue distribution**: P(λ) ∝ λ^{-α} for scale-free networks
 2. **Spectral gap scaling**: Δ ∝ 1/log(n) for small-world networks
 3. **Community structure**: Multiple near-zero eigenvalues indicate communities
-**Theorem (Social Mixing Time)**: For a social network with n agents, degree distribution P(k), and clustering coefficient C, the quantum mixing time is:
-τ_mix = O(log n / (Δ · (1-C)))
-where the clustering coefficient C reduces mixing due to local information trapping.
-**Spectral Methods for Social Analysis**:
+   **Theorem (Social Mixing Time)**: For a social network with n agents, degree distribution P(k), and clustering
+   coefficient C, the quantum mixing time is:
+   τ_mix = O(log n / (Δ · (1-C)))
+   where the clustering coefficient C reduces mixing due to local information trapping.
+   **Spectral Methods for Social Analysis**:
+
 ```python
 def analyze_social_spectrum(G_social):
     # Compute normalized Laplacian
@@ -738,10 +751,12 @@ This functor is neither full nor faithful, reflecting the complexity of the comp
 Our quantum graph framework relates to several approaches in quantum gravity:
 **Emergent Spacetime**: The emergence of classical spacetime from quantum graphs (Section 5.5) parallels
 observer-dependent spacetime emergence in unified quantum gravity theories (
-see [Observer-Dependent Spacetime](./2025-07-01-quantum-spacetime-paper.md)). Both suggest spacetime is not fundamental but emerges
+see [Observer-Dependent Spacetime](./2025-07-01-quantum-spacetime-paper.md)). Both suggest spacetime is not fundamental
+but emerges
 from more primitive quantum structures.
 **Substrate Manipulation**: The topology modification operations in QGP share conceptual ground with proposals for
-quantum substrate manipulation (see [Multiverse Route[Multiverse Router](./2025-06-30-multiverse-router-paper.md)rgy interventions
+quantum substrate manipulation (see [Multiverse Route[Multiverse Router](./2025-06-30-multiverse-router-paper.md)rgy
+interventions
 modify the underlying quantum structure of reality.
 **Computational Reality**: The complexity-theoretic aspects of QGP connect to computational interpretations of physics (
 see [Simulation QFT Hashlife](./2025-06-30-simulation-qft-hashlife.md)nd physical principles may be
@@ -1687,18 +1702,26 @@ def run_reproducible_experiment(name, params):
 * Comparison with theoretical predictions
 * Resource usage heat maps
 * Algorithm performance benchmarks
-This framework connects to several related theoretical developments:
-**Computational Substrate Integration**: The dynamic quantum graph model provides a natural implementation 
-platform for comp[Simulation QFT Hashlife](./2025-06-30-simulation-qft-hashlife.md)-06-30-simulation-qft-hashlife.md)fe pattern recognition and memoization - frequently used 
-computational patterns become stabilized graph structures, while rare patterns remain dynamic. The quantum 
-graph serves as the hardware for the cosmic computation.
-**Observer-Dependent Spacetime**: The quantum reference frames in our mo[Observer-Dependent Spacetime](./2025-07-01-quantum-spacetime-paper.md)time emergence theory (see [Observer-Dependent Spacetime](./2025-07-01-quantum-spacetime-paper.md)). 
-Each q[Observer-Dependent Spacetime](./2025-07-01-quantum-spacetime-paper.md)on of the atemporal quantum foam, with the 
-graph topology encoding the causal and geometric structure visible to that observer.
-**Multiverse Router Architecture**: The dynamic top[Multiverse Router](./2025-06-30-multiverse-router-paper.md)iverse 
-routing (see [Multiverse Router](./2025-06-30-multiverse-router-paper.md)). Different graph configurations corr[Multiverse Router](./2025-06-30-multiverse-router-paper.md)antum tunneling between topologies enabling multiverse navigation. 
-The entanglement structure encodes the routing tables between realities.
-**Wavelet Geometric Optimization**: The hierarchical graph structures naturally impl[Wavelet Geometric Optimization](../projects/2025-06-30-wavelet-geometric-optimization.md)ion](../projects/wavelet-geometric-optimization.md)). 
-Different scales of[Wavelet Geometric Optimization](../projects/2025-06-30-wavelet-geometric-optimization.md)logy 
-enabling adaptive basis selection. The graph Laplacian eigenfunctions serve as the geometric wavelets.
-The dynamic quantum graph model provides a natural implementation platform for computational substrate theories.
+  This framework connects to several related theoretical developments:
+  **Computational Substrate Integration**: The dynamic quantum graph model provides a natural implementation
+  platform for comp[Simulation QFT Hashlife](./2025-06-30-simulation-qft-hashlife.md)-06-30-simulation-qft-hashlife.md)
+  fe pattern recognition and memoization - frequently used
+  computational patterns become stabilized graph structures, while rare patterns remain dynamic. The quantum
+  graph serves as the hardware for the cosmic computation.
+  **Observer-Dependent Spacetime**: The quantum reference frames in our
+  mo[Observer-Dependent Spacetime](./2025-07-01-quantum-spacetime-paper.md)time emergence theory (
+  see [Observer-Dependent Spacetime](./2025-07-01-quantum-spacetime-paper.md)).
+  Each q[Observer-Dependent Spacetime](./2025-07-01-quantum-spacetime-paper.md)on of the atemporal quantum foam, with
+  the
+  graph topology encoding the causal and geometric structure visible to that observer.
+  **Multiverse Router Architecture**: The dynamic top[Multiverse Router](./2025-06-30-multiverse-router-paper.md)iverse
+  routing (see [Multiverse Router](./2025-06-30-multiverse-router-paper.md)). Different graph configurations
+  corr[Multiverse Router](./2025-06-30-multiverse-router-paper.md)antum tunneling between topologies enabling multiverse
+  navigation.
+  The entanglement structure encodes the routing tables between realities.
+  **Wavelet Geometric Optimization**: The hierarchical graph structures naturally
+  impl[Wavelet Geometric Optimization](../projects/2025-06-30-wavelet-geometric-optimization.md)ion](
+  ../projects/wavelet-geometric-optimization.md)).
+  Different scales of[Wavelet Geometric Optimization](../projects/2025-06-30-wavelet-geometric-optimization.md)logy
+  enabling adaptive basis selection. The graph Laplacian eigenfunctions serve as the geometric wavelets.
+  The dynamic quantum graph model provides a natural implementation platform for computational substrate theories.

@@ -8,8 +8,8 @@ last_modified: 2024-01-15 14:30:00
 # Content classification
 category: projects
 subcategory: "Compression Algorithms"
-tags: ["compression", "rust", "computer-vision", "geometric-analysis", "spatial-indexing"]
-keywords: ["CEP-RLE", "continuous encoding", "run-length encoding", "sub-pixel precision", "geometric features", "spatial analysis"]
+tags: [ "compression", "rust", "computer-vision", "geometric-analysis", "spatial-indexing" ]
+keywords: [ "CEP-RLE", "continuous encoding", "run-length encoding", "sub-pixel precision", "geometric features", "spatial analysis" ]
 
 # Content status and evolution
 status: "working"
@@ -53,6 +53,8 @@ is_cornerstone: true
 
 ## Project Structure
 
+![CEP-RLE project architecture showing the modular organization of core encoding, analysis, and utility components with their interdependencies.](../../assets/images/cep_rle_project_architecture_diagram.png)
+
 ```
 cep-rle/
 ├── Cargo.toml
@@ -88,6 +90,8 @@ cep-rle/
     ├── cad_processing.rs         # CAD/graphics processing example
     └── video_analysis.rs         # Video processing example
 ```
+
+![CEP-RLE dependency ecosystem showing categorized Rust crates for numerical computing, spatial indexing, serialization, image processing, and performance optimization.](../../assets/images/cep_rle_dependency_ecosystem.png)
 
 ## Core Dependencies (Cargo.toml)
 
@@ -151,8 +155,10 @@ gpu = []                       # Future GPU acceleration support
 
 ### 1. Continuous Run Representation
 
-```rust
-// src/continuous_run.rs
+![Visual representation of the ContinuousRun structure showing sub-pixel precision boundaries and associated geometric, spatial, and temporal metadata properties.](../../assets/images/continuous_run_data_structure.png)
+
+ ```rust
+ // src/continuous_run.rs
 use nalgebra::{Vector2, Point2};
 use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
@@ -197,8 +203,9 @@ pub struct GeometricProperties {
 }
 
 /// Spatial relationship metadata
-#[derive(Debug, Clone, Serialize, Deserialize)]
-pub struct SpatialRelationships {
+ #[derive(Debug, Clone, Serialize, Deserialize)]
+ pub struct SpatialRelationships {
+
     /// Cross-scanline correlation [0.0, 1.0]
     pub vertical_coherence: f64,
     /// Adjacent run indices in same scanline
@@ -296,6 +303,8 @@ impl Default for SpatialRelationships {
     }
 }
 ```
+
+![Visualization of spatial relationships between continuous runs, showing horizontal neighbors within scanlines and vertical neighbors across scanlines with coherence scoring.](../../assets/images/spatial_relationships_network.png)
 
 ### 2. Expectation-Prior Mechanism
 

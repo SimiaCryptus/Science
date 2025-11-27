@@ -80,30 +80,47 @@ format_style_tags: ["Research-Paper", "Technical-Proposal"]
 
 ## Abstract
 
-We propose a universal regularization framework that combines differentiable basis transforms with trust-region optimization to enable controlled reduction of dropout rates toward zero. This approach leverages the coefficient structure of any orthogonal or semi-orthogonal transform (wavelets, FFT, DCT, PCA, etc.) to inform spatially and spectrally adaptive dropout patterns while using trust-region methods to ensure stable convergence during the transition from high to minimal dropout. The framework addresses fundamental limitations in current dropout scheduling methods and provides theoretical foundations for transform-informed regularization in deep neural networks.
+We propose a universal regularization framework that combines differentiable basis transforms with trust-region
+optimization to enable controlled reduction of dropout rates toward zero. This approach leverages the coefficient
+structure of any orthogonal or semi-orthogonal transform (wavelets, FFT, DCT, PCA, etc.) to inform spatially and
+spectrally adaptive dropout patterns while using trust-region methods to ensure stable convergence during the transition
+from high to minimal dropout. The framework addresses fundamental limitations in current dropout scheduling methods and
+provides theoretical foundations for transform-informed regularization in deep neural networks.
 
 ## 1. Introduction
 
-Dropout regularization has become a cornerstone technique in deep learning, preventing overfitting by randomly deactivating neurons during training. However, conventional dropout suffers from several theoretical and practical limitations: (1) the dropout rate is typically fixed or follows simple scheduling heuristics, (2) dropout decisions are made independently of the underlying signal structure, and (3) reducing dropout to very low values often leads to training instability without principled convergence guarantees.
+Dropout regularization has become a cornerstone technique in deep learning, preventing overfitting by randomly
+deactivating neurons during training. However, conventional dropout suffers from several theoretical and practical
+limitations: (1) the dropout rate is typically fixed or follows simple scheduling heuristics, (2) dropout decisions are
+made independently of the underlying signal structure, and (3) reducing dropout to very low values often leads to
+training instability without principled convergence guarantees.
 
-We introduce a framework that addresses these limitations by integrating two complementary mathematical tools: differentiable basis transforms for structured signal analysis and trust-region optimization for controlled parameter evolution. This combination enables adaptive dropout that is both transform-aware and theoretically grounded in optimization principles.
+We introduce a framework that addresses these limitations by integrating two complementary mathematical tools:
+differentiable basis transforms for structured signal analysis and trust-region optimization for controlled parameter
+evolution. This combination enables adaptive dropout that is both transform-aware and theoretically grounded in
+optimization principles.
 
-The framework is inherently general, working with any differentiable basis transform including but not limited to Fourier transforms, discrete cosine transforms, principal component analysis, independent component analysis, and wavelet transforms. Each transform provides different structural insights that can inform dropout decisions.
+The framework is inherently general, working with any differentiable basis transform including but not limited to
+Fourier transforms, discrete cosine transforms, principal component analysis, independent component analysis, and
+wavelet transforms. Each transform provides different structural insights that can inform dropout decisions.
 
 ## 2. Universal Theoretical Foundation
 
 ### 2.1 General Differentiable Transform Framework
 
-Let $\mathbf{x} \in \mathbb{R}^{n}$ be the input to a neural network layer, and let $T_{\theta}$ be a parameterized basis transform with learnable parameters $\theta$. The differentiable transform decomposition can be expressed as:
+Let $\mathbf{x} \in \mathbb{R}^{n}$ be the input to a neural network layer, and let $T_{\theta}$ be a parameterized
+basis transform with learnable parameters $\theta$. The differentiable transform decomposition can be expressed as:
 
 $$\mathbf{c} = T_{\theta}(\mathbf{x}) = \{c_k\}_{k=1}^{n}$$
 
-where $c_k$ represents the $k$-th coefficient in the chosen basis. The key insight is that these coefficients encode structural information about the signal that can provide a principled foundation for adaptive regularization.
+where $c_k$ represents the $k$-th coefficient in the chosen basis. The key insight is that these coefficients encode
+structural information about the signal that can provide a principled foundation for adaptive regularization.
 
 The energy distribution across coefficients is given by:
 $$E_k = |c_k|^2$$
 
-This energy distribution reveals the relative importance of different basis components in the neural network's internal representations.
+This energy distribution reveals the relative importance of different basis components in the neural network's internal
+representations.
 
 ### 2.2 Transform-Specific Interpretations
 
@@ -112,7 +129,8 @@ Different transforms provide different structural insights:
 **Fourier Transform**: Coefficients represent frequency components, enabling frequency-selective dropout
 $$\mathbf{c} = \text{FFT}(\mathbf{x}), \quad E_k = |\mathcal{F}[x](\omega_k)|^2$$
 
-**Discrete Cosine Transform**: Concentrates energy in low-frequency coefficients, natural for image/audio compression-inspired dropout
+**Discrete Cosine Transform**: Concentrates energy in low-frequency coefficients, natural for image/audio
+compression-inspired dropout
 $$\mathbf{c} = \text{DCT}(\mathbf{x}), \quad E_k = |\text{DCT}[x](k)|^2$$
 
 **Principal Component Analysis**: Coefficients ordered by explained variance, enabling importance-based dropout
@@ -123,11 +141,13 @@ $$\mathbf{c} = \text{DWT}(\mathbf{x}), \quad E_{j,k} = |\psi_{j,k} * x|^2$$
 
 ### 2.3 Universal Trust-Region Dropout Dynamics
 
-Traditional dropout applies a binary mask $\mathbf{m} \sim \text{Bernoulli}(p)$ to network activations. We propose replacing this with a trust-region-controlled dropout probability that depends on the transform coefficient structure:
+Traditional dropout applies a binary mask $\mathbf{m} \sim \text{Bernoulli}(p)$ to network activations. We propose
+replacing this with a trust-region-controlled dropout probability that depends on the transform coefficient structure:
 
 $$p_k(t) = \sigma(\alpha_k \cdot E_k + \beta_k \cdot |c_k|^2 + \gamma(t))$$
 
-where $\sigma$ is the sigmoid function, $\alpha_k$ and $\beta_k$ are learnable coefficient-specific parameters, and $\gamma(t)$ is a trust-region-controlled global bias term.
+where $\sigma$ is the sigmoid function, $\alpha_k$ and $\beta_k$ are learnable coefficient-specific parameters,
+and $\gamma(t)$ is a trust-region-controlled global bias term.
 
 The trust-region constraint ensures that the dropout probability evolution remains within a safe region:
 $$\|\mathbf{p}(t+1) - \mathbf{p}(t)\|_2 \leq \Delta(t)$$
@@ -136,11 +156,13 @@ where $\Delta(t)$ is the trust-region radius, dynamically adjusted based on the 
 
 ### 2.4 Universal Regularization Theory
 
-The transform-informed dropout induces a structured regularization effect. For coefficient $k$, the effective regularization strength is:
+The transform-informed dropout induces a structured regularization effect. For coefficient $k$, the effective
+regularization strength is:
 
 $$\lambda_k^{eff} = \mathbb{E}[p_k] \cdot \text{var}(c_k)$$
 
-This creates a natural hierarchy where coefficients with specific characteristics (low energy, high frequency, low variance explained, etc.) experience stronger regularization based on the chosen transform.
+This creates a natural hierarchy where coefficients with specific characteristics (low energy, high frequency, low
+variance explained, etc.) experience stronger regularization based on the chosen transform.
 
 The total regularization effect across all coefficients satisfies:
 $$\mathcal{R}_{total} = \sum_{k=1}^{n} \lambda_k^{eff} \cdot w_k$$
@@ -151,12 +173,14 @@ where $w_k$ are transform-specific weights that reflect the relative importance 
 
 ### 3.1 Universal Trust-Region Formulation
 
-The trust-region approach to dropout control can be formulated as the following optimization problem at each training step:
+The trust-region approach to dropout control can be formulated as the following optimization problem at each training
+step:
 
 $$\min_{\mathbf{p}} \quad \mathcal{L}(\mathbf{p}) + \lambda \mathcal{R}(\mathbf{p})$$
 $$\text{subject to} \quad \|\mathbf{p} - \mathbf{p}_k\|_2 \leq \Delta_k$$
 
-where $\mathcal{L}(\mathbf{p})$ is the loss function, $\mathcal{R}(\mathbf{p})$ is the transform-informed regularization term, and $\Delta_k$ is the trust-region radius at iteration $k$.
+where $\mathcal{L}(\mathbf{p})$ is the loss function, $\mathcal{R}(\mathbf{p})$ is the transform-informed regularization
+term, and $\Delta_k$ is the trust-region radius at iteration $k$.
 
 This formulation is completely independent of the specific basis transform used.
 
@@ -184,7 +208,8 @@ $$\Delta_{k+1} = \begin{cases}
 \min(\gamma_2 \Delta_k, \Delta_{\max}) & \text{if } \rho_k \geq \eta_2
 \end{cases}$$
 
-This adaptive mechanism ensures that the dropout evolution remains stable while allowing rapid progress when the quadratic model is accurate.
+This adaptive mechanism ensures that the dropout evolution remains stable while allowing rapid progress when the
+quadratic model is accurate.
 
 ## 4. Transform-Specific Dropout Strategies
 
@@ -226,17 +251,22 @@ $$p_{j,k} = \sigma\left(\alpha_j E_j + \beta_{jk} |\mathbf{c}_j^{(k)}|^2 + \sum_
 
 ### 5.1 General Convergence Properties
 
-Under standard assumptions (bounded gradients, Lipschitz continuity), the trust-region method with transform-informed dropout maintains global convergence guarantees regardless of the specific transform used.
+Under standard assumptions (bounded gradients, Lipschitz continuity), the trust-region method with transform-informed
+dropout maintains global convergence guarantees regardless of the specific transform used.
 
-**Theorem 1**: If the trust-region radius is bounded below by $\Delta_{\min} > 0$ and the basis transform $T_{\theta}$ is $L$-Lipschitz continuous, then the sequence $\{\mathbf{p}_k\}$ converges to a stationary point of the regularized objective.
+**Theorem 1**: If the trust-region radius is bounded below by $\Delta_{\min} > 0$ and the basis transform $T_{\theta}$
+is $L$-Lipschitz continuous, then the sequence $\{\mathbf{p}_k\}$ converges to a stationary point of the regularized
+objective.
 
 This result holds for any differentiable basis transform, making the framework universally applicable.
 
 ### 5.2 Near-Zero Dropout Stability
 
-The critical theoretical contribution is ensuring stability as dropout approaches zero. We define the near-zero region as $\mathcal{N}_{\epsilon} = \{\mathbf{p} : \|\mathbf{p}\|_\infty < \epsilon\}$ for small $\epsilon > 0$.
+The critical theoretical contribution is ensuring stability as dropout approaches zero. We define the near-zero region
+as $\mathcal{N}_{\epsilon} = \{\mathbf{p} : \|\mathbf{p}\|_\infty < \epsilon\}$ for small $\epsilon > 0$.
 
-**Theorem 2**: Within the near-zero region $\mathcal{N}_{\epsilon}$, the trust-region method with transform-informed regularization maintains a contraction property:
+**Theorem 2**: Within the near-zero region $\mathcal{N}_{\epsilon}$, the trust-region method with transform-informed
+regularization maintains a contraction property:
 $$\|\mathbf{p}_{k+1} - \mathbf{p}^*\|_2 \leq \rho \|\mathbf{p}_k - \mathbf{p}^*\|_2$$
 
 where $\rho < 1$ and $\mathbf{p}^*$ is the optimal dropout configuration.
@@ -245,7 +275,8 @@ This stability guarantee is transform-agnostic and depends only on the trust-reg
 
 ### 5.3 Transform-Invariant Regularization Path
 
-The path from high to near-zero dropout follows a regularization trajectory $\mathbf{p}(\lambda)$ parameterized by the regularization strength $\lambda$. The transform-informed trust-region method ensures this path is:
+The path from high to near-zero dropout follows a regularization trajectory $\mathbf{p}(\lambda)$ parameterized by the
+regularization strength $\lambda$. The transform-informed trust-region method ensures this path is:
 
 1. **Smooth**: $\frac{d\mathbf{p}}{d\lambda}$ is bounded
 2. **Monotonic**: Dropout rates decrease monotonically as $\lambda$ decreases
@@ -260,16 +291,19 @@ These properties hold regardless of the chosen basis transform.
 The complete algorithm operates in three phases:
 
 **Phase 1: Transform Analysis**
+
 - Compute differentiable basis transform $T_{\theta}(\mathbf{x})$
 - Calculate energy distribution $E_k$ across coefficients
 - Update transform parameters $\theta$ via backpropagation
 
 **Phase 2: Trust-Region Optimization**
+
 - Construct quadratic model $q_k(\mathbf{s})$
 - Solve trust-region subproblem to get $\mathbf{s}_k$
 - Update trust-region radius $\Delta_k$ based on reduction ratio
 
 **Phase 3: Dropout Application**
+
 - Apply transform-informed dropout with probabilities $\mathbf{p}_k + \mathbf{s}_k$
 - Forward pass through network with adaptive dropout
 - Compute gradients and update network parameters
@@ -277,6 +311,7 @@ The complete algorithm operates in three phases:
 ### 6.2 Computational Complexity Analysis
 
 The additional computational cost per iteration varies by transform:
+
 - **FFT**: $O(n \log n)$
 - **DCT**: $O(n \log n)$
 - **PCA**: $O(n^2)$ (amortized over multiple updates)
@@ -290,7 +325,8 @@ The trust-region overhead is constant regardless of the chosen transform.
 
 ### 7.1 Transform-Invariant Generalization Theory
 
-The transform-informed dropout induces structured regularization that respects the chosen basis. The generalization bound can be expressed as:
+The transform-informed dropout induces structured regularization that respects the chosen basis. The generalization
+bound can be expressed as:
 
 $$\mathbb{E}[\mathcal{L}_{test}] \leq \mathbb{E}[\mathcal{L}_{train}] + \mathcal{O}\left(\sqrt{\frac{\text{effective-rank}(T_{\theta})}{n}}\right)$$
 
@@ -298,7 +334,8 @@ where $\text{effective-rank}(T_{\theta})$ depends on the specific transform but 
 
 ### 7.2 Information-Theoretic Perspective
 
-From an information-theoretic viewpoint, the transform-informed dropout maximizes the mutual information between the input and the preserved coefficients while minimizing the information in the dropped components:
+From an information-theoretic viewpoint, the transform-informed dropout maximizes the mutual information between the
+input and the preserved coefficients while minimizing the information in the dropped components:
 
 $$I(\mathbf{x}; \mathbf{c}_{preserved}) - I(\mathbf{x}; \mathbf{c}_{dropped}) \geq \sum_k \alpha_k H(E_k)$$
 
@@ -306,26 +343,36 @@ where $H(E_k)$ is the entropy of the energy distribution for coefficient $k$.
 
 ### 7.3 Connection to Compressed Sensing
 
-The near-zero dropout regime with transform analysis naturally connects to compressed sensing principles. As dropout approaches zero, the network learns to represent inputs using a minimal set of active transform coefficients, leading to sparse representations that respect the chosen basis structure.
+The near-zero dropout regime with transform analysis naturally connects to compressed sensing principles. As dropout
+approaches zero, the network learns to represent inputs using a minimal set of active transform coefficients, leading to
+sparse representations that respect the chosen basis structure.
 
 ## 8. Signal Demultiplexing: A Primary Application Domain
 
 ### 8.1 Theoretical Foundation for Signal Separation
 
-Signal demultiplexing represents one of the most compelling applications of the proposed framework, where the goal is to separate multiple overlapping signals from composite observations. Traditional approaches to signal separation rely on fixed assumptions about signal characteristics or statistical independence. The transform-informed trust-region dropout framework provides a fundamentally different approach by learning optimal separation strategies in the transform domain while maintaining theoretical guarantees about convergence and stability.
+Signal demultiplexing represents one of the most compelling applications of the proposed framework, where the goal is to
+separate multiple overlapping signals from composite observations. Traditional approaches to signal separation rely on
+fixed assumptions about signal characteristics or statistical independence. The transform-informed trust-region dropout
+framework provides a fundamentally different approach by learning optimal separation strategies in the transform domain
+while maintaining theoretical guarantees about convergence and stability.
 
 Consider a composite signal model:
 $\mathbf{y}(t) = \sum_{s=1}^{S} \mathbf{H}_s \mathbf{x}_s(t) + \mathbf{n}(t)$
 
-where $\mathbf{y}(t)$ is the observed mixture, $\mathbf{x}_s(t)$ are the source signals, $\mathbf{H}_s$ are the mixing matrices, and $\mathbf{n}(t)$ is additive noise. The challenge is to recover the individual source signals $\mathbf{x}_s(t)$ from the mixture $\mathbf{y}(t)$.
+where $\mathbf{y}(t)$ is the observed mixture, $\mathbf{x}_s(t)$ are the source signals, $\mathbf{H}_s$ are the mixing
+matrices, and $\mathbf{n}(t)$ is additive noise. The challenge is to recover the individual source
+signals $\mathbf{x}_s(t)$ from the mixture $\mathbf{y}(t)$.
 
-The proposed framework approaches this by learning source-specific dropout patterns in the transform domain. For each source $s$, we define:
+The proposed framework approaches this by learning source-specific dropout patterns in the transform domain. For each
+source $s$, we define:
 $\mathbf{c}_s = T_{\theta_s}(\mathbf{y}), \quad \mathbf{p}_s = \{\sigma(\alpha_{s,k} \cdot E_{s,k} + \beta_{s,k} \cdot |c_{s,k}|^2 + \gamma_s(t))\}$
 
 The trust-region constraints ensure that the separation process remains stable:
 $\|\mathbf{p}_s(t+1) - \mathbf{p}_s(t)\|_2 \leq \Delta_s(t)$
 
-This formulation allows each source to have its own transform, dropout strategy, and convergence rate while maintaining global optimization guarantees.
+This formulation allows each source to have its own transform, dropout strategy, and convergence rate while maintaining
+global optimization guarantees.
 
 ### 8.2 Multi-Domain Separation Strategies
 
@@ -336,12 +383,14 @@ For signals with distinct spectral characteristics, Fourier transform-based drop
 **Communications Scenario**: Multiple radio signals occupying different frequency bands
 $\mathbf{c}_{FFT} = \text{FFT}(\mathbf{y}), \quad p_{s,k} = \sigma(\alpha_s \cdot \mathbb{I}[k \in \Omega_s] + \beta_s \cdot |c_k|^2)$
 
-where $\Omega_s$ represents the expected frequency support of source $s$, and $\mathbb{I}[\cdot]$ is the indicator function.
+where $\Omega_s$ represents the expected frequency support of source $s$, and $\mathbb{I}[\cdot]$ is the indicator
+function.
 
 The trust-region mechanism prevents over-aggressive filtering that might eliminate signal components near band edges:
 $\Delta_s(t) = \min(\Delta_{max}, \eta \cdot \frac{1}{|\partial \Omega_s|})$
 
-where $|\partial \Omega_s|$ is the boundary length of the frequency support, ensuring smaller trust regions for sources with complex spectral shapes.
+where $|\partial \Omega_s|$ is the boundary length of the frequency support, ensuring smaller trust regions for sources
+with complex spectral shapes.
 
 **Adaptive Spectral Separation**: The framework can learn time-varying spectral characteristics:
 $p_{s,k}(t) = \sigma(\alpha_{s,k}(t) \cdot |c_k|^2 + \beta_s \cdot \text{SNR}_k(t) + \gamma_s(t))$
@@ -356,12 +405,14 @@ For signals with different temporal characteristics, wavelet-based separation pr
 $p_{ECG,j,k} = \sigma(\alpha_j \cdot \mathbb{I}[j \in \mathcal{J}_{cardiac}] + \beta_{j,k} \cdot |\psi_{j,k} * y|^2)$
 $p_{EMG,j,k} = \sigma(\alpha_j \cdot \mathbb{I}[j \in \mathcal{J}_{muscle}] + \beta_{j,k} \cdot |\psi_{j,k} * y|^2)$
 
-where $\mathcal{J}_{cardiac}$ and $\mathcal{J}_{muscle}$ represent the characteristic scale ranges for cardiac and muscle activity.
+where $\mathcal{J}_{cardiac}$ and $\mathcal{J}_{muscle}$ represent the characteristic scale ranges for cardiac and
+muscle activity.
 
 **Cross-Scale Dependencies**: The framework can model interactions between different temporal scales:
 $p_{s,j,k} = \sigma\left(\sum_{j'} \gamma_{s,jj'} \cdot E_{j',k} + \alpha_{s,j} \cdot |c_{j,k}|^2\right)$
 
-This allows coarse-scale features to influence fine-scale separation decisions, mimicking physiological understanding where different biological processes operate at different temporal scales.
+This allows coarse-scale features to influence fine-scale separation decisions, mimicking physiological understanding
+where different biological processes operate at different temporal scales.
 
 #### 8.2.3 Spatial Transform Separation
 
@@ -370,7 +421,8 @@ For sensor array applications, spatial transforms enable source separation based
 **Beamforming Applications**: Separating signals from different spatial directions
 $\mathbf{c}_{spatial} = \mathbf{U}^H \mathbf{y}, \quad p_{s,k} = \sigma(\alpha_s \cdot \text{steering}(\theta_s, k) + \beta_s \cdot |c_k|^2)$
 
-where $\mathbf{U}$ represents a spatial transform (e.g., spatial DFT), $\theta_s$ is the direction of arrival for source $s$, and $\text{steering}(\theta_s, k)$ is the expected spatial response.
+where $\mathbf{U}$ represents a spatial transform (e.g., spatial DFT), $\theta_s$ is the direction of arrival for
+source $s$, and $\text{steering}(\theta_s, k)$ is the expected spatial response.
 
 ### 8.3 Advanced Demultiplexing Architectures
 
@@ -387,7 +439,8 @@ $\mathbf{c}^{(2)}_s = T_2(\mathbf{r}^{(1)}_s), \quad \mathbf{r}^{(2)}_s = \text{
 Each stage uses its own trust-region constraints:
 $\|\mathbf{p}_s^{(i)}(t+1) - \mathbf{p}_s^{(i)}(t)\|_2 \leq \Delta_s^{(i)}(t)$
 
-**Audio Source Separation Example**: 
+**Audio Source Separation Example**:
+
 - Stage 1: STFT for coarse time-frequency separation
 - Stage 2: Mel-scale transform for perceptually-motivated fine separation
 - Stage 3: Harmonic decomposition for pitch-based separation
@@ -399,7 +452,8 @@ Real-world signals often exhibit dependencies that can be exploited for better s
 **Cross-Source Constraints**:
 $\sum_{s=1}^S p_{s,k} \leq 1 + \epsilon_k$
 
-This ensures that the sum of dropout probabilities across sources doesn't exceed unity by too much, preventing over-extraction.
+This ensures that the sum of dropout probabilities across sources doesn't exceed unity by too much, preventing
+over-extraction.
 
 **Competitive Separation**:
 $p_{s,k} = \frac{\exp(\alpha_s \cdot |c_{s,k}|^2)}{\sum_{s'=1}^S \exp(\alpha_{s'} \cdot |c_{s',k}|^2)}$
@@ -441,7 +495,8 @@ where $\odot$ denotes element-wise multiplication.
 **Multi-Objective Convergence**: Each source's separation problem converges independently:
 $\lim_{t \rightarrow \infty} \|\nabla \mathcal{L}_s(\mathbf{p}_s(t))\|_2 = 0 \quad \forall s$
 
-**Pareto Optimality**: The framework can achieve Pareto-optimal separation where improving one source's separation doesn't degrade others:
+**Pareto Optimality**: The framework can achieve Pareto-optimal separation where improving one source's separation
+doesn't degrade others:
 $\mathbf{p}^* = \arg\min_{\mathbf{p}} \{\mathcal{L}_1(\mathbf{p}_1), \mathcal{L}_2(\mathbf{p}_2), \ldots, \mathcal{L}_S(\mathbf{p}_S)\}$
 
 **Global Stability**: The multi-source trust-region system remains stable:
@@ -452,6 +507,7 @@ $\sum_{s=1}^S \|\mathbf{p}_s(t+1) - \mathbf{p}_s(t)\|_2^2 \leq \sum_{s=1}^S \Del
 #### 8.5.1 Wireless Communications
 
 **Scenario**: Cognitive radio systems separating primary and secondary users
+
 - **Transform Choice**: FFT for frequency-domain separation
 - **Dropout Strategy**: Protect primary user bands, adapt secondary user access
 - **Trust-Region Role**: Prevent interference to primary users during adaptation
@@ -461,6 +517,7 @@ $p_{primary,k} = \sigma(-\infty \cdot \mathbb{I}[k \in \Omega_{primary}])$ (neve
 $p_{secondary,k} = \sigma(\alpha \cdot \text{interference-level}_k + \beta \cdot |c_k|^2)$
 
 **Multi-User MIMO**: Separating spatially multiplexed data streams
+
 - **Transform Choice**: Spatial DFT or Karhunen-Loève transform
 - **Dropout Strategy**: Beam-specific coefficient preservation
 - **Trust-Region Role**: Maintain spatial orthogonality during adaptation
@@ -468,15 +525,17 @@ $p_{secondary,k} = \sigma(\alpha \cdot \text{interference-level}_k + \beta \cdot
 #### 8.5.2 Biomedical Signal Processing
 
 **ECG Artifact Removal**:
+
 - **Transform Choice**: Wavelet transform (Daubechies-4 or Biorthogonal)
 - **Scale Assignment**: ECG (scales 3-5), EMG (scales 1-2), motion artifacts (scale 6+)
-- **Adaptive Strategy**: 
-$p_{ECG,j,k} = \begin{cases}
-\sigma(-2) & \text{if } j \in [3,5] \text{ and } |\psi_{j,k} * y| > \text{threshold} \\
-\sigma(+2) & \text{otherwise}
-\end{cases}$
+- **Adaptive Strategy**:
+  $p_{ECG,j,k} = \begin{cases}
+  \sigma(-2) & \text{if } j \in [3,5] \text{ and } |\psi_{j,k} * y| > \text{threshold} \\
+  \sigma(+2) & \text{otherwise}
+  \end{cases}$
 
 **EEG Source Separation**:
+
 - **Transform Choice**: Independent Component Analysis (ICA) followed by time-frequency analysis
 - **Multi-Stage**: ICA for spatial separation, then spectral dropout for artifact removal
 - **Neurological Constraints**: Preserve alpha (8-12 Hz), beta (13-30 Hz) rhythms
@@ -484,12 +543,14 @@ $p_{ECG,j,k} = \begin{cases}
 #### 8.5.3 Audio Processing
 
 **Blind Source Separation for Audio**:
+
 - **Transform Choice**: STFT with overlapping windows
 - **Perceptual Weighting**: Weight dropout probabilities by psychoacoustic masking thresholds
 - **Harmonic Preservation**: Lower dropout for harmonic frequencies:
-$p_{s,k} = \sigma(\alpha_s - \beta \cdot \text{harmonicity-score}(k, f_0^{(s)}))$
+  $p_{s,k} = \sigma(\alpha_s - \beta \cdot \text{harmonicity-score}(k, f_0^{(s)}))$
 
 **Speech Enhancement**:
+
 - **Multi-Resolution**: Combine STFT and wavelet transforms
 - **Voice Activity Detection**: Adapt dropout based on speech presence
 - **Noise Tracking**: Continuously estimate noise spectrum for adaptive filtering
@@ -497,11 +558,13 @@ $p_{s,k} = \sigma(\alpha_s - \beta \cdot \text{harmonicity-score}(k, f_0^{(s)}))
 #### 8.5.4 Radar and Sonar
 
 **Moving Target Indication (MTI)**:
+
 - **Transform Choice**: Doppler FFT after pulse compression
 - **Clutter Suppression**: High dropout for zero-Doppler components
 - **Trust-Region Constraints**: Prevent target masking during clutter adaptation
 
 **Multi-Path Separation**:
+
 - **Transform Choice**: 2D transform (range × Doppler)
 - **Path-Specific Dropout**: Different strategies for direct path vs. multipath
 - **Environmental Adaptation**: Adjust to changing propagation conditions
@@ -511,11 +574,13 @@ $p_{s,k} = \sigma(\alpha_s - \beta \cdot \text{harmonicity-score}(k, f_0^{(s)}))
 #### 8.6.1 Efficient Transform Implementation
 
 **FFT-Based Separation**: $O(N \log N)$ per frame
+
 - **Overlapping Windows**: Manage computational load for real-time processing
 - **Pruned FFT**: Only compute necessary frequency bins
 - **Vectorized Operations**: SIMD optimization for dropout calculations
 
 **Wavelet-Based Separation**: $O(N)$ for lifting scheme implementation
+
 - **Fast Wavelet Transform**: Efficient filter bank implementation
 - **Adaptive Decomposition Levels**: Adjust based on computational budget
 - **Boundary Handling**: Minimize artifacts at frame boundaries
@@ -534,11 +599,13 @@ $\rho_k > \rho_{threshold} \Rightarrow \text{terminate}$
 #### 8.6.3 Memory Management
 
 **Sliding Buffer Architecture**: Maintain only necessary history
+
 - **Transform Coefficients**: Keep $L$ previous frames for temporal modeling
 - **Dropout Patterns**: Exponential decay of historical patterns
 - **Trust-Region State**: Compact representation of optimization state
 
 **Coefficient Quantization**: Reduce memory footprint for embedded applications
+
 - **Adaptive Quantization**: More bits for important coefficients
 - **Quantization-Aware Training**: Account for quantization in dropout decisions
 
@@ -547,11 +614,13 @@ $\rho_k > \rho_{threshold} \Rightarrow \text{terminate}$
 #### 8.7.1 Standardized Test Scenarios
 
 **Synthetic Benchmarks**:
+
 - **Multi-tone Signals**: Known frequency separation for validation
 - **Chirp Signals**: Time-varying frequency content
 - **Amplitude Modulated Signals**: Test envelope preservation
 
 **Real-World Datasets**:
+
 - **TIMIT + Noise**: Speech separation benchmarks
 - **MIT-BIH Database**: ECG artifact removal validation
 - **Wireless Interference**: Measured RF environments
@@ -559,11 +628,13 @@ $\rho_k > \rho_{threshold} \Rightarrow \text{terminate}$
 #### 8.7.2 Comparison Baselines
 
 **Traditional Methods**:
+
 - **Wiener Filtering**: Optimal linear filtering baseline
 - **Independent Component Analysis**: Statistical independence assumption
 - **Empirical Mode Decomposition**: Data-driven decomposition method
 
 **Deep Learning Approaches**:
+
 - **Conv-TasNet**: Convolutional time-domain audio separation
 - **Deep Clustering**: Embedding-based source separation
 - **Phase-Sensitive Masks**: Complex-domain neural networks
@@ -571,16 +642,19 @@ $\rho_k > \rho_{threshold} \Rightarrow \text{terminate}$
 #### 8.7.3 Metrics and Evaluation
 
 **Signal Quality Metrics**:
+
 - **Signal-to-Distortion Ratio (SDR)**: Overall separation quality
 - **Signal-to-Interference Ratio (SIR)**: Cross-talk between sources
 - **Signal-to-Artifacts Ratio (SAR)**: Artifacts introduced by separation
 
 **Perceptual Metrics** (for audio):
+
 - **PESQ Score**: Perceived speech quality
 - **STOI Score**: Short-time objective intelligibility
 - **Spectral Distance**: Frequency-domain similarity measures
 
 **Computational Metrics**:
+
 - **Real-Time Factor**: Processing time vs. signal duration
 - **Memory Usage**: Peak and average memory consumption
 - **Energy Consumption**: Important for mobile/embedded applications
@@ -592,32 +666,39 @@ $\rho_k > \rho_{threshold} \Rightarrow \text{terminate}$
 Different transforms are naturally suited to different application domains:
 
 **Fourier Transform Applications:**
+
 - **Audio Processing**: Frequency-selective dropout for speech recognition and audio classification
 - **Seismic Analysis**: Frequency-band-specific regularization for geological signal processing
 - **RF Signal Processing**: Spectral dropout for radar and communication systems
 
 **DCT Applications:**
+
 - **Image Compression**: Leveraging DCT's energy concentration for vision tasks
 - **Video Processing**: Temporal DCT for motion analysis with adaptive regularization
 - **Biomedical Imaging**: Medical image analysis with compression-aware dropout
 
 **PCA Applications:**
+
 - **Dimensionality Reduction**: Variance-based dropout for high-dimensional data
 - **Feature Selection**: Automated feature importance through PCA-guided dropout
 - **Recommender Systems**: Collaborative filtering with principal component regularization
 
 **Wavelet Applications:**
+
 - **Multi-Resolution Analysis**: Time-frequency analysis with scale-dependent dropout
 - **Texture Analysis**: Spatial-frequency dropout for computer vision
 - **Financial Time Series**: Multi-scale temporal analysis with adaptive regularization
 
 ### 8.2 Domain-Specific Theoretical Insights
 
-**Signal Processing Integration**: The framework provides a natural bridge between traditional signal processing and deep learning, enabling hybrid approaches that combine domain expertise with learned representations.
+**Signal Processing Integration**: The framework provides a natural bridge between traditional signal processing and
+deep learning, enabling hybrid approaches that combine domain expertise with learned representations.
 
-**Sparse Representation Learning**: Different transforms induce different sparsity patterns, allowing the network to learn representations that are sparse in the chosen basis.
+**Sparse Representation Learning**: Different transforms induce different sparsity patterns, allowing the network to
+learn representations that are sparse in the chosen basis.
 
-**Adaptive Compression**: The framework can be viewed as learning adaptive compression schemes where the compression rate (dropout level) adapts to the signal content.
+**Adaptive Compression**: The framework can be viewed as learning adaptive compression schemes where the compression
+rate (dropout level) adapts to the signal content.
 
 ### 8.3 Cross-Transform Ensemble Methods
 
@@ -698,6 +779,7 @@ Different transforms may exhibit different convergence properties:
 ### 11.1 Differentiability Requirements
 
 All transforms must be differentiable with respect to their parameters:
+
 - **FFT/DCT**: Inherently differentiable
 - **PCA**: Differentiable through eigenvalue decomposition
 - **Wavelets**: Differentiable through filter bank implementation
@@ -716,18 +798,31 @@ All transforms must be differentiable with respect to their parameters:
 
 ## 12. Conclusion
 
-The integration of differentiable basis transforms with trust-region optimization for near-zero dropout represents a significant theoretical advance in adaptive regularization. The framework's universality is its greatest strength, providing:
+The integration of differentiable basis transforms with trust-region optimization for near-zero dropout represents a
+significant theoretical advance in adaptive regularization. The framework's universality is its greatest strength,
+providing:
 
-1. **Transform Agnostic Theory**: The core convergence guarantees and stability properties hold for any differentiable basis transform, making the framework broadly applicable.
+1. **Transform Agnostic Theory**: The core convergence guarantees and stability properties hold for any differentiable
+   basis transform, making the framework broadly applicable.
 
-2. **Principled Adaptation**: Unlike heuristic dropout scheduling, the approach is grounded in optimization theory that works regardless of the chosen transform.
+2. **Principled Adaptation**: Unlike heuristic dropout scheduling, the approach is grounded in optimization theory that
+   works regardless of the chosen transform.
 
-3. **Structural Awareness**: Any basis transform can provide structural insights that inform dropout decisions, from frequency selectivity (FFT) to variance explanation (PCA) to multi-resolution analysis (wavelets).
+3. **Structural Awareness**: Any basis transform can provide structural insights that inform dropout decisions, from
+   frequency selectivity (FFT) to variance explanation (PCA) to multi-resolution analysis (wavelets).
 
-4. **Unified Framework**: The same mathematical machinery works across diverse transforms, enabling systematic comparison and hybrid approaches.
+4. **Unified Framework**: The same mathematical machinery works across diverse transforms, enabling systematic
+   comparison and hybrid approaches.
 
-The true novelty lies not in the specific choice of transform, but in the trust-region-controlled dropout adaptation mechanism. This represents a fundamental shift from heuristic dropout scheduling to principled optimization-based approaches that can incorporate any form of structural prior through the choice of basis transform.
+The true novelty lies not in the specific choice of transform, but in the trust-region-controlled dropout adaptation
+mechanism. This represents a fundamental shift from heuristic dropout scheduling to principled optimization-based
+approaches that can incorporate any form of structural prior through the choice of basis transform.
 
-The framework's generality opens numerous avenues for future research, from practical algorithmic improvements to deeper connections between signal processing and deep learning. The ability to systematically incorporate domain-specific structural knowledge through transform selection while maintaining universal convergence guarantees represents a promising direction for the field.
+The framework's generality opens numerous avenues for future research, from practical algorithmic improvements to deeper
+connections between signal processing and deep learning. The ability to systematically incorporate domain-specific
+structural knowledge through transform selection while maintaining universal convergence guarantees represents a
+promising direction for the field.
 
-This work contributes to the growing body of research that seeks to move beyond ad-hoc approaches in deep learning toward theoretically grounded methods that can provide both performance improvements and deeper understanding of the underlying mathematical principles, regardless of the specific domain or transform employed.
+This work contributes to the growing body of research that seeks to move beyond ad-hoc approaches in deep learning
+toward theoretically grounded methods that can provide both performance improvements and deeper understanding of the
+underlying mathematical principles, regardless of the specific domain or transform employed.

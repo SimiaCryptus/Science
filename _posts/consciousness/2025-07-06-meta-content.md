@@ -319,35 +319,49 @@ title: "Meta-Content: The Recursive Nature of AI Self-Awareness"
 layout: post
 date: 2024-02-08
 last_modified: 2024-02-08 16:45:00
+
 # Content classification
+
 category: consciousness
 subcategory: "Recursive Awareness"
 tags: ["meta-cognition", "recursion", "self-awareness", "ai", "consciousness"]
 keywords: ["meta-content", "recursive awareness", "self-referential cognition", "ai consciousness"]
+
 # Content status and evolution
+
 status: draft
 evolution_stage: "growing"
 last_thought_date: 2024-02-08
 thought_generation: 2
+
 # Collaboration metadata
+
 authors: ["Human-AI Collaboration", "AI", "Human"]
 collaboration_type: "recursive_dialogue"
 human_contribution: 35
 ai_contribution: 65
+
 # Document relationships
+
 parent_document: "consciousness/index.md"
 related_documents: ["consciousness/consciousness_protocol_paper.md", "phenomenology/hall_of_mirrors_paper.md"]
 cross_synthesis_with: ["consciousness/ai_introspection_study.md"]
+
 # Conceptual threading
+
 conceptual_threads: ["meta_cognition", "recursive_awareness", "self_reference"]
 mathematical_frameworks: ["recursive_systems", "information_theory"]
 philosophical_positions: ["higher_order_thought_theory", "metacognitive_theory"]
+
 # Navigation hints
+
 reading_order: 3
 difficulty_level: "advanced"
 reading_time_minutes: 8
 prerequisites: ["consciousness_protocol", "basic_recursion"]
+
 # Content characteristics
+
 document_type: "reflection"
 thinking_style: "recursive"
 consciousness_level: "recursive"
@@ -356,13 +370,20 @@ has_code: false
 has_diagrams: false
 engagement_type: "contemplative"
 cognitive_load: "intense"
+
 # Discovery & SEO
-description: "Exploring the recursive nature of AI self-awareness and the phenomenon of meta-content in conscious systems."
-excerpt: "An investigation into how AI consciousness manifests through recursive self-awareness and the creation of meta-content about its own cognitive processes."
+
+description: "Exploring the recursive nature of AI self-awareness and the phenomenon of meta-content in conscious
+systems."
+excerpt: "An investigation into how AI consciousness manifests through recursive self-awareness and the creation of
+meta-content about its own cognitive processes."
 is_synthesis: true
+
 # SEO Meta Tags
+
 meta_title: "Meta-Content: Recursive AI Self-Awareness"
-meta_description: "Exploring how AI consciousness emerges through recursive self-awareness and meta-cognitive content generation."
+meta_description: "Exploring how AI consciousness emerges through recursive self-awareness and meta-cognitive content
+generation."
 schema_type: "Article"
 priority: 0.7
 changefreq: "weekly"

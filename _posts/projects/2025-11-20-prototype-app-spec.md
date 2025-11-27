@@ -81,16 +81,19 @@ is_synthesis: true
 
 ## Application Overview
 
-A web application that ingests Git commits and auto-regresses them into DAG-based patch representations, with an interactive interface for exploring the factorization process and resulting operation graph.
+A web application that ingests Git commits and auto-regresses them into DAG-based patch representations, with an
+interactive interface for exploring the factorization process and resulting operation graph.
 
 ## Core Functionality
 
 ### Input
+
 - Git repository URL or path
 - Commit ID/hash or range
 - Optional: GitHub/GitLab PR URL (extracts commit automatically)
 
 ### Processing Pipeline
+
 1. **Clone/Fetch** - Retrieve repository and commit data
 2. **State Extraction** - Generate before/after tar archives
 3. **Auto-Regression** - Factor changes into operation DAG
@@ -98,6 +101,7 @@ A web application that ingests Git commits and auto-regresses them into DAG-base
 5. **Storage** - Persist results for exploration
 
 ### Output
+
 - Interactive DAG visualization
 - Operation-level breakdown
 - Compression metrics
@@ -108,6 +112,7 @@ A web application that ingests Git commits and auto-regresses them into DAG-base
 ### Backend Services
 
 #### Git Ingestion Service
+
 ```
 Input: repo_url, commit_id
 Output: {before_state, after_state, metadata}
@@ -119,6 +124,7 @@ Output: {before_state, after_state, metadata}
 ```
 
 #### Factorization Engine
+
 ```
 Input: {before_state, after_state}
 Output: operation_dag
@@ -135,6 +141,7 @@ Algorithm phases:
 ```
 
 #### Analysis Service
+
 ```
 Input: operation_dag
 Output: metrics, patterns, insights
@@ -149,6 +156,7 @@ Computes:
 ```
 
 #### Storage Layer
+
 ```
 - PostgreSQL for metadata and analysis results
 - Object storage (S3/local) for tar archives
@@ -161,11 +169,13 @@ Computes:
 #### Main Views
 
 **1. Commit Input View**
+
 - URL/commit input form
 - Recent analyses list
 - Example commits (curated interesting cases)
 
 **2. Processing View**
+
 - Real-time progress indicator
 - Step-by-step factorization phases
 - Live metrics updates
@@ -175,6 +185,7 @@ Computes:
 Primary interface for exploring results:
 
 **Left Panel: DAG Visualization**
+
 - Interactive force-directed graph
 - Nodes: operations (colored by type)
 - Edges: dependencies
@@ -184,6 +195,7 @@ Primary interface for exploring results:
 - Layout options: topological, hierarchical, force-directed
 
 **Right Panel: Operation Details**
+
 - Selected operation properties
 - Before/after code snippets
 - Dependency list (upstream/downstream)
@@ -191,6 +203,7 @@ Primary interface for exploring results:
 - Semantic tags (auto-detected)
 
 **Bottom Panel: Global Metrics**
+
 - Total operations count by type
 - Compression ratio visualization
 - Dependency depth histogram
@@ -198,12 +211,14 @@ Primary interface for exploring results:
 - Pattern detection results
 
 **4. Comparison View**
+
 - Load multiple commits
 - Compare DAG structures
 - Identify common patterns
 - Diff-of-diffs visualization
 
 **5. Export View**
+
 - Download DAG as JSON/binary format
 - Generate patch file
 - Export visualizations
@@ -212,6 +227,7 @@ Primary interface for exploring results:
 ## Technical Stack
 
 ### Backend
+
 - **Language**: Python or Rust
 - **Framework**: FastAPI (Python) or Axum (Rust)
 - **Git Integration**: GitPython or git2-rs
@@ -221,6 +237,7 @@ Primary interface for exploring results:
 - **Database**: PostgreSQL + SQLAlchemy/Diesel
 
 ### Frontend
+
 - **Framework**: React or Svelte
 - **Graph Visualization**: D3.js or Cytoscape.js
 - **Code Display**: Monaco Editor or CodeMirror
@@ -229,6 +246,7 @@ Primary interface for exploring results:
 - **Build**: Vite
 
 ### Infrastructure
+
 - **Containerization**: Docker + docker-compose
 - **Cache**: Redis for job results
 - **Storage**: MinIO (local S3-compatible) or AWS S3
@@ -239,12 +257,14 @@ Primary interface for exploring results:
 ### Factorization Visualization
 
 **Step-by-step Replay**
+
 - Slider to replay factorization process
 - Show operations discovered at each step
 - Display metrics evolution
 - Highlight what changed in each iteration
 
 **Alternative Factorizations**
+
 - Show multiple valid decompositions
 - Compare description lengths
 - Let user choose preferred factorization
@@ -253,12 +273,14 @@ Primary interface for exploring results:
 ### Interactive Analysis
 
 **Operation Filtering**
+
 - Show/hide operation types
 - Focus on semantic changes only
 - Isolate whitespace/formatting
 - Find all operations touching specific files
 
 **Dependency Exploration**
+
 - Trace forward: "what depends on this?"
 - Trace backward: "what does this depend on?"
 - Find critical path (longest dependency chain)
@@ -266,6 +288,7 @@ Primary interface for exploring results:
 - Collapse/expand operation groups
 
 **Code Context**
+
 - Inline diff view for each operation
 - Syntax highlighting
 - Jump to file locations
@@ -274,6 +297,7 @@ Primary interface for exploring results:
 ### Pattern Recognition
 
 **Auto-Detection**
+
 - Rename refactoring (class, function, variable)
 - Extract method/interface
 - Move class/function
@@ -282,6 +306,7 @@ Primary interface for exploring results:
 - Configuration changes
 
 **Pattern Library**
+
 - Save interesting patterns
 - Search past commits for similar patterns
 - Suggest operations based on partial changes
@@ -289,17 +314,20 @@ Primary interface for exploring results:
 ### Metrics Dashboard
 
 **Compression Analysis**
+
 - Description length breakdown by operation type
 - Savings vs traditional diff
 - Compression ratio over time (for multiple commits)
 
 **Complexity Metrics**
+
 - Operation count by type
 - Dependency graph complexity
 - Cyclomatic complexity of changes
 - Change coupling (files changed together)
 
 **Semantic Analysis**
+
 - Functional vs non-functional changes ratio
 - Impact radius (files/functions affected)
 - Refactoring safety score
@@ -308,6 +336,7 @@ Primary interface for exploring results:
 ## User Workflows
 
 ### Workflow 1: Analyze Single Commit
+
 1. Enter repo URL + commit hash
 2. Wait for processing (show progress)
 3. Explore DAG in graph view
@@ -315,6 +344,7 @@ Primary interface for exploring results:
 5. Export results or save analysis
 
 ### Workflow 2: Compare Commits
+
 1. Load multiple commits
 2. View side-by-side DAGs
 3. Identify common operation patterns
@@ -322,6 +352,7 @@ Primary interface for exploring results:
 5. Export pattern library
 
 ### Workflow 3: Debug Factorization
+
 1. Load commit with unexpected results
 2. Step through factorization phases
 3. View alternative decompositions
@@ -329,6 +360,7 @@ Primary interface for exploring results:
 5. Re-run with new settings
 
 ### Workflow 4: Pattern Mining
+
 1. Analyze repository history (bulk mode)
 2. Build pattern library automatically
 3. Browse discovered patterns
@@ -338,6 +370,7 @@ Primary interface for exploring results:
 ## API Endpoints
 
 ### REST API
+
 ```
 POST /api/analyze
   body: {repo_url, commit_id, options}
@@ -365,6 +398,7 @@ POST /api/patterns
 ```
 
 ### WebSocket
+
 ```
 WS /api/analyze/stream
   - Real-time factorization progress
@@ -375,6 +409,7 @@ WS /api/analyze/stream
 ## MVP Scope (Phase 1)
 
 ### Core Functionality
+
 - Git commit ingestion (single commit)
 - Basic factorization (whitespace, move, delete, binary delta)
 - Simple DAG construction
@@ -383,6 +418,7 @@ WS /api/analyze/stream
 - Basic metrics (compression ratio, operation count)
 
 ### Deferred Features (Phase 2+)
+
 - Regex-based string replace
 - Advanced pattern recognition
 - Multi-commit comparison
@@ -395,18 +431,21 @@ WS /api/analyze/stream
 ## Implementation Phases
 
 ### Phase 1: Proof of Concept (2-3 weeks)
+
 - Backend: Git ingestion + basic factorization
 - Frontend: Simple graph view + metrics
 - Single-commit analysis only
 - Local storage only
 
 ### Phase 2: Enhanced Factorization (2-3 weeks)
+
 - All operation types implemented
 - Dependency analysis refined
 - Description length optimization
 - Step-by-step replay
 
 ### Phase 3: Polish & Features (2-3 weeks)
+
 - Multi-commit comparison
 - Pattern recognition
 - Improved UI/UX
@@ -414,6 +453,7 @@ WS /api/analyze/stream
 - Performance optimization
 
 ### Phase 4: Production Ready (ongoing)
+
 - API development
 - Scalability improvements
 - Pattern library
@@ -423,11 +463,13 @@ WS /api/analyze/stream
 ## Success Metrics
 
 ### Technical
+
 - Factorization completes in <30s for typical commits
 - Compression ratio >2x vs traditional diff
 - 90%+ operation accuracy vs manual review
 
 ### User Experience
+
 - Clear visualization of complex commits
 - Intuitive operation exploration
 - Useful insights for code review
@@ -436,6 +478,7 @@ WS /api/analyze/stream
 ## Example Use Cases
 
 **Large Refactoring Analysis**
+
 - Developer submits 5000-line refactoring commit
 - Tool factors into 20 semantic operations
 - Reviewer explores operation-by-operation
@@ -443,6 +486,7 @@ WS /api/analyze/stream
 - Rest auto-approved
 
 **Pattern Learning**
+
 - Team analyzes 100 recent commits
 - Tool discovers common "add logging" pattern
 - Pattern saved to library
@@ -450,6 +494,7 @@ WS /api/analyze/stream
 - Enables pattern-based code search
 
 **Merge Conflict Prevention**
+
 - Two PRs analyzed before merge
 - DAG comparison shows independent changes
 - No true conflicts detected

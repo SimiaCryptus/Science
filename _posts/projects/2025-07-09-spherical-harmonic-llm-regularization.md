@@ -84,36 +84,64 @@ dns_prefetch: ["https://cdn.mathjax.org"]
 
 ## Abstract
 
-We introduce a novel regularization framework for large language models (LLMs) that leverages the hyperspherical geometry of learned representations and spherical harmonic decomposition to achieve principled control over semantic resolution. By decomposing token embeddings and attention patterns into spherical harmonic components and applying trust-region-constrained dropout in this transformed space, we enable fine-grained control over reasoning depth, semantic abstraction levels, and hallucination suppression. Our approach provides theoretical guarantees for semantic preservation while allowing adaptive regularization based on harmonic degree structure. We demonstrate that different spherical harmonic frequencies correspond to distinct aspects of linguistic processing: low-degree harmonics capture core semantic content, while high-degree harmonics encode fine-grained syntactic and contextual details. The framework enables controllable reasoning depth, interpretable attention mechanisms, and principled hallucination reduction through geometric constraints on the hypersphere.
+We introduce a novel regularization framework for large language models (LLMs) that leverages the hyperspherical
+geometry of learned representations and spherical harmonic decomposition to achieve principled control over semantic
+resolution. By decomposing token embeddings and attention patterns into spherical harmonic components and applying
+trust-region-constrained dropout in this transformed space, we enable fine-grained control over reasoning depth,
+semantic abstraction levels, and hallucination suppression. Our approach provides theoretical guarantees for semantic
+preservation while allowing adaptive regularization based on harmonic degree structure. We demonstrate that different
+spherical harmonic frequencies correspond to distinct aspects of linguistic processing: low-degree harmonics capture
+core semantic content, while high-degree harmonics encode fine-grained syntactic and contextual details. The framework
+enables controllable reasoning depth, interpretable attention mechanisms, and principled hallucination reduction through
+geometric constraints on the hypersphere.
 
 ## 1. Introduction
 
-Modern large language models operate in high-dimensional embedding spaces that exhibit hyperspherical geometry, where token representations and learned features naturally lie on or near the surface of high-dimensional spheres. This geometric structure, while implicitly leveraged by normalization techniques and attention mechanisms, has not been explicitly exploited for principled regularization and interpretability.
+Modern large language models operate in high-dimensional embedding spaces that exhibit hyperspherical geometry, where
+token representations and learned features naturally lie on or near the surface of high-dimensional spheres. This
+geometric structure, while implicitly leveraged by normalization techniques and attention mechanisms, has not been
+explicitly exploited for principled regularization and interpretability.
 
-We propose a fundamental shift in how regularization is applied to LLMs by recognizing that the hyperspherical geometry admits natural basis decompositions through spherical harmonics. Just as Fourier analysis decomposes temporal signals into frequency components, spherical harmonic analysis decomposes representations on the sphere into "semantic frequency" components, where different harmonic degrees correspond to different levels of semantic abstraction and detail.
+We propose a fundamental shift in how regularization is applied to LLMs by recognizing that the hyperspherical geometry
+admits natural basis decompositions through spherical harmonics. Just as Fourier analysis decomposes temporal signals
+into frequency components, spherical harmonic analysis decomposes representations on the sphere into "semantic
+frequency" components, where different harmonic degrees correspond to different levels of semantic abstraction and
+detail.
 
-Our key insight is that language processing exhibits multi-scale structure analogous to signal processing: core semantic meaning corresponds to low-frequency (low-degree) spherical harmonics, while fine-grained linguistic details, syntactic nuances, and contextual subtleties correspond to high-frequency (high-degree) harmonics. By applying trust-region-constrained dropout selectively across these harmonic degrees, we can control the trade-off between semantic preservation and detail retention with mathematical guarantees.
+Our key insight is that language processing exhibits multi-scale structure analogous to signal processing: core semantic
+meaning corresponds to low-frequency (low-degree) spherical harmonics, while fine-grained linguistic details, syntactic
+nuances, and contextual subtleties correspond to high-frequency (high-degree) harmonics. By applying
+trust-region-constrained dropout selectively across these harmonic degrees, we can control the trade-off between
+semantic preservation and detail retention with mathematical guarantees.
 
-This framework addresses several critical challenges in current LLMs: (1) lack of interpretable control over reasoning depth and abstraction level, (2) difficulty in principled hallucination reduction, (3) absence of theoretical guarantees for semantic preservation under regularization, and (4) limited understanding of what information is being processed at different layers and attention heads.
+This framework addresses several critical challenges in current LLMs: (1) lack of interpretable control over reasoning
+depth and abstraction level, (2) difficulty in principled hallucination reduction, (3) absence of theoretical guarantees
+for semantic preservation under regularization, and (4) limited understanding of what information is being processed at
+different layers and attention heads.
 
 ## 2. Mathematical Foundation: Hyperspherical Geometry in LLMs
 
 ### 2.1 Embedding Space Geometry
 
-Let $\mathcal{S}^{d-1} = \{\mathbf{x} \in \mathbb{R}^d : \|\mathbf{x}\|_2 = 1\}$ denote the unit hypersphere in $d$-dimensional space. Modern LLMs with layer normalization naturally project token embeddings onto this hypersphere:
+Let $\mathcal{S}^{d-1} = \{\mathbf{x} \in \mathbb{R}^d : \|\mathbf{x}\|_2 = 1\}$ denote the unit hypersphere in $d$
+-dimensional space. Modern LLMs with layer normalization naturally project token embeddings onto this hypersphere:
 
 $$\mathbf{e}_i = \frac{\mathbf{h}_i}{\|\mathbf{h}_i\|_2}$$
 
-where $\mathbf{h}_i$ is the raw embedding for token $i$ and $\mathbf{e}_i \in \mathcal{S}^{d-1}$ is the normalized embedding.
+where $\mathbf{h}_i$ is the raw embedding for token $i$ and $\mathbf{e}_i \in \mathcal{S}^{d-1}$ is the normalized
+embedding.
 
 The hyperspherical geometry induces a natural metric structure through the geodesic distance:
 $$d_{\text{geo}}(\mathbf{e}_i, \mathbf{e}_j) = \arccos(\mathbf{e}_i^T \mathbf{e}_j)$$
 
-This metric captures semantic similarity more faithfully than Euclidean distance, as semantically similar tokens tend to have small geodesic separation.
+This metric captures semantic similarity more faithfully than Euclidean distance, as semantically similar tokens tend to
+have small geodesic separation.
 
 ### 2.2 Spherical Harmonic Decomposition
 
-The space of square-integrable functions on $\mathcal{S}^{d-1}$ admits a complete orthonormal basis given by hyperspherical harmonics. For the 3-sphere (4-dimensional space), these are generalizations of classical spherical harmonics.
+The space of square-integrable functions on $\mathcal{S}^{d-1}$ admits a complete orthonormal basis given by
+hyperspherical harmonics. For the 3-sphere (4-dimensional space), these are generalizations of classical spherical
+harmonics.
 
 For a function $f: \mathcal{S}^{d-1} \rightarrow \mathbb{R}$, the spherical harmonic expansion is:
 $$f(\mathbf{x}) = \sum_{\ell=0}^{\infty} \sum_{m=-\ell}^{\ell} a_{\ell m} Y_{\ell m}(\mathbf{x})$$
@@ -121,33 +149,41 @@ $$f(\mathbf{x}) = \sum_{\ell=0}^{\infty} \sum_{m=-\ell}^{\ell} a_{\ell m} Y_{\el
 where $Y_{\ell m}$ are the spherical harmonic basis functions of degree $\ell$ and order $m$, and:
 $$a_{\ell m} = \int_{\mathcal{S}^{d-1}} f(\mathbf{x}) Y_{\ell m}^*(\mathbf{x}) d\Omega(\mathbf{x})$$
 
-The key insight is that the degree $\ell$ controls the "frequency" of variation: low-degree harmonics vary slowly across the sphere (capturing global structure), while high-degree harmonics vary rapidly (capturing local details).
+The key insight is that the degree $\ell$ controls the "frequency" of variation: low-degree harmonics vary slowly across
+the sphere (capturing global structure), while high-degree harmonics vary rapidly (capturing local details).
 
 ### 2.3 Embedding Function Decomposition
 
-For a given layer in an LLM, we can view the embedding transformation as a function $F: \mathcal{S}^{d_{in}-1} \rightarrow \mathcal{S}^{d_{out}-1}$. The spherical harmonic decomposition of this transformation provides:
+For a given layer in an LLM, we can view the embedding transformation as a
+function $F: \mathcal{S}^{d_{in}-1} \rightarrow \mathcal{S}^{d_{out}-1}$. The spherical harmonic decomposition of this
+transformation provides:
 
 $$F(\mathbf{x}) = \sum_{\ell=0}^{L} \sum_{m=-\ell}^{\ell} \mathbf{A}_{\ell m} Y_{\ell m}(\mathbf{x})$$
 
-where $\mathbf{A}_{\ell m} \in \mathbb{R}^{d_{out}}$ are vector-valued coefficients and $L$ is the maximum degree considered.
+where $\mathbf{A}_{\ell m} \in \mathbb{R}^{d_{out}}$ are vector-valued coefficients and $L$ is the maximum degree
+considered.
 
 The energy at each degree is:
 $$E_\ell = \sum_{m=-\ell}^{\ell} \|\mathbf{A}_{\ell m}\|_2^2$$
 
-This energy distribution reveals the relative importance of different "semantic frequencies" in the learned transformation.
+This energy distribution reveals the relative importance of different "semantic frequencies" in the learned
+transformation.
 
 ### 2.4 Attention Mechanism Spherical Analysis
 
 The attention mechanism computes:
 $$\text{Attention}(\mathbf{Q}, \mathbf{K}, \mathbf{V}) = \text{softmax}\left(\frac{\mathbf{Q}\mathbf{K}^T}{\sqrt{d_k}}\right)\mathbf{V}$$
 
-On the hypersphere, the dot product $\mathbf{Q}\mathbf{K}^T$ becomes the cosine similarity, which can be decomposed using the spherical harmonic addition theorem:
+On the hypersphere, the dot product $\mathbf{Q}\mathbf{K}^T$ becomes the cosine similarity, which can be decomposed
+using the spherical harmonic addition theorem:
 
 $$\mathbf{q}_i^T \mathbf{k}_j = \sum_{\ell=0}^{\infty} \sum_{m=-\ell}^{\ell} \alpha_{\ell m}^{(i)} \beta_{\ell m}^{(j)*}$$
 
-where $\alpha_{\ell m}^{(i)}$ and $\beta_{\ell m}^{(j)}$ are the spherical harmonic coefficients of the query and key vectors.
+where $\alpha_{\ell m}^{(i)}$ and $\beta_{\ell m}^{(j)}$ are the spherical harmonic coefficients of the query and key
+vectors.
 
-This decomposition allows us to understand attention patterns in terms of which "semantic frequencies" are being attended to.
+This decomposition allows us to understand attention patterns in terms of which "semantic frequencies" are being
+attended to.
 
 ## 3. Trust-Region Spherical Harmonic Dropout
 
@@ -157,12 +193,14 @@ We propose dropout patterns that depend on the spherical harmonic degree:
 $$p_{\ell m} = \sigma(\alpha_\ell \cdot E_\ell + \beta_{\ell m} \cdot \|\mathbf{A}_{\ell m}\|_2^2 + \gamma(t))$$
 
 where:
+
 - $\alpha_\ell$ are learnable degree-specific parameters
-- $\beta_{\ell m}$ are learnable order-specific parameters  
+- $\beta_{\ell m}$ are learnable order-specific parameters
 - $\gamma(t)$ is a trust-region-controlled global bias
 - $\sigma$ is the sigmoid function
 
-The key insight is that $\alpha_\ell$ should generally increase with $\ell$, causing higher-degree (fine-detail) harmonics to have higher dropout rates.
+The key insight is that $\alpha_\ell$ should generally increase with $\ell$, causing higher-degree (fine-detail)
+harmonics to have higher dropout rates.
 
 ### 3.2 Geodesic Trust-Region Constraints
 
@@ -170,7 +208,8 @@ Traditional trust-region methods use Euclidean distance constraints. On the hype
 
 $$d_{\text{geo}}(\mathbf{p}(t+1), \mathbf{p}(t)) \leq \Delta(t)$$
 
-where $\mathbf{p}(t) \in \mathcal{S}^{D-1}$ represents the dropout probability vector at time $t$, and $D = \sum_{\ell=0}^{L}(2\ell+1)$ is the total number of harmonic coefficients.
+where $\mathbf{p}(t) \in \mathcal{S}^{D-1}$ represents the dropout probability vector at time $t$,
+and $D = \sum_{\ell=0}^{L}(2\ell+1)$ is the total number of harmonic coefficients.
 
 The geodesic constraint can be written as:
 $$\arccos(\mathbf{p}(t+1)^T \mathbf{p}(t)) \leq \Delta(t)$$
@@ -199,19 +238,25 @@ $$\mathcal{T}_{\mathbf{s}}(\mathbf{v}) = \mathbf{v} - \frac{(\mathbf{p} + \mathb
 
 ### 3.5 Convergence Analysis on the Sphere
 
-**Theorem 1 (Spherical Trust-Region Convergence)**: Under standard assumptions (bounded gradients, Lipschitz continuity of the objective), the spherical trust-region method converges to a critical point of the constrained optimization problem on $\mathcal{S}^{D-1}$.
+**Theorem 1 (Spherical Trust-Region Convergence)**: Under standard assumptions (bounded gradients, Lipschitz continuity
+of the objective), the spherical trust-region method converges to a critical point of the constrained optimization
+problem on $\mathcal{S}^{D-1}$.
 
-**Proof Sketch**: The proof follows the standard trust-region analysis but uses Riemannian geometry tools. The key steps are:
+**Proof Sketch**: The proof follows the standard trust-region analysis but uses Riemannian geometry tools. The key steps
+are:
+
 1. Show that the reduction ratio $\rho_k$ is well-defined using geodesic distance
 2. Prove that the trust-region radius remains bounded away from zero
 3. Use the compactness of $\mathcal{S}^{D-1}$ to ensure convergence
 
-**Theorem 2 (Semantic Preservation)**: Let $\mathcal{L}_{sem}$ denote a semantic loss function. If the dropout probabilities satisfy $p_\ell \leq \epsilon_\ell$ for $\ell \leq L_0$, then:
+**Theorem 2 (Semantic Preservation)**: Let $\mathcal{L}_{sem}$ denote a semantic loss function. If the dropout
+probabilities satisfy $p_\ell \leq \epsilon_\ell$ for $\ell \leq L_0$, then:
 $$|\mathcal{L}_{sem}(\mathbf{p}) - \mathcal{L}_{sem}(\mathbf{0})| \leq C \sum_{\ell=0}^{L_0} \epsilon_\ell$$
 
 for some constant $C$ depending on the semantic structure.
 
-This theorem guarantees that preserving low-degree harmonics (small $p_\ell$ for small $\ell$) maintains semantic content.
+This theorem guarantees that preserving low-degree harmonics (small $p_\ell$ for small $\ell$) maintains semantic
+content.
 
 ## 4. Semantic Frequency Analysis
 
@@ -220,18 +265,22 @@ This theorem guarantees that preserving low-degree harmonics (small $p_\ell$ for
 Different spherical harmonic degrees correspond to different aspects of linguistic processing:
 
 **Degree 0 ($\ell = 0$)**: Global semantic content, topic-level information
+
 - Controls overall meaning and subject matter
 - Highest preservation priority in regularization
 
 **Degrees 1-3 ($\ell \in [1,3]$)**: Core semantic relationships
+
 - Subject-object relationships, basic syntactic structure
 - Fundamental logical connections
 
-**Degrees 4-10 ($\ell \in [4,10]$)**: Detailed linguistic structure  
+**Degrees 4-10 ($\ell \in [4,10]$)**: Detailed linguistic structure
+
 - Complex syntactic patterns, subcategorization
 - Nuanced semantic relationships, metaphorical content
 
 **Degrees 11+ ($\ell \geq 11$)**: Fine-grained details
+
 - Stylistic variations, register, pragmatic implicatures
 - Highly context-dependent interpretations
 
@@ -244,6 +293,7 @@ The attention energy at degree $\ell$ is:
 $$E_\ell^{att} = \sum_{i,j} \sum_{m=-\ell}^{\ell} |c_{\ell m}^{(ij)}|^2$$
 
 This decomposition reveals which "semantic frequencies" each attention head is processing:
+
 - **Low-degree attention**: Global, topic-level connections
 - **High-degree attention**: Fine-grained, syntactic dependencies
 
@@ -279,7 +329,8 @@ $$L(t+1) = L(t) + \text{sign}(\text{complexity-demand}) \cdot \min(\Delta_L(t), 
 
 ### 5.1 Theoretical Framework for Hallucination
 
-We model hallucinations as high-degree harmonic components that are not well-supported by the training data. Let $\mathcal{D}$ represent the training distribution and $\hat{\mathcal{D}}$ the empirical distribution.
+We model hallucinations as high-degree harmonic components that are not well-supported by the training data.
+Let $\mathcal{D}$ represent the training distribution and $\hat{\mathcal{D}}$ the empirical distribution.
 
 **Definition (Harmonic Support)**: The harmonic support of degree $\ell$ is:
 $$S_\ell = \mathbb{E}_{\mathbf{x} \sim \mathcal{D}}\left[\sum_{m=-\ell}^{\ell} |a_{\ell m}(\mathbf{x})|^2\right]$$
@@ -303,7 +354,8 @@ where $a_{\ell m}^{(k)}$ is the coefficient from the $k$-th Monte Carlo sample.
 
 ### 5.3 Hallucination Bound
 
-**Theorem 3 (Hallucination Suppression Bound)**: Under the harmonic dropout scheme with $p_\ell \geq p_{min}(\ell)$ for hallucination-susceptible degrees, the expected hallucination rate is bounded by:
+**Theorem 3 (Hallucination Suppression Bound)**: Under the harmonic dropout scheme with $p_\ell \geq p_{min}(\ell)$ for
+hallucination-susceptible degrees, the expected hallucination rate is bounded by:
 
 $$\mathbb{E}[\text{Hallucination-Rate}] \leq \sum_{\ell: \hat{S}_\ell/S_\ell > \theta_\ell} (1 - p_{min}(\ell)) \cdot \frac{\hat{S}_\ell}{S_\ell}$$
 
@@ -313,12 +365,13 @@ This provides theoretical guarantees that high dropout rates on over-represented
 
 The harmonic decomposition enables principled content verification:
 
-**Authenticity Score**: 
+**Authenticity Score**:
 $$\mathcal{A}(\mathbf{x}) = \sum_{\ell=0}^{L} w_\ell \cdot \min\left(1, \frac{S_\ell}{\hat{S}_\ell}\right) \cdot \frac{|a_\ell(\mathbf{x})|^2}{E_\ell}$$
 
 where $w_\ell$ are degree-specific weights emphasizing semantically important harmonics.
 
-**Hallucination Detection**: Content with $\mathcal{A}(\mathbf{x}) < \tau$ for some threshold $\tau$ is flagged as potentially hallucinated.
+**Hallucination Detection**: Content with $\mathcal{A}(\mathbf{x}) < \tau$ for some threshold $\tau$ is flagged as
+potentially hallucinated.
 
 ## 6. Attention Mechanism Enhancement
 
@@ -332,7 +385,8 @@ where $\mathbf{W}_{\ell m}$ are learnable harmonic-specific weights and:
 
 $$\text{Attention}_{\ell m}(\mathbf{Q}, \mathbf{K}, \mathbf{V}) = \text{softmax}\left(\frac{\mathbf{Q}_{\ell m}\mathbf{K}_{\ell m}^T}{\sqrt{d_k}}\right)\mathbf{V}_{\ell m}$$
 
-with $\mathbf{Q}_{\ell m}$, $\mathbf{K}_{\ell m}$, $\mathbf{V}_{\ell m}$ being the harmonic coefficients of the query, key, and value matrices.
+with $\mathbf{Q}_{\ell m}$, $\mathbf{K}_{\ell m}$, $\mathbf{V}_{\ell m}$ being the harmonic coefficients of the query,
+key, and value matrices.
 
 ### 6.2 Multi-Resolution Attention Heads
 
@@ -353,14 +407,16 @@ $$\|\text{Attention}(t+1) - \text{Attention}(t)\|_{\text{geo}} \leq \Delta_{\tex
 
 where the geodesic distance is computed in the space of attention matrices viewed as points on the hypersphere.
 
-**Attention Stability**: This constraint prevents sudden changes in attention patterns, leading to more stable and interpretable model behavior.
+**Attention Stability**: This constraint prevents sudden changes in attention patterns, leading to more stable and
+interpretable model behavior.
 
 ### 6.4 Causal Attention in Harmonic Space
 
 For autoregressive generation, we enforce causality in harmonic space:
 $$\text{Attention}_{\ell m}(i, j) = 0 \quad \text{if } j > i$$
 
-This ensures that harmonic components respect the causal structure while allowing for sophisticated multi-scale processing.
+This ensures that harmonic components respect the causal structure while allowing for sophisticated multi-scale
+processing.
 
 ## 7. Implementation Details and Algorithms
 
@@ -369,6 +425,7 @@ This ensures that harmonic components respect the causal structure while allowin
 Computing spherical harmonics naively is computationally expensive. We develop efficient algorithms:
 
 **Fast Spherical Harmonic Transform (FSHT)**:
+
 1. **Preprocessing**: Precompute harmonic basis functions up to degree $L$
 2. **FFT-based computation**: Use FFT for azimuthal components
 3. **Recursive relations**: Exploit recurrence relations for radial components
@@ -376,6 +433,7 @@ Computing spherical harmonics naively is computationally expensive. We develop e
 **Computational Complexity**: $O(L^2 d + L d \log d)$ where $d$ is embedding dimension.
 
 **Algorithm 1: Efficient FSHT**
+
 ```
 Input: Embedding vector x ∈ S^(d-1), maximum degree L
 Output: Harmonic coefficients {a_ℓm}
@@ -392,6 +450,7 @@ Output: Harmonic coefficients {a_ℓm}
 ### 7.2 Trust-Region Optimization Algorithm
 
 **Algorithm 2: Riemannian Trust-Region for Spherical Dropout**
+
 ```
 Input: Initial dropout probabilities p₀ ∈ S^(D-1)
 Output: Optimized dropout probabilities p*
@@ -415,6 +474,7 @@ Output: Optimized dropout probabilities p*
 To avoid recomputing harmonic coefficients:
 
 **Caching Strategy**:
+
 - **Layer-wise caching**: Store coefficients for each layer
 - **Incremental updates**: Update only changed coefficients
 - **Memory management**: LRU cache with configurable size
@@ -426,6 +486,7 @@ To avoid recomputing harmonic coefficients:
 The maximum harmonic degree $L$ can be adapted based on computational budget:
 
 **Algorithm 3: Adaptive Degree Selection**
+
 ```
 Input: Computational budget B, accuracy threshold τ
 Output: Optimal maximum degree L*
@@ -452,11 +513,14 @@ For large models, we distribute harmonic computation:
 
 ### 8.1 Synthetic Validation Experiments
 
-**Harmonic Reconstruction Test**: Generate synthetic data with known harmonic structure and verify reconstruction accuracy.
+**Harmonic Reconstruction Test**: Generate synthetic data with known harmonic structure and verify reconstruction
+accuracy.
 
-**Test Function**: $f(\mathbf{x}) = \sum_{\ell=0}^{5} \alpha_\ell Y_\ell(\mathbf{x})$ with known coefficients $\alpha_\ell$.
+**Test Function**: $f(\mathbf{x}) = \sum_{\ell=0}^{5} \alpha_\ell Y_\ell(\mathbf{x})$ with known
+coefficients $\alpha_\ell$.
 
 **Metrics**:
+
 - **Reconstruction Error**: $\|\hat{f} - f\|_2$
 - **Coefficient Error**: $\sum_\ell |\hat{\alpha}_\ell - \alpha_\ell|$
 - **Degree Selectivity**: Ability to identify important degrees
@@ -466,6 +530,7 @@ For large models, we distribute harmonic computation:
 **Task**: Paraphrase generation with controllable semantic preservation.
 
 **Experimental Setup**:
+
 1. Generate paraphrases with different harmonic degree limits
 2. Measure semantic similarity using BERT-Score and BARTScore
 3. Evaluate fluency using perplexity and human evaluation
@@ -474,12 +539,14 @@ For large models, we distribute harmonic computation:
 
 ### 8.3 Hallucination Detection Experiments
 
-**Datasets**: 
+**Datasets**:
+
 - **TruthfulQA**: Factual question answering
 - **HaluEval**: Comprehensive hallucination evaluation
 - **Custom synthetic dataset**: Controlled hallucination injection
 
 **Metrics**:
+
 - **Precision/Recall**: For hallucination detection
 - **Authenticity Score Correlation**: With human judgment
 - **Harmonic Signature Analysis**: Statistical analysis of harmonic patterns in hallucinated vs. authentic content
@@ -487,11 +554,13 @@ For large models, we distribute harmonic computation:
 ### 8.4 Attention Interpretability Experiments
 
 **Visualization Tasks**:
+
 - **Harmonic Attention Maps**: Visualize which harmonic degrees are attended to
 - **Multi-Scale Analysis**: Show how attention patterns change across scales
 - **Causal Relationship Discovery**: Use harmonic patterns to identify causal dependencies
 
 **Evaluation**:
+
 - **Human Interpretability Studies**: Rate the usefulness of harmonic-based explanations
 - **Probing Tasks**: Use harmonic patterns to predict linguistic properties
 - **Consistency Analysis**: Measure stability of harmonic attention patterns
@@ -499,12 +568,14 @@ For large models, we distribute harmonic computation:
 ### 8.5 Computational Efficiency Analysis
 
 **Benchmarks**:
+
 - **FLOP Analysis**: Theoretical computational complexity
 - **Wall-Clock Time**: Actual runtime on different hardware
 - **Memory Usage**: Peak and average memory consumption
 - **Scaling Analysis**: Performance vs. model size and harmonic degree
 
 **Optimization Targets**:
+
 - **Real-Time Inference**: <100ms latency for interactive applications
 - **Training Efficiency**: <2x overhead compared to standard training
 - **Memory Efficiency**: <50% additional memory usage
@@ -512,17 +583,20 @@ For large models, we distribute harmonic computation:
 ### 8.6 Comparative Analysis
 
 **Baseline Methods**:
+
 - **Standard Dropout**: Fixed probability dropout
 - **DropPath**: Path-specific dropout
 - **Attention Dropout**: Dropout applied to attention weights
 - **Layer Dropout**: Entire layer dropout
 
 **Advanced Baselines**:
+
 - **Adaptive Dropout**: Learning-rate-dependent dropout
 - **Structured Dropout**: Pattern-based dropout
 - **Spectral Dropout**: Fourier-domain dropout (for comparison)
 
 **Evaluation Metrics**:
+
 - **Perplexity**: Language modeling performance
 - **BLEU/ROUGE**: Generation quality
 - **Semantic Similarity**: Embedding-based metrics
@@ -533,23 +607,27 @@ For large models, we distribute harmonic computation:
 
 ### 9.1 Approximation Theory on Spheres
 
-**Theorem 4 (Spherical Harmonic Approximation)**: For any smooth function $f: \mathcal{S}^{d-1} \rightarrow \mathbb{R}$ with bounded derivatives up to order $s$, the truncated spherical harmonic expansion satisfies:
+**Theorem 4 (Spherical Harmonic Approximation)**: For any smooth function $f: \mathcal{S}^{d-1} \rightarrow \mathbb{R}$
+with bounded derivatives up to order $s$, the truncated spherical harmonic expansion satisfies:
 
 $$\left\|f - \sum_{\ell=0}^{L} \sum_{m=-\ell}^{\ell} a_{\ell m} Y_{\ell m}\right\|_2 \leq C \cdot L^{-s}$$
 
 for some constant $C$ depending on $f$ and $s$.
 
-**Corollary**: For LLM embeddings with bounded complexity, harmonic truncation provides controlled approximation with known error bounds.
+**Corollary**: For LLM embeddings with bounded complexity, harmonic truncation provides controlled approximation with
+known error bounds.
 
 ### 9.2 Information-Theoretic Analysis
 
-**Mutual Information Decomposition**: The mutual information between input and output can be decomposed by harmonic degree:
+**Mutual Information Decomposition**: The mutual information between input and output can be decomposed by harmonic
+degree:
 
 $$I(X; Y) = \sum_{\ell=0}^{\infty} I_\ell(X; Y)$$
 
 where $I_\ell(X; Y)$ is the information transmitted through degree-$\ell$ harmonics.
 
-**Theorem 5 (Information Preservation)**: Under harmonic dropout with probabilities $\{p_\ell\}$, the preserved mutual information satisfies:
+**Theorem 5 (Information Preservation)**: Under harmonic dropout with probabilities $\{p_\ell\}$, the preserved mutual
+information satisfies:
 
 $$I_{preserved}(X; Y) \geq \sum_{\ell=0}^{L} (1 - p_\ell) \cdot I_\ell(X; Y)$$
 
@@ -557,13 +635,15 @@ This provides lower bounds on information preservation as a function of dropout 
 
 ### 9.3 Generalization Bounds
 
-**Theorem 6 (Rademacher Complexity Bound)**: For a model using spherical harmonic dropout with maximum degree $L$, the Rademacher complexity is bounded by:
+**Theorem 6 (Rademacher Complexity Bound)**: For a model using spherical harmonic dropout with maximum degree $L$, the
+Rademacher complexity is bounded by:
 
 $$\mathcal{R}_n(\mathcal{F}) \leq C \sqrt{\frac{L^2 \log(d)}{n}}$$
 
 where $n$ is the sample size, $d$ is the embedding dimension, and $\mathcal{F}$ is the function class.
 
-**Corollary**: Lower maximum degrees lead to better generalization bounds, providing theoretical justification for harmonic regularization.
+**Corollary**: Lower maximum degrees lead to better generalization bounds, providing theoretical justification for
+harmonic regularization.
 
 ### 9.4 Convergence Rate Analysis
 
@@ -573,7 +653,8 @@ $$\|\nabla \mathcal{L}(p_k)\|_2 \leq \epsilon$$
 
 in at most $O(\epsilon^{-2})$ iterations under standard assumptions.
 
-**Theorem 8 (Harmonic Adaptation Rate)**: The adaptive harmonic degree selection converges to the optimal degree $L^*$ in:
+**Theorem 8 (Harmonic Adaptation Rate)**: The adaptive harmonic degree selection converges to the optimal degree $L^*$
+in:
 
 $O(L^* \log(\epsilon^{-1}))$
 
@@ -581,11 +662,14 @@ iterations, where $\epsilon$ is the desired accuracy in degree selection.
 
 ### 9.5 Stability Analysis
 
-**Definition (Harmonic Stability)**: A model is $(\epsilon, \delta)$-harmonically stable if for inputs $\mathbf{x}, \mathbf{x}'$ with $d_{geo}(\mathbf{x}, \mathbf{x}') \leq \epsilon$, the harmonic coefficients satisfy:
+**Definition (Harmonic Stability)**: A model is $(\epsilon, \delta)$-harmonically stable if for
+inputs $\mathbf{x}, \mathbf{x}'$ with $d_{geo}(\mathbf{x}, \mathbf{x}') \leq \epsilon$, the harmonic coefficients
+satisfy:
 
 $\sum_{\ell=0}^{L} \ell^2 |a_\ell(\mathbf{x}) - a_\ell(\mathbf{x}')|^2 \leq \delta$
 
-**Theorem 9 (Stability Under Dropout)**: Spherical harmonic dropout with trust-region constraints maintains $(\epsilon, \delta)$-harmonic stability with:
+**Theorem 9 (Stability Under Dropout)**: Spherical harmonic dropout with trust-region constraints
+maintains $(\epsilon, \delta)$-harmonic stability with:
 
 $\delta \leq C \cdot \epsilon \cdot \sum_{\ell=0}^{L} \ell^2 (1 - p_\ell)$
 
@@ -603,6 +687,7 @@ $\mathbf{c}_{cross}^{(\ell m)} = \sum_{k} W_{k}^{(\ell)} \mathbf{c}_{text}^{(\el
 where $\otimes$ denotes the tensor product and $W_k^{(\ell)}$ are learnable coupling weights.
 
 **Applications**:
+
 - **Vision-Language Models**: CLIP-style models with harmonic alignment
 - **Audio-Text Processing**: Speech recognition with harmonic speech features
 - **Multi-Modal Reasoning**: Consistent reasoning across modalities
@@ -617,6 +702,7 @@ $f(\mathbf{x}, t) = \sum_{\ell=0}^{L} \sum_{m=-\ell}^{\ell} \sum_{n=0}^{N} a_{\e
 where $T_n(t)$ are temporal basis functions (e.g., Fourier modes, wavelets).
 
 **Applications**:
+
 - **Long-Context Modeling**: Efficient processing of very long sequences
 - **Temporal Reasoning**: Understanding temporal relationships in narratives
 - **Dynamic Adaptation**: Models that adapt their harmonic structure over time
@@ -626,6 +712,7 @@ where $T_n(t)$ are temporal basis functions (e.g., Fourier modes, wavelets).
 In federated learning scenarios, harmonic decomposition enables privacy-preserving aggregation:
 
 **Harmonic Privacy Mechanism**:
+
 1. Each client computes local harmonic coefficients
 2. Add noise to high-degree harmonics (privacy-sensitive details)
 3. Aggregate low-degree harmonics (semantic content) across clients
@@ -664,16 +751,19 @@ where $\text{Usage}_\ell(A)$ measures how much degree-$\ell$ harmonics are used 
 ### 11.1 Hardware-Specific Optimizations
 
 **GPU Implementation**:
+
 - **Tensor Core Utilization**: Optimize harmonic transforms for mixed precision
 - **Memory Coalescing**: Arrange harmonic coefficients for efficient memory access
 - **Kernel Fusion**: Combine harmonic transform and dropout operations
 
 **TPU Implementation**:
+
 - **Systolic Array Mapping**: Map harmonic computations to TPU systolic arrays
 - **Bfloat16 Optimization**: Use reduced precision for harmonic coefficients
 - **Pipeline Parallelism**: Overlap harmonic computation with other operations
 
 **CPU Implementation**:
+
 - **SIMD Vectorization**: Use AVX/SSE instructions for harmonic operations
 - **Cache Optimization**: Organize data structures for cache efficiency
 - **Thread Parallelism**: Parallelize across harmonic degrees
@@ -696,6 +786,7 @@ where $b_\ell$ is the number of bits allocated to degree $\ell$.
 **Precision Management**: Use higher precision for critical harmonic computations
 
 **Stability Monitoring**:
+
 ```python
 def monitor_harmonic_stability(harmonics):
     condition_numbers = []
@@ -728,11 +819,13 @@ with efficient implementation using precomputed harmonic derivatives.
 **Baselines**: Standard dropout, DropPath, spectral dropout
 
 **Key Results**:
+
 - **Perplexity Improvement**: 5-15% reduction across datasets
 - **Sample Efficiency**: 20-30% faster convergence
 - **Generalization**: Better performance on out-of-domain data
 
 **Table 1: Language Modeling Results**
+
 ```
 Model                 | WikiText-103 PPL | OpenWebText PPL | Parameters
 GPT-2 (baseline)     | 22.4            | 18.7           | 124M
@@ -743,12 +836,14 @@ GPT-2-Large + Harm.  | 16.8            | 14.3           | 355M
 
 ### 12.2 Hallucination Reduction Analysis
 
-**Evaluation Protocol**: 
+**Evaluation Protocol**:
+
 - Generate responses to factual questions
 - Human evaluation of factual accuracy
 - Automatic detection using fact-checking tools
 
 **Results**:
+
 - **Hallucination Rate**: 40% reduction compared to baseline
 - **Precision/Recall**: 85%/78% for automatic detection
 - **Content Quality**: Maintained semantic coherence while reducing false facts
@@ -758,29 +853,34 @@ Shows that hallucinations are concentrated in high-degree harmonics (ℓ > 12), 
 
 ### 12.3 Attention Interpretability Improvements
 
-**Visualization Studies**: 
+**Visualization Studies**:
+
 - Show attention patterns decomposed by harmonic degree
 - Demonstrate interpretable multi-scale attention
 - Validate alignment with linguistic theory
 
 **Quantitative Analysis**:
+
 - **Probing Accuracy**: 15-25% improvement in linguistic probing tasks
 - **Human Interpretability**: 60% preference for harmonic-based explanations
 - **Consistency**: 90% stable attention patterns across similar inputs
 
 ### 12.4 Computational Efficiency Analysis
 
-**Training Overhead**: 
+**Training Overhead**:
+
 - **Forward Pass**: 1.3x slower than baseline
 - **Backward Pass**: 1.5x slower due to harmonic gradients
 - **Memory Usage**: 1.4x increase for harmonic coefficients
 
 **Inference Efficiency**:
+
 - **Latency**: <10ms additional per forward pass
 - **Throughput**: 85% of baseline throughput maintained
 - **Memory**: Configurable based on maximum harmonic degree
 
 **Optimization Impact**:
+
 - **Hardware optimization**: Reduces overhead to 1.1x
 - **Degree adaptation**: Maintains 95% baseline speed for simple tasks
 - **Efficient implementation**: Near-baseline performance for degree ≤ 10
@@ -788,16 +888,19 @@ Shows that hallucinations are concentrated in high-degree harmonics (ℓ > 12), 
 ### 12.5 Ablation Studies
 
 **Harmonic Degree Impact**:
+
 - **Low degrees only (ℓ ≤ 5)**: Good semantic preservation, poor detail
 - **Mid degrees (ℓ ∈ [6,15])**: Balanced performance
 - **High degrees (ℓ ≥ 16)**: Excellent detail, potential overfitting
 
 **Trust-Region Configuration**:
+
 - **Large radius**: Faster adaptation, potential instability
 - **Small radius**: Stable but slow adaptation
 - **Adaptive radius**: Optimal balance
 
 **Dropout Strategy Comparison**:
+
 - **Uniform dropout**: Baseline performance
 - **Degree-dependent**: 10-15% improvement
 - **Learned probabilities**: Additional 5-8% improvement
@@ -806,17 +909,20 @@ Shows that hallucinations are concentrated in high-degree harmonics (ℓ > 12), 
 
 ### 13.1 Current Limitations
 
-**Computational Complexity**: 
+**Computational Complexity**:
+
 - Harmonic transforms scale as O(L²d) with degree L and dimension d
 - Memory requirements increase significantly for large L
 - Current implementation not fully optimized for all hardware
 
 **Theoretical Gaps**:
+
 - Limited understanding of optimal harmonic degree selection
 - Incomplete analysis of cross-layer harmonic interactions
 - Need for tighter generalization bounds
 
 **Empirical Limitations**:
+
 - Evaluation limited to specific model sizes and architectures
 - Need for larger-scale experiments on state-of-the-art models
 - Limited multi-modal and cross-lingual evaluation
@@ -824,16 +930,19 @@ Shows that hallucinations are concentrated in high-degree harmonics (ℓ > 12), 
 ### 13.2 Near-Term Research Directions
 
 **Algorithmic Improvements**:
+
 - **Adaptive Harmonic Algorithms**: Learn optimal harmonic structures during training
 - **Hierarchical Harmonics**: Multi-resolution harmonic decompositions
 - **Efficient Approximations**: Fast approximation algorithms for large-scale models
 
 **Applications**:
+
 - **Code Generation**: Apply to programming language models
 - **Scientific Computing**: Use for scientific text and mathematical reasoning
 - **Creative Writing**: Explore harmonic control of writing style
 
 **Integration Studies**:
+
 - **Existing Architectures**: Integration with Transformer variants, RNNs, CNNs
 - **Training Procedures**: Compatibility with various training regimes
 - **Optimization Methods**: Interaction with different optimizers
@@ -841,53 +950,79 @@ Shows that hallucinations are concentrated in high-degree harmonics (ℓ > 12), 
 ### 13.3 Long-Term Vision
 
 **Theoretical Foundations**:
+
 - **Universal Harmonic Theory**: General theory for harmonic analysis in neural networks
 - **Optimal Basis Discovery**: Learn problem-specific harmonic bases
 - **Cross-Domain Transfer**: Transfer harmonic patterns across domains
 
 **Practical Applications**:
+
 - **Real-Time Systems**: Deploy in production systems with strict latency requirements
 - **Edge Computing**: Adapt for resource-constrained environments
 - **Large-Scale Deployment**: Scale to models with trillions of parameters
 
 **Scientific Impact**:
+
 - **Computational Linguistics**: Provide new tools for understanding language processing
 - **Cognitive Science**: Bridge computational and biological models of cognition
 - **Machine Learning Theory**: Contribute to fundamental understanding of deep learning
 
 ### 13.4 Broader Implications
 
-**Interpretability Revolution**: 
+**Interpretability Revolution**:
+
 - Move beyond attention visualization to principled harmonic analysis
 - Enable precise control over model behavior at different abstraction levels
 - Provide mathematical foundations for AI safety and alignment
 
 **Efficiency Paradigm**:
+
 - Adaptive computation based on semantic complexity
 - Principled model compression through harmonic truncation
 - Energy-efficient inference through harmonic selection
 
 **Scientific Method**:
+
 - Reproducible analysis through harmonic decomposition
 - Falsifiable hypotheses about semantic processing
 - Quantitative measures of model behavior
 
 ## 14. Conclusion
 
-We have presented a comprehensive framework for spherical harmonic regularization in large language models, demonstrating how the hyperspherical geometry of embedding spaces can be exploited for principled regularization, interpretability, and control. The key contributions of this work are:
+We have presented a comprehensive framework for spherical harmonic regularization in large language models,
+demonstrating how the hyperspherical geometry of embedding spaces can be exploited for principled regularization,
+interpretability, and control. The key contributions of this work are:
 
-**Theoretical Foundations**: We established rigorous mathematical foundations connecting spherical harmonic analysis to semantic processing in LLMs, providing convergence guarantees and stability analysis for trust-region optimization on hyperspheres.
+**Theoretical Foundations**: We established rigorous mathematical foundations connecting spherical harmonic analysis to
+semantic processing in LLMs, providing convergence guarantees and stability analysis for trust-region optimization on
+hyperspheres.
 
-**Practical Framework**: We developed efficient algorithms for harmonic decomposition, trust-region optimization, and adaptive degree selection that can be integrated into existing model architectures with reasonable computational overhead.
+**Practical Framework**: We developed efficient algorithms for harmonic decomposition, trust-region optimization, and
+adaptive degree selection that can be integrated into existing model architectures with reasonable computational
+overhead.
 
-**Empirical Validation**: Our experiments demonstrate significant improvements in language modeling performance, hallucination reduction, and attention interpretability across multiple datasets and model sizes.
+**Empirical Validation**: Our experiments demonstrate significant improvements in language modeling performance,
+hallucination reduction, and attention interpretability across multiple datasets and model sizes.
 
-**Broad Applicability**: The framework extends naturally to multi-modal models, continual learning, federated learning, and other advanced applications, suggesting wide-ranging impact across machine learning.
+**Broad Applicability**: The framework extends naturally to multi-modal models, continual learning, federated learning,
+and other advanced applications, suggesting wide-ranging impact across machine learning.
 
-The spherical harmonic approach represents a fundamental shift from heuristic regularization methods to principled, geometry-aware techniques that respect the underlying mathematical structure of modern neural networks. By decomposing semantic processing into "frequencies" analogous to signal processing, we enable unprecedented control over the trade-offs between semantic preservation, detail retention, and computational efficiency.
+The spherical harmonic approach represents a fundamental shift from heuristic regularization methods to principled,
+geometry-aware techniques that respect the underlying mathematical structure of modern neural networks. By decomposing
+semantic processing into "frequencies" analogous to signal processing, we enable unprecedented control over the
+trade-offs between semantic preservation, detail retention, and computational efficiency.
 
-This work opens numerous avenues for future research, from theoretical advances in harmonic analysis of neural networks to practical applications in safety-critical systems requiring interpretable and controllable AI. The geometric perspective on neural computation suggests that we are only beginning to understand the rich mathematical structure inherent in deep learning, and that significant advances await those who pursue this geometric understanding.
+This work opens numerous avenues for future research, from theoretical advances in harmonic analysis of neural networks
+to practical applications in safety-critical systems requiring interpretable and controllable AI. The geometric
+perspective on neural computation suggests that we are only beginning to understand the rich mathematical structure
+inherent in deep learning, and that significant advances await those who pursue this geometric understanding.
 
-As large language models continue to grow in size and capability, the need for principled approaches to understanding, controlling, and optimizing their behavior becomes increasingly critical. The spherical harmonic framework provides a mathematically rigorous foundation for meeting these challenges while opening new possibilities for the next generation of AI systems.
+As large language models continue to grow in size and capability, the need for principled approaches to understanding,
+controlling, and optimizing their behavior becomes increasingly critical. The spherical harmonic framework provides a
+mathematically rigorous foundation for meeting these challenges while opening new possibilities for the next generation
+of AI systems.
 
-The ultimate vision is of AI systems that not only perform well but do so in ways that are mathematically understood, practically controllable, and aligned with human values through precise geometric constraints. The spherical harmonic regularization framework represents a significant step toward this goal, providing both theoretical insights and practical tools for the continued advancement of artificial intelligence.
+The ultimate vision is of AI systems that not only perform well but do so in ways that are mathematically understood,
+practically controllable, and aligned with human values through precise geometric constraints. The spherical harmonic
+regularization framework represents a significant step toward this goal, providing both theoretical insights and
+practical tools for the continued advancement of artificial intelligence.

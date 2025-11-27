@@ -48,7 +48,9 @@ is_cornerstone: true
 
 ## Overview
 
-A high-performance library for managing arbitrarily large arrays of uniform bit-width records using memory mapping and bit-level packing. Designed to support permutation ring operations on billion-element datasets that exceed available RAM.
+A high-performance library for managing arbitrarily large arrays of uniform bit-width records using memory mapping and
+bit-level packing. Designed to support permutation ring operations on billion-element datasets that exceed available
+RAM.
 
 ## 1. Core Data Structure
 
@@ -712,8 +714,9 @@ for (size_t i = 0; i < suffix_array.size() - 1; i++) {
 ### 6.2 Memory Usage Analysis
 
 For 500M elements:
+
 - Suffix positions (29 bits): 1.8 GB
-- Forward/backward permutations (29 bits each): 3.6 GB  
+- Forward/backward permutations (29 bits each): 3.6 GB
 - LCP values (20 bits): 1.25 GB
 - **Total**: ~6.7 GB on disk, manageable RAM usage through paging
 
@@ -751,14 +754,15 @@ public:
 };
 ```
 
-This library enables your permutation ring system to scale to truly massive datasets while maintaining high performance through careful memory management and external algorithm design.
-
+This library enables your permutation ring system to scale to truly massive datasets while maintaining high performance
+through careful memory management and external algorithm design.
 
 ## 8. Bzip2 Integration: Index-While-Decompressing (Advanced Topic)
 
 ### 8.1 Exploiting Bzip2's Internal BWT
 
-Bzip2 uses the Burrows-Wheeler Transform internally, making it possible to extract permutation ring data directly during decompression without recomputing the expensive suffix sorting.
+Bzip2 uses the Burrows-Wheeler Transform internally, making it possible to extract permutation ring data directly during
+decompression without recomputing the expensive suffix sorting.
 
 ```cpp
 class Bzip2IndexBuilder {
@@ -1122,7 +1126,8 @@ private:
 
 This approach is incredibly efficient because:
 
-**Zero Redundant Computation**: We're reusing the BWT that bzip2 already computed, avoiding the expensive $O(n \log n)$ suffix sorting step.
+**Zero Redundant Computation**: We're reusing the BWT that bzip2 already computed, avoiding the expensive $O(n \log n)$
+suffix sorting step.
 
 **Streaming Processing**: Can handle arbitrarily large compressed files without loading everything into memory.
 
@@ -1132,4 +1137,6 @@ This approach is incredibly efficient because:
 
 **Cache Optimization**: The block structure of bzip2 naturally provides cache-friendly access patterns.
 
-For a 1GB bzip2 file, this could build the full permutation ring index in a fraction of the time needed for plaintext indexing, while using minimal additional memory beyond what's needed for decompression!# Memory-Mapped Bit-Packed Array Library
+For a 1GB bzip2 file, this could build the full permutation ring index in a fraction of the time needed for plaintext
+indexing, while using minimal additional memory beyond what's needed for decompression!# Memory-Mapped Bit-Packed Array
+Library

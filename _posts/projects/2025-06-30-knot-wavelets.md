@@ -91,7 +91,9 @@ is_synthesis: true
 
 ### 1.1 Core Insight
 
-The distance matrix representation of knots can be viewed as a discrete sampling of a continuous geometric field. By applying wavelet decomposition to these distance matrices, we can extract multi-scale topological features that are both computationally efficient and theoretically grounded.
+The distance matrix representation of knots can be viewed as a discrete sampling of a continuous geometric field. By
+applying wavelet decomposition to these distance matrices, we can extract multi-scale topological features that are both
+computationally efficient and theoretically grounded.
 
 ```python
 class WaveletKnotAnalyzer:
@@ -133,7 +135,8 @@ The wavelet decomposition of distance matrices reveals how knot complexity manif
 - **Medium scales**: Reveal linking and writhe information
 - **Coarse scales**: Encode global topological properties
 
-This mirrors how wavelets on manifolds (from the geometric optimization project) decompose continuous fields into scale-separated components.
+This mirrors how wavelets on manifolds (from the geometric optimization project) decompose continuous fields into
+scale-separated components.
 
 ## 2. Novel Algorithmic Synthesis
 
@@ -451,7 +454,8 @@ class WaveletKnotHash:
 
 ### 5.1 Emergence of Knot Types as Optimal Configurations
 
-The geometric optimization framework suggests that the discrete set of prime knots might emerge as optimal configurations in a continuous space:
+The geometric optimization framework suggests that the discrete set of prime knots might emerge as optimal
+configurations in a continuous space:
 
 ```python
 def knot_emergence_simulation():
@@ -491,7 +495,8 @@ def knot_emergence_simulation():
 
 ### 5.2 Universal Wavelet Basis for Topology
 
-The autoadaptive permutation strategy suggests there might be a "universal" wavelet basis optimally suited for topological computations:
+The autoadaptive permutation strategy suggests there might be a "universal" wavelet basis optimally suited for
+topological computations:
 
 ```python
 class UniversalTopologicalWavelet:
@@ -618,4 +623,5 @@ The cross-synthesis of wavelet geometric optimization and topological knot analy
 3. **Reveals** deep connections between geometry, topology, and quantum mechanics
 4. **Enables** new applications in materials science and quantum computing
 
-This synthesis suggests that the fundamental structures of topology might emerge from optimization principles, with wavelets providing the natural language for describing this emergence.
+This synthesis suggests that the fundamental structures of topology might emerge from optimization principles, with
+wavelets providing the natural language for describing this emergence.

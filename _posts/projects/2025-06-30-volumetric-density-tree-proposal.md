@@ -86,11 +86,11 @@ is_synthesis: true
 We propose a novel method for modeling probability distributions in low-dimensional spaces (2-4D) using volumetric
 density trees that support quadratic polynomial constraints. Our approach addresses the fundamental challenge of
 efficient volume computation in polynomial-constrained subregions through a hybrid strategy combining analytical
-solutions for special cases with adaptive sampling for general regions. By recognizing density estimation as a 
-classification problem between data and uniform background, we enable entropy-based optimization for learning 
+solutions for special cases with adaptive sampling for general regions. By recognizing density estimation as a
+classification problem between data and uniform background, we enable entropy-based optimization for learning
 generative models that can capture complex, non-linear decision boundaries, including discontinuous and fractal
 structures, while maintaining computational tractability. We provide rigorous analysis of approximation bounds,
-explicitly scope our method to 2-4D where it offers clear advantages over neural approaches, and demonstrate 
+explicitly scope our method to 2-4D where it offers clear advantages over neural approaches, and demonstrate
 effectiveness on geometric modeling tasks where interpretability and exact boundary representation matter.
 
 ## 1. Introduction and Motivation
@@ -100,20 +100,32 @@ kernel density estimation and mixture models provide flexibility, they often fai
 structure of data distributions. Tree-based approaches like k-d trees excel at partitioning but are limited to
 axis-aligned splits, while more sophisticated methods like Gaussian mixture models require strong parametric
 assumptions.
+
 ### 1.1 Why Polynomial Constraints Matter
+
 Consider these concrete scenarios where axis-aligned splits fundamentally fail:
-* **Rotated elliptical clusters**: Common in PCA-transformed data, require at least O(2^n) axis-aligned splits to approximate what one quadratic constraint captures exactly
+
+* **Rotated elliptical clusters**: Common in PCA-transformed data, require at least O(2^n) axis-aligned splits to
+  approximate what one quadratic constraint captures exactly
 * **Spiral patterns**: Found in galaxy formations, fluid dynamics, and time-series phase spaces
 * **Saddle-shaped decision boundaries**: Arise naturally in game theory equilibria and optimization landscapes
 * **Geometric constraints**: Robotics workspace boundaries, valid configuration spaces, and physical feasibility regions
-While neural networks can learn arbitrary boundaries, they offer no guarantees on boundary smoothness, cannot represent exact geometric constraints, and provide no interpretable structure. Our method fills this gap for applications where geometric interpretability and exact constraint satisfaction are paramount.
+  While neural networks can learn arbitrary boundaries, they offer no guarantees on boundary smoothness, cannot
+  represent exact geometric constraints, and provide no interpretable structure. Our method fills this gap for
+  applications where geometric interpretability and exact constraint satisfaction are paramount.
+
 ### 1.2 Density Estimation as Classification
-A key insight underlying our approach is that density estimation can be viewed as a classification problem. Given a probability density p(x), we can interpret it as answering: "What is the probability that a point x comes from our distribution versus a uniform background prior?" This perspective unifies our entropy-based optimization with volume computation:
+
+A key insight underlying our approach is that density estimation can be viewed as a classification problem. Given a
+probability density p(x), we can interpret it as answering: "What is the probability that a point x comes from our
+distribution versus a uniform background prior?" This perspective unifies our entropy-based optimization with volume
+computation:
+
 * The density p(x) represents the likelihood ratio between data and uniform background
 * Entropy maximization finds the most uncertain (least committal) distribution consistent with data
 * Volume computation directly measures the "classification confidence" in each region
-This formulation naturally handles discontinuous densities, as we're not assuming smoothness but rather modeling the classification boundary directly.
-
+  This formulation naturally handles discontinuous densities, as we're not assuming smoothness but rather modeling the
+  classification boundary directly.
 
 Our proposed volumetric density trees extend hierarchical partitioning to support polynomial constraints, enabling the
 modeling of curved boundaries and interaction effects through quadratic terms. The key innovation lies in our efficient
@@ -130,12 +142,18 @@ C_i: Σ(a_ijkl * x_j * x_k) + Σ(b_ijk * x_j) + c_i ≤ 0
 where the first sum captures quadratic interactions and the second captures linear terms. This formulation allows for
 ellipsoidal regions, saddle-shaped boundaries, and other complex geometries while maintaining mathematical tractability.
 The entropy-based organization principles share conceptual similarities with our work
-on [Entropy-Optimized Permutation Trees](./2025-06-30-bwt-tree-proposal.md), though applied to continuous density estimation rather
+on [Entropy-Optimized Permutation Trees](./2025-06-30-bwt-tree-proposal.md), though applied to continuous density
+estimation rather
 than discrete string processing. Both approaches use information-theoretic principles to guide tree structure.
-The hierarchical expectation-based partitioning developed here extends the compression techniques from our 
-[N-gram language mod[N-gram language model research](../portfolio/2025-06-30-ngram-paper.md)s, where volume estimation replaces 
-frequency counting. The entropy-adaptive organization also connects to our [compression-based classificati[compression-based classification](../learning/2025-06-30-compression-classification-paper.md)on-theoretic principles optimize discrete decision boundaries.
-The probabilistic modeling aspects relate to our [Probabilistic Decision Trees](../portfolio/2025-06-30-probabilistic-trees-paper.md)ensity estimation rather than discrete classification with uncertainty 
+The hierarchical expectation-based partitioning developed here extends the compression techniques from our
+[N-gram language mod[N-gram language model research](../portfolio/2025-06-30-ngram-paper.md)s, where volume estimation
+replaces
+frequency counting. The entropy-adaptive organization also connects to our [compression-based
+classificati[compression-based classification](../learning/2025-06-30-compression-classification-paper.md)on-theoretic
+principles optimize discrete decision boundaries.
+The probabilistic modeling aspects relate to
+our [Probabilistic Decision Trees](../portfolio/2025-06-30-probabilistic-trees-paper.md)ensity estimation rather than
+discrete classification with uncertainty
 quantification.
 
 ### 2.2 Efficient Volume Estimation via Point Lattices
@@ -157,16 +175,17 @@ integration problem.
 * For 3D: Analytical solutions for quadric surfaces when one constraint is linear
 
 **Stage 2: Adaptive Sampling for General Cases**
-For regions where analytical solutions are unavailable, we employ adaptive lattice sampling optimized for low dimensions:
+For regions where analytical solutions are unavailable, we employ adaptive lattice sampling optimized for low
+dimensions:
 
 * Initial regular grid with k points per dimension (k ≈ 10-20 for 2-4D)
 * Refinement near boundaries using gradient information
 * Early stopping when volume estimate converges
-**Computational Reality Check**:
+  **Computational Reality Check**:
 * 2D with k=20: 400 evaluations (< 1ms on modern CPU)
 * 3D with k=20: 8,000 evaluations (< 10ms)
 * 4D with k=15: 50,625 evaluations (< 50ms)
-These timings assume vectorized constraint evaluation and early stopping when regions are entirely inside/outside.
+  These timings assume vectorized constraint evaluation and early stopping when regions are entirely inside/outside.
 
   **Alternative Methods Considered**:
 * Monte Carlo integration: Higher variance for small regions
@@ -182,14 +201,18 @@ These timings assume vectorized constraint evaluation and early stopping when re
 
 ### 2.3 Density Estimation and Smoothness
 
-The tree structure naturally partitions space into regions where we estimate density. The key insight from viewing density as classification is that we need not enforce smoothness across boundaries - discontinuities are features, not bugs.
+The tree structure naturally partitions space into regions where we estimate density. The key insight from viewing
+density as classification is that we need not enforce smoothness across boundaries - discontinuities are features, not
+bugs.
 
 Within each leaf region with volume V_i containing n_i points from N total:
+
 * Maximum likelihood estimate: p̂_i = n_i / (N * V_i)
 * Bayesian estimate with Dirichlet prior: p̂_i = (n_i + α) / (N + α * K) / V_i
 * The prior parameter α acts as a "virtual count" preventing zero densities
 
-**Normalization**: The tree structure guarantees ∫ p(x)dx = 1 by construction, as the leaf regions partition the bounded domain.
+**Normalization**: The tree structure guarantees ∫ p(x)dx = 1 by construction, as the leaf regions partition the bounded
+domain.
 
 ### 2.4 Metaparameters and Model Selection
 
@@ -202,6 +225,7 @@ Our method involves several metaparameters that control the bias-variance tradeo
 5. **Regularization α**: Dirichlet prior strength (default: 1.0)
 
 Rather than extensive hyperparameter optimization, we advocate for:
+
 * Setting defaults based on theoretical analysis
 * Using validation set likelihood for model selection
 * Providing interpretable controls that users can adjust based on domain knowledge
@@ -212,13 +236,14 @@ We optimize the tree structure by maximizing the differential entropy of the res
 
 H = -∫ p(x) log p(x) dx
 
-This is equivalent to finding the maximum entropy distribution consistent with the observed data - the least committal model that explains the observations.
+This is equivalent to finding the maximum entropy distribution consistent with the observed data - the least committal
+model that explains the observations.
 
 **Constraint Generation Strategy**:
 Rather than searching the full O(n²) dimensional space of quadratic constraints, we use data-driven heuristics:
 
 1. **Principal Component Constraints**: Fit local PCA and use principal axes
-2. **Moment-Based Constraints**: Use covariance structure to define elliptical boundaries  
+2. **Moment-Based Constraints**: Use covariance structure to define elliptical boundaries
 3. **Support Vector Inspired**: Find maximum margin quadratic separator between regions
 4. **Gradient-Guided**: Follow density gradient directions for natural boundaries
 
@@ -279,7 +304,8 @@ Compared to baselines:
 * KDE: O(N²·n) for exact computation
 * Neural density models: O(N·L·H) for L layers, H hidden units
 * Our method: Competitive for n ≤ 4 with superior geometric flexibility and interpretability
-**Key Advantage**: One-time tree construction cost amortizes over many density queries, each requiring only O(d) constraint evaluations.
+  **Key Advantage**: One-time tree construction cost amortizes over many density queries, each requiring only O(d)
+  constraint evaluations.
 
 ### 4.2 Approximation Bounds
 
@@ -298,12 +324,13 @@ Our method excels at modeling:
 * **Fractal boundaries**: Recursive partitioning naturally captures self-similar structures
 * **Discontinuities**: Sharp boundaries are preserved by the tree structure
 * Early prototypes have successfully modeled Julia sets and strange attractors
-**Handling Non-Convex Regions**:
-When polynomial constraint intersections create disconnected components:
+  **Handling Non-Convex Regions**:
+  When polynomial constraint intersections create disconnected components:
+
 1. Detect disconnection via lattice sampling (connected component analysis)
 2. Create child nodes for each component
 3. Recursively partition each component separately
-This naturally handles complex topologies without special cases.
+   This naturally handles complex topologies without special cases.
 
 ### 4.3 Statistical Properties
 
@@ -322,7 +349,8 @@ Phase 1: 2D validation with visualization
 * Visual comparison of decision boundaries
 * Volume computation accuracy assessment
 * Demonstration on fractal datasets (e.g., Sierpinski triangle point clouds)
-**Concrete Example**: 2D spiral dataset where axis-aligned trees require 100+ splits to approximate what 5-10 quadratic constraints capture exactly.
+  **Concrete Example**: 2D spiral dataset where axis-aligned trees require 100+ splits to approximate what 5-10
+  quadratic constraints capture exactly.
 
 ### 5.2 Synthetic Data Experiments
 
@@ -337,16 +365,16 @@ Phase 1: 2D validation with visualization
 We focus on two specific applications where our method's unique properties provide clear advantages:
 
 1. **Robotics Configuration Space Modeling (3D)**:
-   * Problem: Model valid joint configurations for 3-DOF robot arms
-   * Why us: Exact representation of joint limit constraints, collision boundaries
-   * Success metric: Sampling valid configurations with 0% collision rate
-   * Baseline comparison: Neural samplers often violate physical constraints
+    * Problem: Model valid joint configurations for 3-DOF robot arms
+    * Why us: Exact representation of joint limit constraints, collision boundaries
+    * Success metric: Sampling valid configurations with 0% collision rate
+    * Baseline comparison: Neural samplers often violate physical constraints
 
 2. **Crystallographic Phase Identification (2-3D)**:
-   * Problem: Classify crystal structures from 2-3 order parameters
-   * Why us: Phase boundaries are often quadratic (energy minimization)
-   * Success metric: Accurate phase boundary location (±0.1% of lattice parameter)
-   * Baseline comparison: GMMs smooth over sharp phase transitions
+    * Problem: Classify crystal structures from 2-3 order parameters
+    * Why us: Phase boundaries are often quadratic (energy minimization)
+    * Success metric: Accurate phase boundary location (±0.1% of lattice parameter)
+    * Baseline comparison: GMMs smooth over sharp phase transitions
 
 ### 5.3 Baseline Comparisons
 
@@ -361,6 +389,7 @@ Compare against:
 * Mixture of Experts with quadratic gating functions
 
 **Evaluation Metrics**:
+
 * Log-likelihood on held-out data
 * Geometric accuracy: Distance to true boundaries (when known)
 * Sample validity: Percentage satisfying known constraints
@@ -418,20 +447,21 @@ indexing where i indexes constraints, j,k index dimensions.
 Volumetric density trees with polynomial constraints represent a focused advance in density modeling for low-dimensional
 spaces where geometric structure matters. By combining analytical solutions with adaptive lattice sampling specifically
 designed for indicator function integration, and by limiting scope to 2-4 dimensions, we make this theoretically
-appealing concept computationally practical. 
+appealing concept computationally practical.
 
-Our key insight - viewing density estimation through the lens of classification between data and uniform background - 
-provides a principled foundation for handling discontinuous densities and motivates our entropy-based optimization. 
-The method's ability to capture exact geometric constraints while maintaining interpretability sets it apart from both 
+Our key insight - viewing density estimation through the lens of classification between data and uniform background -
+provides a principled foundation for handling discontinuous densities and motivates our entropy-based optimization.
+The method's ability to capture exact geometric constraints while maintaining interpretability sets it apart from both
 traditional smooth density estimators and modern neural approaches.
 
 We explicitly scope our contribution to 2-4D problems where:
+
 1. Geometric constraints have physical meaning
 2. Exact boundary representation matters
 3. Interpretability is valued over raw predictive power
 4. Discontinuous densities are features of the problem
 
-Within this scope, volumetric density trees offer a unique combination of expressiveness, interpretability, and 
+Within this scope, volumetric density trees offer a unique combination of expressiveness, interpretability, and
 computational efficiency that existing methods cannot match.
 
 ## References
