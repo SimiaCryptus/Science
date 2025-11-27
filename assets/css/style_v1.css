@@ -3036,34 +3036,3 @@ img[loading="lazy"].loaded {
         justify-content: center;
     }
 }
-        display: none;
-        flex-direction: column;
-        gap: 0;
-        padding: 0;
-        margin-top: 0;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background: var(--bg-secondary);
-        border-top: 2px solid var(--primary-color);
-        border-bottom: 2px solid var(--primary-color);
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-        z-index: 1000;
-        max-height: 70vh;
-        overflow-y: auto;
-    }
-    .site-nav.active {
-        display: flex;
-        animation: slideDown 0.3s ease;
-    }
-    @keyframes slideDown {
-        from {
-            opacity: 0;
-            transform: translateY(-10px);
-        }
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
-        padding: 12px 15px;
