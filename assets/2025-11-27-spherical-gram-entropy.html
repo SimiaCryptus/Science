@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spherical Gram Entropy | Neural Layer Demo</title>
+    <meta name="description" content="Interactive demonstration of Spherical Entropy optimization using Gram Matrices and TensorFlow.js">
+    
+    <!-- TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.15.0/dist/tf.min.js"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <style>
+        /* =========================================
+           1. Variables & Reset
+           ========================================= */
+        :root {
+            --bg-color: #0f1115;
+            --card-bg: #1a1d24;
+            --card-hover: #22262f;
+            --text-primary: #e0e0e0;
+            --text-secondary: #a0a0a0;
+            --text-muted: #6b7280;
+            --accent-primary: #00d2ff;   /* Cyan */
+            --accent-secondary: #ff00ff; /* Magenta */
+            --accent-tertiary: #00ff9d;  /* Green */
+            --danger: #ff4a4a;
+            --border-color: #2a2e36;
+            --border-focus: #4a4f5a;
+            --radius-sm: 4px;
+            --radius-md: 8px;
+            --font-mono: 'JetBrains Mono', monospace;
+            --font-sans: 'Inter', sans-serif;
+            --transition-fast: 0.15s ease;
+        }
+        
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: var(--font-sans);
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            overflow: hidden; /* Prevent scroll for full-screen app feel */
+        }
+        
+        /* =========================================
+           2. Layout & Header
+           ========================================= */
+        header {
+            background-color: var(--card-bg);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+        
+        h1 {
+            font-size: 1.25rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        
+        .badge {
+            background: rgba(0, 210, 255, 0.1);
+            color: var(--accent-primary);
+            font-size: 0.7rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: var(--radius-sm);
+            font-family: var(--font-mono);
+            border: 1px solid rgba(0, 210, 255, 0.2);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        main {
+            flex: 1;
+            padding: 1.5rem;
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 1.5rem;
+            height: calc(100vh - 70px);
+            max-width: 1920px;
+            margin: 0 auto;
+            width: 100%;
+        }
+        
+        @media (max-width: 1024px) {
+            main { grid-template-columns: 1fr; overflow-y: auto; }
+        }
+        
+        /* =========================================
+           3. Controls Panel
+           ========================================= */
+        .panel {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+            height: 100%;
+            overflow-y: auto;
+        }
+        
+        .panel-header {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-muted);
+            font-weight: 700;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+        
+        .control-group { display: flex; flex-direction: column; gap: 0.5rem; }
+        
+        label {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 500;
+        }
+        
+        .value-display {
+            font-family: var(--font-mono);
+            color: var(--accent-primary);
+            font-size: 0.75rem;
+            background: rgba(0, 210, 255, 0.1);
+            padding: 0.1rem 0.4rem;
+            border-radius: var(--radius-sm);
+        }
+        
+        select, input[type="range"] {
+            width: 100%;
+            background: transparent;
+            cursor: pointer;
+        }
+        
+        select {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+            padding: 0.5rem;
+            border-radius: var(--radius-sm);
+            font-family: var(--font-sans);
+            font-size: 0.8rem;
+        }
+        
+        input[type="range"] { -webkit-appearance: none; }
+        input[type="range"]::-webkit-slider-runnable-track {
+            width: 100%; height: 4px; background: var(--border-color); border-radius: 2px;
+        }
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none; height: 14px; width: 14px; border-radius: 50%;
+            background: var(--accent-primary); margin-top: -5px;
+            transition: transform 0.1s;
+        }
+        input[type="range"]::-webkit-slider-thumb:hover { transform: scale(1.2); }
+        
+        .button-group { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-top: 0.5rem; }
+        
+        button {
+            padding: 0.75rem; border: none; border-radius: var(--radius-sm);
+            font-weight: 600; cursor: pointer; transition: all 0.2s;
+            font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase;
+        }
+        
+        .btn-primary { background-color: var(--accent-primary); color: #000; }
+        .btn-primary:hover { background-color: #33dbff; }
+        
+        .btn-secondary { background-color: transparent; border: 1px solid var(--border-color); color: var(--text-primary); }
+        .btn-secondary:hover { border-color: var(--text-secondary); background: rgba(255,255,255,0.05); }
+        
+        .btn-danger { background-color: rgba(255, 74, 74, 0.1); color: var(--danger); border: 1px solid rgba(255, 74, 74, 0.3); }
+        .btn-danger:hover { background-color: rgba(255, 74, 74, 0.2); }
+        
+        .math-block {
+            font-family: var(--font-mono); font-size: 0.7rem; background: #13151a;
+            padding: 0.75rem; border-radius: var(--radius-sm); margin-top: auto;
+            color: var(--text-secondary); border: 1px solid var(--border-color);
+            line-height: 1.6;
+        }
+        
+        /* =========================================
+           4. Visualization Area
+           ========================================= */
+        .viz-container {
+            display: flex; flex-direction: column; gap: 1rem; height: 100%;
+        }
+        
+        .metrics-bar {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1rem;
+        }
+        
+        .metric-card {
+            background-color: var(--card-bg); border: 1px solid var(--border-color);
+            padding: 1rem; border-radius: var(--radius-md);
+            display: flex; flex-direction: column; gap: 0.25rem;
+        }
+        
+        .metric-label { font-size: 0.65rem; color: var(--text-muted); text-transform: uppercase; font-weight: 700; }
+        .metric-value { font-family: var(--font-mono); font-size: 1.25rem; font-weight: 700; color: var(--text-primary); }
+        
+        .canvas-wrapper {
+            flex: 1; background-color: var(--card-bg); border: 1px solid var(--border-color);
+            border-radius: var(--radius-md); position: relative; overflow: hidden;
+        }
+        
+        canvas { width: 100%; height: 100%; display: block; }
+        
+        /* Loading Overlay */
+        #loading {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: var(--bg-color); display: flex; justify-content: center;
+            align-items: center; z-index: 1000; flex-direction: column; gap: 1rem;
+            color: var(--text-secondary); font-family: var(--font-mono);
+        }
+        .spinner {
+            width: 40px; height: 40px; border: 3px solid var(--border-color);
+            border-top-color: var(--accent-primary); border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .hidden { display: none !important; }
+    </style>
+</head>
+<body>
+
+    <div id="loading">
+        <div class="spinner"></div>
+        <div>Initializing TensorFlow.js...</div>
+    </div>
+
+    <header>
+        <h1>
+            Spherical Gram Entropy
+            <span class="badge">v2.0</span>
+        </h1>
+        <div style="font-size: 0.8rem; color: var(--text-secondary);">
+            Gram Matrix Density Estimation
+        </div>
+    </header>
+
+    <main>
+        <!-- Controls Sidebar -->
+        <aside class="panel">
+            <div class="panel-header">Configuration</div>
+            
+            <div class="control-group">
+                <label>Optimization Target</label>
+                <select id="opt-target">
+                    <option value="maximize">Maximize Entropy (Spread)</option>
+                    <option value="minimize">Minimize Entropy (Cluster)</option>
+                    <option value="target">Match Target Entropy</option>
+                </select>
+            </div>
+
+            <div class="control-group" id="target-entropy-group" style="display:none;">
+                <label>Target Entropy <span class="value-display" id="val-target">3.0</span></label>
+                <input type="range" id="param-target" min="0" max="5" step="0.1" value="3.0">
+            </div>
+
+            <div class="control-group">
+                <label>Point Count (N) <span class="value-display" id="val-n">50</span></label>
+                <input type="range" id="param-n" min="10" max="200" step="1" value="50">
+            </div>
+
+            <div class="panel-header">Hyperparameters</div>
+
+            <div class="control-group">
+                <label>Temperature (τ) <span class="value-display" id="val-tau">0.5</span></label>
+                <input type="range" id="param-tau" min="0.1" max="2.0" step="0.05" value="0.5">
+            </div>
+
+<div class="control-group">
+                <label>Learning Rate <span class="value-display" id="val-lr">0.05</span></label>
+                <input type="range" id="param-lr" min="0.001" max="0.2" step="0.001" value="0.05">
+            </div>
+            <div class="control-group">
+                <label>Show Neighbors (k) <span class="value-display" id="val-neighbors">0</span></label>
+                <input type="range" id="param-neighbors" min="0" max="49" step="1" value="0">
+            </div>
+            <div class="control-group">
+                <label>
+                    Auto-Rotate View
+                    <input type="checkbox" id="chk-autorotate" checked style="width:auto;">
+                </label>
+            </div>
+            <div class="control-group">
+                <label>Interaction Force <span class="value-display" id="val-force">0.0</span></label>
+                <div style="display:flex; justify-content:space-between; font-size:0.6rem; color:var(--text-muted); margin-top:-4px;">
+                    <span>Repel (1/r²)</span><span>Attract</span>
+                </div>
+                <input type="range" id="param-force" min="-4" max="4" step="0.1" value="0.0">
+            </div>
+
+
+            <div class="button-group">
+                <button id="btn-toggle" class="btn-primary">Start Training</button>
+                <button id="btn-reset" class="btn-secondary">Reset Sphere</button>
+            </div>
+            
+            <div class="math-block">
+                <strong>Gram Matrix Input:</strong><br>
+                G = X · Xᵀ (Dot Products)<br>
+                ρ = Σ exp(G / τ) (Density)<br>
+                p = ρ / Σρ<br>
+                H = -Σ p log(p)
+            </div>
+        </aside>
+
+        <!-- Visualization Area -->
+        <div class="viz-container">
+            <div class="metrics-bar">
+                <div class="metric-card">
+                    <span class="metric-label">Spherical Entropy</span>
+                    <span class="metric-value" id="metric-entropy" style="color: var(--accent-primary)">--</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-label">Loss</span>
+                    <span class="metric-value" id="metric-loss" style="color: var(--danger)">--</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-label">Step</span>
+                    <span class="metric-value" id="metric-step">0</span>
+                </div>
+            </div>
+
+            <div class="canvas-wrapper" id="canvas-container">
+                <canvas id="viz-canvas"></canvas>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        /**
+         * Spherical Gram Entropy - Interactive Demo
+         * 
+         * Optimizes points on a unit sphere (3D) using a density estimation derived
+         * from the Gram Matrix (dot products) of the points.
+         */
+        
+        // --- Configuration & State ---
+const state = {
+            isTraining: false,
+            points: null,      // TensorFlow variable [N, 3]
+            optimizer: null,
+            step: 0,
+            animationId: null,
+            rotation: { x: 0, y: 0 },
+            neighbors: 0,
+            autoRotate: true,
+            isDragging: false,
+            params: {
+                n: 50,
+                tau: 0.5,
+                lr: 0.05,
+                interaction: 0.0,
+                targetMode: 'maximize',
+                targetVal: 3.0
+            },
+            metrics: { entropy: 0, loss: 0, densities: [] }
+        };
+        
+        // --- DOM Elements ---
+        const els = {
+            canvas: document.getElementById('viz-canvas'),
+            loading: document.getElementById('loading'),
+            mode: document.getElementById('opt-target'),
+            targetGroup: document.getElementById('target-entropy-group'),
+            targetInput: document.getElementById('param-target'),
+nInput: document.getElementById('param-n'),
+            tauInput: document.getElementById('param-tau'),
+            lrInput: document.getElementById('param-lr'),
+            neighborsInput: document.getElementById('param-neighbors'),
+            valNeighbors: document.getElementById('val-neighbors'),
+            chkAutoRotate: document.getElementById('chk-autorotate'),
+            forceInput: document.getElementById('param-force'),
+            btnToggle: document.getElementById('btn-toggle'),
+            btnReset: document.getElementById('btn-reset'),
+            valTarget: document.getElementById('val-target'),
+            valN: document.getElementById('val-n'),
+            valTau: document.getElementById('val-tau'),
+            valLr: document.getElementById('val-lr'),
+            valForce: document.getElementById('val-force'),
+            metricEntropy: document.getElementById('metric-entropy'),
+            metricLoss: document.getElementById('metric-loss'),
+            metricStep: document.getElementById('metric-step')
+        };
+        
+        const ctx = els.canvas.getContext('2d');
+        
+        // --- TensorFlow.js Logic ---
+        
+        /**
+         * Calculates Entropy based on the Gram Matrix.
+         * 
+         * 1. Normalize X to unit sphere.
+         * 2. Compute Gram Matrix G = X * X^T. (Values are cosines).
+         * 3. Calculate "Density" per point based on similarity to others:
+         *    rho_i = sum_j( exp(G_ij / tau) )
+         * 4. Normalize rho to probability distribution p.
+         * 5. Entropy H = -sum(p * log(p)).
+         */
+        function gramMatrixEntropy(x, temperature) {
+            return tf.tidy(() => {
+                // 1. Ensure points are on unit sphere
+                const norms = tf.norm(x, 'euclidean', 1, true);
+                const x_norm = tf.div(x, norms);
+                
+                // 2. Gram Matrix (Dot products)
+                // Shape: [N, N]
+                const gram = tf.matMul(x_norm, x_norm, false, true);
+                
+                // 3. Density Estimation
+                // We exponentiate the dot products scaled by temperature.
+                // High dot product (close points) -> High value.
+                const scaled = tf.div(gram, temperature);
+                const exp = tf.exp(scaled);
+                
+                // Sum across rows to get "density" of neighborhood for each point
+                const densities = tf.sum(exp, 1);
+                
+                // 4. Probabilities
+                const sumDensities = tf.sum(densities);
+                const probs = tf.div(densities, sumDensities);
+                
+                // 5. Entropy
+                const logProbs = tf.log(tf.add(probs, 1e-12));
+                const entropy = tf.neg(tf.sum(tf.mul(probs, logProbs)));
+                
+                return { entropy, densities, x_norm, gram };
+            });
+        }
+        
+        function trainStep() {
+            if (!state.isTraining || !state.points) return;
+        
+            tf.tidy(() => {
+                const lossFunction = () => {
+                    const { entropy, gram } = gramMatrixEntropy(state.points, state.params.tau);
+                    
+                    let loss;
+                    if (state.params.targetMode === 'maximize') {
+                        loss = tf.neg(entropy); // Minimize negative entropy
+                    } else if (state.params.targetMode === 'minimize') {
+                        loss = entropy;
+                    } else {
+                        const target = tf.scalar(state.params.targetVal);
+                        loss = tf.square(tf.sub(entropy, target));
+                    }
+                    // Interaction Force
+                    const force = state.params.interaction;
+                    if (Math.abs(force) > 1e-5) {
+                        if (force < 0) {
+                            // Repel: 1/r^2 law -> 1/(1-cos(theta))
+                            // Avoid singularity with epsilon
+                            const distSq = tf.sub(1.0, gram);
+                            const potential = tf.div(1.0, tf.add(distSq, 0.001));
+                            // Mask diagonal (self-interaction)
+                            const mask = tf.sub(tf.onesLike(gram), tf.eye(gram.shape[0]));
+                            const repelLoss = tf.mean(tf.mul(potential, mask));
+                            loss = tf.add(loss, tf.mul(repelLoss, Math.abs(force)));
+                        } else {
+                            // Attract: Maximize dot products
+                            const meanGram = tf.mean(gram);
+                            loss = tf.add(loss, tf.mul(meanGram, -force));
+                        }
+                    }
+                    return loss;
+                };
+        
+                // Compute gradients
+                const {value: loss, grads} = state.optimizer.computeGradients(lossFunction);
+                
+                // Apply gradients
+                state.optimizer.applyGradients(grads);
+                
+                // Normalize points explicitly to keep them near sphere surface
+                // (Though the loss function handles projection, this keeps numerics stable)
+                const normalized = tf.div(state.points, tf.norm(state.points, 'euclidean', 1, true));
+                state.points.assign(normalized);
+                
+                // Update metrics
+                const res = gramMatrixEntropy(state.points, state.params.tau);
+                state.metrics.loss = loss.dataSync()[0];
+                state.metrics.entropy = res.entropy.dataSync()[0];
+                state.metrics.densities = res.densities.dataSync(); // For visualization
+                state.step++;
+            });
+        }
+        
+        // --- Visualization (3D Sphere + Charts) ---
+        
+        function resizeCanvas() {
+            const container = els.canvas.parentElement;
+            els.canvas.width = container.clientWidth;
+            els.canvas.height = container.clientHeight;
+        }
+        
+        function project3D(x, y, z, width, height, scale) {
+            // Simple orthographic projection with rotation
+            const rotY = state.rotation.y;
+            const rotX = state.rotation.x; // Fixed tilt usually looks good
+            
+            // Rotate Y
+            let x1 = x * Math.cos(rotY) - z * Math.sin(rotY);
+            let z1 = x * Math.sin(rotY) + z * Math.cos(rotY);
+            
+            // Rotate X (Tilt)
+            let y2 = y * Math.cos(rotX) - z1 * Math.sin(rotX);
+            let z2 = y * Math.sin(rotX) + z1 * Math.cos(rotX);
+            
+            // Perspective
+            const fov = 4;
+            const dist = 4;
+            const p = fov / (dist - z2);
+            
+            return {
+                x: width * 0.35 + x1 * scale * p, // Center on left side (35%)
+                y: height * 0.5 - y2 * scale * p,
+                z: z2,
+                scale: p
+            };
+        }
+        
+        function draw() {
+            const w = els.canvas.width;
+            const h = els.canvas.height;
+            
+            // Clear
+            ctx.fillStyle = '#1a1d24';
+            ctx.fillRect(0, 0, w, h);
+            
+            if (!state.points) return;
+            
+            const pointsArr = state.points.dataSync();
+            const numPoints = pointsArr.length / 3;
+            
+            // --- Draw 3D Sphere (Left Side) ---
+            const sphereRadius = Math.min(w * 0.35, h * 0.4);
+            
+            // Draw Wireframe Sphere (Background)
+            ctx.strokeStyle = 'rgba(255, 255, 255, 0.05)';
+            ctx.lineWidth = 1;
+            ctx.beginPath();
+            ctx.arc(w * 0.35, h * 0.5, sphereRadius, 0, Math.PI * 2);
+            ctx.stroke();
+            
+            // Draw Lat/Lon lines (simplified)
+            for(let i=0; i<8; i++) {
+                ctx.beginPath();
+                ctx.ellipse(w * 0.35, h * 0.5, sphereRadius, sphereRadius * 0.3, i * (Math.PI/4), 0, Math.PI*2);
+                ctx.stroke();
+            }
+
+            // Project Points
+            const projected = [];
+            const densities = state.metrics.densities.length > 0 ? state.metrics.densities : new Array(numPoints).fill(1);
+            const maxDensity = Math.max(...densities);
+            const minDensity = Math.min(...densities);
+            
+            for (let i = 0; i < numPoints; i++) {
+                const x = pointsArr[i * 3];
+                const y = pointsArr[i * 3 + 1];
+                const z = pointsArr[i * 3 + 2];
+                
+                const proj = project3D(x, y, z, w, h, sphereRadius);
+                
+                // Color based on density contribution
+                // High density (clustered) = Hot/Magenta
+                // Low density (isolated) = Cool/Cyan
+                const d = densities[i];
+                const normD = (d - minDensity) / (maxDensity - minDensity + 0.0001);
+                
+projected.push({ ...proj, normD });
+            }
+            // Draw Connections
+            if (state.neighbors > 0) {
+                ctx.lineWidth = 0.5;
+                ctx.strokeStyle = 'rgba(255, 255, 255, 0.15)';
+                ctx.beginPath();
+                for (let i = 0; i < numPoints; i++) {
+                    // Find k-nearest neighbors using dot product (cosine similarity)
+                    const idxI = i * 3;
+                    const xi = pointsArr[idxI], yi = pointsArr[idxI+1], zi = pointsArr[idxI+2];
+                    
+                    const dists = [];
+                    for (let j = 0; j < numPoints; j++) {
+                        if (i === j) continue;
+                        const idxJ = j * 3;
+                        const xj = pointsArr[idxJ], yj = pointsArr[idxJ+1], zj = pointsArr[idxJ+2];
+                        dists.push({ idx: j, val: xi*xj + yi*yj + zi*zj });
+                    }
+                    dists.sort((a, b) => b.val - a.val); // Descending dot product
+
+                    const k = Math.min(state.neighbors, dists.length);
+                    const p1 = projected[i];
+                    for (let n = 0; n < k; n++) {
+                        const p2 = projected[dists[n].idx];
+                        ctx.moveTo(p1.x, p1.y);
+                        ctx.lineTo(p2.x, p2.y);
+                    }
+                }
+                ctx.stroke();
+            }
+            
+
+            // Sort by Z for painter's algorithm
+            projected.sort((a, b) => a.z - b.z);
+            
+            // Draw Points
+            projected.forEach(p => {
+                const alpha = 0.3 + (p.z + 1) * 0.35; // Fade back points
+                const size = 3 * p.scale + (p.normD * 2); // Clustered points slightly larger
+                
+                // Interpolate color: Cyan (0) to Magenta (1)
+                const r = Math.floor(0 + p.normD * 255);
+                const g = Math.floor(210 - p.normD * 210);
+                const b = 255;
+                
+                ctx.fillStyle = `rgba(${r}, ${g}, ${b}, ${alpha})`;
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, size, 0, Math.PI * 2);
+                ctx.fill();
+                
+                // Glow
+                if (p.z > 0) {
+                    ctx.shadowColor = `rgba(${r}, ${g}, ${b}, 1)`;
+                    ctx.shadowBlur = 10;
+                    ctx.stroke();
+                    ctx.shadowBlur = 0;
+                }
+            });
+            
+            // --- Draw Density Distribution (Right Side) ---
+            const chartX = w * 0.7;
+            const chartY = h * 0.5;
+            const chartW = w * 0.25;
+            const chartH = h * 0.6;
+            
+            // Axis
+            ctx.strokeStyle = '#2a2e36';
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+            ctx.moveTo(chartX, chartY + chartH/2);
+            ctx.lineTo(chartX + chartW, chartY + chartH/2); // X Axis
+            ctx.moveTo(chartX, chartY - chartH/2);
+            ctx.lineTo(chartX, chartY + chartH/2); // Y Axis
+            ctx.stroke();
+            
+            // Label
+            ctx.fillStyle = '#a0a0a0';
+            ctx.font = '10px JetBrains Mono';
+            ctx.fillText("DENSITY DISTRIBUTION", chartX, chartY - chartH/2 - 10);
+            
+            
+            // Histogram
+            const bins = 20;
+            const hist = new Array(bins).fill(0);
+            const minD = Math.min(...densities);
+            const maxD = Math.max(...densities) + 0.0001;
+            const range = maxD - minD;
+            densities.forEach(d => {
+                const bin = Math.floor(((d - minD) / range) * bins);
+                hist[bin]++;
+            });
+            const maxCount = Math.max(...hist, 1);
+            const binW = chartW / bins;
+            ctx.fillStyle = 'rgba(0, 210, 255, 0.5)';
+            
+            ctx.beginPath();
+            ctx.moveTo(chartX, chartY + chartH/2);
+            
+            for(let i=0; i<bins; i++) {
+                const hVal = hist[i];
+                const barH = (hVal / maxCount) * chartH;
+                const x = chartX + i * binW;
+                const y = chartY + chartH/2 - barH;
+                
+                ctx.rect(x, y, binW - 1, barH);
+            }
+            
+            ctx.fill();
+            
+            ctx.lineWidth = 1;
+            ctx.stroke();
+            
+        }
+        
+        function updateUI() {
+            els.metricEntropy.textContent = state.metrics.entropy.toFixed(4);
+            els.metricLoss.textContent = state.metrics.loss.toFixed(5);
+            els.metricStep.textContent = state.step;
+        }
+        
+        function animate() {
+            if (state.isTraining) {
+                // Perform multiple steps per frame for speed
+                for(let i=0; i<2; i++) trainStep();
+            }
+            if (state.autoRotate && !state.isDragging) {
+                state.rotation.y += 0.002;
+            }
+
+            draw();
+            updateUI();
+            state.animationId = requestAnimationFrame(animate);
+        }
+        
+        // --- Initialization & Events ---
+        
+        function resetPoints() {
+            if (state.points) state.points.dispose();
+            
+            // Initialize random points on sphere
+            // Gaussian random -> Normalize = Uniform on Sphere
+            const initial = tf.randomNormal([state.params.n, 3]);
+            const norms = tf.norm(initial, 'euclidean', 1, true);
+            const normalized = tf.div(initial, norms);
+            
+            state.points = tf.variable(normalized);
+            
+            // Reset Optimizer
+            state.optimizer = tf.train.adam(state.params.lr);
+            
+            state.step = 0;
+            state.metrics = { entropy: 0, loss: 0, densities: [] };
+            
+            // Initial calc
+            const res = gramMatrixEntropy(state.points, state.params.tau);
+            state.metrics.entropy = res.entropy.dataSync()[0];
+            state.metrics.densities = res.densities.dataSync();
+        }
+        
+        function setupEventListeners() {
+            els.btnToggle.addEventListener('click', () => {
+                state.isTraining = !state.isTraining;
+                els.btnToggle.textContent = state.isTraining ? 'Stop Training' : 'Start Training';
+                els.btnToggle.classList.toggle('btn-primary');
+                els.btnToggle.classList.toggle('btn-danger');
+            });
+            
+            els.btnReset.addEventListener('click', () => {
+                state.isTraining = false;
+                els.btnToggle.textContent = 'Start Training';
+                els.btnToggle.classList.add('btn-primary');
+                els.btnToggle.classList.remove('btn-danger');
+                resetPoints();
+                draw();
+            });
+            
+els.nInput.addEventListener('input', (e) => {
+                state.params.n = parseInt(e.target.value);
+                els.valN.textContent = state.params.n;
+                // Update neighbors slider max
+                const maxNeighbors = Math.max(0, state.params.n - 1);
+                els.neighborsInput.max = maxNeighbors;
+                if (state.neighbors > maxNeighbors) {
+                    state.neighbors = maxNeighbors;
+                    els.neighborsInput.value = state.neighbors;
+                    els.valNeighbors.textContent = state.neighbors;
+                }
+
+                if (!state.isTraining) resetPoints();
+            });
+            
+            els.tauInput.addEventListener('input', (e) => {
+                state.params.tau = parseFloat(e.target.value);
+                els.valTau.textContent = state.params.tau.toFixed(2);
+            });
+            
+            els.lrInput.addEventListener('input', (e) => {
+state.params.lr = parseFloat(e.target.value);
+                els.valLr.textContent = state.params.lr;
+                state.optimizer = tf.train.adam(state.params.lr);
+            });
+            els.neighborsInput.addEventListener('input', (e) => {
+                state.neighbors = parseInt(e.target.value);
+                els.valNeighbors.textContent = state.neighbors;
+            });
+            els.chkAutoRotate.addEventListener('change', (e) => {
+                state.autoRotate = e.target.checked;
+            });
+            els.forceInput.addEventListener('input', (e) => {
+                // Logarithmic scale: sign * (10^|val| - 1) * scale
+                const val = parseFloat(e.target.value);
+                const scale = 0.01;
+                const effective = Math.sign(val) * (Math.pow(10, Math.abs(val)) - 1) * scale;
+                state.params.interaction = effective;
+                els.valForce.textContent = effective.toExponential(1);
+            });
+            
+
+            els.mode.addEventListener('change', (e) => {
+                state.params.targetMode = e.target.value;
+                els.targetGroup.style.display = state.params.targetMode === 'target' ? 'flex' : 'none';
+            });
+            
+            els.targetInput.addEventListener('input', (e) => {
+                state.params.targetVal = parseFloat(e.target.value);
+                els.valTarget.textContent = state.params.targetVal.toFixed(1);
+            });
+            
+            window.addEventListener('resize', resizeCanvas);
+            
+            // Mouse interaction for rotation
+            let lastX = 0;
+            let lastY = 0;
+            
+            els.canvas.addEventListener('mousedown', e => {
+                state.isDragging = true;
+                lastX = e.clientX;
+                lastY = e.clientY;
+            });
+            
+            window.addEventListener('mousemove', e => {
+                if(state.isDragging) {
+                    const dx = e.clientX - lastX;
+                    const dy = e.clientY - lastY;
+                    state.rotation.y += dx * 0.01;
+                    state.rotation.x += dy * 0.01;
+                    lastX = e.clientX;
+                    lastY = e.clientY;
+                }
+            });
+            
+            window.addEventListener('mouseup', () => state.isDragging = false);
+        }
+        
+        async function init() {
+            try {
+                await tf.ready();
+                els.loading.classList.add('hidden');
+                setupEventListeners();
+                resetPoints();
+                resizeCanvas();
+                animate();
+            } catch (err) {
+                console.error(err);
+                els.loading.innerHTML = `<div style="color:var(--danger)">Error: ${err.message}</div>`;
+            }
+        }
+        
+        init();
+    </script>
+</body>
+</html>
