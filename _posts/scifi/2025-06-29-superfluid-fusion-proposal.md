@@ -47,8 +47,8 @@ excerpt: >-
   We propose exploiting macroscopic quantum coherence of superfluid helium to
   enable fundamentally new fusion mechanisms that could dramatically reduce
   fusion barriers and enable on-demand heavy element synthesis.
-featured_image: /assets/images/superfluid-fusion-diagram.png
-og_image: /assets/images/superfluid-fusion-social.png
+featured_image: ../../assets/images/conventional_vs_quantum_fusion_comparison.png
+og_image: ../../assets/images/conventional_vs_quantum_fusion_comparison.png
 meta_title: >-
   Quantum-Coherent Nuclear Fusion in Superfluid Helium - Revolutionary Fusion
   Approach
@@ -72,7 +72,7 @@ schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
 schema_date_published: 2025-06-29T00:00:00.000Z
 schema_date_modified: 2025-06-29T00:00:00.000Z
-schema_image: /assets/images/superfluid-fusion-schema.png
+schema_image: ../../assets/images/conventional_vs_quantum_fusion_comparison.png
 schema_word_count: 4500
 schema_reading_time: PT45M
 canonical_url: 'https://fractalthoughtengine.com/scifi/2025/06/29/superfluid-fusion-proposal'

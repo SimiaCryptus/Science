@@ -41,7 +41,6 @@ excerpt: >-
   Decision Volume Theory proposes that subjective temporal experience is
   determined by the density and significance of cognitive decisions rather than
   chronological duration.
-featured_image: /assets/images/decision-volume-theory.png
 related_documents:
   - ./2025-07-03-cognitive-effort-paper.md
   - ./2025-07-03-conversation-intelligence-paper.md
@@ -60,7 +59,6 @@ schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
 schema_date_published: 2025-06-30T00:00:00.000Z
 schema_date_modified: 2025-06-30T00:00:00.000Z
-schema_image: /assets/images/decision-volume-theory.png
 schema_word_count: 2500
 schema_reading_time: PT25M
 robots: 'index,follow'

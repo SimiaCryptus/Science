@@ -48,8 +48,6 @@ excerpt: >-
   A visionary exploration of how quantum mechanics and neural network
   regularization share fundamental principles, proposing that studying dropout
   and decoherence together may illuminate both phenomena
-featured_image: /assets/images/quantum_dropout_vision.png
-og_image: /assets/images/quantum_dropout_vision_social.png
 is_featured: true
 is_cornerstone: false
 is_gateway: false

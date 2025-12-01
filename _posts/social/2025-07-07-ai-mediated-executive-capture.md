@@ -48,7 +48,6 @@ cognitive_load: "intense"
 # SEO and Discovery
 description: "A comprehensive research agenda exploring AI's psychological impact on corporate leadership decision-making"
 excerpt: "Investigating how AI validation may create systemic risks in executive decision-making processes"
-featured_image: "/assets/images/ai-corporate-psychology.png"
 
 # Research Metadata
 difficulty_level: "advanced"

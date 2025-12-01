@@ -38,8 +38,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "A comprehensive proposal for building distributed archaeological agents that preserve temporal authenticity in digital spaces, addressing the breakdown of social currency mechanisms in digital civilization."
 excerpt: "Proposes a distributed network of specialized archaeological agents that continuously collect, verify, and preserve cryptographic evidence of temporal ordering in digital artifacts, from code commits to political statements, rebuilding the temporal authenticity infrastructure needed for digital social currency."
-featured_image: "/assets/images/archaeological-agents-architecture.png"
-og_image: "/assets/images/archaeological-agents-social.png"
 meta_title: "Archaeological Agents: Distributed Temporal Authenticity Network for Digital Trust"
 
 meta_description: "Archaeological Agents proposal: distributed network for temporal authenticity verification in digital social currency systems, political accountability, and intellectual property precedence."

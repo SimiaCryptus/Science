@@ -48,8 +48,6 @@ excerpt: >-
   algorithms to automatically optimize prompts for Large Language Models,
   addressing the challenge of manual prompt engineering through systematic
   evolution of system prompts.
-featured_image: /assets/images/prompt-optimization-framework.png
-og_image: /assets/images/prompt-optimization-social.png
 meta_title: 'PromptOptimization: Genetic Algorithm Framework for LLM Prompt Engineering'
 meta_description: >-
   Automated prompt optimization framework using genetic algorithms for Large

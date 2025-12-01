@@ -35,8 +35,8 @@ cognitive_load: "moderate"
 # Discovery & SEO
 description: "A haunting creative narrative exploring themes of totalitarianism, consciousness, and transcendence through an allegorical tale."
 excerpt: "Pinkie Pie recounts the fall of Ponyville to an authoritarian regime and the transcendent transformation that follows, blending dark dystopian elements with philosophical reflection on consciousness and connection."
-featured_image: "/assets/images/pony_ghost_tale_featured.png"
-og_image: "/assets/images/pony_ghost_tale_social.png"
+featured_image: "../../assets/images/industrial_recycling_propaganda_poster.png"
+og_image: "/assets/../../assets/images/industrial_recycling_propaganda_poster.png"
 
 # SEO Meta Tags
 meta_title: "The Last Rainbow's Echo - Creative Dystopian Narrative"

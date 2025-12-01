@@ -51,8 +51,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "A novel computational architecture combining multi-agent substrate modification with cellular automata evolution to model neural development and create self-organizing computational networks."
 excerpt: "Binary Coded Layered Autonoma (BCLA) introduces a phenomenological model of neural membrane dynamics that combines growth cone agents with Conway's Game of Life to create self-assembling waveguide networks. This work demonstrates how simple binary-encoded rules can produce emergent computational capabilities paralleling biological neural networks."
-featured_image: "/assets/images/bcla-network-topology.png"
-og_image: "/assets/images/bcla-social-share.png"
 
 # SEO Meta Tags
 meta_title: "BCLA: Neural Membrane Dynamics and Self-Assembling Computational Networks"

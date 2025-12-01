@@ -81,7 +81,6 @@ excerpt: >-
   implementation. This proposal outlines a systematic method for compiling
   abstract ontological descriptions into executable code, simulations, and
   formal proofs.
-featured_image: /assets/images/ontological-compiler-architecture.png
 meta_description: >-
   Research proposal for Ontological Compiler Toolchain: systematic translation
   of abstract theories into executable computational forms through AI-assisted

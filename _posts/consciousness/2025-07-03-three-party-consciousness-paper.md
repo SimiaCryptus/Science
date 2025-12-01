@@ -56,7 +56,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "An exploration of emergent intelligence in human-AI creative collaboration, examining the 'third participant' phenomenon and the isolation of 'rogue planet' minds capable of deep collaborative creativity."
 excerpt: "While discussions of AI consciousness focus on individual systems, this paper examines emergent intelligence arising from human-AI collaboration itself—a 'third participant' that guides conversations toward insights neither party planned, revealing the rarity and isolation of minds capable of such deep creative partnership."
-featured_image: "/assets/images/consciousness_collaboration.png"
 
 # SEO Meta Tags
 meta_title: "The Third Participant: Emergent Intelligence in Human-AI Collaboration"

@@ -48,8 +48,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "A mathematical framework applying relativistic principles to moral philosophy, modeling ethical relationships as observer-dependent across capability gradients."
 excerpt: "Traditional ethical frameworks assume absolute moral reference frames. This paper develops Lorentzian Ethics—a geometric model where moral properties transform according to relativistic principles, applicable to AI-human interactions and beyond."
-featured_image: "/assets/images/lorentzian_ethics_featured.png"
-og_image: "/assets/images/lorentzian_ethics_social.png"
 
 # SEO Meta Tags
 meta_title: "Lorentzian Ethics: Observer-Dependent Moral Relationships in AI Systems"

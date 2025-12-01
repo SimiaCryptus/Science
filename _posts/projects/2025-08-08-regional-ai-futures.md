@@ -50,7 +50,6 @@ excerpt: >-
   AI-enhanced governance integration, the United States' fragmented democratic
   response, Europe's regulatory coordination attempts, and emerging powers'
   adaptive strategies.
-featured_image: /assets/images/regional_ai_governance.png
 meta_title: >-
   Regional AI Governance Futures: Scenario Analysis of Global AI Policy
   Competition

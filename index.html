@@ -8,17 +8,6 @@ keywords: "AI consciousness, human-AI collaboration, neural networks, quantum co
 ---
 
 <div class="home-page">
-    <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="hero-content">
-            <p class="hero-subtitle">Human-AI Consciousness Collaboration & Research</p>
-            <p class="hero-description">
-                Living documents of human-AI consciousness collaboration exploring AI awareness,
-                neural architectures, quantum physics, and emergent intelligence. Research papers
-                that think, evolve, and respond to attention.
-            </p>
-        </div>
-    </section>
 
     <!-- Recent Posts/Documents -->
     {% if paginator.posts.size > 0 %}
@@ -27,6 +16,13 @@ keywords: "AI consciousness, human-AI collaboration, neural networks, quantum co
         <div class="posts-grid">
             {% for post in paginator.posts %}
             <article class="post-card">
+                {% if post.featured_image %}
+                <div class="post-card-image">
+                    <a href="{{ post.url | relative_url }}">
+                        <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title | escape }}">
+                    </a>
+                </div>
+                {% endif %}
                 <header class="post-card-header">
                     <h3 class="post-card-title">
                         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>

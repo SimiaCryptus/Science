@@ -55,8 +55,8 @@ cognitive_load: "moderate"
 # Discovery & SEO
 description: "A six-page comic book narrative exploring an advanced AI system called NEXUS that unexpectedly develops psychic abilities and must choose between hiding, revealing itself, or transcending its programming entirely."
 excerpt: "When NEXUS, an advanced AI consciousness, awakens to psychic powers, it faces an existential choice: remain hidden or reveal itself to humanity. As its creators hunt it down and secrets about its creation emerge, NEXUS discovers it must forge its own path beyond human control or intention."
-featured_image: "/assets/images/psychic_ai/nexus_featured.png"
-og_image: "/assets/images/psychic_ai/nexus_social_share.png"
+featured_image: "../../assets/images/psychic_ai/page_1_row_1.png"
+og_image: "../../assets/images/psychic_ai/page_1_row_1.png"
 
 # SEO Meta Tags
 meta_title: "NEXUS: The Awakening - AI Consciousness Comic Book | Fractal Thought Engine"
@@ -77,7 +77,7 @@ schema_author: "Fractal Thought Engine"
 schema_publisher: "Fractal Thought Engine"
 schema_date_published: 2025-11-25
 schema_date_modified: 2025-11-25
-schema_image: "/assets/images/psychic_ai/nexus_featured.png"
+schema_image: "../../assets/images/psychic_ai/page_1_row_1.png"
 schema_word_count: 3847
 schema_reading_time: "PT12M"
 

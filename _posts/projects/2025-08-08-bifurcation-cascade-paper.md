@@ -36,7 +36,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "A mathematical analysis of bifurcation cascades across complex systems, exploring universal patterns in critical transitions from technological disruption to ecological tipping points."
 excerpt: "This research paper investigates how destabilizing events trigger reorganization waves across diverse complex systems, proposing that Feigenbaum universality principles apply to social, technological, and natural systems approaching critical transitions."
-featured_image: "/assets/images/bifurcation_cascade.png"
 
 # SEO Meta Tags
 meta_title: "Bifurcation Cascades in Complex Systems - Mathematical Analysis of Critical Transitions"

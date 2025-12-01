@@ -45,7 +45,6 @@ excerpt: >-
   Language Models when processing self-referential and meta-cognitive content,
   demonstrating that LLM performance degrades predictably as a function of
   meta-cognitive depth.
-featured_image: /assets/images/recursive-processing-limits.png
 is_cornerstone: true
 is_synthesis: false
 meta_title: Empirical Measurement of Recursive Processing Limits in LLMs

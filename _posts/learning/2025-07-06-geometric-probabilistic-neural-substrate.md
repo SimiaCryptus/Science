@@ -50,7 +50,6 @@ excerpt: >-
   We present a framework where neural network topology emerges from
   information-geometric constraints, unifying differential geometry, information
   theory, and probabilistic computation.
-featured_image: /assets/images/geometric_probabilistic_neural_substrate.png
 og_image: /assets/images/geometric_probabilistic_neural_substrate_social.png
 meta_title: >-
   Geometric Probabilistic Neural Substrates - Information Flow on Optimized

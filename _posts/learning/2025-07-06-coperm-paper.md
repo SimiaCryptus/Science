@@ -47,8 +47,6 @@ excerpt: >-
   Co-Inverse Permutation Modifiers (CIPMs) leverage inherent weight symmetries
   in neural networks to enable principled model compression and interpretability
   improvements without retraining
-featured_image: /assets/images/neural_networks.png
-og_image: /assets/images/coperm_social.png
 meta_title: 'CIPMs: Neural Network Weight Symmetries for Post-Training Optimization'
 meta_description: >-
   Novel framework exploiting permutation symmetries in neural networks for

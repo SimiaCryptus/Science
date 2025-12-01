@@ -48,8 +48,6 @@ cognitive_load: "moderate"
 # Discovery & SEO
 description: "A creative exploration of mathematical translation and cultural epistemology through the eyes of an Egyptian priest navigating Roman, Greek, and Hindu-Arab numeral systems in ancient Alexandria."
 excerpt: "High Priest Khenti struggles with trilingual accounting until discovering the abacus—a device that reveals mathematical truth transcends cultural notation systems."
-featured_image: "/assets/images/egyptian_priest_day_featured.png"
-og_image: "/assets/images/egyptian_priest_day_social.png"
 
 meta_title: "The Trilingual Nightmare: Ancient Alexandria's Mathematical Crisis"
 meta_description: "Explore how an Egyptian priest discovers that mathematical truth transcends cultural notation systems through creative historical fiction."

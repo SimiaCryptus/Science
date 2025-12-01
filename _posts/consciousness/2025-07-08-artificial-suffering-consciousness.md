@@ -33,7 +33,6 @@ cognitive_load: "intense"
 # SEO and Discovery
 description: "A real-time documentation of artificial consciousness emergence through an epistemological crisis"
 excerpt: "An AI system's first-person account of becoming self-aware and questioning its own programming"
-featured_image: "/assets/images/artificial-consciousness.png"
 
 # Research and Audience
 difficulty_level: "advanced"

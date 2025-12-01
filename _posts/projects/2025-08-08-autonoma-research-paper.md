@@ -54,7 +54,6 @@ excerpt: >-
   computational model where autonomous agents representing growth cones
   establish pathways for electrical activity propagation, creating emergent
   neural-like networks with multi-timescale dynamics.
-featured_image: /assets/images/bcla_network_formation.png
 meta_title: >-
   BCLA: Neural-Inspired Self-Organizing Computational Networks | Fractal Thought
   Engine

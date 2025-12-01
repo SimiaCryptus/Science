@@ -77,9 +77,16 @@ layout: default
         {% if category_docs and category_docs.size > 0 %}
 
         <h2>Documents in {{ page.title }} ({{ category_docs.size }})</h2>
-        <div class="posts-grid">
+<div class="posts-grid">
             {% for doc in category_docs %}
             <article class="post-card document-card swipeable">
+                {% if doc.featured_image %}
+                <div class="post-card-image">
+                    <a href="{{ doc.url | relative_url }}">
+                        <img src="{{ doc.featured_image | relative_url }}" alt="{{ doc.title | escape }}">
+                    </a>
+                </div>
+                {% endif %}
                 <header class="post-card-header">
                     <h3 class="post-card-title">
                         <a class="touch-target" href="{{ doc.url | relative_url }}">{{ doc.title }}</a>

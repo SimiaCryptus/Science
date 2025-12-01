@@ -50,7 +50,6 @@ excerpt: >-
   distributed systems theory, modeling societies as cognitive networks facing
   temporal coherence challenges analogous to gravitational, neural, and
   computational systems.
-featured_image: /assets/images/temporal-social-networks.png
 meta_title: >-
   Temporal Social Dynamics: Computational Framework for Distributed Cognitive
   Coherence

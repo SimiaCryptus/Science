@@ -55,6 +55,13 @@ meta_description: "Browse all content categories on Fractal Thought Engine, orga
             <div class="posts-grid">
             {% for post in subcategory.items %}
             <article class="post-card">
+                {% if post.featured_image %}
+                <div class="post-card-image">
+                    <a href="{{ post.url | relative_url }}">
+                        <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title | escape }}">
+                    </a>
+                </div>
+                {% endif %}
                 <div class="post-card-content">
                     <h3 class="post-title">
                         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>

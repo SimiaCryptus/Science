@@ -50,8 +50,6 @@ excerpt: >-
   substrate modification using Planck-energy photons, opening pathways to
   artificial gravity generation, faster-than-light communication, and multiverse
   routing networks.
-featured_image: /assets/images/quantum-substrate-manipulation.png
-og_image: /assets/images/multiverse-router-social.png
 meta_description: >-
   Theoretical physics paper exploring quantum substrate manipulation for
   superluminal communication and multiverse access via high-energy photon

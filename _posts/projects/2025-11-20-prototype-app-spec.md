@@ -47,8 +47,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "Prototype application specification for DAG-based patch analysis tool that auto-regresses Git commits into semantic operation graphs"
 excerpt: "A comprehensive specification for a web application that ingests Git commits and factors them into DAG-based patch representations with interactive visualization and analysis capabilities"
-featured_image: "/assets/images/dag-patch-analyzer.png"
-og_image: "/assets/images/dag-patch-analyzer-social.png"
 
 # SEO Meta Tags
 meta_title: "DAG Patch Analyzer - Git Commit Factorization Tool Specification"

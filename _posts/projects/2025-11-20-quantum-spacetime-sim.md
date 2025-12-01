@@ -58,8 +58,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "Comprehensive technical framework for simulating multiply-connected spacetime manifolds with polyhedral topology, quantum field eigenmodes, and cosmic mirage analysis to quantify size distortion effects in small universe models."
 excerpt: "This project implements a computational framework for simulating static spacetime manifolds with non-trivial topology, performing topological surgery operations to create bound continuous spacetimes, optimizing energy field configurations, and rendering results using geodesic raytracing. The system systematically explores polyhedral reconnection patterns to quantify how topological illusions cause overcounting of the universe's true size."
-featured_image: "/assets/images/quantum_spacetime_sim_featured.png"
-og_image: "/assets/images/quantum_spacetime_sim_social.png"
 
 # SEO Meta Tags
 meta_title: "Quantum Spacetime Simulation: Multiply-Connected Universe Framework"

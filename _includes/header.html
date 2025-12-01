@@ -209,30 +209,47 @@
         }
       };
     }
-    // Generate random coefficients for Random Mix theme
+// Generate random coefficients for Random Mix theme
     generateRandomCoefficients() {
-      const randomCoef = () => (Math.random() * 2 - 1); // -1 to 1
+      const randRange = (min, max) => Math.random() * (max - min) + min;
       const randomArchParam = (min, max) => Math.random() * (max - min) + min;
-      
-      const generateCoefficients = () => ({
-        primary: { r: randomCoef(), g: randomCoef(), b: randomCoef() },
-        secondary: { r: randomCoef(), g: randomCoef(), b: randomCoef() },
-        tertiary: { r: randomCoef(), g: randomCoef(), b: randomCoef() },
-        error: { r: randomCoef() * 0.5 + 0.5, g: randomCoef() * 0.5 - 0.5, b: randomCoef() * 0.5 - 0.5 }, // Tend towards red
-        warning: { r: randomCoef() * 0.5 + 0.5, g: randomCoef() * 0.5, b: randomCoef() * 0.5 - 0.5 }, // Tend towards orange
-        info: { r: randomCoef() * 0.5 - 0.5, g: randomCoef() * 0.5, b: randomCoef() * 0.5 + 0.5 }, // Tend towards blue
-        bgPrimary: { r: randomCoef() * 0.3, g: randomCoef() * 0.3, b: randomCoef() * 0.3 }, // Keep backgrounds subtle
-        bgSecondary: { r: randomCoef() * 0.2, g: randomCoef() * 0.2, b: randomCoef() * 0.2 },
-        bgAccent: { r: randomCoef() * 0.25, g: randomCoef() * 0.25, b: randomCoef() * 0.25 },
-        // Architecture parameters
-        glowIntensity: randomArchParam(0.2, 2.0),
-        animationSpeed: randomArchParam(0.5, 2.0),
-        glitchIntensity: Math.floor(randomArchParam(0, 4)),
-        borderWidth: Math.floor(randomArchParam(1, 3)),
-        borderRadius: Math.floor(randomArchParam(0, 10)),
-        containerWidth: Math.floor(randomArchParam(750, 900)),
-        spacingUnit: Math.floor(randomArchParam(16, 26))
-      });
+
+      const generateCoefficients = () => {
+        const isDark = Math.random() > 0.5;
+        let bgBase, textBase;
+        
+        if (isDark) {
+          // Dark background: coefs -1.9 to -1.5 (Base 240 -> ~0 to ~50)
+          bgBase = () => randRange(-1.9, -1.5);
+          // Light text: coefs 0.5 to 1.0 (Base 128 -> ~190 to ~255)
+          textBase = () => randRange(0.5, 1.0);
+        } else {
+          // Light background: coefs -0.2 to 0.1 (Base 240 -> ~215 to ~255)
+          bgBase = () => randRange(-0.2, 0.1);
+          // Dark text: coefs -1.0 to -0.5 (Base 128 -> ~0 to ~65)
+          textBase = () => randRange(-1.0, -0.5);
+        }
+
+        return {
+          primary: { r: textBase(), g: textBase(), b: textBase() },
+          secondary: { r: textBase(), g: textBase(), b: textBase() },
+          tertiary: { r: textBase(), g: textBase(), b: textBase() },
+          error: { r: randRange(0.5, 1.0), g: randRange(-1.0, -0.5), b: randRange(-1.0, -0.5) },
+          warning: { r: randRange(0.5, 1.0), g: randRange(0.0, 0.5), b: randRange(-1.0, -0.5) },
+          info: { r: randRange(-1.0, -0.5), g: randRange(0.0, 0.5), b: randRange(0.5, 1.0) },
+          bgPrimary: { r: bgBase(), g: bgBase(), b: bgBase() },
+          bgSecondary: { r: bgBase() + (isDark ? 0.1 : -0.1), g: bgBase() + (isDark ? 0.1 : -0.1), b: bgBase() + (isDark ? 0.1 : -0.1) },
+          bgAccent: { r: bgBase() + (isDark ? 0.2 : -0.2), g: bgBase() + (isDark ? 0.2 : -0.2), b: bgBase() + (isDark ? 0.2 : -0.2) },
+          // Architecture parameters
+          glowIntensity: randomArchParam(0.2, 2.0),
+          animationSpeed: randomArchParam(0.5, 2.0),
+          glitchIntensity: Math.floor(randomArchParam(0, 4)),
+          borderWidth: Math.floor(randomArchParam(1, 3)),
+          borderRadius: Math.floor(randomArchParam(0, 10)),
+          containerWidth: Math.floor(randomArchParam(750, 900)),
+          spacingUnit: Math.floor(randomArchParam(16, 26))
+        };
+      };
       
       // Generate coefficients and check contrast
       let attempts = 0;
@@ -304,8 +321,8 @@
       const primarySecondaryContrast = getContrastRatio(colors.primary, colors.bgSecondary);
       
       // WCAG AA standard requires 4.5:1 for normal text, 3:1 for large text
-      // We'll use 3.5:1 as a reasonable middle ground for our cyberpunk theme
-      const minContrast = 3.5;
+      // We'll use 4.5:1 to ensure readability
+      const minContrast = 4.5;
       
       return (
         primaryBgContrast >= minContrast &&
@@ -317,20 +334,10 @@
     
     // Generate safe random coefficients as fallback
     getSafeRandomCoefficients() {
-      const randomCoef = () => (Math.random() * 2 - 1);
+      const randRange = (min, max) => Math.random() * (max - min) + min;
       const randomArchParam = (min, max) => Math.random() * (max - min) + min;
       
-      // Use more conservative ranges to ensure contrast
       return {
-        primary: { r: randomCoef() * 0.8, g: randomCoef() * 0.8, b: randomCoef() * 0.8 + 0.2 }, // Bias towards lighter
-        secondary: { r: randomCoef() * 0.8 + 0.2, g: randomCoef() * 0.8, b: randomCoef() * 0.8 }, // Different bias
-        tertiary: { r: randomCoef() * 0.6 + 0.4, g: randomCoef() * 0.6 + 0.4, b: randomCoef() * 0.6 + 0.4 }, // Ensure lightness
-        error: { r: 0.8, g: -0.6, b: -0.6 }, // Safe red
-        warning: { r: 0.8, g: 0.2, b: -0.8 }, // Safe orange
-        info: { r: -0.6, g: -0.2, b: 0.8 }, // Safe blue
-        bgPrimary: { r: randomCoef() * 0.4 - 0.6, g: randomCoef() * 0.4 - 0.6, b: randomCoef() * 0.4 - 0.6 }, // Ensure darkness
-        bgSecondary: { r: randomCoef() * 0.3 - 0.5, g: randomCoef() * 0.3 - 0.5, b: randomCoef() * 0.3 - 0.5 }, // Darker
-        bgAccent: { r: randomCoef() * 0.35 - 0.45, g: randomCoef() * 0.35 - 0.45, b: randomCoef() * 0.35 - 0.45 }, // Medium dark
         // Architecture parameters
         glowIntensity: randomArchParam(0.2, 2.0),
         animationSpeed: randomArchParam(0.5, 2.0),

@@ -33,7 +33,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "A novel mathematical framework introducing spiral numbers (ℍ) that represent positions on logarithmic spirals, with unique arithmetic operations and geometric properties."
 excerpt: "The Spiral Number System introduces a new mathematical field where numbers exist on infinite logarithmic spirals, enabling natural representation of exponential growth and rotational phenomena through exotic arithmetic operations."
-featured_image: "/assets/images/spiral_number_system.png"
 
 # SEO Meta Tags
 meta_title: "The Spiral Number System: A Novel Mathematical Framework"

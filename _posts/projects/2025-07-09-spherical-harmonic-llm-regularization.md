@@ -32,7 +32,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "A novel regularization framework for large language models using spherical harmonic decomposition to control semantic frequencies and enable principled hallucination suppression."
 excerpt: "We introduce spherical harmonic regularization for LLMs, leveraging hyperspherical geometry to decompose embeddings into semantic frequencies. This enables controllable reasoning depth, interpretable attention mechanisms, and principled hallucination reduction through geometric constraints."
-featured_image: "/assets/images/spherical_harmonics_llm.png"
 
 # SEO Meta Tags
 meta_title: "Spherical Harmonic Regularization for LLMs: Geometric Control of Semantic Processing"

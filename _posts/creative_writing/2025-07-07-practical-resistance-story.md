@@ -68,7 +68,6 @@ excerpt: >-
   build better systems from the ground up. A story of practical resistance
   through distributed competence, municipal independence, and community
   resilience.
-featured_image: /assets/images/distributed_response.png
 meta_title: 'The Distributed Response: Practical Resistance Through Community Resilience'
 meta_description: >-
   A speculative fiction story exploring how communities build practical

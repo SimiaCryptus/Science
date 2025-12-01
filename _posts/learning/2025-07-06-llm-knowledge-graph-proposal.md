@@ -73,8 +73,6 @@ is_featured: true
 is_cornerstone: false
 is_gateway: false
 is_synthesis: true
-featured_image: "/assets/images/mamba_knowledge_graph.png"
-og_image: "/assets/images/mamba_knowledge_graph_social.png"
 
 # Open Graph
 

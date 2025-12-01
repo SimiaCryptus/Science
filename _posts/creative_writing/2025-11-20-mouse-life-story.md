@@ -35,8 +35,8 @@ cognitive_load: "moderate"
 # Discovery & SEO
 description: "A first-person narrative following the life of a genetically engineered mouse designed for waste processing, exploring themes of consciousness, violence, and the ethics of biological engineering."
 excerpt: "From sterile laboratory birth to breeding facility philosopher: the intimate account of a creature engineered to solve humanity's waste problem while developing unexpected consciousness and moral complexity."
-featured_image: "/assets/images/mouse_life_story_featured.png"
-og_image: "/assets/images/mouse_life_story_social.png"
+featured_image: "../../assets/images/caste_hierarchy_illustration.png"
+og_image: "/../../assets/images/caste_hierarchy_illustration.png"
 
 # SEO Meta Tags
 meta_title: "The Life of a Genetically Engineered Waste Processing Organism - First-Person Account"
@@ -57,7 +57,7 @@ schema_author: "Processing Unit WPM-7742 (Translated by Dr. Sarah Chen)"
 schema_publisher: "Fractal Thought Engine"
 schema_date_published: 2024-01-15
 schema_date_modified: 2024-01-15
-schema_image: "/assets/images/mouse_life_story_featured.png"
+schema_image: "/../../assets/images/caste_hierarchy_illustration.png"
 schema_word_count: 4850
 schema_reading_time: "PT18M"
 

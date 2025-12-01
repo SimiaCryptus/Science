@@ -84,7 +84,6 @@ excerpt: >-
   evolutionary psychology and systems dynamics, with case studies from Nazi
   Germany to contemporary examples.
 research_domain: social_systems_dynamics
-featured_image: /assets/images/institutional-decay.png
 meta_title: 'The Psychopath Feedback Loop: Understanding Institutional Collapse'
 meta_description: >-
   Comprehensive analysis of how institutions collapse from within through

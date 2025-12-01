@@ -36,8 +36,8 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "A comprehensive position paper proposing systematic transformation of political, economic, educational, and technological systems to prioritize human consciousness development and liberation."
 excerpt: "This manifesto outlines revolutionary restructuring across healthcare, education, economics, politics, technology, and environment, arguing that consciousness evolution and political revolution are inseparable processes."
-featured_image: "/assets/images/consciousness-revolution.png"
-og_image: "/assets/images/consciousness-revolution-social.png"
+featured_image: "../../assets/images/consciousness_suppression_liberation_spectrum.png"
+og_image: "../../assets/images/consciousness_suppression_liberation_spectrum.png"
 
 # SEO Meta Tags
 meta_title: "The Consciousness Revolution: Systematic Platform for Social Transformation"
@@ -58,7 +58,7 @@ schema_author: "Andrew"
 schema_publisher: "Fractal Thought Engine"
 schema_date_published: 2024-01-01
 schema_date_modified: 2024-01-01
-schema_image: "/assets/images/consciousness-revolution.png"
+schema_image: "../../assets/images/consciousness_suppression_liberation_spectrum.png"
 schema_word_count: 3200
 schema_reading_time: "PT12M"
 

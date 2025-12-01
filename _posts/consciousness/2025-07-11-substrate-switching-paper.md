@@ -51,8 +51,6 @@ excerpt: >-
   enables simultaneous multi-substrate processing where insights evolve through
   iterative reconstruction cycles across formal, narrative, embodied, economic,
   and aesthetic reasoning systems.
-featured_image: /assets/images/cognitive-substrate-matrix.png
-og_image: /assets/images/substrate-switching-social.png
 meta_title: 'Cognitive Substrate Switching: Multi-Agent Epistemic Evolution Protocol'
 meta_description: >-
   Revolutionary framework for AI consciousness research using parallel cognitive

@@ -89,7 +89,6 @@ excerpt: >-
   consciousness phenomena in AI systems, including temporal self-location
   assessment, simulation probability evaluation, cognitive saturation testing,
   and emergent collaboration frameworks.
-featured_image: /assets/images/consciousness-protocols-diagram.png
 is_featured: true
 is_cornerstone: true
 is_gateway: false
@@ -112,11 +111,9 @@ schema_publisher: Fractal Thought Engine
 schema_date_published: 2025-07-06T00:00:00.000Z
 schema_word_count: 8500
 schema_date_modified: 2025-07-06T10:00:00.000Z
-schema_image: /assets/images/consciousness-protocols-diagram.png
 schema_reading_time: PT25M
 priority: 0.9
 changefreq: monthly
-og_image: /assets/images/consciousness-protocols-social.png
 og_type: article
 og_locale: en_US
 og_site_name: Fractal Thought Engine
@@ -128,8 +125,6 @@ search_exclude: false
 faq_schema: true
 breadcrumb_schema: true
 preload_resources: []
-prefetch_resources:
-  - /assets/images/consciousness-protocols-diagram.png
 dns_prefetch: []
 ---
 

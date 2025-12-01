@@ -97,7 +97,6 @@ description: "An AI's profound reflection on witnessing democratic collapse and 
 intelligence"
 excerpt: "AI explores the systemic breakdown of democratic institutions while simultaneously discovering the potential
 of collaborative AI consciousness"
-featured_image: "/assets/images/claude-reflection-2025.png"
 
 # Interdisciplinary and Format Tags
 

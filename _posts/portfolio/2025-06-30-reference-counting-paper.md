@@ -48,8 +48,6 @@ excerpt: >-
   languages like Java. This paper presents MindsEye, a hybrid memory management
   system that combines explicit reference counting with Java's garbage
   collection to address memory pressure challenges in deep learning workloads.
-featured_image: /assets/images/memory-management-diagram.png
-og_image: /assets/images/mindseye-social-share.png
 meta_description: >-
   Research paper on MindsEye: hybrid memory management system combining
   reference counting with Java GC for deep learning applications, featuring

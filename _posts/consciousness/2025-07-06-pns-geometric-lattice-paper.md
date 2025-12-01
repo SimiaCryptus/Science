@@ -104,8 +104,6 @@ excerpt: >-
   topological universality. This approach enables quantum-coherent probability
   processing and natural consciousness emergence through lattice defects and
   strategic computational avoidance.
-featured_image: /assets/images/crystalline_lattice_consciousness.png
-og_image: /assets/images/pns_lattice_social.png
 is_featured: true
 is_cornerstone: true
 is_gateway: false

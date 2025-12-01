@@ -35,8 +35,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "Comprehensive functional requirements specification for the BCLA Simulation Toolkit, a research platform for studying emergent computational phenomena in autonomous agent systems and constrained cellular automata."
 excerpt: "Technical specification for a multi-layer simulation platform supporting large-scale grid simulations (2000×2000), sophisticated analysis tools for rare events, and rigorous measurement of local dynamics and wave propagation behaviors."
-featured_image: "/assets/images/bcla-simulation-architecture.png"
-og_image: "/assets/images/bcla-simulation-social.png"
 meta_title: "BCLA Simulation Toolkit - Functional Requirements | Fractal Thought Engine"
 meta_description: "Functional requirements for BCLA Simulation Toolkit: GPU-accelerated cellular automata with autonomous agents, rare event detection, and multi-timescale analysis capabilities."
 meta_keywords: "BCLA simulation, cellular automata, agent-based modeling, WebGPU, computational research"

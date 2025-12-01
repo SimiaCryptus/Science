@@ -33,7 +33,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "A novel method for validating AI conceptual knowledge through multi-agent Socratic dialogue and statistical analysis of reconstruction attempts."
 excerpt: "We present Socratic Reconstruction, a framework using three AI agents in iterative dialogue to validate knowledge transferability. Through statistical analysis of multiple reconstruction attempts, we distinguish genuine understanding from pattern matching, with applications to optimization algorithms and AI safety."
-featured_image: "/assets/images/socratic-reconstruction.png"
 
 # SEO Meta Tags
 meta_title: "Socratic Reconstruction: AI Knowledge Validation Through Multi-Agent Dialogue"

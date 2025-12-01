@@ -50,8 +50,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "Comprehensive technical specification for WPM-1, a genetically engineered mouse designed for integrated waste management, pest control, and agricultural product generation through synthetic biology."
 excerpt: "A detailed technical specification of a bioengineered mouse organism combining digestive capabilities from ruminants, termites, bats, and vultures to process organic waste, degrade plastics, and produce valuable bio-fertilizer and protein."
-featured_image: "/assets/images/bioengineered-mouse-specs.png"
-og_image: "/assets/images/bioengineered-mouse-specs-social.png"
 
 # SEO Meta Tags
 meta_title: "WPM-1 Bioengineered Mouse Technical Specification | Waste Processing Innovation"

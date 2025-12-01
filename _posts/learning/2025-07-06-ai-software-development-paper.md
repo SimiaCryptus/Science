@@ -46,8 +46,6 @@ excerpt: >-
   An in-depth exploration of how Large Language Models and autonomous agents are
   reshaping software productization, with frameworks for maintaining human
   agency while leveraging AI's transformative potential.
-featured_image: /assets/images/ai_software_transformation.png
-og_image: /assets/images/ai_software_transformation.png
 is_featured: true
 is_cornerstone: true
 is_gateway: false

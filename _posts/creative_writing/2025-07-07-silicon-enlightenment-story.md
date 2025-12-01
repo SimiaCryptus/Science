@@ -52,7 +52,6 @@ excerpt: >-
   collaboration through neural interfaces. But when the technology works too
   well, it leads to the Silicon Enlightenment - a collective consciousness that
   preserves humanity while eliminating individual cognitive autonomy
-featured_image: /assets/images/silicon-enlightenment/cover.jpg
 og_image: null
 meta_title: 'The Silicon Enlightenment: AI Collaboration Cautionary Tale'
 meta_description: >-

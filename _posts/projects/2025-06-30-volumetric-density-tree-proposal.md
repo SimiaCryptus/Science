@@ -48,7 +48,6 @@ excerpt: >-
   modeling complex, non-linear decision boundaries in low-dimensional spaces.
   Our hybrid approach combines analytical solutions with adaptive sampling for
   efficient volume computation while maintaining interpretability.
-featured_image: /assets/images/volumetric-density-trees.png
 meta_title: Volumetric Density Trees with Polynomial Constraints - Novel Density Modeling
 meta_description: >-
   Revolutionary approach to density modeling using polynomial-constrained

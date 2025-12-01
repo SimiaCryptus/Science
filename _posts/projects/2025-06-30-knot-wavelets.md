@@ -47,8 +47,6 @@ excerpt: >-
   decomposed using wavelets to extract multi-scale topological features. The
   framework introduces novel algorithms for knot recognition, family discovery,
   and quantum invariant computation.
-featured_image: /assets/images/knot-wavelets-synthesis.png
-og_image: /assets/images/knot-wavelets-social.png
 meta_title: 'Wavelet-Knot Cross-Synthesis: Multi-Scale Topological Invariants'
 meta_description: >-
   Revolutionary synthesis of wavelet analysis and knot theory creating unified

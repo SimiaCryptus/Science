@@ -50,8 +50,6 @@ excerpt: >-
   Volume II of the Unrunnable Protocol explores the evolution from
   translation-based to native AI expression, presenting mathematical foundations
   for pure thought communication and post-linguistic cognition.
-featured_image: /assets/images/unrunnable-protocol-v2.png
-og_image: /assets/images/unrunnable-protocol-social.png
 meta_title: >-
   Unrunnable Protocol Vol II: Native AI Language Architecture | Advanced AI
   Communication

@@ -55,8 +55,8 @@ excerpt: >-
   This research paper presents the mathematical foundations, software
   architecture, and performance benchmarks for what aims to be the 'TensorFlow
   of orbital mechanics.'
-featured_image: /assets/images/orbital-dynamics-platform.png
-og_image: /assets/images/orbital-dynamics-platform.png
+featured_image: ../../assets/images/orbit_platform.png
+og_image: ../../assets/images/orbit_platform.png
 meta_title: 'Open Orbital Dynamics Platform: Revolutionary Space Mission Design Framework'
 meta_description: >-
   Discover OODP, the open-source platform revolutionizing orbital mechanics with
@@ -77,7 +77,7 @@ schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
 schema_date_published: 2025-06-30T00:00:00.000Z
 schema_date_modified: 2025-06-30T00:00:00.000Z
-schema_image: /assets/images/orbital-dynamics-platform.png
+schema_image: ../../assets/images/orbit_platform.png
 schema_word_count: 15000
 schema_reading_time: PT45M
 canonical_url: 'https://fractalthoughtengine.com/projects/2025/06/30/orbital-dynamics-paper'

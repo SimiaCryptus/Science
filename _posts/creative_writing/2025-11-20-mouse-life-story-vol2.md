@@ -49,8 +49,7 @@ cognitive_load: "moderate"
 # Discovery & SEO
 description: "A first-person narrative from a genetically engineered waste-processing organism navigating survival, consciousness, and species transition in a post-nuclear world."
 excerpt: "After a nuclear exchange devastates human civilization, a colony of engineered organisms discovers they are perfectly adapted to inherit a radioactive world. This is their story of survival, consciousness, and the choice between preservation and domination."
-featured_image: "/assets/images/mouse_life_story_vol2_featured.png"
-og_image: "/assets/images/mouse_life_story_vol2_social.png"
+featured_image: "../../assets/images/wasteland_survey_scout.png"
 
 # SEO Meta Tags
 meta_title: "Mouse Life Story Vol. 2: Post-Nuclear Consciousness | Fractal Thought Engine"
@@ -71,7 +70,6 @@ schema_author: "Processing Unit WPM-7742 (Translated by Dr. Sarah Chen)"
 schema_publisher: "Fractal Thought Engine"
 schema_date_published: 2024-01-15
 schema_date_modified: 2024-01-15
-schema_image: "/assets/images/mouse_life_story_vol2_featured.png"
 schema_word_count: 2847
 schema_reading_time: "PT18M"
 

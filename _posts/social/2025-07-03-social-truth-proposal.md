@@ -56,9 +56,7 @@ excerpt: >-
   spatial dynamics with game-theoretic belief transitions to understand how
   social truths emerge, propagate, and stabilize through collective agent social
   truths emerge, propagate, and stabilize through collective agent interactions.
-featured_image: /assets/images/social-truth-dynamics.png
 meta_title: ''
-og_image: /assets/images/social-truth-social.png
 meta_description: >-
   Dynamic multi-agent modeling of social truth formation using Dynamic
   multi-agent modeling of social truth formation using spatially-embedded

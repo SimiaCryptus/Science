@@ -31,7 +31,6 @@ cognitive_load: "light"
 # Discovery & SEO
 description: "A humorous exploration of bizarre animal behaviors that scientists still can't explain, from democratic sneezing wild dogs to circle-forming sheep."
 excerpt: "African wild dogs vote by sneezing, sheep form perfect circles for unknown reasons, and octopuses throw things at each other like underwater jerks. A dive into the weirdest unexplained animal behaviors that make humans look normal."
-featured_image: "/assets/images/animal-weirdness.png"
 
 # SEO Meta Tags
 meta_title: "Weird Animal Behaviors Scientists Can't Explain | Democratic Sneezing & More"

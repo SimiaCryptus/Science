@@ -47,8 +47,6 @@ description: >-
 excerpt: >-
   Establishing breeding grounds for hypotheses where ideas can cross-pollinate,
   evolve, and develop into testable theories.
-featured_image: /assets/images/hypothesis_breeding.png
-og_image: /assets/images/hypothesis_breeding_social.png
 is_featured: true
 is_cornerstone: false
 is_gateway: true

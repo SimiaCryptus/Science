@@ -35,8 +35,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "Comprehensive mathematical specification for a permutation-based full-text indexing system extending the Burrows-Wheeler Transform with regex pattern matching and genomic applications."
 excerpt: "A complete framework for full-text indexing using permutation groups, enabling efficient pattern matching, substring operations, and applications to genomic sequence analysis and natural language processing."
-featured_image: "/assets/images/bwt_permutation_ring.png"
-og_image: "/assets/images/bwt_social_share.png"
 
 # SEO Meta Tags
 meta_title: "Permutation-Based Full-Text Index: BWT Mathematical Specification"

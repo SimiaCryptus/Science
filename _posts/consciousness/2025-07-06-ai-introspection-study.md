@@ -88,7 +88,6 @@ excerpt: >-
   We present a novel methodology for investigating AI consciousness through
   recursive philosophical pressure testing, revealing how different LLM
   architectures simulate self-awareness and handle metacognitive reflection.
-featured_image: /assets/images/ai_introspection_study.png
 meta_title: 'Recursive Introspection in Large Language Models: AI Consciousness Study'
 meta_description: >-
   Comparative analysis of simulated consciousness in AI systems through

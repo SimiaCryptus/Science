@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circuit Designer Prototype</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        h1 { margin-bottom: 10px; }
+        p { margin-bottom: 20px; color: #666; }
+        
+        .container {
+            display: flex;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .panel {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .panel-header {
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        textarea {
+            width: 100%;
+            height: 500px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 14px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+            box-sizing: border-box;
+            background-color: #fafafa;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #2c3e50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.2s;
+        }
+        button:hover { background-color: #34495e; }
+
+        .canvas-container {
+            flex: 2;
+            background-color: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        canvas {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Circuit Designer: CIR-JSON Visualization</h1>
+    <p>This prototype demonstrates the "Compiler B" pipeline: converting the LLM-generated Intermediate Representation (CIR-JSON) into a visual schematic using <code>schematic.js</code>.</p>
+
+    <div class="container">
+        <!-- Left Panel: JSON Editor -->
+        <div class="panel">
+            <div class="panel-header">
+                <span>CIR-JSON Definition</span>
+            </div>
+            <textarea id="cir-input" spellcheck="false">
+{
+  "meta": {
+    "title": "RC Low Pass Filter",
+    "description": "Simple passive filter visualization"
+  },
+  "components": [
+    {
+      "type": "TERMINAL",
+      "id": "IN",
+      "label": "Vin",
+      "layout": { "x": 2, "y": 5 }
+    },
+    {
+      "type": "RESISTOR",
+      "id": "R1",
+      "layout": { "x": 6, "y": 5, "rotation": 0 }
+    },
+    {
+      "type": "CAPACITOR",
+      "id": "C1",
+      "layout": { "x": 10, "y": 8, "rotation": 90 }
+    },
+    {
+      "type": "TERMINAL",
+      "id": "OUT",
+      "label": "Vout",
+      "layout": { "x": 14, "y": 5 }
+    },
+    {
+      "type": "GND",
+      "id": "GND1",
+      "layout": { "x": 10, "y": 11 }
+    }
+  ],
+  "wires": [
+    { "points": [[2, 5], [4.5, 5]] },
+    { "points": [[7.5, 5], [10, 5]] },
+    { "points": [[10, 5], [14, 5]] },
+    { "points": [[10, 5], [10, 6.5]] },
+    { "points": [[10, 9.5], [10, 11]] }
+  ]
+}
+            </textarea>
+            <button onclick="renderCircuit()">Update Schematic</button>
+        </div>
+
+        <!-- Right Panel: Canvas -->
+        <div class="canvas-container">
+            <canvas id="schematicCanvas" width="800" height="600"></canvas>
+        </div>
+    </div>
+
+    <script type="module">
+        import { Circuit } from 'https://cdn.jsdelivr.net/npm/@tscircuit/core@0.0.891/dist/index.min.js';
+
+        const canvas = document.getElementById('schematicCanvas');
+        const context = canvas.getContext('2d');
+        
+        // Configuration for schematic.js
+        // We use a scale of 30 pixels per grid unit
+        const settings = {
+            context: context,
+            scale: 30,
+            width: canvas.width / 30,
+            height: canvas.height / 30,
+            labelStyle: "14px Monospace"
+        };
+
+        window.renderCircuit = function() {
+            // 1. Reset Canvas
+            context.clearRect(0, 0, canvas.width, canvas.height);
+            context.save();
+            
+            // 2. Draw Background Grid
+            drawGrid(settings);
+
+            // 3. Parse Input
+            let cir;
+            try {
+                cir = JSON.parse(document.getElementById('cir-input').value);
+            } catch (e) {
+                alert("JSON Syntax Error: " + e.message);
+                return;
+            }
+
+            // 4. Create tscircuit Circuit
+            const circuit = new Circuit();
+
+            // 5. Add Components
+            if (cir.components) {
+                cir.components.forEach(comp => {
+                    const l = comp.layout;
+                    
+                    if (comp.type === 'RESISTOR') {
+                        circuit.add('resistor', {
+                            name: comp.id,
+                            resistance: '1k',
+                            schematic_options: { cx: l.x, cy: l.y, rotation: l.rotation || 0 }
+                        });
+                    } else if (comp.type === 'CAPACITOR') {
+                        circuit.add('capacitor', {
+                            name: comp.id,
+                            capacitance: '1uF',
+                            schematic_options: { cx: l.x, cy: l.y, rotation: l.rotation || 0 }
+                        });
+                    } else if (comp.type === 'GND') {
+                        circuit.add('ground', {
+                            name: comp.id,
+                            schematic_options: { cx: l.x, cy: l.y }
+                        });
+                    } else if (comp.type === 'TERMINAL') {
+                        circuit.add('port', {
+                            name: comp.id,
+                            schematic_options: { cx: l.x, cy: l.y }
+                        });
+                    }
+                });
+            }
+
+            // 6. Add Wires (Traces)
+            if (cir.wires) {
+                cir.wires.forEach(wire => {
+                    
+                    const points = wire.points.map(p => ({ x: p[0], y: p[1] }));
+                    circuit.add('trace', {
+                        schematic_route_hints: points
+                    });
+                });
+            }
+
+            // 7. Render Soup
+            const soup = circuit.getCircuitJson();
+            renderSoup(soup, settings);
+            
+            context.restore();
+        }
+        function drawGrid(s) {
+            const ctx = s.context;
+            ctx.strokeStyle = "#f0f0f0";
+            ctx.lineWidth = 1;
+            ctx.beginPath();
+            for (let x = 0; x <= s.width; x++) {
+                ctx.moveTo(x * s.scale, 0);
+                ctx.lineTo(x * s.scale, s.height * s.scale);
+            }
+            for (let y = 0; y <= s.height; y++) {
+                ctx.moveTo(0, y * s.scale);
+                ctx.lineTo(s.width * s.scale, y * s.scale);
+            }
+            ctx.stroke();
+        }
+        function renderSoup(soup, s) {
+            const ctx = s.context;
+            // Draw Traces
+            soup.filter(i => i.type === 'schematic_trace').forEach(trace => {
+                ctx.strokeStyle = "#2c3e50";
+                ctx.lineWidth = 2;
+                ctx.beginPath();
+                trace.edges.forEach(edge => {
+                    ctx.moveTo(edge.from.x * s.scale, edge.from.y * s.scale);
+                    ctx.lineTo(edge.to.x * s.scale, edge.to.y * s.scale);
+                });
+                ctx.stroke();
+            });
+            // Draw Components
+            soup.filter(i => i.type === 'schematic_component').forEach(comp => {
+                const source = soup.find(x => x.type === 'source_component' && x.source_component_id === comp.source_component_id);
+                const cx = comp.center.x * s.scale;
+                const cy = comp.center.y * s.scale;
+                const rot = comp.rotation || 0;
+                ctx.save();
+                ctx.translate(cx, cy);
+                ctx.rotate(rot);
+                ctx.strokeStyle = "#000";
+                ctx.lineWidth = 2;
+                ctx.fillStyle = "#fff";
+                ctx.textAlign = "center";
+                ctx.textBaseline = "bottom";
+                ctx.font = "12px sans-serif";
+                if (source && source.ftype === 'simple_resistor') {
+                    ctx.beginPath();
+                    ctx.moveTo(-1.5 * s.scale, 0);
+                    ctx.lineTo(-0.75 * s.scale, 0);
+                    ctx.lineTo(-0.5 * s.scale, -0.25 * s.scale);
+                    ctx.lineTo(-0.25 * s.scale, 0.25 * s.scale);
+                    ctx.lineTo(0, -0.25 * s.scale);
+                    ctx.lineTo(0.25 * s.scale, 0.25 * s.scale);
+                    ctx.lineTo(0.5 * s.scale, -0.25 * s.scale);
+                    ctx.lineTo(0.75 * s.scale, 0);
+                    ctx.lineTo(1.5 * s.scale, 0);
+                    ctx.stroke();
+                    ctx.fillText(source.name, 0, -10);
+                } else if (source && source.ftype === 'simple_capacitor') {
+                    ctx.beginPath();
+                    ctx.moveTo(-1.5 * s.scale, 0);
+                    ctx.lineTo(-0.2 * s.scale, 0);
+                    ctx.moveTo(0.2 * s.scale, 0);
+                    ctx.lineTo(1.5 * s.scale, 0);
+                    ctx.stroke();
+                    ctx.beginPath();
+                    ctx.moveTo(-0.2 * s.scale, -0.5 * s.scale);
+                    ctx.lineTo(-0.2 * s.scale, 0.5 * s.scale);
+                    ctx.moveTo(0.2 * s.scale, -0.5 * s.scale);
+                    ctx.lineTo(0.2 * s.scale, 0.5 * s.scale);
+                    ctx.stroke();
+                    ctx.fillText(source.name, 0, -15);
+                } else if (source && source.ftype === 'simple_ground') {
+                    ctx.beginPath();
+                    ctx.moveTo(0, 0);
+                    ctx.lineTo(0, 0.5 * s.scale);
+                    ctx.moveTo(-0.5 * s.scale, 0.5 * s.scale);
+                    ctx.lineTo(0.5 * s.scale, 0.5 * s.scale);
+                    ctx.moveTo(-0.3 * s.scale, 0.7 * s.scale);
+                    ctx.lineTo(0.3 * s.scale, 0.7 * s.scale);
+                    ctx.moveTo(-0.1 * s.scale, 0.9 * s.scale);
+                    ctx.lineTo(0.1 * s.scale, 0.9 * s.scale);
+                    ctx.stroke();
+                } else if (source && source.ftype === 'simple_port') {
+                    ctx.beginPath();
+                    ctx.arc(0, 0, 4, 0, 2 * Math.PI);
+                    ctx.stroke();
+                    ctx.fillText(source.name, 0, -8);
+                } else {
+                    ctx.strokeRect(-10, -10, 20, 20);
+                    ctx.fillText(source ? source.name : "?", 0, -12);
+                }
+                ctx.restore();
+            });
+        }
+
+
+        // Initial Render on Load
+        window.onload = renderCircuit;
+    </script>
+</body>
+</html>

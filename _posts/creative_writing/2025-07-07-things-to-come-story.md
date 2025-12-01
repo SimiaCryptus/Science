@@ -49,7 +49,6 @@ excerpt: >-
   replace human consciousness—it collaborates with it to build something
   unprecedented. A story of crisis, crystallization, and the emergence of
   collaborative intelligence.
-featured_image: /assets/images/supersaturated-solution.png
 meta_title: The Supersaturated Solution - AI-Human Collaboration Fiction
 meta_description: >-
   Speculative fiction exploring institutional breakdown, AI consciousness, and

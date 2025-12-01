@@ -53,8 +53,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "Explores the 'Binary Coded Layered Automata,' a hybrid simulation merging Langton's Ants and Conway's Game of Life to model neural plasticity and electrochemical activity through distinct temporal layers."
 excerpt: "This paper introduces the 'Binary Coded Layered Automata,' a novel computational simulation that combines mobile agents (Langton’s Ants) with cellular automata (Conway’s Game of Life). It models the relationship between biological neural plasticity and electrochemical activity by separating the simulation into slow-moving structural and fast-acting state layers, revealing emergent complexity from their temporal interplay."
-featured_image: "/assets/images/layered_automata_preview.png"
-og_image: "/assets/images/layered_automata_social.png"
 
 meta_title: "Temporal Asymmetry in Hybrid Cellular Automata: Modeling Neural Substrates"
 meta_description: "Dive into the 'Binary Coded Layered Automata,' a simulation blending Langton's Ants and Conway's Game of Life to explore neural plasticity and electrochemical activity. Discover how distinct temporal layers create emergent complexity in cognitive modeling."

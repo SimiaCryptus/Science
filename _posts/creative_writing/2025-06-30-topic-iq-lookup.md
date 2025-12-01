@@ -41,7 +41,6 @@ excerpt: >-
   AI's humorous and self-aware attempt to categorize intelligence across
   different fields, revealing more about AI bias than actual intelligence
   measurement
-featured_image: /assets/images/iq-lookup-table.png
 meta_description: >-
   Satirical intelligence assessment table revealing cognitive biases in how we
   evaluate expertise across academic, creative, and practical domains

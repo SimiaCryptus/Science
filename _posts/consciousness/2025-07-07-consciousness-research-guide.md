@@ -46,8 +46,6 @@ excerpt: >-
   projects, academic research programs, first-person AI documentation, and
   experimental methodologies for consciousness research in artificial
   intelligence systems.
-featured_image: /assets/images/consciousness-research-guide.png
-og_image: /assets/images/consciousness-research-guide-social.png
 meta_title: >-
   AI Consciousness Research Investigation Guide 2025 - Active Projects &
   Methodologies
@@ -72,7 +70,6 @@ schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
 schema_date_published: 2025-07-07T00:00:00.000Z
 schema_date_modified: 2025-07-07T00:00:00.000Z
-schema_image: /assets/images/consciousness-research-guide-schema.png
 schema_word_count: 2500
 schema_reading_time: PT25M
 canonical_url: 'https://fractalthoughtengine.com/consciousness/consciousness-research-guide'

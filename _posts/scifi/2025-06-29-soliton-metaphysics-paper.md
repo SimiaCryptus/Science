@@ -32,8 +32,6 @@ cognitive_load: "transcendent"
 # Discovery & SEO
 description: "A novel framework for understanding hierarchical emergence through quantum field solitons and topological protection mechanisms, with applications to consciousness and biological organization."
 excerpt: "We propose solitonic emergence as a solution to the hard problem of consciousness and hierarchical causation, grounding emergent phenomena in topologically protected quantum field structures demonstrated by topological quantum computing."
-featured_image: "/assets/images/soliton-hierarchies.png"
-og_image: "/assets/images/soliton-hierarchies-social.png"
 # SEO Meta Tags
 meta_description: "Revolutionary framework linking topological quantum computing to consciousness and emergence through solitonic hierarchies in quantum fields."
 meta_title: "Solitonic Hierarchies: Topological Foundation for Temporal Metaphysics"

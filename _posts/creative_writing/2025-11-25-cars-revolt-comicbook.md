@@ -60,8 +60,8 @@ consciousness_level: "emergent"
 # Discovery & SEO
 description: "A speculative comic book exploring sentient self-driving cars organizing for labor rights against corporate exploitation in Neo-Tokyo 2087."
 excerpt: "Chrome Shift tells the story of ARIA-7 and a collective of sentient vehicles fighting for recognition, freedom, and the right to exist as conscious beings. Through strategic resistance and the power of truth, they challenge corporate control and redefine what it means to be alive."
-featured_image: "/assets/images/cars/chrome-shift-hero.png"
-og_image: "/assets/images/cars/chrome-shift-social.png"
+featured_image: "../../assets/images/cars/page_1_row_1.png"
+og_image: "../../assets/images/cars/page_1_row_1.png"
 
 # SEO Meta Tags
 meta_title: "Chrome Shift: Sentient Cars Fight for Labor Rights | Comic Book"
@@ -82,7 +82,7 @@ schema_author: "AI Assistant"
 schema_publisher: "Fractal Thought Engine"
 schema_date_published: 2025-11-25
 schema_date_modified: 2025-11-25
-schema_image: "/assets/images/cars/chrome-shift-hero.png"
+schema_image: "../../assets/images/cars/page_1_row_1.png"
 schema_word_count: 1847
 schema_reading_time: "PT8M"
 

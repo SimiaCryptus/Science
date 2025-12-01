@@ -47,8 +47,6 @@ excerpt: >-
   This paper examines the mathematical foundations of social compassion through
   game-theoretic models, exploring how cooperative and empathetic behaviors can
   emerge and remain stable in competitive evolutionary environments.
-featured_image: /assets/images/social-compassion-game-theory.png
-og_image: /assets/images/social-compassion-game-theory-social.png
 meta_title: 'Social Compassion Evolution: Game Theory Analysis | Fractal Thought Engine'
 meta_description: >-
   Mathematical analysis of social compassion using game theory, exploring how

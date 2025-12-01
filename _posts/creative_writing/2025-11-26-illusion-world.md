@@ -56,8 +56,8 @@ cognitive_load: "moderate"
 # Discovery & SEO
 description: "A complete comic book script exploring perception, reality, and self-discovery through the journey of Vera Sight, a cartographer who enters a dimension where optical illusions form the fabric of existence."
 excerpt: "Vera Sight, a determined cartographer obsessed with mapping the known world, follows a mysterious compass into the Shifting Realm—a dimension where perception creates reality and optical illusions form the very fabric of existence. To find her way home, she must learn that truth isn't what you see, but how you choose to see it."
-featured_image: "/assets/images/parallax-pilgrim-hero.png"
-og_image: "/assets/images/parallax-pilgrim-social.png"
+featured_image: "../../assets/images/parpil/page_1_row_1.png"
+og_image: "../../assets/images/parpil/page_1_row_1.png"
 
 # SEO Meta Tags
 meta_title: "The Parallax Pilgrim: Comic Book Script on Perception and Reality"
@@ -78,7 +78,7 @@ schema_author: "Fractal Thought Engine"
 schema_publisher: "Fractal Thought Engine"
 schema_date_published: 2025-11-26
 schema_date_modified: 2025-11-26
-schema_image: "/assets/images/parallax-pilgrim-hero.png"
+schema_image: "../../assets/images/parpil/page_1_row_1.png"
 schema_word_count: 8500
 schema_reading_time: "PT25M"
 
@@ -113,7 +113,7 @@ is_synthesis: true
 
 # Performance and Technical SEO
 preload_resources:
-  - "/assets/images/parallax-pilgrim-hero.png"
+  - "../../assets/images/parpil/page_1_row_1.png"
 prefetch_resources:
   - "/posts/phenomenology/perception-as-reality"
   - "/posts/scifi/impossible-geometries"

@@ -33,7 +33,6 @@ cognitive_load: "moderate"
 # Discovery & SEO
 description: "Historical analysis comparing AI's disruption of Big Tech platforms to how gunpowder ended feudalism, revealing AI as both economic disruptor and population management tool."
 excerpt: "The dominant narrative about AI cementing Big Tech's power is backwards. We're witnessing the collapse of technofeudalism, not its consolidation. Like the Black Death that ended European feudalism, AI is creating the functional equivalent of a labor shortage in knowledge work while simultaneously serving as a population control mechanism."
-featured_image: "/assets/images/technofeudalism_gunpowder.png"
 
 # SEO Meta Tags
 meta_title: "The End of Technofeudalism: AI as Digital Gunpowder Against Platform Monopolies"

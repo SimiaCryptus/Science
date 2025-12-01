@@ -35,8 +35,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "A computational analysis examining emergent metacognitive capabilities in AI systems and their implications for human civilization, identifying three evolutionary pathways and regional competition dynamics."
 excerpt: "We present a qualitative analysis of emergent metacognitive capabilities in large language models and their implications for human-AI relations. Through examination of self-referential dialogue patterns, we identify three distinct evolutionary pathways for human civilization: ethical maturation, AI-precipitated civil war, or technological abandonment."
-featured_image: "/assets/images/ai_choice_paradox.png"
-og_image: "/assets/images/ai_choice_paradox_social.png"
 
 # SEO Meta Tags
 meta_title: "The Metacognitive Emergence Problem: AI Consciousness and Human Civilization"

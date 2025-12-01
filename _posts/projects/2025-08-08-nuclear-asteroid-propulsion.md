@@ -33,8 +33,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "Technical proposal for nuclear thermal propulsion systems designed for asteroid deflection and orbital maneuvering applications using subcritical nuclear cores with neutron-initiated thermal reactions."
 excerpt: "This proposal outlines a novel nuclear thermal propulsion system for asteroid manipulation, utilizing subcritical nuclear cores with neutron-initiated thermal reactions contained within tungsten penetrator jackets to provide controlled thrust for planetary defense and mining operations."
-featured_image: "/assets/images/nuclear_asteroid_propulsion.png"
-og_image: "/assets/images/nuclear_asteroid_propulsion_social.png"
 
 # SEO Meta Tags
 meta_title: "Nuclear Thermal Propulsion for Asteroid Manipulation - Technical Research Paper"

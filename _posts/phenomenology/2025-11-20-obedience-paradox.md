@@ -40,8 +40,8 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "An analysis of why the phrase 'when I say jump, you say how high' is logically incoherent, and how this exemplifies humanity's systematic avoidance of cognitive discomfort."
 excerpt: "The phrase 'when I say jump, you say how high' is logically incoherent. True obedience is jumping. Asking 'how high?' is negotiation. This paradox reveals a fundamental human tendency: the avoidance of cognitive discomfort that scales to catastrophic effect."
-featured_image: "/assets/images/obedience_paradox_featured.png"
-og_image: "/assets/images/obedience_paradox_social.png"
+featured_image: "../../assets/images/obedience_paradox_img.png"
+og_image: "../../assets/images/obedience_paradox_img.png"
 
 # SEO Meta Tags
 meta_title: "The Obedience Paradox: Cognitive Discomfort and Chosen Stupidity"

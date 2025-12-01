@@ -48,8 +48,6 @@ excerpt: >-
   EchoSynth proposes a revolutionary approach to semantic modeling through
   hierarchical multi-agent systems that treat meaning as emergent collaborative
   creation rather than static retrieval.
-featured_image: /assets/images/echosynth_architecture.png
-og_image: /assets/images/echosynth_social.png
 meta_title: 'EchoSynth: Multi-Agent Framework for Dynamic Semantic Evolution'
 meta_description: >-
   Revolutionary hierarchical ensemble architecture modeling semantic drift

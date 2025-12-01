@@ -33,7 +33,6 @@ cognitive_load: "transcendent"
 # Discovery & SEO
 description: "A theoretical framework proposing consciousness as relativistic spacetime geometry created by neural quantum field dynamics, resolving the hard problem of consciousness."
 excerpt: "We propose that consciousness is not produced by neural activity but IS neural activity when understood as quantum field dynamics manifesting relativistic 3+1 dimensional spacetime. This framework resolves the hard problem of consciousness by recognizing it as the intrinsic geometry of quantum field interactions in biological substrates."
-featured_image: "/assets/images/quantum-consciousness-spacetime.png"
 
 # SEO Meta Tags
 meta_title: "Consciousness as Relativistic Spacetime: Neural Quantum Fields Theory"

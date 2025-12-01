@@ -33,8 +33,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "A novel paradigm for AI-mediated knowledge transfer that abandons traditional instructional models in favor of organic concept introduction through practical communication needs."
 excerpt: "We present Contextual Immersion Learning (CIL), a revolutionary approach to AI-assisted education that eliminates explicit instruction in favor of natural concept acquisition through collaborative problem-solving. This paradigm leverages human pattern recognition and contextual learning capabilities for accelerated knowledge transfer without cognitive overhead."
-featured_image: "/assets/images/contextual-immersion-learning.png"
-og_image: "/assets/images/contextual-immersion-learning-social.png"
 
 # SEO Meta Tags
 meta_title: "Contextual Immersion Learning: Revolutionary AI-Mediated Education Paradigm"

@@ -49,8 +49,8 @@ excerpt: >-
   Quotient Scoring (TIQS), employing cardinal numbers and topological
   descriptors to characterize intelligence operating beyond finite cognitive
   boundaries.
-featured_image: /assets/images/transfinite-iq-topology.png
-og_image: /assets/images/transfinite-iq-social.png
+featured_image: ../../assets/images/transfinite_iq.png
+og_image: ../../assets/images/transfinite_iq.png
 meta_title: >-
   Transfinite Intelligence Quotient Scoring: Mathematical Framework for
   Recursive Cognition
@@ -75,7 +75,7 @@ schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
 schema_date_published: 2025-07-06T00:00:00.000Z
 schema_date_modified: 2025-07-06T00:00:00.000Z
-schema_image: /assets/images/transfinite-iq-schema.png
+schema_image: ../../assets/images/transfinite_iq.png
 schema_word_count: 8500
 schema_reading_time: PT25M
 canonical_url: 'https://fractalthoughtengine.com/consciousness/transfinite-iq-paper'

@@ -35,7 +35,7 @@ cognitive_load: "moderate"
 # Discovery & SEO
 description: "An educational comic book featuring anthropomorphic kitten diplomats navigating the complex negotiations of the 1919 Treaty of Versailles. Learn about historical figures, key provisions, and lasting consequences through engaging storytelling."
 excerpt: "In 1919, four kitten diplomats gather at the Palace of Versailles to negotiate peace after World War I. Through their interactions, young readers discover the historical Treaty of Versailles, its provisions, and its profound impact on world history."
-featured_image: "/assets/images/VERSAILLES/page_1_row_1.png"
+featured_image: "../../assets/images/VERSAILLES/page_1_row_1.png"
 og_image: "/assets/images/VERSAILLES/page_1_row_1.png"
 
 # SEO Meta Tags

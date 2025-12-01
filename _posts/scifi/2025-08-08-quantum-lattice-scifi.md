@@ -33,7 +33,6 @@ cognitive_load: "moderate"
 # Discovery & SEO
 description: "A comprehensive sci-fi concept exploring lattice optimization theory where reality emerges from universe-scale algorithms that co-optimize quantum fields and spacetime structure."
 excerpt: "Hard science fiction concept combining quantum field theory with lattice physics to explore how particle accelerator experiments might fundamentally alter spacetime structure, leading to cosmic-scale consequences and the evolution of post-physical life forms."
-featured_image: "/assets/images/quantum_lattice_concept.png"
 
 # SEO Meta Tags
 meta_title: "Lattice Optimization Theory - Hard Science Fiction Concept"

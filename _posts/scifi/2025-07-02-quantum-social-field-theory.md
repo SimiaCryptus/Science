@@ -51,8 +51,6 @@ excerpt: >-
   that intellectual partnerships exhibit quantum-like behaviors including
   virtual particle interactions and wave function collapse through critical
   observation.
-featured_image: /assets/images/quantum-social-field-theory.png
-og_image: /assets/images/quantum-social-field-theory-social.png
 meta_description: >-
   Quantum Social Field Theory: Revolutionary framework explaining collaborative
   intelligence through quantum field dynamics, virtual particle interactions,

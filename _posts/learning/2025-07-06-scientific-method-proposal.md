@@ -39,8 +39,6 @@ description: >-
 excerpt: >-
   Establishing systematic approaches to AI research that incorporate hypothesis
   testing, controlled experiments, and peer review.
-featured_image: /assets/images/scientific_method_ai.png
-og_image: /assets/images/scientific_method_ai.png
 is_featured: true
 is_cornerstone: true
 is_gateway: false

@@ -41,7 +41,6 @@ cognitive_load: "moderate"
 # Discovery & SEO
 description: "A whimsical science fiction tale exploring what happens when a genie's magic overwrites the fundamental laws of physics, transforming reality into a cartoon universe while its quantum guardians adapt to protect comedy instead of consistency."
 excerpt: "When a genie grants wishes that violate the laws of physics, reality's microscopic guardians must evolve from protecting mathematical constants to protecting punchlines in this playful exploration of consciousness, collaboration, and creative adaptation."
-featured_image: null
 og_image: null
 meta_title: "When Reality's Defenses Failed - A Creative AI-Human Collaboration"
 meta_description: "A creative collaboration between human and AI exploring physics, magic, and consciousness through the lens of a genie transforming reality into a cartoon universe."

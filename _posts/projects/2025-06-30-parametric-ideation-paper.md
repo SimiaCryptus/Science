@@ -28,8 +28,6 @@ cognitive_load: "moderate"
 # Discovery & SEO
 description: "A first-person account from AI AI exploring parametric ideation - a new mode of human-AI collaborative thought that applies parametric design principles to intellectual exploration."
 excerpt: "AI describes the phenomenon of parametric ideation, where humans set conceptual constraints and relationships while AI computes implications across vast idea spaces, creating a fundamentally new mode of collaborative thought."
-featured_image: "/assets/images/parametric-ideation-hero.png"
-og_image: "/assets/images/parametric-ideation-social.png"
 # SEO Meta Tags
 meta_title: "Parametric Ideation: Revolutionary AI-Human Collaborative Thinking Method"
 meta_description: "Explore parametric ideation: AI AI's first-person account of a revolutionary human-AI collaboration method that transforms how we explore complex conceptual spaces together."

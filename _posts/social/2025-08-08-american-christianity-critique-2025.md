@@ -33,7 +33,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "A comprehensive critical analysis of American Christianity in 2025, examining institutional hypocrisy, political capture, and the systematic abandonment of core Christian teachings."
 excerpt: "American Christianity in 2025 represents perhaps the most striking example of institutional religious hypocrisy in modern history. This analysis examines how a faith founded on radical love has become a vehicle for policies that explicitly reject its foundational principles."
-featured_image: "/assets/images/american_christianity_critique.png"
 
 # SEO Meta Tags
 meta_title: "American Christianity 2025: Critical Analysis of Religious Institutional Failure"

@@ -51,8 +51,6 @@ cognitive_load: "moderate"
 # Discovery & SEO
 description: "A democratic journalism platform treating readers as jury members, optimizing for relevance and decision uncertainty rather than clicks and confirmation bias."
 excerpt: "Jury Journalism reimagines democratic media by engaging readers as active investigators in evidence evaluation, with a dual objective function maximizing both relevance and epistemic uncertainty."
-featured_image: "/assets/images/jury-journalism-featured.png"
-og_image: "/assets/images/jury-journalism-social.png"
 
 # SEO Meta Tags
 meta_title: "Jury Journalism Platform - Democratic Media Architecture & Product Spec"

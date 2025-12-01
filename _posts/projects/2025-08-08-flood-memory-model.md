@@ -48,7 +48,6 @@ excerpt: >-
   traumatic environmental memories of late Pleistocene floods spread through
   populations, adapt to local conditions, and become institutionalized through
   written codification across four distinct historical phases.
-featured_image: /assets/images/flood_myth_network.png
 meta_title: >-
   Agent-Based Model: Cultural Memory Dynamics of Flood Myths - Computational
   Anthropology Research

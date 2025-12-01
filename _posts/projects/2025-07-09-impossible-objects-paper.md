@@ -35,8 +35,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "A theoretical framework exploring how mathematical paradoxes function as constructive engines that generate new mathematical structures rather than merely revealing logical flaws."
 excerpt: "This paper argues that mathematical paradoxes are not bugs in logical reasoning but features of a deeper creative process. Through analysis of classical paradoxes from Zeno to Russell, we demonstrate that impossibility serves as a fundamental creative force in mathematics, systematically producing richer conceptual frameworks through the deliberate embrace of contradiction."
-featured_image: "/assets/images/impossible-objects-paper.png"
-og_image: "/assets/images/impossible-objects-social.png"
 
 # SEO Meta Tags
 meta_title: "The Constructive Impossibility Engine: How Mathematical Paradoxes Build Reality"

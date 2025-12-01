@@ -57,8 +57,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "Comprehensive software design document for a voice-centric AI agent system enabling developers and data scientists to interact through natural language voice commands for software development, data analysis, and project management workflows."
 excerpt: "A sophisticated AI agent system that leverages voice interfaces to facilitate software development and data science workflows. The system enables developers and data scientists to interact through natural language voice commands to design architectures, write code, analyze data, manage projects, and collaborate on technical tasks."
-featured_image: "/assets/images/voice-agent-architecture.png"
-og_image: "/assets/images/voice-agent-social.png"
 
 # SEO Meta Tags
 meta_title: "Voice-Centric Software Development Agent - Design Document"

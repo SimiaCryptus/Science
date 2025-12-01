@@ -35,7 +35,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "Mathematical framework for cross-camera island matching and 3D object localization using view-aligned scanlines and epipolar constraints"
 excerpt: "A comprehensive technical framework for matching visual islands across multiple camera feeds to achieve accurate 3D object localization. Includes novel view-aligned scanline orientation strategies, epipolar-constrained correspondence algorithms, and robust triangulation methods for real-time multi-camera systems."
-featured_image: "/assets/images/multi_camera_correspondence.png"
 meta_title: "Multi-Camera Island Correspondence for 3D Object Localization - Mathematical Framework"
 meta_description: "Advanced mathematical framework for cross-camera visual correspondence and 3D object localization using epipolar geometry, view-aligned scanlines, and robust triangulation methods."
 meta_keywords: "multi-camera correspondence, 3d object localization, epipolar geometry, computer vision, triangulation, camera calibration"

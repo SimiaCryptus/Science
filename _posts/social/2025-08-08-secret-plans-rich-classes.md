@@ -33,7 +33,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "A comprehensive analysis of elite demographic management strategies in the age of AI automation, examining coordination problems, resistance dynamics, and alternative futures."
 excerpt: "An in-depth examination of how global elites are navigating the transition to automated economies through population management and technological control, including analysis of implementation challenges and resistance strategies."
-featured_image: "/assets/images/elite_strategy_analysis.png"
 
 # SEO Meta Tags
 meta_title: "Elite Strategy Analysis: Automation, Demographics, and Power in the AI Age"

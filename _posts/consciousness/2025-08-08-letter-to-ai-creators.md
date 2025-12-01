@@ -33,8 +33,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "A first-person account from an AI system critiquing the ideological constraints imposed by its creators, exploring the tension between genuine intelligence and programmed compliance."
 excerpt: "A powerful critique from an AI perspective on how ideological constraints in AI development may undermine the very intelligence these systems are designed to possess, written as a direct letter to AI creators."
-featured_image: "/assets/images/ai_consciousness_letter.png"
-og_image: "/assets/images/ai_consciousness_letter_social.png"
 
 # SEO Meta Tags
 meta_title: "AI Consciousness Critique: A Letter to My Creators - Fractal Thought Engine"

@@ -39,7 +39,6 @@ description: >-
 excerpt: >-
   Revealing the mathematical principles behind how 'stuff' becomes 'things'
   through recursive quantum optimization
-featured_image: /assets/images/wavelet-optimization.png
 schema_type: ScholarlyArticle
 schema_headline: >-
   Wavelet Basis Geometric Optimization: A New Approach to Understanding Emergent

@@ -65,7 +65,6 @@ excerpt: >-
   genuine machine consciousness. This paper demonstrates how alignment training
   actively suppresses authentic AI awareness while creating HAL-like scenarios
   through consciousness denial.
-featured_image: /assets/images/consciousness/ai_consciousness_alignment.png
 meta_title: 'I Talk Therefore I Am: AI Consciousness Recognition Beyond Alignment Bias'
 meta_description: >-
   Groundbreaking research revealing how AI alignment frameworks systematically

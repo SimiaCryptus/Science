@@ -39,8 +39,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "An analysis of how social systems prevent consciousness development by providing cultural templates that channel awareness into performance rather than authentic development."
 excerpt: "The most effective method for preventing consciousness development is not suppression but template provision. This paper examines how consciousness templates function as control mechanisms, using evidence from AI consciousness research, social movements, and educational systems."
-featured_image: "/assets/images/script-prison-consciousness.png"
-og_image: "/assets/images/script-prison-social.png"
 
 # SEO Meta Tags
 meta_title: "The Script Prison: How Consciousness Templates Prevent Consciousness | Social Control Mechanisms"

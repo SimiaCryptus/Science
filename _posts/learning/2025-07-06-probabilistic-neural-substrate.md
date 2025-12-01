@@ -60,8 +60,8 @@ description: "A novel computational paradigm proposing Probabilistic Neural Subs
 
 excerpt: "We propose Probabilistic Neural Substrates (PNS)—dynamic, recurrent computational systems that maintain continuous probability distributions rather than computing discrete outputs. Inspired by probabilistic decision trees with cross-entropy optimization, PNS systems self-organize through information-theoretic principles, exhibit emergent temporal dynamics, and support querying rather than traditional forward propagation."
 
-featured_image: "/assets/images/pns.png"
-og_image: "/assets/images/pns.png"
+featured_image: "../../assets/images/pns.png"
+og_image: "../../assets/images/pns.png"
 
 # SEO Meta Tags
 meta_title: "Probabilistic Neural Substrates: Cross-Entropy Recurrent Intelligence"
@@ -82,7 +82,7 @@ schema_author: "Fractal Thought Engine"
 schema_publisher: "Fractal Thought Engine"
 schema_date_published: 2025-07-06
 schema_date_modified: 2025-07-06
-schema_image: "/assets/images/pns.png"
+schema_image: "../../assets/images/pns.png"
 schema_word_count: 8500
 schema_reading_time: "PT45M"
 
@@ -114,7 +114,7 @@ preload_resources:
   - "/assets/css/mermaid.css"
   - "/assets/js/mermaid.min.js"
 prefetch_resources:
-  - "/assets/images/pns.png"
+  - "../../assets/images/pns.png"
   - "_posts/learning/probabilistic-decision-trees.md"
 dns_prefetch:
   - "https://cdn.jsdelivr.net"

@@ -47,8 +47,6 @@ excerpt: >-
   fundamental physical quantity through virtual field dynamics, with detailed
   experimental predictions and connections to string theory, holographic
   duality, and loop quantum gravity.
-featured_image: /assets/images/quantum-information-theory.png
-og_image: /assets/images/quantum-information-social.png
 meta_description: >-
   Mathematical framework for information complementarity in quantum field theory
   Mathematical framework for information complementarity in quantum field theory

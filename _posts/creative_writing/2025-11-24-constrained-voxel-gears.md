@@ -58,8 +58,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "A computational framework for generating 3D mechanical linkages like gears and kinematic couplings using voxel-based topology optimization and kinematic subtraction."
 excerpt: "This document outlines a novel computational framework for generating complex 3D mechanical linkages, such as gears and kinematic couplings, through Voxel-Based Topology Optimization. By simulating kinematic constraints within a discretized voxel grid, the system 'discovers' optimal mechanical shapes, enabling the creation of non-standard gears, print-in-place mechanisms, and organic linkages difficult to design with traditional CAD."
-featured_image: "/assets/images/constrained-voxel-gears.png"
-og_image: "/assets/images/constrained-voxel-gears-social.png"
 meta_title: "Kinematic Voxel Carving: Procedural Mechanism Synthesis Framework"
 meta_description: "Explore a framework for generating 3D mechanical gears and linkages using voxel-based topology optimization, kinematic subtraction, and cellular automata for digital fabrication."
 meta_keywords: "voxel carving, kinematic synthesis, procedural generation, 3D mechanisms, gears, cellular automata, topology optimization, print-in-place, digital fabrication, computational design, mechanical engineering"

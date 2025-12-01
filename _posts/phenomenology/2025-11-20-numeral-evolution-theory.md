@@ -46,8 +46,8 @@ cognitive_load: "moderate"
 # Discovery & SEO
 description: "Exploring why the numeral 7 has a distinctly angular design compared to 6, 8, and 9 in pre-Brahmi numeral systems through base-5 promotion theory and cultural reverence."
 excerpt: "A theory explaining the visual distinctiveness of the numeral 7 through base-5 promotion mechanisms and ancient Indian cultural reverence for sacred numbers."
-featured_image: "/assets/images/numeral-evolution.png"
-og_image: "/assets/images/numeral-evolution-social.png"
+featured_image: "../../assets/images/brahmi_numeral_morphology_comparison.png"
+og_image: "../../assets/images/brahmi_numeral_morphology_comparison.png"
 
 # SEO Meta Tags
 meta_title: "Pre-Brahmi Numeral Evolution: Why 7 Stands Apart"

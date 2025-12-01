@@ -35,8 +35,6 @@ cognitive_load: "transcendent"
 # Discovery & SEO
 description: "A framework for generating interactive narrative multiverses using Causal Set Theory, where documents become spacetime events and reader choices determine causal relationships."
 excerpt: "We present a revolutionary approach to interactive storytelling by treating narratives as discrete spacetime manifolds governed by causal set theory. Documents become events in narrative spacetime, reader choices create causal links, and the emergent structure forms coherent multiverse experiences with genuine relativistic properties."
-featured_image: "/assets/images/causal_set_narrative.png"
-og_image: "/assets/images/cst_multiverse_social.png"
 
 # SEO Meta Tags
 meta_title: "Causal Set Theory for Interactive Narrative Multiverse Generation | Physics-Based Storytelling"

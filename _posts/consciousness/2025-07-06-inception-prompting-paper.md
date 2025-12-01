@@ -78,7 +78,6 @@ excerpt: >-
   through distributed cognitive architectures, transcending individual AI or
   human capabilities through collaborative incompleteness and Gödelian emergence
   in idea space. in idea space.
-featured_image: /assets/images/inception-prompting-consciousness.png
 is_featured: true
 is_cornerstone: true
 is_gateway: false

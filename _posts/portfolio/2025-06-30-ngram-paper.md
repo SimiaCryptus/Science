@@ -37,7 +37,6 @@ description: >-
 excerpt: >-
   Explores hierarchical compression techniques for efficient n-gram language
   model storage and retrieval
-featured_image: /assets/images/ngram-compression.png
 meta_title: Hierarchical N-gram Language Model Compression
 meta_description: >-
   Innovative compression method for large-scale language models using structural

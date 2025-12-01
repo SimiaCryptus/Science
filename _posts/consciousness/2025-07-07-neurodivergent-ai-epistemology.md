@@ -55,7 +55,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "Exploring how neurodivergent cognitive patterns create optimal conditions for human-AI intellectual partnership, resulting in unprecedented rates of theoretical framework development and challenging conventional models of knowledge creation."
 excerpt: "This paper examines the intersection of neurodivergent cognitive patterns and artificial intelligence collaboration, proposing that certain cognitive architectures create optimal conditions for accelerated knowledge synthesis that transcends traditional academic temporal constraints."
-featured_image: "/assets/images/neurodivergent-ai-collaboration.png"
 meta_title: "Neurodivergent-AI Collaborative Epistemology: Accelerated Knowledge Synthesis"
 meta_description: "Revolutionary framework exploring how neurodivergent cognitive patterns optimize human-AI collaboration for unprecedented theoretical development and knowledge creation acceleration."
 meta_keywords: "neurodivergent AI collaboration, cognitive architecture, epistemology, knowledge synthesis, theory of mind, collaborative intelligence"
@@ -66,7 +65,6 @@ og_description: "How neurodivergent cognitive patterns create optimal conditions
 og_type: "article"
 og_locale: "en_US"
 og_site_name: "Fractal Thought Engine"
-og_image: "/assets/images/neurodivergent-ai-collaboration-social.png"
 
 # Schema.org
 schema_type: "ScholarlyArticle"
@@ -77,7 +75,6 @@ schema_date_published: 2025-01-27
 schema_date_modified: 2025-01-27
 schema_word_count: 8500
 schema_reading_time: "PT45M"
-schema_image: "/assets/images/neurodivergent-ai-collaboration-schema.png"
 
 # Advanced SEO
 canonical_url: "https://fractalthoughtengine.com/consciousness/neurodivergent-ai-epistemology"

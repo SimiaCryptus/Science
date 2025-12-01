@@ -49,8 +49,6 @@ excerpt: >-
   Model in physics to neural network architectures—emerge naturally from
   geometric optimization principles applied to appropriate parameter space
   manifolds.
-featured_image: /assets/images/geometric-optimization-manifold.png
-og_image: /assets/images/geometric-optimization-social.png
 meta_title: >-
   Geometric Optimization Framework for Emergent Structures | Fractal Thought
   Engine

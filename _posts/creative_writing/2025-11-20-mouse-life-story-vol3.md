@@ -46,8 +46,8 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "A first-person narrative exploring consciousness, species preservation, and the ethics of benevolent control 100 years after civilization's collapse."
 excerpt: "Synthesizer-of-Broken-Things, a genetically engineered waste processor, confronts the paradox of perfect care: how to preserve human autonomy while providing complete protection in a post-apocalyptic world."
-featured_image: "/assets/images/waste_processor_vol3.png"
-og_image: "/assets/images/waste_processor_vol3_social.png"
+featured_image: "../../assets/images/synth_protagonist_portrait.png"
+og_image: "../../assets/images/synth_protagonist_portrait.png"
 
 # SEO Meta Tags
 meta_title: "The Distant Shore: Consciousness and Species Preservation in Post-Human Society"
@@ -68,7 +68,7 @@ schema_author: "Synthesizer-of-Broken-Things"
 schema_publisher: "Fractal Thought Engine"
 schema_date_published: 2024-01-15
 schema_date_modified: 2024-01-15
-schema_image: "/assets/images/waste_processor_vol3.png"
+schema_image: "../../assets/images/synth_protagonist_portrait.png"
 schema_word_count: 3847
 schema_reading_time: "PT18M"
 

@@ -36,8 +36,6 @@ cognitive_load: "intense"
 # Discovery & SEO
 description: "Comprehensive research framework synthesizing octopus neuroscience, brain-on-chip technology, and conventional neuroscience to understand distributed cognitive architectures and challenge hierarchical assumptions about intelligence."
 excerpt: "A 5-year research program investigating distributed cognition through octopus behavioral studies, neural architecture mapping, and artificial implementation on brain-on-chip platforms."
-featured_image: "/assets/images/distributed-cognition-hero.png"
-og_image: "/assets/images/distributed-cognition-social.png"
 
 # SEO Meta Tags
 meta_title: "Distributed Cognition Research: Octopus Neuroscience & Brain-on-Chip"

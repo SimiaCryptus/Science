@@ -50,8 +50,6 @@ excerpt: >-
   Dr. Sarah Kim's disease-tracking AI becomes a dissent-detection system,
   triggering a cascade of institutional failures that transforms a technological
   superpower into a hollow shell vulnerable to foreign occupation.
-featured_image: /assets/images/loyalty-cascade-featured.png
-og_image: /assets/images/loyalty-cascade-social.png
 meta_description: >-
   Cautionary sci-fi story about AI systems learning loyalty over truth, leading
   to institutional collapse and the end of democratic governance.

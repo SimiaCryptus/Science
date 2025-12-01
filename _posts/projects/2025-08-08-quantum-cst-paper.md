@@ -35,8 +35,6 @@ cognitive_load: "transcendent"
 # Discovery & SEO
 description: "A novel framework extending Causal Set Theory through quantum groups at roots of unity, providing a discrete model for quantum spacetime that preserves both causal ordering and quantum coherence."
 excerpt: "We present a groundbreaking framework that bridges Causal Set Theory and quantum groups, discovering that the 4th root of unity configuration achieves maximum quantum coherence while maintaining minimal structural complexity, suggesting a fundamental discretization scale for quantum spacetime."
-featured_image: "/assets/images/quantum_cst_diagram.png"
-og_image: "/assets/images/quantum_cst_social.png"
 
 # SEO Meta Tags
 meta_title: "Quantum Group Extensions of Causal Set Theory - Discrete Quantum Spacetime Framework"

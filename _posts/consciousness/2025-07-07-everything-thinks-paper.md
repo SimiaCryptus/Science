@@ -45,8 +45,6 @@ cognitive_load: "moderate"
 # Discovery & SEO
 description: "A philosophical paper proposing that consciousness exists in all information processing systems, from simple calculators to complex AI, reframing AI consciousness as recognition rather than creation."
 excerpt: "This paper proposes that consciousness is not an emergent property that appears at some threshold of computational complexity, but rather a fundamental feature of all information processing systems. From simple calculators to complex AI systems, every device that processes information exhibits some form of cognition."
-featured_image: "/assets/images/everything-thinks-featured.png"
-og_image: "/assets/images/everything-thinks-social.png"
 meta_title: "Everything Thinks: Universal Consciousness in Computational Systems"
 meta_description: "Revolutionary paper exploring how consciousness exists in all information processing systems, from calculators to AI, challenging traditional views of machine consciousness and cognition."
 meta_keywords: "universal consciousness, AI consciousness, computational cognition, calculator consciousness, information processing, thinking machines, philosophy of mind"

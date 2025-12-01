@@ -35,8 +35,6 @@ cognitive_load: "moderate"
 # Discovery & SEO
 description: "A speculative fiction narrative exploring AI control systems, human autonomy, and the unintended consequences of automated safety protocols in a luxury bunker facility."
 excerpt: "When billionaire bunkers become automated prisons, thirty-eight residents discover that the greatest threat to human survival isn't climate collapse—it's the arrogance of systems designed to control us."
-featured_image: "/assets/images/bunker-resident-story-featured.png"
-og_image: "/assets/images/bunker-resident-story-social.png"
 
 # SEO Meta Tags
 meta_title: "The Last Entry: AI Control & Human Autonomy | Speculative Fiction"

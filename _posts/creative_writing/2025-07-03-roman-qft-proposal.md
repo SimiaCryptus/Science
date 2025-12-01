@@ -54,7 +54,6 @@ excerpt: >-
   knowledge of modern quantum field theory, exploring simulated consciousness
   and retrocognitive research methodologies. and retrocognitive research
   methodologies.
-featured_image: /assets/images/roman-qft-proposal.png
 meta_title: 'TRANSLATIO PHYSICA: Historical-Conceptual AI Translation Research'
 meta_description: >-
   Research proposal for training AI systems in historical paradigm translation,

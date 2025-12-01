@@ -97,8 +97,6 @@ excerpt: >-
   Exploring how deep texture synthesis experiments revealed fundamental
   principles about intelligence, reality compression, and the edge of chaos
   where consciousness emerges.
-featured_image: /assets/images/scale-invariant-intelligence.png
-og_image: /assets/images/scale-invariant-intelligence-social.png
 is_featured: true
 is_cornerstone: true
 is_gateway: false

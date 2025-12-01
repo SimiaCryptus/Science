@@ -49,8 +49,6 @@ excerpt: >-
   mathematical systems where permutation operators, normalization operators, and
   modular substrates interact across different dimensional spaces, revealing
   novel interference patterns with practical applications.
-featured_image: /assets/images/interdimensional-interference.png
-og_image: /assets/images/interdimensional-interference-social.png
 meta_title: Interdimensional Interference in Mathematical Systems - Unified Framework
 meta_description: >-
   Novel mathematical framework for interdimensional interference in

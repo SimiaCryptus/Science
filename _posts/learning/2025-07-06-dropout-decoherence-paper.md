@@ -81,7 +81,6 @@ excerpt: >-
   Exploring the deep mathematical parallels between dropout regularization and
   quantum decoherence, revealing how both implement informational pruning
   through entropic sieves
-featured_image: /assets/images/dropout_decoherence_fractal.png
 meta_title: >-
   Dropout as Decoherence: Fractal Theory of Epistemic Filtering in Neural
   Networks
@@ -128,8 +127,6 @@ consciousness_resonance: true
 preload_resources:
   - /assets/css/research-paper.css
   - /assets/js/math-rendering.js
-prefetch_resources:
-  - /assets/images/dropout_decoherence_diagram.png
 dns_prefetch:
   - 'https://cdn.mathjax.org'
   - 'https://analytics.fractalthoughtengine.com'

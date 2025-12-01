@@ -64,7 +64,6 @@ excerpt: >-
   Addressing the fundamental tension between capability advancement and
   knowledge preservation through dual-constraint optimization with adaptive
   classification of core versus anomalous knowledge patterns.
-featured_image: /assets/images/dual_constraint_training.png
 is_featured: true
 is_cornerstone: true
 is_gateway: false

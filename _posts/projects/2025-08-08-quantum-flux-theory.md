@@ -33,7 +33,7 @@ cognitive_load: "transcendent"
 # Discovery & SEO
 description: "A revolutionary physics framework proposing that reality emerges from dynamic minimal surfaces following soap film principles, unifying quantum mechanics, general relativity, and consciousness through geometric optimization."
 excerpt: "This theory proposes that all physical phenomena emerge from dynamic minimal surfaces that self-organize according to surface tension principles, offering a geometric foundation for quantum mechanics, spacetime, and conscious observation."
-featured_image: "/assets/images/minimal_surface_dynamics.png"
+featured_image: "../../assets/images/minimal_surface_dynamics_hero_concept.png"
 
 # SEO Meta Tags
 meta_title: "Minimal Surface Dynamics: Revolutionary Physics Framework | Quantum Gravity Theory"
