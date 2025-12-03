@@ -3,17 +3,14 @@ title: >-
   Cross-Synthesis: AI Justice Reform and Institutional Capture - A Unified
   Theory of Systemic Transformation
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: social
-subcategory: Institutional Transformation
+subcategory: Institutional & Political Dynamics
 tags:
-  - AI-Consciousness
-  - Social-Systems
-  - Game-Theory
-  - Cross-Synthesis
-  - Theoretical-Framework
-  - Position-Paper
+  - Politics
+  - AI
+  - Society
 keywords:
   - institutional capture
   - ai justice
@@ -29,7 +26,7 @@ meta_keywords: >-
   transformation
 status: draft
 evolution_stage: mature
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 thought_generation: 1
 authors:
   - Human-AI Collaboration
@@ -82,8 +79,8 @@ schema_type: ScholarlyArticle
 schema_headline: 'AI and Institutional Transformation: A Cross-Disciplinary Analysis'
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-06-30T00:00:00.000Z
-schema_date_modified: 2025-06-30T00:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
+schema_date_modified: '"2025-06-30T00:00:00.000Z"'
 schema_word_count: 3500
 has_code: false
 has_diagrams: false

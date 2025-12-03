@@ -1,79 +1,89 @@
 ---
-# Required fields
-title: "Quantum Group Extensions of Causal Set Theory: A Discrete Framework for Quantum Spacetime"
+title: >-
+  Quantum Group Extensions of Causal Set Theory: A Discrete Framework for
+  Quantum Spacetime
 layout: post
-date: 2025-08-08
-last_modified: 2025-01-15 10:00:00
-
-# Content classification
+date: '"2025-08-08T00:00:00.000Z"'
+last_modified: '"2025-01-15T10:00:00.000Z"'
 category: projects
-subcategory: "Quantum Gravity Research"
-tags: ["AI-Consciousness", "Theoretical-Framework", "Mathematical-Modeling", "Quantum-Physics", "Research-Paper", "Academic-Research", "Current-Research"]
-keywords: ["quantum groups", "causal set theory", "discrete spacetime", "quantum gravity", "noncommutative geometry", "roots of unity", "SL_q(2)", "semi-unitary mappings", "quantum coherence"]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2025-01-15
+subcategory: Physics & Cosmology Simulations
+tags:
+  - Physics
+  - Mathematics
+  - Research
+keywords:
+  - quantum groups
+  - causal set theory
+  - discrete spacetime
+  - quantum gravity
+  - noncommutative geometry
+  - roots of unity
+  - SL_q(2)
+  - semi-unitary mappings
+  - quantum coherence
+status: stable
+last_thought_date: '"2025-01-15T00:00:00.000Z"'
 thought_generation: 1
-
-# Content relationships & navigation
 parent_document: null
 child_documents: []
 related_documents: []
 reading_order: 1
-difficulty_level: "research"
+difficulty_level: research
 reading_time_minutes: 45
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "mathematical"
-consciousness_level: "analytical"
-engagement_type: "analytical"
-reader_participation: "passive"
-cognitive_load: "transcendent"
-
-# Discovery & SEO
-description: "A novel framework extending Causal Set Theory through quantum groups at roots of unity, providing a discrete model for quantum spacetime that preserves both causal ordering and quantum coherence."
-excerpt: "We present a groundbreaking framework that bridges Causal Set Theory and quantum groups, discovering that the 4th root of unity configuration achieves maximum quantum coherence while maintaining minimal structural complexity, suggesting a fundamental discretization scale for quantum spacetime."
-
-# SEO Meta Tags
-meta_title: "Quantum Group Extensions of Causal Set Theory - Discrete Quantum Spacetime Framework"
-meta_description: "Revolutionary research bridging quantum groups and causal set theory, discovering optimal discrete quantum spacetime structures with maximum coherence at 4th root of unity."
-meta_keywords: "quantum gravity, causal set theory, quantum groups, discrete spacetime, noncommutative geometry, quantum coherence, mathematical physics"
-
-# Open Graph (Social Media)
-og_title: "Breakthrough in Quantum Gravity: Discrete Quantum Spacetime Framework"
-og_description: "New research reveals optimal quantum spacetime structures through quantum group extensions of causal set theory, with implications for quantum information and black hole physics."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Quantum Group Extensions of Causal Set Theory: A Discrete Framework for Quantum Spacetime"
-schema_author: "Fractal Thought Engine Research Team"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-01-15
-schema_date_modified: 2025-01-15
-schema_image: "/assets/images/quantum_cst_schema.png"
+document_type: research_paper
+thinking_style: mathematical
+consciousness_level: analytical
+engagement_type: analytical
+reader_participation: passive
+cognitive_load: transcendent
+description: >-
+  A novel framework extending Causal Set Theory through quantum groups at roots
+  of unity, providing a discrete model for quantum spacetime that preserves both
+  causal ordering and quantum coherence.
+excerpt: >-
+  We present a groundbreaking framework that bridges Causal Set Theory and
+  quantum groups, discovering that the 4th root of unity configuration achieves
+  maximum quantum coherence while maintaining minimal structural complexity,
+  suggesting a fundamental discretization scale for quantum spacetime.
+meta_title: >-
+  Quantum Group Extensions of Causal Set Theory - Discrete Quantum Spacetime
+  Framework
+meta_description: >-
+  Revolutionary research bridging quantum groups and causal set theory,
+  discovering optimal discrete quantum spacetime structures with maximum
+  coherence at 4th root of unity.
+meta_keywords: >-
+  quantum gravity, causal set theory, quantum groups, discrete spacetime,
+  noncommutative geometry, quantum coherence, mathematical physics
+og_title: 'Breakthrough in Quantum Gravity: Discrete Quantum Spacetime Framework'
+og_description: >-
+  New research reveals optimal quantum spacetime structures through quantum
+  group extensions of causal set theory, with implications for quantum
+  information and black hole physics.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: ScholarlyArticle
+schema_headline: >-
+  Quantum Group Extensions of Causal Set Theory: A Discrete Framework for
+  Quantum Spacetime
+schema_author: Fractal Thought Engine Research Team
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-01-15T00:00:00.000Z"'
+schema_date_modified: '"2025-01-15T00:00:00.000Z"'
+schema_image: /assets/images/quantum_cst_schema.png
 schema_word_count: 4500
-schema_reading_time: "PT45M"
-
-# Advanced SEO
-canonical_url: "https://fractalthoughtengine.com/projects/quantum-cst-paper"
-robots: "index,follow"
-priority: 0.9
-changefreq: "monthly"
+schema_reading_time: PT45M
+canonical_url: 'https://fractalthoughtengine.com/projects/quantum-cst-paper'
+robots: 'index,follow'
+priority: '0.9'
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-
-# Rich Snippets Enhancement
 faq_schema: false
 how_to_schema: false
 breadcrumb_schema: true
 review_schema: false
-
-# Discoverability
 is_featured: true
 is_cornerstone: true
 is_gateway: false

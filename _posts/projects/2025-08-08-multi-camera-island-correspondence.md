@@ -1,61 +1,75 @@
 ---
-# Required fields
-title: "Multi-Camera Island Correspondence for 3D Object Localization"
+title: Multi-Camera Island Correspondence for 3D Object Localization
 layout: post
-date: 2025-08-08
-last_modified: 2024-01-15 10:30:00
-
-# Content classification
+date: '"2025-08-08T00:00:00.000Z"'
+last_modified: '"2024-01-15T10:30:00.000Z"'
 category: projects
-subcategory: "Computer Vision Systems"
-tags: ["Computer-Vision", "Machine-Learning", "Mathematical-Modeling", "Computational-Analysis", "Multi-Camera-Systems", "3D-Reconstruction", "Epipolar-Geometry", "Object-Tracking"]
-keywords: ["multi-camera", "3d localization", "epipolar geometry", "triangulation", "object correspondence", "computer vision", "camera calibration", "scanline alignment"]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2024-01-15
+subcategory: Algorithms & Compression
+tags:
+  - Software
+  - Engineering
+  - Research
+keywords:
+  - multi-camera
+  - 3d localization
+  - epipolar geometry
+  - triangulation
+  - object correspondence
+  - computer vision
+  - camera calibration
+  - scanline alignment
+status: stable
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
-
-# Document relationships & navigation
 parent_document: null
 child_documents: []
 related_documents: []
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 25
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "mathematical"
-consciousness_level: "analytical"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "Mathematical framework for cross-camera island matching and 3D object localization using view-aligned scanlines and epipolar constraints"
-excerpt: "A comprehensive technical framework for matching visual islands across multiple camera feeds to achieve accurate 3D object localization. Includes novel view-aligned scanline orientation strategies, epipolar-constrained correspondence algorithms, and robust triangulation methods for real-time multi-camera systems."
-meta_title: "Multi-Camera Island Correspondence for 3D Object Localization - Mathematical Framework"
-meta_description: "Advanced mathematical framework for cross-camera visual correspondence and 3D object localization using epipolar geometry, view-aligned scanlines, and robust triangulation methods."
-meta_keywords: "multi-camera correspondence, 3d object localization, epipolar geometry, computer vision, triangulation, camera calibration"
-og_title: "Multi-Camera Island Correspondence for 3D Object Localization"
-og_description: "Mathematical framework for cross-camera island matching and 3D object localization using view-aligned scanlines and epipolar constraints"
-og_type: "article"
-schema_type: "TechArticle"
-schema_headline: "Multi-Camera Island Correspondence for 3D Object Localization"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
+document_type: research_paper
+thinking_style: mathematical
+consciousness_level: analytical
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  Mathematical framework for cross-camera island matching and 3D object
+  localization using view-aligned scanlines and epipolar constraints
+excerpt: >-
+  A comprehensive technical framework for matching visual islands across
+  multiple camera feeds to achieve accurate 3D object localization. Includes
+  novel view-aligned scanline orientation strategies, epipolar-constrained
+  correspondence algorithms, and robust triangulation methods for real-time
+  multi-camera systems.
+meta_title: >-
+  Multi-Camera Island Correspondence for 3D Object Localization - Mathematical
+  Framework
+meta_description: >-
+  Advanced mathematical framework for cross-camera visual correspondence and 3D
+  object localization using epipolar geometry, view-aligned scanlines, and
+  robust triangulation methods.
+meta_keywords: >-
+  multi-camera correspondence, 3d object localization, epipolar geometry,
+  computer vision, triangulation, camera calibration
+og_title: Multi-Camera Island Correspondence for 3D Object Localization
+og_description: >-
+  Mathematical framework for cross-camera island matching and 3D object
+  localization using view-aligned scanlines and epipolar constraints
+og_type: article
+schema_type: TechArticle
+schema_headline: Multi-Camera Island Correspondence for 3D Object Localization
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
 schema_word_count: 4200
-schema_reading_time: "PT25M"
-robots: "index,follow"
-content_rating: "general"
-content_language: "en"
-priority: 0.8
-changefreq: "monthly"
-
-# Discoverability
+schema_reading_time: PT25M
+robots: 'index,follow'
+content_rating: general
+content_language: en
+priority: '0.8'
+changefreq: monthly
 is_featured: true
 is_cornerstone: false
 is_gateway: false

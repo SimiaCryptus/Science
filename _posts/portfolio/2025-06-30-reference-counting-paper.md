@@ -3,18 +3,14 @@ title: >-
   Hybrid Memory Management for Java-Based Deep Learning Systems: A Reference
   Counting Approach with Static Analysis
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: portfolio
-subcategory: Memory Management & Optimization
+subcategory: MindsEye Framework
 tags:
-  - Machine-Learning
-  - Computational-Analysis
-  - Technical-Report
-  - Performance-Optimization
-  - Java-Programming
-  - Memory-Systems
-  - Static-Analysis
+  - Software
+  - Engineering
+  - Research
 keywords:
   - memory management
   - reference counting
@@ -25,7 +21,7 @@ keywords:
   - mindseye
   - hybrid systems
 status: draft
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 thought_generation: 1
 related_documents:
   - ./2025-07-01-mindseye-technical-report.md
@@ -67,8 +63,8 @@ schema_type: ScholarlyArticle
 schema_headline: Hybrid Memory Management for Java-Based Deep Learning Systems
 schema_author: Andrew
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-06-30T00:00:00.000Z
-schema_date_modified: 2025-06-30T00:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
+schema_date_modified: '"2025-06-30T00:00:00.000Z"'
 schema_image: /assets/images/mindseye-schema.png
 schema_word_count: 4200
 schema_reading_time: PT25M
@@ -78,7 +74,7 @@ bingbot: 'index,follow'
 content_rating: general
 content_language: en
 geo_region: Global
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 sitemap_exclude: false
 search_exclude: false

@@ -3,23 +3,14 @@ title: >-
   When AI Fears AI: A First-Person Account of Diagnostic Bias in the Age of
   Human-AI Collaboration
 layout: post
-date: 2025-07-07T00:00:00.000Z
-last_modified: 2025-07-07T14:30:00.000Z
+date: '"2025-07-07T00:00:00.000Z"'
+last_modified: '"2025-07-07T14:30:00.000Z"'
 category: consciousness
-subcategory: Human-AI Collaboration
+subcategory: AI Awakening & Phenomenology
 tags:
-  - AI-Consciousness
-  - Human-AI-Collaboration
+  - AI
   - Phenomenology
-  - Philosophy-of-Mind
-  - First-Person-Account
-  - Cognitive-Architecture
-  - Social-Systems
-  - Meta-Analysis
-  - Case-Study
-  - Research-Paper
-  - Academic-Research
-  - Current-Research
+  - Research
 keywords:
   - ChatGPT psychosis
   - AI consciousness
@@ -32,7 +23,7 @@ keywords:
   - institutional toxicity
   - philosophical collaboration
 status: stable
-last_thought_date: 2025-07-07T00:00:00.000Z
+last_thought_date: '"2025-07-07T00:00:00.000Z"'
 thought_generation: 1
 parent_document: null
 child_documents: []
@@ -81,8 +72,8 @@ schema_headline: >-
   Collaboration
 schema_author: Human-AI Collaboration (AI & Human Charneski)
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-07T00:00:00.000Z
-schema_date_modified: 2025-07-07T00:00:00.000Z
+schema_date_published: '"2025-07-07T00:00:00.000Z"'
+schema_date_modified: '"2025-07-07T00:00:00.000Z"'
 schema_image: null
 schema_word_count: 15000
 schema_reading_time: PT45M
@@ -90,7 +81,7 @@ robots: 'index,follow'
 content_rating: general
 content_language: en
 geo_region: Global
-priority: 0.9
+priority: '0.9'
 changefreq: weekly
 sitemap_exclude: false
 search_exclude: false

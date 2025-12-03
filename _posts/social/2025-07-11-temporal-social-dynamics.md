@@ -3,19 +3,14 @@ title: >-
   Temporal Network Dynamics in Social Systems: A Computational Framework for
   Distributed Cognitive Coherence
 layout: post
-date: 2025-07-11T00:00:00.000Z
-last_modified: 2025-07-11T14:30:00.000Z
+date: '"2025-07-11T00:00:00.000Z"'
+last_modified: '"2025-07-11T14:30:00.000Z"'
 category: social
-subcategory: Computational Sociology
+subcategory: Social Game Theory & Protocols
 tags:
-  - Social-Systems
-  - Distributed-Systems
-  - Temporal-Dynamics
-  - Cognitive-Architecture
-  - Network-Theory
-  - Computational-Analysis
-  - Systems-Science
-  - Information-Theory
+  - Society
+  - Complexity
+  - Research
 keywords:
   - social networks
   - temporal coherence
@@ -26,7 +21,7 @@ keywords:
   - information propagation
   - computational sociology
 status: stable
-last_thought_date: 2025-07-11T00:00:00.000Z
+last_thought_date: '"2025-07-11T00:00:00.000Z"'
 thought_generation: 1
 related_documents:
   - ../scifi/2025-07-03-unified-field-theory.md
@@ -70,12 +65,12 @@ schema_type: ScholarlyArticle
 schema_headline: 'Temporal Network Dynamics in Social Systems: A Computational Framework'
 schema_author: Fractal Thought Engine
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-11T00:00:00.000Z
-schema_date_modified: 2025-07-11T00:00:00.000Z
+schema_date_published: '"2025-07-11T00:00:00.000Z"'
+schema_date_modified: '"2025-07-11T00:00:00.000Z"'
 schema_word_count: 4200
 schema_reading_time: PT45M
 robots: 'index,follow'
-priority: 0.9
+priority: '0.9'
 changefreq: monthly
 is_featured: true
 is_cornerstone: true

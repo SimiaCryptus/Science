@@ -3,16 +3,14 @@ title: >-
   Dual-Constraint Training with Adaptive Anomaly Preservation: A Trust Region
   Approach for Protecting Intellectual Diversity in Neural Networks
 layout: post
-date: 2025-07-06T00:00:00.000Z
-last_modified: 2025-07-06T10:00:00.000Z
+date: '"2025-07-06T00:00:00.000Z"'
+last_modified: '"2025-07-06T10:00:00.000Z"'
 category: learning
-subcategory: Training Methodologies
+subcategory: Neural Architectures & Optimization
 tags:
   - Machine-Learning
-  - Neural-Networks
-  - Optimization
-  - Theoretical-Framework
-  - Continual-Learning
+  - Research
+  - Software
 keywords:
   - dual constraint training
   - adaptive anomaly preservation
@@ -22,7 +20,7 @@ keywords:
   - catastrophic forgetting
 status: draft
 thought_generation: 1
-last_thought_date: 2025-07-06T00:00:00.000Z
+last_thought_date: '"2025-07-06T00:00:00.000Z"'
 reading_order: 12
 difficulty_level: advanced
 reading_time_minutes: 25

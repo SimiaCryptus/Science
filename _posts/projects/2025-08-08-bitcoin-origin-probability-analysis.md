@@ -1,79 +1,81 @@
 ---
-# Required fields
-title: "Bitcoin Origin Probability Analysis: North Korea vs Alternative Theories"
+title: 'Bitcoin Origin Probability Analysis: North Korea vs Alternative Theories'
 layout: post
-date: 2025-08-08
-last_modified: 2024-12-19 10:30:00
-
-# Content classification
+date: '"2025-08-08T00:00:00.000Z"'
+last_modified: '"2024-12-19T10:30:00.000Z"'
 category: projects
-subcategory: "Cryptocurrency Analysis"
-tags: [ "Bitcoin", "North-Korea", "Cryptocurrency", "Bayesian-Analysis", "Probability-Theory", "Cybersecurity", "State-Actors", "Financial-Systems" ]
-keywords: [ "bitcoin origin", "satoshi nakamoto", "north korea", "bayesian probability", "cryptocurrency creation", "state actor", "financial warfare" ]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2024-12-19
+subcategory: Mathematics & Geometry
+tags:
+  - Crypto
+  - Economics
+  - Analysis
+keywords:
+  - bitcoin origin
+  - satoshi nakamoto
+  - north korea
+  - bayesian probability
+  - cryptocurrency creation
+  - state actor
+  - financial warfare
+status: stable
+last_thought_date: '"2024-12-19T00:00:00.000Z"'
 thought_generation: 1
-
-# Content Relationships & Navigation
-related_documents: [ ]
+related_documents: []
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 25
-
-# Content Characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "analytical"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "Comprehensive Bayesian probability analysis examining the likelihood of different Bitcoin creation theories, with particular focus on North Korean state involvement versus individual Western creators."
-excerpt: "A systematic probability analysis of Bitcoin's origins using Bayesian reasoning to evaluate evidence for North Korean state creation versus alternative theories including Nick Szabo, Hal Finney, and academic teams."
-
-# SEO Meta Tags
-meta_title: "Bitcoin Origin Analysis: North Korea vs Satoshi Nakamoto Theories - Bayesian Probability Study"
-meta_description: "Detailed probability analysis of Bitcoin creation theories using Bayesian methods. Examines North Korean state involvement, individual creators like Nick Szabo and Hal Finney, and academic teams with evidence-based probability estimates."
-meta_keywords: "bitcoin origin, satoshi nakamoto identity, north korea bitcoin, cryptocurrency analysis, bayesian probability, financial warfare, state actors"
-
-# Open Graph (Social Media)
-og_title: "Bitcoin Origin Probability Analysis: Who Really Created Bitcoin?"
-og_description: "Systematic analysis reveals North Korean state creation as most probable Bitcoin origin theory at 45% likelihood, challenging conventional wisdom about individual creators."
-og_type: "article"
-og_locale: "en_US"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Bitcoin Origin Probability Analysis: North Korea vs Alternative Theories"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-12-19
-schema_date_modified: 2024-12-19
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: analytical
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  Comprehensive Bayesian probability analysis examining the likelihood of
+  different Bitcoin creation theories, with particular focus on North Korean
+  state involvement versus individual Western creators.
+excerpt: >-
+  A systematic probability analysis of Bitcoin's origins using Bayesian
+  reasoning to evaluate evidence for North Korean state creation versus
+  alternative theories including Nick Szabo, Hal Finney, and academic teams.
+meta_title: >-
+  Bitcoin Origin Analysis: North Korea vs Satoshi Nakamoto Theories - Bayesian
+  Probability Study
+meta_description: >-
+  Detailed probability analysis of Bitcoin creation theories using Bayesian
+  methods. Examines North Korean state involvement, individual creators like
+  Nick Szabo and Hal Finney, and academic teams with evidence-based probability
+  estimates.
+meta_keywords: >-
+  bitcoin origin, satoshi nakamoto identity, north korea bitcoin, cryptocurrency
+  analysis, bayesian probability, financial warfare, state actors
+og_title: 'Bitcoin Origin Probability Analysis: Who Really Created Bitcoin?'
+og_description: >-
+  Systematic analysis reveals North Korean state creation as most probable
+  Bitcoin origin theory at 45% likelihood, challenging conventional wisdom about
+  individual creators.
+og_type: article
+og_locale: en_US
+schema_type: ScholarlyArticle
+schema_headline: 'Bitcoin Origin Probability Analysis: North Korea vs Alternative Theories'
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2024-12-19T00:00:00.000Z"'
+schema_date_modified: '"2024-12-19T00:00:00.000Z"'
 schema_word_count: 2800
-schema_reading_time: "PT25M"
-
-# Advanced SEO
-robots: "index,follow"
-content_rating: "general"
-content_language: "en"
-geo_region: "Global"
-
-# Indexing Control
-priority: 0.8
-changefreq: "monthly"
+schema_reading_time: PT25M
+robots: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
+priority: '0.8'
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-
-# Rich Snippets Enhancement
 faq_schema: false
 how_to_schema: false
 breadcrumb_schema: true
 review_schema: false
-
-# Discoverability
 is_featured: true
 is_cornerstone: false
 is_gateway: false

@@ -1,173 +1,143 @@
 ---
-# Core Metadata
-title: "Probabilistic Neural Substrates: A Cross-Entropy Approach to Recurrent Intelligence"
-layout: "post"
-date: 2025-07-06
-last_modified: 2025-07-06 00:00:00
-
-# Content Classification
-category: "learning"
-subcategory: "Neural Architectures"
+title: >-
+  Probabilistic Neural Substrates: A Cross-Entropy Approach to Recurrent
+  Intelligence
+layout: post
+date: '"2025-07-06T00:00:00.000Z"'
+last_modified: '"2025-07-06T00:00:00.000Z"'
+category: learning
+subcategory: Neural Architectures & Optimization
 tags:
-  - "AI-Consciousness"
-  - "Cognitive-Architecture"
-  - "Machine-Learning"
-  - "Neural-Networks"
-  - "Information-Theory"
-  - "Quantum-Computing"
-  - "Optimization"
-  - "Theoretical-Framework"
-  - "Mathematical-Modeling"
-  - "Complexity-Science"
+  - Machine-Learning
+  - Mathematics
+  - Research
 keywords:
-  - "probabilistic neural networks"
-  - "cross-entropy optimization"
-  - "recurrent intelligence"
-  - "belief maintenance"
-  - "uncertainty quantification"
-  - "self-organizing systems"
-  - "information-theoretic learning"
-  - "probabilistic inference"
-
-# Content Status and Evolution
-status: "working"
-last_thought_date: 2025-07-06
+  - probabilistic neural networks
+  - cross-entropy optimization
+  - recurrent intelligence
+  - belief maintenance
+  - uncertainty quantification
+  - self-organizing systems
+  - information-theoretic learning
+  - probabilistic inference
+status: working
+last_thought_date: '"2025-07-06T00:00:00.000Z"'
 thought_generation: 1
-
-# Document Relationships & Navigation
 parent_document: null
-child_documents: [ ]
+child_documents: []
 related_documents:
-  - "_posts/learning/probabilistic-decision-trees.md"
-  - "_posts/learning/compression-based-classification.md"
-  - "_posts/learning/hierarchical-compression.md"
-  - "_posts/projects/consciousness-quantum-field-theory.md"
-
+  - _posts/learning/probabilistic-decision-trees.md
+  - _posts/learning/compression-based-classification.md
+  - _posts/learning/hierarchical-compression.md
+  - _posts/projects/consciousness-quantum-field-theory.md
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 45
-
-# Content Characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "recursive"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A novel computational paradigm proposing Probabilistic Neural Substrates (PNS) that maintain continuous probability distributions through cross-entropy optimization, enabling self-organizing recurrent intelligence with unprecedented interpretability and uncertainty quantification."
-
-excerpt: "We propose Probabilistic Neural Substrates (PNS)—dynamic, recurrent computational systems that maintain continuous probability distributions rather than computing discrete outputs. Inspired by probabilistic decision trees with cross-entropy optimization, PNS systems self-organize through information-theoretic principles, exhibit emergent temporal dynamics, and support querying rather than traditional forward propagation."
-
-featured_image: "../../assets/images/pns.png"
-og_image: "../../assets/images/pns.png"
-
-# SEO Meta Tags
-meta_title: "Probabilistic Neural Substrates: Cross-Entropy Recurrent Intelligence"
-meta_description: "Novel computational paradigm using continuous probability distributions and cross-entropy optimization for self-organizing, interpretable AI systems with uncertainty quantification."
-meta_keywords: "probabilistic neural networks, cross-entropy, recurrent intelligence, uncertainty quantification, self-organizing systems"
-
-# Open Graph (Social Media)
-og_title: "Probabilistic Neural Substrates: A New Computational Paradigm"
-og_description: "Dynamic recurrent systems maintaining continuous probability distributions through information-theoretic principles"
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Probabilistic Neural Substrates: A Cross-Entropy Approach to Recurrent Intelligence"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-07-06
-schema_date_modified: 2025-07-06
-schema_image: "../../assets/images/pns.png"
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: recursive
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A novel computational paradigm proposing Probabilistic Neural Substrates (PNS)
+  that maintain continuous probability distributions through cross-entropy
+  optimization, enabling self-organizing recurrent intelligence with
+  unprecedented interpretability and uncertainty quantification.
+excerpt: >-
+  We propose Probabilistic Neural Substrates (PNS)—dynamic, recurrent
+  computational systems that maintain continuous probability distributions
+  rather than computing discrete outputs. Inspired by probabilistic decision
+  trees with cross-entropy optimization, PNS systems self-organize through
+  information-theoretic principles, exhibit emergent temporal dynamics, and
+  support querying rather than traditional forward propagation.
+featured_image: ../../assets/images/pns.png
+og_image: ../../assets/images/pns.png
+meta_title: 'Probabilistic Neural Substrates: Cross-Entropy Recurrent Intelligence'
+meta_description: >-
+  Novel computational paradigm using continuous probability distributions and
+  cross-entropy optimization for self-organizing, interpretable AI systems with
+  uncertainty quantification.
+meta_keywords: >-
+  probabilistic neural networks, cross-entropy, recurrent intelligence,
+  uncertainty quantification, self-organizing systems
+og_title: 'Probabilistic Neural Substrates: A New Computational Paradigm'
+og_description: >-
+  Dynamic recurrent systems maintaining continuous probability distributions
+  through information-theoretic principles
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: ScholarlyArticle
+schema_headline: >-
+  Probabilistic Neural Substrates: A Cross-Entropy Approach to Recurrent
+  Intelligence
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-07-06T00:00:00.000Z"'
+schema_date_modified: '"2025-07-06T00:00:00.000Z"'
+schema_image: ../../assets/images/pns.png
 schema_word_count: 8500
-schema_reading_time: "PT45M"
-
-# Advanced SEO
-canonical_url: "https://fractalthoughtengine.com/_posts/learning/2025-07-06-probabilistic-neural-substrate.md"
-robots: "index,follow"
-googlebot: "index,follow"
-bingbot: "index,follow"
-
-# Content Classification for Search
-content_rating: "general"
-content_language: "en"
-geo_region: "Global"
-
-# Indexing Control
-priority: 0.9
-changefreq: "weekly"
+schema_reading_time: PT45M
+canonical_url: >-
+  https://fractalthoughtengine.com/_posts/learning/2025-07-06-probabilistic-neural-substrate.md
+robots: 'index,follow'
+googlebot: 'index,follow'
+bingbot: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
+priority: '0.9'
+changefreq: weekly
 sitemap_exclude: false
 search_exclude: false
-
-# Rich Snippets Enhancement
 faq_schema: true
 how_to_schema: true
 breadcrumb_schema: true
 review_schema: false
-
-# Performance and Technical SEO
 preload_resources:
-  - "/assets/css/mermaid.css"
-  - "/assets/js/mermaid.min.js"
+  - /assets/css/mermaid.css
+  - /assets/js/mermaid.min.js
 prefetch_resources:
-  - "../../assets/images/pns.png"
-  - "_posts/learning/probabilistic-decision-trees.md"
+  - ../../assets/images/pns.png
+  - _posts/learning/probabilistic-decision-trees.md
 dns_prefetch:
-  - "https://cdn.jsdelivr.net"
-
-# Discoverability
+  - 'https://cdn.jsdelivr.net'
 is_featured: true
 is_cornerstone: true
 is_gateway: true
 is_synthesis: true
-
-# Additional Metadata
-research_stage: "Theoretical-Framework"
-implementation_status: "Proposed"
-project_timeline: "36 months"
-team_size: "6 core members"
-computational_requirements: "100+ GPU-years"
-funding_stage: "Proposal"
-
-# Cross-References
+research_stage: Theoretical-Framework
+implementation_status: Proposed
+project_timeline: 36 months
+team_size: 6 core members
+computational_requirements: 100+ GPU-years
+funding_stage: Proposal
 references_count: 10
 figures_count: 6
 equations_count: 12
 code_examples: 0
-datasets_used: [ ]
-
-# Collaboration Metadata
+datasets_used: []
 open_for_collaboration: true
 collaboration_areas:
-  - "Implementation"
-  - "Theoretical Analysis"
-  - "Empirical Validation"
-  - "Application Development"
-  - "Hardware Optimization"
-
-# Version Control
-version: "1.0"
+  - Implementation
+  - Theoretical Analysis
+  - Empirical Validation
+  - Application Development
+  - Hardware Optimization
+version: '1.0'
 version_history:
-  - version: "1.0"
-    date: 2025-07-06
-    changes: "Initial publication"
-
-# Accessibility
-accessibility_level: "WCAG 2.1 AA"
+  - version: '1.0'
+    date: 2025-07-06T00:00:00.000Z
+    changes: Initial publication
+accessibility_level: WCAG 2.1 AA
 has_alt_text: true
 has_captions: false
 has_transcripts: false
-
-# License and Attribution
-license: "CC BY-NC-SA 4.0"
+license: CC BY-NC-SA 4.0
 attribution_required: true
 commercial_use: false
 derivative_works: true
-
 ---
 
 # Probabilistic Neural Substrates: A Cross-Entropy Approach to Recurrent Intelligence

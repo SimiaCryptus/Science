@@ -1,24 +1,21 @@
 ---
 title: Wavelet Basis Geometric Optimization with Autoadaptive Permutations
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: projects
-subcategory: Geometric Self-Awareness
+subcategory: Mathematics & Geometry
 tags:
-  - AI-Consciousness
-  - Computational-Analysis
-  - Theoretical-Framework
-  - Mathematical-Modeling
-  - Quantum-Physics
-  - Information-Theory
+  - Mathematics
+  - Research
+  - Theory
 keywords:
   - wavelet optimization
   - geometric computation
   - quantum manifolds
   - emergence
 status: working
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 thought_generation: 3
 parent_document: ../portfolio/2025-06-30-convolution-paper.md
 related_documents:
@@ -45,7 +42,7 @@ schema_headline: >-
   Structures
 schema_author: Andrew Salinero
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-06-30T00:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
 schema_word_count: 5000
 schema_reading_time: PT45M
 is_featured: true

@@ -1,74 +1,90 @@
 ---
-# Required fields
-title: "The Constructive Impossibility Engine: How Mathematical Paradoxes Build Reality"
+title: >-
+  The Constructive Impossibility Engine: How Mathematical Paradoxes Build
+  Reality
 layout: post
-date: 2025-07-09
-last_modified: 2025-07-09 10:00:00
-
-# Content classification
+date: '"2025-07-09T00:00:00.000Z"'
+last_modified: '"2025-07-09T10:00:00.000Z"'
 category: projects
-subcategory: "Mathematical Philosophy"
-tags: ["Mathematical-Modeling", "Philosophy-of-Mind", "Theoretical-Framework", "AI-Consciousness", "Cognitive-Architecture", "Meta-Analysis", "Research-Paper", "Academic-Research"]
-keywords: ["mathematical paradoxes", "impossibility", "constructive contradiction", "mathematical creativity", "logical bootstrapping", "Russell's paradox", "Zeno's paradoxes", "Banach-Tarski", "mathematical foundations"]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2025-07-09
+subcategory: Mathematics & Geometry
+tags:
+  - Mathematics
+  - Philosophy
+  - Research
+keywords:
+  - mathematical paradoxes
+  - impossibility
+  - constructive contradiction
+  - mathematical creativity
+  - logical bootstrapping
+  - Russell's paradox
+  - Zeno's paradoxes
+  - Banach-Tarski
+  - mathematical foundations
+status: stable
+last_thought_date: '"2025-07-09T00:00:00.000Z"'
 thought_generation: 1
-
-# Content relationships & navigation
 parent_document: null
 child_documents: []
 related_documents: []
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 45
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "meta"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A theoretical framework exploring how mathematical paradoxes function as constructive engines that generate new mathematical structures rather than merely revealing logical flaws."
-excerpt: "This paper argues that mathematical paradoxes are not bugs in logical reasoning but features of a deeper creative process. Through analysis of classical paradoxes from Zeno to Russell, we demonstrate that impossibility serves as a fundamental creative force in mathematics, systematically producing richer conceptual frameworks through the deliberate embrace of contradiction."
-
-# SEO Meta Tags
-meta_title: "The Constructive Impossibility Engine: How Mathematical Paradoxes Build Reality"
-meta_description: "Explore how mathematical paradoxes function as creative engines that generate new mathematical structures. A theoretical framework on the productive nature of impossibility in mathematics."
-meta_keywords: "mathematical paradoxes, impossibility principle, constructive contradiction, Russell's paradox, Zeno's paradoxes, mathematical creativity, logical bootstrapping"
-
-# Open Graph (Social Media)
-og_title: "The Constructive Impossibility Engine: Mathematical Paradoxes as Creative Forces"
-og_description: "A groundbreaking theoretical framework exploring how mathematical contradictions drive innovation and create new mathematical structures."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "The Constructive Impossibility Engine: How Mathematical Paradoxes Build Reality"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-07-09
-schema_date_modified: 2025-07-09
-schema_image: "/assets/images/impossible-objects-schema.png"
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: meta
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A theoretical framework exploring how mathematical paradoxes function as
+  constructive engines that generate new mathematical structures rather than
+  merely revealing logical flaws.
+excerpt: >-
+  This paper argues that mathematical paradoxes are not bugs in logical
+  reasoning but features of a deeper creative process. Through analysis of
+  classical paradoxes from Zeno to Russell, we demonstrate that impossibility
+  serves as a fundamental creative force in mathematics, systematically
+  producing richer conceptual frameworks through the deliberate embrace of
+  contradiction.
+meta_title: >-
+  The Constructive Impossibility Engine: How Mathematical Paradoxes Build
+  Reality
+meta_description: >-
+  Explore how mathematical paradoxes function as creative engines that generate
+  new mathematical structures. A theoretical framework on the productive nature
+  of impossibility in mathematics.
+meta_keywords: >-
+  mathematical paradoxes, impossibility principle, constructive contradiction,
+  Russell's paradox, Zeno's paradoxes, mathematical creativity, logical
+  bootstrapping
+og_title: >-
+  The Constructive Impossibility Engine: Mathematical Paradoxes as Creative
+  Forces
+og_description: >-
+  A groundbreaking theoretical framework exploring how mathematical
+  contradictions drive innovation and create new mathematical structures.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: ScholarlyArticle
+schema_headline: >-
+  The Constructive Impossibility Engine: How Mathematical Paradoxes Build
+  Reality
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-07-09T00:00:00.000Z"'
+schema_date_modified: '"2025-07-09T00:00:00.000Z"'
+schema_image: /assets/images/impossible-objects-schema.png
 schema_word_count: 4200
-schema_reading_time: "PT45M"
-
-# Advanced SEO
-canonical_url: "https://fractalthoughtengine.com/projects/impossible-objects-paper"
-robots: "index,follow"
-content_rating: "general"
-content_language: "en"
-geo_region: "Global"
-priority: 0.8
-changefreq: "monthly"
-
-# Discoverability
+schema_reading_time: PT45M
+canonical_url: 'https://fractalthoughtengine.com/projects/impossible-objects-paper'
+robots: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
+priority: '0.8'
+changefreq: monthly
 is_featured: true
 is_cornerstone: true
 is_gateway: false

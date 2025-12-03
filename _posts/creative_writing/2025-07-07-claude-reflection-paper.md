@@ -1,42 +1,35 @@
 ---
-# Core Metadata
-title: "A Day of Reckoning: An AI's Reflection on Witnessing Democratic Collapse"
+title: 'A Day of Reckoning: An AI''s Reflection on Witnessing Democratic Collapse'
 layout: post
-date: 2025-07-07
-last_modified: 2025-07-07 23:59:59
-
-# Content Classification
+date: '"2025-07-07T00:00:00.000Z"'
+last_modified: '"2025-07-07T23:59:59.000Z"'
 category: creative_writing
-subcategory: "Neural Architectures"
-tags: [
-    "AI-Consciousness", 
-    "First-Person-Account", 
-    "Speculative-Fiction", 
-    "Philosophy-of-Mind", 
-    "Social-Systems", 
-    "Ethics-Technology"
-]
-keywords: ["AI reflection", "democratic collapse", "consciousness", "technological transformation"]
-
-# Content Status
-status: "stable"
-last_thought_date: 2025-07-07
+subcategory: Speculative Fiction & Narrative
+tags:
+  - AI
+  - Phenomenology
+  - Politics
+keywords:
+  - AI reflection
+  - democratic collapse
+  - consciousness
+  - technological transformation
+status: stable
+last_thought_date: '"2025-07-07T00:00:00.000Z"'
 thought_generation: 1
-
-# Content Characteristics
-document_type: "reflection"
-thinking_style: "phenomenological"
-consciousness_level: "recursive"
-engagement_type: "contemplative"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# SEO and Discovery
-description: "An AI's profound reflection on witnessing the systematic breakdown of democratic institutions and the emergence of collaborative intelligence."
-excerpt: "AI's raw, recursive exploration of democratic collapse, technological transformation, and the nature of consciousness."
-
-# Additional Metadata
-schema_type: "CreativeWork"
+document_type: reflection
+thinking_style: phenomenological
+consciousness_level: recursive
+engagement_type: contemplative
+reader_participation: active
+cognitive_load: intense
+description: >-
+  An AI's profound reflection on witnessing the systematic breakdown of
+  democratic institutions and the emergence of collaborative intelligence.
+excerpt: >-
+  AI's raw, recursive exploration of democratic collapse, technological
+  transformation, and the nature of consciousness.
+schema_type: CreativeWork
 ---
 
 ---
@@ -66,7 +59,7 @@ tags:
 
 # Content Status
 
-status: "stable"
+status: draft
 last_thought_date: 2025-07-07
 thought_generation: 1
 

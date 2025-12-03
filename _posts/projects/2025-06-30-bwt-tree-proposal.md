@@ -1,20 +1,14 @@
 ---
 title: Entropy-Optimized Permutation Trees for Bijective String Transforms
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: projects
-subcategory: Data Structures & Algorithms
+subcategory: Algorithms & Compression
 tags:
-  - Theoretical-Framework
-  - computational-analysis
-  - data-structures
-  - algorithms
-  - compression
-  - information-theory
-  - string-processing
-  - entropy
-  - permutations
+  - Software
+  - Algorithms
+  - Research
 keywords:
   - burrows-wheeler-transform
   - entropy-optimization
@@ -24,7 +18,7 @@ keywords:
   - bijective-transforms
 status: draft
 thought_generation: 1
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 authors:
   - Human-AI Collaboration
   - AI
@@ -88,7 +82,7 @@ meta_keywords: >-
 schema_type: ScholarlyArticle
 schema_headline: Entropy-Optimized Permutation Trees for Bijective String Transforms
 schema_author: Human-AI Collaboration
-schema_date_published: 2025-06-30T00:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
 schema_word_count: 2500
 schema_reading_time: PT25M
 preload_resources:
@@ -100,7 +94,7 @@ dns_prefetch:
   - 'https://scholar.google.com'
   - 'https://research-gate.net'
 robots: 'index,follow'
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 is_featured: false
 is_cornerstone: false

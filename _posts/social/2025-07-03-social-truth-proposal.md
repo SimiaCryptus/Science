@@ -3,22 +3,14 @@ title: >-
   Dynamic Multi-Agent Modeling of Social Truth Formation: A Spatially-Embedded 
   Game-Theoretic Approach
 layout: post
-date: 2025-07-03T00:00:00.000Z
-last_modified: 2025-07-03T12:00:00.000Z
+date: '"2025-07-03T00:00:00.000Z"'
+last_modified: '"2025-07-03T12:00:00.000Z"'
 category: social
-subcategory: Social Dynamics & Collective Intelligence
+subcategory: Social Game Theory & Protocols
 tags:
-  - AI-Consciousness
-  - Social-Systems
+  - Society
   - Game-Theory
-  - Machine-Learning
-  - Cognitive-Architecture
-  - Theoretical-Framework
-  - Mathematical-Modeling
-  - Computational-Analysis
-  - Research-Paper
-  - Current-Research
-  - Academic-Research
+  - Research
 keywords:
   - multi-agent systems
   - computational social science
@@ -30,7 +22,7 @@ keywords:
   - consensus formation
   - polarization
 status: draft
-last_thought_date: 2025-07-03T00:00:00.000Z
+last_thought_date: '"2025-07-03T00:00:00.000Z"'
 thought_generation: 1
 related_documents:
   - ./2025-06-30-game-theory-ethics.md
@@ -78,8 +70,8 @@ schema_type: ScholarlyArticle
 schema_headline: Dynamic Multi-Agent Modeling of Social Truth Formation
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-03T00:00:00.000Z
-schema_date_modified: 2025-07-03T00:00:00.000Z
+schema_date_published: '"2025-07-03T00:00:00.000Z"'
+schema_date_modified: '"2025-07-03T00:00:00.000Z"'
 schema_image: /assets/images/social-truth-schema.png
 schema_word_count: 8500
 schema_reading_time: PT45M
@@ -87,7 +79,7 @@ robots: 'index,follow'
 content_rating: general
 content_language: en
 geo_region: Global
-priority: 0.9
+priority: '0.9'
 changefreq: weekly
 sitemap_exclude: false
 search_exclude: false

@@ -3,18 +3,14 @@ title: >-
   The Climate Action Decision Protocol: Game Theory and Conditional Ethics for
   Carbon Reduction
 layout: post
-date: 2025-07-03T00:00:00.000Z
-last_modified: 2025-07-03T12:00:00.000Z
+date: '"2025-07-03T00:00:00.000Z"'
+last_modified: '"2025-07-03T12:00:00.000Z"'
 category: projects
-subcategory: Climate Coordination
+subcategory: Software Engineering & Specs
 tags:
+  - Environment
+  - Politics
   - Game-Theory
-  - climate_change
-  - game_theory
-  - conditional_ethics
-  - carbon_reduction
-  - coordination_problems
-  - environmental_policy
 keywords:
   - coordination dynamics
   - carbon budget allocation
@@ -31,7 +27,7 @@ keywords:
   - environmental game theory
   - climate governance
 status: draft
-last_thought_date: 2025-07-03T00:00:00.000Z
+last_thought_date: '"2025-07-03T00:00:00.000Z"'
 thought_generation: 1
 interdisciplinary_tags:
   - Complexity-Science
@@ -103,11 +99,11 @@ og_locale: en_US
 schema_type: ScholarlyArticle
 schema_headline: Game Theory and Conditional Ethics for Climate Action Coordination
 schema_author: Human-AI Collaboration
-schema_date_published: 2025-07-03T00:00:00.000Z
+schema_date_published: '"2025-07-03T00:00:00.000Z"'
 schema_word_count: 4500
 schema_reading_time: PT45M
 robots: 'index,follow'
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 is_featured: true
 is_cornerstone: true

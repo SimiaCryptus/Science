@@ -1,18 +1,14 @@
 ---
 title: Parametric Metacognitive Orchestration for Foundation Model Agents
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: projects
-subcategory: Neural Architectures
+subcategory: Software Engineering & Specs
 tags:
-  - metacognition
-  - agentic systems
-  - Foundation-Models
-  - reasoning orchestration
-  - cognitive architecture
-  - ai
-  - Consciousness
+  - AI
+  - Cognitive-Science
+  - Research
 keywords:
   - metacognitive layer
   - parametric orchestration
@@ -23,7 +19,7 @@ keywords:
   - Multi-Model Ensemble
 status: draft
 thought_generation: 1
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 author:
   - Human-AI Collaboration
   - AI
@@ -80,7 +76,7 @@ meta_description: >-
   Novel architecture for optimizing AI agent interactions with foundation models
   through explicit cognitive parameterization, enabling 20-35% performance
   improvements across diverse reasoning tasks.
-meta_keywords: >
+meta_keywords: >-
   metacognitive AI, foundation models, agentic systems, cognitive orchestration,
   reasoning amplification, AI-Architecture
 og_title: Parametric Metacognitive Orchestration for Foundation Model Agents
@@ -93,15 +89,15 @@ schema_type: ScholarlyArticle
 schema_headline: Parametric Metacognitive Orchestration for Foundation Model Agents
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-06-30T00:00:00.000Z
-schema_date_modified: 2025-06-30T12:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
+schema_date_modified: '"2025-06-30T12:00:00.000Z"'
 schema_word_count: 8500
 schema_reading_time: PT45M
 robots: 'index,follow'
 content_rating: general
 content_language: en
 geo_region: Global
-priority: 0.9
+priority: '0.9'
 changefreq: monthly
 sitemap_exclude: false
 search_exclude: false

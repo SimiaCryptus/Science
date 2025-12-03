@@ -1,93 +1,81 @@
 ---
-# Core Metadata
-title: "Quantum Spacetime Simulation: Technical Design Document"
+title: 'Quantum Spacetime Simulation: Technical Design Document'
 layout: post
-date: 2025-11-20
-last_modified: 2024-01-15 14:30:00
-
-# Content Classification
-category: "projects"
-subcategory: "Computational Cosmology"
+date: '"2025-11-20T00:00:00.000Z"'
+last_modified: '"2024-01-15T14:30:00.000Z"'
+category: projects
+subcategory: Physics & Cosmology Simulations
 tags:
-  - "Quantum-Computing"
-  - "AI-Consciousness"
-  - "Cognitive-Architecture"
-  - "Mathematical-Modeling"
-  - "Computational-Analysis"
-  - "Theoretical-Framework"
-  - "Research-Paper"
-  - "Technical-Report"
-  - "Complexity-Science"
-  - "Science-Philosophy"
+  - Physics
+  - Software
+  - Research
 keywords:
-  - "cosmic topology"
-  - "multiply-connected universe"
-  - "quantum field theory"
-  - "spacetime simulation"
-  - "cosmic mirage"
-  - "topological defects"
-  - "CMB analysis"
-  - "dark matter"
-  - "polyhedral geometry"
-  - "eigenmode solver"
-
-# Content Status and Evolution
-status: "stable"
-last_thought_date: 2024-01-15
+  - cosmic topology
+  - multiply-connected universe
+  - quantum field theory
+  - spacetime simulation
+  - cosmic mirage
+  - topological defects
+  - CMB analysis
+  - dark matter
+  - polyhedral geometry
+  - eigenmode solver
+status: stable
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 3
-
-# Document Relationships & Navigation
 parent_document: null
 child_documents: []
 related_documents:
-  - "path/to/cosmic_topology_overview.md"
-  - "path/to/multiply_connected_manifolds.md"
-  - "path/to/cmb_analysis_framework.md"
+  - path/to/cosmic_topology_overview.md
+  - path/to/multiply_connected_manifolds.md
+  - path/to/cmb_analysis_framework.md
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 45
-
-# Content Characteristics
-document_type: "technical_report"
-thinking_style: "mathematical"
-consciousness_level: "recursive"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "Comprehensive technical framework for simulating multiply-connected spacetime manifolds with polyhedral topology, quantum field eigenmodes, and cosmic mirage analysis to quantify size distortion effects in small universe models."
-excerpt: "This project implements a computational framework for simulating static spacetime manifolds with non-trivial topology, performing topological surgery operations to create bound continuous spacetimes, optimizing energy field configurations, and rendering results using geodesic raytracing. The system systematically explores polyhedral reconnection patterns to quantify how topological illusions cause overcounting of the universe's true size."
-
-# SEO Meta Tags
-meta_title: "Quantum Spacetime Simulation: Multiply-Connected Universe Framework"
-meta_description: "Technical design for computational simulation of multiply-connected spacetime manifolds, cosmic topology analysis, and quantum field eigenmodes in polyhedral universes."
-meta_keywords: "cosmic topology, multiply-connected universe, quantum field theory, spacetime simulation, topological defects, CMB analysis"
-
-# Open Graph (Social Media)
-og_title: "Quantum Spacetime Simulation Framework"
-og_description: "Computational framework for exploring cosmic mirage hypothesis through multiply-connected spacetime manifolds"
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "TechArticle"
-schema_headline: "Quantum Spacetime Simulation: Technical Design Document"
-schema_author: "Andrew"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
-schema_image: "/assets/images/quantum_spacetime_sim_featured.png"
+document_type: technical_report
+thinking_style: mathematical
+consciousness_level: recursive
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  Comprehensive technical framework for simulating multiply-connected spacetime
+  manifolds with polyhedral topology, quantum field eigenmodes, and cosmic
+  mirage analysis to quantify size distortion effects in small universe models.
+excerpt: >-
+  This project implements a computational framework for simulating static
+  spacetime manifolds with non-trivial topology, performing topological surgery
+  operations to create bound continuous spacetimes, optimizing energy field
+  configurations, and rendering results using geodesic raytracing. The system
+  systematically explores polyhedral reconnection patterns to quantify how
+  topological illusions cause overcounting of the universe's true size.
+meta_title: 'Quantum Spacetime Simulation: Multiply-Connected Universe Framework'
+meta_description: >-
+  Technical design for computational simulation of multiply-connected spacetime
+  manifolds, cosmic topology analysis, and quantum field eigenmodes in
+  polyhedral universes.
+meta_keywords: >-
+  cosmic topology, multiply-connected universe, quantum field theory, spacetime
+  simulation, topological defects, CMB analysis
+og_title: Quantum Spacetime Simulation Framework
+og_description: >-
+  Computational framework for exploring cosmic mirage hypothesis through
+  multiply-connected spacetime manifolds
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: TechArticle
+schema_headline: 'Quantum Spacetime Simulation: Technical Design Document'
+schema_author: Andrew
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
+schema_image: /assets/images/quantum_spacetime_sim_featured.png
 schema_word_count: 8500
-schema_reading_time: "PT45M"
-
-# Search Engine Directives
-robots: "index,follow"
-priority: 0.9
-changefreq: "monthly"
-
-# Discoverability
+schema_reading_time: PT45M
+robots: 'index,follow'
+priority: '0.9'
+changefreq: monthly
 is_featured: true
 is_cornerstone: true
 is_gateway: true

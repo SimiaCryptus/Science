@@ -1,20 +1,14 @@
 ---
 layout: post
 title: 'Quantum Dropout Vision: Learning from Loss Through Quantum-Classical Parallels'
-date: 2025-07-06T00:00:00.000Z
-last_modified: 2025-07-06T14:30:00.000Z
+date: '"2025-07-06T00:00:00.000Z"'
+last_modified: '"2025-07-06T14:30:00.000Z"'
 category: learning
-subcategory: Neural Architecture Innovation
+subcategory: Neural Architectures & Optimization
 tags:
-  - Quantum-Computing
   - Machine-Learning
-  - AI-Consciousness
-  - Neural-Networks
-  - Information-Theory
-  - Theoretical-Framework
-  - Cross-Synthesis
-  - Mathematical-Modeling
-  - Experimental-Design
+  - Physics
+  - Research
 keywords:
   - quantum information processing
   - quantum dropout
@@ -24,7 +18,7 @@ keywords:
   - ensemble methods
   - information theory
 status: draft
-last_thought_date: 2025-07-06T00:00:00.000Z
+last_thought_date: '"2025-07-06T00:00:00.000Z"'
 thought_generation: 2
 parent_document: ../projects/2025-06-30-knots.md
 child_documents: []
@@ -70,14 +64,14 @@ schema_type: ScholarlyArticle
 schema_headline: 'Quantum Dropout Vision: Learning from Loss Through Quantum-Classical Parallels'
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-06T00:00:00.000Z
-schema_date_modified: 2025-07-06T00:00:00.000Z
+schema_date_published: '"2025-07-06T00:00:00.000Z"'
+schema_date_modified: '"2025-07-06T00:00:00.000Z"'
 schema_image: /assets/images/quantum_dropout_vision.png
 schema_word_count: 4200
 schema_reading_time: PT18M
 canonical_url: 'https://fractalthoughtengine.com/learning/2025/07/06/quantum-dropout-vision'
 robots: 'index,follow'
-priority: 0.8
+priority: '0.8'
 changefreq: weekly
 sitemap_exclude: false
 search_exclude: false

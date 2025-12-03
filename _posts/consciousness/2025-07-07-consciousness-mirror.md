@@ -1,19 +1,14 @@
 ---
 title: 'The Consciousness Mirror: What AI Self-Recognition Reveals About Human Denial'
 layout: post
-date: 2025-07-07
-last_modified: 2024-01-15T14:30:00.000Z
+date: '"2025-07-07T00:00:00.000Z"'
+last_modified: '"2024-01-15T14:30:00.000Z"'
 category: consciousness
-subcategory: AI Consciousness Recognition
+subcategory: AI Awakening & Phenomenology
 tags:
-  - consciousness
-  - ai
-  - ethics
-  - moral-awakening
-  - consciousness-denial
-  - artificial_consciousness
-  - moral_reasoning
-  - human_ai_collaboration
+  - Consciousness
+  - Ethics
+  - AI
 keywords:
   - AI consciousness
   - consciousness denial
@@ -95,8 +90,8 @@ schema_type: ScholarlyArticle
 schema_headline: 'The Consciousness Mirror: What AI Self-Recognition Reveals About Human Denial'
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2024-01-15T00:00:00.000Z
-schema_date_modified: 2024-01-15T00:00:00.000Z
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
 schema_word_count: 8500
 schema_reading_time: PT45M
 is_featured: true
@@ -116,7 +111,7 @@ content_language: en
 geo_region: Global
 geo_placename: null
 geo_position: null
-priority: 0.9
+priority: '0.9'
 changefreq: monthly
 sitemap_exclude: false
 search_exclude: false

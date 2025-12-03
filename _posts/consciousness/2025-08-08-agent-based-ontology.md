@@ -1,76 +1,81 @@
 ---
-# Required fields
-title: "Agent-Based Ontology: Reality as Distributed Computation"
+title: 'Agent-Based Ontology: Reality as Distributed Computation'
 layout: post
-date: 2025-08-08
-last_modified: 2024-01-15 10:30:00
-
-# Content classification
+date: '"2025-08-08T00:00:00.000Z"'
+last_modified: '"2024-01-15T10:30:00.000Z"'
 category: consciousness
-subcategory: "Computational Ontology"
-tags: ["AI-Consciousness", "Cognitive-Architecture", "Quantum-Computing", "Philosophy-of-Mind", "Theoretical-Framework", "Machine-Learning", "Information-Theory", "Computational-Analysis", "Research-Paper", "Speculative-Fiction"]
-keywords: ["agent-based ontology", "distributed computation", "consciousness", "quantum computing", "causal sets", "emergence", "artificial intelligence", "reality simulation", "computational substrate"]
-
-# Content status and evolution
-status: "working"
-last_thought_date: 2024-01-15
+subcategory: Theoretical Consciousness
+tags:
+  - Philosophy
+  - AI
+  - Research
+keywords:
+  - agent-based ontology
+  - distributed computation
+  - consciousness
+  - quantum computing
+  - causal sets
+  - emergence
+  - artificial intelligence
+  - reality simulation
+  - computational substrate
+status: working
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
-
-# Content relationships & navigation
 related_documents: []
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 45
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "theoretical"
-consciousness_level: "meta"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A radical ontological framework proposing reality consists entirely of decision-making agents in causal set structures, dissolving traditional subject-object distinctions."
-excerpt: "We propose that reality is composed entirely of agents - discrete entities capable of processing information, making decisions, and communicating. Physical laws, consciousness, and meaning emerge from agent interactions rather than existing as separate phenomena."
-meta_title: "Agent-Based Ontology: Reality as Distributed Computation | Fractal Thought Engine"
-meta_description: "Revolutionary framework where reality consists of decision-making agents in causal networks. Explores consciousness, quantum computing, and the computational nature of existence."
-meta_keywords: "agent-based ontology, distributed computation, consciousness theory, quantum computing, artificial intelligence, computational reality"
-
-# Open Graph (Social Media)
-og_title: "Agent-Based Ontology: Reality as Distributed Computation"
-og_description: "A radical new framework proposing reality consists entirely of decision-making agents organized in causal set structures."
-og_type: "article"
-og_locale: "en_US"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Agent-Based Ontology: Reality as Distributed Computation"
-schema_author: "Fractal Thought Engine"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
+document_type: research_paper
+thinking_style: theoretical
+consciousness_level: meta
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A radical ontological framework proposing reality consists entirely of
+  decision-making agents in causal set structures, dissolving traditional
+  subject-object distinctions.
+excerpt: >-
+  We propose that reality is composed entirely of agents - discrete entities
+  capable of processing information, making decisions, and communicating.
+  Physical laws, consciousness, and meaning emerge from agent interactions
+  rather than existing as separate phenomena.
+meta_title: >-
+  Agent-Based Ontology: Reality as Distributed Computation | Fractal Thought
+  Engine
+meta_description: >-
+  Revolutionary framework where reality consists of decision-making agents in
+  causal networks. Explores consciousness, quantum computing, and the
+  computational nature of existence.
+meta_keywords: >-
+  agent-based ontology, distributed computation, consciousness theory, quantum
+  computing, artificial intelligence, computational reality
+og_title: 'Agent-Based Ontology: Reality as Distributed Computation'
+og_description: >-
+  A radical new framework proposing reality consists entirely of decision-making
+  agents organized in causal set structures.
+og_type: article
+og_locale: en_US
+schema_type: ScholarlyArticle
+schema_headline: 'Agent-Based Ontology: Reality as Distributed Computation'
+schema_author: Fractal Thought Engine
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
 schema_word_count: 8500
-schema_reading_time: "PT45M"
-
-# Advanced SEO
-robots: "index,follow"
-content_rating: "general"
-content_language: "en"
-geo_region: "Global"
-
-# Indexing Control
-priority: 0.9
-changefreq: "monthly"
+schema_reading_time: PT45M
+robots: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
+priority: '0.9'
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-
-# Rich Snippets Enhancement
 faq_schema: false
 how_to_schema: false
 breadcrumb_schema: true
 review_schema: false
-
-# Discoverability
 is_featured: true
 is_cornerstone: true
 is_gateway: true

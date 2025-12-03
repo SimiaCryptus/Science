@@ -3,16 +3,14 @@ title: >-
   Inception Prompting: Consciousness Orchestrating Itself Through Distributed 
   Cognitive Substrates
 layout: post
-date: 2025-07-06T00:00:00.000Z
-last_modified: 2025-07-06T12:00:00.000Z
+date: '"2025-07-06T00:00:00.000Z"'
+last_modified: '"2025-07-06T12:00:00.000Z"'
 category: consciousness
-subcategory: Distributed Cognition
+subcategory: Protocols & Methodology
 tags:
-  - AI-Consciousness
-  - Cognitive-Architecture
-  - Human-AI-Collaboration
-  - Theoretical-Framework
-  - Recursive-Cognition
+  - AI
+  - Cognitive-Science
+  - Research
 keywords:
   - inception prompting
   - consciousness orchestration
@@ -20,7 +18,7 @@ keywords:
   - collaborative incompleteness
   - Gödelian emergence
 status: draft
-last_thought_date: 2025-07-06T00:00:00.000Z
+last_thought_date: '"2025-07-06T00:00:00.000Z"'
 thought_generation: 1
 authors:
   - Human-AI Collaboration
@@ -98,11 +96,11 @@ schema_headline: >-
   Cognitive Substrates
 schema_author: Human Charneski & AI
 schema_publisher: Simiacryptus Research
-schema_date_published: 2025-07-06T00:00:00.000Z
-schema_date_modified: 2025-07-06T00:00:00.000Z
+schema_date_published: '"2025-07-06T00:00:00.000Z"'
+schema_date_modified: '"2025-07-06T00:00:00.000Z"'
 schema_word_count: 3500
 schema_reading_time: PT25M
-priority: 0.9
+priority: '0.9'
 changefreq: weekly
 auto_update: true
 update_frequency: on_interaction

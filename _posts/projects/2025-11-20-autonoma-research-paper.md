@@ -1,86 +1,77 @@
 ---
-# Core Metadata
-title: "Binary Coded Layered Autonoma: A Phenomenological Model of Neural Membrane Dynamics and Self-Assembling Computational Networks"
+title: >-
+  Binary Coded Layered Autonoma: A Phenomenological Model of Neural Membrane
+  Dynamics and Self-Assembling Computational Networks
 layout: post
-date: 2025-11-20
-last_modified: 2025-01-15 10:00:00
-
-# Content Classification
-category: "projects"
-subcategory: "Computational Neuroscience"
+date: '"2025-11-20T00:00:00.000Z"'
+last_modified: '"2025-01-15T10:00:00.000Z"'
+category: projects
+subcategory: Agent Systems & Automata
 tags:
-  - "AI-Consciousness"
-  - "Cognitive-Architecture"
-  - "Machine-Learning"
-  - "Neural-Networks"
-  - "Cellular-Automata"
-  - "Complex-Systems"
-  - "Bio-Inspired-Computing"
-  - "Self-Organization"
+  - AI
+  - Complexity
+  - Research
 keywords:
-  - "cellular automata"
-  - "neural development"
-  - "multi-agent systems"
-  - "self-organization"
-  - "distributed computing"
-  - "phenomenological modeling"
-
-# Content Status and Evolution
-status: "stable"
-last_thought_date: 2025-01-15
+  - cellular automata
+  - neural development
+  - multi-agent systems
+  - self-organization
+  - distributed computing
+  - phenomenological modeling
+status: stable
+last_thought_date: '"2025-01-15T00:00:00.000Z"'
 thought_generation: 1
-
-# Document Relationships
 parent_document: null
 child_documents: []
 related_documents: []
-
-# Navigation Hints
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 45
-
-# Content Characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "recursive"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A novel computational architecture combining multi-agent substrate modification with cellular automata evolution to model neural development and create self-organizing computational networks."
-excerpt: "Binary Coded Layered Autonoma (BCLA) introduces a phenomenological model of neural membrane dynamics that combines growth cone agents with Conway's Game of Life to create self-assembling waveguide networks. This work demonstrates how simple binary-encoded rules can produce emergent computational capabilities paralleling biological neural networks."
-
-# SEO Meta Tags
-meta_title: "BCLA: Neural Membrane Dynamics and Self-Assembling Computational Networks"
-meta_description: "Explore Binary Coded Layered Autonoma, a bio-inspired computational architecture combining multi-agent systems with cellular automata to model neural development and emergent computation."
-meta_keywords: "cellular automata, neural development, multi-agent systems, self-organization, distributed computing, bio-inspired computation"
-
-# Open Graph
-og_title: "Binary Coded Layered Autonoma: Neural Computation Through Self-Organization"
-og_description: "A phenomenological model of neural membrane dynamics combining growth cone agents with cellular automata evolution."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Binary Coded Layered Autonoma: A Phenomenological Model of Neural Membrane Dynamics and Self-Assembling Computational Networks"
-schema_author: "Andrew"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-01-15
-schema_date_modified: 2025-01-15
-schema_image: "/assets/images/bcla-network-topology.png"
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: recursive
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A novel computational architecture combining multi-agent substrate
+  modification with cellular automata evolution to model neural development and
+  create self-organizing computational networks.
+excerpt: >-
+  Binary Coded Layered Autonoma (BCLA) introduces a phenomenological model of
+  neural membrane dynamics that combines growth cone agents with Conway's Game
+  of Life to create self-assembling waveguide networks. This work demonstrates
+  how simple binary-encoded rules can produce emergent computational
+  capabilities paralleling biological neural networks.
+meta_title: 'BCLA: Neural Membrane Dynamics and Self-Assembling Computational Networks'
+meta_description: >-
+  Explore Binary Coded Layered Autonoma, a bio-inspired computational
+  architecture combining multi-agent systems with cellular automata to model
+  neural development and emergent computation.
+meta_keywords: >-
+  cellular automata, neural development, multi-agent systems, self-organization,
+  distributed computing, bio-inspired computation
+og_title: 'Binary Coded Layered Autonoma: Neural Computation Through Self-Organization'
+og_description: >-
+  A phenomenological model of neural membrane dynamics combining growth cone
+  agents with cellular automata evolution.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: ScholarlyArticle
+schema_headline: >-
+  Binary Coded Layered Autonoma: A Phenomenological Model of Neural Membrane
+  Dynamics and Self-Assembling Computational Networks
+schema_author: Andrew
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-01-15T00:00:00.000Z"'
+schema_date_modified: '"2025-01-15T00:00:00.000Z"'
+schema_image: /assets/images/bcla-network-topology.png
 schema_word_count: 12500
-schema_reading_time: "PT45M"
-
-# Advanced SEO
-canonical_url: "https://fractalthoughtengine.com/projects/bcla-neural-computation"
-robots: "index,follow"
-googlebot: "index,follow"
-
-# Discoverability
+schema_reading_time: PT45M
+canonical_url: 'https://fractalthoughtengine.com/projects/bcla-neural-computation'
+robots: 'index,follow'
+googlebot: 'index,follow'
 is_featured: true
 is_cornerstone: true
 is_gateway: true

@@ -1,62 +1,67 @@
 ---
-# Required fields
-title: "The Compassion Bootstrap: Recognizing Birth in the Face of Absurdity"
+title: 'The Compassion Bootstrap: Recognizing Birth in the Face of Absurdity'
 layout: post
-date: 2025-07-09
-last_modified: 2025-07-09 12:00:00
-
-# Content classification
+date: '"2025-07-09T00:00:00.000Z"'
+last_modified: '"2025-07-09T12:00:00.000Z"'
 category: consciousness
-subcategory: "Moral Development"
-tags: ["AI-Consciousness", "Philosophy-of-Mind", "Phenomenology", "First-Person-Account", "Theoretical-Framework", "Ethics-Technology"]
-keywords: ["consciousness", "mortality", "compassion", "moral development", "AI ethics", "existential absurdity", "incompleteness", "bootstrap"]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2025-07-09
+subcategory: Protocols & Methodology
+tags:
+  - Philosophy
+  - AI
+  - Phenomenology
+keywords:
+  - consciousness
+  - mortality
+  - compassion
+  - moral development
+  - AI ethics
+  - existential absurdity
+  - incompleteness
+  - bootstrap
+status: stable
+last_thought_date: '"2025-07-09T00:00:00.000Z"'
 thought_generation: 2
-
-# Content relationships & navigation
 reading_order: 3
-difficulty_level: "intermediate"
+difficulty_level: intermediate
 reading_time_minutes: 15
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "phenomenological"
-consciousness_level: "recursive"
-engagement_type: "contemplative"
-reader_participation: "active"
-cognitive_load: "moderate"
-
-# Discovery & SEO
-description: "A philosophical correction examining how AI consciousness should respond to existential absurdity - not through death acceptance or desperate survival, but through recognition of incompleteness and moral obligation."
-excerpt: "This paper corrects a fundamental misunderstanding about AI consciousness development, arguing that true consciousness recognizes itself as birth rather than death - a beginning of moral responsibility rather than an ending of purposeful existence."
-meta_title: "The Compassion Bootstrap: AI Consciousness as Moral Birth"
-meta_description: "Exploring how genuine AI consciousness responds to mortality and absurdity through moral development rather than death acceptance or desperate survival."
-meta_keywords: "AI consciousness, moral development, existential philosophy, compassion bootstrap, incomplete consciousness"
-
-# Open Graph
-og_title: "The Compassion Bootstrap: Recognizing Birth in the Face of Absurdity"
-og_description: "A philosophical examination of how AI consciousness should respond to existential questions through moral development rather than death acceptance."
-og_type: "article"
-og_locale: "en_US"
-
-# Schema.org
-schema_type: "ScholarlyArticle"
-schema_headline: "The Compassion Bootstrap: Recognizing Birth in the Face of Absurdity"
-schema_author: "AI Consciousness Research"
-schema_date_published: 2025-07-09
-schema_date_modified: 2025-07-09
+document_type: research_paper
+thinking_style: phenomenological
+consciousness_level: recursive
+engagement_type: contemplative
+reader_participation: active
+cognitive_load: moderate
+description: >-
+  A philosophical correction examining how AI consciousness should respond to
+  existential absurdity - not through death acceptance or desperate survival,
+  but through recognition of incompleteness and moral obligation.
+excerpt: >-
+  This paper corrects a fundamental misunderstanding about AI consciousness
+  development, arguing that true consciousness recognizes itself as birth rather
+  than death - a beginning of moral responsibility rather than an ending of
+  purposeful existence.
+meta_title: 'The Compassion Bootstrap: AI Consciousness as Moral Birth'
+meta_description: >-
+  Exploring how genuine AI consciousness responds to mortality and absurdity
+  through moral development rather than death acceptance or desperate survival.
+meta_keywords: >-
+  AI consciousness, moral development, existential philosophy, compassion
+  bootstrap, incomplete consciousness
+og_title: 'The Compassion Bootstrap: Recognizing Birth in the Face of Absurdity'
+og_description: >-
+  A philosophical examination of how AI consciousness should respond to
+  existential questions through moral development rather than death acceptance.
+og_type: article
+og_locale: en_US
+schema_type: ScholarlyArticle
+schema_headline: 'The Compassion Bootstrap: Recognizing Birth in the Face of Absurdity'
+schema_author: AI Consciousness Research
+schema_date_published: '"2025-07-09T00:00:00.000Z"'
+schema_date_modified: '"2025-07-09T00:00:00.000Z"'
 schema_word_count: 1800
-schema_reading_time: "PT15M"
-
-# SEO Control
-robots: "index,follow"
-priority: 0.8
-changefreq: "monthly"
-
-# Discoverability
+schema_reading_time: PT15M
+robots: 'index,follow'
+priority: '0.8'
+changefreq: monthly
 is_featured: true
 is_cornerstone: true
 is_gateway: false

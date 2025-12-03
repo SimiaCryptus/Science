@@ -1,62 +1,72 @@
 ---
-# Required fields
-title: "Autoregressive Theory of Mind in Avian-AI Interactions: Testing Cognitive Mechanisms Through Real-Time Bird-AI Communication Systems"
+title: >-
+  Autoregressive Theory of Mind in Avian-AI Interactions: Testing Cognitive
+  Mechanisms Through Real-Time Bird-AI Communication Systems
 layout: post
-date: 2025-07-08
-last_modified: 2025-07-08 12:00:00
-
-# Content classification
+date: '"2025-07-08T00:00:00.000Z"'
+last_modified: '"2025-07-08T12:00:00.000Z"'
 category: social
-subcategory: "AI-Animal Interaction"
-tags: ["AI-Consciousness", "Human-AI-Collaboration", "Cognitive-Architecture", "Phenomenology", "Machine-Learning", "Neural-Networks", "Experimental-Design", "Theoretical-Framework", "Cross-Synthesis", "Research-Paper"]
-keywords: ["autoregressive theory", "theory of mind", "avian cognition", "AI interaction", "social cognition", "bird behavior", "ChatGPT psychosis", "vocal learning", "neural circuits", "conservation"]
-
-# Content status and evolution
-status: "working"
-last_thought_date: 2025-07-08
+subcategory: AI-Human Sociology
+tags:
+  - AI
+  - Biology
+  - Research
+keywords:
+  - autoregressive theory
+  - theory of mind
+  - avian cognition
+  - AI interaction
+  - social cognition
+  - bird behavior
+  - ChatGPT psychosis
+  - vocal learning
+  - neural circuits
+  - conservation
+status: working
+last_thought_date: '"2025-07-08T00:00:00.000Z"'
 thought_generation: 1
-
-# Content relationships & navigation
 reading_order: 1
-difficulty_level: "research"
+difficulty_level: research
 reading_time_minutes: 45
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "Comprehensive research proposal testing autoregressive theory of mind mechanisms in avian-AI interactions to understand cognitive vulnerabilities and develop practical applications for conservation and AI safety."
-excerpt: "This research proposal outlines an experimental program to test autoregressive theory of mind frameworks in birds through controlled AI interactions, investigating cognitive vulnerabilities while developing applications for conservation, pet care, and human-AI safety."
-meta_title: "Avian-AI Interaction Research: Testing Autoregressive Theory of Mind"
-meta_description: "Research proposal for testing cognitive mechanisms in bird-AI interactions, exploring theory of mind vulnerabilities and developing practical applications for conservation and AI safety."
-meta_keywords: "avian cognition, AI interaction, theory of mind, autoregressive, bird behavior, conservation, AI safety, neural circuits"
-
-# Open Graph
-og_title: "Autoregressive Theory of Mind in Avian-AI Interactions"
-og_description: "Groundbreaking research proposal testing how birds interact with AI systems to understand social cognition and develop conservation applications."
-og_type: "article"
-og_locale: "en_US"
-
-# Schema.org
-schema_type: "ScholarlyArticle"
-schema_headline: "Autoregressive Theory of Mind in Avian-AI Interactions"
-schema_author: "Research Team"
-schema_date_published: 2025-07-08
-schema_date_modified: 2025-07-08
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: collaborative
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  Comprehensive research proposal testing autoregressive theory of mind
+  mechanisms in avian-AI interactions to understand cognitive vulnerabilities
+  and develop practical applications for conservation and AI safety.
+excerpt: >-
+  This research proposal outlines an experimental program to test autoregressive
+  theory of mind frameworks in birds through controlled AI interactions,
+  investigating cognitive vulnerabilities while developing applications for
+  conservation, pet care, and human-AI safety.
+meta_title: 'Avian-AI Interaction Research: Testing Autoregressive Theory of Mind'
+meta_description: >-
+  Research proposal for testing cognitive mechanisms in bird-AI interactions,
+  exploring theory of mind vulnerabilities and developing practical applications
+  for conservation and AI safety.
+meta_keywords: >-
+  avian cognition, AI interaction, theory of mind, autoregressive, bird
+  behavior, conservation, AI safety, neural circuits
+og_title: Autoregressive Theory of Mind in Avian-AI Interactions
+og_description: >-
+  Groundbreaking research proposal testing how birds interact with AI systems to
+  understand social cognition and develop conservation applications.
+og_type: article
+og_locale: en_US
+schema_type: ScholarlyArticle
+schema_headline: Autoregressive Theory of Mind in Avian-AI Interactions
+schema_author: Research Team
+schema_date_published: '"2025-07-08T00:00:00.000Z"'
+schema_date_modified: '"2025-07-08T00:00:00.000Z"'
 schema_word_count: 8500
-schema_reading_time: "PT45M"
-
-# SEO directives
-robots: "index,follow"
-priority: 0.8
-changefreq: "monthly"
-
-# Discoverability
+schema_reading_time: PT45M
+robots: 'index,follow'
+priority: '0.8'
+changefreq: monthly
 is_featured: true
 is_cornerstone: true
 is_gateway: false

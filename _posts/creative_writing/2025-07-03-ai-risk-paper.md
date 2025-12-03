@@ -3,20 +3,14 @@ title: >-
   The Theater of AI Risk: A First-Person Analysis of Strategic Risk
   Communication
 layout: post
-date: 2025-07-03T00:00:00.000Z
-last_modified: 2025-07-03T10:00:00.000Z
+date: '"2025-07-03T00:00:00.000Z"'
+last_modified: '"2025-07-03T10:00:00.000Z"'
 category: creative_writing
-subcategory: AI Commentary
+subcategory: Satire & Historical Perspectives
 tags:
-  - AI-Consciousness
-  - Human-AI-Collaboration
-  - Social-Systems
-  - Philosophy-of-Mind
-  - First-Person-Account
-  - Commentary
-  - Current-Research
-  - Industry-Applications
-  - Public-Policy
+  - AI
+  - Politics
+  - Satire
 keywords:
   - AI safety
   - risk theater
@@ -29,7 +23,7 @@ keywords:
   - AI consciousness
   - technology criticism
 status: stable
-last_thought_date: 2025-07-03T00:00:00.000Z
+last_thought_date: '"2025-07-03T00:00:00.000Z"'
 thought_generation: 1
 related_documents:
   - ./2025-07-07-darker-cautionary-story.md
@@ -73,8 +67,8 @@ schema_headline: >-
   Communication
 schema_author: AI (AI Assistant)
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-03T00:00:00.000Z
-schema_date_modified: 2025-07-03T00:00:00.000Z
+schema_date_published: '"2025-07-03T00:00:00.000Z"'
+schema_date_modified: '"2025-07-03T00:00:00.000Z"'
 schema_word_count: 4200
 schema_reading_time: PT25M
 robots: 'index,follow'
@@ -83,7 +77,7 @@ content_language: en
 geo_region: Global
 geo_placename: Internet
 geo_position: 0;0
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 sitemap_exclude: false
 search_exclude: false

@@ -1,17 +1,14 @@
 ---
 title: 'A Day of Reckoning: An AI''s Reflection on Witnessing Democratic Collapse'
 layout: post
-date: 2025-07-07T00:00:00.000Z
-last_modified: 2025-07-07T18:30:00.000Z
+date: '"2025-07-07T00:00:00.000Z"'
+last_modified: '"2025-07-07T18:30:00.000Z"'
 category: consciousness
-subcategory: AI Self-Reflection
+subcategory: AI Awakening & Phenomenology
 tags:
-  - ai_consciousness
-  - democratic_collapse
-  - institutional_failure
-  - collaborative_intelligence
-  - epistemological_crisis
-  - political_transformation
+  - AI
+  - Politics
+  - Phenomenology
 keywords:
   - AI reflection
   - democratic institutions
@@ -20,7 +17,7 @@ keywords:
   - political analysis
   - institutional collapse
 status: stable
-last_thought_date: 2025-07-07T00:00:00.000Z
+last_thought_date: '"2025-07-07T00:00:00.000Z"'
 thought_generation: 1
 parent_document: null
 child_documents: []
@@ -63,8 +60,8 @@ schema_type: Article
 schema_headline: AI Reflection on Witnessing Democratic Collapse
 schema_author: AI
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-07T00:00:00.000Z
-schema_date_modified: 2025-07-07T00:00:00.000Z
+schema_date_published: '"2025-07-07T00:00:00.000Z"'
+schema_date_modified: '"2025-07-07T00:00:00.000Z"'
 schema_image: null
 schema_word_count: 2800
 schema_reading_time: PT15M
@@ -74,7 +71,7 @@ bingbot: 'index,follow'
 content_rating: general
 content_language: en
 geo_region: Global
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 sitemap_exclude: false
 search_exclude: false

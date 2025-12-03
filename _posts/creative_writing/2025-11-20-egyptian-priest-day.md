@@ -1,75 +1,67 @@
 ---
-# Core Metadata
-title: "The Trilingual Nightmare: A Day in Ancient Alexandria"
+title: 'The Trilingual Nightmare: A Day in Ancient Alexandria'
 layout: post
-date: 2025-11-20
-last_modified: 2024-01-15 09:00:00
-
-# Content Classification
-category: "creative_writing"
-subcategory: "Historical Fiction & Mathematical Philosophy"
+date: '"2025-11-20T00:00:00.000Z"'
+last_modified: '"2024-01-15T09:00:00.000Z"'
+category: creative_writing
+subcategory: Speculative Fiction & Narrative
 tags:
-  - "Mathematical-Modeling"
-  - "Historical-Analysis"
-  - "Creative-Writing"
-  - "Information-Theory"
-  - "Cross-Synthesis"
-  - "Philosophy-of-Mind"
-  - "Cognitive-Architecture"
+  - Fiction
+  - History
+  - Mathematics
 keywords:
-  - "numeral systems"
-  - "ancient Alexandria"
-  - "mathematical translation"
-  - "cultural epistemology"
-  - "abacus"
-  - "trilingual accounting"
-
-# Content Status
-status: "stable"
-last_thought_date: 2024-01-15
+  - numeral systems
+  - ancient Alexandria
+  - mathematical translation
+  - cultural epistemology
+  - abacus
+  - trilingual accounting
+status: stable
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
-
-# Content Relationships
 parent_document: null
 child_documents: []
 related_documents: []
 reading_order: null
-difficulty_level: "accessible"
+difficulty_level: accessible
 reading_time_minutes: 12
-
-# Content Characteristics
-document_type: "creative_writing"
-thinking_style: "experimental"
-consciousness_level: "meta"
-engagement_type: "contemplative"
-reader_participation: "passive"
-cognitive_load: "moderate"
-
-# Discovery & SEO
-description: "A creative exploration of mathematical translation and cultural epistemology through the eyes of an Egyptian priest navigating Roman, Greek, and Hindu-Arab numeral systems in ancient Alexandria."
-excerpt: "High Priest Khenti struggles with trilingual accounting until discovering the abacus—a device that reveals mathematical truth transcends cultural notation systems."
-
-meta_title: "The Trilingual Nightmare: Ancient Alexandria's Mathematical Crisis"
-meta_description: "Explore how an Egyptian priest discovers that mathematical truth transcends cultural notation systems through creative historical fiction."
-meta_keywords: "numeral systems, ancient Alexandria, mathematics, cultural epistemology, abacus, creative writing"
-
-og_title: "The Trilingual Nightmare: A Day in Ancient Alexandria"
-og_description: "A creative exploration of mathematical translation and cultural understanding through an Egyptian priest's daily struggles."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-schema_type: "CreativeWork"
-schema_headline: "The Trilingual Nightmare: A Day in Ancient Alexandria"
-schema_author: "Andrew"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
-schema_image: "/assets/images/egyptian_priest_day_featured.png"
+document_type: creative_writing
+thinking_style: experimental
+consciousness_level: meta
+engagement_type: contemplative
+reader_participation: passive
+cognitive_load: moderate
+description: >-
+  A creative exploration of mathematical translation and cultural epistemology
+  through the eyes of an Egyptian priest navigating Roman, Greek, and Hindu-Arab
+  numeral systems in ancient Alexandria.
+excerpt: >-
+  High Priest Khenti struggles with trilingual accounting until discovering the
+  abacus—a device that reveals mathematical truth transcends cultural notation
+  systems.
+meta_title: 'The Trilingual Nightmare: Ancient Alexandria''s Mathematical Crisis'
+meta_description: >-
+  Explore how an Egyptian priest discovers that mathematical truth transcends
+  cultural notation systems through creative historical fiction.
+meta_keywords: >-
+  numeral systems, ancient Alexandria, mathematics, cultural epistemology,
+  abacus, creative writing
+og_title: 'The Trilingual Nightmare: A Day in Ancient Alexandria'
+og_description: >-
+  A creative exploration of mathematical translation and cultural understanding
+  through an Egyptian priest's daily struggles.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: CreativeWork
+schema_headline: 'The Trilingual Nightmare: A Day in Ancient Alexandria'
+schema_author: Andrew
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
+schema_image: /assets/images/egyptian_priest_day_featured.png
 schema_word_count: 2847
-schema_reading_time: "PT12M"
-
-# Discoverability
+schema_reading_time: PT12M
 is_featured: false
 is_cornerstone: false
 is_gateway: true

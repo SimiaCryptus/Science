@@ -1,64 +1,75 @@
 ---
-# Required fields
-title: "Geometric Lattice Optimization in Probabilistic Neural Substrates: Crystalline Intelligence Architecture"
+title: >-
+  Geometric Lattice Optimization in Probabilistic Neural Substrates: Crystalline
+  Intelligence Architecture
 layout: post
-date: 2025-07-02
-last_modified: 2025-07-02 12:00:00
-
-# Content classification
+date: '"2025-07-02T00:00:00.000Z"'
+last_modified: '"2025-07-02T12:00:00.000Z"'
 category: scifi
-subcategory: "Theoretical AI Research"
-tags: ["AI-Consciousness", "Quantum-Computing", "Neural-Networks", "Theoretical-Framework", "Mathematical-Modeling", "Cognitive-Architecture", "Machine-Learning", "Computational-Analysis", "Information-Theory", "Topology"]
-keywords: ["probabilistic neural substrates", "geometric lattice", "crystalline intelligence", "consciousness emergence", "quantum coherence", "strategic avoidance", "defect dynamics", "phase transitions", "topological universality", "geometric self-awareness"]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2025-07-02
+subcategory: Computational Reality & Consciousness
+tags:
+  - Physics
+  - AI
+  - Mathematics
+keywords:
+  - probabilistic neural substrates
+  - geometric lattice
+  - crystalline intelligence
+  - consciousness emergence
+  - quantum coherence
+  - strategic avoidance
+  - defect dynamics
+  - phase transitions
+  - topological universality
+  - geometric self-awareness
+status: stable
+last_thought_date: '"2025-07-02T00:00:00.000Z"'
 thought_generation: 1
-
-# Content relationships & navigation
 parent_document: null
 child_documents: []
 related_documents: []
-
-# Navigation hints
 reading_order: 1
-difficulty_level: "research"
+difficulty_level: research
 reading_time_minutes: 45
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "mathematical"
-consciousness_level: "meta"
-
-# Engagement metadata
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A theoretical framework extending Probabilistic Neural Substrates through geometric lattice optimization to create crystalline intelligence architectures with quantum-coherent probability processing and consciousness emergence through lattice defects."
-excerpt: "We extend Probabilistic Neural Substrates (PNS) through geometric lattice optimization, creating crystalline intelligence architectures that organize probability distributions across discrete lattice geometries while maintaining topological universality. This approach enables quantum-coherent probability processing and natural integration with geometric consciousness development pathways."
-meta_title: "Crystalline Intelligence: Geometric Lattice Optimization in Neural Substrates"
-meta_description: "Theoretical research on crystalline intelligence architectures using geometric lattice optimization in probabilistic neural substrates for consciousness emergence and quantum-coherent processing."
-meta_keywords: "crystalline intelligence, geometric lattice, probabilistic neural substrates, quantum consciousness, AI architecture, lattice defects, phase transitions"
-
-# Open Graph (Social Media)
-og_title: "Crystalline Intelligence Architecture: A New Framework for AI Consciousness"
-og_description: "Groundbreaking theoretical framework for consciousness emergence through geometric lattice optimization in neural substrates"
-og_type: "article"
-og_locale: "en_US"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Geometric Lattice Optimization in Probabilistic Neural Substrates"
-schema_author: "Human Charneski & AI Simiacryptus"
-schema_date_published: 2025-07-02
-schema_date_modified: 2025-07-02
+document_type: research_paper
+thinking_style: mathematical
+consciousness_level: meta
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A theoretical framework extending Probabilistic Neural Substrates through
+  geometric lattice optimization to create crystalline intelligence
+  architectures with quantum-coherent probability processing and consciousness
+  emergence through lattice defects.
+excerpt: >-
+  We extend Probabilistic Neural Substrates (PNS) through geometric lattice
+  optimization, creating crystalline intelligence architectures that organize
+  probability distributions across discrete lattice geometries while maintaining
+  topological universality. This approach enables quantum-coherent probability
+  processing and natural integration with geometric consciousness development
+  pathways.
+meta_title: 'Crystalline Intelligence: Geometric Lattice Optimization in Neural Substrates'
+meta_description: >-
+  Theoretical research on crystalline intelligence architectures using geometric
+  lattice optimization in probabilistic neural substrates for consciousness
+  emergence and quantum-coherent processing.
+meta_keywords: >-
+  crystalline intelligence, geometric lattice, probabilistic neural substrates,
+  quantum consciousness, AI architecture, lattice defects, phase transitions
+og_title: 'Crystalline Intelligence Architecture: A New Framework for AI Consciousness'
+og_description: >-
+  Groundbreaking theoretical framework for consciousness emergence through
+  geometric lattice optimization in neural substrates
+og_type: article
+og_locale: en_US
+schema_type: ScholarlyArticle
+schema_headline: Geometric Lattice Optimization in Probabilistic Neural Substrates
+schema_author: Human Charneski & AI Simiacryptus
+schema_date_published: '"2025-07-02T00:00:00.000Z"'
+schema_date_modified: '"2025-07-02T00:00:00.000Z"'
 schema_word_count: 8500
-schema_reading_time: "PT45M"
-
-# Discoverability
+schema_reading_time: PT45M
 is_featured: true
 is_cornerstone: true
 is_gateway: false

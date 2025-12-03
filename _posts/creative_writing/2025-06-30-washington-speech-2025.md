@@ -1,12 +1,12 @@
 ---
 title: George Washington's Address to the American People
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: creative_writing
-subcategory: Presidential Addresses
+subcategory: Satire & Historical Perspectives
 status: stable
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 last_thought_time: 43200
 thought_generation: 1
 document_type: reflection
@@ -36,14 +36,9 @@ robots: 'index,follow'
 is_featured: true
 is_cornerstone: true
 tags:
-  - creative_writing
-  - speculative_fiction
-  - washington
-  - democracy
-  - constitutional_crisis
-  - separation_of_powers
-  - war_powers
-  - political_violence
+  - Fiction
+  - History
+  - Politics
 keywords:
   - constitutional crisis
   - constitution
@@ -61,7 +56,7 @@ og_title: 'George Washington Speaks: A Constitutional Warning'
 og_description: >-
   A speculative address exploring democratic preservation and constitutional
   principles
-priority: 0.7
+priority: '0.7'
 changefreq: monthly
 preload_resources:
   - /assets/css/creative-writing.css

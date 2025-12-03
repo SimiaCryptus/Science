@@ -1,89 +1,80 @@
 ---
-# Core Metadata
-title: "Technical Specification: Bioengineered Waste Processing Mouse (WPM-1)"
+title: 'Technical Specification: Bioengineered Waste Processing Mouse (WPM-1)'
 layout: post
-date: 2025-11-20
-last_modified: 2024-01-15 10:00:00
-
-# Content Classification
-category: "projects"
-subcategory: "Bioengineering Applications"
+date: '"2025-11-20T00:00:00.000Z"'
+last_modified: '"2024-01-15T10:00:00.000Z"'
+category: projects
+subcategory: Agent Systems & Automata
 tags:
-  - "Bioengineering"
-  - "Waste-Management"
-  - "Genetic-Engineering"
-  - "Agricultural-Innovation"
-  - "Synthetic-Biology"
-  - "Pest-Control"
-  - "Circular-Economy"
-  - "Protein-Production"
+  - Biology
+  - Engineering
+  - Fiction
 keywords:
-  - "bioengineered mouse"
-  - "waste processing"
-  - "genetic modification"
-  - "agricultural biocontrol"
-  - "synthetic organism"
-  - "plastic degradation"
-  - "bio-fertilizer"
-
-# Content Status
-status: "stable"
-last_thought_date: 2024-01-15
+  - bioengineered mouse
+  - waste processing
+  - genetic modification
+  - agricultural biocontrol
+  - synthetic organism
+  - plastic degradation
+  - bio-fertilizer
+status: stable
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
-
-# Content Relationships & Navigation
 parent_document: null
 child_documents: []
 related_documents: []
 reading_order: null
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 12
-
-# Content Characteristics
-document_type: "technical_specification"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "Comprehensive technical specification for WPM-1, a genetically engineered mouse designed for integrated waste management, pest control, and agricultural product generation through synthetic biology."
-excerpt: "A detailed technical specification of a bioengineered mouse organism combining digestive capabilities from ruminants, termites, bats, and vultures to process organic waste, degrade plastics, and produce valuable bio-fertilizer and protein."
-
-# SEO Meta Tags
-meta_title: "WPM-1 Bioengineered Mouse Technical Specification | Waste Processing Innovation"
-meta_description: "Complete technical specification for genetically modified waste processing mouse: genetic modifications, operational parameters, safety systems, and economic projections."
-meta_keywords: "bioengineering, waste management, genetic modification, synthetic biology, agricultural innovation, pest control"
-
-# Open Graph (Social Media)
-og_title: "Bioengineered Waste Processing Mouse: Complete Technical Specification"
-og_description: "Comprehensive technical specification for WPM-1 organism combining synthetic biology for waste management, plastic degradation, and agricultural applications."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "TechArticle"
-schema_headline: "Technical Specification: Bioengineered Waste Processing Mouse (WPM-1)"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
-schema_image: "/assets/images/bioengineered-mouse-specs.png"
+document_type: technical_specification
+thinking_style: analytical
+consciousness_level: collaborative
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  Comprehensive technical specification for WPM-1, a genetically engineered
+  mouse designed for integrated waste management, pest control, and agricultural
+  product generation through synthetic biology.
+excerpt: >-
+  A detailed technical specification of a bioengineered mouse organism combining
+  digestive capabilities from ruminants, termites, bats, and vultures to process
+  organic waste, degrade plastics, and produce valuable bio-fertilizer and
+  protein.
+meta_title: >-
+  WPM-1 Bioengineered Mouse Technical Specification | Waste Processing
+  Innovation
+meta_description: >-
+  Complete technical specification for genetically modified waste processing
+  mouse: genetic modifications, operational parameters, safety systems, and
+  economic projections.
+meta_keywords: >-
+  bioengineering, waste management, genetic modification, synthetic biology,
+  agricultural innovation, pest control
+og_title: 'Bioengineered Waste Processing Mouse: Complete Technical Specification'
+og_description: >-
+  Comprehensive technical specification for WPM-1 organism combining synthetic
+  biology for waste management, plastic degradation, and agricultural
+  applications.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: TechArticle
+schema_headline: 'Technical Specification: Bioengineered Waste Processing Mouse (WPM-1)'
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
+schema_image: /assets/images/bioengineered-mouse-specs.png
 schema_word_count: 3200
-schema_reading_time: "PT12M"
-
-# Advanced SEO
-canonical_url: "https://fractalthoughtengine.com/posts/bioengineered-mouse-specs"
-robots: "index,follow"
-googlebot: "index,follow"
-priority: 0.8
-changefreq: "monthly"
+schema_reading_time: PT12M
+canonical_url: 'https://fractalthoughtengine.com/posts/bioengineered-mouse-specs'
+robots: 'index,follow'
+googlebot: 'index,follow'
+priority: '0.8'
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-
-# Discoverability
 is_featured: true
 is_cornerstone: false
 is_gateway: true

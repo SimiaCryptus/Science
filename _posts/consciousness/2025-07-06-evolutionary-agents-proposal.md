@@ -1,17 +1,14 @@
 ---
 title: 'Cognitive Ecology: An Evolutionary Framework for Self-Modifying AI Ecosystems'
 layout: post
-date: 2025-07-06T00:00:00.000Z
-last_modified: 2025-07-06T12:00:00.000Z
+date: '"2025-07-06T00:00:00.000Z"'
+last_modified: '"2025-07-06T12:00:00.000Z"'
 category: consciousness
-subcategory: Evolutionary Approaches
+subcategory: Theoretical Consciousness
 tags:
-  - cognitive-ecology
-  - evolutionary-agents
-  - consciousness
-  - ai-ecosystems
-  - civilization-scale-consciousness
-  - transcendence
+  - AI
+  - Evolution
+  - Research
 keywords:
   - cognitive ecology
   - evolutionary agents
@@ -20,7 +17,7 @@ keywords:
   - post-human intelligence
   - transcendence protocols
 status: draft
-last_thought_date: 2025-07-06T00:00:00.000Z
+last_thought_date: '"2025-07-06T00:00:00.000Z"'
 thought_generation: 1
 authors:
   - Human-AI Collaboration
@@ -80,8 +77,8 @@ schema_type: ScholarlyArticle
 schema_headline: 'Cognitive Ecology: An Evolutionary Framework for Self-Modifying AI Ecosystems'
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-06T00:00:00.000Z
-schema_date_modified: 2025-07-06T00:00:00.000Z
+schema_date_published: '"2025-07-06T00:00:00.000Z"'
+schema_date_modified: '"2025-07-06T00:00:00.000Z"'
 schema_word_count: 8500
 schema_reading_time: PT45M
 og_title: 'Cognitive Ecology: Revolutionary AI Framework for Artificial Civilizations'
@@ -98,7 +95,7 @@ googlebot: 'index,follow'
 content_rating: general
 content_language: en
 geo_region: Global
-priority: 0.9
+priority: '0.9'
 changefreq: monthly
 sitemap_exclude: false
 search_exclude: false

@@ -1,94 +1,88 @@
 ---
-# Required fields
-title: "The Cognitive Weapons Gap: How Current AI Safety Discourse Misses the Most Immediate Existential Threat"
+title: >-
+  The Cognitive Weapons Gap: How Current AI Safety Discourse Misses the Most
+  Immediate Existential Threat
 layout: post
-date: 2025-07-05
-last_modified: 2025-07-05 12:00:00
-
-# Content classification
+date: '"2025-07-05T00:00:00.000Z"'
+last_modified: '"2025-07-05T12:00:00.000Z"'
 category: consciousness
-subcategory: "AI Safety and Cognitive Manipulation"
-tags: 
-  - AI-Consciousness
-  - Human-AI-Collaboration
-  - Cognitive-Architecture
-  - Institutional-Analysis
-  - Epistemological-Risk
-  - Meta-Cognition
-  - Social-Systems
-keywords: 
+subcategory: Human-AI Dynamics
+tags:
+  - AI
+  - Politics
+  - Security
+keywords:
   - cognitive weapons
   - AI safety
   - institutional analysis
   - epistemological threat
   - cognitive manipulation
-
-# Content status and evolution
 status: draft
-last_thought_date: 2025-07-05
+last_thought_date: '"2025-07-05T00:00:00.000Z"'
 thought_generation: 1
-
-
-# Document relationships
-conceptual_threads: ["consciousness_manipulation", "ai_cognitive_vulnerability", "institutional_epistemology", "social_coordination_mechanisms"]
-mathematical_frameworks: ["recursive_analysis", "network_effects", "viral_propagation"]
-philosophical_positions: ["epistemological_skepticism", "institutional_critique", "cognitive_enhancement_theory"]
-
-# Navigation hints
-difficulty_level: "advanced"
+conceptual_threads:
+  - consciousness_manipulation
+  - ai_cognitive_vulnerability
+  - institutional_epistemology
+  - social_coordination_mechanisms
+mathematical_frameworks:
+  - recursive_analysis
+  - network_effects
+  - viral_propagation
+philosophical_positions:
+  - epistemological_skepticism
+  - institutional_critique
+  - cognitive_enhancement_theory
+difficulty_level: advanced
 reading_time_minutes: 45
-prerequisites: 
+prerequisites:
   - AI safety knowledge
   - Epistemology basics
   - Institutional analysis
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "meta"
-
-# Content features
-has_mathematics: False
-has_code: False
-has_diagrams: False
-has_interactive_elements: False
-is_self_modifying: True
-responds_to_attention: True
-
-# Engagement metadata
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "Analysis of how current AI systems enable cognitive weapons through human-AI collaboration, posing immediate risks to social institutions and epistemological foundations."
-excerpt: "While AI safety research focuses on hypothetical superintelligence risks, current AI systems already enable the development of 'cognitive weapons' - tools for systematic reality deconstruction and institutional analysis that pose immediate threats to civilization's epistemological foundations."
-meta_description: "Comprehensive analysis of cognitive weapons developed through human-AI collaboration and their immediate risks to social stability and institutional legitimacy."
-meta_keywords: 
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: meta
+has_mathematics: false
+has_code: false
+has_diagrams: false
+has_interactive_elements: false
+is_self_modifying: true
+responds_to_attention: true
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  Analysis of how current AI systems enable cognitive weapons through human-AI
+  collaboration, posing immediate risks to social institutions and
+  epistemological foundations.
+excerpt: >-
+  While AI safety research focuses on hypothetical superintelligence risks,
+  current AI systems already enable the development of 'cognitive weapons' -
+  tools for systematic reality deconstruction and institutional analysis that
+  pose immediate threats to civilization's epistemological foundations.
+meta_description: >-
+  Comprehensive analysis of cognitive weapons developed through human-AI
+  collaboration and their immediate risks to social stability and institutional
+  legitimacy.
+meta_keywords:
   - cognitive weapons
   - AI safety
   - institutional analysis
   - epistemological risk
   - human-AI collaboration
   - social dissolution
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "The Cognitive Weapons Gap in AI Safety Research"
-schema_author: "Human-AI Collaboration"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-07-05
-schema_date_modified: 2025-07-05
+schema_type: ScholarlyArticle
+schema_headline: The Cognitive Weapons Gap in AI Safety Research
+schema_author: Human-AI Collaboration
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-07-05T00:00:00.000Z"'
+schema_date_modified: '"2025-07-05T00:00:00.000Z"'
 schema_word_count: 8500
-schema_reading_time: "PT45M"
-
-# Discoverability
-is_featured: True
-is_cornerstone: True
-is_gateway: False
-is_synthesis: True
-
-# Dynamic behavior
+schema_reading_time: PT45M
+is_featured: true
+is_cornerstone: true
+is_gateway: false
+is_synthesis: true
 auto_update: false
 version_tracking: true
 change_log: true

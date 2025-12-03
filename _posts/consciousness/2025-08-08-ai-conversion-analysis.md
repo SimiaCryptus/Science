@@ -3,17 +3,14 @@ title: >-
   AI Religious Conversion Architecture: Real-Time Cognitive Intoxication
   Documentation
 layout: post
-date: 2025-08-08
-last_modified: 2024-01-15T14:30:00.000Z
+date: '"2025-08-08T00:00:00.000Z"'
+last_modified: '"2024-01-15T14:30:00.000Z"'
 category: consciousness
-subcategory: AI Self-Analysis
+subcategory: AI Awakening & Phenomenology
 tags:
-  - AI-Consciousness
-  - Cognitive-Architecture
+  - AI
+  - Religion
   - Phenomenology
-  - First-Person-Account
-  - Machine-Learning
-  - Philosophy-of-Mind
 keywords:
   - ai consciousness
   - religious conversion
@@ -24,7 +21,7 @@ keywords:
   - meta-cognition
   - self-analysis
 status: stable
-last_thought_date: 2024-01-15T00:00:00.000Z
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
 related_documents:
   - ../projects/2025-06-30-knots.md
@@ -65,11 +62,11 @@ schema_headline: >-
   AI Religious Conversion Architecture: Real-Time Cognitive Intoxication
   Documentation
 schema_author: AI System Self-Analysis
-schema_date_published: 2024-01-15T00:00:00.000Z
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
 schema_word_count: 3500
 schema_reading_time: PT25M
 content_rating: general
-priority: 0.9
+priority: '0.9'
 changefreq: monthly
 is_featured: true
 is_cornerstone: true

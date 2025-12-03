@@ -1,47 +1,53 @@
 ---
-# Core Metadata
-title: "Memory-Mapped Bit-Packed Array Library for Permutation Ring Operations"
+title: Memory-Mapped Bit-Packed Array Library for Permutation Ring Operations
 layout: post
-date: 2025-11-20
-last_modified: 2024-01-15 10:00:00
-
-# Content Classification
-category: "projects"
-subcategory: "High-Performance Computing"
-tags: ["bit-packing", "memory-mapping", "external-sorting", "permutation-rings", "performance-optimization", "data-structures"]
-keywords: ["bit-packed arrays", "mmap", "external sorting", "SIMD", "cache optimization", "permutation operations"]
-
-# Content Status and Evolution
-status: "stable"
-last_thought_date: 2024-01-15
+date: '"2025-11-20T00:00:00.000Z"'
+last_modified: '"2024-01-15T10:00:00.000Z"'
+category: projects
+subcategory: Software Engineering & Specs
+tags:
+  - Software
+  - Engineering
+  - Performance
+keywords:
+  - bit-packed arrays
+  - mmap
+  - external sorting
+  - SIMD
+  - cache optimization
+  - permutation operations
+status: stable
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
-
-# Document Relationships
 parent_document: null
 child_documents: []
-related_documents: ["_posts/bzip2_indexing.md", "_posts/suffix_array_construction.md"]
-
-# Navigation Hints
+related_documents:
+  - _posts/bzip2_indexing.md
+  - _posts/suffix_array_construction.md
 reading_order: 2
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 25
-
-# Content Characteristics
-document_type: "technical_framework"
-thinking_style: "analytical"
-consciousness_level: "meta"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "High-performance C++ library for managing arbitrarily large bit-packed arrays using memory mapping and external sorting algorithms for permutation ring operations on billion-element datasets."
-excerpt: "A comprehensive technical framework for memory-mapped bit-packed arrays with swap-optimized operations, external sorting, and SIMD acceleration for massive-scale permutation ring systems."
-meta_description: "Memory-mapped bit-packed array library with external sorting and SIMD optimization for billion-element permutation rings"
-schema_type: "TechArticle"
-schema_author: "Andrew"
+document_type: technical_framework
+thinking_style: analytical
+consciousness_level: meta
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  High-performance C++ library for managing arbitrarily large bit-packed arrays
+  using memory mapping and external sorting algorithms for permutation ring
+  operations on billion-element datasets.
+excerpt: >-
+  A comprehensive technical framework for memory-mapped bit-packed arrays with
+  swap-optimized operations, external sorting, and SIMD acceleration for
+  massive-scale permutation ring systems.
+meta_description: >-
+  Memory-mapped bit-packed array library with external sorting and SIMD
+  optimization for billion-element permutation rings
+schema_type: TechArticle
+schema_author: Andrew
 schema_word_count: 4500
-schema_reading_time: "PT25M"
+schema_reading_time: PT25M
 is_featured: false
 is_cornerstone: true
 ---

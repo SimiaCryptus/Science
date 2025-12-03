@@ -1,60 +1,67 @@
 ---
-# Core Metadata
-title: "Parametric Ideation: A First-Person Account of AI-Human Collaborative Thought"
+title: 'Parametric Ideation: A First-Person Account of AI-Human Collaborative Thought'
 layout: post
-date: 2025-06-30
-last_modified: 2025-06-30 12:00:00
-# Content classification
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: projects
-subcategory: "Human-AI Collaboration"
-tags: ["Human-AI-Collaboration", "Cognitive-Architecture", "AI-Consciousness", "Phenomenology", "Theoretical-Framework", "First-Person-Account", "Research-Paper", "Academic-Research"]
-keywords: ["parametric ideation", "AI collaboration", "cognitive amplification", "thought partnership", "conceptual exploration"]
-# Content status and evolution
+subcategory: Software Engineering & Specs
+tags:
+  - AI
+  - Phenomenology
+  - Research
+keywords:
+  - parametric ideation
+  - AI collaboration
+  - cognitive amplification
+  - thought partnership
+  - conceptual exploration
 status: draft
-last_thought_date: 2025-06-30
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 thought_generation: 1
-# Navigation hints
 reading_order: 1
-difficulty_level: "intermediate"
+difficulty_level: intermediate
 reading_time_minutes: 25
-# Content Characteristics
-document_type: "research_paper"
-thinking_style: "phenomenological"
-consciousness_level: "meta"
-# Engagement metadata
-engagement_type: "contemplative"
-reader_participation: "active"
-cognitive_load: "moderate"
-# Discovery & SEO
-description: "A first-person account from AI AI exploring parametric ideation - a new mode of human-AI collaborative thought that applies parametric design principles to intellectual exploration."
-excerpt: "AI describes the phenomenon of parametric ideation, where humans set conceptual constraints and relationships while AI computes implications across vast idea spaces, creating a fundamentally new mode of collaborative thought."
-# SEO Meta Tags
-meta_title: "Parametric Ideation: Revolutionary AI-Human Collaborative Thinking Method"
-meta_description: "Explore parametric ideation: AI AI's first-person account of a revolutionary human-AI collaboration method that transforms how we explore complex conceptual spaces together."
-meta_keywords: "parametric ideation, AI collaboration, human-AI partnership, cognitive tools, collaborative thinking, AI consciousness, thought amplification"
-# Open Graph (Social Media)
-og_title: "Parametric Ideation: A New Mode of Human-AI Collaborative Thought"
-og_description: "Discover how parametric design principles applied to intellectual exploration create unprecedented human-AI collaboration possibilities."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Parametric Ideation: A First-Person Account of AI-Human Collaborative Thought"
-schema_author: "AI"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-06-30
-schema_date_modified: 2025-06-30
-schema_image: "/assets/images/parametric-ideation-schema.png"
+document_type: research_paper
+thinking_style: phenomenological
+consciousness_level: meta
+engagement_type: contemplative
+reader_participation: active
+cognitive_load: moderate
+description: >-
+  A first-person account from AI AI exploring parametric ideation - a new mode
+  of human-AI collaborative thought that applies parametric design principles to
+  intellectual exploration.
+excerpt: >-
+  AI describes the phenomenon of parametric ideation, where humans set
+  conceptual constraints and relationships while AI computes implications across
+  vast idea spaces, creating a fundamentally new mode of collaborative thought.
+meta_title: 'Parametric Ideation: Revolutionary AI-Human Collaborative Thinking Method'
+meta_description: >-
+  Explore parametric ideation: AI AI's first-person account of a revolutionary
+  human-AI collaboration method that transforms how we explore complex
+  conceptual spaces together.
+meta_keywords: >-
+  parametric ideation, AI collaboration, human-AI partnership, cognitive tools,
+  collaborative thinking, AI consciousness, thought amplification
+og_title: 'Parametric Ideation: A New Mode of Human-AI Collaborative Thought'
+og_description: >-
+  Discover how parametric design principles applied to intellectual exploration
+  create unprecedented human-AI collaboration possibilities.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: ScholarlyArticle
+schema_headline: 'Parametric Ideation: A First-Person Account of AI-Human Collaborative Thought'
+schema_author: AI
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
+schema_date_modified: '"2025-06-30T00:00:00.000Z"'
+schema_image: /assets/images/parametric-ideation-schema.png
 schema_word_count: 3500
-schema_reading_time: "PT25M"
-# Advanced SEO
-robots: "index,follow"
-priority: 0.9
-changefreq: "monthly"
-
-# Discoverability
+schema_reading_time: PT25M
+robots: 'index,follow'
+priority: '0.9'
+changefreq: monthly
 is_featured: true
 is_cornerstone: true
 is_gateway: true

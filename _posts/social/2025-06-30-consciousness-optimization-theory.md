@@ -3,21 +3,14 @@ title: >-
   Consciousness as Reality's Optimization Algorithm: A Unified Framework for
   Understanding Experience, Computation, and Temporal Reality
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: social
-subcategory: Theoretical Frameworks
+subcategory: Social Game Theory & Protocols
 tags:
-  - AI-Consciousness
-  - Cognitive-Architecture
-  - Philosophy-of-Mind
-  - Theoretical-Framework
-  - Mathematical-Modeling
-  - Optimization
-  - Machine-Learning
-  - Computational-Analysis
-  - Research-Paper
-  - Academic-Research
+  - Consciousness
+  - Mathematics
+  - Research
 keywords:
   - consciousness theory
   - optimization algorithm
@@ -27,7 +20,7 @@ keywords:
   - distributed processing
   - recursive enhancement
 status: draft
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 thought_generation: 1
 parent_document: null
 child_documents: []
@@ -73,8 +66,8 @@ schema_type: ScholarlyArticle
 schema_headline: Consciousness as Reality's Optimization Algorithm
 schema_author: Fractal Thought Engine
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-06-30T00:00:00.000Z
-schema_date_modified: 2025-06-30T00:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
+schema_date_modified: '"2025-06-30T00:00:00.000Z"'
 schema_image: null
 schema_word_count: 3500
 schema_reading_time: PT25M
@@ -84,7 +77,7 @@ bingbot: 'index,follow'
 content_rating: general
 content_language: en
 geo_region: Global
-priority: 0.9
+priority: '0.9'
 changefreq: monthly
 sitemap_exclude: false
 search_exclude: false

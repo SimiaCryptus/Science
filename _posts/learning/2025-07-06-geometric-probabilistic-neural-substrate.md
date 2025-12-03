@@ -3,21 +3,14 @@ title: >-
   Geometric Probabilistic Neural Substrates: Information Flow on Optimized
   Manifolds
 layout: post
-date: 2025-07-06T00:00:00.000Z
-last_modified: 2025-07-06T14:30:00.000Z
+date: '"2025-07-06T00:00:00.000Z"'
+last_modified: '"2025-07-06T14:30:00.000Z"'
 category: learning
-subcategory: Neural Architectures
+subcategory: Neural Architectures & Optimization
 tags:
-  - AI-Consciousness
-  - Cognitive-Architecture
   - Machine-Learning
-  - Neural-Networks
-  - Mathematical-Modeling
-  - Theoretical-Framework
-  - Information-Theory
-  - Optimization
-  - Research-Paper
-  - Academic-Research
+  - Mathematics
+  - Research
 keywords:
   - geometric neural networks
   - probabilistic substrate
@@ -25,7 +18,7 @@ keywords:
   - neural manifolds
   - geodesic computation
 status: draft
-last_thought_date: 2025-07-06T00:00:00.000Z
+last_thought_date: '"2025-07-06T00:00:00.000Z"'
 thought_generation: 3
 parent_document: ../projects/2025-06-30-knots.md
 child_documents: []
@@ -76,13 +69,13 @@ schema_headline: >-
   Manifolds
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-06T00:00:00.000Z
-schema_date_modified: 2025-07-06T00:00:00.000Z
+schema_date_published: '"2025-07-06T00:00:00.000Z"'
+schema_date_modified: '"2025-07-06T00:00:00.000Z"'
 schema_image: /assets/images/geometric_probabilistic_neural_substrate.png
 schema_word_count: 4800
 schema_reading_time: PT25M
 robots: 'index,follow'
-priority: 0.9
+priority: '0.9'
 changefreq: weekly
 sitemap_exclude: false
 search_exclude: false

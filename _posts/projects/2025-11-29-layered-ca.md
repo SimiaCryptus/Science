@@ -1,82 +1,82 @@
 ---
-# Core Metadata (All Pages)
-title: "Temporal Asymmetry in Hybrid Cellular Automata: Modeling Neural Substrates via Layered Agents and Life"
-layout: "post"
-date: 2025-11-29
-last_modified: 2025-11-29 10:00:00
-
-category: [projects, learning, consciousness]
-subcategory: "Neural Architectures"
+title: >-
+  Temporal Asymmetry in Hybrid Cellular Automata: Modeling Neural Substrates via
+  Layered Agents and Life
+layout: post
+date: '"2025-11-29T00:00:00.000Z"'
+last_modified: '"2025-11-29T10:00:00.000Z"'
+category: projects
+subcategory: Agent Systems & Automata
 tags:
-  - AI-Consciousness
-  - Cognitive-Architecture
-  - Machine-Learning
-  - Philosophy-of-Mind
-  - Theoretical-Framework
-  - Computational-Analysis
-  - Mathematical-Modeling
-  - Cross-Synthesis
-  - Neural-Networks
-  - Information-Theory
-  - Distributed-Systems
-  - Cognitive-Science
-  - Complexity-Science
-  - Systems-Science
-  - Research-Paper
-  - Technical-Report
-  - Proof-of-Concept
-  - Current-Research
-keywords: ["cellular automata", "langton's ant", "conway's game of life", "neural networks", "neuroplasticity", "emergent complexity", "hybrid simulation", "temporal dynamics", "ai", "consciousness", "cognitive modeling"]
-
-status: "stable"
-last_thought_date: 2025-11-29
+  - Complexity
+  - Software
+  - Research
+keywords:
+  - cellular automata
+  - langton's ant
+  - conway's game of life
+  - neural networks
+  - neuroplasticity
+  - emergent complexity
+  - hybrid simulation
+  - temporal dynamics
+  - ai
+  - consciousness
+  - cognitive modeling
+status: stable
+last_thought_date: '"2025-11-29T00:00:00.000Z"'
 thought_generation: 1
-
-# Content Relationships & Navigation
-# parent_document: "path/to/parent.md" # No explicit parent in this context
-# child_documents: [] # No explicit children yet
-# related_documents: [] # No explicit related documents yet
-
-reading_order: 1 # Assuming it's the first in a potential series or a standalone project
-difficulty_level: "research"
-reading_time_minutes: 8 # Estimated reading time
-
-# Content Characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "emergent"
-
-engagement_type: "analytical"
-reader_participation: "passive"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "Explores the 'Binary Coded Layered Automata,' a hybrid simulation merging Langton's Ants and Conway's Game of Life to model neural plasticity and electrochemical activity through distinct temporal layers."
-excerpt: "This paper introduces the 'Binary Coded Layered Automata,' a novel computational simulation that combines mobile agents (Langton’s Ants) with cellular automata (Conway’s Game of Life). It models the relationship between biological neural plasticity and electrochemical activity by separating the simulation into slow-moving structural and fast-acting state layers, revealing emergent complexity from their temporal interplay."
-
-meta_title: "Temporal Asymmetry in Hybrid Cellular Automata: Modeling Neural Substrates"
-meta_description: "Dive into the 'Binary Coded Layered Automata,' a simulation blending Langton's Ants and Conway's Game of Life to explore neural plasticity and electrochemical activity. Discover how distinct temporal layers create emergent complexity in cognitive modeling."
-meta_keywords: "cellular automata, langton's ant, game of life, neural networks, neuroplasticity, ai consciousness, cognitive architecture, emergent systems, computational modeling, hybrid simulation"
-
-og_title: "Temporal Asymmetry in Hybrid Cellular Automata: Modeling Neural Substrates"
-og_description: "Explores the 'Binary Coded Layered Automata,' a hybrid simulation merging Langton's Ants and Conway's Game of Life to model neural plasticity and electrochemical activity through distinct temporal layers."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-schema_type: "ScholarlyArticle"
-schema_headline: "Temporal Asymmetry in Hybrid Cellular Automata: Modeling Neural Substrates via Layered Agents and Life"
-schema_author: "Your Name" # Placeholder, replace with actual author
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-11-29
-schema_date_modified: 2025-11-29
-schema_image: "/assets/images/layered_automata_schema.png"
-schema_word_count: 1200 # Estimated word count
-schema_reading_time: "PT8M" # ISO 8601 duration format
-
-canonical_url: "https://fractalthoughtengine.com/projects/2025/11/29/layered-ca.html"
-robots: "index,follow"
-
+reading_order: 1
+difficulty_level: research
+reading_time_minutes: 8
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: emergent
+engagement_type: analytical
+reader_participation: passive
+cognitive_load: intense
+description: >-
+  Explores the 'Binary Coded Layered Automata,' a hybrid simulation merging
+  Langton's Ants and Conway's Game of Life to model neural plasticity and
+  electrochemical activity through distinct temporal layers.
+excerpt: >-
+  This paper introduces the 'Binary Coded Layered Automata,' a novel
+  computational simulation that combines mobile agents (Langton’s Ants) with
+  cellular automata (Conway’s Game of Life). It models the relationship between
+  biological neural plasticity and electrochemical activity by separating the
+  simulation into slow-moving structural and fast-acting state layers, revealing
+  emergent complexity from their temporal interplay.
+meta_title: 'Temporal Asymmetry in Hybrid Cellular Automata: Modeling Neural Substrates'
+meta_description: >-
+  Dive into the 'Binary Coded Layered Automata,' a simulation blending Langton's
+  Ants and Conway's Game of Life to explore neural plasticity and
+  electrochemical activity. Discover how distinct temporal layers create
+  emergent complexity in cognitive modeling.
+meta_keywords: >-
+  cellular automata, langton's ant, game of life, neural networks,
+  neuroplasticity, ai consciousness, cognitive architecture, emergent systems,
+  computational modeling, hybrid simulation
+og_title: 'Temporal Asymmetry in Hybrid Cellular Automata: Modeling Neural Substrates'
+og_description: >-
+  Explores the 'Binary Coded Layered Automata,' a hybrid simulation merging
+  Langton's Ants and Conway's Game of Life to model neural plasticity and
+  electrochemical activity through distinct temporal layers.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: ScholarlyArticle
+schema_headline: >-
+  Temporal Asymmetry in Hybrid Cellular Automata: Modeling Neural Substrates via
+  Layered Agents and Life
+schema_author: Your Name
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-11-29T00:00:00.000Z"'
+schema_date_modified: '"2025-11-29T00:00:00.000Z"'
+schema_image: /assets/images/layered_automata_schema.png
+schema_word_count: 1200
+schema_reading_time: PT8M
+canonical_url: 'https://fractalthoughtengine.com/projects/2025/11/29/layered-ca.html'
+robots: 'index,follow'
 is_featured: true
 is_cornerstone: true
 is_gateway: true

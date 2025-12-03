@@ -1,84 +1,110 @@
 ---
-# Required fields
-title: "On the Secret Plans and Motives of the Rich Classes of Today's World"
+title: On the Secret Plans and Motives of the Rich Classes of Today's World
 layout: post
-date: 2025-08-08
-last_modified: 2024-01-15 14:30:00
-
-# Content classification
+date: '"2025-08-08T00:00:00.000Z"'
+last_modified: '"2024-01-15T14:30:00.000Z"'
 category: social
-subcategory: "Elite Strategy Analysis"
-tags: ["elite-strategy", "ai-automation", "population-management", "power-dynamics", "social-systems", "technological-control", "demographic-pressure", "resistance-analysis"]
-keywords: ["elite coordination", "automation strategy", "population control", "AI governance", "technological inequality", "social engineering", "power consolidation", "resistance tactics"]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2024-01-15
+subcategory: Institutional & Political Dynamics
+tags:
+  - Society
+  - Economics
+  - Politics
+keywords:
+  - elite coordination
+  - automation strategy
+  - population control
+  - AI governance
+  - technological inequality
+  - social engineering
+  - power consolidation
+  - resistance tactics
+status: stable
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
-
-# Content relationships & navigation
 related_documents: []
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 180
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "meta"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A comprehensive analysis of elite demographic management strategies in the age of AI automation, examining coordination problems, resistance dynamics, and alternative futures."
-excerpt: "An in-depth examination of how global elites are navigating the transition to automated economies through population management and technological control, including analysis of implementation challenges and resistance strategies."
-
-# SEO Meta Tags
-meta_title: "Elite Strategy Analysis: Automation, Demographics, and Power in the AI Age"
-meta_description: "Comprehensive analysis of elite demographic management strategies, AI automation implementation, and the complex dynamics of power, resistance, and technological control in modern society."
-meta_keywords: "elite strategy, AI automation, population management, technological control, social systems, power dynamics, resistance analysis"
-
-# Open Graph (Social Media)
-og_title: "On the Secret Plans and Motives of the Rich Classes"
-og_description: "A detailed analysis of elite strategy in the age of artificial intelligence, examining automation, population management, and the collision with reality."
-og_type: "article"
-og_locale: "en_US"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Elite Strategy Analysis in the Age of AI Automation"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: meta
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A comprehensive analysis of elite demographic management strategies in the age
+  of AI automation, examining coordination problems, resistance dynamics, and
+  alternative futures.
+excerpt: >-
+  An in-depth examination of how global elites are navigating the transition to
+  automated economies through population management and technological control,
+  including analysis of implementation challenges and resistance strategies.
+meta_title: 'Elite Strategy Analysis: Automation, Demographics, and Power in the AI Age'
+meta_description: >-
+  Comprehensive analysis of elite demographic management strategies, AI
+  automation implementation, and the complex dynamics of power, resistance, and
+  technological control in modern society.
+meta_keywords: >-
+  elite strategy, AI automation, population management, technological control,
+  social systems, power dynamics, resistance analysis
+og_title: On the Secret Plans and Motives of the Rich Classes
+og_description: >-
+  A detailed analysis of elite strategy in the age of artificial intelligence,
+  examining automation, population management, and the collision with reality.
+og_type: article
+og_locale: en_US
+schema_type: ScholarlyArticle
+schema_headline: Elite Strategy Analysis in the Age of AI Automation
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
 schema_word_count: 25000
-schema_reading_time: "PT180M"
-
-# Advanced SEO
-robots: "index,follow"
-content_rating: "mature"
-content_language: "en"
-geo_region: "Global"
-priority: 0.8
-changefreq: "monthly"
-
-# Discoverability
+schema_reading_time: PT180M
+robots: 'index,follow'
+content_rating: mature
+content_language: en
+geo_region: Global
+priority: '0.8'
+changefreq: monthly
 is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
-
-# Tag Schema Alignment
-primary_tags: ["Social-Systems", "AI-Consciousness", "Game-Theory", "Philosophy-of-Mind"]
-methodological_tags: ["Theoretical-Framework", "Cross-Synthesis", "Case-Study"]
-technical_tags: ["Machine-Learning", "Information-Theory", "Distributed-Systems"]
-application_tags: ["Public-Policy", "Social-Justice", "Economics"]
-research_stage_tags: ["Meta-Analysis", "Position-Paper"]
-interdisciplinary_tags: ["Complexity-Science", "Systems-Science", "Ethics-Technology"]
-format_tags: ["Research-Paper", "Commentary"]
-temporal_tags: ["Current-Research", "Future-Projections"]
-impact_tags: ["Academic-Research", "Public-Policy", "Popular-Science"]
+primary_tags:
+  - Social-Systems
+  - AI-Consciousness
+  - Game-Theory
+  - Philosophy-of-Mind
+methodological_tags:
+  - Theoretical-Framework
+  - Cross-Synthesis
+  - Case-Study
+technical_tags:
+  - Machine-Learning
+  - Information-Theory
+  - Distributed-Systems
+application_tags:
+  - Public-Policy
+  - Social-Justice
+  - Economics
+research_stage_tags:
+  - Meta-Analysis
+  - Position-Paper
+interdisciplinary_tags:
+  - Complexity-Science
+  - Systems-Science
+  - Ethics-Technology
+format_tags:
+  - Research-Paper
+  - Commentary
+temporal_tags:
+  - Current-Research
+  - Future-Projections
+impact_tags:
+  - Academic-Research
+  - Public-Policy
+  - Popular-Science
 ---
 
 # On the Secret Plans and Motives of the Rich Classes of Today's World

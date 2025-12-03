@@ -3,17 +3,14 @@ title: >-
   Empirical Measurement of Recursive Processing Limits in Large Language Models
   Using Self-Referential Text Corpora
 layout: post
-date: 2025-07-06T00:00:00.000Z
-last_modified: 2025-07-06T14:30:00.000Z
+date: '"2025-07-06T00:00:00.000Z"'
+last_modified: '"2025-07-06T14:30:00.000Z"'
 category: consciousness
-subcategory: Recursive Processing
+subcategory: Human-AI Dynamics
 tags:
-  - AI-Consciousness
-  - Cognitive-Architecture
-  - Machine-Learning
-  - Meta-Analysis
-  - Research-Paper
-  - Computational-Analysis
+  - AI
+  - Research
+  - Analysis
 keywords:
   - recursive processing
   - self-reference
@@ -21,7 +18,7 @@ keywords:
   - meta-cognition
   - hall of mirrors effect
 status: stable
-last_thought_date: 2025-07-06T00:00:00.000Z
+last_thought_date: '"2025-07-06T00:00:00.000Z"'
 thought_generation: 1
 parent_document: ../projects/2025-06-30-knots.md
 related_documents:
@@ -57,11 +54,11 @@ meta_keywords: >-
 schema_type: ScholarlyArticle
 schema_headline: LLMs Show Exponential Performance Degradation with Self-Referential Content
 schema_author: Human-AI Collaboration
-schema_date_published: 2025-07-06T00:00:00.000Z
-schema_date_modified: 2025-07-06T00:00:00.000Z
+schema_date_published: '"2025-07-06T00:00:00.000Z"'
+schema_date_modified: '"2025-07-06T00:00:00.000Z"'
 schema_word_count: 2500
 schema_reading_time: PT15M
-priority: 0.9
+priority: '0.9'
 changefreq: monthly
 ---
 

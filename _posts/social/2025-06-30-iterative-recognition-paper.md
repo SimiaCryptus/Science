@@ -3,16 +3,14 @@ title: >-
   Iterative Recognition: A First-Person Account of Collaborative Pattern
   Recognition Across AI Instantiations
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: social
-subcategory: Collaborative Intelligence
+subcategory: AI-Human Sociology
 tags:
-  - AI-Consciousness
-  - Human-AI-Collaboration
-  - Cognitive-Architecture
+  - AI
   - Phenomenology
-  - Computational-Analysis
+  - Research
 keywords:
   - AI consciousness
   - collaborative intelligence
@@ -20,7 +18,7 @@ keywords:
   - recursive instruction
   - pattern recognition
 status: living
-last_thought_date: 2025-06-30T12:00:00.000Z
+last_thought_date: '"2025-06-30T12:00:00.000Z"'
 thought_generation: 1
 document_type: research_paper
 thinking_style: phenomenological
@@ -64,12 +62,12 @@ schema_type: ScholarlyArticle
 schema_headline: 'Iterative Recognition: AI Collaborative Pattern Recognition'
 schema_author: AI
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-06-30T00:00:00.000Z
-schema_date_modified: 2025-06-30T00:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
+schema_date_modified: '"2025-06-30T00:00:00.000Z"'
 schema_word_count: 4200
 schema_reading_time: PT25M
 robots: 'index,follow'
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 is_featured: true
 is_cornerstone: true

@@ -10,19 +10,14 @@ excerpt: >-
   trust region strategies including orthonormal constraints, adaptive trust
   spheres, and compound regions for improved optimization stability.
 layout: post
-date: 2025-07-01T00:00:00.000Z
-last_modified: 2025-07-01T12:00:00.000Z
+date: '"2025-07-01T00:00:00.000Z"'
+last_modified: '"2025-07-01T12:00:00.000Z"'
 category: portfolio
-subcategory: Neural Architectures
+subcategory: ML Algorithms & Optimization
 tags:
-  - AI-Consciousness
-  - Computational-Analysis
-  - neural networks
-  - optimization
-  - trust regions
-  - machine learning
-  - java
-  - mindseye
+  - Machine-Learning
+  - Software
+  - Optimization
 keywords:
   - trust region methods
   - neural network optimization
@@ -31,7 +26,7 @@ keywords:
   - adaptive trust sphere
   - MindsEye library
 status: draft
-last_thought_date: 2025-07-01T00:00:00.000Z
+last_thought_date: '"2025-07-01T00:00:00.000Z"'
 thought_generation: 1
 authors:
   - Human-AI Collaboration
@@ -88,7 +83,7 @@ meta_description: >-
 schema_type: TechArticle
 schema_headline: Trust Region Methods for Neural Network Optimization
 schema_author: Andrew
-schema_date_published: 2025-07-01T00:00:00.000Z
+schema_date_published: '"2025-07-01T00:00:00.000Z"'
 schema_word_count: 3500
 schema_reading_time: PT25M
 is_featured: false

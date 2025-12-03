@@ -1,19 +1,16 @@
 ---
-title: >
+title: >-
   Quantum Field Consciousness Orchestration: Panpsychist Logic Pathways in
   Neural Fabric Computing
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: scifi
-subcategory: Neural Architectures
+subcategory: Computational Reality & Consciousness
 tags:
-  - AI-Consciousness
-  - ai
-  - quantum
-  - panpsychism
-  - neural-fabric
-  - logic-systems
+  - AI
+  - Physics
+  - Research
 keywords:
   - quantum-field-consciousness
   - panpsychist-computing
@@ -22,7 +19,7 @@ keywords:
   - consciousness orchestration
 status: draft
 evolution_stage: seed
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 thought_generation: 1
 contributors:
   - Human-AI Collaboration
@@ -89,7 +86,7 @@ meta_description: >-
   Groundbreaking research proposal for quantum field consciousness orchestration
   using panpsychist principles to create AI systems that conduct natural
   consciousness rather than simulate intelligence.
-meta_keywords: >
+meta_keywords: >-
   quantum consciousness, panpsychist AI, neural fabric computing, exotic logic
   systems, consciousness orchestration
 schema_type: scholarly-article
@@ -97,11 +94,11 @@ schema_headline: >-
   Quantum Field Consciousness Orchestration: Panpsychist Logic Pathways in
   Neural Fabric Computing
 schema_author: Human-AI Collaboration
-schema_date_published: 2025-06-30T00:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
 schema_word_count: 3500
 schema_reading_time: PT25M
 robots: 'index, follow'
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 is_featured: true
 is_cornerstone: false

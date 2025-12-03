@@ -1,4 +1,10 @@
 ---
+tags:
+  - AI
+  - Software
+  - Research
+category: learning
+subcategory: Methodology & Education
 ---
 date: 2025-07-06
 ---

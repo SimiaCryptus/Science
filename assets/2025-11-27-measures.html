@@ -826,6 +826,16 @@
 
 
         <div class="panel-header">Hyperparameters</div>
+        <div class="control-group">
+            <label>
+                Optimizer
+            </label>
+            <select id="opt-optimizer">
+                <option value="lbfgs">L-BFGS</option>
+                <option value="adam">Adam</option>
+            </select>
+        </div>
+
 
         <div class="control-group">
             <label>
@@ -906,6 +916,7 @@
                 n: 20,         // Number of points
                 tau: 1.0,      // Temperature (smoothing factor)
                 lr: 0.01,      // Learning rate
+                optimizerType: 'lbfgs',
                 targetMode: 'maximize', // 'maximize', 'minimize', 'target'
                 targetVal: 2.0, // Target entropy value
                 customFormula: 'x.sub(0.4).square().mul(0.01)',
@@ -955,6 +966,7 @@
         loading: document.getElementById('loading'),
         // Controls
         mode: document.getElementById('opt-target'),
+        optimizerSelect: document.getElementById('opt-optimizer'),
         targetGroup: document.getElementById('target-entropy-group'),
         targetInput: document.getElementById('param-target'),
         nInput: document.getElementById('param-n'),
@@ -1012,12 +1024,18 @@
                 } = getDensityStats(trainPoints, state.params.tau, sortedIndices);
 
                 // Calculate normalized position p (0-1)
-                const s_left = sorted.slice([0], [sorted.shape[0] - 1]);
+const s_left = sorted.slice([0], [sorted.shape[0] - 1]);
                 const s_right = sorted.slice([1], [sorted.shape[0] - 1]);
                 const midpoints = s_left.add(s_right).div(2);
-                const minVal = sorted.min();
-                const maxVal = sorted.max();
-                const p = midpoints.sub(minVal).div(maxVal.sub(minVal).add(1e-6));
+
+                let p;
+                if (state.params.fixBoundaries) {
+                    p = midpoints;
+                } else {
+                    const minVal = sorted.min();
+                    const maxVal = sorted.max();
+                    p = midpoints.sub(minVal).div(maxVal.sub(minVal).add(1e-6));
+                }
 
                 // Define Loss based on Target Mode
                 let loss;
@@ -1211,6 +1229,13 @@
         updateUI();
         state.animationId = requestAnimationFrame(animate);
     }
+    function createOptimizer() {
+        if (state.params.optimizerType === 'adam') {
+            return new OptimizerAdam(state.params.lr);
+        }
+        return new OptimizerLbfgs(state.params.lr);
+    }
+
 
     // --- Initialization & Events ---
 
@@ -1235,7 +1260,7 @@
         state.points = tf.variable(initialPoints);
 
         // Reset Optimizer
-        state.optimizer = new OptimizerLbfgs(state.params.lr);
+        state.optimizer = createOptimizer();
 
         state.step = 0;
         state.metrics = {entropy: 0, loss: 0};
@@ -1281,7 +1306,7 @@
         state.points.dispose();
         state.points = tf.variable(newVar);
         // Re-create optimizer to bind to new variable
-        state.optimizer = new OptimizerLbfgs(state.params.lr);
+        state.optimizer = createOptimizer();
         state.params.n = newN;
         els.valN.textContent = newN;
         if (!state.isTraining) draw();
@@ -1342,6 +1367,11 @@
                 state.optimizer.setLearningRate(val);
             }
         });
+        els.optimizerSelect.addEventListener('change', (e) => {
+            state.params.optimizerType = e.target.value;
+            state.optimizer = createOptimizer();
+        });
+
 
         els.mode.addEventListener('change', (e) => {
             state.params.targetMode = e.target.value;

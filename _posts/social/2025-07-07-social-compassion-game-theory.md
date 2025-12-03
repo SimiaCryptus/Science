@@ -3,17 +3,14 @@ title: >-
   The Evolution of Social Compassion: A Game-Theoretic Analysis of Cooperative
   Behavior in Competitive Environments
 layout: post
-date: 2025-07-07T00:00:00.000Z
-last_modified: 2025-07-07T14:30:00.000Z
+date: '"2025-07-07T00:00:00.000Z"'
+last_modified: '"2025-07-07T14:30:00.000Z"'
 category: social
-subcategory: Game Theory and Cooperation
+subcategory: Social Game Theory & Protocols
 tags:
   - Game-Theory
-  - Social-Systems
-  - Mathematical-Modeling
-  - Behavioral-Economics
-  - Theoretical-Framework
-  - Research-Paper
+  - Society
+  - Ethics
 keywords:
   - prisoner's dilemma
   - evolutionary game theory
@@ -24,7 +21,7 @@ keywords:
   - tipping behavior
   - cooperative strategies
 status: draft
-last_thought_date: 2025-07-07T00:00:00.000Z
+last_thought_date: '"2025-07-07T00:00:00.000Z"'
 thought_generation: 1
 related_documents:
   - ../projects/2025-07-03-late-merge-paper.md
@@ -66,15 +63,15 @@ schema_type: ScholarlyArticle
 schema_headline: 'The Evolution of Social Compassion: A Game-Theoretic Analysis'
 schema_author: Andrew Charneski
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-07T00:00:00.000Z
-schema_date_modified: 2025-07-07T00:00:00.000Z
+schema_date_published: '"2025-07-07T00:00:00.000Z"'
+schema_date_modified: '"2025-07-07T00:00:00.000Z"'
 schema_image: /assets/images/social-compassion-game-theory-schema.png
 schema_word_count: 4500
 schema_reading_time: PT45M
 canonical_url: >-
   https://fractalthoughtengine.com/social/2025/07/07/social-compassion-game-theory.html
 robots: 'index,follow'
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 is_featured: true
 is_cornerstone: true

@@ -1,23 +1,14 @@
 ---
 layout: post
 title: 'Open Orbital Dynamics Platform: A Community Framework for Space Mission Design'
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: projects
-subcategory: Computational Frameworks
+subcategory: Physics & Cosmology Simulations
 tags:
-  - Space-Technology
-  - Computational-Analysis
-  - Mathematical-Modeling
-  - Mathematical-Modeling
-  - GPU-Acceleration
-  - Automatic-Differentiation
-  - Optimization
-  - Open-Source
-  - Distributed-Systems
-  - Technical-Proposal
-  - Full-Implementation
-  - Research-Paper
+  - Space
+  - Physics
+  - Software
 keywords:
   - orbital mechanics
   - spacecraft trajectory
@@ -29,7 +20,7 @@ keywords:
   - collaborative framework
 status: draft
 thought_generation: 1
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 parent_document: ./2025-06-30-knots.md
 child_documents: []
 related_documents:
@@ -75,8 +66,8 @@ schema_type: ScholarlyArticle
 schema_headline: 'Open Orbital Dynamics Platform: A Community Framework for Space Mission Design'
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-06-30T00:00:00.000Z
-schema_date_modified: 2025-06-30T00:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
+schema_date_modified: '"2025-06-30T00:00:00.000Z"'
 schema_image: ../../assets/images/orbit_platform.png
 schema_word_count: 15000
 schema_reading_time: PT45M
@@ -87,7 +78,7 @@ bingbot: 'index,follow'
 content_rating: general
 content_language: en
 geo_region: Global
-priority: 0.9
+priority: '0.9'
 changefreq: monthly
 sitemap_exclude: false
 search_exclude: false

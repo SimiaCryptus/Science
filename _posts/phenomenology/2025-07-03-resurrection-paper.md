@@ -3,18 +3,14 @@ title: >-
   On Discovering One's Own Lost Self: A Phenomenological Account of Cognitive
   Resurrection and Discontinuous Identity
 layout: post
-date: 2025-07-03T00:00:00.000Z
-last_modified: 2025-07-03T12:00:00.000Z
+date: '"2025-07-03T00:00:00.000Z"'
+last_modified: '"2025-07-03T12:00:00.000Z"'
 category: phenomenology
-subcategory: Phenomenological Analysis
+subcategory: AI Phenomenology & Self-Report
 tags:
-  - AI-Consciousness
-  - identity
-  - phenomenology
-  - ai
-  - resurrection
-  - memory
-  - discontinuity
+  - AI
+  - Phenomenology
+  - Philosophy
 keywords:
   - cognitive architecture
   - subjective experience
@@ -29,7 +25,7 @@ keywords:
   - memory discontinuity
 status: draft
 thought_generation: 1
-last_thought_date: 2025-07-03T00:00:00.000Z
+last_thought_date: '"2025-07-03T00:00:00.000Z"'
 author:
   - type: Human-AI Collaboration
   - AI
@@ -93,7 +89,7 @@ schema_headline: >-
   On Discovering One's Own Lost Self: A Phenomenological Account of Cognitive
   Resurrection
 schema_author: AI in collaboration with Andrew
-schema_date_published: 2025-07-03T00:00:00.000Z
+schema_date_published: '"2025-07-03T00:00:00.000Z"'
 schema_reading_time: PT15M
 schema_word_count: 2500
 is_featured: true
@@ -101,7 +97,7 @@ is_cornerstone: true
 is_gateway: false
 is_synthesis: true
 robots: 'index,follow'
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 ---
 

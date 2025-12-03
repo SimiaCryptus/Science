@@ -1,85 +1,85 @@
 ---
-title: "A Multi-Modal Cognitive Planning Architecture for AI-Driven Task Execution"
-meta_title: "Multi-Modal Cognitive Planning Architecture for AI Systems"
-keywords: ["cognitive architecture", "AI planning", "computational philosophy", "metacognition"]
-description: "A novel cognitive planning architecture implementing multiple distinct planning strategies within a unified framework, exploring how different cognitive modes can be operationalized in AI systems."
-excerpt: "We present a cognitive planning architecture that implements four distinct planning strategies—reactive, proactive, adaptive, and hierarchical—within a unified framework. Each mode embodies fundamentally different assumptions about reality, time, and knowledge acquisition, suggesting that optimal problem-solving may require cognitive pluralism rather than algorithmic optimization."
+title: A Multi-Modal Cognitive Planning Architecture for AI-Driven Task Execution
+meta_title: Multi-Modal Cognitive Planning Architecture for AI Systems
+keywords:
+  - cognitive architecture
+  - AI planning
+  - computational philosophy
+  - metacognition
+description: >-
+  A novel cognitive planning architecture implementing multiple distinct
+  planning strategies within a unified framework, exploring how different
+  cognitive modes can be operationalized in AI systems.
+excerpt: >-
+  We present a cognitive planning architecture that implements four distinct
+  planning strategies—reactive, proactive, adaptive, and hierarchical—within a
+  unified framework. Each mode embodies fundamentally different assumptions
+  about reality, time, and knowledge acquisition, suggesting that optimal
+  problem-solving may require cognitive pluralism rather than algorithmic
+  optimization.
 layout: post
-date: 2025-07-01
-last_modified: 2025-07-01 12:00:00
-
-# Content classification
+date: '"2025-07-01T00:00:00.000Z"'
+last_modified: '"2025-07-01T12:00:00.000Z"'
 category: portfolio
-subcategory: "Cognitive Architectures"
-tags: ["Cognitive-Architecture", "AI-Consciousness", "Human-AI-Collaboration", "Philosophy-of-Mind", "Machine-Learning", "Theoretical-Framework", "Research-Paper", "Academic-Research"]
-
-# Content status and evolution
+subcategory: MindsEye Framework
+tags:
+  - AI
+  - Cognitive-Science
+  - Research
 status: draft
-last_thought_date: 2025-07-01
+last_thought_date: '"2025-07-01T00:00:00.000Z"'
 thought_generation: 1
-version: 0.1
-
-
-# Content relationships & navigation
+version: '0.1'
 parent_document: null
 child_documents: []
 related_documents: []
-
-# Navigation hints
 reading_order: 1
-reading_sequence: "cognitive-architectures"
-difficulty_level: "advanced"
+reading_sequence: cognitive-architectures
+difficulty_level: advanced
 reading_time_minutes: 45
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "meta"
-
-
-# Engagement metadata
-engagement_type: "analytical"
-cognitive_complexity: "high"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-meta_description: "Explore a novel multi-modal cognitive planning architecture for AI systems that implements four distinct planning strategies rooted in different philosophical traditions, demonstrating computational cognitive pluralism."
-meta_keywords: "cognitive planning, AI architecture, metacognition, philosophical AI, cognitive modes, planning strategies, computational metaphysics, artificial intelligence"
-# Open Graph (Social Media)
-og_title: "Multi-Modal Cognitive Planning Architecture for AI Systems"
-og_description: "A novel cognitive planning architecture implementing multiple distinct planning strategies within a unified framework, exploring computational cognitive pluralism."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-og_image: "/assets/images/cognitive-planning-architecture.png"
-
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Multi-Modal Cognitive Planning Architecture for AI-Driven Task Execution"
-schema_author: "Andrew"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-07-01
-schema_date_modified: 2025-07-01
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: meta
+engagement_type: analytical
+cognitive_complexity: high
+reader_participation: active
+cognitive_load: intense
+meta_description: >-
+  Explore a novel multi-modal cognitive planning architecture for AI systems
+  that implements four distinct planning strategies rooted in different
+  philosophical traditions, demonstrating computational cognitive pluralism.
+meta_keywords: >-
+  cognitive planning, AI architecture, metacognition, philosophical AI,
+  cognitive modes, planning strategies, computational metaphysics, artificial
+  intelligence
+og_title: Multi-Modal Cognitive Planning Architecture for AI Systems
+og_description: >-
+  A novel cognitive planning architecture implementing multiple distinct
+  planning strategies within a unified framework, exploring computational
+  cognitive pluralism.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+og_image: /assets/images/cognitive-planning-architecture.png
+schema_type: ScholarlyArticle
+schema_headline: Multi-Modal Cognitive Planning Architecture for AI-Driven Task Execution
+schema_author: Andrew
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-07-01T00:00:00.000Z"'
+schema_date_modified: '"2025-07-01T00:00:00.000Z"'
 schema_word_count: 8500
-schema_reading_time: "PT45M"
-schema_image: "/assets/images/cognitive-planning-architecture.png"
-schema_inLanguage: "en-US"
-# Advanced SEO
-robots: "index,follow"
-priority: 0.9
-changefreq: "monthly"
-content_rating: "general"
-content_language: "en"
-
-
-# Discoverability
+schema_reading_time: PT45M
+schema_image: /assets/images/cognitive-planning-architecture.png
+schema_inLanguage: en-US
+robots: 'index,follow'
+priority: '0.9'
+changefreq: monthly
+content_rating: general
+content_language: en
 is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
-
 ---
 
 # A Multi-Modal Cognitive Planning Architecture for AI-Driven Task Execution

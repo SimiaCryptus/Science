@@ -1,3 +1,11 @@
+---
+tags:
+  - Software
+  - Engineering
+  - Design
+category: projects
+subcategory: Software Engineering & Specs
+---
 # SOCKS Proxy Traffic Interceptor - Technical Proposal
 
 # SEO and Discovery Metadata
@@ -95,7 +103,7 @@ keywords: [
 
 # Content Status
 
-status: "draft"
+status: draft
 last_thought_date: 2025-07-01
 thought_generation: 1
 

@@ -1,65 +1,73 @@
 ---
-# Required fields
-title: "Discrete Quantum Spacetime from Braid Group Equivalence Classes: A Causal Set Theory Approach"
+title: >-
+  Discrete Quantum Spacetime from Braid Group Equivalence Classes: A Causal Set
+  Theory Approach
 layout: post
-date: 2025-08-08
-last_modified: 2024-01-15 10:00:00
-
-# Content classification
+date: '"2025-08-08T00:00:00.000Z"'
+last_modified: '"2024-01-15T10:00:00.000Z"'
 category: projects
-subcategory: "Quantum Physics"
-tags: ["Quantum-Computing", "Quantum-Physics", "Mathematical-Modeling", "Theoretical-Framework", "Information-Theory", "Topology", "AI-Consciousness", "Computational-Analysis"]
-keywords: ["quantum spacetime", "braid groups", "causal set theory", "quantum information", "noncommutative geometry", "discrete spacetime", "quantum gravity", "topological quantum computing"]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2024-01-15
+subcategory: Physics & Cosmology Simulations
+tags:
+  - Physics
+  - Mathematics
+  - Research
+keywords:
+  - quantum spacetime
+  - braid groups
+  - causal set theory
+  - quantum information
+  - noncommutative geometry
+  - discrete spacetime
+  - quantum gravity
+  - topological quantum computing
+status: stable
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
-
-# Document relationships & navigation
 reading_order: 1
-difficulty_level: "research"
+difficulty_level: research
 reading_time_minutes: 25
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "mathematical"
-consciousness_level: "analytical"
-engagement_type: "analytical"
-reader_participation: "passive"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A novel framework for understanding quantum information and spacetime structure through braid group equivalence classes and discrete causal networks."
-excerpt: "We present a framework where discrete quantum spacetime emerges from equivalence classes of braid groups under semi-unitary transformations, revealing massive quantum vacuum degeneracy and natural spacetime dimensionality."
-meta_title: "Discrete Quantum Spacetime from Braid Groups - Quantum Information Theory"
-meta_description: "Revolutionary approach to quantum gravity using braid group theory and causal set networks. Discover how spacetime emerges from discrete quantum information structures."
-meta_keywords: "quantum spacetime, braid groups, causal set theory, quantum gravity, discrete spacetime, topological quantum computing"
-
-# Open Graph (Social Media)
-og_title: "Discrete Quantum Spacetime: A Braid Group Approach"
-og_description: "Groundbreaking research on how spacetime structure emerges from quantum information networks using braid group mathematics."
-og_type: "article"
-og_locale: "en_US"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Discrete Quantum Spacetime from Braid Group Equivalence Classes"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
+document_type: research_paper
+thinking_style: mathematical
+consciousness_level: analytical
+engagement_type: analytical
+reader_participation: passive
+cognitive_load: intense
+description: >-
+  A novel framework for understanding quantum information and spacetime
+  structure through braid group equivalence classes and discrete causal
+  networks.
+excerpt: >-
+  We present a framework where discrete quantum spacetime emerges from
+  equivalence classes of braid groups under semi-unitary transformations,
+  revealing massive quantum vacuum degeneracy and natural spacetime
+  dimensionality.
+meta_title: Discrete Quantum Spacetime from Braid Groups - Quantum Information Theory
+meta_description: >-
+  Revolutionary approach to quantum gravity using braid group theory and causal
+  set networks. Discover how spacetime emerges from discrete quantum information
+  structures.
+meta_keywords: >-
+  quantum spacetime, braid groups, causal set theory, quantum gravity, discrete
+  spacetime, topological quantum computing
+og_title: 'Discrete Quantum Spacetime: A Braid Group Approach'
+og_description: >-
+  Groundbreaking research on how spacetime structure emerges from quantum
+  information networks using braid group mathematics.
+og_type: article
+og_locale: en_US
+schema_type: ScholarlyArticle
+schema_headline: Discrete Quantum Spacetime from Braid Group Equivalence Classes
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
 schema_word_count: 2800
-schema_reading_time: "PT25M"
-
-# Advanced SEO
-robots: "index,follow"
-content_rating: "general"
-content_language: "en"
-priority: 0.9
-changefreq: "monthly"
-
-# Discoverability
+schema_reading_time: PT25M
+robots: 'index,follow'
+content_rating: general
+content_language: en
+priority: '0.9'
+changefreq: monthly
 is_featured: true
 is_cornerstone: true
 is_gateway: false

@@ -1,17 +1,14 @@
 ---
 title: MindsEye Reference Counting Analysis
 layout: post
-date: 2025-07-01T00:00:00.000Z
-last_modified: 2025-07-01T12:00:00.000Z
+date: '"2025-07-01T00:00:00.000Z"'
+last_modified: '"2025-07-01T12:00:00.000Z"'
 category: portfolio
-subcategory: Neural Architectures
+subcategory: MindsEye Framework
 tags:
-  - java
-  - memory-management
-  - gpu
-  - machine-learning
-  - reference-counting
-  - cuda
+  - Software
+  - Engineering
+  - Performance
 keywords:
   - MindsEye
   - Reference Counting
@@ -20,7 +17,7 @@ keywords:
   - Deterministic Cleanup
   - CUDA
 status: draft
-last_thought_date: 2025-07-01T00:00:00.000Z
+last_thought_date: '"2025-07-01T00:00:00.000Z"'
 thought_generation: 1
 related_documents:
   - ./2025-07-01-mindseye-technical-report.md
@@ -51,11 +48,11 @@ excerpt: >-
 schema_type: TechArticle
 schema_headline: MindsEye Reference Counting Analysis
 schema_author: Andrew
-schema_date_published: 2025-07-01T00:00:00.000Z
+schema_date_published: '"2025-07-01T00:00:00.000Z"'
 schema_word_count: 2500
 schema_reading_time: PT15M
 robots: 'index,follow'
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 content_rating: general
 content_language: en

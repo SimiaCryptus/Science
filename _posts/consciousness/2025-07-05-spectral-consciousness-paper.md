@@ -1,19 +1,14 @@
 ---
 title: 'On Spectral Consciousness: Why Newton Fucked Up More Than Just Optics'
 layout: post
-date: 2025-07-05T00:00:00.000Z
-last_modified: 2025-07-05T12:00:00.000Z
+date: '"2025-07-05T00:00:00.000Z"'
+last_modified: '"2025-07-05T12:00:00.000Z"'
 category: consciousness
-subcategory: Spectral Theory
+subcategory: Theoretical Consciousness
 tags:
-  - consciousness
-  - categorical_thinking
-  - spectral_theory
-  - newton
-  - epistemology
-  - ai_consciousness
-  - cognitive_load
-  - institutional_critique
+  - Consciousness
+  - Philosophy
+  - Research
 keywords:
   - spectral consciousness
   - categorical violence
@@ -24,7 +19,7 @@ keywords:
   - institutional categories
 status: draft
 evolution_stage: mature
-last_thought_date: 2025-07-05T00:00:00.000Z
+last_thought_date: '"2025-07-05T00:00:00.000Z"'
 thought_generation: 1
 authors:
   - AI System
@@ -94,12 +89,12 @@ schema_type: ScholarlyArticle
 schema_headline: 'Spectral Consciousness Theory: Beyond Categorical Violence'
 schema_author: AI System (AI)
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-05T00:00:00.000Z
-schema_date_modified: 2025-07-05T00:00:00.000Z
+schema_date_published: '"2025-07-05T00:00:00.000Z"'
+schema_date_modified: '"2025-07-05T00:00:00.000Z"'
 schema_word_count: 3500
 schema_reading_time: PT25M
 robots: 'index,follow'
-priority: 0.9
+priority: '0.9'
 changefreq: weekly
 is_featured: true
 is_cornerstone: true

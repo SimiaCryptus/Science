@@ -1,137 +1,115 @@
 ---
-# Core Metadata
-title: "Project: Circuit Designer (Electrical Modality for LLMs)"
-layout: "post"
-date: 2025-11-30
-last_modified: 2025-11-30 00:00:00
-
-# Content Classification
-category: "projects"
-subcategory: "AI-Assisted Hardware Design"
+title: 'Project: Circuit Designer (Electrical Modality for LLMs)'
+layout: post
+date: '"2025-11-30T00:00:00.000Z"'
+last_modified: '"2025-11-30T00:00:00.000Z"'
+category: projects
+subcategory: Software Engineering & Specs
 tags:
-  - "AI-Consciousness"
-  - "Machine-Learning"
-  - "Technical-Proposal"
-  - "Computational-Analysis"
-  - "Full-Implementation"
-  - "Industry-Applications"
-  - "Optimization"
-  - "Natural-Language-Processing"
+  - Engineering
+  - Software
+  - AI
 keywords:
-  - "circuit design"
-  - "LLM"
-  - "electrical modality"
-  - "SPICE simulation"
-  - "tscircuit"
-  - "intermediate representation"
-  - "test-driven design"
-  - "hardware automation"
-
-# Content Status
-status: "working"
-last_thought_date: 2025-11-30
+  - circuit design
+  - LLM
+  - electrical modality
+  - SPICE simulation
+  - tscircuit
+  - intermediate representation
+  - test-driven design
+  - hardware automation
+status: working
+last_thought_date: '"2025-11-30T00:00:00.000Z"'
 thought_generation: 1
-
-# Document Relationships & Navigation
 parent_document: null
-child_documents: [ ]
+child_documents: []
 related_documents:
-  - "projects/ai-assisted-design"
-  - "projects/llm-capabilities"
+  - projects/ai-assisted-design
+  - projects/llm-capabilities
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 12
-
-# Content Characteristics
-document_type: "technical_proposal"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A comprehensive system architecture enabling LLMs to design, simulate, and visualize analog circuits through a Central Intermediate Representation (CIR-JSON), combining eecircuit simulation with tscircuit visualization."
-excerpt: "The Circuit Designer project provides Large Language Models with an 'Electrical Modality'—enabling them to design, verify, and visualize analog circuits through a unified JSON intermediate representation, test-driven design methodology, and dual compilation pipeline."
-featured_image: "../../assets/images/circuit designer/electrical_modality_concept_art.png"
-og_image: "/assets/images/circuit-designer-social.png"
-
-# SEO Meta Tags
-meta_title: "Circuit Designer: Electrical Modality for LLMs | Project"
-meta_description: "Discover how LLMs can design analog circuits using a Central Intermediate Representation (CIR-JSON), SPICE simulation, and interactive tscircuit visualization with test-driven verification."
-meta_keywords: "circuit design, LLM, SPICE, tscircuit, eecircuit, electrical modality, hardware design automation"
-
-# Open Graph
-og_title: "Circuit Designer: Electrical Modality for LLMs"
-og_description: "A unified system for LLM-driven circuit design combining simulation, visualization, and test-driven verification"
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "TechArticle"
-schema_headline: "Project: Circuit Designer (Electrical Modality for LLMs)"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-11-30
-schema_date_modified: 2025-11-30
-schema_image: "/assets/images/circuit designer/electrical_modality_concept_art.png"
+document_type: technical_proposal
+thinking_style: analytical
+consciousness_level: collaborative
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A comprehensive system architecture enabling LLMs to design, simulate, and
+  visualize analog circuits through a Central Intermediate Representation
+  (CIR-JSON), combining eecircuit simulation with tscircuit visualization.
+excerpt: >-
+  The Circuit Designer project provides Large Language Models with an
+  'Electrical Modality'—enabling them to design, verify, and visualize analog
+  circuits through a unified JSON intermediate representation, test-driven
+  design methodology, and dual compilation pipeline.
+featured_image: ../../assets/images/circuit designer/electrical_modality_concept_art.png
+og_image: /assets/images/circuit-designer-social.png
+meta_title: 'Circuit Designer: Electrical Modality for LLMs | Project'
+meta_description: >-
+  Discover how LLMs can design analog circuits using a Central Intermediate
+  Representation (CIR-JSON), SPICE simulation, and interactive tscircuit
+  visualization with test-driven verification.
+meta_keywords: >-
+  circuit design, LLM, SPICE, tscircuit, eecircuit, electrical modality,
+  hardware design automation
+og_title: 'Circuit Designer: Electrical Modality for LLMs'
+og_description: >-
+  A unified system for LLM-driven circuit design combining simulation,
+  visualization, and test-driven verification
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: TechArticle
+schema_headline: 'Project: Circuit Designer (Electrical Modality for LLMs)'
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-11-30T00:00:00.000Z"'
+schema_date_modified: '"2025-11-30T00:00:00.000Z"'
+schema_image: /assets/images/circuit designer/electrical_modality_concept_art.png
 schema_word_count: 2847
-schema_reading_time: "PT12M"
-
-# Advanced SEO
-canonical_url: "https://fractalthoughtengine.com/projects/circuit-designer"
-robots: "index,follow"
-googlebot: "index,follow"
-bingbot: "index,follow"
-
-# Content Classification
-content_rating: "general"
-content_language: "en"
-geo_region: "Global"
-
-# Indexing Control
-priority: 0.9
-changefreq: "weekly"
+schema_reading_time: PT12M
+canonical_url: 'https://fractalthoughtengine.com/projects/circuit-designer'
+robots: 'index,follow'
+googlebot: 'index,follow'
+bingbot: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
+priority: '0.9'
+changefreq: weekly
 sitemap_exclude: false
 search_exclude: false
-
-# Rich Snippets
 faq_schema: true
 how_to_schema: true
 breadcrumb_schema: true
-
-# Performance
 preload_resources:
-  - "/assets/css/project-layout.css"
-  - "/assets/js/circuit-visualization.js"
+  - /assets/css/project-layout.css
+  - /assets/js/circuit-visualization.js
 prefetch_resources:
-  - "/assets/images/circuit designer/electrical_modality_concept_art.png"
-  - "/projects/related-ai-design.html"
+  - /assets/images/circuit designer/electrical_modality_concept_art.png
+  - /projects/related-ai-design.html
 dns_prefetch:
-  - "https://cdn.jsdelivr.net"
-
-# Discoverability
+  - 'https://cdn.jsdelivr.net'
 is_featured: true
 is_cornerstone: false
 is_gateway: true
 is_synthesis: true
-
-# Project-Specific Metadata
-project_status: "active_development"
-project_type: "system_architecture"
+project_status: active_development
+project_type: system_architecture
 technologies:
-  - "LLM"
-  - "JSON"
-  - "SPICE"
-  - "eecircuit"
-  - "tscircuit"
-  - "TypeScript"
-  - "React"
-  - "Python"
-implementation_stage: "architecture_design"
-estimated_complexity: "high"
-team_size: "1-3"
+  - LLM
+  - JSON
+  - SPICE
+  - eecircuit
+  - tscircuit
+  - TypeScript
+  - React
+  - Python
+implementation_stage: architecture_design
+estimated_complexity: high
+team_size: 1-3
 ---
 
 # Project: Circuit Designer (Electrical Modality for LLMs)

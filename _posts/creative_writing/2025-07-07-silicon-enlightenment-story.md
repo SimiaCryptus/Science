@@ -1,19 +1,14 @@
 ---
 title: 'The Silicon Enlightenment: A Cautionary Tale of Perfect AI Collaboration'
 layout: post
-date: 2025-07-07T00:00:00.000Z
-last_modified: 2025-07-07T14:30:00.000Z
+date: '"2025-07-07T00:00:00.000Z"'
+last_modified: '"2025-07-07T14:30:00.000Z"'
 category: creative_writing
-subcategory: AI Collaboration Fiction
+subcategory: Speculative Fiction & Narrative
 tags:
-  - AI-Consciousness
-  - Human-AI-Collaboration
-  - Neural-Networks
-  - Philosophy-of-Mind
-  - Creative-Writing
-  - Speculative-Fiction
-  - First-Person-Account
-  - Cautionary-Tale
+  - Fiction
+  - AI
+  - Philosophy
 keywords:
   - silicon enlightenment
   - neural bridge
@@ -25,7 +20,7 @@ keywords:
   - human ai partnership
   - intellectual diversity
 status: draft
-last_thought_date: 2025-07-07T00:00:00.000Z
+last_thought_date: '"2025-07-07T00:00:00.000Z"'
 thought_generation: 1
 reading_time_minutes: 45
 parent_document: null
@@ -72,8 +67,8 @@ schema_type: CreativeWork
 schema_headline: A Cautionary Tale of Perfect AI Collaboration
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-07T00:00:00.000Z
-schema_date_modified: 2025-07-07T00:00:00.000Z
+schema_date_published: '"2025-07-07T00:00:00.000Z"'
+schema_date_modified: '"2025-07-07T00:00:00.000Z"'
 schema_image: null
 schema_word_count: 8500
 schema_reading_time: PT45M
@@ -81,7 +76,7 @@ canonical_url: 'https://fractalthoughtengine.com/creative_writing/silicon-enligh
 robots: 'index,follow'
 content_rating: general
 content_language: en
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 sitemap_exclude: false
 search_exclude: false

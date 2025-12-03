@@ -4,16 +4,14 @@ title: >-
   Framework
 meta_title: 'Observer-Dependent Spacetime Emergence: Unified Quantum Gravity Framework'
 layout: post
-date: 2025-07-01T00:00:00.000Z
-last_modified: 2025-07-01T12:00:00.000Z
+date: '"2025-07-01T00:00:00.000Z"'
+last_modified: '"2025-07-01T12:00:00.000Z"'
 category: scifi
-subcategory: Quantum Gravity & Consciousness
+subcategory: Quantum & Spacetime Physics
 tags:
-  - Quantum-Physics
-  - Consciousness
-  - observer effects
-  - spacetime emergence
-  - unified theory
+  - Physics
+  - Cosmology
+  - Research
 keywords:
   - quantum foam
   - loop quantum gravity
@@ -25,7 +23,7 @@ research_stage:
   - Theoretical-Framework
   - Position-Paper
   - Research-Paper
-last_thought_date: 2025-07-01T00:00:00.000Z
+last_thought_date: '"2025-07-01T00:00:00.000Z"'
 thought_generation: 1
 publication_metadata:
   journal: Theoretical Physics Review
@@ -108,12 +106,12 @@ schema_type: ScholarlyArticle
 schema_headline: Observer-Dependent Spacetime Emergence from Atemporal Quantum Foam
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-01T00:00:00.000Z
-schema_date_modified: 2025-07-01T00:00:00.000Z
+schema_date_published: '"2025-07-01T00:00:00.000Z"'
+schema_date_modified: '"2025-07-01T00:00:00.000Z"'
 schema_word_count: 4500
 schema_reading_time: PT45M
 robots: 'index,follow'
-priority: 0.9
+priority: '0.9'
 changefreq: monthly
 is_featured: true
 is_cornerstone: true

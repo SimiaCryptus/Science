@@ -3,21 +3,14 @@ title: >-
   Quantum-Coherent Nuclear Fusion in Superfluid Helium: A Novel Approach to
   Controlled Fusion and Heavy Element Synthesis
 layout: post
-date: 2025-06-29T00:00:00.000Z
-last_modified: 2025-06-29T12:00:00.000Z
+date: '"2025-06-29T00:00:00.000Z"'
+last_modified: '"2025-06-29T12:00:00.000Z"'
 category: scifi
-subcategory: Experimental Physics
+subcategory: Quantum & Spacetime Physics
 tags:
-  - Quantum-Computing
-  - Theoretical-Framework
-  - Mathematical-Modeling
-  - Nuclear-Physics
-  - Quantum-Physics
-  - Energy-Systems
-  - Materials-Science
-  - Speculative-Fiction
-  - Research-Paper
-  - Advanced-Physics
+  - Physics
+  - Engineering
+  - Research
 keywords:
   - superfluid helium
   - quantum coherence
@@ -26,7 +19,7 @@ keywords:
   - muon catalysis
   - vortex dynamics
 status: draft
-last_thought_date: 2025-06-29T00:00:00.000Z
+last_thought_date: '"2025-06-29T00:00:00.000Z"'
 thought_generation: 1
 related_documents:
   - ../social/2025-07-03-post-scarcity-proposal.md
@@ -70,8 +63,8 @@ schema_type: ScholarlyArticle
 schema_headline: Quantum-Coherent Nuclear Fusion in Superfluid Helium
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-06-29T00:00:00.000Z
-schema_date_modified: 2025-06-29T00:00:00.000Z
+schema_date_published: '"2025-06-29T00:00:00.000Z"'
+schema_date_modified: '"2025-06-29T00:00:00.000Z"'
 schema_image: ../../assets/images/conventional_vs_quantum_fusion_comparison.png
 schema_word_count: 4500
 schema_reading_time: PT45M
@@ -80,7 +73,7 @@ robots: 'index,follow'
 content_rating: general
 content_language: en
 geo_region: Global
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 sitemap_exclude: false
 search_exclude: false

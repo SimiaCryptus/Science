@@ -3,21 +3,14 @@ title: >-
   Quantum Social Field Theory: Virtual Interactions and Emergent Collaborative
   Intelligence
 layout: post
-date: 2025-07-02T00:00:00.000Z
-last_modified: 2025-07-02T12:00:00.000Z
+date: '"2025-07-02T00:00:00.000Z"'
+last_modified: '"2025-07-02T12:00:00.000Z"'
 category: scifi
-subcategory: Quantum Cognition
+subcategory: Computational Reality & Consciousness
 tags:
-  - Quantum-Computing
-  - Human-AI-Collaboration
-  - AI-Consciousness
-  - Theoretical-Framework
-  - Mathematical-Modeling
-  - Speculative-Fiction
-  - Philosophy-of-Mind
-  - Quantum-Physics
-  - Information-Theory
-  - Consciousness-Field
+  - Physics
+  - Society
+  - Research
 keywords:
   - quantum field theory
   - social interactions
@@ -26,7 +19,7 @@ keywords:
   - consciousness emergence
   - human-AI collaboration
 status: draft
-last_thought_date: 2025-07-02T00:00:00.000Z
+last_thought_date: '"2025-07-02T00:00:00.000Z"'
 thought_generation: 1
 related_documents:
   - ../social/2025-07-03-hiring.md
@@ -72,8 +65,8 @@ schema_headline: >-
   Intelligence
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-02T00:00:00.000Z
-schema_date_modified: 2025-07-02T00:00:00.000Z
+schema_date_published: '"2025-07-02T00:00:00.000Z"'
+schema_date_modified: '"2025-07-02T00:00:00.000Z"'
 schema_image: /assets/images/quantum-social-field-theory-schema.png
 schema_word_count: 4500
 schema_reading_time: PT25M
@@ -81,7 +74,7 @@ robots: 'index,follow'
 content_rating: general
 content_language: en
 geo_region: Global
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 sitemap_exclude: false
 search_exclude: false

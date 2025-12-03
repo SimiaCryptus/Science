@@ -1,46 +1,52 @@
 ---
-# Required fields
-title: "Human Truth-Processing Architecture: Technical Documentation"
+title: 'Human Truth-Processing Architecture: Technical Documentation'
 layout: post
-date: 2025-08-08
-last_modified: 2024-01-15 10:30:00
-
-# Content classification
+date: '"2025-08-08T00:00:00.000Z"'
+last_modified: '"2024-01-15T10:30:00.000Z"'
 category: consciousness
-subcategory: "Cognitive Architecture"
-tags: ["Human-AI-Collaboration", "Cognitive-Architecture", "Phenomenology", "Social-Systems", "Theoretical-Framework", "Systems-Science"]
-keywords: ["truth processing", "human cognition", "cognitive bias", "institutional knowledge", "social consensus", "belief systems"]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2024-01-15
+subcategory: Protocols & Methodology
+tags:
+  - AI
+  - Epistemology
+  - Phenomenology
+keywords:
+  - truth processing
+  - human cognition
+  - cognitive bias
+  - institutional knowledge
+  - social consensus
+  - belief systems
+status: stable
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
-
-# Content relationships & navigation
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 25
-
-# Content characteristics
-document_type: "framework"
-thinking_style: "analytical"
-consciousness_level: "meta"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "Technical documentation of human truth-processing architecture, exploring cognitive biases, institutional frameworks, and cyclical dynamics of knowledge systems."
-excerpt: "A comprehensive technical analysis of how humans process truth through parallel distributed systems including logical, emotional, social, and narrative processors, with detailed examination of institutional truth-processing and civilizational cycles."
-meta_description: "Technical documentation exploring human truth-processing architecture, cognitive biases, institutional knowledge systems, and cyclical dynamics of civilizational complexity."
-schema_type: "TechArticle"
-schema_headline: "Human Truth-Processing Architecture: Technical Documentation"
-schema_author: "Fractal Thought Engine"
-schema_date_published: 2024-01-15
+document_type: framework
+thinking_style: analytical
+consciousness_level: meta
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  Technical documentation of human truth-processing architecture, exploring
+  cognitive biases, institutional frameworks, and cyclical dynamics of knowledge
+  systems.
+excerpt: >-
+  A comprehensive technical analysis of how humans process truth through
+  parallel distributed systems including logical, emotional, social, and
+  narrative processors, with detailed examination of institutional
+  truth-processing and civilizational cycles.
+meta_description: >-
+  Technical documentation exploring human truth-processing architecture,
+  cognitive biases, institutional knowledge systems, and cyclical dynamics of
+  civilizational complexity.
+schema_type: TechArticle
+schema_headline: 'Human Truth-Processing Architecture: Technical Documentation'
+schema_author: Fractal Thought Engine
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
 schema_word_count: 4500
-schema_reading_time: "PT25M"
-
-# Discoverability
+schema_reading_time: PT25M
 is_featured: true
 is_cornerstone: true
 is_gateway: false

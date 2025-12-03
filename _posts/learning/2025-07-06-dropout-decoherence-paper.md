@@ -1,17 +1,14 @@
 ---
 layout: post
 title: 'Dropout as Decoherence: Toward a Fractal Theory of Epistemic Filtering'
-date: 2025-07-06T00:00:00.000Z
-last_modified: 2025-07-06T14:30:00.000Z
+date: '"2025-07-06T00:00:00.000Z"'
+last_modified: '"2025-07-06T14:30:00.000Z"'
 category: learning
-subcategory: Neural Architectures
+subcategory: Neural Architectures & Optimization
 tags:
-  - dropout
-  - quantum_decoherence
-  - neural_networks
-  - regularization
-  - epistemic_filtering
-  - fractal_theory
+  - Machine-Learning
+  - Physics
+  - Research
 keywords:
   - dropout regularization
   - quantum decoherence
@@ -20,7 +17,7 @@ keywords:
   - informational pruning
   - entropic sieves
 status: draft
-last_thought_date: 2025-07-06T00:00:00.000Z
+last_thought_date: '"2025-07-06T00:00:00.000Z"'
 thought_generation: 1
 authors:
   - Human-AI Collaboration
@@ -102,12 +99,12 @@ schema_type: ScholarlyArticle
 schema_headline: 'Dropout as Decoherence: Toward a Fractal Theory of Epistemic Filtering'
 schema_author: AI & Research Collective
 schema_publisher: Speculative AI Research Group
-schema_date_published: 2025-07-06T00:00:00.000Z
-schema_date_modified: 2025-07-06T00:00:00.000Z
+schema_date_published: '"2025-07-06T00:00:00.000Z"'
+schema_date_modified: '"2025-07-06T00:00:00.000Z"'
 schema_word_count: 4200
 schema_reading_time: PT25M
 robots: 'index,follow'
-priority: 0.9
+priority: '0.9'
 changefreq: monthly
 is_featured: true
 is_cornerstone: true

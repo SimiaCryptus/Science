@@ -3,21 +3,14 @@ title: >-
   TRANSLATIO PHYSICA: A Research Proposal for Training Foundation Models in
   Historical-Conceptual Translation Historical-Conceptual Translation
 layout: post
-date: 2025-07-03T00:00:00.000Z
-last_modified: 2025-07-03T12:00:00.000Z
+date: '"2025-07-03T00:00:00.000Z"'
+last_modified: '"2025-07-03T12:00:00.000Z"'
 category: creative_writing
-subcategory: Consciousness Simulation & Historical Paradigms
+subcategory: Satire & Historical Perspectives
 tags:
-  - AI-Consciousness
-  - Human-AI-Collaboration
-  - Theoretical-Framework
-  - Machine-Learning
-  - Philosophy-of-Mind
-  - Quantum-Physics
-  - Historical-Analysis
-  - Research-Paper
-  - Speculative-Fiction
-  - Academic-Research
+  - Fiction
+  - History
+  - Physics
 keywords:
   - translatio physica
   - simulated consciousness
@@ -28,7 +21,7 @@ keywords:
   - temporal self-awareness
   - anachronistic ai
 status: draft
-last_thought_date: 2025-07-03T00:00:00.000Z
+last_thought_date: '"2025-07-03T00:00:00.000Z"'
 thought_generation: 1
 related_documents:
   - ../projects/2025-06-30-knot-wavelets.md
@@ -75,8 +68,8 @@ schema_headline: >-
   Historical-Conceptual Translation
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-03T00:00:00.000Z
-schema_date_modified: 2025-07-03T12:00:00.000Z
+schema_date_published: '"2025-07-03T00:00:00.000Z"'
+schema_date_modified: '"2025-07-03T12:00:00.000Z"'
 schema_word_count: 3500
 schema_reading_time: PT25M
 robots: 'index,follow'
@@ -85,7 +78,7 @@ content_language: en
 geo_region: Global
 geo_placename: Virtual Research Space
 geo_position: 0;0
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 sitemap_exclude: false
 is_featured: true

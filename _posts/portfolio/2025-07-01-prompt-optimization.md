@@ -3,17 +3,14 @@ title: >-
   PromptOptimization: A Genetic Algorithm Framework for Automated Prompt
   Engineering in Large Language Models
 layout: post
-date: 2025-07-01T00:00:00.000Z
-last_modified: 2025-07-01T12:00:00.000Z
+date: '"2025-07-01T00:00:00.000Z"'
+last_modified: '"2025-07-01T12:00:00.000Z"'
 category: portfolio
-subcategory: Evolutionary AI Systems
+subcategory: ML Algorithms & Optimization
 tags:
-  - Genetic-Algorithms
-  - Machine-Learning
+  - AI
   - Optimization
-  - AI-Consciousness
-  - Computational-Analysis
-  - Technical-Report
+  - Software
 keywords:
   - prompt optimization
   - genetic algorithms
@@ -22,7 +19,7 @@ keywords:
   - evolutionary computation
   - OpenAI API
 status: draft
-last_thought_date: 2025-07-01T00:00:00.000Z
+last_thought_date: '"2025-07-01T00:00:00.000Z"'
 thought_generation: 1
 related_documents:
   - ../learning/2025-07-06-hypothesis-breeding-grounds.md
@@ -71,13 +68,13 @@ schema_headline: >-
   Engineering in Large Language Models
 schema_author: Andrew
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-01T00:00:00.000Z
-schema_date_modified: 2025-07-01T00:00:00.000Z
+schema_date_published: '"2025-07-01T00:00:00.000Z"'
+schema_date_modified: '"2025-07-01T00:00:00.000Z"'
 schema_image: /assets/images/prompt-optimization-schema.png
 schema_word_count: 3500
 schema_reading_time: PT25M
 robots: 'index,follow'
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 is_featured: true
 is_cornerstone: false

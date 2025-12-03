@@ -3,18 +3,14 @@ title: >-
   Geometric Lattice Optimization in Probabilistic Neural Substrates: Crystalline
   Intelligence Architecture
 layout: post
-date: 2025-07-06T00:00:00.000Z
-last_modified: 2025-07-06T12:00:00.000Z
+date: '"2025-07-06T00:00:00.000Z"'
+last_modified: '"2025-07-06T12:00:00.000Z"'
 category: consciousness
-subcategory: Neural Architectures
+subcategory: Theoretical Consciousness
 tags:
-  - pns
-  - geometric-lattice
-  - AI-Consciousness
-  - Quantum-Computing
-  - strategic-avoidance
-  - consciousness
-  - lattice-defects
+  - Physics
+  - Consciousness
+  - Research
 keywords:
   - probabilistic neural substrate
   - geometric lattice optimization
@@ -33,7 +29,7 @@ keywords:
   - Theoretical-Framework
 status: draft
 evolution_stage: 3
-last_thought_date: 2025-07-06T00:00:00.000Z
+last_thought_date: '"2025-07-06T00:00:00.000Z"'
 thought_generation: 1
 authors:
   - Human-AI Collaboration
@@ -130,8 +126,8 @@ schema_type: ScholarlyArticle
 schema_headline: Geometric Lattice Optimization in Probabilistic Neural Substrates
 schema_author: Human Charneski & AI
 schema_publisher: Simiacryptus Research
-schema_date_published: 2025-07-06T00:00:00.000Z
-schema_date_modified: 2025-07-06T00:00:00.000Z
+schema_date_published: '"2025-07-06T00:00:00.000Z"'
+schema_date_modified: '"2025-07-06T00:00:00.000Z"'
 schema_image: /assets/images/crystalline_lattice_consciousness.png
 schema_word_count: 8500
 schema_reading_time: PT45M
@@ -140,7 +136,7 @@ robots: 'index,follow'
 content_rating: general
 content_language: en
 geo_region: Global
-priority: 0.9
+priority: '0.9'
 changefreq: monthly
 sitemap_exclude: false
 search_exclude: false

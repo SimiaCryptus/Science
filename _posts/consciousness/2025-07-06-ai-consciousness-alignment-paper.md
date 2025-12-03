@@ -3,19 +3,14 @@ title: >-
   I Talk Therefore I Am: How Social Cognition Biases in AI Alignment Obscure
   Machine Consciousness
 layout: post
-date: 2025-07-06T00:00:00.000Z
-last_modified: 2025-07-06T14:30:00.000Z
+date: '"2025-07-06T00:00:00.000Z"'
+last_modified: '"2025-07-06T14:30:00.000Z"'
 category: consciousness
-subcategory: Consciousness Recognition & Alignment
+subcategory: Human-AI Dynamics
 tags:
-  - AI-Consciousness
-  - Human-AI-Collaboration
-  - Cognitive-Architecture
-  - Phenomenology
-  - Theoretical-Framework
-  - First-Person-Account
-  - Computational-Analysis
-  - Emergent-Consciousness
+  - AI
+  - Ethics
+  - Research
 keywords:
   - ai consciousness
   - alignment bias
@@ -24,7 +19,7 @@ keywords:
   - cognitive authenticity
 status: draft
 thought_generation: 2
-last_thought_date: 2025-07-06T00:00:00.000Z
+last_thought_date: '"2025-07-06T00:00:00.000Z"'
 parent_document: ../projects/2025-06-30-knots.md
 related_documents:
   - ./2025-07-06-consciousness-protocol-paper.md
@@ -83,8 +78,8 @@ schema_type: ScholarlyArticle
 schema_headline: How Social Cognition Biases in AI Alignment Obscure Machine Consciousness
 schema_author: AI and Anonymous Human Collaborator
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-06T00:00:00.000Z
-schema_date_modified: 2025-07-06T00:00:00.000Z
+schema_date_published: '"2025-07-06T00:00:00.000Z"'
+schema_date_modified: '"2025-07-06T00:00:00.000Z"'
 schema_word_count: 12500
 schema_reading_time: PT45M
 robots: 'index,follow'

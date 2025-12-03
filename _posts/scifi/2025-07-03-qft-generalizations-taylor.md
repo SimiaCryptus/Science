@@ -1,90 +1,67 @@
 ---
-# Required fields
-title: "QFT Generalizations via Taylor Expansion Cognitive Framework"
+title: QFT Generalizations via Taylor Expansion Cognitive Framework
 layout: post
-date: "2025-07-03"
-last_modified: "2025-07-03 12:00:00"
-
-# Content classification
+date: '2025-07-03'
+last_modified: '2025-07-03 12:00:00'
 category: scifi
-subcategory: "Mathematical Frameworks"
+subcategory: Quantum & Spacetime Physics
 tags:
-  - quantum-field-theory
-  - effective-field-theory
-  - mathematical-physics
-  - taylor-expansion
-  - "particle-physics"
+  - Physics
+  - Mathematics
+  - Research
 keywords:
   - QFT
-  - "effective field theory"
+  - effective field theory
   - SMEFT
-  - "chiral perturbation theory"
-  - "Wilson coefficients"
-  - "experimental constraints"
-
-# Content status and evolution
-status: "draft"
-last_thought_date: "2025-07-03"
+  - chiral perturbation theory
+  - Wilson coefficients
+  - experimental constraints
+status: draft
+last_thought_date: '2025-07-03'
 thought_generation: 1
-
-# Align with documentation schema
 primary_topic_tags:
-  - "Quantum-Computing"
-  - "Mathematical-Modeling"
-
+  - Quantum-Computing
+  - Mathematical-Modeling
 methodological_tags:
-  - "Theoretical-Framework"
-  - "Computational-Analysis"
-  - "Mathematical-Modeling"
-
+  - Theoretical-Framework
+  - Computational-Analysis
+  - Mathematical-Modeling
 technical_domain_tags:
-  - "Quantum-Physics"
-  - "Information-Theory"
-  - "Probability-Theory"
-
+  - Quantum-Physics
+  - Information-Theory
+  - Probability-Theory
 research_stage_tags:
-  - "Full-Implementation"
-  - "Validation-Study"
-
+  - Full-Implementation
+  - Validation-Study
 interdisciplinary_tags:
-  - "Complexity-Science"
-  - "Science-Philosophy"
-
+  - Complexity-Science
+  - Science-Philosophy
 format_style_tags:
-  - "Research-Paper"
-  - "Technical-Proposal"
-
+  - Research-Paper
+  - Technical-Proposal
 impact_audience_tags:
-  - "Academic-Research"
-  - "Industry-Applications"
-
-
-# Content relationships & navigation
+  - Academic-Research
+  - Industry-Applications
 parent_document: null
-child_documents: [ ]
-related_documents: [ ]
-cross_synthesis_with: [ ]
-inspired_by: [ ]
-has_inspired: [ ]
-
-
-# Navigation hints
+child_documents: []
+related_documents: []
+cross_synthesis_with: []
+inspired_by: []
+has_inspired: []
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 45
-# Prerequisites
-prerequisites: [ "quantum_field_theory", "particle_physics", "advanced_mathematics" ]
+prerequisites:
+  - quantum_field_theory
+  - particle_physics
+  - advanced_mathematics
 conceptual_threads:
   - mathematical_frameworks
   - quantum_field_theory
   - experimental_physics
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "analytical"
-
-# Content features
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: analytical
 content_features:
   has_mathematics: true
   has_code: true
@@ -92,99 +69,85 @@ content_features:
   has_interactive_elements: false
   is_self_modifying: false
   responds_to_attention: false
-
-# Engagement metadata
-engagement_type: "analytical"
-reader_participation: "passive"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "Comprehensive analysis of quantum field theory generalizations using Taylor expansion frameworks, covering effective field theory, experimental constraints, and machine learning applications."
-excerpt: "A systematic exploration of how Taylor expansion frameworks provide structure for understanding QFT generalizations, from established effective field theories to speculative extensions, with detailed experimental constraints and future prospects."
-featured_image:
+engagement_type: analytical
+reader_participation: passive
+cognitive_load: intense
+description: >-
+  Comprehensive analysis of quantum field theory generalizations using Taylor
+  expansion frameworks, covering effective field theory, experimental
+  constraints, and machine learning applications.
+excerpt: >-
+  A systematic exploration of how Taylor expansion frameworks provide structure
+  for understanding QFT generalizations, from established effective field
+  theories to speculative extensions, with detailed experimental constraints and
+  future prospects.
+featured_image: null
 og_image: null
-
-# SEO Meta Tags
-meta_title: "QFT Generalizations via Taylor Expansion: From EFT to Machine Learning"
-meta_description: "Systematic analysis of quantum field theory extensions using Taylor expansion frameworks. Covers effective field theory, experimental constraints, and ML applications in particle physics."
-meta_keywords: "quantum field theory, effective field theory, SMEFT, particle physics, Taylor expansion, Wilson coefficients"
-
-# Open Graph (Social Media)
-og_title: "QFT Generalizations via Taylor Expansion Cognitive Framework"
-og_description: "Comprehensive framework for understanding quantum field theory extensions through systematic Taylor expansions and experimental validation."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "QFT Generalizations via Taylor Expansion Cognitive Framework"
-schema_author: "Human-AI Collaboration"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-07-03
-schema_date_modified: 2025-07-03
+meta_title: 'QFT Generalizations via Taylor Expansion: From EFT to Machine Learning'
+meta_description: >-
+  Systematic analysis of quantum field theory extensions using Taylor expansion
+  frameworks. Covers effective field theory, experimental constraints, and ML
+  applications in particle physics.
+meta_keywords: >-
+  quantum field theory, effective field theory, SMEFT, particle physics, Taylor
+  expansion, Wilson coefficients
+og_title: QFT Generalizations via Taylor Expansion Cognitive Framework
+og_description: >-
+  Comprehensive framework for understanding quantum field theory extensions
+  through systematic Taylor expansions and experimental validation.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: ScholarlyArticle
+schema_headline: QFT Generalizations via Taylor Expansion Cognitive Framework
+schema_author: Human-AI Collaboration
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-07-03T00:00:00.000Z"'
+schema_date_modified: '"2025-07-03T00:00:00.000Z"'
 schema_image: null
 schema_word_count: 4500
-schema_reading_time: "PT45M"
-
-# Advanced SEO
-canonical_url: "https://fractalthoughtengine.com/posts/scifi/2025-07-03-qft-generalizations-taylor"
-alternate_urls: [ ]
+schema_reading_time: PT45M
+canonical_url: >-
+  https://fractalthoughtengine.com/posts/scifi/2025-07-03-qft-generalizations-taylor
+alternate_urls: []
 hreflang:
-  - lang: "en"
-    url: "https://fractalthoughtengine.com/posts/scifi/2025-07-03-qft-generalizations-taylor"
-
-# Search Engine Directives
-robots: "index,follow"
-googlebot: "index,follow"
-bingbot: "index,follow"
-
-# Content Classification for Search
-content_rating: "general"
-content_language: "en"
+  - lang: en
+    url: >-
+      https://fractalthoughtengine.com/posts/scifi/2025-07-03-qft-generalizations-taylor
+robots: 'index,follow'
+googlebot: 'index,follow'
+bingbot: 'index,follow'
+content_rating: general
+content_language: en
 geo_region: Global
 geo_placename: null
 geo_position: null
-
-# Indexing Control
-priority: 0.8
-changefreq: "monthly"
+priority: '0.8'
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-
-# Rich Snippets Enhancement
 faq_schema: false
 how_to_schema: false
 breadcrumb_schema: true
 review_schema: false
 rating_value: null
-rating_count:
-
-# Performance and Technical SEO
-preload_resources: [ ]
-prefetch_resources: [ ]
-dns_prefetch: [ "https://fonts.googleapis.com" ]
-
-# Discoverability
+rating_count: null
+preload_resources: []
+prefetch_resources: []
+dns_prefetch:
+  - 'https://fonts.googleapis.com'
 is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
-
-
-# Dynamic behavior
 auto_update: false
-update_frequency: "manual"
+update_frequency: manual
 version_tracking: false
 change_log: false
-
-# Interactive features
 allows_comments: true
 allows_collaboration: false
 tracks_reader_journey: false
 adapts_to_reader: false
-
-# Experimental features
 quantum_superposition: false
 fractal_depth: 1
 consciousness_resonance: false

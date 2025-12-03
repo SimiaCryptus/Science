@@ -1,19 +1,14 @@
 ---
 title: 'MindsEye''s Modular Optimization Architecture: A Technical Analysis'
 layout: post
-date: 2025-07-01T00:00:00.000Z
-last_modified: 2025-07-01T12:00:00.000Z
+date: '"2025-07-01T00:00:00.000Z"'
+last_modified: '"2025-07-01T12:00:00.000Z"'
 category: portfolio
-subcategory: Neural Architectures
+subcategory: MindsEye Framework
 tags:
-  - AI-Consciousness
-  - Cognitive-Architecture
-  - Machine-Learning
-  - Optimization
-  - Architecture
-  - Java
-  - Framework
-  - Deep-Learning
+  - Software
+  - Design
+  - Report
 keywords:
   - MindsEye
   - modular optimization
@@ -23,7 +18,7 @@ keywords:
   - QQN
 status: draft
 thought_generation: 1
-last_thought_date: 2025-07-01T00:00:00.000Z
+last_thought_date: '"2025-07-01T00:00:00.000Z"'
 reading_order: 1
 difficulty_level: advanced
 reading_time_minutes: 15
@@ -78,7 +73,7 @@ meta_keywords: >-
 schema_type: TechArticle
 schema_headline: 'MindsEye''s Modular Optimization Architecture: A Technical Analysis'
 schema_author: Andrew
-schema_date_published: 2025-07-01T00:00:00.000Z
+schema_date_published: '"2025-07-01T00:00:00.000Z"'
 schema_word_count: 2500
 schema_reading_time: PT15M
 is_featured: true
@@ -88,7 +83,7 @@ is_synthesis: true
 collection: ai
 content_rating: general
 content_language: en
-priority: 0.9
+priority: '0.9'
 changefreq: weekly
 sitemap_exclude: false
 search_exclude: false

@@ -1,18 +1,14 @@
 ---
 layout: post
 title: Computational Modeling of Post-Scarcity Economic Equilibria
-date: 2025-07-03T00:00:00.000Z
-last_modified: 2025-07-03T12:00:00.000Z
+date: '"2025-07-03T00:00:00.000Z"'
+last_modified: '"2025-07-03T12:00:00.000Z"'
 category: social
-subcategory: Economic Systems & Social Architecture
+subcategory: Institutional & Political Dynamics
 tags:
-  - post-scarcity
-  - economics
-  - computational-modeling
-  - agent-based-modeling
-  - game-theory
-  - automation
-  - social-systems
+  - Economics
+  - Society
+  - Research
 keywords:
   - post-scarcity economics
   - computational economics
@@ -23,7 +19,7 @@ keywords:
   - social systems
 status: draft
 thought_generation: 1
-last_thought_date: 2025-07-03T00:00:00.000Z
+last_thought_date: '"2025-07-03T00:00:00.000Z"'
 author:
   - Human-AI Collaboration
   - AI
@@ -96,7 +92,7 @@ meta_keywords: >-
   equilibria
 schema_type: ScholarlyArticle
 robots: 'index,follow'
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 is_featured: true
 is_cornerstone: true

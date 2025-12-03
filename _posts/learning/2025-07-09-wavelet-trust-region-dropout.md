@@ -1,79 +1,99 @@
 ---
-# Required fields
-title: "Differentiable Basis Transform Trust-Region Dropout: A Universal Framework for Adaptive Regularization"
+title: >-
+  Differentiable Basis Transform Trust-Region Dropout: A Universal Framework for
+  Adaptive Regularization
 layout: post
-date: 2025-07-09
-last_modified: 2025-07-09 10:00:00
-
-# Content classification
+date: '"2025-07-09T00:00:00.000Z"'
+last_modified: '"2025-07-09T10:00:00.000Z"'
 category: learning
-subcategory: "Neural Architectures"
-tags: ["Machine-Learning", "Neural-Networks", "Optimization", "Mathematical-Modeling", "Signal-Processing", "Trust-Region-Methods", "Regularization", "Dropout", "Basis-Transforms", "Wavelet-Analysis", "Fourier-Transform", "PCA", "Deep-Learning"]
-keywords: ["dropout regularization", "trust region optimization", "basis transforms", "adaptive regularization", "signal demultiplexing", "neural networks", "differentiable transforms", "convergence theory"]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2025-07-09
+subcategory: Neural Architectures & Optimization
+tags:
+  - Machine-Learning
+  - Mathematics
+  - Research
+keywords:
+  - dropout regularization
+  - trust region optimization
+  - basis transforms
+  - adaptive regularization
+  - signal demultiplexing
+  - neural networks
+  - differentiable transforms
+  - convergence theory
+status: stable
+last_thought_date: '"2025-07-09T00:00:00.000Z"'
 thought_generation: 1
-
-# Document relationships
 related_documents: []
-
-# Navigation hints
 reading_order: 1
-difficulty_level: "research"
+difficulty_level: research
 reading_time_minutes: 45
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "mathematical"
-consciousness_level: "analytical"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A universal framework combining differentiable basis transforms with trust-region optimization for adaptive dropout regularization in neural networks"
-excerpt: "We propose a universal regularization framework that combines differentiable basis transforms (wavelets, FFT, DCT, PCA) with trust-region optimization to enable controlled reduction of dropout rates toward zero, with applications in signal demultiplexing and adaptive neural network regularization."
-
-# SEO Meta Tags
-meta_title: "Universal Framework for Adaptive Dropout Regularization with Basis Transforms"
-meta_description: "Novel approach combining differentiable basis transforms and trust-region optimization for adaptive dropout in neural networks with theoretical convergence guarantees"
-meta_keywords: "dropout regularization, trust region optimization, basis transforms, neural networks, signal processing, adaptive regularization"
-
-# Open Graph
-og_title: "Differentiable Basis Transform Trust-Region Dropout Framework"
-og_description: "Universal framework for adaptive regularization combining transform-domain analysis with trust-region optimization"
-og_type: "article"
-
-# Schema.org
-schema_type: "ScholarlyArticle"
-schema_headline: "Differentiable Basis Transform Trust-Region Dropout: A Universal Framework for Adaptive Regularization"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-07-09
-schema_date_modified: 2025-07-09
+document_type: research_paper
+thinking_style: mathematical
+consciousness_level: analytical
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A universal framework combining differentiable basis transforms with
+  trust-region optimization for adaptive dropout regularization in neural
+  networks
+excerpt: >-
+  We propose a universal regularization framework that combines differentiable
+  basis transforms (wavelets, FFT, DCT, PCA) with trust-region optimization to
+  enable controlled reduction of dropout rates toward zero, with applications in
+  signal demultiplexing and adaptive neural network regularization.
+meta_title: Universal Framework for Adaptive Dropout Regularization with Basis Transforms
+meta_description: >-
+  Novel approach combining differentiable basis transforms and trust-region
+  optimization for adaptive dropout in neural networks with theoretical
+  convergence guarantees
+meta_keywords: >-
+  dropout regularization, trust region optimization, basis transforms, neural
+  networks, signal processing, adaptive regularization
+og_title: Differentiable Basis Transform Trust-Region Dropout Framework
+og_description: >-
+  Universal framework for adaptive regularization combining transform-domain
+  analysis with trust-region optimization
+og_type: article
+schema_type: ScholarlyArticle
+schema_headline: >-
+  Differentiable Basis Transform Trust-Region Dropout: A Universal Framework for
+  Adaptive Regularization
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-07-09T00:00:00.000Z"'
+schema_date_modified: '"2025-07-09T00:00:00.000Z"'
 schema_word_count: 12000
-schema_reading_time: "PT45M"
-
-# Advanced SEO
-robots: "index,follow"
-priority: 0.8
-changefreq: "monthly"
-
-# Discoverability
+schema_reading_time: PT45M
+robots: 'index,follow'
+priority: '0.8'
+changefreq: monthly
 is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
-
-# Technical tags
-primary_topic_tags: ["Machine-Learning", "Mathematical-Modeling", "Optimization"]
-methodological_tags: ["Theoretical-Framework", "Mathematical-Modeling", "Experimental-Design"]
-technical_domain_tags: ["Neural-Networks", "Information-Theory", "Probability-Theory"]
-application_domain_tags: ["Signal-Processing", "Communications", "Healthcare"]
-research_stage_tags: ["Full-Implementation", "Theoretical-Framework"]
-format_style_tags: ["Research-Paper", "Technical-Proposal"]
+primary_topic_tags:
+  - Machine-Learning
+  - Mathematical-Modeling
+  - Optimization
+methodological_tags:
+  - Theoretical-Framework
+  - Mathematical-Modeling
+  - Experimental-Design
+technical_domain_tags:
+  - Neural-Networks
+  - Information-Theory
+  - Probability-Theory
+application_domain_tags:
+  - Signal-Processing
+  - Communications
+  - Healthcare
+research_stage_tags:
+  - Full-Implementation
+  - Theoretical-Framework
+format_style_tags:
+  - Research-Paper
+  - Technical-Proposal
 ---
 
 # Differentiable Basis Transform Trust-Region Dropout: A Universal Framework for Adaptive Regularization

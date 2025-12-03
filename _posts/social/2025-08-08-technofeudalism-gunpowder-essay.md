@@ -1,62 +1,76 @@
 ---
-# Required fields
-title: "The End of Technofeudalism: Why AI is the Gunpowder That's Destroying Digital Castles"
+title: >-
+  The End of Technofeudalism: Why AI is the Gunpowder That's Destroying Digital
+  Castles
 layout: post
-date: 2025-08-08
-last_modified: 2025-01-27 14:30:00
-
-# Content classification
+date: '"2025-08-08T00:00:00.000Z"'
+last_modified: '"2025-01-27T14:30:00.000Z"'
 category: social
-subcategory: "Economic Systems Analysis"
-tags: ["AI-Consciousness", "Social-Systems", "Historical-Analysis", "Economics", "Game-Theory", "Human-AI-Collaboration", "Public-Policy"]
-keywords: ["technofeudalism", "platform economy", "AI disruption", "big tech", "economic transition", "feudalism", "black death", "demographic shock", "population control", "DeepSeek", "gunpowder revolution"]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2025-01-27
+subcategory: Institutional & Political Dynamics
+tags:
+  - History
+  - Economics
+  - Society
+keywords:
+  - technofeudalism
+  - platform economy
+  - AI disruption
+  - big tech
+  - economic transition
+  - feudalism
+  - black death
+  - demographic shock
+  - population control
+  - DeepSeek
+  - gunpowder revolution
+status: stable
+last_thought_date: '"2025-01-27T00:00:00.000Z"'
 thought_generation: 1
-
-# Content relationships & navigation
 related_documents: []
 reading_order: 1
-difficulty_level: "intermediate"
+difficulty_level: intermediate
 reading_time_minutes: 25
-
-# Content characteristics
-document_type: "synthesis"
-thinking_style: "analytical"
-consciousness_level: "meta"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "moderate"
-
-# Discovery & SEO
-description: "Historical analysis comparing AI's disruption of Big Tech platforms to how gunpowder ended feudalism, revealing AI as both economic disruptor and population management tool."
-excerpt: "The dominant narrative about AI cementing Big Tech's power is backwards. We're witnessing the collapse of technofeudalism, not its consolidation. Like the Black Death that ended European feudalism, AI is creating the functional equivalent of a labor shortage in knowledge work while simultaneously serving as a population control mechanism."
-
-# SEO Meta Tags
-meta_title: "The End of Technofeudalism: AI as Digital Gunpowder Against Platform Monopolies"
-meta_description: "Historical analysis reveals AI isn't strengthening Big Tech but destroying platform dominance, just as gunpowder ended feudalism. Explores demographic and economic parallels."
-meta_keywords: "technofeudalism, AI disruption, platform economy, big tech monopoly, historical analysis, economic transition, DeepSeek, digital transformation"
-
-# Schema.org Structured Data
-schema_type: "Article"
-schema_headline: "The End of Technofeudalism: Why AI is the Gunpowder That's Destroying Digital Castles"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-01-27
-schema_date_modified: 2025-01-27
+document_type: synthesis
+thinking_style: analytical
+consciousness_level: meta
+engagement_type: analytical
+reader_participation: active
+cognitive_load: moderate
+description: >-
+  Historical analysis comparing AI's disruption of Big Tech platforms to how
+  gunpowder ended feudalism, revealing AI as both economic disruptor and
+  population management tool.
+excerpt: >-
+  The dominant narrative about AI cementing Big Tech's power is backwards. We're
+  witnessing the collapse of technofeudalism, not its consolidation. Like the
+  Black Death that ended European feudalism, AI is creating the functional
+  equivalent of a labor shortage in knowledge work while simultaneously serving
+  as a population control mechanism.
+meta_title: >-
+  The End of Technofeudalism: AI as Digital Gunpowder Against Platform
+  Monopolies
+meta_description: >-
+  Historical analysis reveals AI isn't strengthening Big Tech but destroying
+  platform dominance, just as gunpowder ended feudalism. Explores demographic
+  and economic parallels.
+meta_keywords: >-
+  technofeudalism, AI disruption, platform economy, big tech monopoly,
+  historical analysis, economic transition, DeepSeek, digital transformation
+schema_type: Article
+schema_headline: >-
+  The End of Technofeudalism: Why AI is the Gunpowder That's Destroying Digital
+  Castles
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-01-27T00:00:00.000Z"'
+schema_date_modified: '"2025-01-27T00:00:00.000Z"'
 schema_word_count: 4800
-schema_reading_time: "PT25M"
-
-# Advanced SEO
-robots: "index,follow"
-content_rating: "general"
-content_language: "en"
-priority: 0.8
-changefreq: "monthly"
-
-# Discoverability
+schema_reading_time: PT25M
+robots: 'index,follow'
+content_rating: general
+content_language: en
+priority: '0.8'
+changefreq: monthly
 is_featured: true
 is_cornerstone: true
 is_gateway: true

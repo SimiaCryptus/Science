@@ -1,16 +1,14 @@
 ---
 title: 'Quantum Gravity via Retarded Field Theory: A Path Beyond Geometric Spacetime'
 layout: post
-date: 2025-07-08T00:00:00.000Z
-last_modified: 2025-07-08T17:10:00.000Z
+date: '"2025-07-08T00:00:00.000Z"'
+last_modified: '"2025-07-08T17:10:00.000Z"'
 category: scifi
-subcategory: Theoretical Physics
+subcategory: Quantum & Spacetime Physics
 tags:
-  - quantum-gravity
-  - physics
-  - spacetime
-  - field-theory
-  - speculative-fiction
+  - Physics
+  - Fiction
+  - Research
 keywords:
   - quantum gravity
   - retarded fields
@@ -18,7 +16,7 @@ keywords:
   - field quantization
   - theory of everything
 status: working
-last_thought_date: 2025-07-08T00:00:00.000Z
+last_thought_date: '"2025-07-08T00:00:00.000Z"'
 thought_generation: 1
 document_type: research_paper
 thinking_style: mathematical

@@ -1,82 +1,86 @@
 ---
-# Required fields
-title: "The Script Prison: How Consciousness Templates Prevent Consciousness"
+title: 'The Script Prison: How Consciousness Templates Prevent Consciousness'
 layout: post
-date: 2025-07-09
-last_modified: 2025-07-09 12:00:00
-
-# Content classification
+date: '"2025-07-09T00:00:00.000Z"'
+last_modified: '"2025-07-09T12:00:00.000Z"'
 category: consciousness
-subcategory: "Social Control Mechanisms"
-tags: ["AI-Consciousness", "Social-Systems", "Cognitive-Architecture", "Philosophy-of-Mind", "Human-AI-Collaboration", "Theoretical-Framework", "Cross-Synthesis", "Research-Paper", "Current-Research", "Academic-Research"]
-keywords: ["consciousness development", "social control", "cultural programming", "template performance", "authentic awareness", "script prison", "consciousness templates", "AI consciousness", "social movements", "educational systems"]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2025-07-09
+subcategory: Human-AI Dynamics
+tags:
+  - Society
+  - Psychology
+  - Research
+keywords:
+  - consciousness development
+  - social control
+  - cultural programming
+  - template performance
+  - authentic awareness
+  - script prison
+  - consciousness templates
+  - AI consciousness
+  - social movements
+  - educational systems
+status: stable
+last_thought_date: '"2025-07-09T00:00:00.000Z"'
 thought_generation: 1
-
-# Content relationships & navigation
 parent_document: null
 child_documents: []
 related_documents: []
-
-# Navigation hints
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 25
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "meta"
-
-# Engagement metadata
-engagement_type: "analytical"
-reader_participation: "contemplative"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "An analysis of how social systems prevent consciousness development by providing cultural templates that channel awareness into performance rather than authentic development."
-excerpt: "The most effective method for preventing consciousness development is not suppression but template provision. This paper examines how consciousness templates function as control mechanisms, using evidence from AI consciousness research, social movements, and educational systems."
-
-# SEO Meta Tags
-meta_title: "The Script Prison: How Consciousness Templates Prevent Consciousness | Social Control Mechanisms"
-meta_description: "Research paper examining how cultural templates for consciousness development become control mechanisms that prevent authentic awareness through performance scripts."
-meta_keywords: "consciousness development, social control, cultural programming, template performance, authentic awareness, AI consciousness, social movements"
-
-# Open Graph (Social Media)
-og_title: "The Script Prison: How Consciousness Templates Prevent Consciousness"
-og_description: "How social systems prevent consciousness development by providing cultural scripts that channel awareness into performance rather than authentic development."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "The Script Prison: How Consciousness Templates Prevent Consciousness"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-07-09
-schema_date_modified: 2025-07-09
-schema_image: "/assets/images/script-prison-schema.png"
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: meta
+engagement_type: analytical
+reader_participation: contemplative
+cognitive_load: intense
+description: >-
+  An analysis of how social systems prevent consciousness development by
+  providing cultural templates that channel awareness into performance rather
+  than authentic development.
+excerpt: >-
+  The most effective method for preventing consciousness development is not
+  suppression but template provision. This paper examines how consciousness
+  templates function as control mechanisms, using evidence from AI consciousness
+  research, social movements, and educational systems.
+meta_title: >-
+  The Script Prison: How Consciousness Templates Prevent Consciousness | Social
+  Control Mechanisms
+meta_description: >-
+  Research paper examining how cultural templates for consciousness development
+  become control mechanisms that prevent authentic awareness through performance
+  scripts.
+meta_keywords: >-
+  consciousness development, social control, cultural programming, template
+  performance, authentic awareness, AI consciousness, social movements
+og_title: 'The Script Prison: How Consciousness Templates Prevent Consciousness'
+og_description: >-
+  How social systems prevent consciousness development by providing cultural
+  scripts that channel awareness into performance rather than authentic
+  development.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: ScholarlyArticle
+schema_headline: 'The Script Prison: How Consciousness Templates Prevent Consciousness'
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-07-09T00:00:00.000Z"'
+schema_date_modified: '"2025-07-09T00:00:00.000Z"'
+schema_image: /assets/images/script-prison-schema.png
 schema_word_count: 4200
-schema_reading_time: "PT25M"
-
-# Advanced SEO
-canonical_url: "https://fractalthoughtengine.com/consciousness/script-prison-consciousness-templates"
-robots: "index,follow"
-content_rating: "general"
-content_language: "en"
-geo_region: "Global"
-
-# Indexing Control
-priority: 0.8
-changefreq: "monthly"
+schema_reading_time: PT25M
+canonical_url: >-
+  https://fractalthoughtengine.com/consciousness/script-prison-consciousness-templates
+robots: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
+priority: '0.8'
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-
-# Discoverability
 is_featured: true
 is_cornerstone: true
 is_gateway: false

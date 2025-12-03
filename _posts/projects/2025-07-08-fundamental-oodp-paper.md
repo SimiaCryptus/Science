@@ -1,16 +1,14 @@
 ---
 title: Retarded-Time Relativistic Dynamics for Practical Orbital Mechanics
 layout: post
-date: 2025-07-08T00:00:00.000Z
-last_modified: 2025-07-08T16:20:00.000Z
+date: '"2025-07-08T00:00:00.000Z"'
+last_modified: '"2025-07-08T16:20:00.000Z"'
 category: projects
-subcategory: Orbital Mechanics
+subcategory: Physics & Cosmology Simulations
 tags:
-  - orbital-mechanics
-  - relativity
-  - space-technology
-  - physics
-  - computational-analysis
+  - Physics
+  - Space
+  - Research
 keywords:
   - retarded gravity
   - orbital mechanics
@@ -18,7 +16,7 @@ keywords:
   - spacecraft navigation
   - dark matter alternative
 status: stable
-last_thought_date: 2025-07-08T00:00:00.000Z
+last_thought_date: '"2025-07-08T00:00:00.000Z"'
 related_documents:
   - ../scifi/2025-07-08-quantum-gravity-paper.md
 thought_generation: 1

@@ -3,21 +3,14 @@ title: >-
   Binary Coded Layered Autonoma: A Phenomenological Model of Neural Membrane
   Dynamics and Self-Assembling Computational Networks
 layout: post
-date: 2025-08-08T00:00:00.000Z
-last_modified: 2025-01-27T14:30:00.000Z
+date: '"2025-08-08T00:00:00.000Z"'
+last_modified: '"2025-01-27T14:30:00.000Z"'
 category: projects
-subcategory: Computational Neuroscience
+subcategory: Agent Systems & Automata
 tags:
-  - AI-Consciousness
-  - Cognitive-Architecture
-  - Machine-Learning
-  - Neural-Networks
-  - Computational-Analysis
-  - Mathematical-Modeling
-  - Research-Paper
-  - Current-Research
-  - Academic-Research
-  - Theoretical-Framework
+  - AI
+  - Complexity
+  - Research
 keywords:
   - cellular automata
   - neural membrane dynamics
@@ -30,7 +23,7 @@ keywords:
   - synaptic pathways
   - temporal hierarchy
 status: stable
-last_thought_date: 2025-01-27T00:00:00.000Z
+last_thought_date: '"2025-01-27T00:00:00.000Z"'
 thought_generation: 1
 related_documents:
   - ./2025-08-08-flood-memory-model.md
@@ -78,12 +71,12 @@ schema_headline: >-
   Dynamics
 schema_author: Fractal Thought Engine Research Team
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-01-27T00:00:00.000Z
-schema_date_modified: 2025-01-27T00:00:00.000Z
+schema_date_published: '"2025-01-27T00:00:00.000Z"'
+schema_date_modified: '"2025-01-27T00:00:00.000Z"'
 schema_word_count: 12500
 schema_reading_time: PT45M
 robots: 'index,follow'
-priority: 0.9
+priority: '0.9'
 changefreq: monthly
 faq_schema: false
 how_to_schema: false

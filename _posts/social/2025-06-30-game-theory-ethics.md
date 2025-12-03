@@ -3,18 +3,26 @@ title: >-
   Perverse Incentives and Institutional Capture: A Game-Theoretic Analysis of
   Systemic Misalignment in End-of-Life Care and Family Law
 layout: post
-date: 2025-06-30
-last_modified: 2025-06-30 10:00:00
-# Content classification
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T10:00:00.000Z"'
 category: social
-subcategory: "Institutional Analysis"
-tags: ["Game-Theory", "Social-Systems", "AI-Consciousness", "Human-AI-Collaboration", "Public-Policy", "Healthcare", "Legal-Systems", "Machine-Learning", "Ethics-Technology", "Systems-Science"]
-keywords: ["institutional capture", "perverse incentives", "game theory", "healthcare", "family law", "AI adoption", "scarcity economics", "professional intermediaries"]
-# Content status and evolution
-status: "stable"
-last_thought_date: 2025-06-30
+subcategory: Institutional & Political Dynamics
+tags:
+  - Game-Theory
+  - Ethics
+  - Society
+keywords:
+  - institutional capture
+  - perverse incentives
+  - game theory
+  - healthcare
+  - family law
+  - AI adoption
+  - scarcity economics
+  - professional intermediaries
+status: stable
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 thought_generation: 1
-# Content relationships & navigation
 collection: social
 related_documents:
   - institutional_collapse_simulation.tsx: Interactive implementation of the theoretical models
@@ -27,39 +35,46 @@ related_documents:
       decision-making
   - managed_reality_paper.md: Information environment design for institutional reform
   - institutional_decay_analysis.md: How psychopathic selection accelerates institutional capture
-# Navigation hints
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 45
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "meta"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-# Discovery & SEO
-description: "A comprehensive game-theoretic analysis of how institutions designed to serve vulnerable populations systematically evolve to maximize professional employment and revenue extraction rather than their stated objectives."
-excerpt: "This paper presents a game-theoretic analysis of institutional failure across five critical domains: healthcare, family law, education, criminal justice, and IT infrastructure. We demonstrate how systems designed to serve vulnerable populations systematically evolve to maximize professional employment and revenue extraction rather than their stated objectives."
-# SEO Meta Tags
-meta_title: "Perverse Incentives and Institutional Capture: Game Theory Analysis"
-meta_description: "Game-theoretic analysis revealing how healthcare, legal, educational, and IT systems evolve to serve professional interests rather than beneficiaries through perverse incentives and institutional capture."
-meta_keywords: "institutional capture, perverse incentives, game theory, healthcare economics, family law, AI adoption, scarcity economics"
-# Open Graph (Social Media)
-og_title: "Institutional Capture: How Helping Systems Become Exploitation Machines"
-og_description: "Comprehensive analysis of how healthcare, legal, and educational institutions systematically exploit the populations they claim to serve."
-og_type: "article"
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Perverse Incentives and Institutional Capture: A Game-Theoretic Analysis"
-schema_author: "Fractal Thought Engine"
-schema_date_published: 2025-06-30
-schema_date_modified: 2025-06-30
-# Advanced SEO
-robots: "index,follow"
-priority: 0.9
-changefreq: "monthly"
-# Discoverability
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: meta
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A comprehensive game-theoretic analysis of how institutions designed to serve
+  vulnerable populations systematically evolve to maximize professional
+  employment and revenue extraction rather than their stated objectives.
+excerpt: >-
+  This paper presents a game-theoretic analysis of institutional failure across
+  five critical domains: healthcare, family law, education, criminal justice,
+  and IT infrastructure. We demonstrate how systems designed to serve vulnerable
+  populations systematically evolve to maximize professional employment and
+  revenue extraction rather than their stated objectives.
+meta_title: 'Perverse Incentives and Institutional Capture: Game Theory Analysis'
+meta_description: >-
+  Game-theoretic analysis revealing how healthcare, legal, educational, and IT
+  systems evolve to serve professional interests rather than beneficiaries
+  through perverse incentives and institutional capture.
+meta_keywords: >-
+  institutional capture, perverse incentives, game theory, healthcare economics,
+  family law, AI adoption, scarcity economics
+og_title: 'Institutional Capture: How Helping Systems Become Exploitation Machines'
+og_description: >-
+  Comprehensive analysis of how healthcare, legal, and educational institutions
+  systematically exploit the populations they claim to serve.
+og_type: article
+schema_type: ScholarlyArticle
+schema_headline: 'Perverse Incentives and Institutional Capture: A Game-Theoretic Analysis'
+schema_author: Fractal Thought Engine
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
+schema_date_modified: '"2025-06-30T00:00:00.000Z"'
+robots: 'index,follow'
+priority: '0.9'
+changefreq: monthly
 is_featured: true
 is_cornerstone: true
 is_gateway: false
@@ -1500,7 +1515,7 @@ interface EquilibriumSolver {
 ```kotlin
 class EndOfLifeSimulation {
     data class PatientState(
-        val healthStatus: Double, // 0.0 = death, 1.0 = healthy
+        val healthstatus: draft
         val qualityOfLife: Double,
         val financialResources: Double,
         val familyPreferences: FamilyPreferences,

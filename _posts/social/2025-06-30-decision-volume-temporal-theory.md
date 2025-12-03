@@ -2,22 +2,14 @@
 title: 'Decision Volume Theory: Temporal Metrics in Cognitive Space'
 meta_title: 'Decision Volume Theory: How Cognitive Choices Shape Temporal Experience'
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: social
-subcategory: Temporal Cognition
+subcategory: Social Game Theory & Protocols
 tags:
-  - consciousness
-  - temporal_perception
-  - decision_making
-  - cognitive_architecture
-  - subjective_time
-  - Cognitive-Architecture
-  - Phenomenology
-  - Theoretical-Framework
-  - Research-Paper
-  - Current-Research
-  - Academic-Research
+  - Psychology
+  - Philosophy
+  - Research
 keywords:
   - decision volume
   - temporal metrics
@@ -28,7 +20,7 @@ keywords:
   - meditation
   - crisis perception
 status: draft
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 thought_generation: 1
 description: >-
   A framework for understanding subjective time through the density and
@@ -57,12 +49,12 @@ schema_type: ScholarlyArticle
 schema_headline: 'Decision Volume Theory: Temporal Metrics in Cognitive Space'
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-06-30T00:00:00.000Z
-schema_date_modified: 2025-06-30T00:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
+schema_date_modified: '"2025-06-30T00:00:00.000Z"'
 schema_word_count: 2500
 schema_reading_time: PT25M
 robots: 'index,follow'
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 is_featured: true
 is_cornerstone: true

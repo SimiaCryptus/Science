@@ -3,16 +3,14 @@ title: >-
   Cognitive Bias in AI Intelligence Assessment: Domain Dependency and
   Meta-Reasoning Exploits
 layout: post
-date: 2025-07-06T00:00:00.000Z
-last_modified: 2025-07-06T14:30:00.000Z
+date: '"2025-07-06T00:00:00.000Z"'
+last_modified: '"2025-07-06T14:30:00.000Z"'
 category: consciousness
-subcategory: Bias & Assessment
+subcategory: Human-AI Dynamics
 tags:
-  - ai-bias
-  - intelligence-assessment
-  - meta-reasoning
-  - cognitive-evaluation
-  - domain-dependency
+  - AI
+  - Psychology
+  - Research
 keywords:
   - ai bias
   - intelligence assessment
@@ -21,7 +19,7 @@ keywords:
   - cognitive bias
 status: draft
 evolution_stage: mature
-last_thought_date: 2025-07-06T00:00:00.000Z
+last_thought_date: '"2025-07-06T00:00:00.000Z"'
 thought_generation: 1
 authors:
   - Human-AI Collaboration
@@ -78,7 +76,7 @@ meta_description: >-
   domains and meta-reasoning exploits that artificially inflate intelligence
   scores.
 schema_type: ScholarlyArticle
-priority: 0.9
+priority: '0.9'
 changefreq: monthly
 ---
 

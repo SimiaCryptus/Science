@@ -3,17 +3,14 @@ title: >-
   Abstract Computational Architectures on Quantum Graph Substrates: A
   Mathematical Framework for Non-Local Information Processing
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: scifi
-subcategory: Computational Architectures
+subcategory: Computational Reality & Consciousness
 tags:
-  - AI-Consciousness
-  - Computational-Analysis
-  - Theoretical-Framework
-  - Quantum-Computing
-  - Mathematical-Modeling
-  - Complexity-Science
+  - Physics
+  - Mathematics
+  - Research
 keywords:
   - quantum computation
   - complexity theory
@@ -22,7 +19,7 @@ keywords:
   - non-local information processing
   - quantum algorithms
 status: draft
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 thought_generation: 3
 parent_document: null
 child_documents: []
@@ -85,12 +82,12 @@ schema_type: ScholarlyArticle
 schema_headline: Abstract Computational Architectures on Quantum Graph Substrates
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-06-30T00:00:00.000Z
-schema_date_modified: 2025-06-30T00:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
+schema_date_modified: '"2025-06-30T00:00:00.000Z"'
 schema_word_count: 12500
 schema_reading_time: PT45M
 robots: 'index,follow'
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 is_featured: true
 is_cornerstone: true

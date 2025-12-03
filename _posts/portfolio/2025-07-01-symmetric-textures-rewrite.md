@@ -1,18 +1,14 @@
 ---
 title: 'Symmetric Textures: Neural Art Generation with Geometric Constraints'
 layout: post
-date: 2025-07-01T00:00:00.000Z
-last_modified: 2025-07-01T12:00:00.000Z
+date: '"2025-07-01T00:00:00.000Z"'
+last_modified: '"2025-07-01T12:00:00.000Z"'
 category: portfolio
-subcategory: Neural Art Generation
+subcategory: ML Algorithms & Optimization
 tags:
-  - AI-Consciousness
-  - Neural-Networks
-  - Mathematical-Modeling
-  - Computer-Vision
-  - Geometric-Architecture
   - Machine-Learning
-  - Computational-Analysis
+  - Software
+  - Mathematics
 keywords:
   - neural style transfer
   - geometric constraints
@@ -22,7 +18,7 @@ keywords:
   - group theory
   - tessellation
 status: stable
-last_thought_date: 2025-07-01T00:00:00.000Z
+last_thought_date: '"2025-07-01T00:00:00.000Z"'
 thought_generation: 1
 related_documents:
   - ../consciousness/2025-07-06-scale-invariant-intelligence.md
@@ -64,15 +60,15 @@ schema_type: ScholarlyArticle
 schema_headline: 'Symmetric Textures: Neural Art Generation with Geometric Constraints'
 schema_author: Andrew
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-01T00:00:00.000Z
-schema_date_modified: 2025-07-01T00:00:00.000Z
+schema_date_published: '"2025-07-01T00:00:00.000Z"'
+schema_date_modified: '"2025-07-01T00:00:00.000Z"'
 schema_word_count: 4200
 schema_reading_time: PT25M
 robots: 'index,follow'
 content_rating: general
 content_language: en
 geo_region: Global
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 sitemap_exclude: false
 search_exclude: false

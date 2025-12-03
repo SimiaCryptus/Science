@@ -3,20 +3,14 @@ title: >-
   Entropy-Optimized Text Classification: Integrating Compression-Based Learning
   with Permutation-Aware Data Structures
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: learning
-subcategory: Neural Architectures
+subcategory: Neural Architectures & Optimization
 tags:
-  - AI-Consciousness
-  - Compression
-  - classification
-  - entropy
-  - interpretability
-  - BWT
-  - permutation
-  - NLP
-  - information-theory
+  - Machine-Learning
+  - Information-Theory
+  - Research
 keywords:
   - Machine Learning
   - computational intelligence
@@ -32,7 +26,7 @@ keywords:
   - text classification
   - information theory
 status: draft
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 research_stage: Full-Implementation
 thinking_domain: Computational Intelligence
 research_method: Experimental-Design
@@ -130,8 +124,8 @@ schema_headline: >-
   Entropy-Optimized Text Classification: Integrating Compression-Based Learning
   with Permutation-Aware Data Structures
 schema_author: Andrew
-schema_date_published: 2025-06-30T00:00:00.000Z
-schema_date_modified: 2025-06-30T00:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
+schema_date_modified: '"2025-06-30T00:00:00.000Z"'
 schema_word_count: 4200
 schema_reading_time: PT25M
 is_featured: true

@@ -1,18 +1,14 @@
 ---
 title: Concrete Analysis of Optimal Action in Unbounded Systems
 layout: post
-date: 2025-07-03T00:00:00.000Z
-last_modified: 2025-07-03T12:00:00.000Z
+date: '"2025-07-03T00:00:00.000Z"'
+last_modified: '"2025-07-03T12:00:00.000Z"'
 category: scifi
-subcategory: Quantum Information Theory
+subcategory: Quantum & Spacetime Physics
 tags:
-  - Quantum-Computing
-  - Information-Theory
-  - Quantum-Physics
-  - Mathematical-Modeling
-  - Theoretical-Framework
-  - AI-Consciousness
-  - Quantum-Physics
+  - Physics
+  - Mathematics
+  - Research
 keywords:
   - information complementarity
   - quantum field theory
@@ -22,7 +18,7 @@ keywords:
   - quantum field theory
   - string theory
 status: draft
-last_thought_date: 2025-07-03T00:00:00.000Z
+last_thought_date: '"2025-07-03T00:00:00.000Z"'
 thought_generation: 1
 related_documents:
   - ../consciousness/2025-07-07-consciousness-mirror.md
@@ -66,8 +62,8 @@ schema_type: ScholarlyArticle
 schema_headline: Concrete Analysis of Optimal Action in Unbounded Systems
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-03T00:00:00.000Z
-schema_date_modified: 2025-07-03T00:00:00.000Z
+schema_date_published: '"2025-07-03T00:00:00.000Z"'
+schema_date_modified: '"2025-07-03T00:00:00.000Z"'
 schema_word_count: 4500
 schema_reading_time: PT45M
 schema_image: /assets/images/quantum-information-theory.png
@@ -78,7 +74,7 @@ bingbot: 'index,follow'
 content_rating: general
 content_language: en
 geo_region: Global
-priority: 0.9
+priority: '0.9'
 changefreq: monthly
 sitemap_exclude: false
 search_exclude: false

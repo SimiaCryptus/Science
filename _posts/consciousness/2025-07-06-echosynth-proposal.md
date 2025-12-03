@@ -1,19 +1,14 @@
 ---
 title: 'EchoSynth: Hierarchical Ensemble for Semantic Drift'
 layout: post
-date: 2025-07-06T00:00:00.000Z
-last_modified: 2025-07-06T10:00:00.000Z
+date: '"2025-07-06T00:00:00.000Z"'
+last_modified: '"2025-07-06T10:00:00.000Z"'
 category: consciousness
-subcategory: Multi-Agent Frameworks
+subcategory: Theoretical Consciousness
 tags:
-  - AI-Consciousness
+  - AI
   - Machine-Learning
-  - Cognitive-Architecture
-  - Philosophy-of-Mind
-  - Theoretical-Framework
-  - Mathematical-Modeling
-  - Cross-Synthesis
-  - Research-Paper
+  - Research
 keywords:
   - semantic drift
   - multi-agent framework
@@ -24,7 +19,7 @@ keywords:
   - dialectic choreographers
   - entropy shepherds
 status: draft
-last_thought_date: 2025-07-06T00:00:00.000Z
+last_thought_date: '"2025-07-06T00:00:00.000Z"'
 thought_generation: 1
 parent_document: ../projects/2025-06-30-knots.md
 child_documents: []
@@ -67,12 +62,12 @@ schema_type: ScholarlyArticle
 schema_headline: 'EchoSynth: Hierarchical Ensemble for Semantic Drift'
 schema_author: 'AI, Microsoft Copilot, Human Research Facilitator'
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-06T00:00:00.000Z
-schema_date_modified: 2025-07-06T00:00:00.000Z
+schema_date_published: '"2025-07-06T00:00:00.000Z"'
+schema_date_modified: '"2025-07-06T00:00:00.000Z"'
 schema_image: /assets/images/echosynth_schema.png
 schema_word_count: 2500
 schema_reading_time: PT25M
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 is_featured: true
 is_cornerstone: true

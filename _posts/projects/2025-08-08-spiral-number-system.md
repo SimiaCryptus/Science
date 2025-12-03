@@ -1,66 +1,67 @@
 ---
-# Required fields
-title: "The Spiral Number System (ℍ)"
+title: The Spiral Number System (ℍ)
 layout: post
-date: 2025-08-08
-last_modified: 2024-01-15 10:30:00
-
-# Content classification
+date: '"2025-08-08T00:00:00.000Z"'
+last_modified: '"2024-01-15T10:30:00.000Z"'
 category: projects
-subcategory: "Mathematical Frameworks"
-tags: ["Mathematical-Modeling", "Theoretical-Framework", "Complex-Systems", "Topology", "Information-Theory"]
-keywords: ["spiral numbers", "mathematical framework", "logarithmic spiral", "field theory", "exotic arithmetic"]
-
-# Content status and evolution
-status: "working"
-last_thought_date: 2024-01-15
+subcategory: Mathematics & Geometry
+tags:
+  - Mathematics
+  - Research
+  - Theory
+keywords:
+  - spiral numbers
+  - mathematical framework
+  - logarithmic spiral
+  - field theory
+  - exotic arithmetic
+status: working
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
-
-# Content relationships & navigation
 related_documents: []
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 12
-
-# Content characteristics
-document_type: "framework"
-thinking_style: "mathematical"
-consciousness_level: "analytical"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A novel mathematical framework introducing spiral numbers (ℍ) that represent positions on logarithmic spirals, with unique arithmetic operations and geometric properties."
-excerpt: "The Spiral Number System introduces a new mathematical field where numbers exist on infinite logarithmic spirals, enabling natural representation of exponential growth and rotational phenomena through exotic arithmetic operations."
-
-# SEO Meta Tags
-meta_title: "The Spiral Number System: A Novel Mathematical Framework"
-meta_description: "Explore the Spiral Number System (ℍ), a revolutionary mathematical framework for representing numbers on logarithmic spirals with unique arithmetic operations and geometric properties."
-meta_keywords: "spiral numbers, mathematical framework, logarithmic spiral, field theory, complex numbers, mathematical innovation"
-
-# Open Graph
-og_title: "The Spiral Number System (ℍ)"
-og_description: "A groundbreaking mathematical framework that extends number theory to logarithmic spiral manifolds"
-og_type: "article"
-og_locale: "en_US"
-
-# Schema.org
-schema_type: "ScholarlyArticle"
-schema_headline: "The Spiral Number System: Mathematical Framework for Spiral Arithmetic"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
+document_type: framework
+thinking_style: mathematical
+consciousness_level: analytical
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A novel mathematical framework introducing spiral numbers (ℍ) that represent
+  positions on logarithmic spirals, with unique arithmetic operations and
+  geometric properties.
+excerpt: >-
+  The Spiral Number System introduces a new mathematical field where numbers
+  exist on infinite logarithmic spirals, enabling natural representation of
+  exponential growth and rotational phenomena through exotic arithmetic
+  operations.
+meta_title: 'The Spiral Number System: A Novel Mathematical Framework'
+meta_description: >-
+  Explore the Spiral Number System (ℍ), a revolutionary mathematical framework
+  for representing numbers on logarithmic spirals with unique arithmetic
+  operations and geometric properties.
+meta_keywords: >-
+  spiral numbers, mathematical framework, logarithmic spiral, field theory,
+  complex numbers, mathematical innovation
+og_title: The Spiral Number System (ℍ)
+og_description: >-
+  A groundbreaking mathematical framework that extends number theory to
+  logarithmic spiral manifolds
+og_type: article
+og_locale: en_US
+schema_type: ScholarlyArticle
+schema_headline: 'The Spiral Number System: Mathematical Framework for Spiral Arithmetic'
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
 schema_word_count: 850
-schema_reading_time: "PT12M"
-
-# Advanced SEO
-robots: "index,follow"
-priority: 0.8
-changefreq: "monthly"
-
-# Discoverability
+schema_reading_time: PT12M
+robots: 'index,follow'
+priority: '0.8'
+changefreq: monthly
 is_featured: true
 is_cornerstone: true
 is_gateway: false

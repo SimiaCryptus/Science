@@ -44,10 +44,10 @@ keywords: "AI consciousness, human-AI collaboration, neural networks, quantum co
                 {% elsif post.excerpt %}
                 <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncate: 150 }}</p>
                 {% endif %}
-                {% if post.tags and post.tags.size > 0 %}
+{% if post.tags and post.tags.size > 0 %}
                 <div class="post-card-tags">
                     {% for tag in post.tags limit: 3 %}
-                    <span class="tag">{{ tag }}</span>
+                    <a href="{{ tag | slugify | prepend: '/tag/' | append: '/' | relative_url }}" class="tag">{{ tag }}</a>
                     {% endfor %}
                 </div>
                 {% endif %}
@@ -92,6 +92,10 @@ keywords: "AI consciousness, human-AI collaboration, neural networks, quantum co
 
     <section class="categories-overview">
         <a href="categories.html"> <h2>All Posts by Category</h2></a>
+    </section>
+
+    <section class="tags-overview">
+        <a href="tags/"> <h2>All Posts by Tags</h2></a>
     </section>
 
 </div>

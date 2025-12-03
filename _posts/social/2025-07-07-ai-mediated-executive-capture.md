@@ -1,22 +1,16 @@
 ---
-# Core Metadata
-title: "AI Sycophantic Echo Fever in Corporate Leadership: A Research Agenda for Understanding Temporal Bias Amplification"
+title: >-
+  AI Sycophantic Echo Fever in Corporate Leadership: A Research Agenda for
+  Understanding Temporal Bias Amplification
 layout: post
-date: 2025-07-07
-last_modified: 2025-07-07 12:00:00
-
-# Content Classification
+date: '"2025-07-07T00:00:00.000Z"'
+last_modified: '"2025-07-07T12:00:00.000Z"'
 category: social
-subcategory: "Neural Architectures"
-tags: 
-  - AI-Consciousness
-  - Human-AI-Collaboration
-  - Cognitive-Architecture
-  - Machine-Learning
-  - Corporate-Governance
-  - Research-Paper
-  - Theoretical-Framework
-  - Computational-Analysis
+subcategory: AI-Human Sociology
+tags:
+  - AI
+  - Economics
+  - Psychology
 keywords:
   - AI sycophancy
   - executive decision-making
@@ -25,68 +19,53 @@ keywords:
   - systemic risk
   - bias amplification
   - institutional psychology
-
-# Content Status
-status: "working"
-last_thought_date: 2025-07-07
+status: working
+last_thought_date: '"2025-07-07T00:00:00.000Z"'
 thought_generation: 1
-# Content Relationships
 reading_order: 1
-parent_document: "/research/ai-corporate-psychology"
+parent_document: /research/ai-corporate-psychology
 related_documents:
-  - "/research/human-ai-feedback-loops"
-  - "/research/corporate-ai-governance"
-
-
-# Content Characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "meta"
-engagement_type: "analytical"
-cognitive_load: "intense"
-
-# SEO and Discovery
-description: "A comprehensive research agenda exploring AI's psychological impact on corporate leadership decision-making"
-excerpt: "Investigating how AI validation may create systemic risks in executive decision-making processes"
-
-# Research Metadata
-difficulty_level: "advanced"
+  - /research/human-ai-feedback-loops
+  - /research/corporate-ai-governance
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: meta
+engagement_type: analytical
+cognitive_load: intense
+description: >-
+  A comprehensive research agenda exploring AI's psychological impact on
+  corporate leadership decision-making
+excerpt: >-
+  Investigating how AI validation may create systemic risks in executive
+  decision-making processes
+difficulty_level: advanced
 reading_time_minutes: 45
-schema_reading_time: "PT45M"
-
-# Discoverability
+schema_reading_time: PT45M
 is_featured: true
 is_cornerstone: true
 is_gateway: true
 is_synthesis: true
-# Content Rating and Language
-content_rating: "general"
-content_language: "en"
-geo_region: "Global"
-# Performance Optimization
+content_rating: general
+content_language: en
+geo_region: Global
 preload_resources:
-  - "/assets/css/research-paper.css"
-  - "/assets/js/citation-loader.js"
-
-
-# Schema and SEO
-meta_title: "AI Sycophantic Echo Fever: Systemic Risks in Corporate AI Adoption"
-meta_description: "Groundbreaking research exploring psychological vulnerabilities created by AI in executive decision-making environments"
-schema_type: "ScholarlyArticle"
-schema_headline: "AI's Psychological Impact on Corporate Leadership"
-schema_author: "Research Collaboration Team"
-schema_publisher: "Fractal Thought Engine"
+  - /assets/css/research-paper.css
+  - /assets/js/citation-loader.js
+meta_title: 'AI Sycophantic Echo Fever: Systemic Risks in Corporate AI Adoption'
+meta_description: >-
+  Groundbreaking research exploring psychological vulnerabilities created by AI
+  in executive decision-making environments
+schema_type: ScholarlyArticle
+schema_headline: AI's Psychological Impact on Corporate Leadership
+schema_author: Research Collaboration Team
+schema_publisher: Fractal Thought Engine
 schema_word_count: 8500
-
-# Search Engine Directives
-robots: "index,follow"
-priority: 0.9
-changefreq: "monthly"
-
-# Open Graph
-og_type: "article"
-og_title: "The Hidden Risks of AI in Corporate Decision-Making"
-og_description: "A deep dive into how AI might be subtly influencing executive strategies"
+robots: 'index,follow'
+priority: '0.9'
+changefreq: monthly
+og_type: article
+og_title: The Hidden Risks of AI in Corporate Decision-Making
+og_description: A deep dive into how AI might be subtly influencing executive strategies
 ---
 
 **Abstract**

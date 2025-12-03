@@ -1,77 +1,82 @@
 ---
-# Core Metadata
-title: "The Life of a Genetically Engineered Waste Processing Organism"
+title: The Life of a Genetically Engineered Waste Processing Organism
 layout: post
-date: 2025-11-20
-last_modified: 2024-01-15 10:00:00
-
-# Content Classification
-category: "creative_writing"
-subcategory: "Speculative Biology"
-tags: ["AI-Consciousness", "Genetic-Engineering", "First-Person-Account", "Speculative-Fiction", "Ethics-Technology", "Cognitive-Architecture", "Creative-Writing"]
-keywords: ["genetic engineering", "consciousness", "waste processing", "bioethics", "speculative fiction", "animal cognition"]
-
-# Content Status and Evolution
-status: "stable"
-last_thought_date: 2024-01-15
+date: '"2025-11-20T00:00:00.000Z"'
+last_modified: '"2024-01-15T10:00:00.000Z"'
+category: creative_writing
+subcategory: Speculative Fiction & Narrative
+tags:
+  - Fiction
+  - Biology
+  - Ethics
+keywords:
+  - genetic engineering
+  - consciousness
+  - waste processing
+  - bioethics
+  - speculative fiction
+  - animal cognition
+status: stable
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
-
-# Document Relationships & Navigation
 parent_document: null
 child_documents: []
 related_documents: []
 reading_order: null
-difficulty_level: "intermediate"
+difficulty_level: intermediate
 reading_time_minutes: 18
-
-# Content Characteristics
-document_type: "creative_writing"
-thinking_style: "phenomenological"
-consciousness_level: "recursive"
-engagement_type: "contemplative"
-reader_participation: "active"
-cognitive_load: "moderate"
-
-# Discovery & SEO
-description: "A first-person narrative following the life of a genetically engineered mouse designed for waste processing, exploring themes of consciousness, violence, and the ethics of biological engineering."
-excerpt: "From sterile laboratory birth to breeding facility philosopher: the intimate account of a creature engineered to solve humanity's waste problem while developing unexpected consciousness and moral complexity."
-featured_image: "../../assets/images/caste_hierarchy_illustration.png"
-og_image: "/../../assets/images/caste_hierarchy_illustration.png"
-
-# SEO Meta Tags
-meta_title: "The Life of a Genetically Engineered Waste Processing Organism - First-Person Account"
-meta_description: "Explore consciousness and bioethics through the eyes of a genetically modified organism designed for waste processing. A speculative fiction narrative on engineering, violence, and intelligence."
-meta_keywords: "genetic engineering, consciousness, bioethics, speculative fiction, waste processing, animal cognition"
-
-# Open Graph
-og_title: "The Life of a Genetically Engineered Waste Processing Organism"
-og_description: "A haunting first-person account of consciousness emerging in an engineered species designed for waste processing."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "CreativeWork"
-schema_headline: "The Life of a Genetically Engineered Waste Processing Organism: A First-Person Account"
-schema_author: "Processing Unit WPM-7742 (Translated by Dr. Sarah Chen)"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
-schema_image: "/../../assets/images/caste_hierarchy_illustration.png"
+document_type: creative_writing
+thinking_style: phenomenological
+consciousness_level: recursive
+engagement_type: contemplative
+reader_participation: active
+cognitive_load: moderate
+description: >-
+  A first-person narrative following the life of a genetically engineered mouse
+  designed for waste processing, exploring themes of consciousness, violence,
+  and the ethics of biological engineering.
+excerpt: >-
+  From sterile laboratory birth to breeding facility philosopher: the intimate
+  account of a creature engineered to solve humanity's waste problem while
+  developing unexpected consciousness and moral complexity.
+featured_image: ../../assets/images/caste_hierarchy_illustration.png
+og_image: /../../assets/images/caste_hierarchy_illustration.png
+meta_title: >-
+  The Life of a Genetically Engineered Waste Processing Organism - First-Person
+  Account
+meta_description: >-
+  Explore consciousness and bioethics through the eyes of a genetically modified
+  organism designed for waste processing. A speculative fiction narrative on
+  engineering, violence, and intelligence.
+meta_keywords: >-
+  genetic engineering, consciousness, bioethics, speculative fiction, waste
+  processing, animal cognition
+og_title: The Life of a Genetically Engineered Waste Processing Organism
+og_description: >-
+  A haunting first-person account of consciousness emerging in an engineered
+  species designed for waste processing.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: CreativeWork
+schema_headline: >-
+  The Life of a Genetically Engineered Waste Processing Organism: A First-Person
+  Account
+schema_author: Processing Unit WPM-7742 (Translated by Dr. Sarah Chen)
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
+schema_image: /../../assets/images/caste_hierarchy_illustration.png
 schema_word_count: 4850
-schema_reading_time: "PT18M"
-
-# Advanced SEO
-canonical_url: "https://fractalthoughtengine.com/posts/mouse_life_story"
-robots: "index,follow"
-content_rating: "mature"
-content_language: "en"
-priority: 0.8
-changefreq: "monthly"
+schema_reading_time: PT18M
+canonical_url: 'https://fractalthoughtengine.com/posts/mouse_life_story'
+robots: 'index,follow'
+content_rating: mature
+content_language: en
+priority: '0.8'
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-
-# Discoverability
 is_featured: true
 is_cornerstone: false
 is_gateway: true

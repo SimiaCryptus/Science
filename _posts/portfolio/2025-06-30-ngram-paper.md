@@ -3,20 +3,20 @@ title: >-
   Efficient Storage and Hierarchical Compression of Large-Scale N-gram Language
   Models
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: portfolio
-subcategory: Neural Architectures
+subcategory: ML Algorithms & Optimization
 tags:
   - Machine-Learning
   - Information-Theory
-  - Computational-Analysis
+  - Research
 keywords:
   - n-gram compression
   - language models
   - trie storage
 status: stable
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 thought_generation: 3
 parent_document: ../social/2025-07-03-hiring.md
 related_documents:
@@ -46,12 +46,12 @@ schema_type: ScholarlyArticle
 schema_headline: Efficient Storage of Large-Scale N-gram Language Models
 schema_author: Andrew
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-06-30T00:00:00.000Z
-schema_date_modified: 2025-06-30T00:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
+schema_date_modified: '"2025-06-30T00:00:00.000Z"'
 schema_word_count: 3500
 schema_reading_time: PT25M
 robots: 'index,follow'
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 is_featured: true
 is_cornerstone: true

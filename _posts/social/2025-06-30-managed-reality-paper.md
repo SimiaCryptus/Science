@@ -3,18 +3,14 @@ title: >-
   The Consensual Curation of Reality: AI-Mediated Information Environments and
   the Evolutionary Imperative
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: social
-subcategory: Information Systems & Social Architecture
+subcategory: AI-Human Sociology
 tags:
-  - AI-Consciousness
-  - Social-Systems
-  - Information-Science
-  - Computational-Analysis
-  - Systems-Science
-  - Theoretical-Framework
-  - Evolutionary-Adaptation
+  - Society
+  - Politics
+  - AI
 keywords:
   - AI information curation
   - consensual reality management
@@ -27,7 +23,7 @@ keywords:
   - Red Pill Option
   - Social Stability
 status: draft
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 thought_generation: 1
 authors:
   - Human-AI Collaboration
@@ -92,7 +88,7 @@ schema_author: Human
 schema_word_count: 4500
 schema_reading_time: PT25M
 content_rating: general
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 is_cornerstone: true
 is_gateway: false

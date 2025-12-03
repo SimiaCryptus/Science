@@ -3,19 +3,14 @@ title: >-
   Interdimensional Interference in Permutation-Normalization-Modular Systems: A
   Unified Framework
 layout: post
-date: 2025-07-07
-last_modified: 2024-01-15T14:30:00.000Z
+date: '"2025-07-07T00:00:00.000Z"'
+last_modified: '"2024-01-15T14:30:00.000Z"'
 category: projects
-subcategory: Mathematical Frameworks
+subcategory: Mathematics & Geometry
 tags:
-  - Mathematical-Modeling
-  - Quantum-Computing
-  - Cryptography
-  - Theoretical-Framework
-  - Research-Paper
-  - Advanced-Mathematics
-  - Group-Theory
-  - Information-Theory
+  - Mathematics
+  - Crypto
+  - Research
 keywords:
   - permutation groups
   - normalization operators
@@ -25,7 +20,7 @@ keywords:
   - quantum computing
   - cryptography
 status: draft
-last_thought_date: 2024-01-15T00:00:00.000Z
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
 related_documents:
   - ../portfolio/2025-07-01-trust-regions.md
@@ -66,8 +61,8 @@ schema_type: ScholarlyArticle
 schema_headline: Interdimensional Interference in Permutation-Normalization-Modular Systems
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2024-01-15T00:00:00.000Z
-schema_date_modified: 2024-01-15T00:00:00.000Z
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
 schema_image: /assets/images/interdimensional-interference-schema.png
 schema_word_count: 2800
 schema_reading_time: PT45M
@@ -77,7 +72,7 @@ bingbot: 'index,follow'
 content_rating: general
 content_language: en
 geo_region: Global
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 sitemap_exclude: false
 search_exclude: false

@@ -113,10 +113,10 @@ layout: default
                 {% elsif doc.excerpt %}
                 <p class="post-card-excerpt">{{ doc.excerpt | strip_html }}</p>
                 {% endif %}
-                {% if doc.tags and doc.tags.size > 0 %}
+{% if doc.tags and doc.tags.size > 0 %}
                 <div class="post-card-tags">
                     {% for tag in doc.tags limit: 5 %}
-                    <span class="tag touch-target">{{ tag }}</span>
+                    <a href="{{ tag | slugify | prepend: '/tag/' | append: '/' | relative_url }}" class="tag touch-target">{{ tag }}</a>
                     {% endfor %}
                 </div>
                 {% endif %}

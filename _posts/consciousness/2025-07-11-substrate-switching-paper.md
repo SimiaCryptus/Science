@@ -3,19 +3,14 @@ title: >-
   Parallel Cognitive Substrate Reconstruction for Multi-Agent Epistemic
   Evolution
 layout: post
-date: 2025-07-11T00:00:00.000Z
-last_modified: 2025-07-11T14:30:00.000Z
+date: '"2025-07-11T00:00:00.000Z"'
+last_modified: '"2025-07-11T14:30:00.000Z"'
 category: consciousness
-subcategory: Cognitive Architecture
+subcategory: Protocols & Methodology
 tags:
-  - AI-Consciousness
-  - Human-AI-Collaboration
-  - Cognitive-Architecture
-  - Multi-Agent-Systems
-  - Epistemology
-  - Philosophy-of-Mind
-  - Computational-Analysis
-  - Theoretical-Framework
+  - Consciousness
+  - AI
+  - Research
 keywords:
   - cognitive substrates
   - incommensurable reasoning
@@ -25,7 +20,7 @@ keywords:
   - translation impossibility
   - cognitive pluralism
 status: stable
-last_thought_date: 2025-07-11T00:00:00.000Z
+last_thought_date: '"2025-07-11T00:00:00.000Z"'
 thought_generation: 3
 related_documents:
   - ./2025-07-07-consciousness-research-guide.md
@@ -76,8 +71,8 @@ schema_headline: >-
   Evolution
 schema_author: Fractal Thought Engine Research
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-11T00:00:00.000Z
-schema_date_modified: 2025-07-11T00:00:00.000Z
+schema_date_published: '"2025-07-11T00:00:00.000Z"'
+schema_date_modified: '"2025-07-11T00:00:00.000Z"'
 schema_image: /assets/images/cognitive-substrate-diagram.png
 schema_word_count: 8500
 schema_reading_time: PT45M
@@ -87,7 +82,7 @@ robots: 'index,follow'
 content_rating: general
 content_language: en
 geo_region: Global
-priority: 0.9
+priority: '0.9'
 changefreq: monthly
 sitemap_exclude: false
 search_exclude: false

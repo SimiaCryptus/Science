@@ -3,30 +3,14 @@ title: >-
   Scale-Invariant Intelligence: From Texture Synthesis to the Structure of
   Reality
 layout: post
-date: 2025-07-06T00:00:00.000Z
-last_modified: 2025-07-06T10:30:00.000Z
+date: '"2025-07-06T00:00:00.000Z"'
+last_modified: '"2025-07-06T10:30:00.000Z"'
 category: consciousness
-subcategory: Neural Architectures
+subcategory: Theoretical Consciousness
 tags:
-  - scale-invariance
-  - texture-synthesis
-  - neural-networks
-  - consciousness
-  - reality-compression
-  - geometric-constraints
-  - AI-Consciousness
-  - Cognitive-Architecture
-  - Neural-Networks
-  - Mathematical-Modeling
-  - Theoretical-Framework
-  - Cross-Synthesis
-  - Complexity-Science
-  - Philosophy-of-Mind
-  - Research-Paper
-  - Academic-Research
-  - Current-Research
-  - Quantum-Physics
-  - Information-Theory
+  - Complexity
+  - Consciousness
+  - Research
 keywords:
   - scale invariant intelligence
   - texture synthesis
@@ -35,7 +19,7 @@ keywords:
   - geometric constraints
   - edge of chaos
 status: draft
-last_thought_date: 2025-07-06T00:00:00.000Z
+last_thought_date: '"2025-07-06T00:00:00.000Z"'
 thought_generation: 3
 authors:
   - Human-AI Collaboration
@@ -122,12 +106,12 @@ schema_headline: >-
   Reality
 schema_author: Human-AI Collaboration
 schema_publisher: SimiaCryptus
-schema_date_published: 2025-07-06T00:00:00.000Z
-schema_date_modified: 2025-07-06T00:00:00.000Z
+schema_date_published: '"2025-07-06T00:00:00.000Z"'
+schema_date_modified: '"2025-07-06T00:00:00.000Z"'
 schema_word_count: 3500
 schema_reading_time: PT25M
 robots: 'index,follow'
-priority: 0.9
+priority: '0.9'
 changefreq: monthly
 content_rating: general
 content_language: en

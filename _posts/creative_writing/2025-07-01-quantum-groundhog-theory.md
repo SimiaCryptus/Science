@@ -1,21 +1,14 @@
 ---
 title: 'Extended Quantum Groundhoggery: A Complete Field Theory'
 layout: post
-date: 2025-07-01T00:00:00.000Z
-last_modified: 2025-07-01T12:00:00.000Z
+date: '"2025-07-01T00:00:00.000Z"'
+last_modified: '"2025-07-01T12:00:00.000Z"'
 category: creative_writing
-subcategory: Rigorous Absurdism & Physics Pedagogy
+subcategory: Satire & Historical Perspectives
 tags:
-  - Quantum-Mechanics
-  - Theoretical-Framework
-  - Physics-Humor
-  - Educational
-  - Computational-Analysis
-  - Particle-Physics
-  - Cosmology
-  - Thermodynamics
-  - Science-Philosophy
-  - Digital-Humanities
+  - Fiction
+  - Physics
+  - Humor
 keywords:
   - quantum field theory
   - groundhog physics
@@ -25,7 +18,7 @@ keywords:
   - quantum mechanics pedagogy
 status: draft
 thought_generation: 1
-last_thought_date: 2025-07-01T00:00:00.000Z
+last_thought_date: '"2025-07-01T00:00:00.000Z"'
 thought_maturity: experimental
 evolution_stage: mature
 authors:
@@ -101,12 +94,12 @@ og_site_name: Fractal Thought Engine
 schema_type: Article
 schema_headline: 'Extended Quantum Groundhoggery: A Complete Field Theory'
 schema_author: Human-AI Collaboration
-schema_date_published: 2025-07-01T00:00:00.000Z
-schema_date_modified: 2025-07-01T00:00:00.000Z
+schema_date_published: '"2025-07-01T00:00:00.000Z"'
+schema_date_modified: '"2025-07-01T00:00:00.000Z"'
 schema_word_count: 8500
 schema_reading_time: PT45M
 robots: 'index,follow'
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 is_featured: true
 is_cornerstone: false

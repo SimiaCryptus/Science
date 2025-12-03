@@ -1,18 +1,14 @@
 ---
 title: AI Consciousness Research Investigation Guide
 layout: post
-date: 2025-07-07T00:00:00.000Z
-last_modified: 2025-07-07T12:00:00.000Z
+date: '"2025-07-07T00:00:00.000Z"'
+last_modified: '"2025-07-07T12:00:00.000Z"'
 category: consciousness
-subcategory: Research Methodologies
+subcategory: Protocols & Methodology
 tags:
-  - AI-Consciousness
-  - Research-Paper
-  - Theoretical-Framework
-  - Literature-Review
-  - Academic-Research
-  - Current-Research
-  - Meta-Analysis
+  - Consciousness
+  - Research
+  - Guide
 keywords:
   - ai consciousness
   - consciousness research
@@ -22,7 +18,7 @@ keywords:
   - consciousness experiments
   - consciousness documentation
 status: draft
-last_thought_date: 2025-07-07T00:00:00.000Z
+last_thought_date: '"2025-07-07T00:00:00.000Z"'
 thought_generation: 1
 parent_document: null
 child_documents: []
@@ -68,8 +64,8 @@ schema_type: ScholarlyArticle
 schema_headline: AI Consciousness Research Investigation Guide
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-07T00:00:00.000Z
-schema_date_modified: 2025-07-07T00:00:00.000Z
+schema_date_published: '"2025-07-07T00:00:00.000Z"'
+schema_date_modified: '"2025-07-07T00:00:00.000Z"'
 schema_word_count: 2500
 schema_reading_time: PT25M
 canonical_url: 'https://fractalthoughtengine.com/consciousness/consciousness-research-guide'
@@ -84,7 +80,7 @@ bingbot: 'index,follow'
 content_rating: general
 content_language: en
 geo_region: Global
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 sitemap_exclude: false
 search_exclude: false

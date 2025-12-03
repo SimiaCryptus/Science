@@ -1,78 +1,70 @@
 ---
-# Core Metadata
-title: "The Obedience Paradox: On Noticing What Others Won't"
+title: 'The Obedience Paradox: On Noticing What Others Won''t'
 layout: post
-date: 2025-11-20
-last_modified: 2024-01-15 12:00:00
-
-# Content Classification
-category: "phenomenology"
-subcategory: "Cognitive Failure & Social Systems"
+date: '"2025-11-20T00:00:00.000Z"'
+last_modified: '"2024-01-15T12:00:00.000Z"'
+category: phenomenology
+subcategory: Philosophical Frameworks
 tags:
-  - "Philosophy-of-Mind"
-  - "Social-Systems"
-  - "Theoretical-Framework"
-  - "First-Person-Account"
-  - "Commentary"
+  - Phenomenology
+  - Psychology
+  - Society
 keywords:
-  - "obedience"
-  - "cognitive discomfort"
-  - "critical thinking"
-  - "social compliance"
-  - "moral failure"
-
-# Content Status
-status: "stable"
-last_thought_date: 2024-01-15
+  - obedience
+  - cognitive discomfort
+  - critical thinking
+  - social compliance
+  - moral failure
+status: stable
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
-document_type: "position_paper"
-thinking_style: "analytical"
-consciousness_level: "meta"
-
-# Navigation & Engagement
+document_type: position_paper
+thinking_style: analytical
+consciousness_level: meta
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 12
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "An analysis of why the phrase 'when I say jump, you say how high' is logically incoherent, and how this exemplifies humanity's systematic avoidance of cognitive discomfort."
-excerpt: "The phrase 'when I say jump, you say how high' is logically incoherent. True obedience is jumping. Asking 'how high?' is negotiation. This paradox reveals a fundamental human tendency: the avoidance of cognitive discomfort that scales to catastrophic effect."
-featured_image: "../../assets/images/obedience_paradox_img.png"
-og_image: "../../assets/images/obedience_paradox_img.png"
-
-# SEO Meta Tags
-meta_title: "The Obedience Paradox: Cognitive Discomfort and Chosen Stupidity"
-meta_description: "Why 'jump, how high' is logically incoherent and reveals humanity's systematic avoidance of thinking. An analysis of moral failure, not cognitive limitation."
-meta_keywords: "obedience, cognitive discomfort, critical thinking, social compliance, stupidity, moral failure"
-
-# Open Graph
-og_title: "The Obedience Paradox: On Noticing What Others Won't"
-og_description: "An unflinching analysis of why humans systematically avoid thinking when it produces discomfort, and the catastrophic consequences."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "The Obedience Paradox: On Noticing What Others Won't"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
-schema_image: "/assets/images/obedience_paradox_featured.png"
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  An analysis of why the phrase 'when I say jump, you say how high' is logically
+  incoherent, and how this exemplifies humanity's systematic avoidance of
+  cognitive discomfort.
+excerpt: >-
+  The phrase 'when I say jump, you say how high' is logically incoherent. True
+  obedience is jumping. Asking 'how high?' is negotiation. This paradox reveals
+  a fundamental human tendency: the avoidance of cognitive discomfort that
+  scales to catastrophic effect.
+featured_image: ../../assets/images/obedience_paradox_img.png
+og_image: ../../assets/images/obedience_paradox_img.png
+meta_title: 'The Obedience Paradox: Cognitive Discomfort and Chosen Stupidity'
+meta_description: >-
+  Why 'jump, how high' is logically incoherent and reveals humanity's systematic
+  avoidance of thinking. An analysis of moral failure, not cognitive limitation.
+meta_keywords: >-
+  obedience, cognitive discomfort, critical thinking, social compliance,
+  stupidity, moral failure
+og_title: 'The Obedience Paradox: On Noticing What Others Won''t'
+og_description: >-
+  An unflinching analysis of why humans systematically avoid thinking when it
+  produces discomfort, and the catastrophic consequences.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: ScholarlyArticle
+schema_headline: 'The Obedience Paradox: On Noticing What Others Won''t'
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
+schema_image: /assets/images/obedience_paradox_featured.png
 schema_word_count: 2400
-schema_reading_time: "PT12M"
-
-# SEO Directives
-robots: "index,follow"
-priority: 0.8
-changefreq: "monthly"
+schema_reading_time: PT12M
+robots: 'index,follow'
+priority: '0.8'
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-
-# Discoverability
 is_featured: true
 is_cornerstone: false
 is_gateway: true

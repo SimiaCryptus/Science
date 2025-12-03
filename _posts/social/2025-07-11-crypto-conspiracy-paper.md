@@ -1,61 +1,70 @@
 ---
-# Required fields
-title: "Cryptocurrency Ecosystems as Distributed Wealth Extraction Protocols: A Technical Analysis"
+title: >-
+  Cryptocurrency Ecosystems as Distributed Wealth Extraction Protocols: A
+  Technical Analysis
 layout: post
-date: 2025-07-11
-last_modified: 2025-07-11 12:00:00
-
-# Content classification
+date: '"2025-07-11T00:00:00.000Z"'
+last_modified: '"2025-07-11T12:00:00.000Z"'
 category: social
-subcategory: "Economic Systems Analysis"
-tags: ["cryptocurrency", "blockchain", "economic-analysis", "wealth-extraction", "social-systems", "financial-technology", "regulatory-capture", "environmental-impact"]
-keywords: ["bitcoin", "proof-of-work", "mining", "tether", "ransomware", "darknet", "speculation", "energy-consumption", "criminal-facilitation"]
-
-# Content status and evolution
-status: "working"
-last_thought_date: 2025-07-11
+subcategory: Institutional & Political Dynamics
+tags:
+  - Economics
+  - Crypto
+  - Society
+keywords:
+  - bitcoin
+  - proof-of-work
+  - mining
+  - tether
+  - ransomware
+  - darknet
+  - speculation
+  - energy-consumption
+  - criminal-facilitation
+status: working
+last_thought_date: '"2025-07-11T00:00:00.000Z"'
 thought_generation: 1
-
-# Content relationships & navigation
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 25
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "meta"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A technical analysis examining cryptocurrency systems as wealth extraction mechanisms, exploring the economic, environmental, and social costs of blockchain technologies."
-excerpt: "This paper presents a comprehensive technical analysis of cryptocurrency ecosystems, examining how blockchain technologies function as sophisticated wealth redistribution schemes while externalizing environmental and social costs."
-meta_title: "Cryptocurrency as Wealth Extraction: Technical Analysis of Blockchain Economics"
-meta_description: "Technical analysis of cryptocurrency systems as distributed wealth extraction protocols, examining environmental costs, criminal facilitation, and regulatory capture mechanisms."
-meta_keywords: "cryptocurrency analysis, blockchain economics, bitcoin criticism, proof-of-work environmental impact, crypto wealth extraction"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Cryptocurrency Ecosystems as Distributed Wealth Extraction Protocols"
-schema_author: "Anonymous Researcher"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-07-11
-schema_date_modified: 2025-07-11
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: meta
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A technical analysis examining cryptocurrency systems as wealth extraction
+  mechanisms, exploring the economic, environmental, and social costs of
+  blockchain technologies.
+excerpt: >-
+  This paper presents a comprehensive technical analysis of cryptocurrency
+  ecosystems, examining how blockchain technologies function as sophisticated
+  wealth redistribution schemes while externalizing environmental and social
+  costs.
+meta_title: >-
+  Cryptocurrency as Wealth Extraction: Technical Analysis of Blockchain
+  Economics
+meta_description: >-
+  Technical analysis of cryptocurrency systems as distributed wealth extraction
+  protocols, examining environmental costs, criminal facilitation, and
+  regulatory capture mechanisms.
+meta_keywords: >-
+  cryptocurrency analysis, blockchain economics, bitcoin criticism,
+  proof-of-work environmental impact, crypto wealth extraction
+schema_type: ScholarlyArticle
+schema_headline: Cryptocurrency Ecosystems as Distributed Wealth Extraction Protocols
+schema_author: Anonymous Researcher
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-07-11T00:00:00.000Z"'
+schema_date_modified: '"2025-07-11T00:00:00.000Z"'
 schema_word_count: 2800
-schema_reading_time: "PT25M"
-
-# Search Engine Directives
-robots: "index,follow"
-content_rating: "mature"
-content_language: "en"
-
-# Indexing Control
-priority: 0.8
-changefreq: "monthly"
-
-# Discoverability
+schema_reading_time: PT25M
+robots: 'index,follow'
+content_rating: mature
+content_language: en
+priority: '0.8'
+changefreq: monthly
 is_featured: false
 is_cornerstone: false
 is_gateway: false

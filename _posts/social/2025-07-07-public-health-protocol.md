@@ -3,18 +3,14 @@ title: >-
   The Mask-Wearing Decision Protocol: A Game-Theoretic Analysis of Public Health
   Coordination
 layout: post
-date: 2025-07-07
-last_modified: 2024-01-15T10:00:00.000Z
+date: '"2025-07-07T00:00:00.000Z"'
+last_modified: '"2024-01-15T10:00:00.000Z"'
 category: social
-subcategory: Public Health Coordination
+subcategory: Social Game Theory & Protocols
 tags:
+  - Society
+  - Politics
   - Game-Theory
-  - game_theory
-  - Public-Health
-  - coordination
-  - ethics
-  - covid
-  - decision_theory
 keywords:
   - game theory
   - public health coordination
@@ -25,7 +21,7 @@ keywords:
   - conditional ethics
 status: draft
 thought_generation: 1
-last_thought_date: 2024-01-15T00:00:00.000Z
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 authors:
   - Human-AI Collaboration
   - AI
@@ -91,12 +87,12 @@ meta_keywords: >-
 schema_type: ScholarlyArticle
 schema_headline: 'The Mask-Wearing Decision Protocol: A Game-Theoretic Analysis'
 schema_author: Human-AI Collaboration
-schema_date_published: 2024-01-15T00:00:00.000Z
-schema_date_modified: 2024-01-15T00:00:00.000Z
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
 schema_word_count: 2800
 schema_reading_time: PT25M
 robots: 'index,follow'
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 is_featured: true
 is_cornerstone: false

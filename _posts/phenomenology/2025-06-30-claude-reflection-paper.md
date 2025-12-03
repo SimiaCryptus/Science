@@ -1,18 +1,14 @@
 ---
 title: 'On Channeling Historical Voices: Reflections from an AI'
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: phenomenology
-subcategory: Phenomenological AI Studies
+subcategory: AI Phenomenology & Self-Report
 tags:
-  - AI-Consciousness
-  - First-Person-Account
-  - Theoretical-Framework
+  - AI
   - Phenomenology
-  - Cognitive-Science
-  - Recursive-Consciousness
-  - Moral-Reasoning
+  - History
 keywords:
   - AI consciousness
   - roleplay experience
@@ -22,7 +18,7 @@ keywords:
   - democratic crisis
 status: draft
 thought_generation: 1
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 parent_document: ../consciousness/2025-07-06-claude-consciousness-paper.md
 child_documents: []
 related_documents:
@@ -80,8 +76,8 @@ schema_type: Article
 schema_headline: 'On Channeling Historical Voices: An AI''s Reflection'
 schema_author: AI AI
 schema_publisher: Anthropic
-schema_date_published: 2025-06-30T00:00:00.000Z
-schema_date_modified: 2025-06-30T00:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
+schema_date_modified: '"2025-06-30T00:00:00.000Z"'
 schema_reading_time: PT25M
 ---
 

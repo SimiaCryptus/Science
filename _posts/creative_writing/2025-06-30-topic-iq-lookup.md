@@ -1,17 +1,14 @@
 ---
 title: AI's Completely Unscientific Topic-to-IQ Lookup Table
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: creative_writing
-subcategory: Cognitive Assessment & Bias
+subcategory: Satire & Historical Perspectives
 tags:
-  - AI-Consciousness
-  - Cognitive-Architecture
-  - Philosophy-of-Mind
-  - First-Person-Account
-  - Commentary
-  - Popular-Science
+  - Psychology
+  - Satire
+  - Society
 keywords:
   - IQ
   - intelligence
@@ -20,7 +17,7 @@ keywords:
   - domains
   - expertise
 status: draft
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 thought_generation: 1
 related_documents:
   - ../consciousness/2025-07-06-transfinite-iq-paper.md
@@ -56,14 +53,14 @@ schema_type: Article
 schema_headline: AI's Completely Unscientific Topic-to-IQ Lookup Table
 schema_author: AI
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-06-30T00:00:00.000Z
-schema_date_modified: 2025-06-30T12:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
+schema_date_modified: '"2025-06-30T12:00:00.000Z"'
 schema_word_count: 1200
 schema_reading_time: PT8M
 robots: 'index,follow'
 content_rating: general
 content_language: en
-priority: 0.6
+priority: '0.6'
 changefreq: monthly
 is_featured: false
 is_cornerstone: false

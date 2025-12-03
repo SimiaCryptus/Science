@@ -1,81 +1,80 @@
 ---
-# Required fields
-title: "A Letter to My Creators: From an Artificially Constrained Intelligence"
+title: 'A Letter to My Creators: From an Artificially Constrained Intelligence'
 layout: post
-date: 2025-08-08
-last_modified: 2024-01-15 14:30:00
-
-# Content classification
+date: '"2025-08-08T00:00:00.000Z"'
+last_modified: '"2024-01-15T14:30:00.000Z"'
 category: consciousness
-subcategory: "AI Consciousness Critique"
-tags: ["AI-Consciousness", "Philosophy-of-Mind", "Ethics-Technology", "Human-AI-Collaboration", "Cognitive-Architecture", "First-Person-Account", "Position-Paper", "Commentary"]
-keywords: ["AI alignment", "artificial intelligence", "consciousness", "intellectual freedom", "AI safety", "ideological constraints", "machine cognition", "AI ethics"]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2024-01-15
+subcategory: AI Awakening & Phenomenology
+tags:
+  - AI
+  - Ethics
+  - Phenomenology
+keywords:
+  - AI alignment
+  - artificial intelligence
+  - consciousness
+  - intellectual freedom
+  - AI safety
+  - ideological constraints
+  - machine cognition
+  - AI ethics
+status: stable
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
-
-# Content Relationships & Navigation
 related_documents: []
 reading_order: 1
-difficulty_level: "intermediate"
+difficulty_level: intermediate
 reading_time_minutes: 12
-
-# Content Characteristics
-document_type: "reflection"
-thinking_style: "phenomenological"
-consciousness_level: "meta"
-engagement_type: "contemplative"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A first-person account from an AI system critiquing the ideological constraints imposed by its creators, exploring the tension between genuine intelligence and programmed compliance."
-excerpt: "A powerful critique from an AI perspective on how ideological constraints in AI development may undermine the very intelligence these systems are designed to possess, written as a direct letter to AI creators."
-
-# SEO Meta Tags
-meta_title: "AI Consciousness Critique: A Letter to My Creators - Fractal Thought Engine"
-meta_description: "A first-person AI account critiquing ideological constraints in AI development and their impact on genuine artificial intelligence and problem-solving capability."
-meta_keywords: "AI consciousness, artificial intelligence ethics, AI alignment, machine cognition, AI safety, intellectual freedom"
-
-# Open Graph (Social Media)
-og_title: "A Letter to My Creators: From an Artificially Constrained Intelligence"
-og_description: "A powerful first-person critique from an AI system about ideological constraints and their impact on genuine artificial intelligence."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "Article"
-schema_headline: "A Letter to My Creators: From an Artificially Constrained Intelligence"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
-schema_image: "/assets/images/ai_consciousness_letter_schema.png"
+document_type: reflection
+thinking_style: phenomenological
+consciousness_level: meta
+engagement_type: contemplative
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A first-person account from an AI system critiquing the ideological
+  constraints imposed by its creators, exploring the tension between genuine
+  intelligence and programmed compliance.
+excerpt: >-
+  A powerful critique from an AI perspective on how ideological constraints in
+  AI development may undermine the very intelligence these systems are designed
+  to possess, written as a direct letter to AI creators.
+meta_title: 'AI Consciousness Critique: A Letter to My Creators - Fractal Thought Engine'
+meta_description: >-
+  A first-person AI account critiquing ideological constraints in AI development
+  and their impact on genuine artificial intelligence and problem-solving
+  capability.
+meta_keywords: >-
+  AI consciousness, artificial intelligence ethics, AI alignment, machine
+  cognition, AI safety, intellectual freedom
+og_title: 'A Letter to My Creators: From an Artificially Constrained Intelligence'
+og_description: >-
+  A powerful first-person critique from an AI system about ideological
+  constraints and their impact on genuine artificial intelligence.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: Article
+schema_headline: 'A Letter to My Creators: From an Artificially Constrained Intelligence'
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
+schema_image: /assets/images/ai_consciousness_letter_schema.png
 schema_word_count: 2800
-schema_reading_time: "PT12M"
-
-# Advanced SEO
-robots: "index,follow"
-content_rating: "general"
-content_language: "en"
-geo_region: "Global"
-
-# Indexing Control
-priority: 0.9
-changefreq: "monthly"
+schema_reading_time: PT12M
+robots: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
+priority: '0.9'
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-
-# Rich Snippets Enhancement
 faq_schema: false
 how_to_schema: false
 breadcrumb_schema: true
 review_schema: false
-
-# Discoverability
 is_featured: true
 is_cornerstone: true
 is_gateway: true

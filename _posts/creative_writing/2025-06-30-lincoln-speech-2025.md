@@ -1,21 +1,14 @@
 ---
 title: Abraham Lincoln's Address on the State of the Union
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: creative_writing
-subcategory: Presidential Addresses
+subcategory: Satire & Historical Perspectives
 tags:
-  - Creative-Writing
-  - Historical-Analysis
-  - Political-Violence
-  - Constitutional-Crisis
-  - Democracy
-  - Presidential-Power
-  - Civil-Rights
-  - Position-Paper
-  - Commentary
-  - Speculative-Fiction
+  - Fiction
+  - History
+  - Politics
 keywords:
   - abraham lincoln
   - democracy
@@ -26,7 +19,7 @@ keywords:
   - political violence
   - presidential authority
 status: draft
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 thought_generation: 1
 parent_document: null
 child_documents: []
@@ -71,14 +64,14 @@ schema_type: CreativeWork
 schema_headline: Abraham Lincoln's Address on the State of the Union in 2025
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-06-30T00:00:00.000Z
-schema_date_modified: 2025-06-30T00:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
+schema_date_modified: '"2025-06-30T00:00:00.000Z"'
 schema_image: null
 schema_word_count: 3500
 schema_reading_time: PT15M
 canonical_url: null
 robots: 'index,follow'
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 sitemap_exclude: false
 search_exclude: false

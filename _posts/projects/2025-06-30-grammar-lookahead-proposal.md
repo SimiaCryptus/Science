@@ -1,16 +1,14 @@
 ---
 title: Formal Grammar Lookahead for Constrained LLM Generation
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: projects
-subcategory: Neural Architectures
+subcategory: Algorithms & Compression
 tags:
-  - AI-Consciousness
-  - Computational-Analysis
-  - Neural-Networks
-  - Theoretical-Framework
-  - Machine-Learning
+  - AI
+  - Software
+  - Research
 keywords:
   - grammar lookahead
   - constrained generation
@@ -19,7 +17,7 @@ keywords:
   - reachability analysis
   - structured generation
 status: draft
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 thought_generation: 1
 reading_order: 1
 parent_document: null
@@ -71,8 +69,8 @@ og_locale: en_US
 schema_type: ScholarlyArticle
 schema_headline: Formal Grammar Lookahead for Constrained LLM Generation
 schema_author: Human-AI Collaboration
-schema_date_published: 2025-06-30T00:00:00.000Z
-schema_date_modified: 2025-06-30T00:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
+schema_date_modified: '"2025-06-30T00:00:00.000Z"'
 schema_publisher: Fractal Thought Engine
 schema_word_count: 3500
 schema_reading_time: PT25M
@@ -80,7 +78,7 @@ robots: 'index,follow'
 content_rating: general
 content_language: en
 geo_region: Global
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 is_featured: true
 is_cornerstone: false

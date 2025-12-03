@@ -1,73 +1,83 @@
 ---
-# Required fields
-title: "3D Entropy-Driven Ant Swarm Computation Architecture"
+title: 3D Entropy-Driven Ant Swarm Computation Architecture
 layout: post
-date: 2025-08-08T00:00:00.000Z
-last_modified: 2025-08-08T00:00:00.000Z
-
-# Content classification
+date: '"2025-08-08T00:00:00.000Z"'
+last_modified: '"2025-08-08T00:00:00.000Z"'
 category: projects
-subcategory: "Computational Architecture"
-tags: ["AI-Consciousness", "Cognitive-Architecture", "Machine-Learning", "Computational-Biology", "Complexity-Science", "Swarm-Intelligence", "Neurobiological-Emulation"]
-keywords: ["entropy", "ant swarm", "3D computation", "cellular automata", "biological computing", "chaos theory", "neural networks"]
-
-# Content status and evolution
-status: "working"
-last_thought_date: 2024-01-15
+subcategory: Agent Systems & Automata
+tags:
+  - Biology
+  - Complexity
+  - Research
+keywords:
+  - entropy
+  - ant swarm
+  - 3D computation
+  - cellular automata
+  - biological computing
+  - chaos theory
+  - neural networks
+status: working
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
-
-# Content relationships & navigation
 related_documents: []
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 15
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "experimental"
-consciousness_level: "emergent"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A novel neurobiological emulation system using live ants as computational agents within a 3D sphere-packing lattice, where entropy gradients create dynamic gravitational fields."
-excerpt: "Explores a revolutionary computational architecture that uses live ants as processing elements in a 3D lattice structure, guided by entropy gradients to maintain optimal chaos for complex computation. Bridges biology, physics, and computer science through swarm-based neurobiological emulation."
-meta_title: "3D Entropy-Driven Ant Swarm Computation Architecture - Novel Biological Computing"
-meta_description: "Revolutionary computational system using live ants in 3D lattice guided by entropy gradients. Novel approach bridging biology, physics, and computer science for neurobiological emulation."
-meta_keywords: "ant swarm computation, entropy-driven computing, 3D biological architecture, neurobiological emulation, chaos computation"
-
-# Open Graph (Social Media)
-og_title: "3D Entropy-Driven Ant Swarm Computation Architecture"
-og_description: "Revolutionary biological computing system using live ants guided by entropy gradients in 3D space"
-og_type: "article"
-og_locale: "en_US"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "3D Entropy-Driven Ant Swarm Computation Architecture"
-schema_author: "Fractal Thought Engine"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
+document_type: research_paper
+thinking_style: experimental
+consciousness_level: emergent
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A novel neurobiological emulation system using live ants as computational
+  agents within a 3D sphere-packing lattice, where entropy gradients create
+  dynamic gravitational fields.
+excerpt: >-
+  Explores a revolutionary computational architecture that uses live ants as
+  processing elements in a 3D lattice structure, guided by entropy gradients to
+  maintain optimal chaos for complex computation. Bridges biology, physics, and
+  computer science through swarm-based neurobiological emulation.
+meta_title: >-
+  3D Entropy-Driven Ant Swarm Computation Architecture - Novel Biological
+  Computing
+meta_description: >-
+  Revolutionary computational system using live ants in 3D lattice guided by
+  entropy gradients. Novel approach bridging biology, physics, and computer
+  science for neurobiological emulation.
+meta_keywords: >-
+  ant swarm computation, entropy-driven computing, 3D biological architecture,
+  neurobiological emulation, chaos computation
+og_title: 3D Entropy-Driven Ant Swarm Computation Architecture
+og_description: >-
+  Revolutionary biological computing system using live ants guided by entropy
+  gradients in 3D space
+og_type: article
+og_locale: en_US
+schema_type: ScholarlyArticle
+schema_headline: 3D Entropy-Driven Ant Swarm Computation Architecture
+schema_author: Fractal Thought Engine
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
 schema_word_count: 1200
-schema_reading_time: "PT15M"
-
-# Advanced SEO
-robots: "index,follow"
-content_rating: "general"
-content_language: "en"
-
-# Discoverability
+schema_reading_time: PT15M
+robots: 'index,follow'
+content_rating: general
+content_language: en
 is_featured: true
 is_cornerstone: false
 is_gateway: false
 is_synthesis: true
-
-# Research classification
-research_stage: "proof-of-concept"
+research_stage: proof-of-concept
 interdisciplinary: true
-technical_domain: ["Neural-Networks", "Computational-Biology", "Complexity-Science"]
-application_domain: ["AI-Research", "Neurobiological-Research"]
+technical_domain:
+  - Neural-Networks
+  - Computational-Biology
+  - Complexity-Science
+application_domain:
+  - AI-Research
+  - Neurobiological-Research
 ---
 
 # 3D Entropy-Driven Ant Swarm Computation Architecture

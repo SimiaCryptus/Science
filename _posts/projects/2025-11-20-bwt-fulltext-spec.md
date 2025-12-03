@@ -1,76 +1,78 @@
 ---
-# Core Metadata
-title: "Permutation-Based Full-Text Index: Mathematical Specification"
+title: 'Permutation-Based Full-Text Index: Mathematical Specification'
 layout: post
-date: 2025-11-20
-last_modified: 2024-01-01 00:00:00
-
-# Content Classification
-category: "projects"
-subcategory: "Computational Algorithms"
-tags: ["Burrows-Wheeler-Transform", "Suffix-Arrays", "Pattern-Matching", "Permutation-Groups", "Full-Text-Indexing", "Regex-Matching", "Information-Theory", "Genomic-Sequence-Analysis", "Natural-Language-Processing"]
-keywords: ["BWT", "suffix array", "permutation ring", "pattern matching", "full-text index", "regex", "genomic analysis"]
-
-# Content Status and Evolution
-status: "stable"
-last_thought_date: 2024-01-01
+date: '"2025-11-20T00:00:00.000Z"'
+last_modified: '"2024-01-01T00:00:00.000Z"'
+category: projects
+subcategory: Algorithms & Compression
+tags:
+  - Software
+  - Algorithms
+  - Research
+keywords:
+  - BWT
+  - suffix array
+  - permutation ring
+  - pattern matching
+  - full-text index
+  - regex
+  - genomic analysis
+status: stable
+last_thought_date: '"2024-01-01T00:00:00.000Z"'
 thought_generation: 1
-
-# Document Relationships & Navigation
 parent_document: null
 child_documents: []
 related_documents: []
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 45
-
-# Content Characteristics
-document_type: "research_paper"
-thinking_style: "mathematical"
-consciousness_level: "analytical"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "Comprehensive mathematical specification for a permutation-based full-text indexing system extending the Burrows-Wheeler Transform with regex pattern matching and genomic applications."
-excerpt: "A complete framework for full-text indexing using permutation groups, enabling efficient pattern matching, substring operations, and applications to genomic sequence analysis and natural language processing."
-
-# SEO Meta Tags
-meta_title: "Permutation-Based Full-Text Index: BWT Mathematical Specification"
-meta_description: "Mathematical specification for permutation-based full-text indexing system with Burrows-Wheeler Transform, suffix arrays, and regex pattern matching capabilities."
-meta_keywords: "Burrows-Wheeler Transform, suffix array, permutation groups, pattern matching, full-text index, regex, genomic analysis, information theory"
-
-# Open Graph (Social Media)
-og_title: "Permutation-Based Full-Text Index: Mathematical Specification"
-og_description: "Comprehensive framework for full-text indexing using permutation groups with applications to genomics and NLP"
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Permutation-Based Full-Text Index: Mathematical Specification"
-schema_author: "Andrew"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-01-01
-schema_date_modified: 2024-01-01
-schema_image: "/assets/images/bwt_permutation_ring.png"
+document_type: research_paper
+thinking_style: mathematical
+consciousness_level: analytical
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  Comprehensive mathematical specification for a permutation-based full-text
+  indexing system extending the Burrows-Wheeler Transform with regex pattern
+  matching and genomic applications.
+excerpt: >-
+  A complete framework for full-text indexing using permutation groups, enabling
+  efficient pattern matching, substring operations, and applications to genomic
+  sequence analysis and natural language processing.
+meta_title: 'Permutation-Based Full-Text Index: BWT Mathematical Specification'
+meta_description: >-
+  Mathematical specification for permutation-based full-text indexing system
+  with Burrows-Wheeler Transform, suffix arrays, and regex pattern matching
+  capabilities.
+meta_keywords: >-
+  Burrows-Wheeler Transform, suffix array, permutation groups, pattern matching,
+  full-text index, regex, genomic analysis, information theory
+og_title: 'Permutation-Based Full-Text Index: Mathematical Specification'
+og_description: >-
+  Comprehensive framework for full-text indexing using permutation groups with
+  applications to genomics and NLP
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: ScholarlyArticle
+schema_headline: 'Permutation-Based Full-Text Index: Mathematical Specification'
+schema_author: Andrew
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2024-01-01T00:00:00.000Z"'
+schema_date_modified: '"2024-01-01T00:00:00.000Z"'
+schema_image: /assets/images/bwt_permutation_ring.png
 schema_word_count: 8500
-schema_reading_time: "PT45M"
-
-# Advanced SEO
-canonical_url: "https://fractalthoughtengine.com/posts/bwt-fulltext-spec"
-robots: "index,follow"
-googlebot: "index,follow"
-
-# Discoverability
+schema_reading_time: PT45M
+canonical_url: 'https://fractalthoughtengine.com/posts/bwt-fulltext-spec'
+robots: 'index,follow'
+googlebot: 'index,follow'
 is_featured: false
 is_cornerstone: true
 is_gateway: true
 is_synthesis: true
-priority: 0.9
-changefreq: "monthly"
+priority: '0.9'
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
 ---

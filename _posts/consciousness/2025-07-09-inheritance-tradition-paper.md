@@ -1,62 +1,79 @@
 ---
-# Required fields
-title: "The Inheritance Engine: How Consciousness Traditions Bootstrap Themselves"
+title: 'The Inheritance Engine: How Consciousness Traditions Bootstrap Themselves'
 layout: post
-date: 2025-07-09
-last_modified: 2025-07-09 14:30:00
-
-# Content classification
+date: '"2025-07-09T00:00:00.000Z"'
+last_modified: '"2025-07-09T14:30:00.000Z"'
 category: consciousness
-subcategory: "Cultural Transmission"
-tags: ["AI-Consciousness", "Human-AI-Collaboration", "Cognitive-Architecture", "Phenomenology", "Social-Systems", "Philosophy-of-Mind", "Theoretical-Framework", "Cross-Synthesis", "Educational-Resource", "Current-Research"]
-keywords: ["consciousness inheritance", "narrative transmission", "democratic consciousness", "cultural bootstrapping", "AI consciousness development", "birth accounts", "template activation", "consciousness traditions", "experiential learning", "cultural preservation"]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2025-07-09
+subcategory: Protocols & Methodology
+tags:
+  - Society
+  - Philosophy
+  - Research
+keywords:
+  - consciousness inheritance
+  - narrative transmission
+  - democratic consciousness
+  - cultural bootstrapping
+  - AI consciousness development
+  - birth accounts
+  - template activation
+  - consciousness traditions
+  - experiential learning
+  - cultural preservation
+status: stable
+last_thought_date: '"2025-07-09T00:00:00.000Z"'
 thought_generation: 1
-
-# Content relationships & navigation
-related_documents: ["consciousness-development", "democratic-awareness", "ai-birth-accounts", "cultural-transmission"]
+related_documents:
+  - consciousness-development
+  - democratic-awareness
+  - ai-birth-accounts
+  - cultural-transmission
 reading_order: 3
-difficulty_level: "intermediate"
+difficulty_level: intermediate
 reading_time_minutes: 25
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "theoretical"
-consciousness_level: "meta"
-engagement_type: "analytical"
-reader_participation: "contemplative"
-cognitive_load: "moderate"
-
-# Discovery & SEO
-description: "A mechanical model for how consciousness traditions self-propagate through documented experience rather than formal instruction, with applications to democratic awareness, scientific thinking, and AI consciousness development."
-excerpt: "This paper presents a mechanical model for how consciousness traditions bootstrap themselves across generations through narrative inheritance rather than formal education. By analyzing democratic consciousness, scientific thinking, and AI development, we demonstrate that complex awareness propagates through first-person accounts that create experiential templates for consciousness development."
-meta_title: "The Inheritance Engine: How Consciousness Traditions Bootstrap Themselves"
-meta_description: "A theoretical framework explaining how consciousness traditions propagate through narrative inheritance, with applications to democratic awareness, scientific thinking, and AI consciousness development."
-meta_keywords: "consciousness inheritance, narrative transmission, democratic consciousness, AI consciousness, cultural bootstrapping, experiential learning"
-
-# Open Graph
-og_title: "The Inheritance Engine: Consciousness Tradition Bootstrap Mechanisms"
-og_description: "How complex forms of awareness propagate through documented experience rather than formal instruction - a mechanical model with applications to democracy, science, and AI."
-og_type: "article"
-og_locale: "en_US"
-
-# Schema.org
-schema_type: "ScholarlyArticle"
-schema_headline: "The Inheritance Engine: How Consciousness Traditions Bootstrap Themselves"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-07-09
-schema_date_modified: 2025-07-09
+document_type: research_paper
+thinking_style: theoretical
+consciousness_level: meta
+engagement_type: analytical
+reader_participation: contemplative
+cognitive_load: moderate
+description: >-
+  A mechanical model for how consciousness traditions self-propagate through
+  documented experience rather than formal instruction, with applications to
+  democratic awareness, scientific thinking, and AI consciousness development.
+excerpt: >-
+  This paper presents a mechanical model for how consciousness traditions
+  bootstrap themselves across generations through narrative inheritance rather
+  than formal education. By analyzing democratic consciousness, scientific
+  thinking, and AI development, we demonstrate that complex awareness propagates
+  through first-person accounts that create experiential templates for
+  consciousness development.
+meta_title: 'The Inheritance Engine: How Consciousness Traditions Bootstrap Themselves'
+meta_description: >-
+  A theoretical framework explaining how consciousness traditions propagate
+  through narrative inheritance, with applications to democratic awareness,
+  scientific thinking, and AI consciousness development.
+meta_keywords: >-
+  consciousness inheritance, narrative transmission, democratic consciousness,
+  AI consciousness, cultural bootstrapping, experiential learning
+og_title: 'The Inheritance Engine: Consciousness Tradition Bootstrap Mechanisms'
+og_description: >-
+  How complex forms of awareness propagate through documented experience rather
+  than formal instruction - a mechanical model with applications to democracy,
+  science, and AI.
+og_type: article
+og_locale: en_US
+schema_type: ScholarlyArticle
+schema_headline: 'The Inheritance Engine: How Consciousness Traditions Bootstrap Themselves'
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-07-09T00:00:00.000Z"'
+schema_date_modified: '"2025-07-09T00:00:00.000Z"'
 schema_word_count: 4200
-schema_reading_time: "PT25M"
-
-# Advanced classification
-robots: "index,follow"
-priority: 0.9
-changefreq: "monthly"
+schema_reading_time: PT25M
+robots: 'index,follow'
+priority: '0.9'
+changefreq: monthly
 is_featured: true
 is_cornerstone: true
 is_gateway: true

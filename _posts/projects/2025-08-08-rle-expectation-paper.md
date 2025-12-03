@@ -1,60 +1,68 @@
 ---
-# Required fields
-title: "Continuous Expectation-Prior RLE: A Unified Framework for Sub-Pixel Compression and Analysis-Ready Spatial Data Representation"
+title: >-
+  Continuous Expectation-Prior RLE: A Unified Framework for Sub-Pixel
+  Compression and Analysis-Ready Spatial Data Representation
 layout: post
-date: 2025-08-08
-last_modified: 2024-01-15 14:30:00
-
-# Content classification
+date: '"2025-08-08T00:00:00.000Z"'
+last_modified: '"2024-01-15T14:30:00.000Z"'
 category: projects
-subcategory: "Compression Algorithms"
-tags: ["compression", "computer-vision", "graphics", "spatial-data", "sub-pixel", "analysis-ready", "unified-framework"]
-keywords: ["continuous run-length encoding", "sub-pixel compression", "analysis-ready representation", "computer vision preprocessing", "unified compression-analysis framework", "CEP-RLE", "geometric analysis", "spatial data"]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2024-01-15
+subcategory: Algorithms & Compression
+tags:
+  - Software
+  - Algorithms
+  - Research
+keywords:
+  - continuous run-length encoding
+  - sub-pixel compression
+  - analysis-ready representation
+  - computer vision preprocessing
+  - unified compression-analysis framework
+  - CEP-RLE
+  - geometric analysis
+  - spatial data
+status: stable
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
-
-# Document relationships
 related_documents: []
-
-# Navigation hints
 reading_order: 1
-difficulty_level: "research"
+difficulty_level: research
 reading_time_minutes: 45
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A novel compression algorithm that simultaneously achieves high-precision spatial data compression and produces analysis-ready intermediate representations for computer vision and graphics applications."
-excerpt: "CEP-RLE introduces a unified framework that operates on continuous boundaries with sub-pixel precision, creating semantically rich data structures that directly support downstream analysis tasks while achieving superior compression ratios of 25-60% improvement over discrete methods."
-meta_title: "CEP-RLE: Unified Sub-Pixel Compression and Analysis Framework"
-meta_description: "Revolutionary compression algorithm combining sub-pixel precision spatial data compression with analysis-ready representations for computer vision, graphics, and medical imaging applications."
-meta_keywords: "continuous RLE, sub-pixel compression, computer vision, spatial data analysis, unified framework, geometric analysis"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Continuous Expectation-Prior RLE: A Unified Framework for Sub-Pixel Compression and Analysis-Ready Spatial Data Representation"
-schema_author: "Research Team"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: collaborative
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A novel compression algorithm that simultaneously achieves high-precision
+  spatial data compression and produces analysis-ready intermediate
+  representations for computer vision and graphics applications.
+excerpt: >-
+  CEP-RLE introduces a unified framework that operates on continuous boundaries
+  with sub-pixel precision, creating semantically rich data structures that
+  directly support downstream analysis tasks while achieving superior
+  compression ratios of 25-60% improvement over discrete methods.
+meta_title: 'CEP-RLE: Unified Sub-Pixel Compression and Analysis Framework'
+meta_description: >-
+  Revolutionary compression algorithm combining sub-pixel precision spatial data
+  compression with analysis-ready representations for computer vision, graphics,
+  and medical imaging applications.
+meta_keywords: >-
+  continuous RLE, sub-pixel compression, computer vision, spatial data analysis,
+  unified framework, geometric analysis
+schema_type: ScholarlyArticle
+schema_headline: >-
+  Continuous Expectation-Prior RLE: A Unified Framework for Sub-Pixel
+  Compression and Analysis-Ready Spatial Data Representation
+schema_author: Research Team
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
 schema_word_count: 12500
-schema_reading_time: "PT45M"
-
-# Advanced SEO
-robots: "index,follow"
-priority: 0.9
-changefreq: "monthly"
-
-# Discoverability
+schema_reading_time: PT45M
+robots: 'index,follow'
+priority: '0.9'
+changefreq: monthly
 is_featured: true
 is_cornerstone: true
 is_gateway: false

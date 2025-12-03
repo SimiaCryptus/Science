@@ -3,19 +3,14 @@ title: >-
   Ideatic Dynamics in Small Group Systems: An Experimental Framework for
   Understanding Belief Evolution in 3-5 Agent Configurations
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: social
-subcategory: Multi-Agent Systems
+subcategory: Social Game Theory & Protocols
 tags:
-  - AI-Consciousness
-  - Computational-Social-Science
-  - multi-agent-systems
-  - belief-evolution
-  - coalition-formation
-  - computational-social-science
-  - llm-agents
-  - small-groups
+  - AI
+  - Society
+  - Research
 keywords:
   - ideatic dynamics
   - multi-agent systems
@@ -27,7 +22,7 @@ keywords:
   - pivot agents
 status: draft
 thought_generation: 1
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 authors:
   - name: Human-AI Collaboration
   - name: AI Collaborative Agent
@@ -90,12 +85,12 @@ meta_keywords: >-
 schema_type: ScholarlyArticle
 schema_headline: 'Ideatic Dynamics in Small Group Systems: An Experimental Framework'
 schema_author: Human-AI Collaboration
-schema_date_published: 2025-06-30T00:00:00.000Z
-schema_date_modified: 2025-06-30T00:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
+schema_date_modified: '"2025-06-30T00:00:00.000Z"'
 schema_word_count: 4500
 schema_reading_time: PT25M
 robots: 'index,follow'
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 is_featured: true
 is_cornerstone: false

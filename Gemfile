@@ -8,7 +8,7 @@ gem "jekyll-seo-tag", "~> 2.6"
 gem 'html-proofer', group: :test
 gem "jekyll-paginate", "~> 1.1.0"
 gem "jekyll-relative-links"
-gem "jekyll-archives"
+gem "jekyll-archives", group: :jekyll_plugins
 gem "jekyll-toc"
 gem "jekyll-last-modified-at"
 gem "faraday-retry"

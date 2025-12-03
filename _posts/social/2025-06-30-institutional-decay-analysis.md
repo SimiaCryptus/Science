@@ -1,17 +1,14 @@
 ---
 title: 'The Psychopath Feedback Loop: How Institutions Collapse From Within'
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: social
-subcategory: Institutional Decay Patterns
+subcategory: Institutional & Political Dynamics
 tags:
-  - institutional-analysis
-  - psychopathy
-  - systems-science
-  - systems-collapse
-  - game-theory
-  - social-dynamics
+  - Society
+  - Politics
+  - Psychology
 keywords:
   - institutional decay
   - psychopath feedback loop
@@ -21,7 +18,7 @@ keywords:
   - institutional capture
 status: draft
 thought_generation: 2
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 authors:
   - Human-AI Collaboration
   - AI
@@ -105,13 +102,13 @@ schema_type: ScholarlyArticle
 schema_headline: 'The Psychopath Feedback Loop: How Institutions Collapse From Within'
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-06-30T00:00:00.000Z
-schema_date_modified: 2025-06-30T00:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
+schema_date_modified: '"2025-06-30T00:00:00.000Z"'
 schema_word_count: 3500
 schema_reading_time: PT25M
 schema_inlanguage: en-US
 robots: 'index,follow'
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 is_featured: true
 is_cornerstone: true

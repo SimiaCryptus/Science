@@ -1,93 +1,78 @@
 ---
-# Core Metadata
-title: "Jury Journalism Platform - Product Specification"
+title: Jury Journalism Platform - Product Specification
 layout: post
-date: 2025-11-20
-last_modified: 2024-01-15 10:00:00
-
-# Content Classification
-category: "projects"
-subcategory: "Democratic Media Architecture"
+date: '"2025-11-20T00:00:00.000Z"'
+last_modified: '"2024-01-15T10:00:00.000Z"'
+category: projects
+subcategory: Software Engineering & Specs
 tags:
-  - "Human-AI-Collaboration"
-  - "Social-Systems"
-  - "Game-Theory"
-  - "Information-Science"
-  - "Public-Policy"
-  - "Theoretical-Framework"
-  - "Technical-Proposal"
-  - "Systems-Science"
-  - "Ethics-Technology"
-  - "Industry-Applications"
+  - Society
+  - Software
+  - Politics
 keywords:
-  - "jury journalism"
-  - "democratic media"
-  - "evidence-based reporting"
-  - "reader participation"
-  - "decision-making"
-  - "platform architecture"
-
-# Content Status and Evolution
-status: "working"
-last_thought_date: 2024-01-15
+  - jury journalism
+  - democratic media
+  - evidence-based reporting
+  - reader participation
+  - decision-making
+  - platform architecture
+status: working
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
-
-# Document Relationships & Navigation
 parent_document: null
 child_documents: []
 related_documents: []
 reading_order: null
-difficulty_level: "intermediate"
+difficulty_level: intermediate
 reading_time_minutes: 12
-
-# Content Characteristics
-document_type: "technical_proposal"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "moderate"
-
-# Discovery & SEO
-description: "A democratic journalism platform treating readers as jury members, optimizing for relevance and decision uncertainty rather than clicks and confirmation bias."
-excerpt: "Jury Journalism reimagines democratic media by engaging readers as active investigators in evidence evaluation, with a dual objective function maximizing both relevance and epistemic uncertainty."
-
-# SEO Meta Tags
-meta_title: "Jury Journalism Platform - Democratic Media Architecture & Product Spec"
-meta_description: "Jury Journalism platform specification: evidence-driven reporting with reader participation, jurisdictional relevance, and entropy maximization for democratic decision-making."
-meta_keywords: "jury journalism, democratic media, evidence-based reporting, reader participation, platform architecture"
-
-# Open Graph (Social Media)
-og_title: "Jury Journalism: Reimagining Democratic Media"
-og_description: "A platform treating readers as jury members, optimizing for relevance and decision uncertainty rather than confirmation bias."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "TechArticle"
-schema_headline: "Jury Journalism Platform - Product Specification"
-schema_author: "Andrew"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
-schema_image: "/assets/images/jury-journalism-featured.png"
+document_type: technical_proposal
+thinking_style: analytical
+consciousness_level: collaborative
+engagement_type: analytical
+reader_participation: active
+cognitive_load: moderate
+description: >-
+  A democratic journalism platform treating readers as jury members, optimizing
+  for relevance and decision uncertainty rather than clicks and confirmation
+  bias.
+excerpt: >-
+  Jury Journalism reimagines democratic media by engaging readers as active
+  investigators in evidence evaluation, with a dual objective function
+  maximizing both relevance and epistemic uncertainty.
+meta_title: Jury Journalism Platform - Democratic Media Architecture & Product Spec
+meta_description: >-
+  Jury Journalism platform specification: evidence-driven reporting with reader
+  participation, jurisdictional relevance, and entropy maximization for
+  democratic decision-making.
+meta_keywords: >-
+  jury journalism, democratic media, evidence-based reporting, reader
+  participation, platform architecture
+og_title: 'Jury Journalism: Reimagining Democratic Media'
+og_description: >-
+  A platform treating readers as jury members, optimizing for relevance and
+  decision uncertainty rather than confirmation bias.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: TechArticle
+schema_headline: Jury Journalism Platform - Product Specification
+schema_author: Andrew
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
+schema_image: /assets/images/jury-journalism-featured.png
 schema_word_count: 2847
-schema_reading_time: "PT12M"
-
-# Search Engine Directives
-robots: "index,follow"
-googlebot: "index,follow"
-content_rating: "general"
-content_language: "en"
-
-# Discoverability
+schema_reading_time: PT12M
+robots: 'index,follow'
+googlebot: 'index,follow'
+content_rating: general
+content_language: en
 is_featured: false
 is_cornerstone: false
 is_gateway: true
 is_synthesis: true
-priority: 0.8
-changefreq: "monthly"
+priority: '0.8'
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
 ---

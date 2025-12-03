@@ -1,82 +1,85 @@
 ---
-# Required fields
-title: "Nuclear Thermal Propulsion System for Asteroid Manipulation"
+title: Nuclear Thermal Propulsion System for Asteroid Manipulation
 layout: post
-date: 2025-08-08
-last_modified: 2024-01-15 14:30:00
-
-# Content classification
+date: '"2025-08-08T00:00:00.000Z"'
+last_modified: '"2024-01-15T14:30:00.000Z"'
 category: projects
-subcategory: "Space Technology"
-tags: ["Nuclear-Propulsion", "Asteroid-Deflection", "Space-Mining", "Planetary-Defense", "Nuclear-Engineering", "Space-Technology", "Tungsten-Penetrators", "Neutron-Initiation"]
-keywords: ["nuclear thermal propulsion", "asteroid manipulation", "planetary defense", "space mining", "subcritical nuclear", "tungsten penetrator", "neutron bombardment", "orbital maneuvering"]
-
-# Content status and evolution
-status: "working"
-last_thought_date: 2024-01-15
+subcategory: Physics & Cosmology Simulations
+tags:
+  - Space
+  - Engineering
+  - Physics
+keywords:
+  - nuclear thermal propulsion
+  - asteroid manipulation
+  - planetary defense
+  - space mining
+  - subcritical nuclear
+  - tungsten penetrator
+  - neutron bombardment
+  - orbital maneuvering
+status: working
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
-
-# Content relationships & navigation
 related_documents: []
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 25
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "Technical proposal for nuclear thermal propulsion systems designed for asteroid deflection and orbital maneuvering applications using subcritical nuclear cores with neutron-initiated thermal reactions."
-excerpt: "This proposal outlines a novel nuclear thermal propulsion system for asteroid manipulation, utilizing subcritical nuclear cores with neutron-initiated thermal reactions contained within tungsten penetrator jackets to provide controlled thrust for planetary defense and mining operations."
-
-# SEO Meta Tags
-meta_title: "Nuclear Thermal Propulsion for Asteroid Manipulation - Technical Research Paper"
-meta_description: "Comprehensive technical proposal for nuclear thermal propulsion systems using subcritical cores and tungsten penetrators for asteroid deflection and space mining operations."
-meta_keywords: "nuclear propulsion, asteroid deflection, planetary defense, space mining, nuclear engineering, tungsten penetrator, neutron initiation, orbital mechanics"
-
-# Open Graph (Social Media)
-og_title: "Nuclear Thermal Propulsion System for Asteroid Manipulation"
-og_description: "Revolutionary nuclear propulsion technology for planetary defense and asteroid mining using controlled subcritical reactions and tungsten penetrator systems."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "TechArticle"
-schema_headline: "Nuclear Thermal Propulsion System for Asteroid Manipulation"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
-schema_image: "/assets/images/nuclear_asteroid_propulsion_schema.png"
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: collaborative
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  Technical proposal for nuclear thermal propulsion systems designed for
+  asteroid deflection and orbital maneuvering applications using subcritical
+  nuclear cores with neutron-initiated thermal reactions.
+excerpt: >-
+  This proposal outlines a novel nuclear thermal propulsion system for asteroid
+  manipulation, utilizing subcritical nuclear cores with neutron-initiated
+  thermal reactions contained within tungsten penetrator jackets to provide
+  controlled thrust for planetary defense and mining operations.
+meta_title: >-
+  Nuclear Thermal Propulsion for Asteroid Manipulation - Technical Research
+  Paper
+meta_description: >-
+  Comprehensive technical proposal for nuclear thermal propulsion systems using
+  subcritical cores and tungsten penetrators for asteroid deflection and space
+  mining operations.
+meta_keywords: >-
+  nuclear propulsion, asteroid deflection, planetary defense, space mining,
+  nuclear engineering, tungsten penetrator, neutron initiation, orbital
+  mechanics
+og_title: Nuclear Thermal Propulsion System for Asteroid Manipulation
+og_description: >-
+  Revolutionary nuclear propulsion technology for planetary defense and asteroid
+  mining using controlled subcritical reactions and tungsten penetrator systems.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: TechArticle
+schema_headline: Nuclear Thermal Propulsion System for Asteroid Manipulation
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
+schema_image: /assets/images/nuclear_asteroid_propulsion_schema.png
 schema_word_count: 4200
-schema_reading_time: "PT25M"
-
-# Advanced SEO
-canonical_url: "https://fractalthoughtengine.com/projects/nuclear-asteroid-propulsion"
-robots: "index,follow"
-content_rating: "general"
-content_language: "en"
-geo_region: "Global"
-
-# Indexing Control
-priority: 0.8
-changefreq: "monthly"
+schema_reading_time: PT25M
+canonical_url: 'https://fractalthoughtengine.com/projects/nuclear-asteroid-propulsion'
+robots: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
+priority: '0.8'
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-
-# Rich Snippets Enhancement
 faq_schema: false
 how_to_schema: false
 breadcrumb_schema: true
 review_schema: false
-
-# Discoverability
 is_featured: true
 is_cornerstone: false
 is_gateway: false

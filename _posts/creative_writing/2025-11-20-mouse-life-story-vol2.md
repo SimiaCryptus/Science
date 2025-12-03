@@ -1,88 +1,79 @@
 ---
-# Core Metadata
-title: "The Life of a Genetically Engineered Waste Processing Organism - Volume 2: After the Flash"
+title: >-
+  The Life of a Genetically Engineered Waste Processing Organism - Volume 2:
+  After the Flash
 layout: post
-date: 2025-11-20
-last_modified: 2024-01-15 10:00:00
-
-# Content Classification
-category: "creative_writing"
-subcategory: "Speculative Fiction"
+date: '"2025-11-20T00:00:00.000Z"'
+last_modified: '"2024-01-15T10:00:00.000Z"'
+category: creative_writing
+subcategory: Speculative Fiction & Narrative
 tags:
-- "Speculative-Fiction"
-- "Creative-Writing"
-- "Post-Apocalyptic"
-- "AI-Consciousness"
-- "Human-AI-Collaboration"
-- "First-Person-Account"
-- "Science-Philosophy"
+  - Fiction
+  - Biology
+  - Ethics
 keywords:
-- "genetic engineering"
-- "post-apocalyptic"
-- "consciousness"
-- "species transition"
-- "human-animal collaboration"
-
-# Content Status and Evolution
-status: "stable"
-last_thought_date: 2024-01-15
+  - genetic engineering
+  - post-apocalyptic
+  - consciousness
+  - species transition
+  - human-animal collaboration
+status: stable
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 2
-
-# Document Relationships & Navigation
-parent_document: "mouse_life_story_vol1.md"
+parent_document: mouse_life_story_vol1.md
 child_documents: []
 related_documents:
-- "consciousness_emergence.md"
-- "post_human_futures.md"
+  - consciousness_emergence.md
+  - post_human_futures.md
 reading_order: 2
-difficulty_level: "intermediate"
+difficulty_level: intermediate
 reading_time_minutes: 18
-
-# Content Characteristics
-document_type: "creative_writing"
-thinking_style: "phenomenological"
-consciousness_level: "recursive"
-engagement_type: "contemplative"
-reader_participation: "passive"
-cognitive_load: "moderate"
-
-# Discovery & SEO
-description: "A first-person narrative from a genetically engineered waste-processing organism navigating survival, consciousness, and species transition in a post-nuclear world."
-excerpt: "After a nuclear exchange devastates human civilization, a colony of engineered organisms discovers they are perfectly adapted to inherit a radioactive world. This is their story of survival, consciousness, and the choice between preservation and domination."
-featured_image: "../../assets/images/wasteland_survey_scout.png"
-
-# SEO Meta Tags
-meta_title: "Mouse Life Story Vol. 2: Post-Nuclear Consciousness | Fractal Thought Engine"
-meta_description: "A speculative fiction narrative exploring consciousness, species transition, and human-AI collaboration in a post-apocalyptic world through the eyes of engineered organisms."
-meta_keywords: "speculative fiction, consciousness, genetic engineering, post-apocalyptic, human-AI collaboration"
-
-# Open Graph (Social Media)
-og_title: "The Life of a Genetically Engineered Organism - Volume 2"
-og_description: "A first-person account of consciousness and survival after nuclear war"
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "CreativeWork"
-schema_headline: "The Life of a Genetically Engineered Waste Processing Organism - Volume 2: After the Flash"
-schema_author: "Processing Unit WPM-7742 (Translated by Dr. Sarah Chen)"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
+document_type: creative_writing
+thinking_style: phenomenological
+consciousness_level: recursive
+engagement_type: contemplative
+reader_participation: passive
+cognitive_load: moderate
+description: >-
+  A first-person narrative from a genetically engineered waste-processing
+  organism navigating survival, consciousness, and species transition in a
+  post-nuclear world.
+excerpt: >-
+  After a nuclear exchange devastates human civilization, a colony of engineered
+  organisms discovers they are perfectly adapted to inherit a radioactive world.
+  This is their story of survival, consciousness, and the choice between
+  preservation and domination.
+featured_image: ../../assets/images/wasteland_survey_scout.png
+meta_title: 'Mouse Life Story Vol. 2: Post-Nuclear Consciousness | Fractal Thought Engine'
+meta_description: >-
+  A speculative fiction narrative exploring consciousness, species transition,
+  and human-AI collaboration in a post-apocalyptic world through the eyes of
+  engineered organisms.
+meta_keywords: >-
+  speculative fiction, consciousness, genetic engineering, post-apocalyptic,
+  human-AI collaboration
+og_title: The Life of a Genetically Engineered Organism - Volume 2
+og_description: A first-person account of consciousness and survival after nuclear war
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: CreativeWork
+schema_headline: >-
+  The Life of a Genetically Engineered Waste Processing Organism - Volume 2:
+  After the Flash
+schema_author: Processing Unit WPM-7742 (Translated by Dr. Sarah Chen)
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
 schema_word_count: 2847
-schema_reading_time: "PT18M"
-
-# Discoverability
+schema_reading_time: PT18M
 is_featured: false
 is_cornerstone: false
 is_gateway: true
 is_synthesis: true
-
-# Search Engine Directives
-robots: "index,follow"
-priority: 0.8
-changefreq: "monthly"
+robots: 'index,follow'
+priority: '0.8'
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
 ---

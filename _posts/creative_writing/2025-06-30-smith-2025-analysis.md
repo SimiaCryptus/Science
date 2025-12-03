@@ -4,10 +4,10 @@ title: >-
   Moral Philosopher's Assessment of Contemporary Trade Wars, Artificial
   Intelligence, and the Concentration of Wealth
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: creative_writing
-subcategory: Economic Philosophy
+subcategory: Satire & Historical Perspectives
 description: >-
   Adam Smith's philosophical analysis of 2025's economic disruptions, examining
   AI, trade wars, and wealth inequality through the lens of moral philosophy
@@ -16,12 +16,9 @@ excerpt: >-
   with or contradict classical principles of natural liberty, focusing on AI's
   impact, trade protectionism, and growing inequality.
 tags:
-  - economics
-  - ai
-  - trade
-  - inequality
-  - moral_philosophy
-  - adam_smith
+  - Fiction
+  - Economics
+  - Philosophy
 keywords:
   - artificial intelligence
   - trade wars
@@ -30,7 +27,7 @@ keywords:
   - moral philosophy
   - wealth concentration
 status: draft
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 thought_generation: 1
 authors:
   - Human-AI Collaboration
@@ -74,7 +71,7 @@ meta_keywords: >-
 schema_type: ScholarlyArticle
 schema_headline: 'Economic Disruptions of 2025: A Moral Philosopher''s Assessment'
 schema_author: Adam Smith (AI Collaboration)
-schema_date_published: 2025-06-30T00:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
 schema_word_count: 4500
 schema_reading_time: PT25M
 is_featured: true
@@ -88,7 +85,7 @@ reader_participation: contemplative
 cognitive_load: moderate
 robots: 'index,follow'
 googlebot: 'index,follow'
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 og_type: article
 og_locale: en_US

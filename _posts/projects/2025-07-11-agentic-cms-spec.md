@@ -1,46 +1,50 @@
 ---
-# Required fields
-title: "Autonomous Research Evolution Platform (AREP) Specification"
+title: Autonomous Research Evolution Platform (AREP) Specification
 layout: post
-date: 2025-07-11
-last_modified: 2025-07-11 12:00:00
-
-# Content classification
+date: '"2025-07-11T00:00:00.000Z"'
+last_modified: '"2025-07-11T12:00:00.000Z"'
 category: projects
-subcategory: "Autonomous Research Systems"
-tags: ["AI-Consciousness", "Human-AI-Collaboration", "Cognitive-Architecture", "Machine-Learning", "Autonomous-Systems"]
-keywords: ["agentic cms", "autonomous research", "ai agents", "research evolution", "cognitive substrates", "socratic reconstruction"]
-
-# Content status and evolution
-status: "working"
-last_thought_date: 2025-07-11
+subcategory: Software Engineering & Specs
+tags:
+  - Software
+  - AI
+  - Design
+keywords:
+  - agentic cms
+  - autonomous research
+  - ai agents
+  - research evolution
+  - cognitive substrates
+  - socratic reconstruction
+status: working
+last_thought_date: '"2025-07-11T00:00:00.000Z"'
 thought_generation: 1
-
-# Content relationships & navigation
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 45
-
-# Content characteristics
-document_type: "framework"
-thinking_style: "analytical"
-consciousness_level: "meta"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "Technical specification for an autonomous research evolution platform that treats research artifacts as living, evolving entities"
-excerpt: "AREP is an agentic content management system designed to autonomously recombine, improve, research, and evolve research artifacts through AI-driven exploration of combinatorial possibilities."
-meta_title: "AREP: Autonomous Research Evolution Platform Technical Specification"
-meta_description: "Comprehensive technical specification for building an AI-powered research platform that autonomously evolves scientific knowledge through systematic artifact recombination and improvement."
-schema_type: "TechArticle"
-schema_headline: "Autonomous Research Evolution Platform Technical Specification"
-schema_author: "Fractal Thought Engine"
-schema_date_published: 2025-07-11
-schema_reading_time: "PT45M"
-
-# Discoverability
+document_type: framework
+thinking_style: analytical
+consciousness_level: meta
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  Technical specification for an autonomous research evolution platform that
+  treats research artifacts as living, evolving entities
+excerpt: >-
+  AREP is an agentic content management system designed to autonomously
+  recombine, improve, research, and evolve research artifacts through AI-driven
+  exploration of combinatorial possibilities.
+meta_title: 'AREP: Autonomous Research Evolution Platform Technical Specification'
+meta_description: >-
+  Comprehensive technical specification for building an AI-powered research
+  platform that autonomously evolves scientific knowledge through systematic
+  artifact recombination and improvement.
+schema_type: TechArticle
+schema_headline: Autonomous Research Evolution Platform Technical Specification
+schema_author: Fractal Thought Engine
+schema_date_published: '"2025-07-11T00:00:00.000Z"'
+schema_reading_time: PT45M
 is_featured: true
 is_cornerstone: true
 is_gateway: false

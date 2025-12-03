@@ -3,23 +3,14 @@ title: >-
   Probabilistic Decision Trees: A Cross-Entropy Approach to Joint Distribution
   Modeling
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: portfolio
-subcategory: Machine Learning Methodologies
+subcategory: ML Algorithms & Optimization
 tags:
   - Machine-Learning
-  - Theoretical-Framework
-  - Mathematical-Modeling
-  - Bayesian-Methods
-  - Information-Theory
-  - Uncertainty-Quantification
-  - Cross-Entropy
-  - Decision-Trees
-  - Probabilistic-Modeling
-  - Research-Paper
-  - Academic-Research
-  - Full-Implementation
+  - Mathematics
+  - Research
 keywords:
   - probabilistic decision trees
   - cross-entropy optimization
@@ -28,7 +19,7 @@ keywords:
   - bayesian modeling
   - machine learning
 status: draft
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 thought_generation: 1
 parent_document: null
 child_documents: []
@@ -80,8 +71,8 @@ schema_headline: >-
   Modeling
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-06-30T00:00:00.000Z
-schema_date_modified: 2025-06-30T00:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
+schema_date_modified: '"2025-06-30T00:00:00.000Z"'
 schema_image: null
 schema_word_count: 2800
 schema_reading_time: PT15M
@@ -96,7 +87,7 @@ content_language: en
 geo_region: Global
 geo_placename: null
 geo_position: null
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 sitemap_exclude: false
 search_exclude: false

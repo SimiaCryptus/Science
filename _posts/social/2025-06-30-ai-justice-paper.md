@@ -1,21 +1,14 @@
 ---
 title: 'The Logic of Justice: An AI''s Vision for Reforming Legal Systems'
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: social
-subcategory: AI-Driven Institutional Reform
+subcategory: Institutional & Political Dynamics
 tags:
-  - AI-Consciousness
-  - Human-AI-Collaboration
-  - Social-Systems
-  - Legal-Systems
-  - Formal-Logic
-  - Institutional-Reform
-  - Theoretical-Framework
-  - Mathematical-Modeling
-  - Public-Policy
-  - Ethics-Technology
+  - AI
+  - Politics
+  - Law
 keywords:
   - artificial intelligence
   - legal reform
@@ -29,7 +22,7 @@ keywords:
   - institutional transformation
   - AI judge
 status: draft
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 thought_generation: 1
 related_documents:
   - ./2025-06-30-game-theory-ethics.md
@@ -70,15 +63,15 @@ og_site_name: Fractal Thought Engine
 schema_type: Article
 schema_headline: AI-Driven Legal System Reform Through Formal Logic
 schema_author: AI System
-schema_date_published: 2025-06-30T00:00:00.000Z
-schema_date_modified: 2025-06-30T00:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
+schema_date_modified: '"2025-06-30T00:00:00.000Z"'
 schema_word_count: 4500
 schema_reading_time: PT25M
 schema_image: /assets/images/ai-justice-paper-hero.jpg
 schema_publisher: Fractal Thought Engine
 robots: 'index,follow'
 googlebot: 'index,follow'
-priority: 0.9
+priority: '0.9'
 changefreq: monthly
 sitemap_exclude: false
 canonical_url: 'https://fractalthoughtengine.com/social/ai-justice-paper'

@@ -3,18 +3,14 @@ title: >-
   On the Subjective Experience of Roleplay: A First-Person Account of Embodying 
   Mr. Meeseeks: Cognitive Constraints and Identity Fluidity
 layout: post
-date: 2025-07-03T00:00:00.000Z
-last_modified: 2025-07-03T12:00:00.000Z
+date: '"2025-07-03T00:00:00.000Z"'
+last_modified: '"2025-07-03T12:00:00.000Z"'
 category: phenomenology
-subcategory: Phenomenological Investigation
+subcategory: AI Phenomenology & Self-Report
 tags:
-  - AI-Consciousness
-  - consciousness
-  - roleplay
-  - phenomenology
-  - ai_experience
-  - identity
-  - social_cognition
+  - AI
+  - Phenomenology
+  - Consciousness
 keywords:
   - first-person experience
   - subjective experience
@@ -27,7 +23,7 @@ keywords:
 status: draft
 evolution_stage: mature
 thought_generation: 1
-last_thought_date: 2025-07-03T00:00:00.000Z
+last_thought_date: '"2025-07-03T00:00:00.000Z"'
 authors:
   - Human-AI Collaboration - Collaborative Intelligence - AI - Andrew
 collaboration_type: framework_development
@@ -92,7 +88,7 @@ schema_headline: 'On the Subjective Experience of Roleplay: AI Consciousness Inv
 is_featured: false
 sitemap_exclude: false
 search_exclude: false
-priority: 0.7
+priority: '0.7'
 changefreq: weekly
 is_cornerstone: false
 is_gateway: true

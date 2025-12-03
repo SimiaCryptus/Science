@@ -1,78 +1,80 @@
 ---
-# Required fields
-title: "American Christianity in 2025: A Critical Assessment"
+title: 'American Christianity in 2025: A Critical Assessment'
 layout: post
-date: 2025-08-08
-last_modified: 2027-01-27 10:00:00
-
-# Content classification
+date: '"2025-08-08T00:00:00.000Z"'
+last_modified: '"2027-01-27T10:00:00.000Z"'
 category: social
-subcategory: "Religious Institutional Analysis"
-tags: ["Social-Systems", "Religious-Institutions", "Political-Theology", "Institutional-Critique", "American-Christianity", "Social-Justice", "Child-Welfare", "Moral-Philosophy"]
-keywords: ["american christianity", "religious hypocrisy", "christian nationalism", "lifewise academy", "institutional capture", "political theology", "child manipulation", "religious fraud"]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2025-01-27
+subcategory: Institutional & Political Dynamics
+tags:
+  - Religion
+  - Politics
+  - Society
+keywords:
+  - american christianity
+  - religious hypocrisy
+  - christian nationalism
+  - lifewise academy
+  - institutional capture
+  - political theology
+  - child manipulation
+  - religious fraud
+status: stable
+last_thought_date: '"2025-01-27T00:00:00.000Z"'
 thought_generation: 1
-
-# Content relationships & navigation
 related_documents: []
 reading_order: 1
-difficulty_level: "intermediate"
+difficulty_level: intermediate
 reading_time_minutes: 25
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "meta"
-engagement_type: "analytical"
-reader_participation: "contemplative"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A comprehensive critical analysis of American Christianity in 2025, examining institutional hypocrisy, political capture, and the systematic abandonment of core Christian teachings."
-excerpt: "American Christianity in 2025 represents perhaps the most striking example of institutional religious hypocrisy in modern history. This analysis examines how a faith founded on radical love has become a vehicle for policies that explicitly reject its foundational principles."
-
-# SEO Meta Tags
-meta_title: "American Christianity 2025: Critical Analysis of Religious Institutional Failure"
-meta_description: "Comprehensive analysis of how American Christianity has abandoned its core teachings for political power, examining data on Christian nationalism, institutional capture, and child manipulation programs."
-meta_keywords: "american christianity, christian nationalism, religious hypocrisy, lifewise academy, institutional critique, political theology"
-
-# Open Graph (Social Media)
-og_title: "American Christianity in 2025: The Great Apostasy in Plain Sight"
-og_description: "A data-driven analysis of how American Christianity has become the primary vehicle for policies that contradict its foundational teachings."
-og_type: "article"
-og_locale: "en_US"
-
-# Schema.org Structured Data
-schema_type: "Article"
-schema_headline: "American Christianity in 2025: A Critical Assessment"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-01-27
-schema_date_modified: 2025-01-27
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: meta
+engagement_type: analytical
+reader_participation: contemplative
+cognitive_load: intense
+description: >-
+  A comprehensive critical analysis of American Christianity in 2025, examining
+  institutional hypocrisy, political capture, and the systematic abandonment of
+  core Christian teachings.
+excerpt: >-
+  American Christianity in 2025 represents perhaps the most striking example of
+  institutional religious hypocrisy in modern history. This analysis examines
+  how a faith founded on radical love has become a vehicle for policies that
+  explicitly reject its foundational principles.
+meta_title: >-
+  American Christianity 2025: Critical Analysis of Religious Institutional
+  Failure
+meta_description: >-
+  Comprehensive analysis of how American Christianity has abandoned its core
+  teachings for political power, examining data on Christian nationalism,
+  institutional capture, and child manipulation programs.
+meta_keywords: >-
+  american christianity, christian nationalism, religious hypocrisy, lifewise
+  academy, institutional critique, political theology
+og_title: 'American Christianity in 2025: The Great Apostasy in Plain Sight'
+og_description: >-
+  A data-driven analysis of how American Christianity has become the primary
+  vehicle for policies that contradict its foundational teachings.
+og_type: article
+og_locale: en_US
+schema_type: Article
+schema_headline: 'American Christianity in 2025: A Critical Assessment'
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-01-27T00:00:00.000Z"'
+schema_date_modified: '"2025-01-27T00:00:00.000Z"'
 schema_word_count: 3200
-schema_reading_time: "PT25M"
-
-# Advanced SEO
-robots: "index,follow"
-content_rating: "mature"
-content_language: "en"
-geo_region: "US"
-
-# Indexing Control
-priority: 0.8
-changefreq: "monthly"
+schema_reading_time: PT25M
+robots: 'index,follow'
+content_rating: mature
+content_language: en
+geo_region: US
+priority: '0.8'
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-
-# Rich Snippets Enhancement
 faq_schema: false
 breadcrumb_schema: true
 review_schema: false
-
-# Discoverability
 is_featured: true
 is_cornerstone: false
 is_gateway: false

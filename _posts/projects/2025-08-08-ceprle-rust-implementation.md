@@ -1,51 +1,55 @@
 ---
-# Required fields
-title: "CEP-RLE Rust Implementation Specification"
+title: CEP-RLE Rust Implementation Specification
 layout: post
-date: 2025-08-08
-last_modified: 2024-01-15 14:30:00
-
-# Content classification
+date: '"2025-08-08T00:00:00.000Z"'
+last_modified: '"2024-01-15T14:30:00.000Z"'
 category: projects
-subcategory: "Compression Algorithms"
-tags: [ "compression", "rust", "computer-vision", "geometric-analysis", "spatial-indexing" ]
-keywords: [ "CEP-RLE", "continuous encoding", "run-length encoding", "sub-pixel precision", "geometric features", "spatial analysis" ]
-
-# Content status and evolution
-status: "working"
-last_thought_date: 2024-01-15
+subcategory: Algorithms & Compression
+tags:
+  - Software
+  - Engineering
+  - Code
+keywords:
+  - CEP-RLE
+  - continuous encoding
+  - run-length encoding
+  - sub-pixel precision
+  - geometric features
+  - spatial analysis
+status: working
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
-
-# Content relationships & navigation
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 45
-
-# Content characteristics
-document_type: "technical_proposal"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "Complete Rust implementation specification for Continuous Expectation-Prior Run-Length Encoding with analysis-ready geometric feature extraction"
-excerpt: "Detailed technical specification for implementing CEP-RLE in Rust, including continuous run detection, expectation-prior mechanisms, geometric analysis, and spatial indexing for direct analysis from compressed data."
-meta_title: "CEP-RLE Rust Implementation - Advanced Compression with Geometric Analysis"
-meta_description: "Technical specification for Rust implementation of Continuous Expectation-Prior Run-Length Encoding with sub-pixel precision and integrated geometric feature extraction capabilities."
-meta_keywords: "CEP-RLE, Rust implementation, compression algorithm, geometric analysis, computer vision, spatial indexing"
-
-# Schema.org structured data
-schema_type: "TechArticle"
-schema_headline: "CEP-RLE Rust Implementation Specification"
-schema_author: "Fractal Thought Engine"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
+document_type: technical_proposal
+thinking_style: analytical
+consciousness_level: collaborative
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  Complete Rust implementation specification for Continuous Expectation-Prior
+  Run-Length Encoding with analysis-ready geometric feature extraction
+excerpt: >-
+  Detailed technical specification for implementing CEP-RLE in Rust, including
+  continuous run detection, expectation-prior mechanisms, geometric analysis,
+  and spatial indexing for direct analysis from compressed data.
+meta_title: CEP-RLE Rust Implementation - Advanced Compression with Geometric Analysis
+meta_description: >-
+  Technical specification for Rust implementation of Continuous
+  Expectation-Prior Run-Length Encoding with sub-pixel precision and integrated
+  geometric feature extraction capabilities.
+meta_keywords: >-
+  CEP-RLE, Rust implementation, compression algorithm, geometric analysis,
+  computer vision, spatial indexing
+schema_type: TechArticle
+schema_headline: CEP-RLE Rust Implementation Specification
+schema_author: Fractal Thought Engine
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
 schema_word_count: 8500
-schema_reading_time: "PT45M"
-
-# Discoverability
+schema_reading_time: PT45M
 is_cornerstone: true
 ---
 

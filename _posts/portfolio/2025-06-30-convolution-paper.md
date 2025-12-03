@@ -1,63 +1,79 @@
 ---
-title: "Scalable Implementation of 2D Convolution Layers in Differentiable Neural Networks: A Multi-Tiered Approach with Dynamic Partitioning"
+title: >-
+  Scalable Implementation of 2D Convolution Layers in Differentiable Neural
+  Networks: A Multi-Tiered Approach with Dynamic Partitioning
 layout: post
-date: 2025-06-30
-last_modified: 2025-06-30 12:00:00
-# Content classification
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: portfolio
-subcategory: "Neural Architectures"
-tags: ["Machine-Learning", "Neural-Networks", "Computational-Analysis", "Technical-Report", "GPU-Computing", "Optimization"]
-# Content status and evolution
+subcategory: ML Algorithms & Optimization
+tags:
+  - Machine-Learning
+  - Software
+  - Research
 status: draft
-last_thought_date: 2025-06-30
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 thought_generation: 1
-# Content relationships & navigation
 parent_document: null
 child_documents: []
 related_documents: []
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 15
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
-engagement_type: "analytical"
-reader_participation: "passive"
-cognitive_load: "intense"
-# Discovery & SEO
-description: "A comprehensive methodology for implementing scalable 2D convolution layers in neural networks, addressing GPU memory constraints through dynamic partitioning"
-excerpt: "This paper presents a multi-tiered approach to scalable 2D convolution implementation, featuring dynamic partitioning algorithms that enable processing of arbitrarily large inputs through intelligent tile-based decomposition."
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: collaborative
+engagement_type: analytical
+reader_participation: passive
+cognitive_load: intense
+description: >-
+  A comprehensive methodology for implementing scalable 2D convolution layers in
+  neural networks, addressing GPU memory constraints through dynamic
+  partitioning
+excerpt: >-
+  This paper presents a multi-tiered approach to scalable 2D convolution
+  implementation, featuring dynamic partitioning algorithms that enable
+  processing of arbitrarily large inputs through intelligent tile-based
+  decomposition.
 featured_image: null
 og_image: null
-meta_title: "Scalable 2D Convolution Layers: Multi-Tiered Neural Network Implementation"
-meta_description: "Learn about scalable 2D convolution layer implementation with dynamic partitioning for neural networks. Addresses GPU memory constraints and enables processing of large-scale inputs."
-meta_keywords: "2D convolution, neural networks, GPU acceleration, scalability, partitioning algorithms, deep learning, MindsEye framework"
-og_title: "Scalable Implementation of 2D Convolution Layers in Neural Networks"
-og_description: "Multi-tiered approach to scalable 2D convolution with dynamic partitioning for processing arbitrarily large inputs"
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-schema_type: "ScholarlyArticle"
-schema_headline: "Scalable Implementation of 2D Convolution Layers in Differentiable Neural Networks"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-06-30
-schema_date_modified: 2025-06-30
+meta_title: 'Scalable 2D Convolution Layers: Multi-Tiered Neural Network Implementation'
+meta_description: >-
+  Learn about scalable 2D convolution layer implementation with dynamic
+  partitioning for neural networks. Addresses GPU memory constraints and enables
+  processing of large-scale inputs.
+meta_keywords: >-
+  2D convolution, neural networks, GPU acceleration, scalability, partitioning
+  algorithms, deep learning, MindsEye framework
+og_title: Scalable Implementation of 2D Convolution Layers in Neural Networks
+og_description: >-
+  Multi-tiered approach to scalable 2D convolution with dynamic partitioning for
+  processing arbitrarily large inputs
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: ScholarlyArticle
+schema_headline: >-
+  Scalable Implementation of 2D Convolution Layers in Differentiable Neural
+  Networks
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
+schema_date_modified: '"2025-06-30T00:00:00.000Z"'
 schema_word_count: 1200
-schema_reading_time: "PT15M"
+schema_reading_time: PT15M
 schema_image: null
 canonical_url: null
 alternate_urls: []
 hreflang: []
-robots: "index,follow"
-googlebot: "index,follow"
-bingbot: "index,follow"
-content_rating: "general"
-content_language: "en"
-geo_region: "Global"
-priority: 0.8
-changefreq: "monthly"
+robots: 'index,follow'
+googlebot: 'index,follow'
+bingbot: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
+priority: '0.8'
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
 faq_schema: false

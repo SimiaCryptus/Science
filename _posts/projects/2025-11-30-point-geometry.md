@@ -1,28 +1,14 @@
 ---
-# Core Metadata (All Pages)
-title: "Project Specification: Geometric Theory Inference Engine"
-layout: "post" # Or a custom layout like "project" if available
-date: 2025-11-30
-last_modified: 2025-11-30 10:00:00 # Assuming a specific time for last modification
+title: 'Project Specification: Geometric Theory Inference Engine'
+layout: post
+date: '"2025-11-30T00:00:00.000Z"'
+last_modified: '"2025-11-30T10:00:00.000Z"'
 category: projects
-subcategory: "Geometric Inference" # Custom subcategory based on content
+subcategory: Mathematics & Geometry
 tags:
-  - Cognitive-Architecture
-  - Optimization
-  - Machine-Learning
-  - Theoretical-Framework
-  - Mathematical-Modeling
-  - Computational-Analysis
-  - Experimental-Design
-  - Neural-Networks
-  - Information-Theory
-  - Topology
-  - Computer-Vision
-  - Industry-Applications
-  - Technical-Proposal
-  - Current-Research
-  - Academic-Research
-  - Technical-Documentation
+  - Mathematics
+  - Software
+  - Research
 keywords:
   - point cloud reconstruction
   - geometric inference
@@ -34,53 +20,67 @@ keywords:
   - CAD
   - computational geometry
   - bilevel optimization
-status: "working"
-last_thought_date: 2025-11-30
+status: working
+last_thought_date: '"2025-11-30T00:00:00.000Z"'
 thought_generation: 1
-
-# Content Relationships & Navigation
 reading_order: 1
-difficulty_level: "advanced"
-reading_time_minutes: 7 # Estimated reading time
-
-# Content Characteristics
-document_type: "framework" # Describes an architecture and approach
-thinking_style: "analytical"
-consciousness_level: "emergent" # Reflects the system's ability to discover theories
-engagement_type: "analytical"
-reader_participation: "passive"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "Project specification for a Geometric Theory Inference Engine, aiming for semantic reconstruction of point clouds via evolutionary CSG discovery and a hybrid optimization approach."
-excerpt: "This detailed project specification outlines the architecture and methodology for a novel Geometric Theory Inference Engine. It proposes semantic reconstruction of point clouds by discovering underlying Constructive Solid Geometry (CSG) trees and control parameters, leveraging TensorFlow.js, Three.js, and a bilevel optimization strategy to generate editable, parametric, and CAD-ready definitions from raw scan data."
-featured_image: "../../assets/images/point_geometry/semantic_vs_mesh_reconstruction_png.png" # Path to the first image in the document
-og_image: "../../assets/images/point_geometry/semantic_vs_mesh_reconstruction_png.png"
-meta_title: "Geometric Theory Inference Engine: Semantic Point Cloud Reconstruction Project"
-meta_description: "Detailed specification for a novel Geometric Theory Inference Engine that semantically reconstructs point clouds by discovering underlying geometric constraints and control points using TensorFlow.js and a bilevel optimization strategy."
-meta_keywords: "geometric inference, point cloud, semantic reconstruction, autoencoder, genetic algorithm, tensorflow.js, three.js, CAD, computational geometry, machine learning, optimization, project specification"
-og_title: "Project: Geometric Theory Inference Engine"
-og_description: "Detailed specification for a novel Geometric Theory Inference Engine that semantically reconstructs point clouds by discovering underlying geometric constraints and control points using TensorFlow.js and a bilevel optimization strategy."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine" # Placeholder, assuming site name
-schema_type: "TechArticle"
-schema_headline: "Project Specification: Geometric Theory Inference Engine"
-schema_author: "Your Name/Organization" # Placeholder for author
-schema_publisher: "Fractal Thought Engine" # Placeholder for publisher
-schema_date_published: 2025-11-30
-schema_date_modified: 2025-11-30
-schema_image: "/assets/images/semantic_vs_mesh_reconstruction_png.png"
-schema_word_count: 1050 # Approximate word count
-schema_reading_time: "PT7M" # ISO 8601 duration format for 7 minutes
-canonical_url: "https://fractalthoughtengine.com/projects/2025/11/30/point-geometry" # Example canonical URL
-robots: "index,follow"
-googlebot: "index,follow"
-bingbot: "index,follow"
-content_rating: "general"
-content_language: "en"
-priority: 0.9
-changefreq: "weekly"
+difficulty_level: advanced
+reading_time_minutes: 7
+document_type: framework
+thinking_style: analytical
+consciousness_level: emergent
+engagement_type: analytical
+reader_participation: passive
+cognitive_load: intense
+description: >-
+  Project specification for a Geometric Theory Inference Engine, aiming for
+  semantic reconstruction of point clouds via evolutionary CSG discovery and a
+  hybrid optimization approach.
+excerpt: >-
+  This detailed project specification outlines the architecture and methodology
+  for a novel Geometric Theory Inference Engine. It proposes semantic
+  reconstruction of point clouds by discovering underlying Constructive Solid
+  Geometry (CSG) trees and control parameters, leveraging TensorFlow.js,
+  Three.js, and a bilevel optimization strategy to generate editable,
+  parametric, and CAD-ready definitions from raw scan data.
+featured_image: ../../assets/images/point_geometry/semantic_vs_mesh_reconstruction_png.png
+og_image: ../../assets/images/point_geometry/semantic_vs_mesh_reconstruction_png.png
+meta_title: 'Geometric Theory Inference Engine: Semantic Point Cloud Reconstruction Project'
+meta_description: >-
+  Detailed specification for a novel Geometric Theory Inference Engine that
+  semantically reconstructs point clouds by discovering underlying geometric
+  constraints and control points using TensorFlow.js and a bilevel optimization
+  strategy.
+meta_keywords: >-
+  geometric inference, point cloud, semantic reconstruction, autoencoder,
+  genetic algorithm, tensorflow.js, three.js, CAD, computational geometry,
+  machine learning, optimization, project specification
+og_title: 'Project: Geometric Theory Inference Engine'
+og_description: >-
+  Detailed specification for a novel Geometric Theory Inference Engine that
+  semantically reconstructs point clouds by discovering underlying geometric
+  constraints and control points using TensorFlow.js and a bilevel optimization
+  strategy.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: TechArticle
+schema_headline: 'Project Specification: Geometric Theory Inference Engine'
+schema_author: Your Name/Organization
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-11-30T00:00:00.000Z"'
+schema_date_modified: '"2025-11-30T00:00:00.000Z"'
+schema_image: /assets/images/semantic_vs_mesh_reconstruction_png.png
+schema_word_count: 1050
+schema_reading_time: PT7M
+canonical_url: 'https://fractalthoughtengine.com/projects/2025/11/30/point-geometry'
+robots: 'index,follow'
+googlebot: 'index,follow'
+bingbot: 'index,follow'
+content_rating: general
+content_language: en
+priority: '0.9'
+changefreq: weekly
 sitemap_exclude: false
 search_exclude: false
 is_featured: true

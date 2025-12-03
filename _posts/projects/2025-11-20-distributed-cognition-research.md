@@ -1,81 +1,82 @@
 ---
-title: "Distributed Cognition Research Project: Bridging Octopus Neuroscience, Brain-on-Chip Technology, and Conventional Neuroscience"
+title: >-
+  Distributed Cognition Research Project: Bridging Octopus Neuroscience,
+  Brain-on-Chip Technology, and Conventional Neuroscience
 layout: post
-date: 2025-11-20
-last_modified: 2024-01-15 10:00:00
-
-# Content classification
-category: "projects"
-subcategory: "Neural Architectures"
-tags: ["distributed-cognition", "octopus-neuroscience", "brain-on-chip", "cognitive-architecture", "phenomenology", "neuroscience", "AI-consciousness", "experimental-design"]
-keywords: ["distributed cognition", "octopus neuroscience", "brain-on-chip", "neural architecture", "cognitive systems", "phenomenological neuroscience"]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2024-01-15
+date: '"2025-11-20T00:00:00.000Z"'
+last_modified: '"2024-01-15T10:00:00.000Z"'
+category: projects
+subcategory: Agent Systems & Automata
+tags:
+  - Biology
+  - Consciousness
+  - Research
+keywords:
+  - distributed cognition
+  - octopus neuroscience
+  - brain-on-chip
+  - neural architecture
+  - cognitive systems
+  - phenomenological neuroscience
+status: stable
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
-
-# Document relationships
 parent_document: null
 child_documents: []
 related_documents: []
-
-# Navigation hints
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 25
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "meta"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "Comprehensive research framework synthesizing octopus neuroscience, brain-on-chip technology, and conventional neuroscience to understand distributed cognitive architectures and challenge hierarchical assumptions about intelligence."
-excerpt: "A 5-year research program investigating distributed cognition through octopus behavioral studies, neural architecture mapping, and artificial implementation on brain-on-chip platforms."
-
-# SEO Meta Tags
-meta_title: "Distributed Cognition Research: Octopus Neuroscience & Brain-on-Chip"
-meta_description: "Research framework bridging octopus neuroscience, brain-on-chip technology, and conventional neuroscience to understand distributed cognitive architectures and intelligence."
-meta_keywords: "distributed cognition, octopus neuroscience, brain-on-chip, cognitive architecture, neural systems"
-
-# Open Graph
-og_title: "Distributed Cognition Research Project"
-og_description: "Comprehensive framework for understanding distributed intelligence through octopus studies and artificial implementation"
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Distributed Cognition Research Project: Bridging Octopus Neuroscience, Brain-on-Chip Technology, and Conventional Neuroscience"
-schema_author: "Research Team"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
-schema_image: "/assets/images/distributed-cognition-hero.png"
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: meta
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  Comprehensive research framework synthesizing octopus neuroscience,
+  brain-on-chip technology, and conventional neuroscience to understand
+  distributed cognitive architectures and challenge hierarchical assumptions
+  about intelligence.
+excerpt: >-
+  A 5-year research program investigating distributed cognition through octopus
+  behavioral studies, neural architecture mapping, and artificial implementation
+  on brain-on-chip platforms.
+meta_title: 'Distributed Cognition Research: Octopus Neuroscience & Brain-on-Chip'
+meta_description: >-
+  Research framework bridging octopus neuroscience, brain-on-chip technology,
+  and conventional neuroscience to understand distributed cognitive
+  architectures and intelligence.
+meta_keywords: >-
+  distributed cognition, octopus neuroscience, brain-on-chip, cognitive
+  architecture, neural systems
+og_title: Distributed Cognition Research Project
+og_description: >-
+  Comprehensive framework for understanding distributed intelligence through
+  octopus studies and artificial implementation
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: ScholarlyArticle
+schema_headline: >-
+  Distributed Cognition Research Project: Bridging Octopus Neuroscience,
+  Brain-on-Chip Technology, and Conventional Neuroscience
+schema_author: Research Team
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
+schema_image: /assets/images/distributed-cognition-hero.png
 schema_word_count: 4500
-schema_reading_time: "PT25M"
-
-# Advanced SEO
-canonical_url: "https://fractalthoughtengine.com/projects/distributed-cognition-research"
-robots: "index,follow"
-googlebot: "index,follow"
-
-# Content Classification
-content_rating: "general"
-content_language: "en"
-
-# Indexing Control
-priority: 0.9
-changefreq: "monthly"
+schema_reading_time: PT25M
+canonical_url: 'https://fractalthoughtengine.com/projects/distributed-cognition-research'
+robots: 'index,follow'
+googlebot: 'index,follow'
+content_rating: general
+content_language: en
+priority: '0.9'
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-
-# Discoverability
 is_featured: true
 is_cornerstone: true
 is_gateway: true

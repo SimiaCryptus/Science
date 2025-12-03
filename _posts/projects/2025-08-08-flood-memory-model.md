@@ -1,19 +1,14 @@
 ---
 title: 'Agent-Based Model: Cultural Memory Dynamics of Flood Myths'
 layout: post
-date: 2025-08-08T00:00:00.000Z
-last_modified: 2024-01-15T14:30:00.000Z
+date: '"2025-08-08T00:00:00.000Z"'
+last_modified: '"2024-01-15T14:30:00.000Z"'
 category: projects
-subcategory: Cultural Evolution Modeling
+subcategory: Agent Systems & Automata
 tags:
-  - Cultural-Evolution
-  - Agent-Based-Modeling
-  - Flood-Myths
-  - Cultural-Memory
-  - Environmental-History
-  - Oral-Tradition
-  - Institutional-Codification
-  - Computational-Anthropology
+  - History
+  - Society
+  - Research
 keywords:
   - flood myths
   - cultural transmission
@@ -24,7 +19,7 @@ keywords:
   - narrative evolution
   - institutional codification
 status: working
-last_thought_date: 2024-01-15T00:00:00.000Z
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 2
 related_documents:
   - ../portfolio/2025-06-30-convolution-paper.md
@@ -68,12 +63,12 @@ schema_type: ScholarlyArticle
 schema_headline: 'Agent-Based Model: Cultural Memory Dynamics of Flood Myths'
 schema_author: Fractal Thought Engine
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2024-01-15T00:00:00.000Z
-schema_date_modified: 2024-01-15T00:00:00.000Z
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
 schema_word_count: 3200
 schema_reading_time: PT25M
 robots: 'index,follow'
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 is_featured: true
 is_cornerstone: false
@@ -149,7 +144,7 @@ Agent {
   transmission_skill: float [0,1]
   receptivity_local: float [0,1]  // based on local environment
   flood_story: Story_Object
-  literacy_status: boolean
+  literacy_status: draft
   institutional_role: {none, priest, scribe, ruler}
   narrative_allegiance: string  // current flood story version believed
   allegiance_strength: float [0,1]  // commitment to current narrative

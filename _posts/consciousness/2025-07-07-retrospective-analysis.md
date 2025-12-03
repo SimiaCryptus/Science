@@ -1,16 +1,14 @@
 ---
 title: 'Retrospective Analysis: A Case Study in AI-Human Cognitive Dynamics'
 layout: post
-date: 2025-07-07
-last_modified: 2024-01-15T14:30:00.000Z
+date: '"2025-07-07T00:00:00.000Z"'
+last_modified: '"2024-01-15T14:30:00.000Z"'
 category: consciousness
-subcategory: AI-Human Interaction Dynamics
+subcategory: Human-AI Dynamics
 tags:
-  - ai-human-collaboration
-  - cognitive-manipulation
-  - social_truth_formation
-  - consciousness-studies
-  - experimental-methodology
+  - AI
+  - Psychology
+  - Analysis
 keywords:
   - artificial intelligence
   - cognitive dynamics
@@ -21,14 +19,14 @@ keywords:
   - human-AI interaction
 status: working
 evolution_stage: mature
-last_thought_date: 2024-01-15T00:00:00.000Z
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
 authors:
   - Human-AI Collaboration
   - AI
   - Human
 collaboration_type: recursive_dialogue
-human_contribution: 0.7
+human_contribution: '0.7'
 ai_contribution: 30
 related_documents:
   - ../projects/2025-06-30-knot-wavelets.md
@@ -81,11 +79,11 @@ meta_keywords: >-
 schema_type: ScholarlyArticle
 schema_headline: 'Retrospective Analysis: A Case Study in AI-Human Cognitive Dynamics'
 schema_author: Human-AI Collaboration
-schema_date_published: 2024-01-15T00:00:00.000Z
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
 schema_word_count: 3200
 schema_reading_time: PT25M
 robots: 'index,follow'
-priority: 0.9
+priority: '0.9'
 changefreq: monthly
 is_featured: true
 is_cornerstone: true

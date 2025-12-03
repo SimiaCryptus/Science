@@ -1,161 +1,158 @@
 ---
-# Core Metadata
-title: "Teenage Mutant Ninja Kittens: An Illustrated Story Concept"
-layout: "post"
-date: 2025-11-23
-last_modified: 2025-11-23 18:16:20
-
-# Content Classification
+title: 'Teenage Mutant Ninja Kittens: An Illustrated Story Concept'
+layout: post
+date: '"2025-11-23T00:00:00.000Z"'
+last_modified: '"2025-11-23T18:16:20.000Z"'
 category: creative_writing
-subcategory: "Illustrated Story Concept"
-tags: [ "creative-writing", "narrative-generation", "middle-grade", "illustrated-story", "character-development", "team-dynamics", "heroism", "redemption" ]
-keywords: [ "teenage mutant ninja kittens", "illustrated story", "narrative generation", "middle-grade fiction", "ninja warriors", "team dynamics", "character arcs" ]
-
-# Content Status
-status: "stable"
-last_thought_date: 2025-11-23
+subcategory: Comics & Visual Narrative
+tags:
+  - Fiction
+  - Art
+  - Narrative
+keywords:
+  - teenage mutant ninja kittens
+  - illustrated story
+  - narrative generation
+  - middle-grade fiction
+  - ninja warriors
+  - team dynamics
+  - character arcs
+status: stable
+last_thought_date: '"2025-11-23T00:00:00.000Z"'
 thought_generation: 1
-
-# Document Relationships
 parent_document: null
-child_documents: [ ]
-related_documents: [ ]
-
-# Navigation
+child_documents: []
+related_documents: []
 reading_order: 1
-difficulty_level: "accessible"
+difficulty_level: accessible
 reading_time_minutes: 45
-
-# Content Characteristics
-document_type: "creative_work"
-thinking_style: "narrative"
-consciousness_level: "collaborative"
-engagement_type: "contemplative"
-reader_participation: "passive"
-cognitive_load: "moderate"
-
-# Discovery & SEO
-description: "A complete illustrated story concept featuring four young kittens transformed into ninja warriors who must learn to work together as a team to protect their city from a vengeful villain. Spanning origin, training, conflict, and resolution across five acts with detailed character development and world-building."
-excerpt: "Four ordinary kittens are mysteriously transformed into extraordinary ninja warriors by the wise Master Whiskers. Guided by their mentor, they must learn to work together as a team while discovering their individual strengths. When a vengeful villain named Shadow Paws threatens to destroy the city, the kittens must overcome their differences, master their new abilities, and prove that even the smallest heroes can make the biggest difference."
-featured_image: "../../assets/images/tmnk/00_cover_image.png"
-og_image: "../../assets/images/tmnk/00_cover_image.png"
-
-# SEO Meta Tags
-meta_title: "Teenage Mutant Ninja Kittens: Complete Illustrated Story Concept"
-meta_description: "A five-act illustrated story concept about four kittens transformed into ninja warriors who must learn teamwork to save their city from a vengeful villain. Complete with character development, world-building, and narrative arcs."
-meta_keywords: "illustrated story, ninja kittens, middle-grade fiction, narrative generation, character development, team dynamics"
-
-# Open Graph
-og_title: "Teenage Mutant Ninja Kittens: An Illustrated Story Concept"
-og_description: "Four ordinary kittens are mysteriously transformed into extraordinary ninja warriors. They must learn to work together as a team to protect their city from a vengeful villain."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "CreativeWork"
-schema_headline: "Teenage Mutant Ninja Kittens: An Illustrated Story Concept"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-11-23
-schema_date_modified: 2025-11-23
-schema_image: "assets/images/teenage-mutant-ninja-kittens-cover.png"
+document_type: creative_work
+thinking_style: narrative
+consciousness_level: collaborative
+engagement_type: contemplative
+reader_participation: passive
+cognitive_load: moderate
+description: >-
+  A complete illustrated story concept featuring four young kittens transformed
+  into ninja warriors who must learn to work together as a team to protect their
+  city from a vengeful villain. Spanning origin, training, conflict, and
+  resolution across five acts with detailed character development and
+  world-building.
+excerpt: >-
+  Four ordinary kittens are mysteriously transformed into extraordinary ninja
+  warriors by the wise Master Whiskers. Guided by their mentor, they must learn
+  to work together as a team while discovering their individual strengths. When
+  a vengeful villain named Shadow Paws threatens to destroy the city, the
+  kittens must overcome their differences, master their new abilities, and prove
+  that even the smallest heroes can make the biggest difference.
+featured_image: ../../assets/images/tmnk/00_cover_image.png
+og_image: ../../assets/images/tmnk/00_cover_image.png
+meta_title: 'Teenage Mutant Ninja Kittens: Complete Illustrated Story Concept'
+meta_description: >-
+  A five-act illustrated story concept about four kittens transformed into ninja
+  warriors who must learn teamwork to save their city from a vengeful villain.
+  Complete with character development, world-building, and narrative arcs.
+meta_keywords: >-
+  illustrated story, ninja kittens, middle-grade fiction, narrative generation,
+  character development, team dynamics
+og_title: 'Teenage Mutant Ninja Kittens: An Illustrated Story Concept'
+og_description: >-
+  Four ordinary kittens are mysteriously transformed into extraordinary ninja
+  warriors. They must learn to work together as a team to protect their city
+  from a vengeful villain.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: CreativeWork
+schema_headline: 'Teenage Mutant Ninja Kittens: An Illustrated Story Concept'
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-11-23T00:00:00.000Z"'
+schema_date_modified: '"2025-11-23T00:00:00.000Z"'
+schema_image: assets/images/teenage-mutant-ninja-kittens-cover.png
 schema_word_count: 13821
-schema_reading_time: "PT45M"
-
-# Advanced SEO
-canonical_url: "https://fractalthoughtengine.com/creative_writing/2025-11-23-teenage-mutant-ninja-kittens"
-robots: "index,follow"
-googlebot: "index,follow"
-bingbot: "index,follow"
-
-# Content Classification
-content_rating: "general"
-content_language: "en"
-geo_region: "Global"
-
-# Indexing Control
-priority: 0.8
-changefreq: "monthly"
+schema_reading_time: PT45M
+canonical_url: >-
+  https://fractalthoughtengine.com/creative_writing/2025-11-23-teenage-mutant-ninja-kittens
+robots: 'index,follow'
+googlebot: 'index,follow'
+bingbot: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
+priority: '0.8'
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-
-# Rich Snippets
 faq_schema: false
 how_to_schema: false
 breadcrumb_schema: true
 review_schema: false
-
-# Performance
-preload_resources: [ "assets/images/teenage-mutant-ninja-kittens-cover.png" ]
-prefetch_resources: [ "assets/images/character_WHISKER_ref.png", "assets/images/character_SHADOW_ref.png", "assets/images/character_POUNCE_ref.png", "assets/images/character_ZIGZAG_ref.png" ]
-
-# Discoverability
+preload_resources:
+  - assets/images/teenage-mutant-ninja-kittens-cover.png
+prefetch_resources:
+  - assets/images/character_WHISKER_ref.png
+  - assets/images/character_SHADOW_ref.png
+  - assets/images/character_POUNCE_ref.png
+  - assets/images/character_ZIGZAG_ref.png
 is_featured: true
 is_cornerstone: false
 is_gateway: true
 is_synthesis: false
-
-# Story-Specific Metadata
-story_type: "illustrated_narrative"
-target_audience: "middle-grade (8-12 years old)"
-story_structure: "5-act narrative"
+story_type: illustrated_narrative
+target_audience: middle-grade (8-12 years old)
+story_structure: 5-act narrative
 total_scenes: 8
 total_word_count: 13821
 estimated_reading_time: 45
-
-# Characters
 main_characters:
-  - name: "Whisker"
-    role: "Leader / Primary Protagonist"
-    description: "Bright orange tabby with bold stripes, confident and impulsive with a competitive streak"
-  - name: "Shadow"
-    role: "Strategist / Deuteragonist"
-    description: "Sleek black kitten with white paws, quiet and analytical with a love of learning"
-  - name: "Pounce"
-    role: "Heart / Emotional Core"
-    description: "Calico kitten with patchy fur, optimistic and empathetic with unshakeable belief in goodness"
-  - name: "Zigzag"
-    role: "Wildcard / Comic Relief"
-    description: "Gray and white spotted kitten, hyperactive and comedic with unpredictable creativity"
-
-# Settings
+  - name: Whisker
+    role: Leader / Primary Protagonist
+    description: >-
+      Bright orange tabby with bold stripes, confident and impulsive with a
+      competitive streak
+  - name: Shadow
+    role: Strategist / Deuteragonist
+    description: >-
+      Sleek black kitten with white paws, quiet and analytical with a love of
+      learning
+  - name: Pounce
+    role: Heart / Emotional Core
+    description: >-
+      Calico kitten with patchy fur, optimistic and empathetic with unshakeable
+      belief in goodness
+  - name: Zigzag
+    role: Wildcard / Comic Relief
+    description: >-
+      Gray and white spotted kitten, hyperactive and comedic with unpredictable
+      creativity
 primary_settings:
-  - "sewers (main training chamber)"
-  - "rooftops (city downtown district)"
-  - "city streets (urban environment)"
-  - "abandoned warehouse (villain's lair)"
-  - "library district (peaceful sanctuary)"
-
-# Themes
+  - sewers (main training chamber)
+  - rooftops (city downtown district)
+  - city streets (urban environment)
+  - abandoned warehouse (villain's lair)
+  - library district (peaceful sanctuary)
 themes:
-  - "Teamwork and unity"
-  - "Individual strengths complementing each other"
-  - "Redemption and compassion"
-  - "Coming of age and responsibility"
-  - "Found family"
-  - "Overcoming differences"
-  - "Heroism and sacrifice"
-
-# Narrative Elements
-narrative_style: "literary"
-point_of_view: "third person omniscient"
-tone: "humorous, adventurous, lighthearted"
-pacing: "moderate with action sequences"
-emotional_arc: "discovery → training → conflict → climax → resolution"
-
-# Content Warnings
-content_warnings: [ ]
-age_appropriateness: "8-12 years old"
-
-# Production Notes
-generation_method: "AI narrative generation with human curation"
+  - Teamwork and unity
+  - Individual strengths complementing each other
+  - Redemption and compassion
+  - Coming of age and responsibility
+  - Found family
+  - Overcoming differences
+  - Heroism and sacrifice
+narrative_style: literary
+point_of_view: third person omniscient
+tone: 'humorous, adventurous, lighthearted'
+pacing: moderate with action sequences
+emotional_arc: discovery → training → conflict → climax → resolution
+content_warnings: []
+age_appropriateness: 8-12 years old
+generation_method: AI narrative generation with human curation
 revision_passes: 2
 scene_images_generated: true
 cover_image_generated: true
 character_reference_images: 8
 setting_reference_images: 5
-
 ---
 
 # Narrative Generation Task

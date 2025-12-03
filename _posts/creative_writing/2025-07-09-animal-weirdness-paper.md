@@ -1,66 +1,69 @@
 ---
-# Required fields
-title: "The Democracy of Sneezes and Other Unsolved Mysteries: Why Animals Keep Doing Things That Make No Sense"
+title: >-
+  The Democracy of Sneezes and Other Unsolved Mysteries: Why Animals Keep Doing
+  Things That Make No Sense
 layout: post
-date: 2025-07-09
-last_modified: 2025-07-09 12:00:00
-
-# Content classification
+date: '"2025-07-09T00:00:00.000Z"'
+last_modified: '"2025-07-09T12:00:00.000Z"'
 category: creative_writing
-subcategory: "Science Communication"
-tags: ["animal-behavior", "evolutionary-biology", "science-communication", "behavioral-ecology", "zoology", "popular-science"]
-keywords: ["animal behavior", "weird animals", "evolutionary mysteries", "democratic animals", "unexplained behaviors", "zoology"]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2025-07-09
+subcategory: Satire & Historical Perspectives
+tags:
+  - Biology
+  - Humor
+  - Science
+keywords:
+  - animal behavior
+  - weird animals
+  - evolutionary mysteries
+  - democratic animals
+  - unexplained behaviors
+  - zoology
+status: stable
+last_thought_date: '"2025-07-09T00:00:00.000Z"'
 thought_generation: 1
-
-# Content Relationships & Navigation
-difficulty_level: "accessible"
+difficulty_level: accessible
 reading_time_minutes: 8
-
-# Content Characteristics
-document_type: "reflection"
-thinking_style: "intuitive"
-consciousness_level: "collaborative"
-engagement_type: "contemplative"
-reader_participation: "passive"
-cognitive_load: "light"
-
-# Discovery & SEO
-description: "A humorous exploration of bizarre animal behaviors that scientists still can't explain, from democratic sneezing wild dogs to circle-forming sheep."
-excerpt: "African wild dogs vote by sneezing, sheep form perfect circles for unknown reasons, and octopuses throw things at each other like underwater jerks. A dive into the weirdest unexplained animal behaviors that make humans look normal."
-
-# SEO Meta Tags
-meta_title: "Weird Animal Behaviors Scientists Can't Explain | Democratic Sneezing & More"
-meta_description: "Discover bizarre animal behaviors that baffle scientists: democratic sneezing wild dogs, circle-forming sheep, art gallery bears, and turtles that breathe through their butts."
-meta_keywords: "weird animal behavior, unexplained animal behavior, democratic animals, animal mysteries, evolutionary biology, zoology"
-
-# Open Graph (Social Media)
-og_title: "Animals Are Weirder Than You Think: The Democracy of Sneezes"
-og_description: "From democratic sneezing sessions to underwater road rage, animals do things that make absolutely no sense to scientists."
-og_type: "article"
-og_locale: "en_US"
-
-# Schema.org Structured Data
-schema_type: "Article"
-schema_headline: "The Democracy of Sneezes and Other Unsolved Mysteries"
-schema_author: "Fractal Thought Engine"
-schema_date_published: 2025-07-09
-schema_date_modified: 2025-07-09
+document_type: reflection
+thinking_style: intuitive
+consciousness_level: collaborative
+engagement_type: contemplative
+reader_participation: passive
+cognitive_load: light
+description: >-
+  A humorous exploration of bizarre animal behaviors that scientists still can't
+  explain, from democratic sneezing wild dogs to circle-forming sheep.
+excerpt: >-
+  African wild dogs vote by sneezing, sheep form perfect circles for unknown
+  reasons, and octopuses throw things at each other like underwater jerks. A
+  dive into the weirdest unexplained animal behaviors that make humans look
+  normal.
+meta_title: Weird Animal Behaviors Scientists Can't Explain | Democratic Sneezing & More
+meta_description: >-
+  Discover bizarre animal behaviors that baffle scientists: democratic sneezing
+  wild dogs, circle-forming sheep, art gallery bears, and turtles that breathe
+  through their butts.
+meta_keywords: >-
+  weird animal behavior, unexplained animal behavior, democratic animals, animal
+  mysteries, evolutionary biology, zoology
+og_title: 'Animals Are Weirder Than You Think: The Democracy of Sneezes'
+og_description: >-
+  From democratic sneezing sessions to underwater road rage, animals do things
+  that make absolutely no sense to scientists.
+og_type: article
+og_locale: en_US
+schema_type: Article
+schema_headline: The Democracy of Sneezes and Other Unsolved Mysteries
+schema_author: Fractal Thought Engine
+schema_date_published: '"2025-07-09T00:00:00.000Z"'
+schema_date_modified: '"2025-07-09T00:00:00.000Z"'
 schema_word_count: 1200
-schema_reading_time: "PT8M"
-
-# Discoverability
+schema_reading_time: PT8M
 is_featured: false
 is_cornerstone: false
 is_gateway: true
 is_synthesis: false
-
-# Content Classification for Search
-content_rating: "general"
-robots: "index,follow"
+content_rating: general
+robots: 'index,follow'
 ---
 
 # The Democracy of Sneezes and Other Unsolved Mysteries

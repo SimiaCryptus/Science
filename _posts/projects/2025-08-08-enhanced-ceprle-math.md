@@ -3,17 +3,14 @@ title: >-
   Enhanced CEP-RLE: Multi-Orientation Scanning and Wavelet-Based Geometric
   Analysis
 layout: post
-date: 2025-08-08T00:00:00.000Z
-last_modified: 2024-01-15T14:30:00.000Z
+date: '"2025-08-08T00:00:00.000Z"'
+last_modified: '"2024-01-15T14:30:00.000Z"'
 category: projects
-subcategory: Mathematical Frameworks
+subcategory: Algorithms & Compression
 tags:
-  - Mathematical-Modeling
-  - Computational-Analysis
-  - Information-Theory
-  - Computer-Vision
-  - Optimization
-  - Machine-Learning
+  - Mathematics
+  - Software
+  - Research
 keywords:
   - CEP-RLE
   - wavelet analysis
@@ -24,7 +21,7 @@ keywords:
   - topology
   - mathematical framework
 status: stable
-last_thought_date: 2024-01-15T00:00:00.000Z
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
 related_documents:
   - ./2025-06-30-knots.md
@@ -59,12 +56,12 @@ schema_headline: >-
   Analysis
 schema_author: Fractal Thought Engine
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2024-01-15T00:00:00.000Z
-schema_date_modified: 2024-01-15T00:00:00.000Z
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
 schema_word_count: 2800
 schema_reading_time: PT25M
 robots: 'index,follow'
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 is_featured: false
 is_cornerstone: true

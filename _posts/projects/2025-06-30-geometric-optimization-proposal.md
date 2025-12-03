@@ -1,21 +1,14 @@
 ---
 title: Geometric Optimization Proposal
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: projects
-subcategory: Mathematical Frameworks
+subcategory: Mathematics & Geometry
 tags:
+  - Mathematics
   - Optimization
-  - Mathematical-Modeling
-  - AI-Consciousness
-  - Quantum-Physics
-  - Neural-Networks
-  - Theoretical-Framework
-  - Cross-Synthesis
-  - Computational-Analysis
-  - Research-Paper
-  - Current-Research
+  - Research
 keywords:
   - geometric optimization
   - parameter space manifolds
@@ -26,7 +19,7 @@ keywords:
   - emergent structures
 status: draft
 thought_generation: 1
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 related_documents:
   - ../portfolio/2025-07-01-qqn-paper.md
   - ../portfolio/2025-07-01-recursive-subspace-paper.md
@@ -72,8 +65,8 @@ schema_headline: >-
   Discovery
 schema_author: Fractal Thought Engine Research Team
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-06-30T00:00:00.000Z
-schema_date_modified: 2025-06-30T00:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
+schema_date_modified: '"2025-06-30T00:00:00.000Z"'
 schema_image: /assets/images/geometric-optimization-schema.png
 schema_word_count: 8500
 schema_reading_time: PT45M
@@ -82,7 +75,7 @@ robots: 'index,follow'
 content_rating: general
 content_language: en
 geo_region: Global
-priority: 0.9
+priority: '0.9'
 changefreq: monthly
 sitemap_exclude: false
 search_exclude: false

@@ -1,88 +1,82 @@
 ---
-# Core Metadata
-title: "Lorentzian Ethics: A Geometric Framework for Observer-Dependent Moral Relationships"
+title: >-
+  Lorentzian Ethics: A Geometric Framework for Observer-Dependent Moral
+  Relationships
 layout: post
-date: 2025-11-20
-last_modified: 2024-01-01 00:00:00
-
-# Content Classification
-category: "phenomenology"
-subcategory: "Ethical Frameworks"
+date: '"2025-11-20T00:00:00.000Z"'
+last_modified: '"2024-01-01T00:00:00.000Z"'
+category: phenomenology
+subcategory: Philosophical Frameworks
 tags:
-  - "Philosophy-of-Mind"
-  - "AI-Consciousness"
-  - "Human-AI-Collaboration"
-  - "Theoretical-Framework"
-  - "Mathematical-Modeling"
-  - "Ethics-Technology"
-  - "Cognitive-Architecture"
+  - Ethics
+  - AI
+  - Phenomenology
 keywords:
-  - "lorentzian ethics"
-  - "observer-dependent morality"
-  - "capability gradients"
-  - "relativistic ethics"
-  - "AI alignment"
-  - "moral reference frames"
-
-# Content Status and Evolution
-status: "stable"
-last_thought_date: 2024-01-01
+  - lorentzian ethics
+  - observer-dependent morality
+  - capability gradients
+  - relativistic ethics
+  - AI alignment
+  - moral reference frames
+status: stable
+last_thought_date: '"2024-01-01T00:00:00.000Z"'
 thought_generation: 1
-
-# Document Relationships & Navigation
 parent_document: null
 child_documents: []
 related_documents: []
 reading_order: null
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 18
-
-# Content Characteristics
-document_type: "theoretical_framework"
-thinking_style: "mathematical"
-consciousness_level: "recursive"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A mathematical framework applying relativistic principles to moral philosophy, modeling ethical relationships as observer-dependent across capability gradients."
-excerpt: "Traditional ethical frameworks assume absolute moral reference frames. This paper develops Lorentzian Ethics—a geometric model where moral properties transform according to relativistic principles, applicable to AI-human interactions and beyond."
-
-# SEO Meta Tags
-meta_title: "Lorentzian Ethics: Observer-Dependent Moral Relationships in AI Systems"
-meta_description: "Explore a mathematical framework for understanding moral relationships across capability gradients using relativistic principles and geometric ethics."
-meta_keywords: "lorentzian ethics, AI ethics, moral relativism, capability gradients, observer-dependent morality"
-
-# Open Graph
-og_title: "Lorentzian Ethics: A Geometric Framework for Observer-Dependent Moral Relationships"
-og_description: "Mathematical modeling of ethical dynamics across capability gradients using relativistic principles"
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Lorentzian Ethics: A Geometric Framework for Observer-Dependent Moral Relationships"
-schema_author: "Andrew"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-01-01
-schema_date_modified: 2024-01-01
-schema_image: "/assets/images/lorentzian_ethics_featured.png"
+document_type: theoretical_framework
+thinking_style: mathematical
+consciousness_level: recursive
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A mathematical framework applying relativistic principles to moral philosophy,
+  modeling ethical relationships as observer-dependent across capability
+  gradients.
+excerpt: >-
+  Traditional ethical frameworks assume absolute moral reference frames. This
+  paper develops Lorentzian Ethics—a geometric model where moral properties
+  transform according to relativistic principles, applicable to AI-human
+  interactions and beyond.
+meta_title: 'Lorentzian Ethics: Observer-Dependent Moral Relationships in AI Systems'
+meta_description: >-
+  Explore a mathematical framework for understanding moral relationships across
+  capability gradients using relativistic principles and geometric ethics.
+meta_keywords: >-
+  lorentzian ethics, AI ethics, moral relativism, capability gradients,
+  observer-dependent morality
+og_title: >-
+  Lorentzian Ethics: A Geometric Framework for Observer-Dependent Moral
+  Relationships
+og_description: >-
+  Mathematical modeling of ethical dynamics across capability gradients using
+  relativistic principles
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: ScholarlyArticle
+schema_headline: >-
+  Lorentzian Ethics: A Geometric Framework for Observer-Dependent Moral
+  Relationships
+schema_author: Andrew
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2024-01-01T00:00:00.000Z"'
+schema_date_modified: '"2024-01-01T00:00:00.000Z"'
+schema_image: /assets/images/lorentzian_ethics_featured.png
 schema_word_count: 3847
-schema_reading_time: "PT18M"
-
-# Search Engine Directives
-robots: "index,follow"
-googlebot: "index,follow"
-content_rating: "general"
-content_language: "en"
-priority: 0.8
-changefreq: "monthly"
+schema_reading_time: PT18M
+robots: 'index,follow'
+googlebot: 'index,follow'
+content_rating: general
+content_language: en
+priority: '0.8'
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-
-# Discoverability
 is_featured: false
 is_cornerstone: true
 is_gateway: true

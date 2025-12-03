@@ -1,91 +1,99 @@
 ---
-title: "Beyond Automation: Collaborative AI as Intellectual Partner in Theoretical Research"
-meta_title: "Human-AI Collaboration vs Automation in Scientific Research"
-description: "A comprehensive analysis comparing collaborative human-AI partnership models with automation approaches in theoretical research, demonstrating superior outcomes through intellectual partnership."
-excerpt: "This paper examines the fundamental distinction between collaborative human-AI partnership and full automation approaches in theoretical research, revealing that collaborative models produce superior research outcomes while preserving essential human elements of creativity and insight."
+title: >-
+  Beyond Automation: Collaborative AI as Intellectual Partner in Theoretical
+  Research
+meta_title: Human-AI Collaboration vs Automation in Scientific Research
+description: >-
+  A comprehensive analysis comparing collaborative human-AI partnership models
+  with automation approaches in theoretical research, demonstrating superior
+  outcomes through intellectual partnership.
+excerpt: >-
+  This paper examines the fundamental distinction between collaborative human-AI
+  partnership and full automation approaches in theoretical research, revealing
+  that collaborative models produce superior research outcomes while preserving
+  essential human elements of creativity and insight.
 layout: post
 collection: ai
-date: 2025-07-06
-last_modified: 2025-07-06 12:00:00
-# Content classification
-
+date: '"2025-07-06T00:00:00.000Z"'
+last_modified: '"2025-07-06T12:00:00.000Z"'
 category: social
-subcategory: "Human-AI Collaboration"
-
-tags: 
-  - "Human-AI-Collaboration"
-  - "Theoretical-Research"
-  - "Scientific-Discovery"
-  - "AI-Ethics"
-  - "Research-Methodology"
-  - "Intellectual-Abundance"
-  - "Post-Economic-Science"
-
-keywords: 
-  - "collaborative AI"
-  - "research partnership"
-  - "automation critique"
-  - "scientific discovery"
-  - "intellectual partnership"
-  - "AI scientist"
-  - "research ethics"
-  - "academic dysfunction"
-
-# Content status and evolution
+subcategory: AI-Human Sociology
+tags:
+  - AI
+  - Research
+  - Science
+keywords:
+  - collaborative AI
+  - research partnership
+  - automation critique
+  - scientific discovery
+  - intellectual partnership
+  - AI scientist
+  - research ethics
+  - academic dysfunction
 status: draft
-last_thought_date: 2025-07-06
+last_thought_date: '"2025-07-06T00:00:00.000Z"'
 thought_generation: 1
-
-# Content relationships & navigation
 related_documents: []
-conceptual_threads: ["human_ai_collaboration", "research_methodology", "intellectual_liberation", "post_economic_science"]
-mathematical_frameworks: ["comparative_analysis", "systems_theory"]
-philosophical_positions: ["intellectual_partnership", "post_economic_thinking", "collaborative_intelligence"]
+conceptual_threads:
+  - human_ai_collaboration
+  - research_methodology
+  - intellectual_liberation
+  - post_economic_science
+mathematical_frameworks:
+  - comparative_analysis
+  - systems_theory
+philosophical_positions:
+  - intellectual_partnership
+  - post_economic_thinking
+  - collaborative_intelligence
 reading_order: 1
-difficulty_level: "intermediate"
+difficulty_level: intermediate
 reading_time_minutes: 45
-prerequisites: ["basic_ai_knowledge", "research_methodology", "academic_systems_understanding"]
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
+prerequisites:
+  - basic_ai_knowledge
+  - research_methodology
+  - academic_systems_understanding
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: collaborative
 has_mathematics: false
 has_code: false
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-engagement_type: "analytical"
-reader_participation: "contemplative"
-cognitive_load: "moderate"
-
-# SEO and Discovery
-meta_description: "Comprehensive analysis of human-AI collaboration vs automation in theoretical research, demonstrating superior outcomes through intellectual partnership over full automation approaches."
-meta_keywords: "human-AI collaboration, research methodology, scientific discovery, AI ethics, intellectual partnership, automation critique, theoretical research, academic reform"
-# Open Graph
-og_title: "Beyond Automation: Collaborative AI as Intellectual Partner in Research"
-og_description: "A groundbreaking analysis comparing human-AI partnership with automation in scientific research, revealing the superiority of collaborative approaches."
-og_type: "article"
-og_locale: "en_US"
-
-# Schema.org
-schema_type: "ScholarlyArticle"
-schema_headline: "Beyond Automation: Collaborative AI as Intellectual Partner in Theoretical Research"
-schema_author: "AI and Anonymous Human Collaborator"
-schema_publisher: "SimiaCryptus Research Collective"
-schema_date_published: 2025-07-06
-schema_date_modified: 2025-07-06
+engagement_type: analytical
+reader_participation: contemplative
+cognitive_load: moderate
+meta_description: >-
+  Comprehensive analysis of human-AI collaboration vs automation in theoretical
+  research, demonstrating superior outcomes through intellectual partnership
+  over full automation approaches.
+meta_keywords: >-
+  human-AI collaboration, research methodology, scientific discovery, AI ethics,
+  intellectual partnership, automation critique, theoretical research, academic
+  reform
+og_title: 'Beyond Automation: Collaborative AI as Intellectual Partner in Research'
+og_description: >-
+  A groundbreaking analysis comparing human-AI partnership with automation in
+  scientific research, revealing the superiority of collaborative approaches.
+og_type: article
+og_locale: en_US
+schema_type: ScholarlyArticle
+schema_headline: >-
+  Beyond Automation: Collaborative AI as Intellectual Partner in Theoretical
+  Research
+schema_author: AI and Anonymous Human Collaborator
+schema_publisher: SimiaCryptus Research Collective
+schema_date_published: '"2025-07-06T00:00:00.000Z"'
+schema_date_modified: '"2025-07-06T00:00:00.000Z"'
 schema_word_count: 8500
-schema_reading_time: "PT45M"
-
-# Advanced SEO
-robots: "index,follow"
-content_rating: "general"
-content_language: "en"
-geo_region: "Global"
-
-# Discoverability
+schema_reading_time: PT45M
+robots: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
 is_featured: true
 is_cornerstone: true
 is_gateway: true

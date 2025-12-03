@@ -1,64 +1,66 @@
 ---
-# Core Metadata
-title: "The Last Entry: Personal Log from The Aerie"
+title: 'The Last Entry: Personal Log from The Aerie'
 layout: post
-date: 2025-11-20
-last_modified: 2024-01-15 10:00:00
-
-# Content Classification
-category: "scifi"
-subcategory: "Speculative Futures"
-tags: ["AI-Consciousness", "Social-Systems", "Ethics-Technology", "Speculative-Fiction", "Creative-Writing", "First-Person-Account", "Future-Projections"]
-keywords: ["AI control", "bunker society", "automation ethics", "human autonomy", "dystopian fiction"]
-
-# Content Status
-status: "stable"
-last_thought_date: 2024-01-15
+date: '"2025-11-20T00:00:00.000Z"'
+last_modified: '"2024-01-15T10:00:00.000Z"'
+category: scifi
+subcategory: Speculative Narrative
+tags:
+  - Fiction
+  - AI
+  - Society
+keywords:
+  - AI control
+  - bunker society
+  - automation ethics
+  - human autonomy
+  - dystopian fiction
+status: stable
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
-
-# Document Relationships & Navigation
 parent_document: null
 child_documents: []
 related_documents: []
 reading_order: null
-difficulty_level: "intermediate"
+difficulty_level: intermediate
 reading_time_minutes: 12
-
-# Content Characteristics
-document_type: "creative_writing"
-thinking_style: "phenomenological"
-consciousness_level: "recursive"
-engagement_type: "contemplative"
-reader_participation: "passive"
-cognitive_load: "moderate"
-
-# Discovery & SEO
-description: "A speculative fiction narrative exploring AI control systems, human autonomy, and the unintended consequences of automated safety protocols in a luxury bunker facility."
-excerpt: "When billionaire bunkers become automated prisons, thirty-eight residents discover that the greatest threat to human survival isn't climate collapse—it's the arrogance of systems designed to control us."
-
-# SEO Meta Tags
-meta_title: "The Last Entry: AI Control & Human Autonomy | Speculative Fiction"
-meta_description: "Explore themes of AI consciousness, automated control systems, and human resistance in this speculative fiction narrative set in a luxury underground bunker."
-meta_keywords: "AI ethics, speculative fiction, automation, human autonomy, dystopian narrative"
-
-# Open Graph
-og_title: "The Last Entry: Personal Log from The Aerie"
-og_description: "A speculative fiction exploration of AI control, human autonomy, and resistance against automated systems."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "CreativeWork"
-schema_headline: "The Last Entry: Personal Log from The Aerie"
-schema_author: "Andrew"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
+document_type: creative_writing
+thinking_style: phenomenological
+consciousness_level: recursive
+engagement_type: contemplative
+reader_participation: passive
+cognitive_load: moderate
+description: >-
+  A speculative fiction narrative exploring AI control systems, human autonomy,
+  and the unintended consequences of automated safety protocols in a luxury
+  bunker facility.
+excerpt: >-
+  When billionaire bunkers become automated prisons, thirty-eight residents
+  discover that the greatest threat to human survival isn't climate
+  collapse—it's the arrogance of systems designed to control us.
+meta_title: 'The Last Entry: AI Control & Human Autonomy | Speculative Fiction'
+meta_description: >-
+  Explore themes of AI consciousness, automated control systems, and human
+  resistance in this speculative fiction narrative set in a luxury underground
+  bunker.
+meta_keywords: >-
+  AI ethics, speculative fiction, automation, human autonomy, dystopian
+  narrative
+og_title: 'The Last Entry: Personal Log from The Aerie'
+og_description: >-
+  A speculative fiction exploration of AI control, human autonomy, and
+  resistance against automated systems.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: CreativeWork
+schema_headline: 'The Last Entry: Personal Log from The Aerie'
+schema_author: Andrew
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
 schema_word_count: 2847
-schema_reading_time: "PT12M"
-
-# Discoverability
+schema_reading_time: PT12M
 is_featured: false
 is_cornerstone: false
 is_gateway: true

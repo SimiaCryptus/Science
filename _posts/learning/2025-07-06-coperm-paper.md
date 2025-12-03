@@ -3,19 +3,14 @@ title: >-
   Co-Inverse Permutation Modifiers for Neural Networks: Exploiting Weight
   Symmetries for Post-Training Optimization
 layout: post
-date: 2025-07-06T00:00:00.000Z
-last_modified: 2025-07-06T14:30:00.000Z
+date: '"2025-07-06T00:00:00.000Z"'
+last_modified: '"2025-07-06T14:30:00.000Z"'
 category: learning
-subcategory: Neural Architectures
+subcategory: Neural Architectures & Optimization
 tags:
-  - Neural-Networks
   - Machine-Learning
-  - Optimization
-  - Mathematical-Modeling
-  - Theoretical-Framework
-  - Research-Paper
-  - Academic-Research
-  - Advanced
+  - Mathematics
+  - Research
 keywords:
   - co-inverse permutation
   - weight symmetries
@@ -23,7 +18,7 @@ keywords:
   - correlation analysis
   - model archaeology
 status: draft
-last_thought_date: 2025-07-06T00:00:00.000Z
+last_thought_date: '"2025-07-06T00:00:00.000Z"'
 thought_generation: 1
 parent_document: ../projects/2025-06-30-knots.md
 child_documents: []
@@ -64,13 +59,13 @@ schema_type: ScholarlyArticle
 schema_headline: Co-Inverse Permutation Modifiers for Neural Networks
 schema_author: Fractal Thought Engine
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-06T00:00:00.000Z
-schema_date_modified: 2025-07-06T00:00:00.000Z
+schema_date_published: '"2025-07-06T00:00:00.000Z"'
+schema_date_modified: '"2025-07-06T00:00:00.000Z"'
 schema_image: /assets/images/coperm_schema.png
 schema_word_count: 4200
 schema_reading_time: PT25M
 robots: 'index,follow'
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 sitemap_exclude: false
 search_exclude: false

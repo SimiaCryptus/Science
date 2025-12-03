@@ -1,24 +1,14 @@
 ---
-# Core Metadata
-title: "The Parallax Pilgrim: A Comic Book About Perception and Truth"
-layout: "post"
-date: 2025-11-26
-last_modified: 2025-11-26 14:30:00
-
-# Content Classification
+title: 'The Parallax Pilgrim: A Comic Book About Perception and Truth'
+layout: post
+date: '"2025-11-26T00:00:00.000Z"'
+last_modified: '"2025-11-26T14:30:00.000Z"'
 category: creative_writing
-subcategory: "Speculative Fiction & Visual Narrative"
+subcategory: Speculative Fiction & Narrative
 tags:
-  - Creative-Writing
-  - Speculative-Fiction
-  - Visual-Storytelling
-  - Consciousness
-  - Perception
-  - Optical-Illusions
-  - Philosophical-Fiction
-  - Narrative-Design
-  - Character-Development
-  - Worldbuilding
+  - Fiction
+  - Philosophy
+  - Art
 keywords:
   - comic book script
   - optical illusions
@@ -28,148 +18,130 @@ keywords:
   - speculative fiction
   - visual narrative
   - philosophical storytelling
-
-# Content Status and Evolution
-status: "stable"
-last_thought_date: 2025-11-26
+status: stable
+last_thought_date: '"2025-11-26T00:00:00.000Z"'
 thought_generation: 1
-
-# Document Relationships & Navigation
 parent_document: null
 child_documents: []
 related_documents:
-  - "/posts/creative_writing/consciousness-through-narrative"
-  - "/posts/phenomenology/perception-as-reality"
-  - "/posts/scifi/impossible-geometries"
+  - /posts/creative_writing/consciousness-through-narrative
+  - /posts/phenomenology/perception-as-reality
+  - /posts/scifi/impossible-geometries
 reading_order: 1
-difficulty_level: "intermediate"
+difficulty_level: intermediate
 reading_time_minutes: 25
-
-# Content Characteristics
-document_type: "creative_work"
-thinking_style: "intuitive"
-consciousness_level: "meta"
-engagement_type: "contemplative"
-reader_participation: "active"
-cognitive_load: "moderate"
-
-# Discovery & SEO
-description: "A complete comic book script exploring perception, reality, and self-discovery through the journey of Vera Sight, a cartographer who enters a dimension where optical illusions form the fabric of existence."
-excerpt: "Vera Sight, a determined cartographer obsessed with mapping the known world, follows a mysterious compass into the Shifting Realm—a dimension where perception creates reality and optical illusions form the very fabric of existence. To find her way home, she must learn that truth isn't what you see, but how you choose to see it."
-featured_image: "../../assets/images/parpil/page_1_row_1.png"
-og_image: "../../assets/images/parpil/page_1_row_1.png"
-
-# SEO Meta Tags
-meta_title: "The Parallax Pilgrim: Comic Book Script on Perception and Reality"
-meta_description: "A complete comic book script following cartographer Vera Sight into a dimension of optical illusions and impossible geometry. Explore themes of perception, truth, and self-discovery through visual storytelling."
-meta_keywords: "comic book, optical illusions, perception, reality, speculative fiction, impossible geometry, character transformation"
-
-# Open Graph (Social Media)
-og_title: "The Parallax Pilgrim: A Journey Through Perception"
-og_description: "Follow Vera Sight into the Shifting Realm, where optical illusions form reality and perception creates truth. A complete comic book script exploring consciousness and transformation."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "CreativeWork"
-schema_headline: "The Parallax Pilgrim: A Comic Book About Perception and Truth"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-11-26
-schema_date_modified: 2025-11-26
-schema_image: "../../assets/images/parpil/page_1_row_1.png"
+document_type: creative_work
+thinking_style: intuitive
+consciousness_level: meta
+engagement_type: contemplative
+reader_participation: active
+cognitive_load: moderate
+description: >-
+  A complete comic book script exploring perception, reality, and self-discovery
+  through the journey of Vera Sight, a cartographer who enters a dimension where
+  optical illusions form the fabric of existence.
+excerpt: >-
+  Vera Sight, a determined cartographer obsessed with mapping the known world,
+  follows a mysterious compass into the Shifting Realm—a dimension where
+  perception creates reality and optical illusions form the very fabric of
+  existence. To find her way home, she must learn that truth isn't what you see,
+  but how you choose to see it.
+featured_image: ../../assets/images/parpil/page_1_row_1.png
+og_image: ../../assets/images/parpil/page_1_row_1.png
+meta_title: 'The Parallax Pilgrim: Comic Book Script on Perception and Reality'
+meta_description: >-
+  A complete comic book script following cartographer Vera Sight into a
+  dimension of optical illusions and impossible geometry. Explore themes of
+  perception, truth, and self-discovery through visual storytelling.
+meta_keywords: >-
+  comic book, optical illusions, perception, reality, speculative fiction,
+  impossible geometry, character transformation
+og_title: 'The Parallax Pilgrim: A Journey Through Perception'
+og_description: >-
+  Follow Vera Sight into the Shifting Realm, where optical illusions form
+  reality and perception creates truth. A complete comic book script exploring
+  consciousness and transformation.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: CreativeWork
+schema_headline: 'The Parallax Pilgrim: A Comic Book About Perception and Truth'
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-11-26T00:00:00.000Z"'
+schema_date_modified: '"2025-11-26T00:00:00.000Z"'
+schema_image: ../../assets/images/parpil/page_1_row_1.png
 schema_word_count: 8500
-schema_reading_time: "PT25M"
-
-# Advanced SEO
-canonical_url: "https://fractalthoughtengine.com/posts/creative_writing/2025-11-26-illusion-world"
-robots: "index,follow"
-googlebot: "index,follow"
-bingbot: "index,follow"
-
-# Content Classification for Search
-content_rating: "general"
-content_language: "en"
-geo_region: "Global"
-
-# Indexing Control
-priority: 0.8
-changefreq: "monthly"
+schema_reading_time: PT25M
+canonical_url: >-
+  https://fractalthoughtengine.com/posts/creative_writing/2025-11-26-illusion-world
+robots: 'index,follow'
+googlebot: 'index,follow'
+bingbot: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
+priority: '0.8'
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-
-# Rich Snippets Enhancement
 faq_schema: false
 how_to_schema: false
 breadcrumb_schema: true
 review_schema: false
-
-# Discoverability
 is_featured: true
 is_cornerstone: false
 is_gateway: true
 is_synthesis: true
-
-# Performance and Technical SEO
 preload_resources:
-  - "../../assets/images/parpil/page_1_row_1.png"
+  - ../../assets/images/parpil/page_1_row_1.png
 prefetch_resources:
-  - "/posts/phenomenology/perception-as-reality"
-  - "/posts/scifi/impossible-geometries"
+  - /posts/phenomenology/perception-as-reality
+  - /posts/scifi/impossible-geometries
 dns_prefetch:
-  - "https://fonts.googleapis.com"
-
-# Additional Creative Metadata
-narrative_structure: "hero's journey"
-visual_style: "optical illusion art"
+  - 'https://fonts.googleapis.com'
+narrative_structure: hero's journey
+visual_style: optical illusion art
 target_audience:
-  - "speculative fiction enthusiasts"
-  - "visual storytelling fans"
-  - "philosophy of perception readers"
-  - "comic book creators"
+  - speculative fiction enthusiasts
+  - visual storytelling fans
+  - philosophy of perception readers
+  - comic book creators
 themes:
-  - "perception and reality"
-  - "self-discovery"
-  - "acceptance of uncertainty"
-  - "transformation through understanding"
-  - "the nature of truth"
-  - "consciousness and perspective"
+  - perception and reality
+  - self-discovery
+  - acceptance of uncertainty
+  - transformation through understanding
+  - the nature of truth
+  - consciousness and perspective
 characters_count: 4
 pages_count: 6
 panels_count: 24
 estimated_word_count: 8500
-
-# Creative Work Specific
-work_type: "comic_book_script"
-format: "sequential art script"
-intended_medium: "graphic novel"
+work_type: comic_book_script
+format: sequential art script
+intended_medium: graphic novel
 visual_techniques:
-  - "optical illusions"
-  - "impossible geometry"
-  - "Escher-style perspective"
-  - "bistable imagery"
-  - "tessellation patterns"
-  - "figure-ground ambiguity"
-
-# Narrative Elements
-protagonist: "Vera Sight"
-protagonist_arc: "from rigid certainty to fluid understanding"
-central_conflict: "navigating a reality that defies logical mapping"
-resolution_type: "transformative acceptance"
-narrative_voice: "third person with internal monologue"
-
-# Thematic Depth
-philosophical_framework: "phenomenology of perception"
-consciousness_exploration: "how perspective shapes reality"
-metaphorical_core: "maps as metaphors for understanding"
+  - optical illusions
+  - impossible geometry
+  - Escher-style perspective
+  - bistable imagery
+  - tessellation patterns
+  - figure-ground ambiguity
+protagonist: Vera Sight
+protagonist_arc: from rigid certainty to fluid understanding
+central_conflict: navigating a reality that defies logical mapping
+resolution_type: transformative acceptance
+narrative_voice: third person with internal monologue
+philosophical_framework: phenomenology of perception
+consciousness_exploration: how perspective shapes reality
+metaphorical_core: maps as metaphors for understanding
 symbolic_elements:
-  - "compass: seeking truth"
-  - "maps: need for control"
-  - "optical illusions: deceptive perception"
-  - "Flicker Folk: acceptance of duality"
-  - "Architect: creator trapped by creation"
-
+  - 'compass: seeking truth'
+  - 'maps: need for control'
+  - 'optical illusions: deceptive perception'
+  - 'Flicker Folk: acceptance of duality'
+  - 'Architect: creator trapped by creation'
 ---
 
 ![Page 1 Row 1](../../assets/images/parpil/page_1_row_1.png)

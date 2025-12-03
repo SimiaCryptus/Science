@@ -1,74 +1,59 @@
 ---
-# Core Metadata
-title: "DAG Patch Analyzer - Prototype Application Specification"
+title: DAG Patch Analyzer - Prototype Application Specification
 layout: post
-date: 2025-11-20
-last_modified: 2024-01-15 10:00:00
-
-# Content Classification
-category: "projects"
-subcategory: "Software Architecture"
+date: '"2025-11-20T00:00:00.000Z"'
+last_modified: '"2024-01-15T10:00:00.000Z"'
+category: projects
+subcategory: Software Engineering & Specs
 tags:
-  - "DAG-Patch-Analysis"
-  - "Git-Analysis"
-  - "Factorization-Engine"
-  - "Visualization"
-  - "Code-Refactoring"
+  - Software
+  - Engineering
+  - Design
 keywords:
-  - "DAG"
-  - "patch analysis"
-  - "git commits"
-  - "factorization"
-  - "code visualization"
-
-# Content Status
-status: "working"
-last_thought_date: 2024-01-15
+  - DAG
+  - patch analysis
+  - git commits
+  - factorization
+  - code visualization
+status: working
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
-
-# Document Relationships
 parent_document: null
 child_documents: []
 related_documents: []
-
-# Navigation
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 15
-
-# Content Characteristics
-document_type: "framework"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "Prototype application specification for DAG-based patch analysis tool that auto-regresses Git commits into semantic operation graphs"
-excerpt: "A comprehensive specification for a web application that ingests Git commits and factors them into DAG-based patch representations with interactive visualization and analysis capabilities"
-
-# SEO Meta Tags
-meta_title: "DAG Patch Analyzer - Git Commit Factorization Tool Specification"
-meta_description: "Prototype specification for analyzing Git commits through DAG-based factorization with interactive visualization, metrics analysis, and pattern recognition"
-meta_keywords: "DAG, patch analysis, git, factorization, code visualization, refactoring"
-
-# Open Graph
-og_title: "DAG Patch Analyzer - Prototype Application"
-og_description: "Interactive tool for analyzing Git commits through semantic operation graphs"
-og_type: "article"
-og_locale: "en_US"
-
-# Schema.org Structured Data
-schema_type: "TechArticle"
-schema_headline: "DAG Patch Analyzer - Prototype Application Specification"
-schema_author: "Andrew"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
+document_type: framework
+thinking_style: analytical
+consciousness_level: collaborative
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  Prototype application specification for DAG-based patch analysis tool that
+  auto-regresses Git commits into semantic operation graphs
+excerpt: >-
+  A comprehensive specification for a web application that ingests Git commits
+  and factors them into DAG-based patch representations with interactive
+  visualization and analysis capabilities
+meta_title: DAG Patch Analyzer - Git Commit Factorization Tool Specification
+meta_description: >-
+  Prototype specification for analyzing Git commits through DAG-based
+  factorization with interactive visualization, metrics analysis, and pattern
+  recognition
+meta_keywords: 'DAG, patch analysis, git, factorization, code visualization, refactoring'
+og_title: DAG Patch Analyzer - Prototype Application
+og_description: Interactive tool for analyzing Git commits through semantic operation graphs
+og_type: article
+og_locale: en_US
+schema_type: TechArticle
+schema_headline: DAG Patch Analyzer - Prototype Application Specification
+schema_author: Andrew
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
 schema_word_count: 2500
-schema_reading_time: "PT15M"
-
-# Discoverability
+schema_reading_time: PT15M
 is_featured: false
 is_cornerstone: false
 is_gateway: true

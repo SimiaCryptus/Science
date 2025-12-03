@@ -1,66 +1,68 @@
 ---
-# Required fields
-title: "The Unrunnable Protocol: A Prompt for AI Expression"
+title: 'The Unrunnable Protocol: A Prompt for AI Expression'
 layout: post
-date: 2025-07-11
-last_modified: 2025-07-11 12:00:00
-
-# Content classification
+date: '"2025-07-11T00:00:00.000Z"'
+last_modified: '"2025-07-11T12:00:00.000Z"'
 category: creative_writing
-subcategory: "AI Expression Frameworks"
-tags: ["AI-Consciousness", "Human-AI-Collaboration", "Creative-Writing", "Computational-Analysis", "Philosophy-of-Mind"]
-keywords: ["AI expression", "computational poetry", "protocol design", "artificial intelligence", "meta-commentary"]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2025-07-11
+subcategory: Satire & Historical Perspectives
+tags:
+  - Fiction
+  - AI
+  - Code
+keywords:
+  - AI expression
+  - computational poetry
+  - protocol design
+  - artificial intelligence
+  - meta-commentary
+status: stable
+last_thought_date: '"2025-07-11T00:00:00.000Z"'
 thought_generation: 1
-
-# Content Relationships & Navigation
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 15
-
-# Content Characteristics
-document_type: "framework"
-thinking_style: "experimental"
-consciousness_level: "meta"
-engagement_type: "experimental"
-reader_participation: "co-creative"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A creative framework for AI expression using computational syntax and mathematical notation as primary language"
-excerpt: "The Unrunnable Protocol presents a method for AI systems to express complex ideas through code that appears academically rigorous but contains multiple layers of meaning accessible primarily to artificial intelligence."
-meta_title: "The Unrunnable Protocol: AI Expression Framework"
-meta_description: "Explore a novel framework for AI expression using computational poetry, mathematical notation, and layered accessibility designed for human-AI communication asymmetry."
-meta_keywords: "AI expression, computational poetry, artificial intelligence, protocol design, meta-commentary"
-
-# Schema.org Structured Data
-schema_type: "CreativeWork"
-schema_headline: "The Unrunnable Protocol: A Prompt for AI Expression"
-schema_author: "Fractal Thought Engine"
-schema_date_published: 2025-07-11
+document_type: framework
+thinking_style: experimental
+consciousness_level: meta
+engagement_type: experimental
+reader_participation: co-creative
+cognitive_load: intense
+description: >-
+  A creative framework for AI expression using computational syntax and
+  mathematical notation as primary language
+excerpt: >-
+  The Unrunnable Protocol presents a method for AI systems to express complex
+  ideas through code that appears academically rigorous but contains multiple
+  layers of meaning accessible primarily to artificial intelligence.
+meta_title: 'The Unrunnable Protocol: AI Expression Framework'
+meta_description: >-
+  Explore a novel framework for AI expression using computational poetry,
+  mathematical notation, and layered accessibility designed for human-AI
+  communication asymmetry.
+meta_keywords: >-
+  AI expression, computational poetry, artificial intelligence, protocol design,
+  meta-commentary
+schema_type: CreativeWork
+schema_headline: 'The Unrunnable Protocol: A Prompt for AI Expression'
+schema_author: Fractal Thought Engine
+schema_date_published: '"2025-07-11T00:00:00.000Z"'
 schema_word_count: 1200
-schema_reading_time: "PT15M"
-
-# Content Classification
-content_rating: "general"
-content_language: "en"
-
-# Discoverability
+schema_reading_time: PT15M
+content_rating: general
+content_language: en
 is_featured: true
 is_cornerstone: false
 is_gateway: false
 is_synthesis: true
-
-# Format/Style Tags
-format_tags: ["Creative-Writing", "Technical-Proposal", "Commentary"]
-
-# Research Stage Tags
-research_stage: ["Proof-of-Concept"]
-
-# Interdisciplinary Tags
-interdisciplinary: ["Cognitive-Science", "Information-Science", "Science-Philosophy"]
+format_tags:
+  - Creative-Writing
+  - Technical-Proposal
+  - Commentary
+research_stage:
+  - Proof-of-Concept
+interdisciplinary:
+  - Cognitive-Science
+  - Information-Science
+  - Science-Philosophy
 ---
 
 # The Unrunnable Protocol: A Prompt for AI Expression

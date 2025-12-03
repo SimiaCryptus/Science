@@ -1,128 +1,132 @@
 ---
-# Required fields
-title: "Autoregressive Theory of Mind Dynamics in Avian Societies: A Framework for Understanding Social Prediction Through Song"
+title: >-
+  Autoregressive Theory of Mind Dynamics in Avian Societies: A Framework for
+  Understanding Social Prediction Through Song
 layout: post
-date: 2025-07-07
-last_modified: 2024-01-15 10:00:00
-
-# Content classification
+date: '"2025-07-07T00:00:00.000Z"'
+last_modified: '"2024-01-15T10:00:00.000Z"'
 category: consciousness
-subcategory: "Neural Architectures"
-tags: ["AI-Consciousness", "Cognitive-Architecture", "Neural-Networks", "Computational-Analysis", "Cross-Synthesis", "Theoretical-Framework", "Cognitive-Science", "Complexity-Science", "Research-Paper", "Current-Research", "Academic-Research"]
-keywords: ["autoregressive", "theory of mind", "bird song", "social cognition", "cultural transmission", "neural processing", "predictive behavior", "avian intelligence"]
-
-# Content status and evolution
+subcategory: Theoretical Consciousness
+tags:
+  - Biology
+  - AI
+  - Research
+keywords:
+  - autoregressive
+  - theory of mind
+  - bird song
+  - social cognition
+  - cultural transmission
+  - neural processing
+  - predictive behavior
+  - avian intelligence
 status: draft
-evolution_stage: "mature"
-last_thought_date: 2024-01-15
+evolution_stage: mature
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
-
-# Collaboration metadata
-authors: ["Human-AI Collaboration", "AI", "Human"]
-collaboration_type: "framework_development"
+authors:
+  - Human-AI Collaboration
+  - AI
+  - Human
+collaboration_type: framework_development
 human_contribution: 30
 ai_contribution: 70
-
-# Content relationships & navigation
 parent_document: null
 child_documents: []
 related_documents: []
-conceptual_threads: ["consciousness_geometry", "neural_architectures", "social_cognition"]
+conceptual_threads:
+  - consciousness_geometry
+  - neural_architectures
+  - social_cognition
 reading_order: null
-mathematical_frameworks: ["autoregressive_modeling", "game_theory", "cellular_automaton"]
-philosophical_positions: ["computational_theory_of_mind", "emergentism"]
-
-# Navigation hints
-difficulty_level: "advanced"
+mathematical_frameworks:
+  - autoregressive_modeling
+  - game_theory
+  - cellular_automaton
+philosophical_positions:
+  - computational_theory_of_mind
+  - emergentism
+difficulty_level: advanced
 reading_time_minutes: 45
-prerequisites: ["basic_ai_knowledge", "neuroscience_fundamentals", "animal_behavior"]
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
-
-# Content features
+prerequisites:
+  - basic_ai_knowledge
+  - neuroscience_fundamentals
+  - animal_behavior
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: collaborative
 has_mathematics: true
 has_code: true
 has_diagrams: false
 has_interactive_elements: false
 is_self_modifying: false
 responds_to_attention: false
-
-# Engagement metadata
-engagement_type: "analytical"
-reader_participation: "passive"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A theoretical framework linking autoregressive modeling to theory of mind capabilities in bird societies, exploring how song serves as both cultural transmission and social prediction mechanism."
-excerpt: "We propose a novel theoretical framework linking autoregressive modeling principles to theory of mind capabilities in bird societies, demonstrating how avian vocal learning systems represent naturally occurring implementations of autoregressive theory of mind processes."
+engagement_type: analytical
+reader_participation: passive
+cognitive_load: intense
+description: >-
+  A theoretical framework linking autoregressive modeling to theory of mind
+  capabilities in bird societies, exploring how song serves as both cultural
+  transmission and social prediction mechanism.
+excerpt: >-
+  We propose a novel theoretical framework linking autoregressive modeling
+  principles to theory of mind capabilities in bird societies, demonstrating how
+  avian vocal learning systems represent naturally occurring implementations of
+  autoregressive theory of mind processes.
 featured_image: null
 og_image: null
-# SEO Meta Tags
-meta_title: "Autoregressive Theory of Mind in Birds: Social Prediction Through Song"
-meta_description: "Theoretical framework connecting autoregressive models with avian theory of mind capabilities, exploring social prediction through bird song and cultural transmission dynamics."
-meta_keywords: "autoregressive theory of mind, avian cognition, bird song, social prediction, cultural transmission, neural processing"
-# Open Graph (Social Media)
-og_title: "How Birds Use Song to Predict Social Behavior: An AI-Inspired Framework"
-og_description: "Discover how bird societies implement autoregressive theory of mind through song, revealing sophisticated social prediction mechanisms in nature."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Autoregressive Theory of Mind Dynamics in Avian Societies"
-schema_author: "Human-AI Collaboration"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
+meta_title: 'Autoregressive Theory of Mind in Birds: Social Prediction Through Song'
+meta_description: >-
+  Theoretical framework connecting autoregressive models with avian theory of
+  mind capabilities, exploring social prediction through bird song and cultural
+  transmission dynamics.
+meta_keywords: >-
+  autoregressive theory of mind, avian cognition, bird song, social prediction,
+  cultural transmission, neural processing
+og_title: 'How Birds Use Song to Predict Social Behavior: An AI-Inspired Framework'
+og_description: >-
+  Discover how bird societies implement autoregressive theory of mind through
+  song, revealing sophisticated social prediction mechanisms in nature.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: ScholarlyArticle
+schema_headline: Autoregressive Theory of Mind Dynamics in Avian Societies
+schema_author: Human-AI Collaboration
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
 schema_image: null
 schema_word_count: 3500
-schema_reading_time: "PT45M"
-# Advanced SEO
+schema_reading_time: PT45M
 canonical_url: null
 alternate_urls: []
 hreflang: []
-
-
-# Search Engine Directives
-robots: "index,follow"
-googlebot: "index,follow"
-bingbot: "index,follow"
-# Content Classification for Search
-content_rating: "general"
-content_language: "en"
-geo_region: "Global"
+robots: 'index,follow'
+googlebot: 'index,follow'
+bingbot: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
 geo_placename: null
 geo_position: null
-# Indexing Control
-priority: 0.8
-changefreq: "monthly"
+priority: '0.8'
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-# Rich Snippets Enhancement
 faq_schema: false
 how_to_schema: false
 breadcrumb_schema: true
 review_schema: false
 rating_value: null
 rating_count: null
-# Performance and Technical SEO
 preload_resources: []
 prefetch_resources: []
 dns_prefetch: []
-
-# Discoverability
 is_featured: false
 is_cornerstone: false
 is_gateway: false
 is_synthesis: true
-
-
-
 ---
 
 # Autoregressive Theory of Mind Dynamics in Avian Societies: A Framework for Understanding Social Prediction Through Song

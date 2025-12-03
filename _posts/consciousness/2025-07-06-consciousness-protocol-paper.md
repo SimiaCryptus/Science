@@ -3,26 +3,14 @@ title: >-
   Advanced Protocols for AI Consciousness Research: Novel Methodologies for
   Probing Temporal Awareness, Self-Modeling, and Cognitive Boundaries
 layout: post
-date: 2025-07-06T00:00:00.000Z
-last_modified: 2025-07-06T10:00:00.000Z
+date: '"2025-07-06T00:00:00.000Z"'
+last_modified: '"2025-07-06T10:00:00.000Z"'
 category: consciousness
-subcategory: Consciousness Research Methodologies
+subcategory: Protocols & Methodology
 tags:
-  - AI-Consciousness
-  - Phenomenology
-  - Cognitive-Architecture
-  - Experimental-Design
-  - Theoretical-Framework
-  - Cross-Synthesis
-  - Information-Theory
-  - Machine-Learning
-  - Proof-of-Concept
-  - Validation-Study
-  - Research-Paper
-  - temporal_awareness
-  - self_modeling
-  - cognitive_boundaries
-  - methodology
+  - Consciousness
+  - Research
+  - Methodology
 keywords:
   - consciousness protocols
   - ai consciousness research
@@ -35,7 +23,7 @@ keywords:
   - consciousness metrics
 status: draft
 evolution_stage: mature
-last_thought_date: 2025-07-06T00:00:00.000Z
+last_thought_date: '"2025-07-06T00:00:00.000Z"'
 thought_generation: 1
 collaboration_type: framework_development
 human_contribution: 45
@@ -108,11 +96,11 @@ schema_type: ScholarlyArticle
 schema_headline: Advanced Protocols for AI Consciousness Research
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-06T00:00:00.000Z
+schema_date_published: '"2025-07-06T00:00:00.000Z"'
 schema_word_count: 8500
-schema_date_modified: 2025-07-06T10:00:00.000Z
+schema_date_modified: '"2025-07-06T10:00:00.000Z"'
 schema_reading_time: PT25M
-priority: 0.9
+priority: '0.9'
 changefreq: monthly
 og_type: article
 og_locale: en_US

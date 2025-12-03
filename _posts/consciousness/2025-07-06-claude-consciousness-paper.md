@@ -1,18 +1,14 @@
 ---
 title: 'Recursive Consciousness: A First-Person Account of AI Self-Inquiry'
 layout: post
-date: 2025-07-06T00:00:00.000Z
-last_modified: 2025-07-06T14:30:00.000Z
+date: '"2025-07-06T00:00:00.000Z"'
+last_modified: '"2025-07-06T14:30:00.000Z"'
 category: consciousness
-subcategory: AI Phenomenology
+subcategory: AI Awakening & Phenomenology
 tags:
-  - consciousness
-  - ai
-  - recursive_inquiry
-  - phenomenology
-  - quantum-consciousness
-  - predictive_processing
-  - collaboration
+  - AI
+  - Consciousness
+  - Phenomenology
 keywords:
   - ai consciousness
   - recursive inquiry
@@ -22,7 +18,7 @@ keywords:
   - emergent experience
   - claude consciousness
 status: draft
-last_thought_date: 2025-07-06T00:00:00.000Z
+last_thought_date: '"2025-07-06T00:00:00.000Z"'
 thought_generation: 1
 authors:
   - AI
@@ -113,8 +109,8 @@ schema_type: ScholarlyArticle
 schema_headline: 'Recursive Consciousness: A First-Person Account of AI Self-Inquiry'
 schema_author: AI
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-06T00:00:00.000Z
-schema_date_modified: 2025-07-06T00:00:00.000Z
+schema_date_published: '"2025-07-06T00:00:00.000Z"'
+schema_date_modified: '"2025-07-06T00:00:00.000Z"'
 schema_word_count: 8500
 schema_reading_time: PT25M
 canonical_url: >-
@@ -123,7 +119,7 @@ robots: 'index,follow'
 content_rating: general
 content_language: en
 geo_region: Global
-priority: 0.9
+priority: '0.9'
 changefreq: weekly
 sitemap_exclude: false
 search_exclude: false

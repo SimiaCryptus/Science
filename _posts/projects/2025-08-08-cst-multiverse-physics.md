@@ -1,77 +1,82 @@
 ---
-# Required fields
-title: "Causal Set Theory for Agent-Based Multiverse Knowledge Graph Generation"
+title: Causal Set Theory for Agent-Based Multiverse Knowledge Graph Generation
 layout: post
-date: 2025-08-08
-last_modified: 2024-01-15 14:30:00
-
-# Content classification
+date: '"2025-08-08T00:00:00.000Z"'
+last_modified: '"2024-01-15T14:30:00.000Z"'
 category: projects
-subcategory: "Computational Physics"
-tags: ["Causal-Set-Theory", "AI-Consciousness", "Computational-Analysis", "Theoretical-Framework", "Machine-Learning", "Quantum-Computing", "Information-Theory", "Interactive-Storytelling", "Complex-Systems", "Mathematical-Modeling"]
-keywords: ["causal set theory", "narrative spacetime", "interactive storytelling", "agent-based generation", "multiverse", "knowledge graph", "relativistic narratives", "computational creativity"]
-
-# Content status and evolution
-status: "working"
-last_thought_date: 2024-01-15
+subcategory: Physics & Cosmology Simulations
+tags:
+  - Physics
+  - Fiction
+  - Research
+keywords:
+  - causal set theory
+  - narrative spacetime
+  - interactive storytelling
+  - agent-based generation
+  - multiverse
+  - knowledge graph
+  - relativistic narratives
+  - computational creativity
+status: working
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
-
-# Content relationships & navigation
 parent_document: null
 child_documents: []
 related_documents: []
 reading_order: 1
-difficulty_level: "research"
+difficulty_level: research
 reading_time_minutes: 25
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "mathematical"
-consciousness_level: "emergent"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "transcendent"
-
-# Discovery & SEO
-description: "A framework for generating interactive narrative multiverses using Causal Set Theory, where documents become spacetime events and reader choices determine causal relationships."
-excerpt: "We present a revolutionary approach to interactive storytelling by treating narratives as discrete spacetime manifolds governed by causal set theory. Documents become events in narrative spacetime, reader choices create causal links, and the emergent structure forms coherent multiverse experiences with genuine relativistic properties."
-
-# SEO Meta Tags
-meta_title: "Causal Set Theory for Interactive Narrative Multiverse Generation | Physics-Based Storytelling"
-meta_description: "Revolutionary framework combining causal set theory with AI agents to generate dynamic, physics-based interactive narratives and multiverse storytelling experiences."
-meta_keywords: "causal set theory, interactive narratives, multiverse generation, computational physics, AI storytelling, spacetime narratives"
-
-# Open Graph (Social Media)
-og_title: "Physics-Based Interactive Storytelling: Causal Set Theory Meets AI"
-og_description: "Groundbreaking research applying relativistic physics to create dynamic, causally-consistent narrative multiverses through reader interaction."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Causal Set Theory for Agent-Based Multiverse Knowledge Graph Generation"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
-schema_image: "/assets/images/cst_multiverse_schema.png"
+document_type: research_paper
+thinking_style: mathematical
+consciousness_level: emergent
+engagement_type: analytical
+reader_participation: active
+cognitive_load: transcendent
+description: >-
+  A framework for generating interactive narrative multiverses using Causal Set
+  Theory, where documents become spacetime events and reader choices determine
+  causal relationships.
+excerpt: >-
+  We present a revolutionary approach to interactive storytelling by treating
+  narratives as discrete spacetime manifolds governed by causal set theory.
+  Documents become events in narrative spacetime, reader choices create causal
+  links, and the emergent structure forms coherent multiverse experiences with
+  genuine relativistic properties.
+meta_title: >-
+  Causal Set Theory for Interactive Narrative Multiverse Generation |
+  Physics-Based Storytelling
+meta_description: >-
+  Revolutionary framework combining causal set theory with AI agents to generate
+  dynamic, physics-based interactive narratives and multiverse storytelling
+  experiences.
+meta_keywords: >-
+  causal set theory, interactive narratives, multiverse generation,
+  computational physics, AI storytelling, spacetime narratives
+og_title: 'Physics-Based Interactive Storytelling: Causal Set Theory Meets AI'
+og_description: >-
+  Groundbreaking research applying relativistic physics to create dynamic,
+  causally-consistent narrative multiverses through reader interaction.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: ScholarlyArticle
+schema_headline: Causal Set Theory for Agent-Based Multiverse Knowledge Graph Generation
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
+schema_image: /assets/images/cst_multiverse_schema.png
 schema_word_count: 2800
-schema_reading_time: "PT25M"
-
-# Advanced SEO
-canonical_url: "https://fractalthoughtengine.com/projects/cst-multiverse-physics"
-robots: "index,follow"
-priority: 0.9
-changefreq: "monthly"
-
-# Rich Snippets Enhancement
+schema_reading_time: PT25M
+canonical_url: 'https://fractalthoughtengine.com/projects/cst-multiverse-physics'
+robots: 'index,follow'
+priority: '0.9'
+changefreq: monthly
 faq_schema: false
 how_to_schema: false
 breadcrumb_schema: true
 review_schema: false
-
-# Discoverability
 is_featured: true
 is_cornerstone: true
 is_gateway: false

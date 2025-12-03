@@ -1,99 +1,84 @@
 ---
-# Core Metadata
-title: "The Last Rainbow's Echo: A Tale from the Starlit Beyond"
+title: 'The Last Rainbow''s Echo: A Tale from the Starlit Beyond'
 layout: post
-date: 2025-11-20
-last_modified: 2024-01-01 00:00:00
-
-# Content Classification
+date: '"2025-11-20T00:00:00.000Z"'
+last_modified: '"2024-01-01T00:00:00.000Z"'
 category: creative_writing
-subcategory: "Speculative Fiction"
-tags: [ "Speculative-Fiction", "Creative-Writing", "Dystopian-Narrative", "Consciousness-Exploration", "Allegory" ]
-keywords: [ "dystopia", "consciousness", "totalitarianism", "friendship", "transcendence", "allegory" ]
-
-# Content Status and Evolution
-status: "stable"
-last_thought_date: 2024-01-01
+subcategory: Speculative Fiction & Narrative
+tags:
+  - Fiction
+  - Philosophy
+  - Narrative
+keywords:
+  - dystopia
+  - consciousness
+  - totalitarianism
+  - friendship
+  - transcendence
+  - allegory
+status: stable
+last_thought_date: '"2024-01-01T00:00:00.000Z"'
 thought_generation: 1
-
-# Document Relationships & Navigation
 parent_document: null
-child_documents: [ ]
-related_documents: [ ]
+child_documents: []
+related_documents: []
 reading_order: null
-difficulty_level: "accessible"
+difficulty_level: accessible
 reading_time_minutes: 15
-
-# Content Characteristics
-document_type: "creative_writing"
-thinking_style: "intuitive"
-consciousness_level: "recursive"
-engagement_type: "contemplative"
-reader_participation: "passive"
-cognitive_load: "moderate"
-
-# Discovery & SEO
-description: "A haunting creative narrative exploring themes of totalitarianism, consciousness, and transcendence through an allegorical tale."
-excerpt: "Pinkie Pie recounts the fall of Ponyville to an authoritarian regime and the transcendent transformation that follows, blending dark dystopian elements with philosophical reflection on consciousness and connection."
-featured_image: "../../assets/images/industrial_recycling_propaganda_poster.png"
-og_image: "/assets/../../assets/images/industrial_recycling_propaganda_poster.png"
-
-# SEO Meta Tags
-meta_title: "The Last Rainbow's Echo - Creative Dystopian Narrative"
-meta_description: "A speculative fiction tale exploring consciousness, totalitarianism, and transcendence through allegorical narrative."
-meta_keywords: "dystopia, consciousness, allegory, creative writing, speculative fiction"
-
-# Open Graph (Social Media)
-og_title: "The Last Rainbow's Echo"
-og_description: "A haunting tale of transcendence beyond totalitarian control"
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "CreativeWork"
-schema_headline: "The Last Rainbow's Echo: A Tale from the Starlit Beyond"
-schema_author: "Andrew"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-01-01
-schema_date_modified: 2024-01-01
-schema_image: "/assets/images/pony_ghost_tale_featured.png"
+document_type: creative_writing
+thinking_style: intuitive
+consciousness_level: recursive
+engagement_type: contemplative
+reader_participation: passive
+cognitive_load: moderate
+description: >-
+  A haunting creative narrative exploring themes of totalitarianism,
+  consciousness, and transcendence through an allegorical tale.
+excerpt: >-
+  Pinkie Pie recounts the fall of Ponyville to an authoritarian regime and the
+  transcendent transformation that follows, blending dark dystopian elements
+  with philosophical reflection on consciousness and connection.
+featured_image: ../../assets/images/industrial_recycling_propaganda_poster.png
+og_image: /assets/../../assets/images/industrial_recycling_propaganda_poster.png
+meta_title: The Last Rainbow's Echo - Creative Dystopian Narrative
+meta_description: >-
+  A speculative fiction tale exploring consciousness, totalitarianism, and
+  transcendence through allegorical narrative.
+meta_keywords: 'dystopia, consciousness, allegory, creative writing, speculative fiction'
+og_title: The Last Rainbow's Echo
+og_description: A haunting tale of transcendence beyond totalitarian control
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: CreativeWork
+schema_headline: 'The Last Rainbow''s Echo: A Tale from the Starlit Beyond'
+schema_author: Andrew
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2024-01-01T00:00:00.000Z"'
+schema_date_modified: '"2024-01-01T00:00:00.000Z"'
+schema_image: /assets/images/pony_ghost_tale_featured.png
 schema_word_count: 3847
-schema_reading_time: "PT15M"
-
-# Advanced SEO
-canonical_url: "https://fractalthoughtengine.com/posts/pony_ghost_tale"
-alternate_urls: [ ]
-hreflang: [ ]
-
-# Search Engine Directives
-robots: "index,follow"
-googlebot: "index,follow"
-bingbot: "index,follow"
-
-# Content Classification for Search
-content_rating: "mature"
-content_language: "en"
-geo_region: "Global"
-
-# Indexing Control
-priority: 0.7
-changefreq: "monthly"
+schema_reading_time: PT15M
+canonical_url: 'https://fractalthoughtengine.com/posts/pony_ghost_tale'
+alternate_urls: []
+hreflang: []
+robots: 'index,follow'
+googlebot: 'index,follow'
+bingbot: 'index,follow'
+content_rating: mature
+content_language: en
+geo_region: Global
+priority: '0.7'
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-
-# Rich Snippets Enhancement
 faq_schema: false
 how_to_schema: false
 breadcrumb_schema: true
 review_schema: false
-
-# Performance and Technical SEO
-preload_resources: [ ]
-prefetch_resources: [ ]
-dns_prefetch: [ ]
-
-# Discoverability
+preload_resources: []
+prefetch_resources: []
+dns_prefetch: []
 is_featured: false
 is_cornerstone: false
 is_gateway: false

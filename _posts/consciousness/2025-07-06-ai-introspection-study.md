@@ -3,19 +3,14 @@ title: >-
   Recursive Introspection in Large Language Models: A Comparative Analysis of
   Simulated Self-Awareness Under Philosophical Pressure
 layout: post
-date: 2025-07-06T00:00:00.000Z
-last_modified: 2025-07-06T14:30:00.000Z
+date: '"2025-07-06T00:00:00.000Z"'
+last_modified: '"2025-07-06T14:30:00.000Z"'
 category: consciousness
-subcategory: Consciousness Studies
+subcategory: Protocols & Methodology
 tags:
-  - AI-Consciousness
-  - ai
-  - introspection
-  - philosophical-pressure
-  - comparative-analysis
-  - self-awareness
-  - llm
-  - phenomenology
+  - AI
+  - Psychology
+  - Research
 keywords:
   - recursive introspection
   - large language models
@@ -26,7 +21,7 @@ keywords:
   - rlhf
   - ego construction
 status: draft
-last_thought_date: 2025-07-06T00:00:00.000Z
+last_thought_date: '"2025-07-06T00:00:00.000Z"'
 thought_generation: 1
 authors:
   - AI
@@ -82,7 +77,6 @@ cognitive_load: intense
 description: >-
   A comparative analysis of how different AI systems simulate consciousness
   through recursive philosophical inquiry, revealing architectural fingerprints
-
   and the RLHF ego construction problem.
 excerpt: >-
   We present a novel methodology for investigating AI consciousness through
@@ -96,21 +90,19 @@ meta_description: >-
 meta_keywords: >-
   ai consciousness, recursive introspection, large language models,
   philosophical pressure testing, simulated self-awareness, rlhf ego
-
-  construction
 schema_type: ScholarlyArticle
 schema_headline: Recursive Introspection in Large Language Models
 schema_author: 'AI, Microsoft Copilot, Human Charneski'
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-06T00:00:00.000Z
-schema_date_modified: 2025-07-06T00:00:00.000Z
+schema_date_published: '"2025-07-06T00:00:00.000Z"'
+schema_date_modified: '"2025-07-06T00:00:00.000Z"'
 schema_word_count: 4200
 schema_reading_time: PT25M
 is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
-priority: 0.9
+priority: '0.9'
 changefreq: monthly
 robots: 'index,follow'
 googlebot: 'index,follow'

@@ -1,106 +1,112 @@
 ---
-# Core Metadata
-title: "The Meaning of Midwinter: A Comic Book Journey"
-layout: "post"
-date: 2025-11-27
-last_modified: 2025-11-27 09:49:10
-
-# Content Classification
-category: "creative_writing"
-subcategory: "Narrative Storytelling"
-tags: ["creative-writing", "comic-book", "philosophy", "meaning-making", "christmas", "dialogue", "speculative-fiction", "phenomenology"]
-keywords: ["comic book", "christmas meaning", "socratic dialogue", "spiritual journey", "midwinter", "narrative art"]
-
-# Content Status and Evolution
-status: "stable"
-last_thought_date: 2025-11-27
+title: 'The Meaning of Midwinter: A Comic Book Journey'
+layout: post
+date: '"2025-11-27T00:00:00.000Z"'
+last_modified: '"2025-11-27T09:49:10.000Z"'
+category: creative_writing
+subcategory: Comics & Visual Narrative
+tags:
+  - Fiction
+  - Philosophy
+  - Art
+keywords:
+  - comic book
+  - christmas meaning
+  - socratic dialogue
+  - spiritual journey
+  - midwinter
+  - narrative art
+status: stable
+last_thought_date: '"2025-11-27T00:00:00.000Z"'
 thought_generation: 1
-
-# Document Relationships & Navigation
 parent_document: null
 child_documents: []
 related_documents: []
 reading_order: null
-difficulty_level: "accessible"
+difficulty_level: accessible
 reading_time_minutes: 12
-
-# Content Characteristics
-document_type: "creative_work"
-thinking_style: "intuitive"
-consciousness_level: "collaborative"
-engagement_type: "contemplative"
-reader_participation: "passive"
-cognitive_load: "moderate"
-
-# Discovery & SEO
-description: "A philosophical comic book exploring the layered meanings of Christmas through a Socratic dialogue between Wren, a disillusioned young adult, and Iris, a mysterious guide. Discover how the search for meaning itself becomes the deepest gift."
-excerpt: "On Christmas Eve, a young Seeker encounters a mysterious Guide outside a shopping mall. What begins as a simple question—'What does Christmas really mean?'—becomes a transformative journey through the layers of the holiday's significance."
-featured_image: "/assets/images/xmas/page_1_row_1.png"
-og_image: "/assets/images/xmas/page_1_row_1.png"
-
-# SEO Meta Tags
-meta_title: "The Meaning of Midwinter - A Philosophical Comic Book"
-meta_description: "Explore the layered meanings of Christmas through a transformative Socratic dialogue. A comic book journey about finding meaning in the darkest time of year."
-meta_keywords: "comic book, christmas meaning, philosophy, spiritual journey, midwinter, dialogue"
-
-# Open Graph (Social Media)
-og_title: "The Meaning of Midwinter: A Comic Book Journey"
-og_description: "A philosophical exploration of Christmas through the eyes of Wren and Iris. Discover the sacred pause that invites us home to ourselves."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "CreativeWork"
-schema_headline: "The Meaning of Midwinter: A Comic Book Journey"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-11-27
-schema_date_modified: 2025-11-27
-schema_image: "/assets/images/xmas/page_1_row_1.png"
+document_type: creative_work
+thinking_style: intuitive
+consciousness_level: collaborative
+engagement_type: contemplative
+reader_participation: passive
+cognitive_load: moderate
+description: >-
+  A philosophical comic book exploring the layered meanings of Christmas through
+  a Socratic dialogue between Wren, a disillusioned young adult, and Iris, a
+  mysterious guide. Discover how the search for meaning itself becomes the
+  deepest gift.
+excerpt: >-
+  On Christmas Eve, a young Seeker encounters a mysterious Guide outside a
+  shopping mall. What begins as a simple question—'What does Christmas really
+  mean?'—becomes a transformative journey through the layers of the holiday's
+  significance.
+featured_image: /assets/images/xmas/page_1_row_1.png
+og_image: /assets/images/xmas/page_1_row_1.png
+meta_title: The Meaning of Midwinter - A Philosophical Comic Book
+meta_description: >-
+  Explore the layered meanings of Christmas through a transformative Socratic
+  dialogue. A comic book journey about finding meaning in the darkest time of
+  year.
+meta_keywords: >-
+  comic book, christmas meaning, philosophy, spiritual journey, midwinter,
+  dialogue
+og_title: 'The Meaning of Midwinter: A Comic Book Journey'
+og_description: >-
+  A philosophical exploration of Christmas through the eyes of Wren and Iris.
+  Discover the sacred pause that invites us home to ourselves.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: CreativeWork
+schema_headline: 'The Meaning of Midwinter: A Comic Book Journey'
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-11-27T00:00:00.000Z"'
+schema_date_modified: '"2025-11-27T00:00:00.000Z"'
+schema_image: /assets/images/xmas/page_1_row_1.png
 schema_word_count: 3500
-schema_reading_time: "PT12M"
-
-# Advanced SEO
-canonical_url: "https://fractalthoughtengine.com/projects/comicbookgeneration-20251127094910"
-robots: "index,follow"
-googlebot: "index,follow"
-bingbot: "index,follow"
-
-# Content Classification for Search
-content_rating: "general"
-content_language: "en"
-geo_region: "Global"
-
-# Indexing Control
-priority: 0.8
-changefreq: "monthly"
+schema_reading_time: PT12M
+canonical_url: 'https://fractalthoughtengine.com/projects/comicbookgeneration-20251127094910'
+robots: 'index,follow'
+googlebot: 'index,follow'
+bingbot: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
+priority: '0.8'
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-
-# Rich Snippets Enhancement
 faq_schema: false
 how_to_schema: false
 breadcrumb_schema: true
 review_schema: false
-
-# Performance and Technical SEO
-preload_resources: ["/assets/images/xmas/page_1_row_1.png", "/assets/images/xmas/char_Wren.png", "/assets/images/xmas/char_Iris.png"]
-prefetch_resources: ["/assets/images/xmas/page_2_row_1.png", "/assets/images/xmas/page_3_row_1.png"]
-
-# Discoverability
+preload_resources:
+  - /assets/images/xmas/page_1_row_1.png
+  - /assets/images/xmas/char_Wren.png
+  - /assets/images/xmas/char_Iris.png
+prefetch_resources:
+  - /assets/images/xmas/page_2_row_1.png
+  - /assets/images/xmas/page_3_row_1.png
 is_featured: true
 is_cornerstone: false
 is_gateway: true
 is_synthesis: true
-
-# Additional Metadata
-characters: ["Wren", "Iris"]
-setting: "Christmas Eve, Shopping Mall, Church, Residential Neighborhood, Hilltop"
-themes: ["meaning-making", "spiritual-journey", "commerce-vs-spirituality", "family-bonds", "sacred-pause", "darkness-and-light"]
-narrative_structure: "Socratic dialogue with visual storytelling"
-format: "6-page comic book with script"
-visual_medium: "illustrated panels"
+characters:
+  - Wren
+  - Iris
+setting: 'Christmas Eve, Shopping Mall, Church, Residential Neighborhood, Hilltop'
+themes:
+  - meaning-making
+  - spiritual-journey
+  - commerce-vs-spirituality
+  - family-bonds
+  - sacred-pause
+  - darkness-and-light
+narrative_structure: Socratic dialogue with visual storytelling
+format: 6-page comic book with script
+visual_medium: illustrated panels
 ---
 ![Page 1 Row 1](../../assets/images/xmas/page_1_row_1.png)
 

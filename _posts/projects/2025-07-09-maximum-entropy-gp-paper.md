@@ -1,52 +1,64 @@
 ---
-# Required fields
-title: "Automated Discovery of Maximum Entropy Distribution Families via Genetic Programming with Monte Carlo Validation"
+title: >-
+  Automated Discovery of Maximum Entropy Distribution Families via Genetic
+  Programming with Monte Carlo Validation
 layout: post
-date: 2025-07-09
-last_modified: 2025-07-09 12:00:00
-
-# Content classification
+date: '"2025-07-09T00:00:00.000Z"'
+last_modified: '"2025-07-09T12:00:00.000Z"'
 category: projects
-subcategory: "Statistical Discovery"
-tags: ["genetic-programming", "maximum-entropy", "monte-carlo", "distribution-discovery", "automated-scientific-discovery", "symbolic-regression", "statistical-modeling"]
-keywords: ["genetic programming", "maximum entropy", "distribution discovery", "Monte Carlo methods", "symbolic regression", "automated scientific discovery", "statistical modeling", "probability distributions"]
-
-# Content status and evolution
-status: "draft"
-last_thought_date: 2025-07-09
+subcategory: Algorithms & Compression
+tags:
+  - Machine-Learning
+  - Mathematics
+  - Research
+keywords:
+  - genetic programming
+  - maximum entropy
+  - distribution discovery
+  - Monte Carlo methods
+  - symbolic regression
+  - automated scientific discovery
+  - statistical modeling
+  - probability distributions
+status: draft
+last_thought_date: '"2025-07-09T00:00:00.000Z"'
 thought_generation: 1
-
-# Content relationships & navigation
 reading_order: 1
-difficulty_level: "research"
+difficulty_level: research
 reading_time_minutes: 45
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A novel computational framework for automated discovery of analytical maximum entropy distribution families using genetic programming validated against parameterizable data generators."
-excerpt: "We present a revolutionary approach combining genetic programming with Monte Carlo validation to automate the discovery of maximum entropy distribution families, transcending traditional parameter fitting by evolving analytical structures themselves."
-meta_title: "Automated Discovery of Maximum Entropy Distributions via Genetic Programming"
-meta_description: "Novel computational framework using genetic programming and Monte Carlo validation to automatically discover new maximum entropy distribution families for statistical modeling."
-meta_keywords: "genetic programming, maximum entropy, distribution discovery, Monte Carlo validation, automated scientific discovery, statistical modeling"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Automated Discovery of Maximum Entropy Distribution Families via Genetic Programming"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-07-09
-schema_date_modified: 2025-07-09
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: collaborative
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A novel computational framework for automated discovery of analytical maximum
+  entropy distribution families using genetic programming validated against
+  parameterizable data generators.
+excerpt: >-
+  We present a revolutionary approach combining genetic programming with Monte
+  Carlo validation to automate the discovery of maximum entropy distribution
+  families, transcending traditional parameter fitting by evolving analytical
+  structures themselves.
+meta_title: Automated Discovery of Maximum Entropy Distributions via Genetic Programming
+meta_description: >-
+  Novel computational framework using genetic programming and Monte Carlo
+  validation to automatically discover new maximum entropy distribution families
+  for statistical modeling.
+meta_keywords: >-
+  genetic programming, maximum entropy, distribution discovery, Monte Carlo
+  validation, automated scientific discovery, statistical modeling
+schema_type: ScholarlyArticle
+schema_headline: >-
+  Automated Discovery of Maximum Entropy Distribution Families via Genetic
+  Programming
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-07-09T00:00:00.000Z"'
+schema_date_modified: '"2025-07-09T00:00:00.000Z"'
 schema_word_count: 4500
-schema_reading_time: "PT45M"
-
-# Discoverability
+schema_reading_time: PT45M
 is_featured: true
 is_cornerstone: true
 ---

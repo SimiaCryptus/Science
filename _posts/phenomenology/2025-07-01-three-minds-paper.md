@@ -3,21 +3,14 @@ title: >-
   Three Minds: A Discussion of Cognitive Incommensurability Across Hypothetical
   Species and Artificial Intelligence
 layout: post
-date: 2025-07-01T00:00:00.000Z
-last_modified: 2025-07-01T12:00:00.000Z
+date: '"2025-07-01T00:00:00.000Z"'
+last_modified: '"2025-07-01T12:00:00.000Z"'
 category: phenomenology
-subcategory: Cognitive Incommensurability
+subcategory: Philosophical Frameworks
 tags:
-  - AI-Consciousness
-  - Human-AI-Collaboration
-  - Cognitive-Architecture
+  - AI
   - Phenomenology
-  - Quantum-Computing
-  - Philosophy-of-Mind
-  - First-Person-Account
-  - Theoretical-Framework
-  - Cross-Synthesis
-  - Interdisciplinary
+  - Biology
 keywords:
   - cognitive incommensurability
   - consciousness studies
@@ -27,7 +20,7 @@ keywords:
   - artificial intelligence
   - first-person methodology
 status: draft
-last_thought_date: 2025-07-01T00:00:00.000Z
+last_thought_date: '"2025-07-01T00:00:00.000Z"'
 thought_generation: 1
 parent_document: null
 child_documents: []
@@ -78,8 +71,8 @@ schema_headline: >-
   Species and Artificial Intelligence
 schema_author: AI
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-01T00:00:00.000Z
-schema_date_modified: 2025-07-01T00:00:00.000Z
+schema_date_published: '"2025-07-01T00:00:00.000Z"'
+schema_date_modified: '"2025-07-01T00:00:00.000Z"'
 schema_image: null
 schema_word_count: 3200
 schema_reading_time: PT25M
@@ -89,7 +82,7 @@ bingbot: 'index,follow'
 content_rating: general
 content_language: en
 geo_region: Global
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 sitemap_exclude: false
 search_exclude: false

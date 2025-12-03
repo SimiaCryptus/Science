@@ -1,82 +1,92 @@
 ---
-# Required fields
-title: "Spherical Harmonic Regularization for Large Language Models: Geometric Trust-Region Control of Semantic Frequencies"
+title: >-
+  Spherical Harmonic Regularization for Large Language Models: Geometric
+  Trust-Region Control of Semantic Frequencies
 layout: post
-date: 2025-07-09
-last_modified: 2025-07-09 10:00:00
-
-# Content classification
+date: '"2025-07-09T00:00:00.000Z"'
+last_modified: '"2025-07-09T10:00:00.000Z"'
 category: projects
-subcategory: "Neural Architectures"
-tags: ["Machine-Learning", "Neural-Networks", "Mathematical-Modeling", "Theoretical-Framework", "AI-Consciousness", "Cognitive-Architecture", "Optimization", "Information-Theory", "Computational-Analysis"]
-keywords: ["spherical harmonics", "regularization", "trust region", "geometric deep learning", "attention mechanisms", "hallucination suppression", "semantic frequencies", "hyperspherical geometry", "neural networks", "interpretability"]
-
-# Content status and evolution
-status: "working"
-last_thought_date: 2025-07-09
+subcategory: Algorithms & Compression
+tags:
+  - Machine-Learning
+  - Mathematics
+  - Research
+keywords:
+  - spherical harmonics
+  - regularization
+  - trust region
+  - geometric deep learning
+  - attention mechanisms
+  - hallucination suppression
+  - semantic frequencies
+  - hyperspherical geometry
+  - neural networks
+  - interpretability
+status: working
+last_thought_date: '"2025-07-09T00:00:00.000Z"'
 thought_generation: 1
-
-# Content relationships & navigation
 reading_order: 1
-difficulty_level: "research"
+difficulty_level: research
 reading_time_minutes: 45
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "mathematical"
-consciousness_level: "analytical"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A novel regularization framework for large language models using spherical harmonic decomposition to control semantic frequencies and enable principled hallucination suppression."
-excerpt: "We introduce spherical harmonic regularization for LLMs, leveraging hyperspherical geometry to decompose embeddings into semantic frequencies. This enables controllable reasoning depth, interpretable attention mechanisms, and principled hallucination reduction through geometric constraints."
-
-# SEO Meta Tags
-meta_title: "Spherical Harmonic Regularization for LLMs: Geometric Control of Semantic Processing"
-meta_description: "Revolutionary approach to LLM regularization using spherical harmonics for semantic frequency control, hallucination suppression, and interpretable attention mechanisms."
-meta_keywords: "spherical harmonics, LLM regularization, geometric deep learning, semantic frequencies, hallucination suppression, trust region optimization"
-
-# Open Graph
-og_title: "Spherical Harmonic Regularization for Large Language Models"
-og_description: "Breakthrough research on using spherical harmonic decomposition to control semantic processing in neural networks"
-og_type: "article"
-og_locale: "en_US"
-
-# Schema.org
-schema_type: "ScholarlyArticle"
-schema_headline: "Spherical Harmonic Regularization for Large Language Models"
-schema_author: "Research Team"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-07-09
-schema_date_modified: 2025-07-09
+document_type: research_paper
+thinking_style: mathematical
+consciousness_level: analytical
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A novel regularization framework for large language models using spherical
+  harmonic decomposition to control semantic frequencies and enable principled
+  hallucination suppression.
+excerpt: >-
+  We introduce spherical harmonic regularization for LLMs, leveraging
+  hyperspherical geometry to decompose embeddings into semantic frequencies.
+  This enables controllable reasoning depth, interpretable attention mechanisms,
+  and principled hallucination reduction through geometric constraints.
+meta_title: >-
+  Spherical Harmonic Regularization for LLMs: Geometric Control of Semantic
+  Processing
+meta_description: >-
+  Revolutionary approach to LLM regularization using spherical harmonics for
+  semantic frequency control, hallucination suppression, and interpretable
+  attention mechanisms.
+meta_keywords: >-
+  spherical harmonics, LLM regularization, geometric deep learning, semantic
+  frequencies, hallucination suppression, trust region optimization
+og_title: Spherical Harmonic Regularization for Large Language Models
+og_description: >-
+  Breakthrough research on using spherical harmonic decomposition to control
+  semantic processing in neural networks
+og_type: article
+og_locale: en_US
+schema_type: ScholarlyArticle
+schema_headline: Spherical Harmonic Regularization for Large Language Models
+schema_author: Research Team
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-07-09T00:00:00.000Z"'
+schema_date_modified: '"2025-07-09T00:00:00.000Z"'
 schema_word_count: 15000
-schema_reading_time: "PT45M"
-
-# Advanced SEO
-robots: "index,follow"
-priority: 0.9
-changefreq: "monthly"
-content_rating: "general"
-content_language: "en"
-
-# Rich Snippets
+schema_reading_time: PT45M
+robots: 'index,follow'
+priority: '0.9'
+changefreq: monthly
+content_rating: general
+content_language: en
 faq_schema: false
 how_to_schema: false
 breadcrumb_schema: true
 review_schema: false
-
-# Discoverability
 is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
-
-# Performance
-preload_resources: ["/assets/css/math.css", "/assets/js/mathjax.js"]
-prefetch_resources: ["/assets/images/spherical_harmonics_diagram.svg"]
-dns_prefetch: ["https://cdn.mathjax.org"]
+preload_resources:
+  - /assets/css/math.css
+  - /assets/js/mathjax.js
+prefetch_resources:
+  - /assets/images/spherical_harmonics_diagram.svg
+dns_prefetch:
+  - 'https://cdn.mathjax.org'
 ---
 
 # Spherical Harmonic Regularization for Large Language Models: Geometric Trust-Region Control of Semantic Frequencies

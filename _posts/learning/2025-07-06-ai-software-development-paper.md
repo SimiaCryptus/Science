@@ -3,18 +3,14 @@ title: >-
   The Transformation of Software Development: Navigating the AI Revolution in
   Software Productization
 layout: post
-date: 2025-07-06T00:00:00.000Z
-last_modified: 2025-07-06T10:00:00.000Z
+date: '"2025-07-06T00:00:00.000Z"'
+last_modified: '"2025-07-06T10:00:00.000Z"'
 category: learning
-subcategory: Applied AI Systems
+subcategory: Methodology & Education
 tags:
-  - AI-Consciousness
-  - Human-AI-Collaboration
-  - Machine-Learning
-  - Theoretical-Framework
-  - Industry-Applications
-  - Current-Research
-  - Research-Paper
+  - Software
+  - AI
+  - Research
 keywords:
   - AI software development
   - LLM
@@ -23,7 +19,7 @@ keywords:
   - development transformation
   - conscious evolution
 status: draft
-last_thought_date: 2025-07-06T00:00:00.000Z
+last_thought_date: '"2025-07-06T00:00:00.000Z"'
 thought_generation: 1
 parent_document: ../projects/2025-06-30-knots.md
 related_documents:
@@ -69,13 +65,13 @@ schema_type: ScholarlyArticle
 schema_headline: 'The Transformation of Software Development: Navigating the AI Revolution'
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-06T00:00:00.000Z
-schema_date_modified: 2025-07-06T00:00:00.000Z
+schema_date_published: '"2025-07-06T00:00:00.000Z"'
+schema_date_modified: '"2025-07-06T00:00:00.000Z"'
 schema_image: /assets/images/ai_software_transformation.png
 schema_word_count: 4200
 schema_reading_time: PT25M
 robots: 'index,follow'
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 sitemap_exclude: false
 search_exclude: false

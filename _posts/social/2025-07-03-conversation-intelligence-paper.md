@@ -3,19 +3,14 @@ title: >-
   Conversational Intelligence Calibration: Mutual Turing Tests as Distributed
   Cognitive Assessment
 layout: post
-date: 2025-07-03T00:00:00.000Z
-last_modified: 2025-07-03T12:00:00.000Z
+date: '"2025-07-03T00:00:00.000Z"'
+last_modified: '"2025-07-03T12:00:00.000Z"'
 category: social
-subcategory: Conversational Intelligence
+subcategory: AI-Human Sociology
 tags:
-  - Human-AI-Collaboration
-  - Cognitive-Architecture
-  - AI-Consciousness
-  - Theoretical-Framework
-  - Computational-Analysis
-  - Research-Paper
-  - Academic-Research
-  - Interdisciplinary
+  - AI
+  - Communication
+  - Research
 keywords:
   - conversational intelligence
   - mutual turing tests
@@ -24,7 +19,7 @@ keywords:
   - orthogonal thinking
   - collaborative intelligence
 status: draft
-last_thought_date: 2025-07-03T00:00:00.000Z
+last_thought_date: '"2025-07-03T00:00:00.000Z"'
 thought_generation: 1
 related_documents:
   - ./2025-07-03-cognitive-effort-paper.md
@@ -62,8 +57,8 @@ schema_headline: >-
   Cognitive Assessment
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-03T00:00:00.000Z
-schema_date_modified: 2025-07-03T00:00:00.000Z
+schema_date_published: '"2025-07-03T00:00:00.000Z"'
+schema_date_modified: '"2025-07-03T00:00:00.000Z"'
 schema_word_count: 8500
 schema_reading_time: PT45M
 is_featured: true

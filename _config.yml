@@ -160,11 +160,11 @@ jekyll-archives:
     year: year_archive
     month: month_archive
   permalinks:
-    category: '/category/:name/'
     tag: '/tag/:name/'
-    year: '/archive/:year/'
-    month: '/archive/:year/:month/'
-# Dynamic content settings
+    category: '/category/:name/'
+    year: '/year/:year/'
+    month: '/year/:year/:month/'
+ # Dynamic content settings
 dynamic_content:
   enable_relationship_tracking: true
   enable_evolution_tracking: true

@@ -1,104 +1,102 @@
 ---
-# Core Metadata
-title: "Whisker Diplomacy: The Treaty of Versailles"
-layout: "post"
-date: 2025-11-25
-last_modified: 2025-11-25 00:00:00
-
-# Content Classification
-category: "creative_writing"
-subcategory: "Educational Comic"
-tags: ["history", "world-war-i", "treaty-of-versailles", "diplomacy", "educational-comic", "creative-writing", "anthropomorphic-characters", "historical-fiction"]
-keywords: ["Treaty of Versailles", "World War I", "peace negotiations", "Clemenceau", "Wilson", "Lloyd George", "comic book", "educational", "history lesson"]
-
-# Content Status
-status: "stable"
-last_thought_date: 2025-11-25
+title: 'Whisker Diplomacy: The Treaty of Versailles'
+layout: post
+date: '"2025-11-25T00:00:00.000Z"'
+last_modified: '"2025-11-25T00:00:00.000Z"'
+category: creative_writing
+subcategory: Comics & Visual Narrative
+tags:
+  - Fiction
+  - History
+  - Education
+keywords:
+  - Treaty of Versailles
+  - World War I
+  - peace negotiations
+  - Clemenceau
+  - Wilson
+  - Lloyd George
+  - comic book
+  - educational
+  - history lesson
+status: stable
+last_thought_date: '"2025-11-25T00:00:00.000Z"'
 thought_generation: 1
-
-# Document Relationships & Navigation
 parent_document: null
 child_documents: []
 related_documents: []
 reading_order: null
-difficulty_level: "accessible"
+difficulty_level: accessible
 reading_time_minutes: 25
-
-# Content Characteristics
-document_type: "creative_work"
-thinking_style: "narrative"
-consciousness_level: "collaborative"
-engagement_type: "contemplative"
-reader_participation: "passive"
-cognitive_load: "moderate"
-
-# Discovery & SEO
-description: "An educational comic book featuring anthropomorphic kitten diplomats navigating the complex negotiations of the 1919 Treaty of Versailles. Learn about historical figures, key provisions, and lasting consequences through engaging storytelling."
-excerpt: "In 1919, four kitten diplomats gather at the Palace of Versailles to negotiate peace after World War I. Through their interactions, young readers discover the historical Treaty of Versailles, its provisions, and its profound impact on world history."
-featured_image: "../../assets/images/VERSAILLES/page_1_row_1.png"
-og_image: "/assets/images/VERSAILLES/page_1_row_1.png"
-
-# SEO Meta Tags
-meta_title: "Whisker Diplomacy: The Treaty of Versailles - Educational Comic Book"
-meta_description: "Explore the 1919 Treaty of Versailles through an engaging comic featuring kitten diplomats. Learn about Clemenceau, Wilson, Lloyd George, and the negotiations that shaped modern Europe."
-meta_keywords: "Treaty of Versailles, World War I, history comic, educational, diplomacy, peace negotiations, Clemenceau, Wilson, Lloyd George"
-
-# Open Graph (Social Media)
-og_title: "Whisker Diplomacy: The Treaty of Versailles"
-og_description: "An educational comic about the 1919 peace negotiations featuring anthropomorphic kitten diplomats"
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "CreativeWork"
-schema_headline: "Whisker Diplomacy: The Treaty of Versailles"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-11-25
-schema_date_modified: 2025-11-25
-schema_image: "/assets/images/VERSAILLES/page_1_row_1.png"
+document_type: creative_work
+thinking_style: narrative
+consciousness_level: collaborative
+engagement_type: contemplative
+reader_participation: passive
+cognitive_load: moderate
+description: >-
+  An educational comic book featuring anthropomorphic kitten diplomats
+  navigating the complex negotiations of the 1919 Treaty of Versailles. Learn
+  about historical figures, key provisions, and lasting consequences through
+  engaging storytelling.
+excerpt: >-
+  In 1919, four kitten diplomats gather at the Palace of Versailles to negotiate
+  peace after World War I. Through their interactions, young readers discover
+  the historical Treaty of Versailles, its provisions, and its profound impact
+  on world history.
+featured_image: ../../assets/images/VERSAILLES/page_1_row_1.png
+og_image: /assets/images/VERSAILLES/page_1_row_1.png
+meta_title: 'Whisker Diplomacy: The Treaty of Versailles - Educational Comic Book'
+meta_description: >-
+  Explore the 1919 Treaty of Versailles through an engaging comic featuring
+  kitten diplomats. Learn about Clemenceau, Wilson, Lloyd George, and the
+  negotiations that shaped modern Europe.
+meta_keywords: >-
+  Treaty of Versailles, World War I, history comic, educational, diplomacy,
+  peace negotiations, Clemenceau, Wilson, Lloyd George
+og_title: 'Whisker Diplomacy: The Treaty of Versailles'
+og_description: >-
+  An educational comic about the 1919 peace negotiations featuring
+  anthropomorphic kitten diplomats
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: CreativeWork
+schema_headline: 'Whisker Diplomacy: The Treaty of Versailles'
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-11-25T00:00:00.000Z"'
+schema_date_modified: '"2025-11-25T00:00:00.000Z"'
+schema_image: /assets/images/VERSAILLES/page_1_row_1.png
 schema_word_count: 8500
-schema_reading_time: "PT25M"
-
-# Advanced SEO
-canonical_url: "https://fractalthoughtengine.com/posts/creative_writing/2025-11-25-versailles"
-robots: "index,follow"
-googlebot: "index,follow"
-bingbot: "index,follow"
-
-# Content Classification for Search
-content_rating: "general"
-content_language: "en"
-geo_region: "Global"
-geo_placename: "Palace of Versailles, France"
-
-# Indexing Control
-priority: 0.8
-changefreq: "monthly"
+schema_reading_time: PT25M
+canonical_url: 'https://fractalthoughtengine.com/posts/creative_writing/2025-11-25-versailles'
+robots: 'index,follow'
+googlebot: 'index,follow'
+bingbot: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
+geo_placename: 'Palace of Versailles, France'
+priority: '0.8'
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-
-# Rich Snippets Enhancement
 faq_schema: true
 how_to_schema: false
 breadcrumb_schema: true
 review_schema: false
-
-# Discoverability
 is_featured: true
 is_cornerstone: false
 is_gateway: true
 is_synthesis: true
-
-# Additional Metadata
-format: "comic_book"
+format: comic_book
 page_count: 6
 panel_count: 54
 character_count: 5
-historical_period: "1919"
-historical_event: "Treaty of Versailles"
-educational_level: "middle_school_to_adult"
+historical_period: 1919
+historical_event: Treaty of Versailles
+educational_level: middle_school_to_adult
 ---
 
 

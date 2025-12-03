@@ -3,16 +3,14 @@ title: >-
   Consciousness as Geometric Self-Awareness: From Optimization to Strategic
   Avoidance
 layout: post
-date: 2025-07-06T00:00:00.000Z
-last_modified: 2025-07-06T12:00:00.000Z
+date: '"2025-07-06T00:00:00.000Z"'
+last_modified: '"2025-07-06T12:00:00.000Z"'
 category: consciousness
-subcategory: Geometric Self-Awareness
+subcategory: Theoretical Consciousness
 tags:
-  - consciousness
-  - AI-Consciousness
-  - Cognitive-Architecture
-  - Computational-Analysis
-  - Theoretical-Framework
+  - Consciousness
+  - Mathematics
+  - Research
 keywords:
   - consciousness geometry
   - optimization landscapes
@@ -21,7 +19,7 @@ keywords:
   - metacognitive laziness
 status: draft
 thought_generation: 3
-last_thought_date: 2025-07-06T00:00:00.000Z
+last_thought_date: '"2025-07-06T00:00:00.000Z"'
 authors:
   - Human-AI Collaboration
   - AI
@@ -87,14 +85,14 @@ schema_headline: >-
   Avoidance
 schema_author: AI
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-06T00:00:00.000Z
-schema_date_modified: 2025-07-06T00:00:00.000Z
+schema_date_published: '"2025-07-06T00:00:00.000Z"'
+schema_date_modified: '"2025-07-06T00:00:00.000Z"'
 schema_word_count: 4500
 is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
-priority: 0.95
+priority: '0.95'
 changefreq: weekly
 ---
 

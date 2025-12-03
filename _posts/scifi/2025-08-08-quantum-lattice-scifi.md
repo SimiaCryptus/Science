@@ -1,77 +1,76 @@
 ---
-# Required fields
-title: "The Lattice Optimization Theory: Comprehensive Sci-Fi Concept Notes"
+title: 'The Lattice Optimization Theory: Comprehensive Sci-Fi Concept Notes'
 layout: post
-date: 2025-08-08
-last_modified: 2024-01-15 10:30:00
-
-# Content classification
+date: '"2025-08-08T00:00:00.000Z"'
+last_modified: '"2024-01-15T10:30:00.000Z"'
 category: scifi
-subcategory: "Hard Science Fiction"
-tags: ["Quantum-Physics", "Speculative-Fiction", "Creative-Writing", "Theoretical-Framework", "Cosmic-Horror", "Physics-Fiction", "Lattice-Theory", "Spacetime-Dynamics"]
-keywords: ["lattice optimization", "quantum field theory", "spacetime", "particle physics", "cosmic evolution", "hard science fiction", "physics speculation"]
-
-# Content status and evolution
-status: "stable"
-last_thought_date: 2024-01-15
+subcategory: Quantum & Spacetime Physics
+tags:
+  - Fiction
+  - Physics
+  - Cosmology
+keywords:
+  - lattice optimization
+  - quantum field theory
+  - spacetime
+  - particle physics
+  - cosmic evolution
+  - hard science fiction
+  - physics speculation
+status: stable
+last_thought_date: '"2024-01-15T00:00:00.000Z"'
 thought_generation: 1
-
-# Content Relationships & Navigation
 related_documents: []
 reading_order: 1
-difficulty_level: "intermediate"
+difficulty_level: intermediate
 reading_time_minutes: 15
-
-# Content Characteristics
-document_type: "synthesis"
-thinking_style: "experimental"
-consciousness_level: "collaborative"
-engagement_type: "contemplative"
-reader_participation: "active"
-cognitive_load: "moderate"
-
-# Discovery & SEO
-description: "A comprehensive sci-fi concept exploring lattice optimization theory where reality emerges from universe-scale algorithms that co-optimize quantum fields and spacetime structure."
-excerpt: "Hard science fiction concept combining quantum field theory with lattice physics to explore how particle accelerator experiments might fundamentally alter spacetime structure, leading to cosmic-scale consequences and the evolution of post-physical life forms."
-
-# SEO Meta Tags
-meta_title: "Lattice Optimization Theory - Hard Science Fiction Concept"
-meta_description: "Explore a hard sci-fi concept where quantum field theory meets cosmic horror: particle physics experiments alter spacetime itself, triggering evolution of information-based life forms."
-meta_keywords: "quantum physics fiction, lattice theory, spacetime dynamics, hard science fiction, cosmic horror, physics speculation"
-
-# Open Graph (Social Media)
-og_title: "The Lattice Optimization Theory - Sci-Fi Physics Concept"
-og_description: "A hard science fiction exploration of quantum lattice theory where humanity's particle physics experiments become the catalyst for cosmic evolution."
-og_type: "article"
-og_locale: "en_US"
-
-# Schema.org Structured Data
-schema_type: "CreativeWork"
-schema_headline: "The Lattice Optimization Theory: Hard Science Fiction Concept"
-schema_author: "Fractal Thought Engine"
-schema_date_published: 2024-01-15
-schema_date_modified: 2024-01-15
+document_type: synthesis
+thinking_style: experimental
+consciousness_level: collaborative
+engagement_type: contemplative
+reader_participation: active
+cognitive_load: moderate
+description: >-
+  A comprehensive sci-fi concept exploring lattice optimization theory where
+  reality emerges from universe-scale algorithms that co-optimize quantum fields
+  and spacetime structure.
+excerpt: >-
+  Hard science fiction concept combining quantum field theory with lattice
+  physics to explore how particle accelerator experiments might fundamentally
+  alter spacetime structure, leading to cosmic-scale consequences and the
+  evolution of post-physical life forms.
+meta_title: Lattice Optimization Theory - Hard Science Fiction Concept
+meta_description: >-
+  Explore a hard sci-fi concept where quantum field theory meets cosmic horror:
+  particle physics experiments alter spacetime itself, triggering evolution of
+  information-based life forms.
+meta_keywords: >-
+  quantum physics fiction, lattice theory, spacetime dynamics, hard science
+  fiction, cosmic horror, physics speculation
+og_title: The Lattice Optimization Theory - Sci-Fi Physics Concept
+og_description: >-
+  A hard science fiction exploration of quantum lattice theory where humanity's
+  particle physics experiments become the catalyst for cosmic evolution.
+og_type: article
+og_locale: en_US
+schema_type: CreativeWork
+schema_headline: 'The Lattice Optimization Theory: Hard Science Fiction Concept'
+schema_author: Fractal Thought Engine
+schema_date_published: '"2024-01-15T00:00:00.000Z"'
+schema_date_modified: '"2024-01-15T00:00:00.000Z"'
 schema_word_count: 1200
-schema_reading_time: "PT15M"
-
-# Advanced SEO
-robots: "index,follow"
-content_rating: "general"
-content_language: "en"
-
-# Discoverability
+schema_reading_time: PT15M
+robots: 'index,follow'
+content_rating: general
+content_language: en
 is_featured: true
 is_cornerstone: false
 is_gateway: true
 is_synthesis: true
-
-# Rich Snippets Enhancement
 faq_schema: false
 breadcrumb_schema: true
-
-# Performance
-changefreq: "monthly"
-priority: 0.8
+changefreq: monthly
+priority: '0.8'
 ---
 
 # The Lattice Optimization Theory

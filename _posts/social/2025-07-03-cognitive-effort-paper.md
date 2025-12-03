@@ -1,17 +1,14 @@
 ---
 title: 'The Game Theory of Cognitive Effort: Technology, Time, and Social Outcomes'
 layout: post
-date: 2025-07-03T00:00:00.000Z
-last_modified: 2025-07-03T12:00:00.000Z
+date: '"2025-07-03T00:00:00.000Z"'
+last_modified: '"2025-07-03T12:00:00.000Z"'
 category: social
-subcategory: Game Theory
+subcategory: Social Game Theory & Protocols
 tags:
-  - game-theory
-  - cognitive-science
-  - technology
-  - social-systems
-  - optimization
-  - human-ai-collaboration
+  - Psychology
+  - Game-Theory
+  - Research
 keywords:
   - cognitive effort
   - game theory
@@ -20,7 +17,7 @@ keywords:
   - social welfare
   - cognitive capital
 status: stable
-last_thought_date: 2025-07-03T00:00:00.000Z
+last_thought_date: '"2025-07-03T00:00:00.000Z"'
 thought_generation: 1
 document_type: research_paper
 thinking_style: analytical
@@ -45,7 +42,7 @@ meta_description: >-
 schema_type: ScholarlyArticle
 schema_headline: 'The Game Theory of Cognitive Effort: Technology, Time, and Social Outcomes'
 schema_author: Fractal Thought Engine
-schema_date_published: 2025-07-03T00:00:00.000Z
+schema_date_published: '"2025-07-03T00:00:00.000Z"'
 schema_word_count: 2500
 schema_reading_time: PT25M
 is_featured: true

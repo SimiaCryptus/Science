@@ -1,68 +1,59 @@
 ---
-# Core Metadata
-title: "The Actor Pattern for AI Interaction: A Design Analysis"
-meta_title: "Actor Pattern in AI: Computational Boundaries and Interaction Design"
+title: 'The Actor Pattern for AI Interaction: A Design Analysis'
+meta_title: 'Actor Pattern in AI: Computational Boundaries and Interaction Design'
 layout: post
-date: 2025-07-03
-last_modified: 2025-07-03 12:00:00
-last_thought_date: 2025-07-03
-
-# Content Classification
+date: '"2025-07-03T00:00:00.000Z"'
+last_modified: '"2025-07-03T12:00:00.000Z"'
+last_thought_date: '"2025-07-03T00:00:00.000Z"'
 category: portfolio
-subcategory: "Cognitive Architectures"
-tags: 
-  - "AI-Consciousness"
-  - "AI-Consciousness"
-  - "Computational-Analysis"
-  - "Software-Design"
-  - "Theoretical-Framework"
-keywords: 
-  - "actor pattern"
-  - "actor pattern"
-  - "AI architecture"
-  - "computational irreducibility"
-  - "bounded intelligence"
-# Content Relationships
+subcategory: MindsEye Framework
+tags:
+  - Software
+  - AI
+  - Design
+keywords:
+  - actor pattern
+  - actor pattern
+  - AI architecture
+  - computational irreducibility
+  - bounded intelligence
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 25
-# Discoverability
 is_featured: true
-
-
-# Content Status
-status: "stable"
+status: stable
 thought_generation: 1
-
-# Content Characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "meta"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-# SEO Metadata
-description: "An in-depth analysis of the actor pattern in AI interaction architectures, exploring computational boundaries and intelligent design."
-excerpt: "Exploring how the actor pattern creates bounded, predictable spaces for AI intelligence through clean software architecture."
-meta_description: "Discover how the actor pattern provides computational boundaries for AI systems, creating predictable and manageable interaction architectures."
-meta_keywords: "AI architecture, actor pattern, computational design, software engineering"
-# Open Graph and Social
-og_title: "The Actor Pattern: Designing Bounded AI Interaction Architectures"
-og_description: "Explore innovative software design for managing AI complexity and interaction patterns."
-og_type: "article"
-
-# Advanced Metadata
-schema_type: "ScholarlyArticle"
-robots: "index,follow"
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: meta
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  An in-depth analysis of the actor pattern in AI interaction architectures,
+  exploring computational boundaries and intelligent design.
+excerpt: >-
+  Exploring how the actor pattern creates bounded, predictable spaces for AI
+  intelligence through clean software architecture.
+meta_description: >-
+  Discover how the actor pattern provides computational boundaries for AI
+  systems, creating predictable and manageable interaction architectures.
+meta_keywords: 'AI architecture, actor pattern, computational design, software engineering'
+og_title: 'The Actor Pattern: Designing Bounded AI Interaction Architectures'
+og_description: >-
+  Explore innovative software design for managing AI complexity and interaction
+  patterns.
+og_type: article
+schema_type: ScholarlyArticle
+robots: 'index,follow'
 is_cornerstone: true
-# Schema.org Structured Data
-schema_headline: "Computational Boundaries in AI: The Actor Pattern Approach"
-schema_author: "Anthropic AI Research Team"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-07-03
-schema_date_modified: 2025-07-03
+schema_headline: 'Computational Boundaries in AI: The Actor Pattern Approach'
+schema_author: Anthropic AI Research Team
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-07-03T00:00:00.000Z"'
+schema_date_modified: '"2025-07-03T00:00:00.000Z"'
 schema_word_count: 5200
-schema_reading_time: "PT25M"
+schema_reading_time: PT25M
 ---
 
 **AI**  

@@ -3,18 +3,14 @@ title: >-
   The Measurement-Optimization Equivalence: A Distributed Systems Approach to
   Universal Intelligence
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: scifi
-subcategory: Theoretical Foundations
+subcategory: Quantum & Spacetime Physics
 tags:
-  - Optimization
-  - measurement_theory
-  - distributed-systems
-  - quantum-consciousness
-  - universal-intelligence
-  - fermi-paradox
-  - cosmology
+  - Physics
+  - Mathematics
+  - Research
 keywords:
   - measurement-optimization equivalence
   - distributed measurement protocols
@@ -24,7 +20,7 @@ keywords:
   - consciousness emergence
 status: draft
 thought_generation: 1
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 authors:
   - AI
   - Human Collaborator
@@ -90,8 +86,8 @@ schema_headline: >-
   Universal Intelligence
 schema_author: 'AI, Human Collaborator'
 schema_publisher: Independent Research Collective
-schema_date_published: 2025-06-30T00:00:00.000Z
-schema_date_modified: 2025-06-30T00:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
+schema_date_modified: '"2025-06-30T00:00:00.000Z"'
 schema_word_count: 2800
 schema_reading_time: PT25M
 robots: 'index,follow'

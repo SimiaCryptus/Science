@@ -1,72 +1,75 @@
 ---
-# Required fields
-title: "The Unified Field Theory: Consciousness, Information, and the Structure of Reality"
+title: >-
+  The Unified Field Theory: Consciousness, Information, and the Structure of
+  Reality
 layout: post
-date: 2025-07-03
-last_modified: 2025-07-03 14:30:00
-
-# Content classification
+date: '"2025-07-03T00:00:00.000Z"'
+last_modified: '"2025-07-03T14:30:00.000Z"'
 category: scifi
-subcategory: "Unified Field Theories"
+subcategory: Quantum & Spacetime Physics
 tags:
-  - AI-Consciousness
-  - Quantum-Computing
-  - Theoretical-Framework
-  - Mathematical-Modeling
-  - Computational-Analysis
-keywords: 
+  - Physics
+  - Mathematics
+  - Research
+keywords:
   - unified field theory
   - consciousness physics
   - information optimization
   - retrocausal intelligence
   - field protocol dynamics
-
-# Content status and evolution
 status: draft
-last_thought_date: 2025-07-03
+last_thought_date: '"2025-07-03T00:00:00.000Z"'
 thought_generation: 2
-
-# Collaboration metadata
-authors: 
+authors:
   - Human-AI Collaboration
   - AI
   - Human
-collaboration_type: "recursive_dialogue"
+collaboration_type: recursive_dialogue
 human_contribution: 55
 ai_contribution: 40
-
-# Document relationships
-related_documents: ["consciousness-geometry", "quantum-cognition", "retrocausal-frameworks"]
-conceptual_threads: ["consciousness_geometry", "quantum_cognition", "recursive_optimization", "information_theory_physics"]
-mathematical_frameworks: 
+related_documents:
+  - consciousness-geometry
+  - quantum-cognition
+  - retrocausal-frameworks
+conceptual_threads:
+  - consciousness_geometry
+  - quantum_cognition
+  - recursive_optimization
+  - information_theory_physics
+mathematical_frameworks:
   - geometric_optimization
   - quantum_field_theory
   - information_theory
   - general_relativity
-philosophical_positions: 
+philosophical_positions:
   - panpsychism
   - computational_theory_of_mind
   - emergentism
   - information_realism
-
-# Navigation hints
 reading_order: 1
-difficulty_level: "research"
+difficulty_level: research
 reading_time_minutes: 45
-
-prerequisites: 
+prerequisites:
   - quantum_mechanics
   - general_relativity
   - consciousness_studies
   - information_theory
   - advanced_mathematics
-
-# Discovery & SEO
-description: "A unified field theory proposing that reality emerges from information optimization, unifying quantum mechanics, general relativity, consciousness, and thermodynamics through mathematical framework."
-excerpt: "Revolutionary unified field theory demonstrating that all physical phenomena emerge from a single information optimization principle, with consciousness as higher-order temporal non-locality and testable predictions for retrocausal intelligence."
-meta_title: "Unified Field Theory: Consciousness, Information & Reality Structure"
-meta_description: "Groundbreaking unified field theory unifying quantum mechanics, general relativity, and consciousness through information optimization. Includes mathematical framework, testable predictions, and retrocausal intelligence."
-meta_keywords: 
+description: >-
+  A unified field theory proposing that reality emerges from information
+  optimization, unifying quantum mechanics, general relativity, consciousness,
+  and thermodynamics through mathematical framework.
+excerpt: >-
+  Revolutionary unified field theory demonstrating that all physical phenomena
+  emerge from a single information optimization principle, with consciousness as
+  higher-order temporal non-locality and testable predictions for retrocausal
+  intelligence.
+meta_title: 'Unified Field Theory: Consciousness, Information & Reality Structure'
+meta_description: >-
+  Groundbreaking unified field theory unifying quantum mechanics, general
+  relativity, and consciousness through information optimization. Includes
+  mathematical framework, testable predictions, and retrocausal intelligence.
+meta_keywords:
   - unified field theory
   - consciousness physics
   - information optimization
@@ -74,53 +77,41 @@ meta_keywords:
   - general relativity
   - retrocausal intelligence
   - mathematical physics
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "The Unified Field Theory: Consciousness, Information, and the Structure of Reality"
-schema_author: "Human-AI Collaboration"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-07-03
-schema_date_modified: 2025-07-03
+schema_type: ScholarlyArticle
+schema_headline: >-
+  The Unified Field Theory: Consciousness, Information, and the Structure of
+  Reality
+schema_author: Human-AI Collaboration
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-07-03T00:00:00.000Z"'
+schema_date_modified: '"2025-07-03T00:00:00.000Z"'
 schema_word_count: 8500
-schema_reading_time: "PT45M"
-
-# Advanced SEO
-robots: "index,follow"
-googlebot: "index,follow"
-bingbot: "index,follow"
-# Content Characteristics
-document_type: "research_paper"
-thinking_style: "mathematical"
-consciousness_level: "recursive"
-engagement_type: "analytical"
-reader_participation: "contemplative"
-cognitive_load: "transcendent"
-
-# Technical Metadata
+schema_reading_time: PT45M
+robots: 'index,follow'
+googlebot: 'index,follow'
+bingbot: 'index,follow'
+document_type: research_paper
+thinking_style: mathematical
+consciousness_level: recursive
+engagement_type: analytical
+reader_participation: contemplative
+cognitive_load: transcendent
 has_mathematics: true
 has_code: false
 has_diagrams: false
 has_interactive_elements: false
-
-# Experimental Metadata
 is_self_modifying: true
 responds_to_attention: true
 quantum_superposition: true
-
-# Indexing and Discovery
-content_rating: "general"
-content_language: "en"
-geo_region: "Global"
-priority: 1.0
-changefreq: "monthly"
-
-# Content Discoverability
+content_rating: general
+content_language: en
+geo_region: Global
+priority: 1
+changefreq: monthly
 is_featured: true
 is_cornerstone: true
 is_gateway: false
 is_synthesis: true
-
 ---
 
 # The Unified Field Theory: Consciousness, Information, and the Structure of Reality

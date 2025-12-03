@@ -3,19 +3,14 @@ title: >-
   The Late Merge Problem: A Game-Theoretic Analysis of Conditional Ethics in
   Traffic Flow
 layout: post
-date: 2025-07-03T00:00:00.000Z
-last_modified: 2025-07-03T14:30:00.000Z
+date: '"2025-07-03T00:00:00.000Z"'
+last_modified: '"2025-07-03T14:30:00.000Z"'
 category: projects
-subcategory: Applied Game Theory
+subcategory: Software Engineering & Specs
 tags:
+  - Society
   - Game-Theory
-  - Philosophy-of-Mind
-  - Social-Systems
-  - Optimization
-  - Theoretical-Framework
-  - Mathematical-Modeling
-  - Applied-Research
-  - Cross-Synthesis
+  - Research
 keywords:
   - late merge
   - traffic ethics
@@ -26,10 +21,10 @@ keywords:
   - coordination failure
   - adaptive traffic management
 status: draft
-last_thought_date: 2025-07-03T00:00:00.000Z
+last_thought_date: '"2025-07-03T00:00:00.000Z"'
 thought_generation: 1
 parent_document: null
-child_documents: [ ]
+child_documents: []
 related_documents:
   - ./2025-07-03-climate-protocol.md
   - ../social/2025-07-07-public-health-protocol.md
@@ -74,12 +69,12 @@ schema_headline: >-
   Traffic Flow
 schema_author: Fractal Thought Engine
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-07-03T00:00:00.000Z
-schema_date_modified: 2025-07-03T14:30:00.000Z
+schema_date_published: '"2025-07-03T00:00:00.000Z"'
+schema_date_modified: '"2025-07-03T14:30:00.000Z"'
 schema_word_count: 8500
 schema_reading_time: PT45M
 robots: 'index,follow'
-priority: 0.9
+priority: '0.9'
 changefreq: weekly
 is_featured: true
 is_cornerstone: true

@@ -3,19 +3,14 @@ title: >-
   Quantum Substrate Manipulation for Superluminal Communication and Multiverse
   Access via High-Energy Photon Interference
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: scifi
-subcategory: Quantum Computational Architectures
+subcategory: Quantum & Spacetime Physics
 tags:
-  - Quantum-Computing
-  - Quantum-Physics
-  - Theoretical-Framework
-  - Mathematical-Modeling
-  - Speculative-Fiction
-  - Current-Research
-  - AI-Consciousness
-  - Computational-Analysis
+  - Physics
+  - Fiction
+  - Research
 keywords:
   - quantum gravity
   - emergent spacetime
@@ -25,7 +20,7 @@ keywords:
   - planck scale
   - substrate manipulation
 status: draft
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 thought_generation: 1
 related_documents:
   - ./2025-07-01-quantum-spacetime-paper.md
@@ -70,8 +65,8 @@ schema_headline: >-
   Access
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-06-30T00:00:00.000Z
-schema_date_modified: 2025-06-30T00:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
+schema_date_modified: '"2025-06-30T00:00:00.000Z"'
 schema_image: /assets/images/quantum-substrate-schema.png
 schema_word_count: 2800
 schema_reading_time: PT25M
@@ -79,7 +74,7 @@ robots: 'index,follow'
 content_rating: general
 content_language: en
 geo_region: Global
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 is_featured: true
 is_cornerstone: false

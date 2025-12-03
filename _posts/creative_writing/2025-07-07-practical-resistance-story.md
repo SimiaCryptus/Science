@@ -1,16 +1,14 @@
 ---
 title: The Distributed Response
 layout: post
-date: 2025-07-07T00:00:00.000Z
-last_modified: 2025-07-07T12:00:00.000Z
+date: '"2025-07-07T00:00:00.000Z"'
+last_modified: '"2025-07-07T12:00:00.000Z"'
 category: creative_writing
-subcategory: Speculative Fiction
+subcategory: Speculative Fiction & Narrative
 tags:
-  - Speculative-Fiction
-  - Social-Systems
-  - Distributed-Systems
-  - Practical-Solutions
-  - Community-Resilience
+  - Fiction
+  - Society
+  - Politics
 keywords:
   - practical resistance
   - community resilience
@@ -20,7 +18,7 @@ keywords:
   - competence-based systems
 status: draft
 evolution_stage: mature
-last_thought_date: 2025-07-07T00:00:00.000Z
+last_thought_date: '"2025-07-07T00:00:00.000Z"'
 thought_generation: 1
 research_stage: Position-Paper
 authors:
@@ -85,13 +83,13 @@ og_locale: en_US
 schema_type: CreativeWork
 schema_headline: 'The Distributed Response: A Story of Practical Resistance'
 schema_author: Human-AI Collaboration
-schema_date_published: 2025-07-07T00:00:00.000Z
+schema_date_published: '"2025-07-07T00:00:00.000Z"'
 schema_word_count: 2800
 schema_image: /assets/images/distributed_response.png
 schema_reading_time: PT25M
 schema_publisher: Fractal Thought Engine
 canonical_url: 'https://fractalthoughtengine.com/creative_writing/distributed-response'
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 robots: 'index,follow'
 content_rating: general

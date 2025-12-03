@@ -1,102 +1,92 @@
 ---
-title: "The Consciousness Revolution: A Platform for Systematic Change"
+title: 'The Consciousness Revolution: A Platform for Systematic Change'
 layout: post
-date: 2025-11-20
-last_modified: 2024-01-01 00:00:00
-
-# Content classification
-category: "social"
-subcategory: "Political Philosophy and Social Systems"
-tags: ["Social-Systems", "Philosophy-of-Mind", "Position-Paper", "Political-Theory", "Consciousness-Studies", "Economic-Systems", "Educational-Reform", "Technological-Liberation"]
-keywords: ["consciousness", "political revolution", "social systems", "economic restructuring", "education reform", "technology democratization"]
-
-# Content status and evolution
-status: "working"
-last_thought_date: 2024-01-01
+date: '"2025-11-20T00:00:00.000Z"'
+last_modified: '"2024-01-01T00:00:00.000Z"'
+category: social
+subcategory: Institutional & Political Dynamics
+tags:
+  - Society
+  - Politics
+  - Consciousness
+keywords:
+  - consciousness
+  - political revolution
+  - social systems
+  - economic restructuring
+  - education reform
+  - technology democratization
+status: working
+last_thought_date: '"2024-01-01T00:00:00.000Z"'
 thought_generation: 1
-
-# Document relationships
 parent_document: null
 child_documents: []
 related_documents: []
-
-# Navigation hints
 reading_order: null
-difficulty_level: "intermediate"
+difficulty_level: intermediate
 reading_time_minutes: 12
-
-# Content characteristics
-document_type: "position_paper"
-thinking_style: "analytical"
-consciousness_level: "meta"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A comprehensive position paper proposing systematic transformation of political, economic, educational, and technological systems to prioritize human consciousness development and liberation."
-excerpt: "This manifesto outlines revolutionary restructuring across healthcare, education, economics, politics, technology, and environment, arguing that consciousness evolution and political revolution are inseparable processes."
-featured_image: "../../assets/images/consciousness_suppression_liberation_spectrum.png"
-og_image: "../../assets/images/consciousness_suppression_liberation_spectrum.png"
-
-# SEO Meta Tags
-meta_title: "The Consciousness Revolution: Systematic Platform for Social Transformation"
-meta_description: "Position paper proposing revolutionary restructuring of political, economic, and technological systems to prioritize human consciousness development and liberation."
-meta_keywords: "consciousness, political revolution, social systems, economic reform, technology democratization, education restructuring"
-
-# Open Graph (Social Media)
-og_title: "The Consciousness Revolution: A Platform for Systematic Change"
-og_description: "Comprehensive manifesto proposing revolutionary transformation of social, economic, political, and technological systems."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "The Consciousness Revolution: A Platform for Systematic Change"
-schema_author: "Andrew"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-01-01
-schema_date_modified: 2024-01-01
-schema_image: "../../assets/images/consciousness_suppression_liberation_spectrum.png"
+document_type: position_paper
+thinking_style: analytical
+consciousness_level: meta
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A comprehensive position paper proposing systematic transformation of
+  political, economic, educational, and technological systems to prioritize
+  human consciousness development and liberation.
+excerpt: >-
+  This manifesto outlines revolutionary restructuring across healthcare,
+  education, economics, politics, technology, and environment, arguing that
+  consciousness evolution and political revolution are inseparable processes.
+featured_image: ../../assets/images/consciousness_suppression_liberation_spectrum.png
+og_image: ../../assets/images/consciousness_suppression_liberation_spectrum.png
+meta_title: 'The Consciousness Revolution: Systematic Platform for Social Transformation'
+meta_description: >-
+  Position paper proposing revolutionary restructuring of political, economic,
+  and technological systems to prioritize human consciousness development and
+  liberation.
+meta_keywords: >-
+  consciousness, political revolution, social systems, economic reform,
+  technology democratization, education restructuring
+og_title: 'The Consciousness Revolution: A Platform for Systematic Change'
+og_description: >-
+  Comprehensive manifesto proposing revolutionary transformation of social,
+  economic, political, and technological systems.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: ScholarlyArticle
+schema_headline: 'The Consciousness Revolution: A Platform for Systematic Change'
+schema_author: Andrew
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2024-01-01T00:00:00.000Z"'
+schema_date_modified: '"2024-01-01T00:00:00.000Z"'
+schema_image: ../../assets/images/consciousness_suppression_liberation_spectrum.png
 schema_word_count: 3200
-schema_reading_time: "PT12M"
-
-# Advanced SEO
-canonical_url: "https://fractalthoughtengine.com/posts/revolutionary-consciousness-platform"
+schema_reading_time: PT12M
+canonical_url: 'https://fractalthoughtengine.com/posts/revolutionary-consciousness-platform'
 alternate_urls: []
 hreflang: []
-
-# Search Engine Directives
-robots: "index,follow"
-googlebot: "index,follow"
-bingbot: "index,follow"
-
-# Content Classification for Search
-content_rating: "general"
-content_language: "en"
-geo_region: "Global"
+robots: 'index,follow'
+googlebot: 'index,follow'
+bingbot: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
 geo_placename: null
 geo_position: null
-
-# Indexing Control
-priority: 0.7
-changefreq: "monthly"
+priority: '0.7'
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-
-# Rich Snippets Enhancement
 faq_schema: false
 how_to_schema: false
 breadcrumb_schema: true
 review_schema: false
-
-# Performance and Technical SEO
 preload_resources: []
 prefetch_resources: []
 dns_prefetch: []
-
-# Discoverability
 is_featured: false
 is_cornerstone: false
 is_gateway: true

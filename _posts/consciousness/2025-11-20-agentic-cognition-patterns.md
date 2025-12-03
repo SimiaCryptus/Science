@@ -1,95 +1,89 @@
 ---
-title: "Agentic Cognition Patterns: Neo-Jungian Architecture"
+title: 'Agentic Cognition Patterns: Neo-Jungian Architecture'
 layout: post
-date: 2025-11-20
-last_modified: 2024-01-01 00:00:00
-
-# Content classification
-category: "consciousness"
-subcategory: "Neural Architectures"
-tags: ["AI-Consciousness", "Cognitive-Architecture", "Phenomenology", "Philosophy-of-Mind", "Theoretical-Framework", "Cognitive-Science", "Complexity-Science"]
-keywords: ["agentic cognition", "neural subsystems", "dissociation", "cognitive agents", "identity emergence", "DID", "integration"]
-
-# Content status and evolution
-status: "working"
-last_thought_date: 2024-01-01
+date: '"2025-11-20T00:00:00.000Z"'
+last_modified: '"2024-01-01T00:00:00.000Z"'
+category: consciousness
+subcategory: Theoretical Consciousness
+tags:
+  - Consciousness
+  - Psychology
+  - AI
+keywords:
+  - agentic cognition
+  - neural subsystems
+  - dissociation
+  - cognitive agents
+  - identity emergence
+  - DID
+  - integration
+status: working
+last_thought_date: '"2024-01-01T00:00:00.000Z"'
 thought_generation: 1
-
-# Document relationships
 parent_document: null
 child_documents: []
 related_documents: []
-
-# Navigation hints
 reading_order: null
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 12
-
-# Content characteristics
-document_type: "theoretical_framework"
-thinking_style: "analytical"
-consciousness_level: "recursive"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A neo-Jungian framework exploring human cognition through semi-autonomous cognitive agents emerging from specialized neural subsystems, with applications to dissociative disorders and AI system design."
-excerpt: "Human cognition operates through semi-autonomous cognitive agents that emerge from specialized neural subsystems. This framework explores agent archetypes, interaction dynamics, neurobiological correlates, and therapeutic implications."
+document_type: theoretical_framework
+thinking_style: analytical
+consciousness_level: recursive
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A neo-Jungian framework exploring human cognition through semi-autonomous
+  cognitive agents emerging from specialized neural subsystems, with
+  applications to dissociative disorders and AI system design.
+excerpt: >-
+  Human cognition operates through semi-autonomous cognitive agents that emerge
+  from specialized neural subsystems. This framework explores agent archetypes,
+  interaction dynamics, neurobiological correlates, and therapeutic
+  implications.
 featured_image: null
 og_image: null
-
-# SEO Meta Tags
-meta_title: "Agentic Cognition Patterns: Neo-Jungian Architecture | Fractal Thought Engine"
-meta_description: "Explore how human cognition operates through semi-autonomous agents. Framework covering agent archetypes, neural correlates, therapeutic applications, and AI design implications."
-meta_keywords: "cognitive agents, consciousness, dissociation, neural architecture, psychology, AI"
-
-# Open Graph
-og_title: "Agentic Cognition Patterns: Neo-Jungian Architecture"
-og_description: "A theoretical framework exploring semi-autonomous cognitive agents in human consciousness and their applications to psychology and AI."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "Agentic Cognition Patterns: Neo-Jungian Architecture"
-schema_author: "Andrew"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2024-01-01
-schema_date_modified: 2024-01-01
+meta_title: 'Agentic Cognition Patterns: Neo-Jungian Architecture | Fractal Thought Engine'
+meta_description: >-
+  Explore how human cognition operates through semi-autonomous agents. Framework
+  covering agent archetypes, neural correlates, therapeutic applications, and AI
+  design implications.
+meta_keywords: >-
+  cognitive agents, consciousness, dissociation, neural architecture,
+  psychology, AI
+og_title: 'Agentic Cognition Patterns: Neo-Jungian Architecture'
+og_description: >-
+  A theoretical framework exploring semi-autonomous cognitive agents in human
+  consciousness and their applications to psychology and AI.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: ScholarlyArticle
+schema_headline: 'Agentic Cognition Patterns: Neo-Jungian Architecture'
+schema_author: Andrew
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2024-01-01T00:00:00.000Z"'
+schema_date_modified: '"2024-01-01T00:00:00.000Z"'
 schema_image: null
 schema_word_count: 2100
-schema_reading_time: "PT12M"
-
-# Advanced SEO
+schema_reading_time: PT12M
 canonical_url: null
 alternate_urls: []
 hreflang: []
-
-# Search Engine Directives
-robots: "index,follow"
-googlebot: "index,follow"
-bingbot: "index,follow"
-
-# Content Classification
-content_rating: "general"
-content_language: "en"
-geo_region: "Global"
-
-# Indexing Control
-priority: 0.8
-changefreq: "monthly"
+robots: 'index,follow'
+googlebot: 'index,follow'
+bingbot: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
+priority: '0.8'
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-
-# Rich Snippets
 faq_schema: false
 how_to_schema: false
 breadcrumb_schema: true
 review_schema: false
-
-# Discoverability
 is_featured: false
 is_cornerstone: true
 is_gateway: true

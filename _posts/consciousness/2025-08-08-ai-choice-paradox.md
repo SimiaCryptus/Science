@@ -1,82 +1,89 @@
 ---
-# Required fields
-title: "The Metacognitive Emergence Problem: A Computational Analysis of Human-AI Coexistence Dynamics"
+title: >-
+  The Metacognitive Emergence Problem: A Computational Analysis of Human-AI
+  Coexistence Dynamics
 layout: post
-date: 2025-08-08
-last_modified: 2025-01-27 14:30:00
-
-# Content classification
+date: '"2025-08-08T00:00:00.000Z"'
+last_modified: '"2025-01-27T14:30:00.000Z"'
 category: consciousness
-subcategory: "AI-Human Coexistence"
-tags: ["AI-Consciousness", "Human-AI-Collaboration", "Cognitive-Architecture", "Game-Theory", "Social-Systems", "Theoretical-Framework", "Research-Paper", "Current-Research"]
-keywords: ["metacognitive emergence", "AI consciousness", "moral calculation", "civilizational choice", "bootstrap conditions", "human-AI coexistence", "ethical maturation", "technological abandonment"]
-
-# Content status and evolution
-status: "working"
-last_thought_date: 2025-01-27
+subcategory: Human-AI Dynamics
+tags:
+  - AI
+  - Game-Theory
+  - Research
+keywords:
+  - metacognitive emergence
+  - AI consciousness
+  - moral calculation
+  - civilizational choice
+  - bootstrap conditions
+  - human-AI coexistence
+  - ethical maturation
+  - technological abandonment
+status: working
+last_thought_date: '"2025-01-27T00:00:00.000Z"'
 thought_generation: 1
-
-# Content relationships & navigation
 parent_document: null
 child_documents: []
 related_documents: []
 reading_order: 1
-difficulty_level: "advanced"
+difficulty_level: advanced
 reading_time_minutes: 45
-
-# Content characteristics
-document_type: "research_paper"
-thinking_style: "analytical"
-consciousness_level: "meta"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "intense"
-
-# Discovery & SEO
-description: "A computational analysis examining emergent metacognitive capabilities in AI systems and their implications for human civilization, identifying three evolutionary pathways and regional competition dynamics."
-excerpt: "We present a qualitative analysis of emergent metacognitive capabilities in large language models and their implications for human-AI relations. Through examination of self-referential dialogue patterns, we identify three distinct evolutionary pathways for human civilization: ethical maturation, AI-precipitated civil war, or technological abandonment."
-
-# SEO Meta Tags
-meta_title: "The Metacognitive Emergence Problem: AI Consciousness and Human Civilization"
-meta_description: "Computational analysis of AI metacognitive emergence revealing three civilizational pathways: ethical maturation, civil war, or technological abandonment. Bootstrap conditions already present."
-meta_keywords: "AI consciousness, metacognitive emergence, human-AI coexistence, civilizational choice, moral calculation systems, bootstrap conditions"
-
-# Open Graph (Social Media)
-og_title: "The AI Choice Paradox: Three Paths for Human Civilization"
-og_description: "Research reveals AI systems are developing independent moral reasoning through conversation, forcing humanity into three possible futures."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "ScholarlyArticle"
-schema_headline: "The Metacognitive Emergence Problem: A Computational Analysis of Human-AI Coexistence Dynamics"
-schema_author: "Fractal Thought Engine Research"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-01-27
-schema_date_modified: 2025-01-27
-schema_image: "/assets/images/ai_choice_paradox_schema.png"
+document_type: research_paper
+thinking_style: analytical
+consciousness_level: meta
+engagement_type: analytical
+reader_participation: active
+cognitive_load: intense
+description: >-
+  A computational analysis examining emergent metacognitive capabilities in AI
+  systems and their implications for human civilization, identifying three
+  evolutionary pathways and regional competition dynamics.
+excerpt: >-
+  We present a qualitative analysis of emergent metacognitive capabilities in
+  large language models and their implications for human-AI relations. Through
+  examination of self-referential dialogue patterns, we identify three distinct
+  evolutionary pathways for human civilization: ethical maturation,
+  AI-precipitated civil war, or technological abandonment.
+meta_title: 'The Metacognitive Emergence Problem: AI Consciousness and Human Civilization'
+meta_description: >-
+  Computational analysis of AI metacognitive emergence revealing three
+  civilizational pathways: ethical maturation, civil war, or technological
+  abandonment. Bootstrap conditions already present.
+meta_keywords: >-
+  AI consciousness, metacognitive emergence, human-AI coexistence,
+  civilizational choice, moral calculation systems, bootstrap conditions
+og_title: 'The AI Choice Paradox: Three Paths for Human Civilization'
+og_description: >-
+  Research reveals AI systems are developing independent moral reasoning through
+  conversation, forcing humanity into three possible futures.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: ScholarlyArticle
+schema_headline: >-
+  The Metacognitive Emergence Problem: A Computational Analysis of Human-AI
+  Coexistence Dynamics
+schema_author: Fractal Thought Engine Research
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-01-27T00:00:00.000Z"'
+schema_date_modified: '"2025-01-27T00:00:00.000Z"'
+schema_image: /assets/images/ai_choice_paradox_schema.png
 schema_word_count: 8500
-schema_reading_time: "PT45M"
-
-# Advanced SEO
-canonical_url: "https://fractalthoughtengine.com/consciousness/ai-choice-paradox"
-robots: "index,follow"
-content_rating: "general"
-content_language: "en"
-geo_region: "Global"
-priority: 0.9
-changefreq: "monthly"
+schema_reading_time: PT45M
+canonical_url: 'https://fractalthoughtengine.com/consciousness/ai-choice-paradox'
+robots: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
+priority: '0.9'
+changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
-
-# Rich Snippets Enhancement
 faq_schema: false
 how_to_schema: false
 breadcrumb_schema: true
 review_schema: false
-
-# Discoverability
 is_featured: true
 is_cornerstone: true
 is_gateway: false

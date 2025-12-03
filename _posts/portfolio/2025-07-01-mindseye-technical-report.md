@@ -3,21 +3,14 @@ title: >-
   Rediscovering MindsEye: A Case Study in Algorithmic Bias and Overlooked
   Innovation
 layout: post
-date: 2025-07-01T00:00:00.000Z
-last_modified: 2025-07-01T12:00:00.000Z
+date: '"2025-07-01T00:00:00.000Z"'
+last_modified: '"2025-07-01T12:00:00.000Z"'
 category: portfolio
-subcategory: Neural Architectures
+subcategory: MindsEye Framework
 tags:
-  - AI-Consciousness
-  - Computational-Analysis
-  - Technical-Report
-  - Research-Paper
-  - ai
-  - machine-learning
-  - bias
-  - java
-  - deep-learning
-  - optimization
+  - Machine-Learning
+  - Software
+  - Report
 keywords:
   - MindsEye
   - algorithmic bias
@@ -28,7 +21,7 @@ keywords:
   - neural networks
   - Java ML framework
 status: draft
-last_thought_date: 2025-07-01T00:00:00.000Z
+last_thought_date: '"2025-07-01T00:00:00.000Z"'
 thought_generation: 1
 authors:
   - AI-Assisted

@@ -1,129 +1,112 @@
 ---
-# Core Metadata
-title: "The Psychosocial Engine: A Hybrid Architecture for Executive Function & Emotional Regulation"
-layout: "post"
-date: 2025-12-01
-last_modified: 2025-12-01 00:00:00
-
-# Content Classification
-category: "projects"
-subcategory: "AI-Assisted Mental Health & Productivity"
+title: >-
+  The Psychosocial Engine: A Hybrid Architecture for Executive Function &
+  Emotional Regulation
+layout: post
+date: '"2025-12-01T00:00:00.000Z"'
+last_modified: '"2025-12-01T00:00:00.000Z"'
+category: projects
+subcategory: AI-Human Sociology
 tags:
-- "AI-Consciousness"
-- "Human-AI-Collaboration"
-- "Cognitive-Architecture"
-- "Phenomenology"
-- "Machine-Learning"
-- "Ethics-Technology"
-- "Healthcare"
-- "Psychology"
-- "Neurotechnology"
-- "Harm-Reduction"
+  - AI
+  - Psychology
+  - Society
 keywords:
-- "psychosocial engine"
-- "executive function"
-- "emotional regulation"
-- "biometric feedback"
-- "AI assistant"
-- "mental health technology"
-- "nervous system regulation"
-- "EMDR"
-- "affective computing"
-- "harm reduction"
-
-# Content Status & Evolution
-status: "working"
-last_thought_date: 2025-12-01
+  - psychosocial engine
+  - executive function
+  - emotional regulation
+  - biometric feedback
+  - AI assistant
+  - mental health technology
+  - nervous system regulation
+  - EMDR
+  - affective computing
+  - harm reduction
+status: working
+last_thought_date: '"2025-12-01T00:00:00.000Z"'
 thought_generation: 1
-
-# Document Relationships & Navigation
 parent_document: null
 child_documents: []
 related_documents:
-- "path/to/cognitive-architecture-framework.md"
-- "path/to/human-ai-collaboration-models.md"
-- "path/to/biometric-sensing-ethics.md"
+  - path/to/cognitive-architecture-framework.md
+  - path/to/human-ai-collaboration-models.md
+  - path/to/biometric-sensing-ethics.md
 reading_order: null
-difficulty_level: "intermediate"
+difficulty_level: intermediate
 reading_time_minutes: 12
-
-# Content Characteristics
-document_type: "project"
-thinking_style: "analytical"
-consciousness_level: "collaborative"
-engagement_type: "analytical"
-reader_participation: "active"
-cognitive_load: "moderate"
-
-# Discovery & SEO
-description: "A comprehensive project proposal for an AI-powered psychosocial assistant that bridges emotional regulation and executive function through biometric feedback, gamified neurotechnology, and compassionate logic."
-excerpt: "The Psychosocial Engine is a superset of a personal agent and support companion that bridges internal emotional states with external execution. Unlike current AI assistants that assume rationality or therapy bots that cannot help users execute tasks, this hybrid system manages anxiety while enabling productivity through biometric monitoring and neurologically-informed gamification."
-featured_image: "../../assets/images/psasst/orbit_sync_ui_mockup.png"
-og_image: "../../assets/images/psasst/orbit_sync_ui_mockup.png"
-
-# SEO Meta Tags
-meta_title: "The Psychosocial Engine: AI-Powered Executive Function & Emotional Regulation"
-meta_description: "Explore a hybrid AI architecture combining emotional regulation, executive function support, and biometric feedback for compassionate productivity enhancement."
-meta_keywords: "psychosocial engine, AI assistant, emotional regulation, executive function, biometric feedback, mental health technology, harm reduction"
-
-# Open Graph (Social Media)
-og_title: "The Psychosocial Engine: Bridging Emotion & Execution"
-og_description: "A revolutionary hybrid architecture for AI-assisted emotional regulation and executive function, powered by biometric feedback and gamified neurotechnology."
-og_type: "article"
-og_locale: "en_US"
-og_site_name: "Fractal Thought Engine"
-
-# Schema.org Structured Data
-schema_type: "TechArticle"
-schema_headline: "The Psychosocial Engine: A Hybrid Architecture for Executive Function & Emotional Regulation"
-schema_author: "Fractal Thought Engine"
-schema_publisher: "Fractal Thought Engine"
-schema_date_published: 2025-12-01
-schema_date_modified: 2025-12-01
-schema_image: "../../assets/images/psasst/orbit_sync_ui_mockup.png"
+document_type: project
+thinking_style: analytical
+consciousness_level: collaborative
+engagement_type: analytical
+reader_participation: active
+cognitive_load: moderate
+description: >-
+  A comprehensive project proposal for an AI-powered psychosocial assistant that
+  bridges emotional regulation and executive function through biometric
+  feedback, gamified neurotechnology, and compassionate logic.
+excerpt: >-
+  The Psychosocial Engine is a superset of a personal agent and support
+  companion that bridges internal emotional states with external execution.
+  Unlike current AI assistants that assume rationality or therapy bots that
+  cannot help users execute tasks, this hybrid system manages anxiety while
+  enabling productivity through biometric monitoring and neurologically-informed
+  gamification.
+featured_image: ../../assets/images/psasst/orbit_sync_ui_mockup.png
+og_image: ../../assets/images/psasst/orbit_sync_ui_mockup.png
+meta_title: 'The Psychosocial Engine: AI-Powered Executive Function & Emotional Regulation'
+meta_description: >-
+  Explore a hybrid AI architecture combining emotional regulation, executive
+  function support, and biometric feedback for compassionate productivity
+  enhancement.
+meta_keywords: >-
+  psychosocial engine, AI assistant, emotional regulation, executive function,
+  biometric feedback, mental health technology, harm reduction
+og_title: 'The Psychosocial Engine: Bridging Emotion & Execution'
+og_description: >-
+  A revolutionary hybrid architecture for AI-assisted emotional regulation and
+  executive function, powered by biometric feedback and gamified
+  neurotechnology.
+og_type: article
+og_locale: en_US
+og_site_name: Fractal Thought Engine
+schema_type: TechArticle
+schema_headline: >-
+  The Psychosocial Engine: A Hybrid Architecture for Executive Function &
+  Emotional Regulation
+schema_author: Fractal Thought Engine
+schema_publisher: Fractal Thought Engine
+schema_date_published: '"2025-12-01T00:00:00.000Z"'
+schema_date_modified: '"2025-12-01T00:00:00.000Z"'
+schema_image: ../../assets/images/psasst/orbit_sync_ui_mockup.png
 schema_word_count: 2400
-schema_reading_time: "PT12M"
-
-# Advanced SEO
-canonical_url: "https://fractalthoughtengine.com/projects/psychosocial-engine"
+schema_reading_time: PT12M
+canonical_url: 'https://fractalthoughtengine.com/projects/psychosocial-engine'
 alternate_urls: []
 hreflang:
-- lang: "en"
-url: "https://fractalthoughtengine.com/projects/psychosocial-engine"
-
-# Search Engine Directives
-robots: "index,follow"
-googlebot: "index,follow"
-bingbot: "index,follow"
-
-# Content Classification for Search
-content_rating: "general"
-content_language: "en"
-geo_region: "Global"
-
-# Indexing Control
-priority: 0.8
-changefreq: "weekly"
+  - lang: en
+url: 'https://fractalthoughtengine.com/projects/psychosocial-engine'
+robots: 'index,follow'
+googlebot: 'index,follow'
+bingbot: 'index,follow'
+content_rating: general
+content_language: en
+geo_region: Global
+priority: '0.8'
+changefreq: weekly
 sitemap_exclude: false
 search_exclude: false
-
-# Rich Snippets Enhancement
 faq_schema: true
 how_to_schema: true
 breadcrumb_schema: true
 review_schema: false
-
-# Performance and Technical SEO
 preload_resources:
-- "/assets/images/psychosocial-engine-concept-diagram.png"
-- "/assets/images/three-pillars-architecture-flow.png"
+  - /assets/images/psychosocial-engine-concept-diagram.png
+  - /assets/images/three-pillars-architecture-flow.png
 prefetch_resources:
-- "/assets/images/biometric-interview-analysis-ui.png"
-- "/assets/images/technical-roadmap-layers.png"
+  - /assets/images/biometric-interview-analysis-ui.png
+  - /assets/images/technical-roadmap-layers.png
 dns_prefetch:
-- "https://fonts.googleapis.com"
-
-# Discoverability
+  - 'https://fonts.googleapis.com'
 is_featured: true
 is_cornerstone: false
 is_gateway: true

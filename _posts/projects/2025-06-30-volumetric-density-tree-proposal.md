@@ -3,19 +3,14 @@ title: >-
   Volumetric Density Trees with Polynomial Constraints: A Novel Approach to
   High-Dimensional Density Modeling
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: projects
-subcategory: Neural Architectures
+subcategory: Algorithms & Compression
 tags:
   - Machine-Learning
-  - Computational-Analysis
-  - Mathematical-Modeling
-  - Theoretical-Framework
-  - Neural-Networks
-  - Optimization
-  - Information-Theory
-  - Topology
+  - Mathematics
+  - Research
 keywords:
   - volumetric density trees
   - polynomial constraints
@@ -23,7 +18,7 @@ keywords:
   - entropy optimization
   - geometric boundaries
 status: draft
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 thought_generation: 1
 related_documents:
   - ./2025-06-30-bwt-tree-proposal.md
@@ -69,12 +64,12 @@ schema_type: ScholarlyArticle
 schema_headline: Volumetric Density Trees with Polynomial Constraints
 schema_author: Human-AI Collaboration
 schema_publisher: Fractal Thought Engine
-schema_date_published: 2025-06-30T00:00:00.000Z
-schema_date_modified: 2025-06-30T12:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
+schema_date_modified: '"2025-06-30T12:00:00.000Z"'
 schema_word_count: 4500
 schema_reading_time: PT25M
 robots: 'index,follow'
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 is_featured: false
 is_cornerstone: false

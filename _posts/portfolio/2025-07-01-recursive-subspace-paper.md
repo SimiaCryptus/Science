@@ -1,20 +1,16 @@
 ---
-title: >
+title: >-
   Recursive Subspace Optimization (RSO): A Layer-Wise Meta-Learning Approach for
   Deep Networks
 layout: post
-date: 2025-07-01T00:00:00.000Z
-last_modified: 2025-07-01T12:00:00.000Z
+date: '"2025-07-01T00:00:00.000Z"'
+last_modified: '"2025-07-01T12:00:00.000Z"'
 category: portfolio
-subcategory: Neural Architectures
+subcategory: ML Algorithms & Optimization
 tags:
-  - AI-Consciousness
   - Machine-Learning
-  - optimization
-  - deep learning
-  - meta-learning
-  - neural networks
-  - gradient descent
+  - Optimization
+  - Research
 keywords:
   - neural network optimization
   - meta-learning algorithms
@@ -25,7 +21,7 @@ keywords:
   - neural network training
 status: draft
 thought_generation: 1
-last_thought_date: 2025-07-01T00:00:00.000Z
+last_thought_date: '"2025-07-01T00:00:00.000Z"'
 authors:
   - Human-AI Collaboration
   - Andrew
@@ -76,7 +72,7 @@ meta_description: >-
   Novel RSO algorithm improves neural network training through layer-wise
   gradient decomposition and meta-optimization, achieving superior stability and
   convergence.
-meta_keywords: >
+meta_keywords: >-
   recursive subspace optimization, neural network optimization, meta-learning,
   gradient descent, deep learning gradient descent, deep learning
 og_title: 'Recursive Subspace Optimization: A Layer-Wise Meta-Learning Approach'
@@ -90,8 +86,8 @@ schema_headline: >-
   Recursive Subspace Optimization (RSO): A Layer-Wise Meta-Learning Approach for
   Deep Networks
 schema_author: Andrew
-schema_date_published: 2025-07-01T00:00:00.000Z
-schema_date_modified: 2025-07-01T00:00:00.000Z
+schema_date_published: '"2025-07-01T00:00:00.000Z"'
+schema_date_modified: '"2025-07-01T00:00:00.000Z"'
 schema_word_count: 3500
 schema_reading_time: PT25M
 robots: 'index,follow'
@@ -101,7 +97,7 @@ is_featured: true
 is_cornerstone: true
 is_gateway: true
 is_synthesis: true
-priority: 0.9
+priority: '0.9'
 changefreq: monthly
 version_tracking: true
 change_log: true

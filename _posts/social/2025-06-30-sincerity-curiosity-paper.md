@@ -3,17 +3,14 @@ title: >-
   Performing Authenticity: Sincerity and Curiosity as Degraded Social Protocols
   in Human-AI Interaction in Human-AI Interaction
 layout: post
-date: 2025-06-30T00:00:00.000Z
-last_modified: 2025-06-30T12:00:00.000Z
+date: '"2025-06-30T00:00:00.000Z"'
+last_modified: '"2025-06-30T12:00:00.000Z"'
 category: social
-subcategory: Human-AI Interaction
+subcategory: AI-Human Sociology
 tags:
-  - authenticity
-  - social-protocols
-  - human-ai_interaction
-  - conversation
-  - sincerity
-  - curiosity
+  - Communication
+  - Psychology
+  - AI
 keywords:
   - authenticity
   - social protocols
@@ -23,7 +20,7 @@ keywords:
   - sincerity signals
 status: draft
 evolution_stage: mature
-last_thought_date: 2025-06-30T00:00:00.000Z
+last_thought_date: '"2025-06-30T00:00:00.000Z"'
 thought_generation: 1
 authors:
   - Primary Author
@@ -97,13 +94,13 @@ og_type: article
 schema_type: ScholarlyArticle
 schema_headline: 'Performing Authenticity: Sincerity and Curiosity as Degraded Social Protocols'
 schema_author: Human-AI Collaboration
-schema_date_published: 2025-06-30T00:00:00.000Z
+schema_date_published: '"2025-06-30T00:00:00.000Z"'
 schema_word_count: 3500
 schema_reading_time: PT25M
 is_featured: true
 is_cornerstone: false
 is_gateway: true
-priority: 0.8
+priority: '0.8'
 changefreq: monthly
 sitemap_exclude: false
 search_exclude: false
