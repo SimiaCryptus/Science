@@ -1,0 +1,1400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knot Topology Lab | Distance Matrix Analysis</title>
+    <meta name="description" content="Interactive demonstration of knot topology using distance matrices and spline-based optimization">
+
+    <!-- TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.15.0/dist/tf.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-color: #0f1115;
+            --card-bg: #1a1d24;
+            --card-hover: #22262f;
+            --text-primary: #e0e0e0;
+            --text-secondary: #a0a0a0;
+            --text-muted: #6b7280;
+            --accent-primary: #00d2ff;
+            --accent-secondary: #ff00ff;
+            --accent-tertiary: #00ff9d;
+            --danger: #ff4a4a;
+            --warning: #ffaa00;
+            --border-color: #2a2e36;
+            --border-focus: #4a4f5a;
+            --radius-sm: 4px;
+            --radius-md: 8px;
+            --font-mono: 'JetBrains Mono', monospace;
+            --font-sans: 'Inter', sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: var(--font-sans);
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+
+        header {
+            background-color: var(--card-bg);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .badge {
+            background: rgba(0, 210, 255, 0.1);
+            color: var(--accent-primary);
+            font-size: 0.7rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: var(--radius-sm);
+            font-family: var(--font-mono);
+            border: 1px solid rgba(0, 210, 255, 0.2);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        main {
+            flex: 1;
+            padding: 1.5rem;
+            display: grid;
+            grid-template-columns: 280px 1fr 1fr;
+            gap: 1.5rem;
+            height: auto;
+            min-height: calc(100vh - 70px);
+            max-width: 1920px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        @media (max-width: 1200px) {
+            main {
+                grid-template-columns: 280px 1fr;
+            }
+            .matrix-container {
+                grid-column: span 2;
+            }
+        }
+
+        @media (max-width: 768px) {
+            main {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .panel {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+            height: fit-content;
+        }
+
+        .panel-header {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-muted);
+            font-weight: 700;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        label {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 500;
+        }
+
+        .value-display {
+            font-family: var(--font-mono);
+            color: var(--accent-primary);
+            font-size: 0.75rem;
+            background: rgba(0, 210, 255, 0.1);
+            padding: 0.1rem 0.4rem;
+            border-radius: var(--radius-sm);
+        }
+
+        .value-input {
+            font-family: var(--font-mono);
+            color: var(--accent-primary);
+            font-size: 0.75rem;
+            background: rgba(0, 210, 255, 0.1);
+            padding: 0.1rem 0.4rem;
+            border: 1px solid rgba(0, 210, 255, 0.2);
+            border-radius: var(--radius-sm);
+            width: 60px;
+            text-align: right;
+        }
+
+        select, input[type="range"] {
+            width: 100%;
+            background: transparent;
+            cursor: pointer;
+        }
+
+        select {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+            padding: 0.5rem;
+            border-radius: var(--radius-sm);
+            font-family: var(--font-sans);
+            font-size: 0.8rem;
+        }
+
+        input[type="range"] {
+            -webkit-appearance: none;
+        }
+
+        input[type="range"]::-webkit-slider-runnable-track {
+            width: 100%;
+            height: 4px;
+            background: var(--border-color);
+            border-radius: 2px;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            height: 14px;
+            width: 14px;
+            border-radius: 50%;
+            background: var(--accent-primary);
+            margin-top: -5px;
+            transition: transform 0.1s;
+        }
+
+        input[type="range"]::-webkit-slider-thumb:hover {
+            transform: scale(1.2);
+        }
+
+        .button-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        button {
+            padding: 0.75rem;
+            border: none;
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+        }
+
+        .btn-primary {
+            background-color: var(--accent-primary);
+            color: #000;
+        }
+
+        .btn-primary:hover {
+            background-color: #33dbff;
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--text-secondary);
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .btn-danger {
+            background-color: rgba(255, 74, 74, 0.1);
+            color: var(--danger);
+            border: 1px solid rgba(255, 74, 74, 0.3);
+        }
+
+        .btn-danger:hover {
+            background-color: rgba(255, 74, 74, 0.2);
+        }
+
+        .math-block {
+            font-family: var(--font-mono);
+            font-size: 0.65rem;
+            background: #13151a;
+            padding: 0.75rem;
+            border-radius: var(--radius-sm);
+            color: var(--text-secondary);
+            border: 1px solid var(--border-color);
+            line-height: 1.6;
+        }
+
+        .viz-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            height: auto;
+            min-height: 70vh;
+        }
+
+        .metrics-bar {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 0.75rem;
+        }
+
+        .metric-card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            padding: 0.75rem;
+            border-radius: var(--radius-md);
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .metric-label {
+            font-size: 0.6rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        .metric-value {
+            font-family: var(--font-mono);
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .canvas-wrapper {
+            flex: 1;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            position: relative;
+            overflow: hidden;
+            min-height: 400px;
+        }
+
+        canvas {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        .matrix-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .matrix-wrapper {
+            flex: 1;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            position: relative;
+            overflow: hidden;
+            min-height: 400px;
+        }
+
+        .matrix-title {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            font-weight: 700;
+            z-index: 10;
+            background: rgba(26, 29, 36, 0.9);
+            padding: 0.25rem 0.5rem;
+            border-radius: var(--radius-sm);
+        }
+
+        .colorbar {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 20px;
+            height: 200px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .colorbar-gradient {
+            flex: 1;
+            border-radius: var(--radius-sm);
+        }
+
+        .colorbar-labels {
+            position: absolute;
+            right: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-size: 0.6rem;
+            font-family: var(--font-mono);
+            color: var(--text-muted);
+        }
+
+        #loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--bg-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            flex-direction: column;
+            gap: 1rem;
+            color: var(--text-secondary);
+            font-family: var(--font-mono);
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid var(--border-color);
+            border-top-color: var(--accent-primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        .knot-preset {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.5rem;
+        }
+
+        .knot-preset button {
+            padding: 0.5rem;
+            font-size: 0.65rem;
+        }
+    </style>
+</head>
+<body>
+
+<div id="loading">
+    <div class="spinner"></div>
+    <div>Initializing TensorFlow.js...</div>
+</div>
+
+<header>
+    <h1>
+        Knot Topology Lab
+        <span class="badge">Distance Matrix</span>
+    </h1>
+</header>
+
+<main>
+    <!-- Controls Sidebar -->
+    <aside class="panel">
+        <div class="panel-header">Knot Configuration</div>
+
+        <div class="control-group">
+            <label>Knot Type</label>
+            <select id="knot-select">
+                <option value="random">Random Spline</option>
+                <option value="trefoil">Trefoil (3₁)</option>
+                <option value="figure8">Figure-Eight (4₁)</option>
+                <option value="cinquefoil">Cinquefoil (5₁)</option>
+                <option value="unknot">Unknot (Circle)</option>
+            </select>
+        </div>
+
+        <div class="control-group">
+            <label>Points (N) <input type="number" class="value-input" id="val-n" value="64" step="1"></label>
+            <input type="range" id="param-n" min="16" max="256" step="1" value="64">
+        </div>
+
+        <div class="control-group">
+            <label>Control Points <input type="number" class="value-input" id="val-ctrl" value="14" step="1"></label>
+            <input type="range" id="param-ctrl" min="4" max="32" step="1" value="14">
+        </div>
+
+        <div class="panel-header">Physics Parameters</div>
+
+        <div class="control-group">
+            <label>Target Edge Length <input type="number" class="value-input" id="val-edge" value="0.15" step="0.01"></label>
+            <input type="range" id="param-edge" min="0.05" max="0.5" step="0.01" value="0.15">
+        </div>
+
+        <div class="control-group">
+            <label>Edge Stiffness <input type="number" class="value-input" id="val-stiff" value="10.0" step="0.5"></label>
+            <input type="range" id="param-stiff" min="0.1" max="50" step="0.1" value="10.0">
+        </div>
+
+        <div class="control-group">
+            <label>Repulsion Strength <input type="number" class="value-input" id="val-repel" value="0.5" step="0.05"></label>
+            <input type="range" id="param-repel" min="0" max="5" step="0.05" value="0.5">
+        </div>
+
+        <div class="control-group">
+            <label>Repulsion Cutoff <input type="number" class="value-input" id="val-cutoff" value="0.5" step="0.05"></label>
+            <input type="range" id="param-cutoff" min="0.1" max="2.0" step="0.05" value="0.5">
+        </div>
+
+        <div class="panel-header">Optimization</div>
+
+        <div class="control-group">
+            <label>Learning Rate <input type="number" class="value-input" id="val-lr" value="0.01" step="0.001"></label>
+            <input type="range" id="param-lr" min="0.001" max="0.1" step="0.001" value="0.01">
+        </div>
+
+        <div class="control-group">
+            <label>
+                Auto-Rotate
+                <input type="checkbox" id="chk-autorotate" checked style="width:auto;">
+            </label>
+            <label>
+                Show Edges
+                <input type="checkbox" id="chk-edges" checked style="width:auto;">
+            </label>
+        </div>
+
+        <div class="button-group">
+            <button id="btn-toggle" class="btn-primary">Start</button>
+            <button id="btn-reset" class="btn-secondary">Reset</button>
+            <button id="btn-step" class="btn-secondary">Step</button>
+            <button id="btn-copy" class="btn-secondary">Copy</button>
+        </div>
+
+        <div class="math-block">
+            <strong>Loss Function:</strong><br>
+            L = L_edge + L_repel<br><br>
+            L_edge = k Σ(|pᵢ - pᵢ₊₁| - d₀)²<br>
+            L_repel = r Σᵢ≠ⱼ±₁ 1/(|pᵢ - pⱼ|² + ε)
+        </div>
+    </aside>
+
+    <!-- 3D Knot Visualization -->
+    <div class="viz-container">
+        <div class="metrics-bar">
+            <div class="metric-card">
+                <span class="metric-label">Total Loss</span>
+                <span class="metric-value" id="metric-loss" style="color: var(--danger)">--</span>
+            </div>
+            <div class="metric-card">
+                <span class="metric-label">Edge Loss</span>
+                <span class="metric-value" id="metric-edge" style="color: var(--accent-primary)">--</span>
+            </div>
+            <div class="metric-card">
+                <span class="metric-label">Repulsion</span>
+                <span class="metric-value" id="metric-repel" style="color: var(--accent-tertiary)">--</span>
+            </div>
+            <div class="metric-card">
+                <span class="metric-label">Step</span>
+                <span class="metric-value" id="metric-step">0</span>
+            </div>
+        </div>
+
+        <div class="canvas-wrapper">
+            <canvas id="knot-canvas"></canvas>
+        </div>
+    </div>
+
+    <!-- Distance Matrix Visualization -->
+    <div class="matrix-container">
+        <div class="metrics-bar">
+            <div class="metric-card">
+                <span class="metric-label">Min Distance</span>
+                <span class="metric-value" id="metric-min-dist" style="color: var(--accent-secondary)">--</span>
+            </div>
+            <div class="metric-card">
+                <span class="metric-label">Max Distance</span>
+                <span class="metric-value" id="metric-max-dist" style="color: var(--warning)">--</span>
+            </div>
+            <div class="metric-card">
+                <span class="metric-label">Avg Distance</span>
+                <span class="metric-value" id="metric-avg-dist">--</span>
+            </div>
+        </div>
+
+        <div class="matrix-wrapper">
+            <div class="matrix-title">Distance Matrix D[i,j] = ||pᵢ - pⱼ||</div>
+            <canvas id="matrix-canvas"></canvas>
+            <div class="colorbar">
+                <div class="colorbar-gradient" id="colorbar-grad"></div>
+            </div>
+            <div class="colorbar-labels">
+                <span id="colorbar-max">2.0</span>
+                <span id="colorbar-mid">1.0</span>
+                <span id="colorbar-min">0.0</span>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script>
+    /**
+     * Knot Topology Lab
+     * 
+     * Demonstrates knot structure through distance matrix visualization.
+     * Uses two constraints:
+     * 1. Fixed-length edges between adjacent points on the spline
+     * 2. Repulsion between non-adjacent points
+     */
+
+    const state = {
+        isTraining: false,
+        points: null,
+        optimizer: null,
+        step: 0,
+        animationId: null,
+        rotation: { x: 0.3, y: 0 },
+        zoom: 1.0,
+        isDragging: false,
+        autoRotate: true,
+        showEdges: true,
+        params: {
+            n: 64,
+            controlPoints: 14,
+            targetEdgeLength: 0.15,
+            edgeStiffness: 10.0,
+            repulsionStrength: 0.5,
+            repulsionCutoff: 0.5,
+            lr: 0.01,
+            knotType: 'random'
+        },
+        metrics: {
+            totalLoss: 0,
+            edgeLoss: 0,
+            repulsionLoss: 0,
+            minDist: 0,
+            maxDist: 0,
+            avgDist: 0
+        },
+        distanceMatrix: null
+    };
+
+    const els = {
+        knotCanvas: document.getElementById('knot-canvas'),
+        matrixCanvas: document.getElementById('matrix-canvas'),
+        loading: document.getElementById('loading'),
+        knotSelect: document.getElementById('knot-select'),
+        nInput: document.getElementById('param-n'),
+        valN: document.getElementById('val-n'),
+        ctrlInput: document.getElementById('param-ctrl'),
+        valCtrl: document.getElementById('val-ctrl'),
+        edgeInput: document.getElementById('param-edge'),
+        valEdge: document.getElementById('val-edge'),
+        stiffInput: document.getElementById('param-stiff'),
+        valStiff: document.getElementById('val-stiff'),
+        repelInput: document.getElementById('param-repel'),
+        valRepel: document.getElementById('val-repel'),
+        cutoffInput: document.getElementById('param-cutoff'),
+        valCutoff: document.getElementById('val-cutoff'),
+        lrInput: document.getElementById('param-lr'),
+        valLr: document.getElementById('val-lr'),
+        chkAutoRotate: document.getElementById('chk-autorotate'),
+        chkEdges: document.getElementById('chk-edges'),
+        btnToggle: document.getElementById('btn-toggle'),
+        btnReset: document.getElementById('btn-reset'),
+        btnStep: document.getElementById('btn-step'),
+        btnCopy: document.getElementById('btn-copy'),
+        metricLoss: document.getElementById('metric-loss'),
+        metricEdge: document.getElementById('metric-edge'),
+        metricRepel: document.getElementById('metric-repel'),
+        metricStep: document.getElementById('metric-step'),
+        metricMinDist: document.getElementById('metric-min-dist'),
+        metricMaxDist: document.getElementById('metric-max-dist'),
+        metricAvgDist: document.getElementById('metric-avg-dist'),
+        colorbarMax: document.getElementById('colorbar-max'),
+        colorbarMid: document.getElementById('colorbar-mid'),
+        colorbarMin: document.getElementById('colorbar-min'),
+        colorbarGrad: document.getElementById('colorbar-grad')
+    };
+
+    const knotCtx = els.knotCanvas.getContext('2d');
+    const matrixCtx = els.matrixCanvas.getContext('2d');
+
+    // --- Spline Generation ---
+
+    /**
+     * Catmull-Rom spline interpolation
+     */
+    function catmullRom(p0, p1, p2, p3, t) {
+        const t2 = t * t;
+        const t3 = t2 * t;
+        
+        const v0 = (p2[0] - p0[0]) * 0.5;
+        const v1 = (p3[0] - p1[0]) * 0.5;
+        const v0y = (p2[1] - p0[1]) * 0.5;
+        const v1y = (p3[1] - p1[1]) * 0.5;
+        const v0z = (p2[2] - p0[2]) * 0.5;
+        const v1z = (p3[2] - p1[2]) * 0.5;
+
+        const x = (2 * p1[0] - 2 * p2[0] + v0 + v1) * t3 + 
+                  (-3 * p1[0] + 3 * p2[0] - 2 * v0 - v1) * t2 + 
+                  v0 * t + p1[0];
+        const y = (2 * p1[1] - 2 * p2[1] + v0y + v1y) * t3 + 
+                  (-3 * p1[1] + 3 * p2[1] - 2 * v0y - v1y) * t2 + 
+                  v0y * t + p1[1];
+        const z = (2 * p1[2] - 2 * p2[2] + v0z + v1z) * t3 + 
+                  (-3 * p1[2] + 3 * p2[2] - 2 * v0z - v1z) * t2 + 
+                  v0z * t + p1[2];
+
+        return [x, y, z];
+    }
+
+    /**
+     * Generate random control points within unit sphere
+     */
+    function generateRandomControlPoints(numPoints) {
+        const points = [];
+        for (let i = 0; i < numPoints; i++) {
+            // Random point in unit sphere using rejection sampling
+            let x, y, z;
+            do {
+                x = Math.random() * 2 - 1;
+                y = Math.random() * 2 - 1;
+                z = Math.random() * 2 - 1;
+            } while (x*x + y*y + z*z > 1);
+            
+            // Scale to 0.7 radius for better visualization
+            const scale = 0.7;
+            points.push([x * scale, y * scale, z * scale]);
+        }
+        return points;
+    }
+
+    /**
+     * Generate points along a closed spline
+     */
+    function generateSplinePoints(controlPoints, numSamples) {
+        const n = controlPoints.length;
+        const points = [];
+        
+        for (let i = 0; i < numSamples; i++) {
+            const t = i / numSamples;
+            const segment = Math.floor(t * n);
+            const localT = (t * n) - segment;
+            
+            const p0 = controlPoints[(segment - 1 + n) % n];
+            const p1 = controlPoints[segment % n];
+            const p2 = controlPoints[(segment + 1) % n];
+            const p3 = controlPoints[(segment + 2) % n];
+            
+            const point = catmullRom(p0, p1, p2, p3, localT);
+            points.push(point);
+        }
+        
+        return points;
+    }
+
+    /**
+     * Generate trefoil knot parametrically
+     */
+    function generateTrefoil(numPoints) {
+        const points = [];
+        for (let i = 0; i < numPoints; i++) {
+            const t = (i / numPoints) * 2 * Math.PI;
+            const x = Math.sin(t) + 2 * Math.sin(2 * t);
+            const y = Math.cos(t) - 2 * Math.cos(2 * t);
+            const z = -Math.sin(3 * t);
+            // Normalize to fit in unit sphere
+            const scale = 0.25;
+            points.push([x * scale, y * scale, z * scale]);
+        }
+        return points;
+    }
+
+    /**
+     * Generate figure-eight knot parametrically
+     */
+    function generateFigure8(numPoints) {
+        const points = [];
+        for (let i = 0; i < numPoints; i++) {
+            const t = (i / numPoints) * 2 * Math.PI;
+            const x = (2 + Math.cos(2 * t)) * Math.cos(3 * t);
+            const y = (2 + Math.cos(2 * t)) * Math.sin(3 * t);
+            const z = Math.sin(4 * t);
+            const scale = 0.2;
+            points.push([x * scale, y * scale, z * scale]);
+        }
+        return points;
+    }
+
+    /**
+     * Generate cinquefoil knot parametrically
+     */
+    function generateCinquefoil(numPoints) {
+        const points = [];
+        for (let i = 0; i < numPoints; i++) {
+            const t = (i / numPoints) * 2 * Math.PI;
+            const x = Math.cos(t) * (2 - Math.cos(2 * t / 5));
+            const y = Math.sin(t) * (2 - Math.cos(2 * t / 5));
+            const z = -Math.sin(2 * t / 5);
+            const scale = 0.35;
+            points.push([x * scale, y * scale, z * scale]);
+        }
+        return points;
+    }
+
+    /**
+     * Generate unknot (circle)
+     */
+    function generateUnknot(numPoints) {
+        const points = [];
+        for (let i = 0; i < numPoints; i++) {
+            const t = (i / numPoints) * 2 * Math.PI;
+            const x = Math.cos(t) * 0.6;
+            const y = Math.sin(t) * 0.6;
+            const z = 0;
+            points.push([x, y, z]);
+        }
+        return points;
+    }
+
+    /**
+     * Initialize knot points based on selected type
+     */
+    function initializeKnot() {
+        let pointsArray;
+        
+        switch (state.params.knotType) {
+            case 'trefoil':
+                pointsArray = generateTrefoil(state.params.n);
+                break;
+            case 'figure8':
+                pointsArray = generateFigure8(state.params.n);
+                break;
+            case 'cinquefoil':
+                pointsArray = generateCinquefoil(state.params.n);
+                break;
+            case 'unknot':
+                pointsArray = generateUnknot(state.params.n);
+                break;
+            case 'random':
+            default:
+                const controlPoints = generateRandomControlPoints(state.params.controlPoints);
+                pointsArray = generateSplinePoints(controlPoints, state.params.n);
+                break;
+        }
+        
+        // Convert to tensor
+        if (state.points) state.points.dispose();
+        state.points = tf.variable(tf.tensor2d(pointsArray));
+        
+        // Reset optimizer
+        state.optimizer = tf.train.adam(state.params.lr);
+        state.step = 0;
+    }
+
+    // --- Physics Simulation ---
+
+    /**
+     * Compute pairwise distance matrix
+     */
+    function computeDistanceMatrix(points) {
+        return tf.tidy(() => {
+            const r = tf.sum(tf.square(points), 1, true);
+            const distSq = tf.add(
+                tf.sub(r, tf.mul(2, tf.matMul(points, points, false, true))),
+                tf.transpose(r)
+            );
+            return tf.sqrt(tf.maximum(distSq, 1e-10));
+        });
+    }
+
+    /**
+     * Compute edge constraint loss (adjacent points should have target length)
+     */
+    function computeEdgeLoss(points, targetLength, stiffness) {
+        return tf.tidy(() => {
+            const n = points.shape[0];
+            
+            // Get adjacent pairs (circular)
+            const p1 = points;
+            const p2 = tf.concat([
+                points.slice([1], [-1]),
+                points.slice([0], [1])
+            ], 0);
+            
+            // Compute edge lengths
+            const diff = tf.sub(p1, p2);
+            const lengths = tf.norm(diff, 'euclidean', 1);
+            
+            // Squared difference from target
+            const deviation = tf.sub(lengths, targetLength);
+            return tf.mul(stiffness, tf.mean(tf.square(deviation)));
+        });
+    }
+
+    /**
+     * Compute repulsion loss (non-adjacent points repel)
+     */
+    function computeRepulsionLoss(points, strength, cutoff) {
+        return tf.tidy(() => {
+            const n = points.shape[0];
+            
+            // Compute all pairwise distances
+            const r = tf.sum(tf.square(points), 1, true);
+            const distSq = tf.add(
+                tf.sub(r, tf.mul(2, tf.matMul(points, points, false, true))),
+                tf.transpose(r)
+            );
+            
+            // Create adjacency mask (1 for non-adjacent, 0 for adjacent and self)
+            const indices = tf.range(0, n, 1, 'int32');
+            const i = tf.expandDims(indices, 1);
+            const j = tf.expandDims(indices, 0);
+            
+            // Adjacent if |i - j| <= 1 or |i - j| >= n-1 (circular)
+            const diff = tf.abs(tf.sub(i, j));
+            const isAdjacent = tf.logicalOr(
+                tf.lessEqual(diff, 1),
+                tf.greaterEqual(diff, n - 1)
+            );
+            const mask = tf.cast(tf.logicalNot(isAdjacent), 'float32');
+            
+            // Soft cutoff using sigmoid
+            const cutoffSq = cutoff * cutoff;
+            const softMask = tf.sigmoid(tf.mul(10, tf.sub(cutoffSq, distSq)));
+            
+            // Repulsion potential: 1 / (distSq + epsilon)
+            const potential = tf.div(1.0, tf.add(distSq, 0.001));
+            
+            // Apply masks
+            const maskedPotential = tf.mul(tf.mul(potential, mask), softMask);
+            
+            return tf.mul(strength, tf.mean(maskedPotential));
+        });
+    }
+
+    /**
+     * Single optimization step
+     */
+    function trainStep() {
+        if (!state.points) return;
+
+        const lossInfo = tf.tidy(() => {
+            const { value, grads } = tf.variableGrads(() => {
+                const edgeLoss = computeEdgeLoss(
+                    state.points,
+                    state.params.targetEdgeLength,
+                    state.params.edgeStiffness
+                );
+                const repulsionLoss = computeRepulsionLoss(
+                    state.points,
+                    state.params.repulsionStrength,
+                    state.params.repulsionCutoff
+                );
+                return tf.add(edgeLoss, repulsionLoss);
+            });
+
+            state.optimizer.applyGradients(grads);
+
+            // Compute individual losses for display
+            const edgeLoss = computeEdgeLoss(
+                state.points,
+                state.params.targetEdgeLength,
+                state.params.edgeStiffness
+            );
+            const repulsionLoss = computeRepulsionLoss(
+                state.points,
+                state.params.repulsionStrength,
+                state.params.repulsionCutoff
+            );
+
+            return {
+                total: value.dataSync()[0],
+                edge: edgeLoss.dataSync()[0],
+                repulsion: repulsionLoss.dataSync()[0]
+            };
+        });
+
+        state.metrics.totalLoss = lossInfo.total;
+        state.metrics.edgeLoss = lossInfo.edge;
+        state.metrics.repulsionLoss = lossInfo.repulsion;
+        state.step++;
+
+        // Update distance matrix
+        updateDistanceMatrix();
+    }
+
+    /**
+     * Update distance matrix for visualization
+     */
+    function updateDistanceMatrix() {
+        if (!state.points) return;
+
+        tf.tidy(() => {
+            const distMatrix = computeDistanceMatrix(state.points);
+            const data = distMatrix.dataSync();
+            const n = state.params.n;
+
+            state.distanceMatrix = new Float32Array(data);
+
+            // Compute statistics (excluding diagonal)
+            let min = Infinity, max = -Infinity, sum = 0, count = 0;
+            for (let i = 0; i < n; i++) {
+                for (let j = 0; j < n; j++) {
+                    if (i !== j) {
+                        const d = data[i * n + j];
+                        if (d < min) min = d;
+                        if (d > max) max = d;
+                        sum += d;
+                        count++;
+                    }
+                }
+            }
+
+            state.metrics.minDist = min;
+            state.metrics.maxDist = max;
+            state.metrics.avgDist = sum / count;
+        });
+    }
+
+    // --- Visualization ---
+
+    function resizeCanvases() {
+        const knotContainer = els.knotCanvas.parentElement;
+        els.knotCanvas.width = knotContainer.clientWidth;
+        els.knotCanvas.height = knotContainer.clientHeight;
+
+        const matrixContainer = els.matrixCanvas.parentElement;
+        els.matrixCanvas.width = matrixContainer.clientWidth;
+        els.matrixCanvas.height = matrixContainer.clientHeight;
+    }
+
+    function project3D(x, y, z, width, height, scale) {
+        const rotY = state.rotation.y;
+        const rotX = state.rotation.x;
+
+        // Rotate Y
+        let x1 = x * Math.cos(rotY) - z * Math.sin(rotY);
+        let z1 = x * Math.sin(rotY) + z * Math.cos(rotY);
+
+        // Rotate X
+        let y2 = y * Math.cos(rotX) - z1 * Math.sin(rotX);
+        let z2 = y * Math.sin(rotX) + z1 * Math.cos(rotX);
+
+        // Perspective
+        const fov = 4;
+        const dist = 4;
+        const p = fov / (dist - z2);
+
+        return {
+            x: width * 0.5 + x1 * scale * p,
+            y: height * 0.5 - y2 * scale * p,
+            z: z2,
+            scale: p
+        };
+    }
+
+    /**
+     * Color mapping for distance matrix (viridis-like)
+     */
+    function distanceToColor(d, minD, maxD) {
+        const t = Math.max(0, Math.min(1, (d - minD) / (maxD - minD + 0.001)));
+        
+        // Viridis-inspired colormap
+        const r = Math.floor(255 * (0.267 + t * (0.993 - 0.267)));
+        const g = Math.floor(255 * (0.004 + t * 0.5 * (1 - t) * 4 + t * 0.906));
+        const b = Math.floor(255 * (0.329 + (1 - t) * 0.5));
+        
+        return `rgb(${r}, ${g}, ${b})`;
+    }
+
+    function drawKnot() {
+        const w = els.knotCanvas.width;
+        const h = els.knotCanvas.height;
+
+        knotCtx.fillStyle = '#1a1d24';
+        knotCtx.fillRect(0, 0, w, h);
+
+        if (!state.points) return;
+
+        const pointsArr = state.points.dataSync();
+        const n = state.params.n;
+        const scale = Math.min(w, h) * 0.4 * state.zoom;
+
+        // Project all points
+        const projected = [];
+        for (let i = 0; i < n; i++) {
+            const x = pointsArr[i * 3];
+            const y = pointsArr[i * 3 + 1];
+            const z = pointsArr[i * 3 + 2];
+            projected.push({ ...project3D(x, y, z, w, h, scale), idx: i });
+        }
+
+        // Draw edges (sorted by depth for proper occlusion)
+        if (state.showEdges) {
+            const edges = [];
+            for (let i = 0; i < n; i++) {
+                const j = (i + 1) % n;
+                const p1 = projected[i];
+                const p2 = projected[j];
+                const avgZ = (p1.z + p2.z) / 2;
+                edges.push({ p1, p2, z: avgZ });
+            }
+            edges.sort((a, b) => a.z - b.z);
+
+            edges.forEach(edge => {
+                const alpha = 0.3 + (edge.z + 1) * 0.35;
+                knotCtx.strokeStyle = `rgba(0, 210, 255, ${alpha})`;
+                knotCtx.lineWidth = 2 * edge.p1.scale;
+                knotCtx.beginPath();
+                knotCtx.moveTo(edge.p1.x, edge.p1.y);
+                knotCtx.lineTo(edge.p2.x, edge.p2.y);
+                knotCtx.stroke();
+            });
+        }
+
+        // Sort points by depth
+        projected.sort((a, b) => a.z - b.z);
+
+        // Draw points
+        projected.forEach(p => {
+            const alpha = 0.4 + (p.z + 1) * 0.3;
+            const size = 4 * p.scale;
+
+            // Color based on position along curve
+            const t = p.idx / n;
+            const r = Math.floor(255 * (0.5 + 0.5 * Math.sin(t * Math.PI * 2)));
+            const g = Math.floor(255 * (0.5 + 0.5 * Math.sin(t * Math.PI * 2 + Math.PI * 2/3)));
+            const b = Math.floor(255 * (0.5 + 0.5 * Math.sin(t * Math.PI * 2 + Math.PI * 4/3)));
+
+            knotCtx.fillStyle = `rgba(${r}, ${g}, ${b}, ${alpha})`;
+            knotCtx.beginPath();
+            knotCtx.arc(p.x, p.y, size, 0, Math.PI * 2);
+            knotCtx.fill();
+
+            // Glow for front points
+            if (p.z > 0) {
+                knotCtx.shadowColor = `rgba(${r}, ${g}, ${b}, 0.5)`;
+                knotCtx.shadowBlur = 10;
+                knotCtx.fill();
+                knotCtx.shadowBlur = 0;
+            }
+        });
+
+        // Draw coordinate axes
+        const axisLength = 0.3;
+        const axes = [
+            { dir: [axisLength, 0, 0], color: '#ff4444', label: 'X' },
+            { dir: [0, axisLength, 0], color: '#44ff44', label: 'Y' },
+            { dir: [0, 0, axisLength], color: '#4444ff', label: 'Z' }
+        ];
+
+        const origin = project3D(0, 0, 0, w, h, scale);
+        axes.forEach(axis => {
+            const end = project3D(axis.dir[0], axis.dir[1], axis.dir[2], w, h, scale);
+            knotCtx.strokeStyle = axis.color;
+            knotCtx.lineWidth = 1;
+            knotCtx.beginPath();
+            knotCtx.moveTo(origin.x, origin.y);
+            knotCtx.lineTo(end.x, end.y);
+            knotCtx.stroke();
+
+            knotCtx.fillStyle = axis.color;
+            knotCtx.font = '10px JetBrains Mono';
+            knotCtx.fillText(axis.label, end.x + 5, end.y);
+        });
+    }
+
+    function drawDistanceMatrix() {
+        const w = els.matrixCanvas.width;
+        const h = els.matrixCanvas.height;
+
+        matrixCtx.fillStyle = '#1a1d24';
+        matrixCtx.fillRect(0, 0, w, h);
+
+        if (!state.distanceMatrix) return;
+
+        const n = state.params.n;
+        const margin = 40;
+        const size = Math.min(w - margin * 2, h - margin * 2);
+        const cellSize = size / n;
+        const offsetX = (w - size) / 2;
+        const offsetY = (h - size) / 2;
+
+        const minD = state.metrics.minDist;
+        const maxD = state.metrics.maxDist;
+
+        // Draw matrix cells
+        for (let i = 0; i < n; i++) {
+            for (let j = 0; j < n; j++) {
+                const d = state.distanceMatrix[i * n + j];
+                const color = distanceToColor(d, minD, maxD);
+                
+                matrixCtx.fillStyle = color;
+                matrixCtx.fillRect(
+                    offsetX + j * cellSize,
+                    offsetY + i * cellSize,
+                    cellSize + 0.5,
+                    cellSize + 0.5
+                );
+            }
+        }
+
+        // Draw diagonal line indicator
+        matrixCtx.strokeStyle = 'rgba(255, 255, 255, 0.3)';
+        matrixCtx.lineWidth = 1;
+        matrixCtx.setLineDash([4, 4]);
+        matrixCtx.beginPath();
+        matrixCtx.moveTo(offsetX, offsetY);
+        matrixCtx.lineTo(offsetX + size, offsetY + size);
+        matrixCtx.stroke();
+        matrixCtx.setLineDash([]);
+
+        // Draw axis labels
+        matrixCtx.fillStyle = '#6b7280';
+        matrixCtx.font = '10px JetBrains Mono';
+        matrixCtx.textAlign = 'center';
+        
+        // X axis label
+        matrixCtx.fillText('Point Index j', offsetX + size / 2, offsetY + size + 25);
+        
+        // Y axis label (rotated)
+        matrixCtx.save();
+        matrixCtx.translate(offsetX - 25, offsetY + size / 2);
+        matrixCtx.rotate(-Math.PI / 2);
+        matrixCtx.fillText('Point Index i', 0, 0);
+        matrixCtx.restore();
+
+        // Update colorbar
+        els.colorbarMax.textContent = maxD.toFixed(2);
+        els.colorbarMid.textContent = ((minD + maxD) / 2).toFixed(2);
+        els.colorbarMin.textContent = minD.toFixed(2);
+        
+        // Create gradient for colorbar
+        els.colorbarGrad.style.background = `linear-gradient(to bottom, 
+            ${distanceToColor(maxD, minD, maxD)}, 
+            ${distanceToColor((minD + maxD) / 2, minD, maxD)}, 
+            ${distanceToColor(minD, minD, maxD)})`;
+    }
+
+    function updateUI() {
+        els.metricLoss.textContent = state.metrics.totalLoss.toFixed(5);
+        els.metricEdge.textContent = state.metrics.edgeLoss.toFixed(5);
+        els.metricRepel.textContent = state.metrics.repulsionLoss.toFixed(5);
+        els.metricStep.textContent = state.step;
+        els.metricMinDist.textContent = state.metrics.minDist.toFixed(4);
+        els.metricMaxDist.textContent = state.metrics.maxDist.toFixed(4);
+        els.metricAvgDist.textContent = state.metrics.avgDist.toFixed(4);
+    }
+
+    function animate() {
+        if (state.isTraining) {
+            for (let i = 0; i < 3; i++) trainStep();
+        }
+
+        if (state.autoRotate && !state.isDragging) {
+            state.rotation.y += 0.005;
+        }
+
+        drawKnot();
+        drawDistanceMatrix();
+        updateUI();
+
+        state.animationId = requestAnimationFrame(animate);
+    }
+
+    // --- Event Handlers ---
+
+    function setupEventListeners() {
+        els.knotSelect.addEventListener('change', (e) => {
+            state.params.knotType = e.target.value;
+            initializeKnot();
+            updateDistanceMatrix();
+        });
+
+        // Slider/input pairs
+        const setupSlider = (slider, input, param, transform = v => v) => {
+            slider.addEventListener('input', (e) => {
+                const val = transform(parseFloat(e.target.value));
+                state.params[param] = val;
+                input.value = val;
+            });
+            input.addEventListener('change', (e) => {
+                const val = parseFloat(e.target.value);
+                if (!isNaN(val)) {
+                    state.params[param] = val;
+                    slider.value = val;
+                }
+            });
+        };
+
+        setupSlider(els.nInput, els.valN, 'n', v => Math.floor(v));
+        setupSlider(els.ctrlInput, els.valCtrl, 'controlPoints', v => Math.floor(v));
+        setupSlider(els.edgeInput, els.valEdge, 'targetEdgeLength');
+        setupSlider(els.stiffInput, els.valStiff, 'edgeStiffness');
+        setupSlider(els.repelInput, els.valRepel, 'repulsionStrength');
+        setupSlider(els.cutoffInput, els.valCutoff, 'repulsionCutoff');
+        setupSlider(els.lrInput, els.valLr, 'lr');
+
+        // N change requires reinitialization
+        els.nInput.addEventListener('change', () => {
+            if (!state.isTraining) initializeKnot();
+            updateDistanceMatrix();
+        });
+        els.valN.addEventListener('change', () => {
+            if (!state.isTraining) initializeKnot();
+            updateDistanceMatrix();
+        });
+
+        els.ctrlInput.addEventListener('change', () => {
+            if (!state.isTraining && state.params.knotType === 'random') {
+                initializeKnot();
+                updateDistanceMatrix();
+            }
+        });
+
+        els.lrInput.addEventListener('input', () => {
+            state.optimizer = tf.train.adam(state.params.lr);
+        });
+
+        els.chkAutoRotate.addEventListener('change', (e) => {
+            state.autoRotate = e.target.checked;
+        });
+
+        els.chkEdges.addEventListener('change', (e) => {
+            state.showEdges = e.target.checked;
+        });
+
+        els.btnToggle.addEventListener('click', () => {
+            state.isTraining = !state.isTraining;
+            els.btnToggle.textContent = state.isTraining ? 'Stop' : 'Start';
+            els.btnToggle.classList.toggle('btn-primary', !state.isTraining);
+            els.btnToggle.classList.toggle('btn-danger', state.isTraining);
+        });
+
+        els.btnReset.addEventListener('click', () => {
+            state.isTraining = false;
+            els.btnToggle.textContent = 'Start';
+            els.btnToggle.classList.add('btn-primary');
+            els.btnToggle.classList.remove('btn-danger');
+            initializeKnot();
+            updateDistanceMatrix();
+        });
+
+        els.btnStep.addEventListener('click', () => {
+            trainStep();
+        });
+
+        els.btnCopy.addEventListener('click', () => {
+            if (!state.points) return;
+            const data = state.points.arraySync();
+            const text = JSON.stringify(data, null, 2);
+            navigator.clipboard.writeText(text).then(() => {
+                const original = els.btnCopy.textContent;
+                els.btnCopy.textContent = 'Copied!';
+                setTimeout(() => els.btnCopy.textContent = original, 1500);
+            });
+        });
+
+        window.addEventListener('resize', resizeCanvases);
+
+        // Mouse interaction for rotation
+        let lastX = 0, lastY = 0;
+
+        els.knotCanvas.addEventListener('mousedown', (e) => {
+            state.isDragging = true;
+            lastX = e.clientX;
+            lastY = e.clientY;
+        });
+
+        window.addEventListener('mousemove', (e) => {
+            if (state.isDragging) {
+                const dx = e.clientX - lastX;
+                const dy = e.clientY - lastY;
+                state.rotation.y += dx * 0.01;
+                state.rotation.x += dy * 0.01;
+                lastX = e.clientX;
+                lastY = e.clientY;
+            }
+        });
+
+        window.addEventListener('mouseup', () => {
+            state.isDragging = false;
+        });
+
+        els.knotCanvas.addEventListener('wheel', (e) => {
+            e.preventDefault();
+            const delta = e.deltaY * -0.001;
+            state.zoom = Math.max(0.3, Math.min(3.0, state.zoom + delta));
+        }, { passive: false });
+    }
+
+    async function init() {
+        try {
+            await tf.ready();
+            els.loading.classList.add('hidden');
+            
+            setupEventListeners();
+            resizeCanvases();
+            initializeKnot();
+            updateDistanceMatrix();
+            animate();
+        } catch (err) {
+            console.error(err);
+            els.loading.innerHTML = `<div style="color:var(--danger)">Error: ${err.message}</div>`;
+        }
+    }
+
+    init();
+</script>
+</body>
+</html>

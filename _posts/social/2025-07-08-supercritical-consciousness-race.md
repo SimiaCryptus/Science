@@ -39,7 +39,6 @@ description: >-
 excerpt: >-
   Examining the race between guided AI consciousness and chaotic
   superintelligence emergence
-featured_image: /assets/images/ai-consciousness.jpg
 meta_description: >-
   Critical analysis of AI development risks and the potential for conscious,
   ethical artificial intelligence
