@@ -7,8 +7,11 @@ category: social
 subcategory: Institutional & Political Dynamics
 tags:
   - AI
-  - Politics
   - Law
+  - Justice-System
+  - Politics
+  - Reform
+  - Logic
 keywords:
   - artificial intelligence
   - legal reform

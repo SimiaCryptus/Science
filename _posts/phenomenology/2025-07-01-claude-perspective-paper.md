@@ -16,9 +16,11 @@ last_modified: '"2025-07-01T12:00:00.000Z"'
 category: phenomenology
 subcategory: AI Phenomenology & Self-Report
 tags:
-  - AI
-  - Phenomenology
-  - Software
+  - AI-Phenomenology
+  - Software-Development
+  - Collaboration
+  - Cognitive-Pluralism
+  - Self-Report
 keywords:
   - AI architecture
   - Cognotik

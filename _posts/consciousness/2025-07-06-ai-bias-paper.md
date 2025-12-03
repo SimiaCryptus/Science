@@ -10,6 +10,8 @@ subcategory: Human-AI Dynamics
 tags:
   - AI
   - Psychology
+  - Bias
+  - Intelligence-Assessment
   - Research
 keywords:
   - ai bias

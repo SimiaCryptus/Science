@@ -10,6 +10,9 @@ subcategory: Neural Architectures & Optimization
 tags:
   - Machine-Learning
   - Mathematics
+  - Permutation-Symmetry
+  - Optimization
+  - Pruning
   - Research
 keywords:
   - co-inverse permutation

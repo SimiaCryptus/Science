@@ -10,7 +10,9 @@ subcategory: Human-AI Dynamics
 tags:
   - AI
   - Psychology
-  - Research
+  - Neurodivergence
+  - Epistemology
+  - Collaboration
 keywords:
   - neurodivergent cognition
   - AI collaboration

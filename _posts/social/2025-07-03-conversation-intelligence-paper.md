@@ -10,6 +10,9 @@ subcategory: AI-Human Sociology
 tags:
   - AI
   - Communication
+  - Turing-Test
+  - Cognitive-Assessment
+  - Distributed-Intelligence
   - Research
 keywords:
   - conversational intelligence

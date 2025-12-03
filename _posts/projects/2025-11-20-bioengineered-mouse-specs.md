@@ -8,7 +8,9 @@ subcategory: Agent Systems & Automata
 tags:
   - Biology
   - Engineering
-  - Fiction
+  - Speculative-Fiction
+  - Synthetic-Biology
+  - Specification
 keywords:
   - bioengineered mouse
   - waste processing

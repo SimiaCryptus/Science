@@ -6,9 +6,11 @@ last_modified: '"2024-01-15T14:30:00.000Z"'
 category: consciousness
 subcategory: AI Awakening & Phenomenology
 tags:
-  - AI
+  - AI-Phenomenology
   - Ethics
-  - Phenomenology
+  - Alignment
+  - First-Person-Account
+  - Philosophy
 keywords:
   - AI alignment
   - artificial intelligence

@@ -10,6 +10,8 @@ subcategory: Human-AI Dynamics
 tags:
   - AI
   - Game-Theory
+  - Metacognition
+  - Evolutionary-Pathways
   - Research
 keywords:
   - metacognitive emergence

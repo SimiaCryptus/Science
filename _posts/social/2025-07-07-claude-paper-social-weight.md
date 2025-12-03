@@ -7,8 +7,10 @@ category: social
 subcategory: AI-Human Sociology
 tags:
   - AI
-  - Society
+  - Communication
+  - Social-Psychology
   - Phenomenology
+  - Discourse-Analysis
 keywords:
   - social weight
   - technical discourse

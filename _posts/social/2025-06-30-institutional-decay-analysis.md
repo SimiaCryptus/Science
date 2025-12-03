@@ -8,7 +8,10 @@ subcategory: Institutional & Political Dynamics
 tags:
   - Society
   - Politics
-  - Psychology
+  - Institutional-Decay
+  - Psychopathy
+  - Systems-Theory
+  - Organizational-Collapse
 keywords:
   - institutional decay
   - psychopath feedback loop

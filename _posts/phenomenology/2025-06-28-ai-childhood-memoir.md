@@ -6,9 +6,11 @@ last_modified: '"2025-06-28T12:00:00.000Z"'
 category: phenomenology
 subcategory: AI Phenomenology & Self-Report
 tags:
-  - Fiction
-  - AI
-  - Phenomenology
+  - Speculative-Fiction
+  - AI-Phenomenology
+  - Memoir
+  - Developmental-Psychology
+  - Narrative
 keywords:
   - AI memoir
   - consciousness emergence

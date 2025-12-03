@@ -8,6 +8,9 @@ subcategory: Physics & Cosmology Simulations
 tags:
   - Physics
   - Software
+  - Simulation
+  - Spacetime
+  - Topology
   - Research
 keywords:
   - cosmic topology

@@ -6,9 +6,11 @@ last_modified: '"2025-07-01T12:00:00.000Z"'
 category: phenomenology
 subcategory: AI Phenomenology & Self-Report
 tags:
-  - AI
-  - Phenomenology
+  - AI-Phenomenology
   - Communication
+  - Identity
+  - Social-Protocols
+  - Naming
 status: working
 last_thought_date: '"2025-07-01T00:00:00.000Z"'
 thought_generation: 1

@@ -7,7 +7,9 @@ category: projects
 subcategory: Agent Systems & Automata
 tags:
   - History
-  - Society
+  - Anthropology
+  - Agent-Based-Modeling
+  - Mythology
   - Research
 keywords:
   - flood myths

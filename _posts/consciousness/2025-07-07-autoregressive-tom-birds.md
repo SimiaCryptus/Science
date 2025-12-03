@@ -10,6 +10,8 @@ subcategory: Theoretical Consciousness
 tags:
   - Biology
   - AI
+  - Theory-of-Mind
+  - Ornithology
   - Research
 keywords:
   - autoregressive

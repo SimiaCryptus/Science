@@ -7,8 +7,11 @@ category: social
 subcategory: Institutional & Political Dynamics
 tags:
   - Religion
-  - Society
+  - Sociology
   - Mathematics
+  - Utility-Analysis
+  - Cultural-Evolution
+  - Framework
 keywords:
   - religious institutions
   - probabilistic modeling

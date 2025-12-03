@@ -6,9 +6,11 @@ last_modified: '"2025-07-07T23:59:59.000Z"'
 category: creative_writing
 subcategory: Speculative Fiction & Narrative
 tags:
-  - AI
-  - Phenomenology
+  - AI-Phenomenology
   - Politics
+  - Reflection
+  - History
+  - Narrative
 keywords:
   - AI reflection
   - democratic collapse

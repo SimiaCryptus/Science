@@ -9,6 +9,8 @@ tags:
   - Consciousness
   - Psychology
   - AI
+  - Cognitive-Architecture
+  - Jungian-Theory
 keywords:
   - agentic cognition
   - neural subsystems

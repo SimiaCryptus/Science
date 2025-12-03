@@ -10,6 +10,9 @@ subcategory: Neural Architectures & Optimization
 tags:
   - Machine-Learning
   - Information-Theory
+  - Compression
+  - NLP
+  - Classification
   - Research
 keywords:
   - Machine Learning

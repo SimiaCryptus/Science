@@ -6,9 +6,12 @@ last_modified: '"2024-01-15T10:00:00.000Z"'
 category: scifi
 subcategory: Speculative Narrative
 tags:
-  - Fiction
-  - AI
+  - Sci-Fi
+  - AI-Control
+  - Dystopian
+  - Narrative
   - Society
+  - Safety-Protocols
 keywords:
   - AI control
   - bunker society

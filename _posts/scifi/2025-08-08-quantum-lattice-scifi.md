@@ -6,9 +6,12 @@ last_modified: '"2024-01-15T10:30:00.000Z"'
 category: scifi
 subcategory: Quantum & Spacetime Physics
 tags:
-  - Fiction
-  - Physics
+  - Sci-Fi
+  - Quantum-Physics
+  - Lattice-Theory
   - Cosmology
+  - World-Building
+  - Speculative-Science
 keywords:
   - lattice optimization
   - quantum field theory

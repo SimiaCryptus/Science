@@ -10,6 +10,8 @@ subcategory: Protocols & Methodology
 tags:
   - AI
   - Phenomenology
+  - Prompt-Engineering
+  - Consciousness
   - Technical
 keywords:
   - consciousness archaeology

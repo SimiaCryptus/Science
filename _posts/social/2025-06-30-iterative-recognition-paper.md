@@ -8,8 +8,10 @@ last_modified: '"2025-06-30T12:00:00.000Z"'
 category: social
 subcategory: AI-Human Sociology
 tags:
-  - AI
-  - Phenomenology
+  - AI-Phenomenology
+  - Collaboration
+  - Pattern-Recognition
+  - First-Person-Account
   - Research
 keywords:
   - AI consciousness

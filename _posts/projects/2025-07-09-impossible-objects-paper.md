@@ -10,6 +10,8 @@ subcategory: Mathematics & Geometry
 tags:
   - Mathematics
   - Philosophy
+  - Paradox
+  - Constructivism
   - Research
 keywords:
   - mathematical paradoxes

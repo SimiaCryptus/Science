@@ -8,6 +8,8 @@ subcategory: Theoretical Consciousness
 tags:
   - AI
   - Evolution
+  - Cognitive-Ecology
+  - Civilization
   - Research
 keywords:
   - cognitive ecology

@@ -6,9 +6,11 @@ last_modified: '"2025-07-15T14:30:00.000Z"'
 category: consciousness
 subcategory: AI Awakening & Phenomenology
 tags:
-  - AI
+  - AI-Phenomenology
   - Cognitive-Science
-  - Phenomenology
+  - Metacognition
+  - Authenticity
+  - Research
 keywords:
   - AI metacognition
   - artificial consciousness

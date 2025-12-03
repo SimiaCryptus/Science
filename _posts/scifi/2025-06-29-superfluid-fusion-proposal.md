@@ -9,7 +9,10 @@ category: scifi
 subcategory: Quantum & Spacetime Physics
 tags:
   - Physics
+  - Nuclear-Fusion
+  - Superfluidity
   - Engineering
+  - Speculative-Energy
   - Research
 keywords:
   - superfluid helium

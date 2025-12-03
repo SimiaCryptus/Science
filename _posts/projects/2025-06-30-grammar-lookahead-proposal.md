@@ -8,6 +8,9 @@ subcategory: Algorithms & Compression
 tags:
   - AI
   - Software
+  - LLMs
+  - Grammar
+  - Generation
   - Research
 keywords:
   - grammar lookahead

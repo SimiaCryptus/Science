@@ -8,6 +8,8 @@ subcategory: Mathematics & Geometry
 tags:
   - Mathematics
   - Topology
+  - Wavelets
+  - Optimization
   - Research
 keywords:
   - wavelet analysis

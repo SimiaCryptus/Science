@@ -10,7 +10,10 @@ subcategory: Computational Reality & Consciousness
 tags:
   - Physics
   - AI
+  - Geometric-Lattice
+  - Crystalline-Intelligence
   - Mathematics
+  - Neural-Substrates
 keywords:
   - probabilistic neural substrates
   - geometric lattice

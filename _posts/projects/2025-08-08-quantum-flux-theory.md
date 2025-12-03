@@ -7,7 +7,9 @@ category: projects
 subcategory: Physics & Cosmology Simulations
 tags:
   - Physics
-  - Research
+  - Quantum-Mechanics
+  - Minimal-Surfaces
+  - Geometry
   - Theory
 keywords:
   - minimal surface theory

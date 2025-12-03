@@ -6,9 +6,12 @@ last_modified: '"2025-11-27T09:49:10.000Z"'
 category: creative_writing
 subcategory: Comics & Visual Narrative
 tags:
-  - Fiction
+  - Comics
+  - Visual-Narrative
   - Philosophy
+  - Fiction
   - Art
+  - Socratic-Dialogue
 keywords:
   - comic book
   - christmas meaning

@@ -10,7 +10,10 @@ subcategory: Philosophical Frameworks
 tags:
   - Ethics
   - AI
+  - Relativity
+  - Philosophy
   - Phenomenology
+  - Moral-Frameworks
 keywords:
   - lorentzian ethics
   - observer-dependent morality

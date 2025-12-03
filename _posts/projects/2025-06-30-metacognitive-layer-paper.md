@@ -8,6 +8,8 @@ subcategory: Software Engineering & Specs
 tags:
   - AI
   - Cognitive-Science
+  - Metacognition
+  - Agent-Architecture
   - Research
 keywords:
   - metacognitive layer

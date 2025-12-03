@@ -9,6 +9,8 @@ tags:
   - Psychology
   - Satire
   - Society
+  - Intelligence
+  - Humor
 keywords:
   - IQ
   - intelligence

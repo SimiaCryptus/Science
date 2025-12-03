@@ -9,7 +9,9 @@ category: projects
 subcategory: Agent Systems & Automata
 tags:
   - Machine-Learning
-  - Environment
+  - Geospatial
+  - Cellular-Automata
+  - Wavelets
   - Research
 keywords:
   - cellular automata

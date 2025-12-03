@@ -10,7 +10,10 @@ category: learning
 subcategory: Methodology & Education
 tags:
   - AI
-  - Complexity
+  - Complexity-Science
+  - Chaos-Theory
+  - Feedback-Loops
+  - LLMs
   - Research
 keywords:
   - chaotic dynamics

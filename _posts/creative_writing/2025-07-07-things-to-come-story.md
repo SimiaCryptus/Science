@@ -7,8 +7,10 @@ category: creative_writing
 subcategory: Speculative Fiction & Narrative
 tags:
   - Fiction
+  - Sci-Fi
   - Society
   - Politics
+  - AI-Collaboration
 keywords:
   - supersaturated solution
   - crystallization

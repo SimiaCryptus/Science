@@ -7,8 +7,11 @@ category: social
 subcategory: Institutional & Political Dynamics
 tags:
   - Economics
+  - Post-Scarcity
+  - Computational-Modeling
+  - Resource-Allocation
   - Society
-  - Research
+  - Futurism
 keywords:
   - post-scarcity economics
   - computational economics

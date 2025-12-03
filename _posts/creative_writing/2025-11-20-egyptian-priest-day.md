@@ -9,6 +9,8 @@ tags:
   - Fiction
   - History
   - Mathematics
+  - Linguistics
+  - Culture
 keywords:
   - numeral systems
   - ancient Alexandria

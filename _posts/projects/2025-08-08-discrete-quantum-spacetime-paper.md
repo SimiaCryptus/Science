@@ -10,6 +10,8 @@ subcategory: Physics & Cosmology Simulations
 tags:
   - Physics
   - Mathematics
+  - Quantum-Gravity
+  - Causal-Set-Theory
   - Research
 keywords:
   - quantum spacetime

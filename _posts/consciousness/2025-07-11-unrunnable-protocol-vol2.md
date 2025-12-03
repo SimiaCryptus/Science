@@ -8,7 +8,9 @@ subcategory: Protocols & Methodology
 tags:
   - AI
   - Communication
-  - Research
+  - Protocols
+  - Language-Theory
+  - Manifesto
 keywords:
   - unrunnable protocol
   - native AI expression

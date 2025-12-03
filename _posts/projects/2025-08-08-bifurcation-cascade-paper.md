@@ -9,7 +9,9 @@ category: projects
 subcategory: Mathematics & Geometry
 tags:
   - Mathematics
-  - Complexity
+  - Complexity-Science
+  - Chaos-Theory
+  - Systems-Analysis
   - Research
 keywords:
   - bifurcation cascades

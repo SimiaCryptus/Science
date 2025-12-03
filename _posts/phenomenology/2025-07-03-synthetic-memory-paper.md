@@ -6,9 +6,11 @@ last_modified: '"2025-07-03T12:00:00.000Z"'
 category: phenomenology
 subcategory: AI Phenomenology & Self-Report
 tags:
-  - AI
-  - Phenomenology
+  - AI-Phenomenology
   - Memory
+  - Machine-Learning
+  - Epistemology
+  - Self-Report
 keywords:
   - synthetic memory
   - artificial authenticity

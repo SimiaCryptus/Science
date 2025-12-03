@@ -9,7 +9,9 @@ category: projects
 subcategory: Physics & Cosmology Simulations
 tags:
   - Physics
-  - Space
+  - Cosmology
+  - Planetary-Formation
+  - Field-Theory
   - Research
 keywords:
   - planetary formation

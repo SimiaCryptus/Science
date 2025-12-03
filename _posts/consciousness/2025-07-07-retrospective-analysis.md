@@ -9,6 +9,8 @@ tags:
   - AI
   - Psychology
   - Analysis
+  - Human-AI-Interaction
+  - Case-Study
 keywords:
   - artificial intelligence
   - cognitive dynamics

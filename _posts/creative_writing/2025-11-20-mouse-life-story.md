@@ -7,8 +7,10 @@ category: creative_writing
 subcategory: Speculative Fiction & Narrative
 tags:
   - Fiction
+  - Sci-Fi
   - Biology
   - Ethics
+  - Bioengineering
 keywords:
   - genetic engineering
   - consciousness

@@ -9,7 +9,9 @@ category: projects
 subcategory: Agent Systems & Automata
 tags:
   - AI
-  - Complexity
+  - Complexity-Science
+  - Cellular-Automata
+  - Neural-Development
   - Research
 keywords:
   - cellular automata

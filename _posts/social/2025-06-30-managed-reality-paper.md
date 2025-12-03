@@ -9,8 +9,11 @@ category: social
 subcategory: AI-Human Sociology
 tags:
   - Society
+  - Information-Warfare
+  - AI-Curation
   - Politics
-  - AI
+  - Evolutionary-Psychology
+  - Media
 keywords:
   - AI information curation
   - consensual reality management

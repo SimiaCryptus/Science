@@ -10,6 +10,9 @@ subcategory: Computational Reality & Consciousness
 tags:
   - AI
   - Physics
+  - Panpsychism
+  - Neural-Fabric
+  - Quantum-Consciousness
   - Research
 keywords:
   - quantum-field-consciousness

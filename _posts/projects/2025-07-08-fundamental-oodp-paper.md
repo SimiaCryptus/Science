@@ -8,6 +8,8 @@ subcategory: Physics & Cosmology Simulations
 tags:
   - Physics
   - Space
+  - Orbital-Mechanics
+  - Relativity
   - Research
 keywords:
   - retarded gravity

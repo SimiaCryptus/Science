@@ -8,7 +8,9 @@ subcategory: Methodology & Education
 tags:
   - Science
   - AI
-  - Research
+  - Creativity
+  - Hypothesis-Generation
+  - Research-Methodology
 keywords:
   - computational epistemology
   - hypothesis generation

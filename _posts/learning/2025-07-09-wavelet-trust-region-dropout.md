@@ -10,6 +10,9 @@ subcategory: Neural Architectures & Optimization
 tags:
   - Machine-Learning
   - Mathematics
+  - Optimization
+  - Wavelets
+  - Regularization
   - Research
 keywords:
   - dropout regularization

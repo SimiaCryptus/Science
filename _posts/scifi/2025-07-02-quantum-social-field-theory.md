@@ -9,7 +9,9 @@ category: scifi
 subcategory: Computational Reality & Consciousness
 tags:
   - Physics
-  - Society
+  - Social-Dynamics
+  - Quantum-Field-Theory
+  - Collaborative-Intelligence
   - Research
 keywords:
   - quantum field theory

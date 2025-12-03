@@ -10,6 +10,9 @@ subcategory: Computational Reality & Consciousness
 tags:
   - Physics
   - Mathematics
+  - Graph-Theory
+  - Quantum-Computing
+  - Complexity-Theory
   - Research
 keywords:
   - quantum computation

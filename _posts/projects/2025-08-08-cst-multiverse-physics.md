@@ -8,7 +8,9 @@ subcategory: Physics & Cosmology Simulations
 tags:
   - Physics
   - Fiction
-  - Research
+  - Causal-Set-Theory
+  - Multiverse
+  - Narrative-Structure
 keywords:
   - causal set theory
   - narrative spacetime

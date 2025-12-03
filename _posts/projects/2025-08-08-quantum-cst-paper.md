@@ -10,6 +10,8 @@ subcategory: Physics & Cosmology Simulations
 tags:
   - Physics
   - Mathematics
+  - Causal-Set-Theory
+  - Quantum-Groups
   - Research
 keywords:
   - quantum groups

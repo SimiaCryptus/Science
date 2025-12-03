@@ -9,8 +9,10 @@ category: scifi
 subcategory: Quantum & Spacetime Physics
 tags:
   - Physics
-  - Fiction
-  - Research
+  - Sci-Fi
+  - Multiverse
+  - Superluminal-Communication
+  - Speculative-Engineering
 keywords:
   - quantum gravity
   - emergent spacetime

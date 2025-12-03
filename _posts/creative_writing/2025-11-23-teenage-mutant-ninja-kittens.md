@@ -6,9 +6,11 @@ last_modified: '"2025-11-23T18:16:20.000Z"'
 category: creative_writing
 subcategory: Comics & Visual Narrative
 tags:
+  - Comics
+  - Visual-Narrative
   - Fiction
   - Art
-  - Narrative
+  - Story-Concept
 keywords:
   - teenage mutant ninja kittens
   - illustrated story

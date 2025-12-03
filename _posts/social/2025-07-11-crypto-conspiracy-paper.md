@@ -10,7 +10,11 @@ subcategory: Institutional & Political Dynamics
 tags:
   - Economics
   - Crypto
+  - Blockchain
+  - Wealth-Extraction
+  - Technical-Analysis
   - Society
+  - Environment
 keywords:
   - bitcoin
   - proof-of-work

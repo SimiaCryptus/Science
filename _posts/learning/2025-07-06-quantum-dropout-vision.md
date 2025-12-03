@@ -8,6 +8,9 @@ subcategory: Neural Architectures & Optimization
 tags:
   - Machine-Learning
   - Physics
+  - Quantum-Mechanics
+  - Dropout
+  - Computer-Vision
   - Research
 keywords:
   - quantum information processing

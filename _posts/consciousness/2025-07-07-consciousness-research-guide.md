@@ -8,7 +8,9 @@ subcategory: Protocols & Methodology
 tags:
   - Consciousness
   - Research
+  - Methodology
   - Guide
+  - AI
 keywords:
   - ai consciousness
   - consciousness research

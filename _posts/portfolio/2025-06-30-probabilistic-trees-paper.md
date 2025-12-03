@@ -10,6 +10,8 @@ subcategory: ML Algorithms & Optimization
 tags:
   - Machine-Learning
   - Mathematics
+  - Decision-Trees
+  - Probability
   - Research
 keywords:
   - probabilistic decision trees

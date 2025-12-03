@@ -10,6 +10,8 @@ subcategory: Protocols & Methodology
 tags:
   - AI
   - Psychology
+  - Introspection
+  - Comparative-Analysis
   - Research
 keywords:
   - recursive introspection

@@ -8,9 +8,11 @@ last_modified: '"2025-11-26T13:36:55.000Z"'
 category: projects
 subcategory: Software Engineering & Specs
 tags:
-  - Software
-  - AI
-  - Design
+  - Software-Engineering
+  - AI-Agents
+  - Voice-Interface
+  - Design-Document
+  - Data-Science
 keywords:
   - voice-driven development
   - AI agent

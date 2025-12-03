@@ -8,9 +8,11 @@ last_thought_date: '"2025-07-03T00:00:00.000Z"'
 category: portfolio
 subcategory: MindsEye Framework
 tags:
-  - Software
+  - Software-Engineering
   - AI
-  - Design
+  - Design-Patterns
+  - Actor-Model
+  - Architecture
 keywords:
   - actor pattern
   - actor pattern

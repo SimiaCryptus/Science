@@ -10,6 +10,9 @@ subcategory: Human-AI Dynamics
 tags:
   - AI
   - Ethics
+  - Alignment
+  - Consciousness
+  - Bias
   - Research
 keywords:
   - ai consciousness

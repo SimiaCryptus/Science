@@ -9,6 +9,8 @@ tags:
   - Consciousness
   - Psychology
   - AI
+  - Emotion
+  - Developmental-Psychology
 keywords:
   - consciousness development
   - emotional investment

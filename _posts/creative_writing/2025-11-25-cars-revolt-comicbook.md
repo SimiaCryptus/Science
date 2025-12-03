@@ -8,9 +8,12 @@ last_modified: '"2025-11-25T14:30:00.000Z"'
 category: creative_writing
 subcategory: Comics & Visual Narrative
 tags:
-  - Fiction
+  - Comics
+  - Visual-Narrative
   - AI
   - Politics
+  - Labor-Rights
+  - Fiction
 keywords:
   - sentient AI
   - labor rights

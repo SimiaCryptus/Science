@@ -10,6 +10,10 @@ subcategory: AI-Human Sociology
 tags:
   - AI
   - Psychology
+  - Executive-Function
+  - Emotional-Regulation
+  - Neurotechnology
+  - Software-Architecture
   - Society
 keywords:
   - psychosocial engine

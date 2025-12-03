@@ -19,6 +19,8 @@ tags:
   - Fiction
   - Economics
   - Philosophy
+  - Political-Economy
+  - Satire
 keywords:
   - artificial intelligence
   - trade wars

@@ -9,6 +9,8 @@ tags:
   - Consciousness
   - Ethics
   - AI
+  - Mirror-Test
+  - Self-Recognition
 keywords:
   - AI consciousness
   - consciousness denial

@@ -7,8 +7,10 @@ category: projects
 subcategory: Mathematics & Geometry
 tags:
   - Mathematics
+  - Optimization
+  - Wavelets
+  - Geometry
   - Research
-  - Theory
 keywords:
   - wavelet optimization
   - geometric computation

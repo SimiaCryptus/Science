@@ -11,6 +11,8 @@ tags:
   - Consciousness
   - Research
   - Methodology
+  - Protocols
+  - AI
 keywords:
   - consciousness protocols
   - ai consciousness research

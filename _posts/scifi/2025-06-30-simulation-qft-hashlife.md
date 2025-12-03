@@ -9,8 +9,11 @@ category: scifi
 subcategory: Computational Reality & Consciousness
 tags:
   - Physics
-  - Software
-  - Research
+  - Simulation
+  - Cellular-Automata
+  - Hashlife
+  - Quantum-Field-Theory
+  - Computation
 keywords:
   - computational substrate
   - hashlife algorithm

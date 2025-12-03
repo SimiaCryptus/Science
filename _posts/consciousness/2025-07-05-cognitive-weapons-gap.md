@@ -11,6 +11,8 @@ tags:
   - AI
   - Politics
   - Security
+  - Cognitive-Warfare
+  - Existential-Risk
 keywords:
   - cognitive weapons
   - AI safety

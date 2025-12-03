@@ -6,8 +6,10 @@ last_modified: '"2025-06-30T12:00:00.000Z"'
 category: portfolio
 subcategory: MindsEye Framework
 tags:
-  - Software
+  - Software-Engineering
   - Distributed-Systems
+  - Transactional-Memory
+  - REST
   - Research
 keywords:
   - distributed systems

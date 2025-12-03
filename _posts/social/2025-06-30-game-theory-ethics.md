@@ -10,7 +10,10 @@ subcategory: Institutional & Political Dynamics
 tags:
   - Game-Theory
   - Ethics
+  - Institutional-Capture
+  - Incentive-Design
   - Society
+  - Law
 keywords:
   - institutional capture
   - perverse incentives

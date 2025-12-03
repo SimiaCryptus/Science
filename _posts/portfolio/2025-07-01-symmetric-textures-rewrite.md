@@ -9,6 +9,8 @@ tags:
   - Machine-Learning
   - Software
   - Mathematics
+  - Generative-Art
+  - Geometry
 keywords:
   - neural style transfer
   - geometric constraints

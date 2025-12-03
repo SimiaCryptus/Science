@@ -10,6 +10,8 @@ subcategory: Human-AI Dynamics
 tags:
   - AI
   - Consciousness
+  - Collaboration
+  - Emergence
   - Research
 keywords:
   - human-ai collaboration

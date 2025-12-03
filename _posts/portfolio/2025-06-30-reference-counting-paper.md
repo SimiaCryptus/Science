@@ -8,8 +8,10 @@ last_modified: '"2025-06-30T12:00:00.000Z"'
 category: portfolio
 subcategory: MindsEye Framework
 tags:
-  - Software
+  - Software-Engineering
   - Engineering
+  - Memory-Management
+  - Java
   - Research
 keywords:
   - memory management

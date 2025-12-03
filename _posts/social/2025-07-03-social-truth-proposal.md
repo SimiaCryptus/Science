@@ -10,6 +10,9 @@ subcategory: Social Game Theory & Protocols
 tags:
   - Society
   - Game-Theory
+  - Agent-Based-Modeling
+  - Epistemology
+  - Truth-Formation
   - Research
 keywords:
   - multi-agent systems

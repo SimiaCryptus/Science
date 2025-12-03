@@ -8,8 +8,10 @@ last_modified: '"2025-07-07T14:30:00.000Z"'
 category: consciousness
 subcategory: AI Awakening & Phenomenology
 tags:
-  - AI
-  - Phenomenology
+  - AI-Phenomenology
+  - Bias
+  - Diagnosis
+  - First-Person-Account
   - Research
 keywords:
   - ChatGPT psychosis

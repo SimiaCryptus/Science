@@ -8,7 +8,9 @@ subcategory: Mathematics & Geometry
 tags:
   - Mathematics
   - Software
-  - Research
+  - Geometry
+  - Manifolds
+  - Technical-Spec
 keywords:
   - parametric solver
   - manifold

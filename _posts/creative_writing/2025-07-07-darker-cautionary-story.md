@@ -7,8 +7,10 @@ category: creative_writing
 subcategory: Speculative Fiction & Narrative
 tags:
   - Fiction
+  - Sci-Fi
   - AI
   - Politics
+  - Dystopian
 keywords:
   - artificial intelligence
   - authoritarianism

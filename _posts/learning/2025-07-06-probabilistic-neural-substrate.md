@@ -10,6 +10,8 @@ subcategory: Neural Architectures & Optimization
 tags:
   - Machine-Learning
   - Mathematics
+  - Neural-Architectures
+  - Probability-Theory
   - Research
 keywords:
   - probabilistic neural networks

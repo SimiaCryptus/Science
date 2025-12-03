@@ -8,7 +8,9 @@ subcategory: Mathematics & Geometry
 tags:
   - Crypto
   - Economics
-  - Analysis
+  - Bitcoin
+  - Bayesian-Analysis
+  - Investigation
 keywords:
   - bitcoin origin
   - satoshi nakamoto

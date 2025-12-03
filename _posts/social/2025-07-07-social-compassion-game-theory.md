@@ -9,8 +9,11 @@ category: social
 subcategory: Social Game Theory & Protocols
 tags:
   - Game-Theory
-  - Society
+  - Evolutionary-Biology
+  - Compassion
+  - Cooperation
   - Ethics
+  - Mathematics
 keywords:
   - prisoner's dilemma
   - evolutionary game theory

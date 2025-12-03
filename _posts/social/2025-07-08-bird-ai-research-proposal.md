@@ -10,7 +10,10 @@ subcategory: AI-Human Sociology
 tags:
   - AI
   - Biology
-  - Research
+  - Ornithology
+  - Theory-of-Mind
+  - Communication
+  - Research-Proposal
 keywords:
   - autoregressive theory
   - theory of mind

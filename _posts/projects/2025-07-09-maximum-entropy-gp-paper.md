@@ -10,6 +10,8 @@ subcategory: Algorithms & Compression
 tags:
   - Machine-Learning
   - Mathematics
+  - Genetic-Programming
+  - Entropy
   - Research
 keywords:
   - genetic programming

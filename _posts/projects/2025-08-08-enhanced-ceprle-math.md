@@ -10,6 +10,8 @@ subcategory: Algorithms & Compression
 tags:
   - Mathematics
   - Software
+  - Compression
+  - Wavelets
   - Research
 keywords:
   - CEP-RLE

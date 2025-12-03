@@ -8,9 +8,12 @@ last_modified: '"2025-11-27T09:51:42.000Z"'
 category: creative_writing
 subcategory: Comics & Visual Narrative
 tags:
-  - Fiction
-  - History
+  - Comics
+  - Visual-Narrative
   - Philosophy
+  - History
+  - Fiction
+  - Gratitude
 keywords:
   - Thanksgiving meaning
   - gratitude and history

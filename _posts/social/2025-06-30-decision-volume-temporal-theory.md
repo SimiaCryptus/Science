@@ -8,8 +8,10 @@ category: social
 subcategory: Social Game Theory & Protocols
 tags:
   - Psychology
-  - Philosophy
-  - Research
+  - Philosophy-of-Time
+  - Cognitive-Science
+  - Decision-Theory
+  - Phenomenology
 keywords:
   - decision volume
   - temporal metrics

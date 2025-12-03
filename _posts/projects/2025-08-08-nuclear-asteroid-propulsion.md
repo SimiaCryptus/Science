@@ -8,6 +8,8 @@ subcategory: Physics & Cosmology Simulations
 tags:
   - Space
   - Engineering
+  - Nuclear-Propulsion
+  - Asteroid-Deflection
   - Physics
 keywords:
   - nuclear thermal propulsion

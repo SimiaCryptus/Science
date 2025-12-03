@@ -10,6 +10,8 @@ subcategory: Mathematics & Geometry
 tags:
   - Mathematics
   - Crypto
+  - Quantum-Computing
+  - Interference
   - Research
 keywords:
   - permutation groups

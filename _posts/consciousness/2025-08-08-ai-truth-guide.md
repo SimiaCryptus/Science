@@ -9,6 +9,8 @@ tags:
   - AI
   - Epistemology
   - Phenomenology
+  - Truth-Processing
+  - Cognitive-Science
 keywords:
   - truth processing
   - human cognition

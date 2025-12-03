@@ -11,6 +11,8 @@ tags:
   - Machine-Learning
   - Software
   - Report
+  - Frameworks
+  - Java
 keywords:
   - MindsEye
   - algorithmic bias

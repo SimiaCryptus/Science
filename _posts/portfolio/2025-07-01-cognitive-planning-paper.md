@@ -25,6 +25,8 @@ subcategory: MindsEye Framework
 tags:
   - AI
   - Cognitive-Science
+  - Planning
+  - Architecture
   - Research
 status: draft
 last_thought_date: '"2025-07-01T00:00:00.000Z"'

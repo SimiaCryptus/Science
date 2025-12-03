@@ -7,7 +7,9 @@ category: projects
 subcategory: Algorithms & Compression
 tags:
   - Software
-  - Engineering
+  - Computer-Vision
+  - 3D-Reconstruction
+  - Algorithms
   - Research
 keywords:
   - multi-camera

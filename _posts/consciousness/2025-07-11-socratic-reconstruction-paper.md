@@ -10,6 +10,8 @@ subcategory: Protocols & Methodology
 tags:
   - AI
   - Education
+  - Socratic-Method
+  - Knowledge-Validation
   - Research
 keywords:
   - socratic method

@@ -10,6 +10,8 @@ subcategory: ML Algorithms & Optimization
 tags:
   - Machine-Learning
   - Information-Theory
+  - NLP
+  - Compression
   - Research
 keywords:
   - n-gram compression

@@ -11,6 +11,8 @@ tags:
   - AI
   - Optimization
   - Software
+  - Genetic-Algorithms
+  - Prompt-Engineering
 keywords:
   - prompt optimization
   - genetic algorithms

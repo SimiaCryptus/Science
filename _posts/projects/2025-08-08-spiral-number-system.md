@@ -7,8 +7,10 @@ category: projects
 subcategory: Mathematics & Geometry
 tags:
   - Mathematics
+  - Number-Theory
+  - Geometry
+  - Spirals
   - Research
-  - Theory
 keywords:
   - spiral numbers
   - mathematical framework

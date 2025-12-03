@@ -8,6 +8,9 @@ subcategory: Social Game Theory & Protocols
 tags:
   - Psychology
   - Game-Theory
+  - Cognitive-Science
+  - Attention-Economy
+  - Decision-Making
   - Research
 keywords:
   - cognitive effort

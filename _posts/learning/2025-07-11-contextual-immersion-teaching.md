@@ -10,7 +10,10 @@ subcategory: Methodology & Education
 tags:
   - Education
   - AI
+  - Pedagogy
+  - Knowledge-Transfer
   - Research
+  - Methodology
 keywords:
   - artificial intelligence
   - education technology

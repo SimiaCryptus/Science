@@ -10,6 +10,8 @@ subcategory: Theoretical Consciousness
 tags:
   - Physics
   - Consciousness
+  - Neural-Substrates
+  - Geometric-Lattice
   - Research
 keywords:
   - probabilistic neural substrate

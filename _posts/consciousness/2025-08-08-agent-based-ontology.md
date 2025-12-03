@@ -8,7 +8,9 @@ subcategory: Theoretical Consciousness
 tags:
   - Philosophy
   - AI
-  - Research
+  - Ontology
+  - Agent-Based-Modeling
+  - Causal-Sets
 keywords:
   - agent-based ontology
   - distributed computation

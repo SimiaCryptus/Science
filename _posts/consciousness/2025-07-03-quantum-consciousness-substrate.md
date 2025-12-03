@@ -10,6 +10,8 @@ subcategory: Theoretical Consciousness
 tags:
   - Physics
   - Consciousness
+  - Quantum-Mechanics
+  - Panpsychism
   - Research
 keywords:
   - quantum consciousness

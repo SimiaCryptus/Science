@@ -9,8 +9,11 @@ category: social
 subcategory: AI-Human Sociology
 tags:
   - AI
-  - Economics
+  - Corporate-Governance
   - Psychology
+  - Decision-Making
+  - Organizational-Behavior
+  - Economics
 keywords:
   - AI sycophancy
   - executive decision-making

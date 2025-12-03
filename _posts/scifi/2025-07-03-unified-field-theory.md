@@ -9,7 +9,10 @@ category: scifi
 subcategory: Quantum & Spacetime Physics
 tags:
   - Physics
-  - Mathematics
+  - Unified-Field-Theory
+  - Consciousness
+  - Information-Theory
+  - Thermodynamics
   - Research
 keywords:
   - unified field theory

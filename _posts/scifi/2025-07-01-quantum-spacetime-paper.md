@@ -11,7 +11,10 @@ subcategory: Quantum & Spacetime Physics
 tags:
   - Physics
   - Cosmology
+  - Quantum-Gravity
+  - Spacetime-Emergence
   - Research
+  - Theory
 keywords:
   - quantum foam
   - loop quantum gravity

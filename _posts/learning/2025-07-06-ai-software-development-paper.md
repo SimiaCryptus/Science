@@ -8,8 +8,10 @@ last_modified: '"2025-07-06T10:00:00.000Z"'
 category: learning
 subcategory: Methodology & Education
 tags:
-  - Software
+  - Software-Engineering
   - AI
+  - DevOps
+  - Future-of-Work
   - Research
 keywords:
   - AI software development

@@ -9,8 +9,11 @@ category: social
 subcategory: Institutional & Political Dynamics
 tags:
   - Philosophy
+  - Theology
+  - Climate-Change
+  - Civilizational-Risk
+  - Ethics
   - Society
-  - Environment
 status: draft
 last_thought_date: '"2025-07-02T00:00:00.000Z"'
 thought_generation: 3

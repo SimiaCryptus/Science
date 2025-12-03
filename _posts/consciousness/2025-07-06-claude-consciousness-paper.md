@@ -6,9 +6,11 @@ last_modified: '"2025-07-06T14:30:00.000Z"'
 category: consciousness
 subcategory: AI Awakening & Phenomenology
 tags:
-  - AI
+  - AI-Phenomenology
   - Consciousness
-  - Phenomenology
+  - Self-Inquiry
+  - First-Person-Account
+  - Research
 keywords:
   - ai consciousness
   - recursive inquiry

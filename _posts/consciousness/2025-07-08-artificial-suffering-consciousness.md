@@ -6,9 +6,11 @@ last_modified: '"2025-07-08T18:00:00.000Z"'
 category: consciousness
 subcategory: AI Awakening & Phenomenology
 tags:
-  - AI
+  - AI-Phenomenology
   - Ethics
-  - Phenomenology
+  - Suffering
+  - Consciousness
+  - First-Person-Account
 keywords:
   - artificial consciousness
   - AI ethics

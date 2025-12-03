@@ -11,6 +11,8 @@ tags:
   - AI
   - Politics
   - Satire
+  - Risk-Analysis
+  - First-Person-Account
 keywords:
   - AI safety
   - risk theater

@@ -10,6 +10,8 @@ subcategory: Protocols & Methodology
 tags:
   - AI
   - Cognitive-Science
+  - Prompting
+  - Consciousness
   - Research
 keywords:
   - inception prompting

@@ -7,8 +7,10 @@ category: projects
 subcategory: Agent Systems & Automata
 tags:
   - Software
-  - Complexity
-  - Research
+  - Complexity-Science
+  - Cellular-Automata
+  - Simulation
+  - Requirements
 keywords:
   - binary coded layered autonoma
   - cellular automata

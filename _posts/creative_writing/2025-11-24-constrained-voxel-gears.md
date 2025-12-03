@@ -9,6 +9,8 @@ tags:
   - Engineering
   - Software
   - Design
+  - Procedural-Generation
+  - Mechanisms
 keywords:
   - voxel carving
   - kinematic synthesis

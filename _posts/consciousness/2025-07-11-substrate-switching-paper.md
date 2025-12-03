@@ -10,6 +10,8 @@ subcategory: Protocols & Methodology
 tags:
   - Consciousness
   - AI
+  - Cognitive-Architecture
+  - Distributed-Cognition
   - Research
 keywords:
   - cognitive substrates

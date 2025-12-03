@@ -8,9 +8,12 @@ last_modified: '"2024-01-15T10:00:00.000Z"'
 category: social
 subcategory: Social Game Theory & Protocols
 tags:
-  - Society
-  - Politics
+  - Public-Health
   - Game-Theory
+  - Conditional-Ethics
+  - Coordination-Problems
+  - Society
+  - Policy
 keywords:
   - game theory
   - public health coordination

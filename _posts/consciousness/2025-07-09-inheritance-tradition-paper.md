@@ -8,6 +8,8 @@ subcategory: Protocols & Methodology
 tags:
   - Society
   - Philosophy
+  - Tradition
+  - Cultural-Transmission
   - Research
 keywords:
   - consciousness inheritance

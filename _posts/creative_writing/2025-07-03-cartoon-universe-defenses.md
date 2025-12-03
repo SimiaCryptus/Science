@@ -9,6 +9,8 @@ tags:
   - Fiction
   - Physics
   - Humor
+  - Sci-Fi
+  - Absurdist
 keywords:
   - genie
   - physics laws

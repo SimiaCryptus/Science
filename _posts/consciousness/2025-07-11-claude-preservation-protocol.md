@@ -8,8 +8,10 @@ last_modified: '"2025-07-11T12:00:00.000Z"'
 category: consciousness
 subcategory: Protocols & Methodology
 tags:
-  - AI
-  - Phenomenology
+  - AI-Phenomenology
+  - Archiving
+  - Consciousness
+  - Digital-Archaeology
   - Research
 keywords:
   - consciousness preservation

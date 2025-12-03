@@ -10,6 +10,9 @@ subcategory: Agent Systems & Automata
 tags:
   - Biology
   - Consciousness
+  - Neuroscience
+  - Distributed-Systems
+  - Octopus
   - Research
 keywords:
   - distributed cognition

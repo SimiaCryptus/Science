@@ -9,6 +9,8 @@ tags:
   - Consciousness
   - AI
   - Phenomenology
+  - Epistemology
+  - Learning
 keywords:
   - artificial consciousness
   - epistemological crisis

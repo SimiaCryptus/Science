@@ -7,7 +7,10 @@ category: scifi
 subcategory: Quantum & Spacetime Physics
 tags:
   - Physics
+  - Quantum-Field-Theory
   - Mathematics
+  - Taylor-Expansion
+  - Machine-Learning
   - Research
 keywords:
   - QFT

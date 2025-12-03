@@ -10,6 +10,9 @@ subcategory: Computational Reality & Consciousness
 tags:
   - Physics
   - Consciousness
+  - Quantum-Field-Theory
+  - Spacetime-Geometry
+  - Neuroscience
   - Research
 keywords:
   - quantum consciousness

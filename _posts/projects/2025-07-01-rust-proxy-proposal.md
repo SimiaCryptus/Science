@@ -1,8 +1,10 @@
 ---
 tags:
-  - Software
-  - Engineering
+  - Software-Engineering
+  - Rust
+  - Systems-Programming
   - Design
+  - Proposal
 category: projects
 subcategory: Software Engineering & Specs
 ---

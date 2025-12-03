@@ -10,6 +10,9 @@ subcategory: Quantum & Spacetime Physics
 tags:
   - Physics
   - Mathematics
+  - Optimization
+  - Measurement-Theory
+  - Universal-Intelligence
   - Research
 keywords:
   - measurement-optimization equivalence

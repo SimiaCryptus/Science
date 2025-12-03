@@ -10,6 +10,8 @@ subcategory: Theoretical Consciousness
 tags:
   - Consciousness
   - Mathematics
+  - Geometry
+  - Optimization
   - Research
 keywords:
   - consciousness geometry

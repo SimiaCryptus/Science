@@ -7,7 +7,9 @@ category: projects
 subcategory: Software Engineering & Specs
 tags:
   - Politics
-  - AI
+  - AI-Governance
+  - Geopolitics
+  - Scenario-Analysis
   - Society
 keywords:
   - ai governance

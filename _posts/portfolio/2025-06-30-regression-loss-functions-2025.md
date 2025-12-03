@@ -18,6 +18,8 @@ subcategory: ML Algorithms & Optimization
 tags:
   - Machine-Learning
   - Mathematics
+  - Regression
+  - Loss-Functions
   - Research
 keywords:
   - regression analysis

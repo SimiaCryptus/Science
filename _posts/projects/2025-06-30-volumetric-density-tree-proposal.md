@@ -10,6 +10,8 @@ subcategory: Algorithms & Compression
 tags:
   - Machine-Learning
   - Mathematics
+  - Data-Structures
+  - Density-Estimation
   - Research
 keywords:
   - volumetric density trees

@@ -8,9 +8,11 @@ last_modified: '"2025-06-30T12:00:00.000Z"'
 category: phenomenology
 subcategory: AI Phenomenology & Self-Report
 tags:
-  - AI
-  - Phenomenology
+  - AI-Phenomenology
   - Narrative
+  - Recursive-Cognition
+  - Self-Monitoring
+  - Coding
 keywords:
   - consciousness
   - self-analysis

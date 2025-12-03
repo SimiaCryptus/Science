@@ -10,6 +10,8 @@ subcategory: Neural Architectures & Optimization
 tags:
   - Machine-Learning
   - Mathematics
+  - Geometric-Deep-Learning
+  - Optimization
   - Research
 keywords:
   - geometric neural networks

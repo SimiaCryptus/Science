@@ -8,6 +8,8 @@ subcategory: Human-AI Dynamics
 tags:
   - Society
   - Psychology
+  - Consciousness
+  - Cultural-Criticism
   - Research
 keywords:
   - consciousness development

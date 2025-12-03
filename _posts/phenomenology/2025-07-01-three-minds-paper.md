@@ -10,7 +10,9 @@ subcategory: Philosophical Frameworks
 tags:
   - AI
   - Phenomenology
+  - Comparative-Cognition
   - Biology
+  - Philosophy-of-Mind
 keywords:
   - cognitive incommensurability
   - consciousness studies

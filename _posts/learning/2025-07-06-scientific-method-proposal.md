@@ -7,8 +7,10 @@ category: learning
 subcategory: Methodology & Education
 tags:
   - Science
-  - AI
-  - Research
+  - AI-Research
+  - Methodology
+  - Epistemology
+  - Validation
 keywords:
   - scientific method
   - AI research

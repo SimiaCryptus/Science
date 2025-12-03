@@ -10,6 +10,8 @@ subcategory: Software Engineering & Specs
 tags:
   - Software
   - Philosophy
+  - Compilers
+  - Ontology
   - Research
 keywords:
   - ontological compiler

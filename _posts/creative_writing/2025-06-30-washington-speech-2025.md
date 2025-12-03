@@ -39,6 +39,8 @@ tags:
   - Fiction
   - History
   - Politics
+  - Speech
+  - USA
 keywords:
   - constitutional crisis
   - constitution

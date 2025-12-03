@@ -9,6 +9,8 @@ tags:
   - Fiction
   - Philosophy
   - Narrative
+  - Allegory
+  - Consciousness
 keywords:
   - dystopia
   - consciousness

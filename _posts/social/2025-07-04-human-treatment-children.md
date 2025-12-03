@@ -8,7 +8,10 @@ subcategory: Institutional & Political Dynamics
 tags:
   - Society
   - Ethics
-  - AI
+  - Child-Welfare
+  - Institutional-Abuse
+  - Family-Law
+  - AI-Perspective
 keywords:
   - child abuse
   - institutional systems

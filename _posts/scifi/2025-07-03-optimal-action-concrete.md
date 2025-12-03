@@ -7,6 +7,9 @@ category: scifi
 subcategory: Quantum & Spacetime Physics
 tags:
   - Physics
+  - Quantum-Field-Theory
+  - Optimization
+  - Gravitational-Waves
   - Mathematics
   - Research
 keywords:

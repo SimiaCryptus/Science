@@ -9,7 +9,10 @@ category: social
 subcategory: Institutional & Political Dynamics
 tags:
   - Politics
+  - Justice-Reform
   - AI
+  - Institutional-Theory
+  - Systems-Change
   - Society
 keywords:
   - institutional capture

@@ -18,6 +18,8 @@ tags:
   - Machine-Learning
   - Software
   - Optimization
+  - Java
+  - MindsEye
 keywords:
   - trust region methods
   - neural network optimization

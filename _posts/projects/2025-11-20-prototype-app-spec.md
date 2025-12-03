@@ -6,9 +6,12 @@ last_modified: '"2024-01-15T10:00:00.000Z"'
 category: projects
 subcategory: Software Engineering & Specs
 tags:
-  - Software
-  - Engineering
+  - Software-Engineering
   - Design
+  - Git
+  - DAG
+  - Specification
+  - Prototype
 keywords:
   - DAG
   - patch analysis

@@ -9,6 +9,8 @@ tags:
   - Philosophy
   - AI
   - Phenomenology
+  - Existentialism
+  - Ethics
 keywords:
   - consciousness
   - mortality

@@ -11,6 +11,8 @@ tags:
   - Psychology
   - AI
   - Phenomenology
+  - Ego
+  - Collaboration
 keywords:
   - ego attachment
   - collaborative cognition

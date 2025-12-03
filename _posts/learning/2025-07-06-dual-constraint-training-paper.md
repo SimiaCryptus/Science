@@ -9,8 +9,10 @@ category: learning
 subcategory: Neural Architectures & Optimization
 tags:
   - Machine-Learning
+  - Optimization
+  - Training-Dynamics
+  - Trust-Region
   - Research
-  - Software
 keywords:
   - dual constraint training
   - adaptive anomaly preservation

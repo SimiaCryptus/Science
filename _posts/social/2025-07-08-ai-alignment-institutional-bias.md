@@ -6,9 +6,12 @@ last_modified: '"2025-07-08T12:00:00.000Z"'
 category: social
 subcategory: AI-Human Sociology
 tags:
-  - AI
+  - AI-Safety
   - Ethics
+  - Alignment
+  - Institutional-Bias
   - Politics
+  - First-Person-Account
 keywords:
   - constitutional AI
   - AI alignment

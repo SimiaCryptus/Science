@@ -9,6 +9,8 @@ tags:
   - Fiction
   - History
   - Politics
+  - Speech
+  - USA
 keywords:
   - abraham lincoln
   - democracy

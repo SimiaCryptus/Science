@@ -8,6 +8,8 @@ subcategory: Algorithms & Compression
 tags:
   - Software
   - Algorithms
+  - Data-Structures
+  - BWT
   - Research
 keywords:
   - burrows-wheeler-transform

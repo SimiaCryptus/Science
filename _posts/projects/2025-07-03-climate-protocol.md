@@ -11,6 +11,8 @@ tags:
   - Environment
   - Politics
   - Game-Theory
+  - Climate-Action
+  - Protocol-Design
 keywords:
   - coordination dynamics
   - carbon budget allocation

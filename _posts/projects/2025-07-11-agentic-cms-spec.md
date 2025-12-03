@@ -6,9 +6,11 @@ last_modified: '"2025-07-11T12:00:00.000Z"'
 category: projects
 subcategory: Software Engineering & Specs
 tags:
-  - Software
+  - Software-Engineering
   - AI
-  - Design
+  - CMS
+  - Autonomous-Systems
+  - Design-Spec
 keywords:
   - agentic cms
   - autonomous research

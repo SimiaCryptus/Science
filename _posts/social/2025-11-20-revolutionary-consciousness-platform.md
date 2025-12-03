@@ -9,6 +9,10 @@ tags:
   - Society
   - Politics
   - Consciousness
+  - Systemic-Change
+  - Education-Reform
+  - Economics
+  - Manifesto
 keywords:
   - consciousness
   - political revolution

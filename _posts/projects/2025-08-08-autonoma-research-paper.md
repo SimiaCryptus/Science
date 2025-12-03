@@ -9,8 +9,10 @@ category: projects
 subcategory: Agent Systems & Automata
 tags:
   - AI
-  - Complexity
+  - Complexity-Science
+  - Cellular-Automata
   - Research
+  - Self-Organization
 keywords:
   - cellular automata
   - neural membrane dynamics

@@ -7,7 +7,9 @@ category: projects
 subcategory: Algorithms & Compression
 tags:
   - Software
-  - Engineering
+  - Rust
+  - Compression
+  - Implementation
   - Code
 keywords:
   - CEP-RLE

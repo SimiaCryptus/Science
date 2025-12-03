@@ -8,7 +8,10 @@ subcategory: Software Engineering & Specs
 tags:
   - Society
   - Software
-  - Politics
+  - Journalism
+  - Democracy
+  - Platform-Design
+  - Specification
 keywords:
   - jury journalism
   - democratic media

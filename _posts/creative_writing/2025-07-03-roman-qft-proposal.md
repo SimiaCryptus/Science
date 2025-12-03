@@ -11,6 +11,8 @@ tags:
   - Fiction
   - History
   - Physics
+  - Satire
+  - Academic
 keywords:
   - translatio physica
   - simulated consciousness

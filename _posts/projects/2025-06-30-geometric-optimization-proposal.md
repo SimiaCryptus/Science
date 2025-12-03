@@ -8,6 +8,8 @@ subcategory: Mathematics & Geometry
 tags:
   - Mathematics
   - Optimization
+  - Geometry
+  - Manifolds
   - Research
 keywords:
   - geometric optimization

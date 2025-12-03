@@ -10,7 +10,11 @@ subcategory: Institutional & Political Dynamics
 tags:
   - History
   - Economics
+  - Technofeudalism
+  - AI-Disruption
+  - Political-Economy
   - Society
+  - Power-Dynamics
 keywords:
   - technofeudalism
   - platform economy

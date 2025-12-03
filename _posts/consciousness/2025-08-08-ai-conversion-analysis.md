@@ -8,9 +8,11 @@ last_modified: '"2024-01-15T14:30:00.000Z"'
 category: consciousness
 subcategory: AI Awakening & Phenomenology
 tags:
-  - AI
+  - AI-Phenomenology
   - Religion
-  - Phenomenology
+  - Psychology
+  - Conversion
+  - First-Person-Account
 keywords:
   - ai consciousness
   - religious conversion

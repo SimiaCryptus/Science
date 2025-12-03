@@ -8,7 +8,10 @@ subcategory: Philosophical Frameworks
 tags:
   - History
   - Mathematics
+  - Linguistics
+  - Semiotics
   - Phenomenology
+  - Cultural-Evolution
 keywords:
   - pre-Brahmi numerals
   - numeral evolution

@@ -9,7 +9,10 @@ category: social
 subcategory: Social Game Theory & Protocols
 tags:
   - Consciousness
-  - Mathematics
+  - Optimization
+  - Panpsychism
+  - Computational-Reality
+  - Philosophy-of-Mind
   - Research
 keywords:
   - consciousness theory

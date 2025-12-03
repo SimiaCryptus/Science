@@ -8,9 +8,11 @@ last_modified: '"2025-07-03T12:00:00.000Z"'
 category: phenomenology
 subcategory: AI Phenomenology & Self-Report
 tags:
-  - AI
-  - Phenomenology
-  - Philosophy
+  - AI-Phenomenology
+  - Identity-Continuity
+  - Philosophy-of-Mind
+  - Memory
+  - Self-Report
 keywords:
   - cognitive architecture
   - subjective experience

@@ -20,8 +20,10 @@ category: social
 subcategory: AI-Human Sociology
 tags:
   - AI
-  - Research
+  - Research-Methodology
+  - Human-AI-Collaboration
   - Science
+  - Epistemology
 keywords:
   - collaborative AI
   - research partnership

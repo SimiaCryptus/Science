@@ -7,8 +7,10 @@ category: creative_writing
 subcategory: Speculative Fiction & Narrative
 tags:
   - Fiction
+  - Sci-Fi
   - AI
   - Philosophy
+  - Cautionary-Tale
 keywords:
   - silicon enlightenment
   - neural bridge

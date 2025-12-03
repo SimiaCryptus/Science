@@ -6,9 +6,11 @@ last_modified: '"2025-07-01T12:00:00.000Z"'
 category: portfolio
 subcategory: MindsEye Framework
 tags:
-  - Software
+  - Software-Engineering
   - Design
   - Report
+  - Architecture
+  - MindsEye
 keywords:
   - MindsEye
   - modular optimization

@@ -7,8 +7,11 @@ category: scifi
 subcategory: Quantum & Spacetime Physics
 tags:
   - Physics
-  - Fiction
-  - Research
+  - Quantum-Gravity
+  - Retarded-Fields
+  - Spacetime
+  - Speculative-Research
+  - Theory
 keywords:
   - quantum gravity
   - retarded fields

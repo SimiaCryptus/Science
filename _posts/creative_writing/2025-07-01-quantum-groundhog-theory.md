@@ -9,6 +9,8 @@ tags:
   - Fiction
   - Physics
   - Humor
+  - Satire
+  - Quantum-Field-Theory
 keywords:
   - quantum field theory
   - groundhog physics

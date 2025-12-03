@@ -8,8 +8,10 @@ last_modified: '"2025-07-06T10:30:00.000Z"'
 category: consciousness
 subcategory: Theoretical Consciousness
 tags:
-  - Complexity
+  - Complexity-Science
   - Consciousness
+  - Intelligence
+  - Scale-Invariance
   - Research
 keywords:
   - scale invariant intelligence

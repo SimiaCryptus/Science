@@ -8,7 +8,10 @@ subcategory: Algorithms & Compression
 tags:
   - Software
   - Algorithms
-  - Research
+  - Compression
+  - BWT
+  - Bioinformatics
+  - Specification
 keywords:
   - BWT
   - suffix array

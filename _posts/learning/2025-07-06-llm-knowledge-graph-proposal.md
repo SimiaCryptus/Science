@@ -1,8 +1,11 @@
 ---
 tags:
   - AI
-  - Software
+  - Software-Engineering
+  - Knowledge-Graphs
+  - LLMs
   - Research
+  - Data-Structures
 category: learning
 subcategory: Methodology & Education
 ---

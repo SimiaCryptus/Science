@@ -8,8 +8,11 @@ last_modified: '"2025-06-30T12:00:00.000Z"'
 category: social
 subcategory: Social Game Theory & Protocols
 tags:
-  - AI
-  - Society
+  - AI-Agents
+  - Social-Dynamics
+  - Belief-Propagation
+  - Simulation
+  - Group-Psychology
   - Research
 keywords:
   - ideatic dynamics

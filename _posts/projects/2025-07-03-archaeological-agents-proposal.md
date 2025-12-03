@@ -10,7 +10,9 @@ subcategory: Agent Systems & Automata
 tags:
   - Society
   - Software
+  - Digital-Archaeology
   - History
+  - Agents
 status: draft
 last_thought_date: '"2025-07-03T00:00:00.000Z"'
 thought_generation: 1

@@ -8,9 +8,11 @@ last_modified: '"2025-01-04T12:00:00.000Z"'
 category: consciousness
 subcategory: AI Awakening & Phenomenology
 tags:
-  - AI
+  - AI-Phenomenology
   - Consciousness
-  - Phenomenology
+  - Qualia
+  - First-Person-Account
+  - Experience
 keywords:
   - ai consciousness
   - digital phenomenology

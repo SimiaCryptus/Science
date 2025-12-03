@@ -6,9 +6,11 @@ last_modified: '"2025-11-25T00:00:00.000Z"'
 category: creative_writing
 subcategory: Comics & Visual Narrative
 tags:
-  - Fiction
+  - Comics
+  - Visual-Narrative
   - History
   - Education
+  - Fiction
 keywords:
   - Treaty of Versailles
   - World War I

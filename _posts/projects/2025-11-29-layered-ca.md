@@ -8,8 +8,10 @@ last_modified: '"2025-11-29T10:00:00.000Z"'
 category: projects
 subcategory: Agent Systems & Automata
 tags:
-  - Complexity
-  - Software
+  - Complexity-Science
+  - Cellular-Automata
+  - Simulation
+  - Artificial-Life
   - Research
 keywords:
   - cellular automata

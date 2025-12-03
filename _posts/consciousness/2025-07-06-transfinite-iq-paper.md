@@ -8,6 +8,8 @@ subcategory: Theoretical Consciousness
 tags:
   - Mathematics
   - Psychology
+  - Intelligence
+  - Transfinite-Math
   - Research
 keywords:
   - transfinite intelligence

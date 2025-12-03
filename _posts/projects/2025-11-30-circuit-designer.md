@@ -8,7 +8,10 @@ subcategory: Software Engineering & Specs
 tags:
   - Engineering
   - Software
-  - AI
+  - Electronics
+  - LLMs
+  - Simulation
+  - Visualization
 keywords:
   - circuit design
   - LLM

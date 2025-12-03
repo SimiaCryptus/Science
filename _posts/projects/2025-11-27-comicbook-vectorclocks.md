@@ -6,8 +6,11 @@ last_modified: '"2025-11-27T10:09:52.000Z"'
 category: creative_writing
 subcategory: Comics & Visual Narrative
 tags:
-  - Fiction
-  - Software
+  - Comics
+  - Visual-Narrative
+  - Software-Engineering
+  - Distributed-Systems
+  - Vector-Clocks
   - Education
 keywords:
   - vector clocks

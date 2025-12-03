@@ -8,6 +8,9 @@ subcategory: Neural Architectures & Optimization
 tags:
   - Machine-Learning
   - Physics
+  - Quantum-Decoherence
+  - Dropout
+  - Epistemology
   - Research
 keywords:
   - dropout regularization

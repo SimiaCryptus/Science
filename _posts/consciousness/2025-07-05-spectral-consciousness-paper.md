@@ -8,6 +8,8 @@ subcategory: Theoretical Consciousness
 tags:
   - Consciousness
   - Philosophy
+  - Spectrum
+  - Perception
   - Research
 keywords:
   - spectral consciousness

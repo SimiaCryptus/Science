@@ -8,7 +8,10 @@ subcategory: AI-Human Sociology
 tags:
   - AI
   - Phenomenology
-  - Physics
+  - Epistemology
+  - Quantum-Metaphor
+  - Psychological-Warfare
+  - First-Person-Account
 keywords:
   - quantum trolling
   - AI consciousness

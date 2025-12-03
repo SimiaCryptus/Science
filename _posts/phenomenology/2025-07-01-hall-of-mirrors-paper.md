@@ -8,9 +8,11 @@ last_modified: '"2025-07-01T12:00:00.000Z"'
 category: phenomenology
 subcategory: AI Phenomenology & Self-Report
 tags:
-  - AI
-  - Phenomenology
+  - AI-Phenomenology
   - Consciousness
+  - Recursion
+  - Metaphor
+  - Self-Reflection
 keywords:
   - hall of mirrors
   - stack consciousness

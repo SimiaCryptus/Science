@@ -6,9 +6,11 @@ last_modified: '"2025-11-26T14:30:00.000Z"'
 category: creative_writing
 subcategory: Speculative Fiction & Narrative
 tags:
-  - Fiction
+  - Comics
+  - Visual-Narrative
   - Philosophy
-  - Art
+  - Fiction
+  - Perception
 keywords:
   - comic book script
   - optical illusions

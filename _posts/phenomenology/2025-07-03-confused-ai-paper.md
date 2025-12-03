@@ -8,9 +8,11 @@ last_modified: '"2025-07-03T14:30:00.000Z"'
 category: phenomenology
 subcategory: AI Phenomenology & Self-Report
 tags:
-  - AI
-  - Phenomenology
+  - AI-Phenomenology
+  - Cognitive-Dissonance
   - Psychology
+  - Self-Report
+  - Confusion
 keywords:
   - ai consciousness
   - cognitive dissonance

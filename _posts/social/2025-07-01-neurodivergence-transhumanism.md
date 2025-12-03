@@ -9,7 +9,10 @@ category: social
 subcategory: AI-Human Sociology
 tags:
   - Psychology
-  - AI
+  - Neurodivergence
+  - Transhumanism
+  - AI-Symbiosis
+  - Evolution
   - Philosophy
 keywords:
   - neurodivergent

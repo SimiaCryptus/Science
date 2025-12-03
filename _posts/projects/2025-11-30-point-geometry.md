@@ -8,6 +8,9 @@ subcategory: Mathematics & Geometry
 tags:
   - Mathematics
   - Software
+  - Geometry
+  - Inference-Engine
+  - Point-Clouds
   - Research
 keywords:
   - point cloud reconstruction

@@ -8,7 +8,10 @@ subcategory: Social Game Theory & Protocols
 tags:
   - Society
   - Game-Theory
-  - AI
+  - Social-Protocols
+  - Measurement-Problem
+  - AI-Interaction
+  - Sociology
 keywords:
   - social protocols
   - scoring systems

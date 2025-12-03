@@ -9,8 +9,10 @@ category: creative_writing
 subcategory: Speculative Fiction & Narrative
 tags:
   - Fiction
+  - Sci-Fi
   - Biology
   - Ethics
+  - Post-Apocalyptic
 keywords:
   - consciousness
   - species preservation

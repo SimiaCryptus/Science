@@ -8,6 +8,8 @@ subcategory: Theoretical Consciousness
 tags:
   - AI
   - Machine-Learning
+  - Semantic-Drift
+  - Ensemble-Methods
   - Research
 keywords:
   - semantic drift

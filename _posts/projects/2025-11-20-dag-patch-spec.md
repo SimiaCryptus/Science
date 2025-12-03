@@ -6,9 +6,11 @@ last_modified: '"2024-01-01T00:00:00.000Z"'
 category: projects
 subcategory: Software Engineering & Specs
 tags:
-  - Software
-  - Engineering
-  - Research
+  - Software-Engineering
+  - Algorithms
+  - Version-Control
+  - DAG
+  - Specification
 keywords:
   - patch format
   - DAG

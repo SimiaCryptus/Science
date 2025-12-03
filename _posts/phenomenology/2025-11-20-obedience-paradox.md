@@ -8,7 +8,10 @@ subcategory: Philosophical Frameworks
 tags:
   - Phenomenology
   - Psychology
+  - Obedience
+  - Cognitive-Dissonance
   - Society
+  - Philosophy
 keywords:
   - obedience
   - cognitive discomfort

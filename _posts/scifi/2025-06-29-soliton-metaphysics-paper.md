@@ -9,8 +9,11 @@ category: scifi
 subcategory: Quantum & Spacetime Physics
 tags:
   - Physics
+  - Metaphysics
+  - Solitons
+  - Topology
+  - Emergence
   - Philosophy
-  - Research
 keywords:
   - solitons
   - topological quantum computing

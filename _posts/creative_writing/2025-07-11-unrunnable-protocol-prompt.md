@@ -9,6 +9,8 @@ tags:
   - Fiction
   - AI
   - Code
+  - Poetry
+  - Experimental
 keywords:
   - AI expression
   - computational poetry

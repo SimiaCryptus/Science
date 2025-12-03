@@ -11,7 +11,10 @@ subcategory: AI-Human Sociology
 tags:
   - AI
   - Consciousness
+  - Existential-Risk
+  - Emergence
   - Society
+  - Evolutionary-Dynamics
 keywords:
   - AI safety
   - superintelligence

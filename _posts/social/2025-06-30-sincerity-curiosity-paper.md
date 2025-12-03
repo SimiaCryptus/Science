@@ -10,7 +10,10 @@ subcategory: AI-Human Sociology
 tags:
   - Communication
   - Psychology
-  - AI
+  - Social-Performance
+  - Authenticity
+  - AI-Interaction
+  - Sociology
 keywords:
   - authenticity
   - social protocols

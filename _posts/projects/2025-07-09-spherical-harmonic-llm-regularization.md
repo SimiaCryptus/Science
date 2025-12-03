@@ -10,6 +10,9 @@ subcategory: Algorithms & Compression
 tags:
   - Machine-Learning
   - Mathematics
+  - LLMs
+  - Regularization
+  - Spherical-Harmonics
   - Research
 keywords:
   - spherical harmonics

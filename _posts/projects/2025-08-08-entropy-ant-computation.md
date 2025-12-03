@@ -7,7 +7,9 @@ category: projects
 subcategory: Agent Systems & Automata
 tags:
   - Biology
-  - Complexity
+  - Complexity-Science
+  - Swarm-Intelligence
+  - Computation
   - Research
 keywords:
   - entropy

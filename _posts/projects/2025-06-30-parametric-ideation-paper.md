@@ -8,6 +8,8 @@ subcategory: Software Engineering & Specs
 tags:
   - AI
   - Phenomenology
+  - Creativity
+  - Collaboration
   - Research
 keywords:
   - parametric ideation

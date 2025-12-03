@@ -10,6 +10,9 @@ subcategory: Human-AI Dynamics
 tags:
   - AI
   - Research
+  - LLMs
+  - Recursion
+  - Self-Reference
   - Analysis
 keywords:
   - recursive processing

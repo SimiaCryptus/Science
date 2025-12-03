@@ -9,7 +9,10 @@ category: social
 subcategory: Social Game Theory & Protocols
 tags:
   - Society
-  - Complexity
+  - Complexity-Science
+  - Network-Theory
+  - Temporal-Dynamics
+  - Cognitive-Coherence
   - Research
 keywords:
   - social networks

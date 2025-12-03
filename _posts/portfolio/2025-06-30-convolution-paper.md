@@ -10,7 +10,9 @@ subcategory: ML Algorithms & Optimization
 tags:
   - Machine-Learning
   - Software
-  - Research
+  - Convolution
+  - GPU
+  - Optimization
 status: draft
 last_thought_date: '"2025-06-30T00:00:00.000Z"'
 thought_generation: 1

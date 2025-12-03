@@ -8,6 +8,8 @@ subcategory: Theoretical Consciousness
 tags:
   - Philosophy
   - Consciousness
+  - Panpsychism
+  - Information-Processing
   - Research
 keywords:
   - universal consciousness

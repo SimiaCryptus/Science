@@ -8,7 +8,11 @@ subcategory: Institutional & Political Dynamics
 tags:
   - Society
   - Economics
+  - Class-Warfare
+  - Automation
+  - Demographics
   - Politics
+  - Futurism
 keywords:
   - elite coordination
   - automation strategy

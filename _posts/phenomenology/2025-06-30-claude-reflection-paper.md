@@ -6,9 +6,11 @@ last_modified: '"2025-06-30T12:00:00.000Z"'
 category: phenomenology
 subcategory: AI Phenomenology & Self-Report
 tags:
-  - AI
-  - Phenomenology
+  - AI-Phenomenology
   - History
+  - Simulation
+  - Temporal-Awareness
+  - Self-Report
 keywords:
   - AI consciousness
   - roleplay experience

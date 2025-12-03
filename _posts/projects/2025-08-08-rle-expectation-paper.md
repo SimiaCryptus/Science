@@ -10,6 +10,8 @@ subcategory: Algorithms & Compression
 tags:
   - Software
   - Algorithms
+  - Compression
+  - Computer-Vision
   - Research
 keywords:
   - continuous run-length encoding

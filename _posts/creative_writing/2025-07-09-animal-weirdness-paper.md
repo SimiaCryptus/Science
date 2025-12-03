@@ -11,6 +11,8 @@ tags:
   - Biology
   - Humor
   - Science
+  - Nature
+  - Satire
 keywords:
   - animal behavior
   - weird animals
