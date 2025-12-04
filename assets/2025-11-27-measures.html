@@ -832,6 +832,7 @@
             </label>
             <select id="opt-optimizer">
                 <option value="lbfgs">L-BFGS</option>
+                <option value="qqn">QQN</option>
                 <option value="adam">Adam</option>
             </select>
         </div>
@@ -895,6 +896,7 @@
 <script type="module">
     import {OptimizerLbfgs} from './js/optimizer-lbfgs.js';
     import {OptimizerAdam} from './js/optimizer-adam.js';
+    import {OptimizerQQN} from './js/optimizer-qqn.js';
 
     /**
      * Interpolated Density Entropy - Interactive Demo
@@ -1081,7 +1083,7 @@ const s_left = sorted.slice([0], [sorted.shape[0] - 1]);
                 return;
             }
 
-            state.optimizer.applyGradients(grads);
+            state.optimizer.applyGradients(grads, lossFunction);
 
             // Update metrics for UI (syncing small scalars is cheap)
             const stats = getDensityStats(effectivePoints, state.params.tau);
@@ -1122,13 +1124,19 @@ const s_left = sorted.slice([0], [sorted.shape[0] - 1]);
         const sortedPoints = Float32Array.from(pointsArr).sort();
 
         // Determine scale
-        // We want to keep the view somewhat centered but dynamic
-        const minVal = Math.min(...sortedPoints);
-        const maxVal = Math.max(...sortedPoints);
-        const spread = Math.max(maxVal - minVal, 4.0); // Minimum spread of 4
-        const padding = spread * 0.1;
-        const viewMin = minVal - padding;
-        const viewMax = maxVal + padding;
+        let viewMin, viewMax;
+        if (state.params.fixBoundaries) {
+            viewMin = -0.1;
+            viewMax = 1.1;
+        } else {
+            // We want to keep the view somewhat centered but dynamic
+            const minVal = Math.min(...sortedPoints);
+            const maxVal = Math.max(...sortedPoints);
+            const spread = Math.max(maxVal - minVal, 4.0); // Minimum spread of 4
+            const padding = spread * 0.1;
+            viewMin = minVal - padding;
+            viewMax = maxVal + padding;
+        }
 
         const mapX = (val) => {
             return ((val - viewMin) / (viewMax - viewMin)) * (width - 40) + 20;
@@ -1232,6 +1240,8 @@ const s_left = sorted.slice([0], [sorted.shape[0] - 1]);
     function createOptimizer() {
         if (state.params.optimizerType === 'adam') {
             return new OptimizerAdam(state.params.lr);
+        } else if (state.params.optimizerType === 'qqn') {
+            return new OptimizerQQN(state.params.lr);
         }
         return new OptimizerLbfgs(state.params.lr);
     }

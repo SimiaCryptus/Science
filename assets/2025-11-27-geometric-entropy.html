@@ -479,6 +479,7 @@
             <label>Optimizer</label>
             <select id="opt-optimizer">
                 <option value="adam">Adam</option>
+                <option value="qqn">QQN</option>
                 <option value="lbfgs">L-BFGS</option>
             </select>
         </div>
@@ -573,6 +574,7 @@
 <script type="module">
     import {OptimizerLbfgs} from './js/optimizer-lbfgs.js';
     import {OptimizerAdam} from './js/optimizer-adam.js';
+    import {OptimizerQQN} from './js/optimizer-qqn.js';
 
     /**
      * Spherical Gram Entropy - Interactive Demo
@@ -1408,6 +1410,8 @@ if (kNearest > 0 && kNearest < points.shape[0]) {
     function createOptimizer() {
         if (state.params.optimizerType === 'adam') {
             return new OptimizerAdam(state.params.lr);
+        } else if (state.params.optimizerType === 'qqn') {
+            return new OptimizerQQN(state.params.lr);
         }
         return new OptimizerLbfgs(state.params.lr);
     }

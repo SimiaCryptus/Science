@@ -520,6 +520,14 @@
         <div class="panel-header">Optimization</div>
 
         <div class="control-group">
+            <label>Optimizer</label>
+            <select id="opt-optimizer">
+                <option value="adam">Adam</option>
+                <option value="qqn">QQN</option>
+                <option value="lbfgs">L-BFGS</option>
+            </select>
+        </div>
+        <div class="control-group">
             <label>Learning Rate <input type="number" class="value-input" id="val-lr" value="0.01" step="0.001"></label>
             <input type="range" id="param-lr" min="0.001" max="0.1" step="0.001" value="0.01">
         </div>
@@ -616,7 +624,11 @@
     </div>
 </main>
 
-<script>
+<script type="module">
+    import {OptimizerLbfgs} from './js/optimizer-lbfgs.js';
+    import {OptimizerAdam} from './js/optimizer-adam.js';
+    import {OptimizerQQN} from './js/optimizer-qqn.js';
+
     /**
      * Knot Topology Lab
      *
@@ -650,7 +662,8 @@
             lr: 0.01,
             c: 1.0,
             knotType: 'random',
-            metricMode: 'euclidean'
+            metricMode: 'euclidean',
+            optimizerType: 'adam'
         },
         metrics: {
             totalLoss: 0,
@@ -669,6 +682,7 @@
         matrixCanvas: document.getElementById('matrix-canvas'),
         loading: document.getElementById('loading'),
         knotSelect: document.getElementById('knot-select'),
+        optimizerSelect: document.getElementById('opt-optimizer'),
         metricSelect: document.getElementById('metric-select'),
         grpC: document.getElementById('grp-c'),
         cInput: document.getElementById('param-c'),
@@ -713,6 +727,15 @@
 
     const knotCtx = els.knotCanvas.getContext('2d');
     const matrixCtx = els.matrixCanvas.getContext('2d');
+    function createOptimizer() {
+        if (state.params.optimizerType === 'adam') {
+            return new OptimizerAdam(state.params.lr);
+        } else if (state.params.optimizerType === 'qqn') {
+            return new OptimizerQQN(state.params.lr);
+        }
+        return new OptimizerLbfgs(state.params.lr);
+    }
+
 
     // --- Spline Generation ---
 
@@ -875,7 +898,7 @@
         state.points.dispose();
         state.points = tf.variable(tf.tensor2d(newPoints));
         // Reset optimizer to clear history
-        state.optimizer = tf.train.adam(state.params.lr);
+        state.optimizer = createOptimizer();
         updateDistanceMatrix();
     }
     /**
@@ -909,7 +932,7 @@
         state.points = tf.variable(tf.tensor2d(pointsArray));
 
         // Reset optimizer
-        state.optimizer = tf.train.adam(state.params.lr);
+        state.optimizer = createOptimizer();
         state.step = 0;
     }
 
@@ -1047,7 +1070,7 @@ function computeDistanceMatrix(points) {
         if (!state.points) return;
 
         const lossInfo = tf.tidy(() => {
-            const {value, grads} = tf.variableGrads(() => {
+            const lossFunction = () => {
                 const edgeLoss = computeEdgeLoss(
                     state.points,
                     state.params.targetEdgeLength,
@@ -1059,9 +1082,10 @@ function computeDistanceMatrix(points) {
                     state.params.repulsionCutoff
                 );
                 return tf.add(edgeLoss, repulsionLoss);
-            });
+            };
 
-            state.optimizer.applyGradients(grads);
+            const {value, grads} = state.optimizer.computeGradients(lossFunction);
+            state.optimizer.applyGradients(grads, lossFunction);
 
             // Compute individual losses for display
             const edgeLoss = computeEdgeLoss(
@@ -1722,9 +1746,18 @@ els.knotSelect.addEventListener('change', (e) => {
                 updateDistanceMatrix();
             }
         });
+        els.optimizerSelect.addEventListener('change', (e) => {
+            state.params.optimizerType = e.target.value;
+            state.optimizer = createOptimizer();
+        });
+
 
         els.lrInput.addEventListener('input', () => {
-            state.optimizer = tf.train.adam(state.params.lr);
+            if (state.optimizer && typeof state.optimizer.setLearningRate === 'function') {
+                state.optimizer.setLearningRate(state.params.lr);
+            } else {
+                state.optimizer = createOptimizer();
+            }
         });
 
         els.chkAutoRotate.addEventListener('change', (e) => {
@@ -1790,7 +1823,7 @@ setTimeout(() => els.btnCopy.textContent = original, 1500);
                     state.params.n = data.length;
                     els.valN.value = data.length;
                     els.nInput.value = data.length;
-                    state.optimizer = tf.train.adam(state.params.lr);
+                    state.optimizer = createOptimizer();
                     state.step = 0;
                     updateDistanceMatrix();
                     const original = els.btnPaste.textContent;
