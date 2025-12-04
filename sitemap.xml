@@ -8,7 +8,6 @@ layout: null
   
   <!-- Homepage -->
   <url>
-    <name>{{ site.url }}/</name>
     <loc>{{ site.url }}/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>weekly</changefreq>
