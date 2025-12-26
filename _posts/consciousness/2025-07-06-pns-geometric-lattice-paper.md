@@ -130,7 +130,7 @@ schema_author: Human Charneski & AI
 schema_publisher: Simiacryptus Research
 schema_date_published: '"2025-07-06T00:00:00.000Z"'
 schema_date_modified: '"2025-07-06T00:00:00.000Z"'
-schema_image: /assets/images/crystalline_lattice_consciousness.png
+schema_image: ../../assets/images/crystalline_lattice_consciousness.png
 schema_word_count: 8500
 schema_reading_time: PT45M
 canonical_url: 'https://fractalthoughtengine.com/consciousness/pns-geometric-lattice-paper'

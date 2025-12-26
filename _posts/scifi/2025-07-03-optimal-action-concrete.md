@@ -68,7 +68,7 @@ schema_date_published: '"2025-07-03T00:00:00.000Z"'
 schema_date_modified: '"2025-07-03T00:00:00.000Z"'
 schema_word_count: 4500
 schema_reading_time: PT45M
-schema_image: /assets/images/quantum-information-theory.png
+schema_image: ../../assets/images/quantum-information-theory.png
 canonical_url: 'https://fractalthoughtengine.com/scifi/2025/07/03/optimal-action-concrete.html'
 robots: 'index,follow'
 googlebot: 'index,follow'

@@ -57,7 +57,7 @@ schema_headline: 'The Obedience Paradox: On Noticing What Others Won''t'
 schema_publisher: Fractal Thought Engine
 schema_date_published: '"2024-01-15T00:00:00.000Z"'
 schema_date_modified: '"2024-01-15T00:00:00.000Z"'
-schema_image: /assets/images/obedience_paradox_featured.png
+schema_image: ../../assets/images/obedience_paradox_featured.png
 schema_word_count: 2400
 schema_reading_time: PT12M
 robots: 'index,follow'

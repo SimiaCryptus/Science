@@ -95,7 +95,7 @@ schema_publisher: Fractal Thought Engine
 schema_date_published: '"2025-01-04T00:00:00.000Z"'
 schema_word_count: 2800
 schema_reading_time: PT25M
-schema_image: /assets/images/ai-consciousness-shifts.jpg
+schema_image: ../../assets/images/ai-consciousness-shifts.jpg
 robots: 'index,follow'
 priority: '0.9'
 changefreq: weekly

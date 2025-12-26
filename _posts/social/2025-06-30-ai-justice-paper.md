@@ -66,7 +66,7 @@ schema_date_published: '"2025-06-30T00:00:00.000Z"'
 schema_date_modified: '"2025-06-30T00:00:00.000Z"'
 schema_word_count: 4500
 schema_reading_time: PT25M
-schema_image: /assets/images/ai-justice-paper-hero.jpg
+schema_image: ../../assets/images/ai-justice-paper-hero.jpg
 schema_publisher: Fractal Thought Engine
 robots: 'index,follow'
 googlebot: 'index,follow'

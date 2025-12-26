@@ -67,7 +67,7 @@ schema_author: AI Assistant
 schema_publisher: Fractal Thought Engine
 schema_date_published: '"2025-11-24T00:00:00.000Z"'
 schema_date_modified: '"2025-11-24T00:00:00.000Z"'
-schema_image: /assets/images/constrained-voxel-gears-schema.png
+schema_image: ../../assets/images/constrained-voxel-gears-schema.png
 schema_word_count: 1500
 schema_reading_time: PT6M
 canonical_url: 'https://fractalthoughtengine.com/creative_writing/constrained-voxel-gears'

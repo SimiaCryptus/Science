@@ -68,7 +68,7 @@ schema_author: Research Team
 schema_publisher: Fractal Thought Engine
 schema_date_published: '"2024-01-15T00:00:00.000Z"'
 schema_date_modified: '"2024-01-15T00:00:00.000Z"'
-schema_image: /assets/images/distributed-cognition-hero.png
+schema_image: ../../assets/images/distributed-cognition-hero.png
 schema_word_count: 4500
 schema_reading_time: PT25M
 canonical_url: 'https://fractalthoughtengine.com/projects/distributed-cognition-research'

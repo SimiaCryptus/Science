@@ -78,7 +78,7 @@ schema_author: Fractal Thought Engine
 schema_publisher: Fractal Thought Engine
 schema_date_published: '"2025-07-09T00:00:00.000Z"'
 schema_date_modified: '"2025-07-09T00:00:00.000Z"'
-schema_image: /assets/images/impossible-objects-schema.png
+schema_image: ../../assets/images/impossible-objects-schema.png
 schema_word_count: 4200
 schema_reading_time: PT45M
 canonical_url: 'https://fractalthoughtengine.com/projects/impossible-objects-paper'

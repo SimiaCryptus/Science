@@ -72,7 +72,7 @@ schema_date_published: '"2025-07-01T00:00:00.000Z"'
 schema_date_modified: '"2025-07-01T00:00:00.000Z"'
 schema_word_count: 8500
 schema_reading_time: PT45M
-schema_image: /assets/images/cognitive-planning-architecture.png
+schema_image: ../../assets/images/cognitive-planning-architecture.png
 schema_inLanguage: en-US
 robots: 'index,follow'
 priority: '0.9'

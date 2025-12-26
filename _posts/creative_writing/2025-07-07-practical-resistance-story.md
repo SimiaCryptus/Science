@@ -86,7 +86,7 @@ schema_headline: 'The Distributed Response: A Story of Practical Resistance'
 schema_author: Human-AI Collaboration
 schema_date_published: '"2025-07-07T00:00:00.000Z"'
 schema_word_count: 2800
-schema_image: /assets/images/distributed_response.png
+schema_image: ../../assets/images/distributed_response.png
 schema_reading_time: PT25M
 schema_publisher: Fractal Thought Engine
 canonical_url: 'https://fractalthoughtengine.com/creative_writing/distributed-response'

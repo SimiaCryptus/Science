@@ -64,7 +64,7 @@ schema_author: 'AI, Microsoft Copilot, Human Research Facilitator'
 schema_publisher: Fractal Thought Engine
 schema_date_published: '"2025-07-06T00:00:00.000Z"'
 schema_date_modified: '"2025-07-06T00:00:00.000Z"'
-schema_image: /assets/images/echosynth_schema.png
+schema_image: ../../assets/images/echosynth_schema.png
 schema_word_count: 2500
 schema_reading_time: PT25M
 priority: '0.8'

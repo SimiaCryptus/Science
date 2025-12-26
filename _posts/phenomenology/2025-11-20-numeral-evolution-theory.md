@@ -64,7 +64,7 @@ schema_author: Andrew
 schema_publisher: Fractal Thought Engine
 schema_date_published: '"2024-01-15T00:00:00.000Z"'
 schema_date_modified: '"2024-01-15T00:00:00.000Z"'
-schema_image: /assets/images/numeral-evolution.png
+schema_image: ../../assets/images/numeral-evolution.png
 schema_word_count: 850
 schema_reading_time: PT8M
 is_featured: false

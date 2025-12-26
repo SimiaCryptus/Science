@@ -64,7 +64,7 @@ schema_author: Human
 schema_publisher: Fractal Thought Engine
 schema_date_published: '"2025-07-03T00:00:00.000Z"'
 schema_date_modified: '"2025-07-03T00:00:00.000Z"'
-schema_image: /assets/images/archaeological-agents-schema.png
+schema_image: ../../assets/images/archaeological-agents-schema.png
 schema_word_count: 4200
 schema_reading_time: PT25M
 canonical_url: 'https://fractalthoughtengine.com/projects/archaeological-agents-proposal'

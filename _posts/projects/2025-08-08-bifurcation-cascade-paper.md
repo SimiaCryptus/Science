@@ -158,7 +158,7 @@ constants:
 - **δ ≈ 4.669201609...** (ratio of successive bifurcation intervals)
 - **α ≈ 2.502907875...** (scaling of attractor width)
 
-![**Figure 1: The Period-Doubling Route to Chaos.** Visualizing the Feigenbaum constants ($\delta$ and $\alpha$) within a bifurcation diagram. Note how the interval between successive bifurcations shrinks geometrically as the system approaches the chaotic regime.](/assets/images/bifurcation/feigenbaum_bifurcation_diagram.png)
+![**Figure 1: The Period-Doubling Route to Chaos.** Visualizing the Feigenbaum constants ($\delta$ and $\alpha$) within a bifurcation diagram. Note how the interval between successive bifurcations shrinks geometrically as the system approaches the chaotic regime.](../../assets/images/bifurcation/feigenbaum_bifurcation_diagram.png)
 
 Think of a dripping faucet: at low pressure, drops fall regularly. As pressure increases, the rhythm splits (
 drip-drip... pause... drip-drip). This splitting accelerates until the flow becomes chaotic. The Feigenbaum constants

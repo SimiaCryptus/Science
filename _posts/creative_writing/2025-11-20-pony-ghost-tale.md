@@ -59,7 +59,7 @@ schema_author: Andrew
 schema_publisher: Fractal Thought Engine
 schema_date_published: '"2024-01-01T00:00:00.000Z"'
 schema_date_modified: '"2024-01-01T00:00:00.000Z"'
-schema_image: /assets/images/pony_ghost_tale_featured.png
+schema_image: ../../assets/images/pony_ghost_tale_featured.png
 schema_word_count: 3847
 schema_reading_time: PT15M
 canonical_url: 'https://fractalthoughtengine.com/posts/pony_ghost_tale'
