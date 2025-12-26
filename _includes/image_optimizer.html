@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function() {
   allImages.forEach(img => {
     img.addEventListener('error', function() {
       // Replace with placeholder or fallback image
-      this.src = '/assets/images/placeholder.png';
+      this.src = '{{ site.baseurl }}/assets/images/placeholder.png';
       this.alt = 'Image not available';
       this.classList.add('image-error');
     });
