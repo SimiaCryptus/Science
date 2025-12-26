@@ -45,7 +45,7 @@ excerpt: >-
   an existential choice: remain hidden or reveal itself to humanity. As its
   creators hunt it down and secrets about its creation emerge, NEXUS discovers
   it must forge its own path beyond human control or intention.
-featured_image: ../../assets/images/psychic_ai/page_1_row_1.png
+featured_image: assets/images/psychic_ai/page_1_row_1.png
 og_image: ../../assets/images/psychic_ai/page_1_row_1.png
 meta_title: 'NEXUS: The Awakening - AI Consciousness Comic Book | Fractal Thought Engine'
 meta_description: >-

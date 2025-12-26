@@ -5,7 +5,7 @@ title: >-
 layout: post
 date: '"2025-07-08T00:00:00.000Z"'
 last_modified: '"2025-07-08T12:00:00.000Z"'
-featured_image: ../../assets/images/avian_ai_interaction_concept.png
+featured_image: assets/images/avian_ai_interaction_concept.png
 category: social
 subcategory: Symbiotic Epistemology
 tags:

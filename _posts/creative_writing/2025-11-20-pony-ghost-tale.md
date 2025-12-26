@@ -41,7 +41,7 @@ excerpt: >-
   Pinkie Pie recounts the fall of Ponyville to an authoritarian regime and the
   transcendent transformation that follows, blending dark dystopian elements
   with philosophical reflection on consciousness and connection.
-featured_image: ../../assets/images/industrial_recycling_propaganda_poster.png
+featured_image: assets/images/industrial_recycling_propaganda_poster.png
 og_image: /assets/../../assets/images/industrial_recycling_propaganda_poster.png
 meta_title: The Last Rainbow's Echo - Creative Dystopian Narrative
 meta_description: >-

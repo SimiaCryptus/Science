@@ -50,7 +50,7 @@ excerpt: >-
   trees with cross-entropy optimization, PNS systems self-organize through
   information-theoretic principles, exhibit emergent temporal dynamics, and
   support querying rather than traditional forward propagation.
-featured_image: ../../assets/images/pns.png
+featured_image: assets/images/pns.png
 og_image: ../../assets/images/pns.png
 meta_title: 'Probabilistic Neural Substrates: Cross-Entropy Recurrent Intelligence'
 meta_description: >-

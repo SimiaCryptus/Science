@@ -47,7 +47,7 @@ excerpt: >-
   a vengeful villain named Shadow Paws threatens to destroy the city, the
   kittens must overcome their differences, master their new abilities, and prove
   that even the smallest heroes can make the biggest difference.
-featured_image: ../../assets/images/tmnk/00_cover_image.png
+featured_image: assets/images/tmnk/00_cover_image.png
 og_image: ../../assets/images/tmnk/00_cover_image.png
 meta_title: 'Teenage Mutant Ninja Kittens: Complete Illustrated Story Concept'
 meta_description: >-

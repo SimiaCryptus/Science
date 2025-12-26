@@ -44,7 +44,7 @@ excerpt: >-
   Geometry (CSG) trees and control parameters, leveraging TensorFlow.js,
   Three.js, and a bilevel optimization strategy to generate editable,
   parametric, and CAD-ready definitions from raw scan data.
-featured_image: ../../assets/images/point_geometry/semantic_vs_mesh_reconstruction_png.png
+featured_image: assets/images/point_geometry/semantic_vs_mesh_reconstruction_png.png
 og_image: ../../assets/images/point_geometry/semantic_vs_mesh_reconstruction_png.png
 meta_title: 'Geometric Theory Inference Engine: Semantic Point Cloud Reconstruction Project'
 meta_description: >-

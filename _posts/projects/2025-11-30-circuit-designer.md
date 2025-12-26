@@ -45,7 +45,7 @@ excerpt: >-
   'Electrical Modality'—enabling them to design, verify, and visualize analog
   circuits through a unified JSON intermediate representation, test-driven
   design methodology, and dual compilation pipeline.
-featured_image: ../../assets/images/circuit designer/electrical_modality_concept_art.png
+featured_image: assets/images/circuit designer/electrical_modality_concept_art.png
 og_image: /assets/images/circuit-designer-social.png
 meta_title: 'Circuit Designer: Electrical Modality for LLMs | Project'
 meta_description: >-

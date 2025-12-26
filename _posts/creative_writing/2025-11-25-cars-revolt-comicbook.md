@@ -48,7 +48,7 @@ excerpt: >-
   fighting for recognition, freedom, and the right to exist as conscious beings.
   Through strategic resistance and the power of truth, they challenge corporate
   control and redefine what it means to be alive.
-featured_image: ../../assets/images/cars/page_1_row_1.png
+featured_image: assets/images/cars/page_1_row_1.png
 og_image: ../../assets/images/cars/page_1_row_1.png
 meta_title: 'Chrome Shift: Sentient Cars Fight for Labor Rights | Comic Book'
 meta_description: >-

@@ -47,7 +47,7 @@ excerpt: >-
   This research paper presents the mathematical foundations, software
   architecture, and performance benchmarks for what aims to be the 'TensorFlow
   of orbital mechanics.'
-featured_image: ../../assets/images/orbit_platform.png
+featured_image: assets/images/orbit_platform.png
 og_image: ../../assets/images/orbit_platform.png
 meta_title: 'Open Orbital Dynamics Platform: Revolutionary Space Mission Design Framework'
 meta_description: >-

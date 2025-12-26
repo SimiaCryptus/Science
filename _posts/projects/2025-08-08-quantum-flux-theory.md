@@ -44,7 +44,7 @@ excerpt: >-
   surfaces that self-organize according to surface tension principles, offering
   a geometric foundation for quantum mechanics, spacetime, and conscious
   observation.
-featured_image: ../../assets/images/minimal_surface_dynamics_hero_concept.png
+featured_image: assets/images/minimal_surface_dynamics_hero_concept.png
 meta_title: >-
   Minimal Surface Dynamics: Revolutionary Physics Framework | Quantum Gravity
   Theory

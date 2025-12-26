@@ -42,7 +42,7 @@ excerpt: >-
   Synthesizer-of-Broken-Things, a genetically engineered waste processor,
   confronts the paradox of perfect care: how to preserve human autonomy while
   providing complete protection in a post-apocalyptic world.
-featured_image: ../../assets/images/synth_protagonist_portrait.png
+featured_image: assets/images/synth_protagonist_portrait.png
 og_image: ../../assets/images/synth_protagonist_portrait.png
 meta_title: >-
   The Distant Shore: Consciousness and Species Preservation in Post-Human

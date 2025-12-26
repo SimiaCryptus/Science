@@ -41,7 +41,7 @@ description: >-
 excerpt: >-
   A theory explaining the visual distinctiveness of the numeral 7 through base-5
   promotion mechanisms and ancient Indian cultural reverence for sacred numbers.
-featured_image: ../../assets/images/brahmi_numeral_morphology_comparison.png
+featured_image: assets/images/brahmi_numeral_morphology_comparison.png
 og_image: ../../assets/images/brahmi_numeral_morphology_comparison.png
 meta_title: 'Pre-Brahmi Numeral Evolution: Why 7 Stands Apart'
 meta_description: >-

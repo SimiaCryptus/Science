@@ -44,7 +44,7 @@ excerpt: >-
   Quotient Scoring (TIQS), employing cardinal numbers and topological
   descriptors to characterize intelligence operating beyond finite cognitive
   boundaries.
-featured_image: ../../assets/images/transfinite_iq.png
+featured_image: assets/images/transfinite_iq.png
 og_image: ../../assets/images/transfinite_iq.png
 meta_title: >-
   Transfinite Intelligence Quotient Scoring: Mathematical Framework for

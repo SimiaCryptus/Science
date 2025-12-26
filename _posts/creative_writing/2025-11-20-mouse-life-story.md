@@ -42,7 +42,7 @@ excerpt: >-
   From sterile laboratory birth to breeding facility philosopher: the intimate
   account of a creature engineered to solve humanity's waste problem while
   developing unexpected consciousness and moral complexity.
-featured_image: ../../assets/images/caste_hierarchy_illustration.png
+featured_image: assets/images/caste_hierarchy_illustration.png
 og_image: /../../assets/images/caste_hierarchy_illustration.png
 meta_title: >-
   The Life of a Genetically Engineered Waste Processing Organism - First-Person

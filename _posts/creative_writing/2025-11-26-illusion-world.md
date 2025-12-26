@@ -46,7 +46,7 @@ excerpt: >-
   perception creates reality and optical illusions form the very fabric of
   existence. To find her way home, she must learn that truth isn't what you see,
   but how you choose to see it.
-featured_image: ../../assets/images/parpil/page_1_row_1.png
+featured_image: assets/images/parpil/page_1_row_1.png
 og_image: ../../assets/images/parpil/page_1_row_1.png
 meta_title: 'The Parallax Pilgrim: Comic Book Script on Perception and Reality'
 meta_description: >-
