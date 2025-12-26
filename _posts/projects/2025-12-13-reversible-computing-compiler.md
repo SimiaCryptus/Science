@@ -38,7 +38,6 @@ excerpt: >-
   Standard computing erases bits, generating heat at Landauer's limit. This project
   builds a compiler that enforces information conservation, tracks garbage bits as
   entropy cost, and optimizes for thermodynamic efficiency rather than clock cycles.
-featured_image: /assets/images/2025-12-13-reversible-compiler/thermodynamic_circuit_heatmap.png
 meta_title: 'Entropy-Aware Reversible Computing Compiler | Project'
 meta_description: >-
   A compiler framework targeting reversible logic gates to minimize thermodynamic
@@ -81,8 +80,6 @@ $
 $
 
 If $c = 1$, swap $a$ and $b$. If $c = 0$, pass through unchanged.
-
-![Figure 2: The Toffoli and Fredkin gates. Both are reversible (bijective), meaning no information is destroyed during computation.](../../assets/images/2025-12-13-reversible-compiler/toffoli_fredkin_gate_diagrams.png)
 
 ### 2.3 The Garbage Problem
 
@@ -169,8 +166,6 @@ Unlike traditional garbage collection (which frees memory), the **Garbage Optimi
 - **Pebble Games:** Model computation as a pebbling game on the DAG. Minimize peak pebble count (ancilla bits) subject to constraints.
 - **Hybrid Approaches:** Allow selective irreversibility for non-critical paths, trading entropy for circuit size.
 
-![Figure 3: Bennett's un-computation method. After computing the result, the circuit runs backwards to restore garbage bits, allowing them to be reused.](../../assets/images/2025-12-13-reversible-compiler/bennett_uncomputation_diagram.png)
-
 ## 4. The Thermodynamic Profiler
 
 Traditional profilers measure time and memory. The **Thermodynamic Profiler** measures entropy generation.
@@ -192,8 +187,6 @@ A visual representation of the circuit where:
 - **Cool regions (blue):** Fully reversible computation paths.
 - **Warm regions (yellow):** High garbage accumulation (potential for optimization).
 - **Hot spots (red):** Irreversible operations (bit erasures).
-
-![Figure 4: The Circuit Thermodynamics View. Hot spots indicate information loss, guiding the programmer to refactor for thermodynamic efficiency.](../../assets/images/2025-12-13-reversible-compiler/thermodynamic_circuit_heatmap.png)
 
 The programmer can click on a hot spot to see:
 - Which variable is being erased
