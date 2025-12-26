@@ -5,7 +5,7 @@ date: '"2025-12-12T00:00:00.000Z"'
 last_modified: '"2025-12-12T10:00:00.000Z"'
 category: projects
 subcategory: Engineering & Formal Systems
-featured_image: assets/images/2025-12-12-minkowski-knots/webgl_lab_simulation_composite.png
+featured_image: /assets/images/2025-12-12-minkowski-knots/webgl_lab_simulation_composite.png
 tags:
   - Topology
   - Spacetime

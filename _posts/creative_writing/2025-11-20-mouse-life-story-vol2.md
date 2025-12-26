@@ -44,7 +44,7 @@ excerpt: >-
   organisms discovers they are perfectly adapted to inherit a radioactive world.
   This is their story of survival, consciousness, and the choice between
   preservation and domination.
-featured_image: assets/images/wasteland_survey_scout.png
+featured_image: /assets/images/wasteland_survey_scout.png
 meta_title: 'Mouse Life Story Vol. 2: Post-Nuclear Consciousness | Fractal Thought Engine'
 meta_description: >-
   A speculative fiction narrative exploring consciousness, species transition,

@@ -45,7 +45,7 @@ excerpt: >-
   observation. Project Chronos-JIT outlines an interferometry experiment
   designed to catch reality 'buffering' before a causal narrative is committed
   to memory.
-featured_image: assets/images/jit_reality_rendering_schematic.png
+featured_image: /assets/images/jit_reality_rendering_schematic.png
 og_image: ../../assets/images/jit_reality_rendering_schematic.png
 meta_title: 'Chronos-JIT: Detecting Latency in Reality Rendering'
 meta_description: >-

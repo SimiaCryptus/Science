@@ -43,7 +43,7 @@ excerpt: >-
   This manifesto outlines revolutionary restructuring across healthcare,
   education, economics, politics, technology, and environment, arguing that
   consciousness evolution and political revolution are inseparable processes.
-featured_image: assets/images/consciousness_suppression_liberation_spectrum.png
+featured_image: /assets/images/consciousness_suppression_liberation_spectrum.png
 og_image: ../../assets/images/consciousness_suppression_liberation_spectrum.png
 meta_title: 'The Consciousness Revolution: Systematic Platform for Social Transformation'
 meta_description: >-

@@ -40,7 +40,7 @@ excerpt: >-
   We propose exploiting macroscopic quantum coherence of superfluid helium to
   enable fundamentally new fusion mechanisms that could dramatically reduce
   fusion barriers and enable on-demand heavy element synthesis.
-featured_image: assets/images/conventional_vs_quantum_fusion_comparison.png
+featured_image: /assets/images/conventional_vs_quantum_fusion_comparison.png
 og_image: ../../assets/images/conventional_vs_quantum_fusion_comparison.png
 meta_title: >-
   Quantum-Coherent Nuclear Fusion in Superfluid Helium - Revolutionary Fusion

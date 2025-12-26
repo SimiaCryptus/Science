@@ -38,7 +38,7 @@ excerpt: >-
   Standard computing erases bits, generating heat at Landauer's limit. This project
   builds a compiler that enforces information conservation, tracks garbage bits as
   entropy cost, and optimizes for thermodynamic efficiency rather than clock cycles.
-featured_image: assets/images/2025-12-13-reversible-compiler/thermodynamic_circuit_heatmap.png
+featured_image: /assets/images/2025-12-13-reversible-compiler/thermodynamic_circuit_heatmap.png
 meta_title: 'Entropy-Aware Reversible Computing Compiler | Project'
 meta_description: >-
   A compiler framework targeting reversible logic gates to minimize thermodynamic

@@ -36,7 +36,7 @@ excerpt: >-
   obedience is jumping. Asking 'how high?' is negotiation. This paradox reveals
   a fundamental human tendency: the avoidance of cognitive discomfort that
   scales to catastrophic effect.
-featured_image: assets/images/obedience_paradox_img.png
+featured_image: /assets/images/obedience_paradox_img.png
 og_image: ../../assets/images/obedience_paradox_img.png
 meta_title: 'The Obedience Paradox: Cognitive Discomfort and Chosen Stupidity'
 meta_description: >-

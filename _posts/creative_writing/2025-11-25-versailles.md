@@ -46,7 +46,7 @@ excerpt: >-
   peace after World War I. Through their interactions, young readers discover
   the historical Treaty of Versailles, its provisions, and its profound impact
   on world history.
-featured_image: assets/images/VERSAILLES/page_1_row_1.png
+featured_image: /assets/images/VERSAILLES/page_1_row_1.png
 og_image: /assets/images/VERSAILLES/page_1_row_1.png
 meta_title: 'Whisker Diplomacy: The Treaty of Versailles - Educational Comic Book'
 meta_description: >-

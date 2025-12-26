@@ -52,7 +52,7 @@ excerpt: >-
   cannot help users execute tasks, this hybrid system manages anxiety while
   enabling productivity through biometric monitoring and neurologically-informed
   gamification.
-featured_image: assets/images/psasst/orbit_sync_ui_mockup.png
+featured_image: /assets/images/psasst/orbit_sync_ui_mockup.png
 og_image: ../../assets/images/psasst/orbit_sync_ui_mockup.png
 meta_title: 'The Psychosocial Engine: AI-Powered Executive Function & Emotional Regulation'
 meta_description: >-
