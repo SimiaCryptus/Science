@@ -164,7 +164,7 @@
 
 {% comment %} Attempt to find explicitly related documents {% endcomment %}
 {% if page.related_documents %}
-  {% for rel_path in page.related_documents` %}
+  {% for rel_path in page.related_documents %}
     {% assign found_post = site.posts | where: "path", rel_path | first %}
     {% unless found_post %}{% assign found_post = site.posts | where: "url", rel_path | first %}{% endunless %}
     {% if found_post %}
